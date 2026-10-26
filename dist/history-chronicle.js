@@ -29,7 +29,7 @@ function showMap(){const library=document.getElementById('libraryDialog');if(lib
 function bind(node){node.querySelectorAll('.event-story-toggle').forEach(button=>button.onclick=()=>{ctx.stop();let dialog=$('eventStoryDialog');if(!dialog){dialog=document.createElement('dialog');dialog.id='eventStoryDialog';dialog.className='event-story-dialog';dialog.setAttribute('aria-labelledby','eventStoryTitle');document.body.append(dialog);}const article=button.closest('[data-chronicle-event]');dialog.innerHTML='<button class="close" aria-label="关闭故事与影响">×</button><h2 id="eventStoryTitle">'+esc(article.getAttribute('aria-label'))+'</h2>'+article.querySelector('.event-story-body').innerHTML;dialog.querySelector('.close').onclick=()=>dialog.close();dialog.showModal();});node.querySelectorAll('[data-news-year]').forEach(b=>b.onclick=()=>{ctx.stop();manualUntil=0;showMap();ctx.setYear(+b.dataset.newsYear);document.querySelector('.stage').scrollIntoView({behavior:matchMedia('(prefers-reduced-motion: reduce)').matches?'instant':'smooth',block:'start'});});node.querySelectorAll('[data-news-outcome]').forEach(b=>b.onclick=()=>{ctx.stop();manualUntil=0;showMap();PolityOutcomes.open(b.dataset.newsOutcome);});node.querySelectorAll('details').forEach(d=>d.ontoggle=()=>{if(d.open)ctx.stop();});}
 function renderCatalogue(){const y=ctx.getYear(),scope=$('historyScope').value,category=$('historyCategory').value,search=$('historySearch').value.trim(),key=[scope,category,search,scope==='period'?HistoryYears.period(y):'all'].join('|');if(lastKey!==key){page=0;lastKey=key;}const found=filter(ctx.data.events,{year:y,scope,category,search},HistoryYears.period),pages=Math.max(1,Math.ceil(found.length/12));page=Math.min(page,pages-1);$('historyCount').textContent=found.length+' 条选读 · 全编 '+ctx.data.events.length+' 条';$('historyEvents').innerHTML=found.slice(page*12,page*12+12).map(e=>card(e)).join('')||'<p class="no-result">这个范围暂未整理到匹配事件。可以更换主题，或选择“秦至清末”。</p>';$('historyPage').textContent=(page+1)+' / '+pages;$('historyPrevPage').disabled=page===0;$('historyNextPage').disabled=page>=pages-1;bind($('historyEvents'));}
 // Keep the complete chronological list mounted; playback only changes state and scroll.
-let timeline=null,scrollFrame=0,scrollTarget=0,manualUntil=0,lastTick=0,positions=[];
+let timeline=null,manualUntil=0,positions=[];
 function timelinePosition(year,anchors){
  if(!anchors.length)return 0;
  if(year<=anchors[0].year)return anchors[0].position;
@@ -38,20 +38,11 @@ function timelinePosition(year,anchors){
  const axis=y=>y<0?y:y-1;
  return a.position+(b.position-a.position)*(axis(year)-axis(a.year))/(axis(b.year)-axis(a.year));
 }
-function animateScroll(now){
- scrollFrame=0;if(!timeline||performance.now()<manualUntil)return;
- const dt=lastTick?Math.min(64,now-lastTick):16;lastTick=now;
- const delta=scrollTarget-timeline.pane.scrollTop;
- if(Math.abs(delta)<.7){timeline.pane.scrollTop=scrollTarget;lastTick=0;return;}
- timeline.pane.scrollTop+=delta*(1-Math.exp(-dt/85));
- scrollFrame=requestAnimationFrame(animateScroll);
-}
+// The calendar is the only playback clock. A second easing loop trails the year,
+// especially when its 85 ms lag exceeds a 62.5 ms fast-playback frame.
 function followYear(immediate=false){
- if(!timeline)return;
- scrollTarget=Math.max(0,timelinePosition(ctx.getYear(),positions)-timeline.pane.clientHeight/2);
- if(immediate||matchMedia('(prefers-reduced-motion: reduce)').matches){cancelAnimationFrame(scrollFrame);scrollFrame=0;lastTick=0;timeline.pane.scrollTop=scrollTarget;return;}
- if(performance.now()<manualUntil)return;
- if(!scrollFrame)scrollFrame=requestAnimationFrame(animateScroll);
+ if(!timeline||(!immediate&&performance.now()<manualUntil))return;
+ timeline.pane.scrollTop=Math.max(0,timelinePosition(ctx.getYear(),positions)-timeline.pane.clientHeight/2);
 }
 function measureTimeline(){
  if(!timeline)return;
@@ -59,7 +50,7 @@ function measureTimeline(){
  node.style.paddingTop=padding+'px';node.style.paddingBottom=padding+'px';
  const grouped=new Map();
  for(const {event,element} of items){const y=event.year,top=element.offsetTop,bottom=top+element.offsetHeight,group=grouped.get(y);if(group)group.bottom=bottom;else grouped.set(y,{year:y,top,bottom});}
- positions=[...grouped.values()].map(p=>({year:p.year,position:p.top-9}));
+ positions=[...grouped.values()].map(p=>{const first=items.find(item=>item.event.year===p.year).element,head=first.querySelector('.event-visual-head');return {year:p.year,position:p.top+(head?head.offsetTop+head.offsetHeight/2:first.offsetHeight/2)};});
  followYear(true);
 }
 function ensureTimeline(){
@@ -68,12 +59,12 @@ function ensureTimeline(){
  node.innerHTML=ctx.data.events.map(e=>card(e)).join('');bind(node);
  const elements=[...node.querySelectorAll('[data-chronicle-event]')];
  timeline={node,pane,items:ctx.data.events.map((event,i)=>({event,element:elements[i]}))};
- const release=()=>{manualUntil=performance.now()+3000;cancelAnimationFrame(scrollFrame);scrollFrame=0;lastTick=0;};
+ const release=()=>{manualUntil=performance.now()+3000;};
  pane.addEventListener('wheel',release,{passive:true});pane.addEventListener('touchstart',release,{passive:true});pane.addEventListener('pointerdown',release,{passive:true});
  pane.addEventListener('keydown',e=>{if(['ArrowUp','ArrowDown','PageUp','PageDown','Home','End',' '].includes(e.key))release();});
  $('newsYearFocus').onclick=()=>{manualUntil=0;followYear();};
  node.addEventListener('toggle',()=>{const remembered=pane.scrollTop;measureTimeline();pane.scrollTop=remembered;},true);
- new ResizeObserver(measureTimeline).observe(pane);
+ const resize=new ResizeObserver(measureTimeline);resize.observe(pane);resize.observe(node);
  measureTimeline();
 }
 function updateTimeline(year){

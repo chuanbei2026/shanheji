@@ -1,9 +1,9 @@
 {
-  "exported_at": "2026-10-26T05:20:35.172Z",
-  "source_revision": "1c885849560ebcb608cb9e8c56b9ff6baf148c06",
+  "exported_at": "2026-10-26T05:24:51.525Z",
+  "source_revision": "381f9f5fe12ced7972a91a4ec70828df0879aee2",
   "static_directory": "dist",
   "file_count": 63,
-  "total_bytes": 25849431,
+  "total_bytes": 25849585,
   "files": [
     {
       "path": "D3-LICENSE.txt",
@@ -17,8 +17,8 @@
     },
     {
       "path": "README.md",
-      "bytes": 58555,
-      "sha256": "80784e8a69ca0b65827ba21af7872546fc93fd1de1769b527578008ac9ddc62a"
+      "bytes": 58948,
+      "sha256": "900358df4860532c4781c0e6a4151c8a798140d5a8b328ef593e1841f4b8a286"
     },
     {
       "path": "ancient-atlas.json",
@@ -212,8 +212,8 @@
     },
     {
       "path": "history-chronicle.js",
-      "bytes": 16184,
-      "sha256": "3fb79473f5b47a0b2884c4eb7aa7c51509269f051597c8b5c6cf868c5c9e8e11"
+      "bytes": 15833,
+      "sha256": "89b9a1f1bb939209c7e1d332437fa3096f3564b30c2d583464472035563cea43"
     },
     {
       "path": "history-events.json",
@@ -227,8 +227,8 @@
     },
     {
       "path": "index.html",
-      "bytes": 35586,
-      "sha256": "08a735308f5e65c1251e1dd858d67933e6bf91a083ef4cfc09f9ae7e2088ee83"
+      "bytes": 35583,
+      "sha256": "af0db96d3c94eb4aa052e15024a9b062807a794e8077b85bc9725023cea4323f"
     },
     {
       "path": "land.json",
@@ -297,8 +297,8 @@
     },
     {
       "path": "source.zip",
-      "bytes": 9407239,
-      "sha256": "faa9c0b61f79aec36aa1c1ec6df0d566f802435acc819fff1f4f1dfd100988b4"
+      "bytes": 9407354,
+      "sha256": "a87e7ff9e4dd6fd91cf36f52d72cdae2b4473a058ff825eb76ff5dd033cd9146"
     },
     {
       "path": "stories.json",
