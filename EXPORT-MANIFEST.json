@@ -1,9 +1,9 @@
 {
-  "exported_at": "2026-10-26T05:41:01.617Z",
-  "source_revision": "8ada1e9173498b5cc6f975e044c2580f3d028be8",
+  "exported_at": "2026-10-26T07:31:19.428Z",
+  "source_revision": "b9786f863ea9690af1914ce18491bf387d92f514",
   "static_directory": "dist",
   "file_count": 63,
-  "total_bytes": 25917303,
+  "total_bytes": 25917324,
   "files": [
     {
       "path": "D3-LICENSE.txt",
@@ -52,8 +52,8 @@
     },
     {
       "path": "app.js",
-      "bytes": 50012,
-      "sha256": "e949165f9696397dc1f95d34964905632fca700f61477034779dab08581158b0"
+      "bytes": 50019,
+      "sha256": "7e01df59d6ac8208701d419ac9a8dda8e213e8da303b2d65fab831010f84fad9"
     },
     {
       "path": "assets/dynasty-lettering/ART-DIRECTION.md",
@@ -227,8 +227,8 @@
     },
     {
       "path": "index.html",
-      "bytes": 35576,
-      "sha256": "f5e42697d5b70adfa52a04b961566114580a1b5fa80cdd7ca5aed67280c30f6b"
+      "bytes": 35578,
+      "sha256": "cc584e634c56d98a79add8bdabf909c10ad5b8964be2641a817c24cb94fb5938"
     },
     {
       "path": "land.json",
@@ -297,8 +297,8 @@
     },
     {
       "path": "source.zip",
-      "bytes": 9420259,
-      "sha256": "7a3b33984cdf36e4d105aa13d818ae569fb46fafcad1cdfb521c56db4c2a60bb"
+      "bytes": 9420271,
+      "sha256": "452c5ff4dd58f43ba163a4e0b78266731b6805eeefe6114bacdff9b2fb9ebc7e"
     },
     {
       "path": "stories.json",
