@@ -318,3 +318,7 @@ Opening the atlas without a valid year or stage starts at 770 BCE (the Spring an
 ### Pre-imperial ruler cards
 
 Spring and Autumn and Warring States maps show concurrent state cards independently of imperial genealogy rosters. Each card uses the exact polity identifier and the selected calendar year. The Zhou royal court appears first when mapped; other documented rulers precede unresolved records. Unknown annual rulers are explicitly marked rather than inherited from Qin or a snapshot year. Clicking a card selects that state and its calendar. The imperial roster layout resumes at 221 BCE.
+
+### Continuous event chronology
+
+The right-hand event rail mounts all events once in ascending start-year order. Playback updates annual highlights and duration progress in place; it never replaces or fades the rail. A centered current-year guide follows an interpolated position between event-year groups with a single continuously retargeted scroll animation. Half-viewport padding keeps the first and last year groups reachable at the center. Manual scrolling suspends following for three seconds; clicking the year guide resumes it. Reduced-motion preferences use immediate positioning. Event disclosures, references and year/map links remain available.

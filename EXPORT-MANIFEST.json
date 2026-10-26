@@ -1,9 +1,9 @@
 {
-  "exported_at": "2026-10-26T03:59:32.206Z",
-  "source_revision": "1e0d1505ddbfa023b961d899bf3f07cfd73d0fad",
+  "exported_at": "2026-10-26T04:07:06.652Z",
+  "source_revision": "366ad00747427fd5b6bc1c8b828db6e56ebd275f",
   "static_directory": "dist",
   "file_count": 63,
-  "total_bytes": 25674166,
+  "total_bytes": 25682075,
   "files": [
     {
       "path": "D3-LICENSE.txt",
@@ -17,8 +17,8 @@
     },
     {
       "path": "README.md",
-      "bytes": 54951,
-      "sha256": "533dd3a625c40fcb923962f78cd3ec04148c99115e7db8fd3d21c1603ad2d55a"
+      "bytes": 55610,
+      "sha256": "2597ff40bea211bd99a844cd9e65775401a33d3f6686983d639b865c219f14bc"
     },
     {
       "path": "ancient-atlas.json",
@@ -212,8 +212,8 @@
     },
     {
       "path": "history-chronicle.js",
-      "bytes": 11610,
-      "sha256": "18dd15e9018e50bcc1fcc2a91d5165cc6ff43fc5219749954ef3dda1bacce295"
+      "bytes": 14538,
+      "sha256": "4402a0e12860847a5a1084fa84d6cf536f56c97fa4f6ab8e9cc8ef651fbdf95e"
     },
     {
       "path": "history-events.json",
@@ -227,8 +227,8 @@
     },
     {
       "path": "index.html",
-      "bytes": 35404,
-      "sha256": "34fcd4c0d530a351c52ca8861c55a99b77d16b4d966926639236a7278917836a"
+      "bytes": 35614,
+      "sha256": "1e0a57029ad652e87fa255b14923e5ddecce9ed267dca82da46e1f4c8b39764e"
     },
     {
       "path": "land.json",
@@ -297,8 +297,8 @@
     },
     {
       "path": "source.zip",
-      "bytes": 9378089,
-      "sha256": "6beb5ce81dfea620da4b50ccc041eda98e094d03f364e2746404eb1f97efa6bb"
+      "bytes": 9379785,
+      "sha256": "f5b0d1d8a89ece5addc0dcb1d25242d9333fa8864134321768694ee40bb7b528"
     },
     {
       "path": "stories.json",
@@ -307,8 +307,8 @@
     },
     {
       "path": "style.css",
-      "bytes": 128046,
-      "sha256": "5d68919311987bb47dc3bce03a1ac7cdc77c036ac1e92c32afdf96131a8faa22"
+      "bytes": 130462,
+      "sha256": "2bab37203479c89bf1ddcff386f85c46cd50e86ae66b11f3d81d5e03e35eb872"
     },
     {
       "path": "time-axis.js",
