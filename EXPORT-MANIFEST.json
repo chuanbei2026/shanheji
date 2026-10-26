@@ -1,9 +1,9 @@
 {
-  "exported_at": "2026-10-26T08:32:11.596Z",
-  "source_revision": "1f06524acae582e2af67a2f3d6f2ec23efb24d7c",
+  "exported_at": "2026-10-26T20:48:56.174Z",
+  "source_revision": "1a54676f3481a6e4149ae2647bcfc6e9ed527d0b",
   "static_directory": "dist",
   "file_count": 71,
-  "total_bytes": 26480956,
+  "total_bytes": 26484004,
   "files": [
     {
       "path": "D3-LICENSE.txt",
@@ -47,8 +47,8 @@
     },
     {
       "path": "annual-timeline.js",
-      "bytes": 11727,
-      "sha256": "0963483d39b1819a3e5090239038c7336441245935fa0775f30c73b152fd0305"
+      "bytes": 12903,
+      "sha256": "cae84bbdd32255c187021aefe3621d24cb491d72481ad8dfd2edfc134375769d"
     },
     {
       "path": "app.js",
@@ -252,8 +252,8 @@
     },
     {
       "path": "index.html",
-      "bytes": 36061,
-      "sha256": "fac82b4226ad06b292b0fbbf04c3fa20b4625547a16f560125ac0b40498b82d0"
+      "bytes": 36075,
+      "sha256": "2129151b6d9cbd64bc556a05590a62671f74aeb4ce096cdcce72b7c62986eea4"
     },
     {
       "path": "land.json",
@@ -327,8 +327,8 @@
     },
     {
       "path": "source.zip",
-      "bytes": 9540627,
-      "sha256": "b093b3529e589514ba4cf489946daf8e2cc0aa0f49249ea51026102a92448cf5"
+      "bytes": 9541392,
+      "sha256": "90d635a2a154113d658a9953b51b1c2a9b840e54658090e89d8759806ad23eb4"
     },
     {
       "path": "stories.json",
@@ -337,8 +337,8 @@
     },
     {
       "path": "style.css",
-      "bytes": 145316,
-      "sha256": "80211e000c19a5011e047d233fdf8c4e770cb2e2abec928b5ae6c08e1d4a52b3"
+      "bytes": 146409,
+      "sha256": "d40f8b5f3703bd8b7b1800bc32128e30a6dff1406b4912fe60e988d7fa9a1178"
     },
     {
       "path": "time-axis.js",
