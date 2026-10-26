@@ -290,3 +290,7 @@ Short polity names are resolved within their historical dates. The five-dynastie
 ## Factual audit (2026-10-25)
 
 Reviewed the current 232-event index and checked 277 original reign/power-holder records and 35 dynasty rosters for structural consistency. Targeted evidence corrections and explicit remaining limits are recorded in `chronology-verification.json` and `research-review.html`. Added two power-holder records for Emperor Ruizong and retired Qianlong; this is not a certification of every map boundary or narrative sentence.
+
+## Focused waterfall layout
+
+Neighboring dynasty ranges retain fully opaque family colors. The active row is 64px high and adjacent rows are 20px high on the same proportional year scale. Current segment dates are stacked beneath the name, avoiding separate endpoint captions around narrow periods. The 200-year ruler sits below all three rows; quiet full-history segments remain inside the center axis. First/last dynasty padding, cross-dynasty scrolling and keyboard year stepping were checked in the browser.

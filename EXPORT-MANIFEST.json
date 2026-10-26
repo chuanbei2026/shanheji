@@ -1,9 +1,9 @@
 {
-  "exported_at": "2026-10-26T01:32:58.970Z",
-  "source_revision": "ac2a3f6610601db66aaec12f98508bda54fcdf88",
+  "exported_at": "2026-10-26T03:33:45.970Z",
+  "source_revision": "9e1d44290335ffa127f532df6a16daf082751218",
   "static_directory": "dist",
   "file_count": 63,
-  "total_bytes": 25658493,
+  "total_bytes": 25661447,
   "files": [
     {
       "path": "D3-LICENSE.txt",
@@ -17,8 +17,8 @@
     },
     {
       "path": "README.md",
-      "bytes": 51915,
-      "sha256": "3b4ef7f6fd4d0e6b14fe155f17044b6fa461364f7eaeb20468bc46739a83a8d0"
+      "bytes": 52428,
+      "sha256": "142629abce44f464b2edf6c729570e620249ee97f5a0ebfa44888c16eb7bfeb7"
     },
     {
       "path": "ancient-atlas.json",
@@ -47,13 +47,13 @@
     },
     {
       "path": "annual-timeline.js",
-      "bytes": 9478,
-      "sha256": "551e8e22107e3ba38a4edc6ebfa2b07258be59b2e822466185e1c71354b2b0ce"
+      "bytes": 9549,
+      "sha256": "99d98785799027b9acae8ebf7719f851385b3fdc8740ebdbf97480f67446c4c8"
     },
     {
       "path": "app.js",
-      "bytes": 48956,
-      "sha256": "e7f51243cd7931b9b0cb7cb59371de2fc8f2dd587c72d36ac7c7f320462d3d34"
+      "bytes": 49086,
+      "sha256": "41781a21c0c37c353a063d6e2552b785a42c398c68dbb915b9b86972d1263cf7"
     },
     {
       "path": "assets/dynasty-lettering/ART-DIRECTION.md",
@@ -227,8 +227,8 @@
     },
     {
       "path": "index.html",
-      "bytes": 35291,
-      "sha256": "cbfa5f4d5bfe7031ab84c7696d12ba75601f7708f2e204466e6d014e5a1df64b"
+      "bytes": 35290,
+      "sha256": "73470d48e2e0813f4bfc5b23b380cd96fbee794f98a205f986c64d4814fd1b31"
     },
     {
       "path": "land.json",
@@ -297,8 +297,8 @@
     },
     {
       "path": "source.zip",
-      "bytes": 9374695,
-      "sha256": "6f6ee66eb1faf96d77ba3fa63631cca467e49dab6e95ff031a2abf2c015c1f57"
+      "bytes": 9375152,
+      "sha256": "76f940cc45d060ac9ebf0abab2c148d46f57e19332649fa798ef7b806cac65fc"
     },
     {
       "path": "stories.json",
@@ -307,8 +307,8 @@
     },
     {
       "path": "style.css",
-      "bytes": 125312,
-      "sha256": "e40fb0887e7e3aa60b784b3f094f5a478694b6743af4e06529ba8371a71d4efe"
+      "bytes": 127096,
+      "sha256": "97509f3b2d5e3357ec300314b14cd167366ac43f1685152bdfa9d7cfdf807f3d"
     },
     {
       "path": "time-axis.js",

@@ -163,11 +163,44 @@ html,body{min-height:100%;height:auto}body{display:block;overflow-x:hidden}heade
 .atlas-layout>.events-panel{overflow:hidden}.events-panel>.events-heading,.events-panel>.ancient-notice{flex:none}.events-panel>.annual-news{display:block;flex:1 1 auto;min-height:0;overflow-y:auto;overflow-x:hidden;overscroll-behavior:contain;scrollbar-width:thin;padding-bottom:14px}.events-footer{display:flex;align-items:center;justify-content:space-between;gap:12px;flex:none;margin-top:auto;padding-top:13px;border-top:1px solid #e1e6d8;background:var(--paper)}.events-footer .chronicle-anchor{margin:0;padding:0;border:0;font-size:10px;white-space:nowrap}.events-panel .events-footer .news-navigation{display:flex!important;gap:7px;margin:0;padding:0;flex:none}.events-panel .events-footer .news-navigation button{display:grid;place-items:center;flex:none;width:34px;height:32px;min-height:32px;padding:0;border:1px solid #d9dfd0;border-radius:6px;background:#faf9f1;color:#7a8c6c}.events-footer .news-navigation svg{width:17px;height:17px;fill:none;stroke:currentColor;stroke-width:1.5;stroke-linecap:round;stroke-linejoin:round}.events-panel .events-footer .news-navigation button:hover:not(:disabled){background:#eaf0df;border-color:#b9c7a9;color:#4e6c3c}.events-panel .events-footer .news-navigation button:disabled{opacity:.3}
 @media(max-width:650px){.atlas-layout>.events-panel{height:min(480px,70dvh);min-height:340px;max-height:none;overflow:hidden}.events-panel>.annual-news{flex:1 1 auto}.events-footer .chronicle-anchor{margin:0}}
 
-/* The middle dynasty row is the shared main axis, with a quiet full-history segmentation. */
-#dynastyRows{padding-top:36px;padding-bottom:36px}.atlas-left .master-axis{position:absolute;left:0;right:0;top:64px;height:36px;min-height:36px;padding:0;z-index:2;pointer-events:none}.atlas-left .master-track{height:36px;margin:0;position:relative}.axis-dynasties{position:absolute;inset:0;border-top:1px solid #d3dccc;border-bottom:1px solid #d3dccc;background:#e8edde22;pointer-events:auto}.axis-dynasties:before{content:'';position:absolute;left:0;right:0;top:17px;border-top:1px solid #bdcbb388;pointer-events:none}.axis-era-segment{position:absolute;top:12px;height:12px;background:var(--segment-color);opacity:.18;border-left:1px solid #6e7f5c88;border-right:1px solid #f7f6ec;box-sizing:border-box;cursor:crosshair;transition:opacity .15s,height .15s,top .15s}.axis-era-segment:hover{opacity:.55;top:8px;height:20px;z-index:3}.axis-era-segment[data-active=true]{opacity:.08}.atlas-left .master-axis #slider{position:absolute;inset:0;width:100%;height:36px;margin:0;opacity:0;pointer-events:none}.atlas-left .master-axis:has(#slider:focus-visible){outline:1px solid #8b9e7e;outline-offset:2px}.atlas-left .master-axis .year-ruler{position:absolute;top:38px;left:0;right:0;height:14px;margin:0;pointer-events:none;z-index:4}.atlas-left .master-axis .ruler-tick{font-size:8px;color:#96a28c;background:#f5f4ebc9;padding:0 1px}.atlas-left .dynasty-row.window-focus{position:relative;z-index:4}.atlas-left .dynasty-row:not(.window-focus) .dynasty-bar{opacity:.38}.atlas-left .dynasty-row:not(.window-focus) .dynasty-bar span{font-size:11px}.atlas-left .dynasty-row:not(.window-focus) .dynasty-boundary{opacity:.55}.atlas-left .unified-cursor-track{bottom:0;z-index:6}.atlas-left .waterfall-cursor:before{top:49px}.atlas-left .waterfall-cursor:after{left:-9px;right:-9px}.atlas-left .dynasty-viewport{overflow:hidden}.atlas-left .waterfall-grid{opacity:.5}
-@media(max-width:650px){.atlas-left .master-axis .ruler-tick{font-size:7px}.atlas-left .dynasty-row:not(.window-focus) .dynasty-bar span{font-size:10px}}
-/* Let the quiet global segments receive hover outside the active dynasty span. */
-.atlas-left .dynasty-row.window-focus,.atlas-left .dynasty-row.window-focus .dynasty-track{pointer-events:none}.atlas-left .dynasty-row.window-focus .dynasty-bar{pointer-events:auto}
+/* Solid neighboring ranges frame a taller active row on the shared calendar scale. */
+#dynastyRows{padding-top:20px;padding-bottom:20px}
+.atlas-left .unified-sheet{padding:24px 0 16px}
+.atlas-left .dynasty-viewport{height:104px;overflow:hidden}
+.atlas-left .dynasty-row,.atlas-left .dynasty-track{height:20px;min-height:20px}
+.atlas-left .dynasty-row.window-focus,.atlas-left .dynasty-row.window-focus .dynasty-track{height:64px;min-height:64px}
+.atlas-left .dynasty-bar,.atlas-left .dynasty-row:not(.current) .dynasty-bar,.atlas-left .dynasty-row.current .dynasty-bar,.atlas-left .dynasty-row:not(.window-focus) .dynasty-bar,.atlas-left .dynasty-bar.period,.atlas-left .dynasty-bar:hover{height:100%;top:0;opacity:1!important}
+.atlas-left .dynasty-bar.period{background:var(--dynasty-color);border:0}
+.atlas-left .dynasty-boundary{display:none}
+.atlas-left .dynasty-bar span.dynasty-bar-label{display:flex;flex-direction:column;align-items:center;justify-content:center;gap:5px;width:max-content;max-width:none;padding:0 5px;overflow:visible;background:var(--dynasty-color);color:var(--bar-ink,#fffaf0);border-radius:2px;line-height:1.3;letter-spacing:.5px}
+.atlas-left .dynasty-bar-label b{font:600 11px/1.4 'Songti SC',STSong,serif;white-space:nowrap}
+.atlas-left .dynasty-bar-label small{display:none}
+.atlas-left .dynasty-bar.interruption span.dynasty-bar-label{display:none}
+.atlas-left .dynasty-row.window-focus .dynasty-bar span.dynasty-bar-label{min-height:48px;padding:3px 9px;box-shadow:0 0 0 1px #f7f5ec99}
+.atlas-left .dynasty-row.window-focus .dynasty-bar-label b{font-size:17px;letter-spacing:1px}
+.atlas-left .dynasty-row.window-focus .dynasty-bar-label small{display:block;font:10px/1.4 Georgia,'Songti SC',serif;letter-spacing:.5px;white-space:nowrap}
+.atlas-left .dynasty-row.window-focus{position:relative;z-index:4}
+.atlas-left .dynasty-row.window-focus .dynasty-bar{outline:1px solid #46583e66;outline-offset:1px}
+.atlas-left .dynasty-row.window-focus,.atlas-left .dynasty-row.window-focus .dynasty-track{pointer-events:none}
+.atlas-left .dynasty-row.window-focus .dynasty-bar{pointer-events:auto}
+.atlas-left .master-axis{position:absolute;left:0;right:0;top:44px;height:64px;min-height:64px;padding:0;z-index:2;pointer-events:none}
+.atlas-left .master-track{height:64px;margin:0;position:relative}
+.axis-dynasties{position:absolute;inset:0;border-top:1px solid #d3dccc;border-bottom:1px solid #d3dccc;background:#e8edde22;pointer-events:auto}
+.axis-dynasties:before{content:'';position:absolute;left:0;right:0;top:31px;border-top:1px solid #bdcbb388;pointer-events:none}
+.axis-era-segment{position:absolute;top:26px;height:12px;background:var(--segment-color);opacity:.2;border-left:1px solid #6e7f5c88;border-right:1px solid #f7f6ec;box-sizing:border-box;cursor:crosshair;transition:opacity .15s,height .15s,top .15s}
+.axis-era-segment:hover{opacity:.55;top:22px;height:20px;z-index:3}
+.axis-era-segment[data-active=true]{opacity:.08}
+.atlas-left .master-axis #slider{position:absolute;inset:0;width:100%;height:64px;margin:0;opacity:0;pointer-events:none}
+.atlas-left .master-axis:has(#slider:focus-visible){outline:1px solid #8b9e7e;outline-offset:2px}
+.atlas-left .master-axis .year-ruler{position:absolute;top:86px;left:0;right:0;height:14px;margin:0;pointer-events:none;z-index:4}
+.atlas-left .master-axis .ruler-tick{font-size:9px;color:#839277;background:transparent;padding:0 1px}
+.atlas-left .ruler-tick:before{height:5px;top:-6px;background:#9cac8d}
+.atlas-left .waterfall-grid{opacity:.42}
+.atlas-left .unified-cursor-track{top:24px;bottom:16px;z-index:6}
+.atlas-left .waterfall-cursor:before{top:48px}
+.atlas-left .waterfall-cursor:after{left:-9px;right:-9px}
+.atlas-left #annualCursorYear{top:-24px;font-size:17px;border-color:#9bac8d;color:#334f31;font-weight:700;box-shadow:0 2px 5px #43503718}
+@media(max-width:650px){.atlas-left .master-axis .ruler-tick{font-size:7px}.atlas-left .dynasty-bar-label b{font-size:10px}.atlas-left .dynasty-row.window-focus .dynasty-bar-label b{font-size:15px}.atlas-left .dynasty-row.window-focus .dynasty-bar-label small{font-size:9px}.atlas-left #annualCursorYear{font-size:14px}}
 
 /* Multi-year events remain visible throughout their sourced interval. */
 .event-duration{margin:10px 0 12px;padding:10px 11px;background:var(--event-tint,#f2e9df);border-radius:7px}.duration-caption{display:flex;justify-content:space-between;align-items:center;font-size:10px;color:#776d61}.duration-status{color:var(--event-color,#8e493b);font-weight:700}.duration-track{position:relative;height:5px;border-radius:4px;background:#b8a99744;margin:12px 2px}.duration-track i{display:block;height:100%;border-radius:4px;background:var(--event-color,#8e493b)}.duration-track b{position:absolute;top:-3px;width:11px;height:11px;border:2px solid #fff;border-radius:50%;background:var(--event-color,#8e493b);transform:translateX(-50%)}.duration-dates{display:flex;justify-content:space-between;gap:10px}.duration-dates button{border:0;background:none;padding:0;color:inherit;text-align:left;cursor:pointer}.duration-dates button:last-child{text-align:right}.duration-dates strong{display:block;font-size:11px}.duration-dates small{display:block;font-size:9px;color:#756e62;margin-top:3px}.duration-dates button:hover strong{text-decoration:underline}.event-date-note{font-size:10px!important;color:#81796d}.event-pin.event-span{transform:none!important;min-width:8px;height:5px;border-radius:3px}.event-pin.event-span:hover,.event-pin.event-span:focus-visible,.event-pin.event-span.current{height:8px;top:3px}
