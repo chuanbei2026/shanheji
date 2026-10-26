@@ -229,3 +229,6 @@ header{gap:22px}.atlas-jump{position:relative;flex:1;max-width:490px;min-width:2
 .parallel-court-roster .qing-reign-row .court-reign-item{height:auto;min-height:27px}
 .parallel-court-roster .court-reign-era{font-size:9px}
 @media(max-width:650px){.map-sovereign.has-vertical-roster.qing-roster{width:250px;max-width:calc(100% - 30px)}}
+
+/* Compact annual rulers for the pre-imperial states. */
+.pre-imperial-courts .parallel-court{padding:6px 8px}.pre-imperial-courts .parallel-current strong{font-size:11px;line-height:1.5}.pre-imperial-courts .parallel-court-select{margin-bottom:3px}.pre-imperial-courts .parallel-unresolved{font-size:10px}

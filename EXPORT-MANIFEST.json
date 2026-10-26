@@ -1,9 +1,9 @@
 {
-  "exported_at": "2026-10-26T03:56:01.193Z",
-  "source_revision": "de3b8e98c03018c617bed7e1b7486269fae31957",
+  "exported_at": "2026-10-26T03:59:32.206Z",
+  "source_revision": "1e0d1505ddbfa023b961d899bf3f07cfd73d0fad",
   "static_directory": "dist",
   "file_count": 63,
-  "total_bytes": 25670592,
+  "total_bytes": 25674166,
   "files": [
     {
       "path": "D3-LICENSE.txt",
@@ -17,8 +17,8 @@
     },
     {
       "path": "README.md",
-      "bytes": 54435,
-      "sha256": "3a3aa892a249178cb926ec91ea0e11cf338f0ccbd193a53cac53ddd2a417c062"
+      "bytes": 54951,
+      "sha256": "533dd3a625c40fcb923962f78cd3ec04148c99115e7db8fd3d21c1603ad2d55a"
     },
     {
       "path": "ancient-atlas.json",
@@ -52,8 +52,8 @@
     },
     {
       "path": "app.js",
-      "bytes": 49251,
-      "sha256": "bc3d3570bb7913a8967e86ec7d5fb5e187e9c9eb7b063f6a7082973f5a8629c5"
+      "bytes": 49377,
+      "sha256": "8084add4589d77f08ddf3fb5c3d11d3e1f27cb56980bfdc7d1d676a5170c6028"
     },
     {
       "path": "assets/dynasty-lettering/ART-DIRECTION.md",
@@ -192,8 +192,8 @@
     },
     {
       "path": "emperor-lineage.js",
-      "bytes": 22195,
-      "sha256": "1e174f547cdee610123a66aede21dadb3f2a5b670046b2a376c9ed22b7c01c91"
+      "bytes": 24186,
+      "sha256": "82670403dd7db706a88ff0eba073622befbef57bb891cc93c2046aa2f7a2486f"
     },
     {
       "path": "emperor-lineages.json",
@@ -222,13 +222,13 @@
     },
     {
       "path": "history-years.js",
-      "bytes": 3944,
-      "sha256": "bd6606fb8ae9f630f1226b150e7bfc7a36fe9776dc74cb2abab8000bb639e108"
+      "bytes": 3981,
+      "sha256": "8770efbaa2dbc3ee9ff5351397c3183855da227e19beb52751a8faa516f7d705"
     },
     {
       "path": "index.html",
-      "bytes": 35396,
-      "sha256": "ed7f76d927e937f96710e1986f1a41a90987ae42278929f53a0ac216fc9cfa71"
+      "bytes": 35404,
+      "sha256": "34fcd4c0d530a351c52ca8861c55a99b77d16b4d966926639236a7278917836a"
     },
     {
       "path": "land.json",
@@ -297,8 +297,8 @@
     },
     {
       "path": "source.zip",
-      "bytes": 9377501,
-      "sha256": "84fced17015fb7966ac130a5174a6fd5767981f73b7c150be3b7c1468c09d0b3"
+      "bytes": 9378089,
+      "sha256": "6beb5ce81dfea620da4b50ccc041eda98e094d03f364e2746404eb1f97efa6bb"
     },
     {
       "path": "stories.json",
@@ -307,8 +307,8 @@
     },
     {
       "path": "style.css",
-      "bytes": 127738,
-      "sha256": "654cdeed6580efa9f6eba262022ad802927e7e730ab47c14e5d2a51c0ed73bb7"
+      "bytes": 128046,
+      "sha256": "5d68919311987bb47dc3bce03a1ac7cdc77c036ac1e92c32afdf96131a8faa22"
     },
     {
       "path": "time-axis.js",

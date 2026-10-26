@@ -78,10 +78,26 @@ function arrangeCourts(peers,year){
   return {name:'geographic-courts',peers:marked,north:nc,south:sc};
 }
 
+
+// Pre-imperial states have their own annual rulers, not imperial rosters.
+function renderPreImperial(feature,year){
+ const top=document.getElementById('emperorReadout'),peers=ctx.getPeers();
+ document.getElementById('emperorRoster').hidden=true;
+ top.hidden=false;top.classList.remove('has-vertical-roster','qing-roster');top.classList.add('parallel-courts','pre-imperial-courts');top.dataset.courtLayout='';top.setAttribute('aria-label','本年周王室及诸侯国君');
+ const ordered=peers.slice().sort((a,b)=>Number(b.feature.properties.title==='周王畿')-Number(a.feature.properties.title==='周王畿')||Number(!!b.info.rulers?.length)-Number(!!a.info.rulers?.length));
+ const html='<div class="parallel-courts-heading"><b>周王室与诸侯</b><span>本年在位</span></div><div class="parallel-courts-grid">'+ordered.map(peer=>{
+  const title=peer.feature.properties.displayTitle||peer.feature.properties.title,people=identities(peer.info,year);
+  return '<article class="parallel-court'+(peer.feature===feature?' is-selected':'')+'" data-court-id="pre:'+esc(peer.feature.properties.title)+'" style="--court-accent:'+esc(peer.color)+'"><button class="parallel-court-select" data-ancient-select="'+peer.index+'" aria-label="选择'+esc(title)+'"><span><i aria-hidden="true"></i>'+esc(title)+'</span></button><div class="parallel-current">'+(people.length?people.map(p=>'<strong>'+esc(p.label)+'</strong>').join(''):'<span class="parallel-unresolved">本年在位者待核</span>')+'</div>'+(people.length>1?'<small class="parallel-year-change">本年先后更替</small>':'')+'</article>';
+ }).join('')+'</div>';
+ if(root.AtlasMotion)root.AtlasMotion.replace(top,html,'pre-imperial',{stable:true});else top.innerHTML=html;
+ top.querySelectorAll('[data-ancient-select]').forEach(b=>b.onclick=()=>{ctx.stop?.();ctx.selectPeer?.(+b.dataset.ancientSelect);});
+}
+
 function render(feature,info){
   if(!ctx)return;
   const top=document.getElementById('emperorReadout');
-  const year=ctx.getYear(),layout=arrangeCourts(peerCourts(year),year),peers=layout.peers;
+  const year=ctx.getYear();if(year>=-770&&year<-221){renderPreImperial(feature,year);return;}top.classList.remove('pre-imperial-courts');
+  const layout=arrangeCourts(peerCourts(year),year),peers=layout.peers;
   if(peers.length<2){top.classList.remove('parallel-courts');top.setAttribute('aria-label','当前皇帝的本朝序位');renderSingle(feature,info);return;}
   renderSingle(feature,info,true);
   top.hidden=false;top.classList.remove('has-vertical-roster');top.classList.add('parallel-courts');top.dataset.northCount=layout.north;top.dataset.southCount=layout.south;top.dataset.courtLayout=layout.name;
