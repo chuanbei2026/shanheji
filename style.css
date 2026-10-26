@@ -354,3 +354,9 @@ header{gap:22px}.atlas-jump{position:relative;flex:1;max-width:490px;min-width:2
 
 /* Independent regional chronicles share a project, not a historical periodization. */
 .regional-switch{display:flex;gap:0;flex:none;border:1px solid #c9c9b8;border-radius:4px;overflow:hidden;font-size:10px}.regional-switch a,.regional-switch span{padding:7px 10px;text-decoration:none;color:#807e6a;white-space:nowrap}.regional-switch span{background:#71694e;color:#fffaf0}@media(max-width:850px){.regional-switch a,.regional-switch span{padding:5px 7px}.header-actions{flex-wrap:wrap}}
+
+/* Project dynasty endpoints directly below the third row, with signed compact years. */
+.atlas-left{grid-template-rows:minmax(0,1fr) 242px}.atlas-left .chronology{height:242px}.atlas-left .unified-sheet{padding-bottom:24px}.atlas-left .unified-cursor-track{bottom:24px}
+.dynasty-range-dates{top:40px;height:128px;z-index:5}.range-date-guide{position:absolute;width:2px;transform:translateX(-1px);opacity:.65;mask-image:repeating-linear-gradient(to bottom,#000 0 3px,transparent 3px 6px);-webkit-mask-image:repeating-linear-gradient(to bottom,#000 0 3px,transparent 3px 6px)}
+.range-date-cluster{position:absolute;top:110px;display:flex;align-items:center;gap:6px;white-space:nowrap}.dynasty-range-dates .range-date{position:static;display:inline-block;padding:0 2px;background:#f7f5ecee;font:10px/16px Georgia,'Songti SC',serif;letter-spacing:.1px;pointer-events:auto;cursor:help}.dynasty-range-dates .range-date.current{font-weight:700}
+@media(max-width:800px){.atlas-left{grid-template-rows:360px 242px}.atlas-left .chronology{height:242px}.dynasty-range-dates .range-date{font-size:9px}}
