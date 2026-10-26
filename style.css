@@ -294,3 +294,13 @@ header{gap:22px}.atlas-jump{position:relative;flex:1;max-width:490px;min-width:2
 .compact-event .event-duration{margin:8px 24px 0 0}.compact-event .duration-caption{font-size:9px}.compact-event .duration-dates{display:none}
 .history-events .compact-event .event-intro{-webkit-line-clamp:3}.history-events .compact-event .event-people b{font-size:9px}
 .compact-event .event-duration{padding:5px 0;background:none}.compact-event .duration-track{margin:6px 2px;height:4px}.compact-event .duration-track b{width:8px;height:8px;top:-2px;border-width:1px}
+
+/* Labels share the exact bounds of each dated segment, including narrow reigns. */
+.atlas-left .dynasty-bar{overflow:hidden;container-type:inline-size}
+.atlas-left .dynasty-bar span.dynasty-bar-label,.atlas-left .dynasty-row.window-focus .dynasty-bar span.dynasty-bar-label{left:0;top:0;transform:none;width:100%;max-width:100%;height:100%;min-height:0;box-sizing:border-box;padding:0;gap:0;border-radius:0;overflow:hidden;background:transparent;box-shadow:none}
+.atlas-left .dynasty-row.window-focus .dynasty-bar{outline-offset:-1px}
+.atlas-left .dynasty-bar-label b{max-width:100%;letter-spacing:0}
+@container(max-width:45px){
+ .atlas-left .dynasty-bar-label b{font-size:min(11px,90cqw);white-space:normal;word-break:break-all;line-height:1.05;letter-spacing:0}
+ .atlas-left .dynasty-row.window-focus .dynasty-bar-label b{font-size:min(14px,90cqw);line-height:1;letter-spacing:0}
+}
