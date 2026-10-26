@@ -359,3 +359,9 @@ The calendar prefix, year, and suffix share one baseline, with era labels direct
 ### Territorial transitions
 
 Only territory fills and borders animate; the base map, rivers, labels and camera remain stable. Sourced replacement events use staggered horizontal shutters. Conquest events reveal the next reference state from the nearest sampled winning border toward the former opponent; this is an illustrative reveal, not a reconstructed campaign route. Splits reveal outlines before crossfading fills. Other adjacent reference maps use a soft radial reveal; distant jumps and reverse navigation use a crossfade. Playback retains the same calendar year and event position for the 0.9–1.7 second transition, then resumes the selected annual rate. Annual label redraws do not restart transitions. Scrubbing and reduced-motion preferences skip animation.
+
+## Battle and campaign atlas (2026-10-26)
+
+The battle layer adds 32 sourced battles/campaigns and 56 source pages, plus 18 independent campaign entries in the chronicle. Crossed-sword markers show approximate city, battlefield-region or theatre anchors during each documented interval. No connecting arrows or reconstructed front lines are inferred from those points. The existing endpoint events retain their dates: for example, the 1273 fall of Xiangyang is separate from the 1267–1273 broader campaign. Multi-year campaigns remain active between their endpoints; the annual calendar, not a separate event clock, controls their visibility.
+
+The catalogue can be searched by battle, location or participants and filtered to the current year. Clicking a marker or an event-card location chip opens date precision, place notes and references; endpoint buttons locate the campaign without changing the shared map camera. Source warnings, approximate-coordinate policy and conflicting site identifications (including Gaixia) remain in wars.json.

@@ -1,0 +1,1918 @@
+{
+  "schemaVersion": 1,
+  "reviewedAt": "2026-10-26",
+  "scope": "战争纪年与战区锚点；不复原未经充分史料支持的行军路线或精确古战线。",
+  "coordinatePolicy": "除巨鹿借CHGIS历史城址区域外，经纬度均为依据现代地域手工选取的近似浏览锚点，应在地图展示中明确标为示意，建议使用战区光晕而非精确定位针。数值不得被解释为史料直接记载的坐标。",
+  "datePolicy": "古代原历月日保留年号标签，不臆造ISO日期。现代日期仅在可靠资料明确提供时录入。年度范围可包含战前围城或政治终局，逐条说明。",
+  "sourceWarnings": [
+    "政府或博物馆介绍不是无误的断言；已交叉排除国博艺术展把灭楚误写前224年的条目，优先《史记》前223年。",
+    "故宫《平定三逆方略》简介有康熙二十年误括1683，应为1681；国博三藩诏书简介把1673年三月撤藩事误连为起兵时间，不沿用。",
+    "固镇与灵璧垓下遗址、赤壁细部地望、襄樊围城起点必须保留争议。",
+    "部分地方旅游介绍混入文学传说；本文件不引用虞姬自刎台词、诸葛亮借东风等作为可证军事经过。"
+  ],
+  "sources": {
+    "battle_92c29ea2aa": {
+      "title": "高平市人民政府·高平：长平之战",
+      "url": "https://www.sxgp.gov.cn/zjgp/lsrw_426/202405/t20240510_1980763.shtml"
+    },
+    "battle_c62c4153ba": {
+      "title": "《史记·秦始皇本纪》",
+      "url": "https://zh.wikisource.org/wiki/史記/卷006"
+    },
+    "battle_92332b52af": {
+      "title": "中国国家博物馆·古代中国·秦汉时期",
+      "url": "https://www.chnmuseum.cn/portals/0/web/zt/gudai/detail4.html"
+    },
+    "battle_7d07b79df9": {
+      "title": "《史记·项羽本纪》",
+      "url": "https://zh.wikisource.org/wiki/史記/卷007"
+    },
+    "battle_e98ee005be": {
+      "title": "巨鹿县人民政府·巨鹿之战",
+      "url": "https://www.julu.gov.cn/content/50718.html"
+    },
+    "battle_cd32b5778a": {
+      "title": "复旦大学历史地理研究中心·CHGIS 巨鹿郡（引《元和郡县图志》秦巨鹿城地望）",
+      "url": "https://tgaz.fudan.edu.cn/tgaz/placename/hvd_87045"
+    },
+    "battle_83cb1fc40b": {
+      "title": "福州市人民政府·闽越王无诸（记前206至前202楚汉战争）",
+      "url": "https://www.fuzhou.gov.cn/zgfzzt/zjrc/mdfc/mdrj/202111/t20211115_4242641.htm"
+    },
+    "battle_caa55c36e3": {
+      "title": "固镇县人民政府·垓下遗址",
+      "url": "https://guzhen.gov.cn/zjgz/gzgk/gjjs/gxyz/index.html"
+    },
+    "battle_8290358b4a": {
+      "title": "宿州市人民政府·垓下古战场遗址（秦末汉初）",
+      "url": "https://www.ahsz.gov.cn/zjsz/hhydhysz/jdzzsyy/193487841.html"
+    },
+    "battle_90246d3b14": {
+      "title": "平顶山市文化广电和旅游局·昆阳之战",
+      "url": "https://wglj.pds.gov.cn/contents/12740/263257.html"
+    },
+    "battle_5061fb2642": {
+      "title": "中央纪委国家监委·公元20年代：光武中兴（山东大学历史文化学院吴雪飞）",
+      "url": "https://m.ccdi.gov.cn/content/41/a8/57067.html"
+    },
+    "battle_7a47c7a639": {
+      "title": "《三国志·魏书·武帝纪》",
+      "url": "https://zh.wikisource.org/wiki/三國志/卷01"
+    },
+    "battle_147483567d": {
+      "title": "河南政务服务网·官渡镇（中牟）",
+      "url": "https://zzzm.hnzwfw.gov.cn/col/col2767/"
+    },
+    "battle_ed552789e3": {
+      "title": "《三国志·周瑜鲁肃吕蒙传》",
+      "url": "https://zh.wikisource.org/wiki/三國志/卷54"
+    },
+    "battle_1b9f496c76": {
+      "title": "湖北省档案馆·赤壁",
+      "url": "https://www.hbda.gov.cn/info/535"
+    },
+    "battle_b0c1bf34ad": {
+      "title": "《三国志·先主传》",
+      "url": "https://zh.wikisource.org/wiki/三國志/卷32"
+    },
+    "battle_6046774189": {
+      "title": "《三国志·陆逊传》",
+      "url": "https://zh.wikisource.org/wiki/三國志/卷58"
+    },
+    "battle_286cad56f6": {
+      "title": "宜昌市史志研究中心·夷陵之战，魏蜀吴三国鼎立",
+      "url": "https://ycsq.yichang.gov.cn/content-37448-970463-1.html"
+    },
+    "battle_346fc8c66f": {
+      "title": "《三国志·后主传》",
+      "url": "https://zh.wikisource.org/wiki/三國志/卷33"
+    },
+    "battle_4548a07fe1": {
+      "title": "《晋书·武帝纪》咸宁五年、太康元年",
+      "url": "https://zh.wikisource.org/wiki/晉書/卷003"
+    },
+    "battle_3e9a9275f9": {
+      "title": "《晋书·谢安、谢玄等传》",
+      "url": "https://zh.wikisource.org/wiki/晉書/卷079"
+    },
+    "battle_68c4935e1d": {
+      "title": "寿县人民政府·寿县淝水之战古战场",
+      "url": "https://www.shouxian.gov.cn/lyzn/y/7847321.html"
+    },
+    "battle_173d118604": {
+      "title": "《隋书·高祖纪下》开皇八年、九年",
+      "url": "https://zh.wikisource.org/wiki/隋書/卷02"
+    },
+    "battle_2ef9744833": {
+      "title": "《旧唐书·太宗本纪上》",
+      "url": "https://zh.wikisource.org/wiki/舊唐書/卷2"
+    },
+    "battle_921440f3b7": {
+      "title": "中国文化研究院·唐太宗（专家版长文）·虎牢大会战",
+      "url": "https://chiculture.org.hk/sites/mainsite/files/2021-07/0108_tangtaizong_yuanwen_cn.pdf"
+    },
+    "battle_66576ac4b4": {
+      "title": "北京市方志馆·北京老城故事：安禄山祸乱幽州城",
+      "url": "https://wap.bjd.com.cn/news/2022/11/28/10243971.shtml"
+    },
+    "battle_fde48ed538": {
+      "title": "《资治通鉴》卷222·宝应二年正月史朝义败亡",
+      "url": "https://zh.wikisource.org/wiki/資治通鑑/卷222"
+    },
+    "battle_51e9d6745b": {
+      "title": "故宫博物院·范阳",
+      "url": "https://www.dpm.org.cn/lemmas/239704.html"
+    },
+    "battle_61664f7f47": {
+      "title": "中国社会科学文库·张泽咸《黄巢起义考》",
+      "url": "https://www.sklib.cn/booklib/bookPreview?ID=6425935&SiteID=122"
+    },
+    "battle_309eed8508": {
+      "title": "山东省情资料库·黄巢",
+      "url": "https://shandong-chorography.org/database/ch9/section/2/article/26/"
+    },
+    "battle_97eab2c9c9": {
+      "title": "国家民族事务委员会·民族交往铸丹青之四（澶渊之战及和议）",
+      "url": "https://www.neac.gov.cn/seac/c103391/202311/1168681.shtml"
+    },
+    "battle_cff38428f6": {
+      "title": "《宋史·钦宗本纪》",
+      "url": "https://zh.wikisource.org/wiki/宋史/卷024"
+    },
+    "battle_71a83f86af": {
+      "title": "广东省政协文史广东·《汴京之围》",
+      "url": "https://www.gdwsw.gov.cn/wsgdjpsk/content/post_31326.html"
+    },
+    "battle_2162f53dc2": {
+      "title": "全国哲学社会科学工作办公室·《全宋笔记》编纂整理与研究（《采石战胜录》等）",
+      "url": "https://www.nopss.gov.cn/n/2015/0710/c362438-27286470.html"
+    },
+    "battle_0c9e1d6555": {
+      "title": "大足区纪委监委转载《中国纪检监察报》·虞允文",
+      "url": "https://www.dcqjw.gov.cn/ljcq/lsbl/201804/t20180427_477950.html"
+    },
+    "battle_244d5cb22a": {
+      "title": "《宋史·度宗本纪》咸淳三年至九年",
+      "url": "https://zh.wikisource.org/wiki/宋史/卷046"
+    },
+    "battle_216b77e1bc": {
+      "title": "中国国家地理·襄阳之战：宋元的十字路口",
+      "url": "https://www.dili360.com/ch/article/p64f5368147e7b70.htm"
+    },
+    "battle_78935381e2": {
+      "title": "《宋史·瀛国公二王附》祥兴二年",
+      "url": "https://zh.wikisource.org/wiki/宋史/卷047"
+    },
+    "battle_4d02cf296a": {
+      "title": "《明史·太祖本纪一》至正二十三年",
+      "url": "https://zh.wikisource.org/wiki/明史/卷1"
+    },
+    "battle_f46b74b52b": {
+      "title": "南昌市新建区人民政府·历史沿革（1363年鄱湖战事）",
+      "url": "https://xjq.nc.gov.cn/xjqrmzf/lsyg/list_tt.shtml"
+    },
+    "battle_c54ffb9bfb": {
+      "title": "故宫博物院·靖难起家：朱棣",
+      "url": "https://www.dpm.org.cn/explode/others/208160.html"
+    },
+    "battle_2844856f8b": {
+      "title": "故宫博物院·土木之变",
+      "url": "https://www.dpm.org.cn/lemmas/243962.html"
+    },
+    "battle_19591cdae3": {
+      "title": "故宫博物院·萨尔浒之战",
+      "url": "https://www.dpm.org.cn/lemmas/241392.html"
+    },
+    "battle_a29f6a226a": {
+      "title": "河北省地方志办公室政务号·决定中国历史走向的山海关之战",
+      "url": "https://www.thepaper.cn/newsDetail_forward_2732377"
+    },
+    "battle_b9408475d6": {
+      "title": "故宫博物院·平定三藩",
+      "url": "https://www.dpm.org.cn/court/event/160317.html"
+    },
+    "battle_6c02b3ae5e": {
+      "title": "中国国家博物馆·康熙二十年十二月二十日三藩平定诏谕",
+      "url": "https://www.chnmuseum.cn/zp/zpml/201812/t20181218_24762.shtml"
+    },
+    "battle_8743228c84": {
+      "title": "国史馆台湾文献馆·史迹大楼（1683年澎湖战役与郑克塽归降）",
+      "url": "https://www.th.gov.tw/CP/104/176/"
+    },
+    "battle_43224fc0e2": {
+      "title": "教育部学习资源网／师大历史文化学习网·郑清澎湖海战的结果",
+      "url": "https://market.cloud.edu.tw/resources/web/1660498"
+    },
+    "battle_b45fd55261": {
+      "title": "中国国家博物馆·鸦片烟具（鸦片战争1840年6月至1842年8月）",
+      "url": "https://www.chnmuseum.cn/zp/zpml/201812/t20181218_25802.shtml"
+    },
+    "battle_8d5b3c95c9": {
+      "title": "外交部驻港特派员公署·中国近代外交史（南京条约1842年8月29日）",
+      "url": "https://quiz.hk.ocmfa.gov.cn/chn/dejjs/ckzl2008/zgjxdwjs/200611/t20061117_7501803.htm"
+    },
+    "battle_17c6dbfeeb": {
+      "title": "故宫博物院·太平天国起义",
+      "url": "https://www.dpm.org.cn/lemmas/241752.html"
+    },
+    "battle_b8e34e577e": {
+      "title": "故宫博物院·同治中兴（1864年太平天国覆灭）",
+      "url": "https://www.dpm.org.cn/court/event/161110.html"
+    },
+    "battle_ad781bb288": {
+      "title": "故宫博物院·第二次鸦片战争",
+      "url": "https://www.dpm.org.cn/lemmas/241730.html"
+    },
+    "battle_46fc2009db": {
+      "title": "英国国家陆军博物馆·Second China War",
+      "url": "https://www.nam.ac.uk/explore/second-china-war"
+    },
+    "battle_4261b58937": {
+      "title": "国防部·抗日战史概述（甲午战争及马关条约纪年）",
+      "url": "https://www.mnd.gov.tw/en/informationservices/publication/70697"
+    },
+    "battle_6c6cb6d65f": {
+      "title": "人民网·甲午战争大事解读（丰岛、黄海战事）",
+      "url": "https://military.people.com.cn/GB/8221/84385/385625/index.html"
+    }
+  },
+  "wars": [
+    {
+      "id": "war_changping",
+      "title": "长平之战",
+      "startYear": -260,
+      "endYear": -260,
+      "location": "长平（今高平一带）",
+      "coordinates": [
+        112.93,
+        35.8
+      ],
+      "locations": [
+        {
+          "label": "长平（今高平一带）",
+          "coordinates": [
+            112.93,
+            35.8
+          ],
+          "role": "主战区示意"
+        }
+      ],
+      "parties": [
+        "秦",
+        "赵"
+      ],
+      "outcome": "秦军击败赵军；赵军投降后遭大规模杀戮。",
+      "whyImportant": "重创赵国军力，改变战国后期的战略平衡。",
+      "certainty": "年代可考；位置为区域示意",
+      "dateNote": "本条标前260年决战；前262年起的上党争夺是前因，不把前262至前260全算成同一场会战。兵力和死者数字在史料中有夸大风险，不作精确统计。",
+      "locationNote": "经纬度是依据所述现代地域人工选取并取整的浏览锚点，不是古战场边界、精确阵地或历史城垣测绘。",
+      "sourceIds": [
+        "battle_92c29ea2aa"
+      ],
+      "eventIds": [
+        "anc_changping"
+      ],
+      "priority": 8
+    },
+    {
+      "id": "war_qin_unification",
+      "title": "秦兼并六国",
+      "startYear": -230,
+      "endYear": -221,
+      "location": "山东六国（多战区）",
+      "coordinates": [
+        113.73,
+        34.4
+      ],
+      "locations": [
+        {
+          "label": "韩·新郑",
+          "coordinates": [
+            113.73,
+            34.4
+          ],
+          "role": "前230年韩王被俘"
+        },
+        {
+          "label": "赵·邯郸",
+          "coordinates": [
+            114.49,
+            36.61
+          ],
+          "role": "前228年赵王被俘"
+        },
+        {
+          "label": "魏·大梁",
+          "coordinates": [
+            114.35,
+            34.79
+          ],
+          "role": "前225年魏王降"
+        },
+        {
+          "label": "楚·寿春",
+          "coordinates": [
+            116.79,
+            32.57
+          ],
+          "role": "前223年楚王被俘"
+        },
+        {
+          "label": "燕·辽东",
+          "coordinates": [
+            123.17,
+            41.27
+          ],
+          "role": "前222年燕王被俘，区域锚点"
+        },
+        {
+          "label": "齐·临淄",
+          "coordinates": [
+            118.3,
+            36.82
+          ],
+          "role": "前221年齐王被俘"
+        }
+      ],
+      "parties": [
+        "秦",
+        "韩",
+        "赵",
+        "魏",
+        "楚",
+        "燕",
+        "齐"
+      ],
+      "outcome": "秦先后攻灭六国主要朝廷，前221年完成兼并。",
+      "whyImportant": "结束主要战国诸侯并立，形成秦帝国的统治框架。",
+      "certainty": "年代可考；位置为区域示意",
+      "dateNote": "前228赵王被俘后代地仍延续至前222；楚军事抵抗亦有后续。图中各都邑/区域只定位政权覆亡的相关地点，不能连成已复原的行军路线。",
+      "locationNote": "经纬度是依据所述现代地域人工选取并取整的浏览锚点，不是古战场边界、精确阵地或历史城垣测绘。",
+      "linkedEventRole": "独立战争区间；关联事件保留自身原来的时间，禁止把终局卡片改成战争起点",
+      "sourceIds": [
+        "battle_c62c4153ba",
+        "battle_92332b52af"
+      ],
+      "eventIds": [
+        "campaign_war_qin_unification",
+        "anc_han_end",
+        "anc_zhao_end",
+        "anc_wei_end",
+        "anc_chu_end",
+        "anc_yan_dai_end"
+      ],
+      "priority": 8
+    },
+    {
+      "id": "war_julu",
+      "title": "巨鹿之战",
+      "startYear": -208,
+      "endYear": -207,
+      "location": "古巨鹿（今平乡县西南一带）",
+      "coordinates": [
+        114.92,
+        36.98
+      ],
+      "locations": [
+        {
+          "label": "古巨鹿（今平乡县西南一带）",
+          "coordinates": [
+            114.92,
+            36.98
+          ],
+          "role": "主战区示意"
+        }
+      ],
+      "parties": [
+        "项羽等楚军及救赵诸侯军",
+        "秦军"
+      ],
+      "outcome": "项羽击败围巨鹿的秦军，王离被俘，章邯部随后另行投降。",
+      "whyImportant": "秦军主力受到决定性打击，反秦联盟的力量格局改变。",
+      "certainty": "年代可考；位置为区域示意",
+      "dateNote": "以围城至决战过程作前208—前207年年度窗口。秦历十月为岁首，“二世三年十二月”不能机械改写为现代前207年12月；只保留原历与通行跨年框架。",
+      "locationNote": "CHGIS条目时段为西汉，所引《元和郡县图志》明确追述秦巨鹿城；坐标借其旧城区域作浏览锚点，绝不指今天巨鹿县城。",
+      "startDateLabel": "秦二世二年末（围城阶段）",
+      "endDateLabel": "秦二世三年（决战与后续）",
+      "sourceIds": [
+        "battle_7d07b79df9",
+        "battle_e98ee005be",
+        "battle_cd32b5778a"
+      ],
+      "eventIds": [
+        "campaign_war_julu",
+        "chron_julu"
+      ],
+      "priority": 8
+    },
+    {
+      "id": "war_chuhan",
+      "title": "楚汉战争",
+      "startYear": -206,
+      "endYear": -202,
+      "location": "荥阳—成皋及楚汉战区",
+      "coordinates": [
+        113.36,
+        34.79
+      ],
+      "locations": [
+        {
+          "label": "荥阳—成皋",
+          "coordinates": [
+            113.36,
+            34.79
+          ],
+          "role": "相持战区"
+        },
+        {
+          "label": "彭城",
+          "coordinates": [
+            117.19,
+            34.26
+          ],
+          "role": "重要交战地"
+        },
+        {
+          "label": "垓下",
+          "coordinates": [
+            117.63,
+            33.3
+          ],
+          "role": "终局区域，有地望争议"
+        }
+      ],
+      "parties": [
+        "刘邦集团及盟军",
+        "项羽集团及诸侯"
+      ],
+      "outcome": "刘邦集团获胜，项羽败亡，汉朝建立。",
+      "whyImportant": "秦亡后的竞争由多国逐步转向汉帝国。",
+      "certainty": "年代可考；位置为区域示意",
+      "dateNote": "采用刘邦还定三秦至垓下终局的前206—前202年框架；不是从鸿门宴起一律计作同一场战争。",
+      "locationNote": "经纬度是依据所述现代地域人工选取并取整的浏览锚点，不是古战场边界、精确阵地或历史城垣测绘。",
+      "linkedEventRole": "独立战争区间；关联事件保留自身原来的时间，禁止把终局卡片改成战争起点",
+      "sourceIds": [
+        "battle_7d07b79df9",
+        "battle_83cb1fc40b"
+      ],
+      "eventIds": [
+        "campaign_war_chuhan",
+        "chron_gaixia"
+      ],
+      "priority": 8
+    },
+    {
+      "id": "war_gaixia",
+      "title": "垓下之战",
+      "startYear": -202,
+      "endYear": -202,
+      "location": "垓下（今固镇—灵璧交界相关区域）",
+      "coordinates": [
+        117.63,
+        33.3
+      ],
+      "locations": [
+        {
+          "label": "固镇濠城说",
+          "coordinates": [
+            117.64,
+            33.25
+          ],
+          "role": "固镇政府记载的垓下遗址区域"
+        },
+        {
+          "label": "灵璧韦集说",
+          "coordinates": [
+            117.63,
+            33.35
+          ],
+          "role": "宿州政府记载的垓下古战场区域"
+        }
+      ],
+      "parties": [
+        "汉及诸侯联军",
+        "西楚"
+      ],
+      "outcome": "项羽突围后败亡，楚汉战争进入终局。",
+      "whyImportant": "汉朝建立前的关键决战。",
+      "certainty": "年份可考；地望存在异说",
+      "dateNote": "通行系于前202年；汉五年十二月是当时历法月，不转换为前202年12月。",
+      "locationNote": "固镇与灵璧两地官方均有垓下遗址/古战场认定；保留两个近似地点，不把其中一处标成无争议唯一决战点。",
+      "sourceIds": [
+        "battle_7d07b79df9",
+        "battle_caa55c36e3",
+        "battle_8290358b4a"
+      ],
+      "eventIds": [
+        "chron_gaixia"
+      ],
+      "priority": 8
+    },
+    {
+      "id": "war_kunyang",
+      "title": "昆阳之战",
+      "startYear": 23,
+      "endYear": 23,
+      "location": "昆阳（今叶县一带）",
+      "coordinates": [
+        113.36,
+        33.62
+      ],
+      "locations": [
+        {
+          "label": "昆阳（今叶县一带）",
+          "coordinates": [
+            113.36,
+            33.62
+          ],
+          "role": "主战区示意"
+        }
+      ],
+      "parties": [
+        "更始政权军队（王凤、王常、刘秀等）",
+        "新朝军队（王寻、王邑等）"
+      ],
+      "outcome": "新军败退，王寻战死。",
+      "whyImportant": "削弱新朝主力，为当年新朝覆亡创造条件；不是东汉已经建立。",
+      "certainty": "年代可考；位置为区域示意",
+      "dateNote": "按年展示；未将史料记载不足的月份、日或公历换算写成确定日期。",
+      "locationNote": "经纬度是依据所述现代地域人工选取并取整的浏览锚点，不是古战场边界、精确阵地或历史城垣测绘。",
+      "sourceIds": [
+        "battle_90246d3b14",
+        "battle_5061fb2642"
+      ],
+      "eventIds": [
+        "chron_kunyang"
+      ],
+      "priority": 8
+    },
+    {
+      "id": "war_guandu",
+      "title": "官渡之战",
+      "startYear": 200,
+      "endYear": 200,
+      "location": "官渡（今中牟一带）",
+      "coordinates": [
+        114.01,
+        34.72
+      ],
+      "locations": [
+        {
+          "label": "官渡（今中牟一带）",
+          "coordinates": [
+            114.01,
+            34.72
+          ],
+          "role": "主战区示意"
+        }
+      ],
+      "parties": [
+        "曹操集团",
+        "袁绍集团"
+      ],
+      "outcome": "曹军袭乌巢并击败袁军，袁绍退回河北。",
+      "whyImportant": "曹操取得北方竞争优势，但袁氏势力并非在200年立即消失。",
+      "certainty": "年代可考；位置为区域示意",
+      "dateNote": "按年展示；未将史料记载不足的月份、日或公历换算写成确定日期。",
+      "locationNote": "经纬度是依据所述现代地域人工选取并取整的浏览锚点，不是古战场边界、精确阵地或历史城垣测绘。",
+      "startDateLabel": "建安五年",
+      "endDateLabel": "建安五年冬十月（决战）",
+      "linkedEventId": "chron_guandu",
+      "sourceIds": [
+        "battle_7a47c7a639",
+        "battle_147483567d"
+      ],
+      "eventIds": [
+        "chron_guandu"
+      ],
+      "priority": 8
+    },
+    {
+      "id": "war_chibi",
+      "title": "赤壁之战",
+      "startYear": 208,
+      "endYear": 208,
+      "location": "赤壁—乌林（长江两岸相关区域）",
+      "coordinates": [
+        113.65,
+        29.88
+      ],
+      "locations": [
+        {
+          "label": "赤壁一带",
+          "coordinates": [
+            113.65,
+            29.88
+          ],
+          "role": "主战区通行地望"
+        },
+        {
+          "label": "乌林一带",
+          "coordinates": [
+            113.62,
+            29.94
+          ],
+          "role": "曹军相关驻地"
+        }
+      ],
+      "parties": [
+        "孙权、刘备联军",
+        "曹操军"
+      ],
+      "outcome": "曹军遭火攻并受疫病影响后撤。",
+      "whyImportant": "阻止曹操短期内席卷江南，孙刘双方得以扩展长江流域势力。",
+      "certainty": "年代可考；古战场细部地望有争议",
+      "dateNote": "以208年冬决战为标签；若扩展至江陵争夺，应另立208—209年战役，不把后续全部压入当日。",
+      "locationNote": "采用赤壁—乌林通行地望的区域锚点；古河道及火攻准确位置未复原，也不采用小说的借东风、连环计等作为史实。",
+      "startDateLabel": "建安十三年冬",
+      "endDateLabel": "建安十三年冬",
+      "linkedEventId": "chron_red_cliffs",
+      "sourceIds": [
+        "battle_7a47c7a639",
+        "battle_ed552789e3",
+        "battle_1b9f496c76"
+      ],
+      "eventIds": [
+        "chron_red_cliffs"
+      ],
+      "priority": 8
+    },
+    {
+      "id": "war_yiling",
+      "title": "夷陵之战",
+      "startYear": 221,
+      "endYear": 222,
+      "location": "夷陵—猇亭",
+      "coordinates": [
+        111.43,
+        30.57
+      ],
+      "locations": [
+        {
+          "label": "猇亭一带",
+          "coordinates": [
+            111.43,
+            30.57
+          ],
+          "role": "主要战区"
+        },
+        {
+          "label": "夷陵一带",
+          "coordinates": [
+            111.3,
+            30.7
+          ],
+          "role": "水陆军部署区域"
+        },
+        {
+          "label": "白帝城",
+          "coordinates": [
+            109.57,
+            31.04
+          ],
+          "role": "刘备退守地"
+        }
+      ],
+      "parties": [
+        "蜀汉军（刘备）",
+        "孙权军（陆逊）"
+      ],
+      "outcome": "蜀军败退，刘备退至白帝城。",
+      "whyImportant": "蜀汉东征失败，此后三国竞争逐渐进入相持格局。",
+      "certainty": "年代可考；位置为区域示意",
+      "dateNote": "221—222年标整场东征；若只标陆逊火攻决战才用222年。不把“七百里连营”等文学化数字当测绘资料。",
+      "locationNote": "经纬度是依据所述现代地域人工选取并取整的浏览锚点，不是古战场边界、精确阵地或历史城垣测绘。",
+      "startDateLabel": "章武元年七月（刘备出兵）",
+      "endDateLabel": "章武二年（陆逊反击、刘备败退）",
+      "linkedEventId": "chron_yiling",
+      "sourceIds": [
+        "battle_b0c1bf34ad",
+        "battle_6046774189",
+        "battle_286cad56f6"
+      ],
+      "eventIds": [
+        "campaign_war_yiling",
+        "chron_yiling"
+      ],
+      "priority": 8
+    },
+    {
+      "id": "war_wei_shu",
+      "title": "魏灭蜀之战",
+      "startYear": 263,
+      "endYear": 263,
+      "location": "剑阁—绵竹—成都",
+      "coordinates": [
+        104.11,
+        31.34
+      ],
+      "locations": [
+        {
+          "label": "剑阁",
+          "coordinates": [
+            105.5,
+            32.28
+          ],
+          "role": "姜维抵抗区域"
+        },
+        {
+          "label": "绵竹一带",
+          "coordinates": [
+            104.21,
+            31.34
+          ],
+          "role": "邓艾击败蜀军的区域"
+        },
+        {
+          "label": "成都",
+          "coordinates": [
+            104.07,
+            30.66
+          ],
+          "role": "刘禅出降地"
+        }
+      ],
+      "parties": [
+        "曹魏军（钟会、邓艾等）",
+        "蜀汉军（姜维、诸葛瞻等）"
+      ],
+      "outcome": "邓艾进入成都，刘禅出降，蜀汉朝廷终结。",
+      "whyImportant": "三国格局首先缺去蜀汉；当时魏尚未被晋取代。",
+      "certainty": "年代可考；位置为区域示意",
+      "dateNote": "《三国志》景耀六年、炎兴元年记载本年进攻与出降；地图锚点均为古地名附近的区域参照。",
+      "locationNote": "经纬度是依据所述现代地域人工选取并取整的浏览锚点，不是古战场边界、精确阵地或历史城垣测绘。",
+      "linkedEventId": "chron_end_shu",
+      "sourceIds": [
+        "battle_346fc8c66f"
+      ],
+      "eventIds": [
+        "chron_end_shu"
+      ],
+      "priority": 8
+    },
+    {
+      "id": "war_jin_wu",
+      "title": "晋灭吴之战",
+      "startYear": 279,
+      "endYear": 280,
+      "location": "荆州至建业沿江战区",
+      "coordinates": [
+        118.77,
+        32.06
+      ],
+      "locations": [
+        {
+          "label": "江陵",
+          "coordinates": [
+            112.19,
+            30.35
+          ],
+          "role": "杜预进攻方向的关键城市"
+        },
+        {
+          "label": "西陵",
+          "coordinates": [
+            111.3,
+            30.7
+          ],
+          "role": "王濬水军东下战区"
+        },
+        {
+          "label": "建业—石头城",
+          "coordinates": [
+            118.77,
+            32.06
+          ],
+          "role": "吴廷出降相关区域"
+        }
+      ],
+      "parties": [
+        "西晋军（王濬、杜预、王浑等）",
+        "孙吴军（孙皓、张悌等）"
+      ],
+      "outcome": "晋军分路进攻，孙皓出降。",
+      "whyImportant": "孙吴朝廷终结，西晋实现阶段性的南北统一。",
+      "certainty": "年代可考；位置为区域示意",
+      "dateNote": "按年展示；未将史料记载不足的月份、日或公历换算写成确定日期。",
+      "locationNote": "经纬度是依据所述现代地域人工选取并取整的浏览锚点，不是古战场边界、精确阵地或历史城垣测绘。",
+      "startDateLabel": "咸宁五年十一月（大举伐吴）",
+      "endDateLabel": "太康元年三月（孙皓出降）",
+      "linkedEventId": "chron_end_wu",
+      "linkedEventRole": "独立战争区间；关联事件保留自身原来的时间，禁止把终局卡片改成战争起点",
+      "sourceIds": [
+        "battle_4548a07fe1"
+      ],
+      "eventIds": [
+        "campaign_war_jin_wu",
+        "chron_end_wu"
+      ],
+      "priority": 8
+    },
+    {
+      "id": "war_feishui",
+      "title": "淝水之战",
+      "startYear": 383,
+      "endYear": 383,
+      "location": "淝水—寿阳（今寿县一带）",
+      "coordinates": [
+        116.79,
+        32.57
+      ],
+      "locations": [
+        {
+          "label": "淝水—寿阳（今寿县一带）",
+          "coordinates": [
+            116.79,
+            32.57
+          ],
+          "role": "主战区示意"
+        }
+      ],
+      "parties": [
+        "东晋军（谢石、谢玄、刘牢之等）",
+        "前秦军（苻坚、苻融等）"
+      ],
+      "outcome": "东晋获胜，前秦主力败退。",
+      "whyImportant": "前秦统一南北失败，北方随后分裂；前秦并未在此战当天灭亡。",
+      "certainty": "年代可考；位置为区域示意",
+      "dateNote": "按年展示；未将史料记载不足的月份、日或公历换算写成确定日期。",
+      "locationNote": "经纬度是依据所述现代地域人工选取并取整的浏览锚点，不是古战场边界、精确阵地或历史城垣测绘。",
+      "linkedEventId": "chron_feishui",
+      "sourceIds": [
+        "battle_3e9a9275f9",
+        "battle_68c4935e1d"
+      ],
+      "eventIds": [
+        "chron_feishui"
+      ],
+      "priority": 8
+    },
+    {
+      "id": "war_sui_chen",
+      "title": "隋灭陈之战",
+      "startYear": 588,
+      "endYear": 589,
+      "location": "长江多路渡江—建康",
+      "coordinates": [
+        118.78,
+        32.05
+      ],
+      "locations": [
+        {
+          "label": "六合",
+          "coordinates": [
+            118.84,
+            32.35
+          ],
+          "role": "隋军集结方向之一"
+        },
+        {
+          "label": "京口",
+          "coordinates": [
+            119.45,
+            32.2
+          ],
+          "role": "贺若弼渡江攻取地"
+        },
+        {
+          "label": "采石—姑孰方向",
+          "coordinates": [
+            118.46,
+            31.65
+          ],
+          "role": "韩擒虎进军方向"
+        },
+        {
+          "label": "建康",
+          "coordinates": [
+            118.78,
+            32.05
+          ],
+          "role": "陈都终局"
+        }
+      ],
+      "parties": [
+        "隋军（杨广、杨素、韩擒虎、贺若弼等）",
+        "陈军（陈叔宝等）"
+      ],
+      "outcome": "隋军攻入建康，陈叔宝被俘。",
+      "whyImportant": "南北主要朝廷分立格局结束，后续行政与地方抵抗仍须整合。",
+      "certainty": "年代可考；位置为区域示意",
+      "dateNote": "588年已出师部署，589年攻破都城。图示端点不等于精确渡江路线。",
+      "locationNote": "经纬度是依据所述现代地域人工选取并取整的浏览锚点，不是古战场边界、精确阵地或历史城垣测绘。",
+      "startDateLabel": "开皇八年冬十月（命诸军伐陈）",
+      "endDateLabel": "开皇九年正月（建康陷、陈主被俘）",
+      "linkedEventId": "chron_sui_unites",
+      "linkedEventRole": "独立战争区间；关联事件保留自身原来的时间，禁止把终局卡片改成战争起点",
+      "sourceIds": [
+        "battle_173d118604"
+      ],
+      "eventIds": [
+        "campaign_war_sui_chen",
+        "chron_sui_unites"
+      ],
+      "priority": 8
+    },
+    {
+      "id": "war_luoyang_hulao",
+      "title": "洛阳—虎牢之战",
+      "startYear": 620,
+      "endYear": 621,
+      "location": "洛阳与虎牢",
+      "coordinates": [
+        113.14,
+        34.83
+      ],
+      "locations": [
+        {
+          "label": "洛阳",
+          "coordinates": [
+            112.45,
+            34.68
+          ],
+          "role": "围城目标"
+        },
+        {
+          "label": "虎牢（今荥阳汜水一带）",
+          "coordinates": [
+            113.14,
+            34.83
+          ],
+          "role": "与窦建德决战区域"
+        }
+      ],
+      "parties": [
+        "唐军（李世民等）",
+        "郑军（王世充）",
+        "夏军（窦建德）"
+      ],
+      "outcome": "窦建德被俘，王世充随后降唐。",
+      "whyImportant": "唐朝取得中原战争的重要胜利，尚不意味着全国所有割据立即结束。",
+      "certainty": "年代可考；位置为区域示意",
+      "dateNote": "620—621年涵盖洛阳与虎牢整体作战；若标题仅“虎牢之战”，宜标621年，不把两者混为同样时间范围。",
+      "locationNote": "经纬度是依据所述现代地域人工选取并取整的浏览锚点，不是古战场边界、精确阵地或历史城垣测绘。",
+      "startDateLabel": "武德三年七月（唐东征王世充）",
+      "endDateLabel": "武德四年五月（虎牢决战及王世充出降）",
+      "linkedEventId": "chron_hulao",
+      "linkedEventRole": "独立战争区间；关联事件保留自身原来的时间，禁止把终局卡片改成战争起点",
+      "sourceIds": [
+        "battle_2ef9744833",
+        "battle_921440f3b7"
+      ],
+      "eventIds": [
+        "campaign_war_luoyang_hulao",
+        "chron_hulao"
+      ],
+      "priority": 8
+    },
+    {
+      "id": "war_anshi",
+      "title": "安史之乱",
+      "startYear": 755,
+      "endYear": 763,
+      "location": "范阳起兵及河北、河南、关中战区",
+      "coordinates": [
+        116.35,
+        39.88
+      ],
+      "locations": [
+        {
+          "label": "范阳（幽州城附近）",
+          "coordinates": [
+            116.35,
+            39.88
+          ],
+          "role": "755年起兵区域"
+        },
+        {
+          "label": "洛阳",
+          "coordinates": [
+            112.45,
+            34.68
+          ],
+          "role": "反复争夺的东都"
+        },
+        {
+          "label": "长安",
+          "coordinates": [
+            108.89,
+            34.25
+          ],
+          "role": "756年陷落、757年收复的西京"
+        },
+        {
+          "label": "睢阳",
+          "coordinates": [
+            115.65,
+            34.39
+          ],
+          "role": "757年重要防御战"
+        }
+      ],
+      "parties": [
+        "唐军及回纥等盟军",
+        "安禄山、安庆绪、史思明、史朝义军"
+      ],
+      "outcome": "唐廷收复两京，史朝义败亡，战争终结。",
+      "whyImportant": "削弱中央财政与边防，深刻改变唐朝中后期的军镇结构。",
+      "certainty": "年代可考；位置为区域示意",
+      "dateNote": "沿用已核的原历起日与止月，不把全部战争当作755年的瞬时事件。《通鉴》将763年统摄于广德元年，正月当时仍用宝应二年。",
+      "locationNote": "经纬度是依据所述现代地域人工选取并取整的浏览锚点，不是古战场边界、精确阵地或历史城垣测绘。",
+      "startDateLabel": "天宝十四载十一月初九",
+      "endDateLabel": "宝应二年正月",
+      "linkedEventId": "chron_anshi",
+      "linkedEventRole": "独立战争区间；关联事件保留自身原来的时间，禁止把终局卡片改成战争起点",
+      "sourceIds": [
+        "battle_66576ac4b4",
+        "battle_fde48ed538",
+        "battle_51e9d6745b"
+      ],
+      "eventIds": [
+        "chron_anshi",
+        "chron_chang_an_fall"
+      ],
+      "priority": 10
+    },
+    {
+      "certainty": "年代可考；位置为区域示意",
+      "dateNote": "本条从黄巢875年起兵计，不混入王仙芝874年前期。880年末攻入长安与881年建元/纪年应区分；死亡月份及自杀、他杀等细节未作确定断言。",
+      "locationNote": "除巨鹿借CHGIS历史城址区域外，经纬度均为依据现代地域手工选取的近似浏览锚点，应在地图展示中明确标为示意，建议使用战区光晕而非精确定位针。数值不得被解释为史料直接记载的坐标。",
+      "id": "war_huangchao",
+      "title": "黄巢起义及唐末战争",
+      "startYear": 875,
+      "endYear": 884,
+      "location": "冤句起兵与唐末多战区",
+      "coordinates": [
+        115.47,
+        35.2
+      ],
+      "locations": [
+        {
+          "label": "曹州冤句相关区域",
+          "coordinates": [
+            115.47,
+            35.2
+          ],
+          "role": "875年黄巢起兵区域示意"
+        },
+        {
+          "label": "广州",
+          "coordinates": [
+            113.26,
+            23.13
+          ],
+          "role": "879年南方战区"
+        },
+        {
+          "label": "长安",
+          "coordinates": [
+            108.89,
+            34.25
+          ],
+          "role": "880年末至883年大齐政治中心及争夺地"
+        },
+        {
+          "label": "泰山南部",
+          "coordinates": [
+            117.39,
+            36.12
+          ],
+          "role": "884年败亡相关区域，非已核死亡点"
+        }
+      ],
+      "parties": [
+        "黄巢军及王仙芝等起义军",
+        "唐军、沙陀等地方军队"
+      ],
+      "outcome": "黄巢军一度攻入长安、建大齐，883年退出长安，884年黄巢败亡。",
+      "whyImportant": "重创唐廷的军事与财政控制，地方军阀进一步坐大，但唐朝仍延续至907年。",
+      "sourceIds": [
+        "battle_61664f7f47",
+        "battle_309eed8508"
+      ],
+      "eventIds": [
+        "campaign_war_huangchao",
+        "chron_huangchao",
+        "chron_huangchao_capital"
+      ],
+      "priority": 8
+    },
+    {
+      "id": "war_chanyuan",
+      "title": "澶州之战与澶渊和议",
+      "startYear": 1004,
+      "endYear": 1005,
+      "location": "澶州（今濮阳县一带）",
+      "coordinates": [
+        115.03,
+        35.7
+      ],
+      "locations": [
+        {
+          "label": "澶州（今濮阳县一带）",
+          "coordinates": [
+            115.03,
+            35.7
+          ],
+          "role": "主战区示意"
+        }
+      ],
+      "parties": [
+        "宋",
+        "辽"
+      ],
+      "outcome": "宋辽在战事和谈中达成澶渊之盟。",
+      "whyImportant": "此后宋辽边境进入较长时期的相对和平，适合在战争结束后显示和平区间。",
+      "certainty": "年代可考；位置为区域示意",
+      "dateNote": "1004年秋辽军南下，和议原历为景德元年十二月，对应西历已跨入1005年。仅标“1004年结盟”会混淆两套年界。",
+      "locationNote": "经纬度是依据所述现代地域人工选取并取整的浏览锚点，不是古战场边界、精确阵地或历史城垣测绘。",
+      "sourceIds": [
+        "battle_97eab2c9c9"
+      ],
+      "eventIds": [
+        "campaign_war_chanyuan",
+        "chron_chanyuan"
+      ],
+      "priority": 8
+    },
+    {
+      "id": "war_jingkang",
+      "title": "金军南下与靖康之难",
+      "startYear": 1125,
+      "endYear": 1127,
+      "location": "太原—东京开封及北方战区",
+      "coordinates": [
+        114.35,
+        34.8
+      ],
+      "locations": [
+        {
+          "label": "太原",
+          "coordinates": [
+            112.48,
+            37.72
+          ],
+          "role": "西路长期围攻要点"
+        },
+        {
+          "label": "东京开封",
+          "coordinates": [
+            114.35,
+            34.8
+          ],
+          "role": "两次围城及朝廷终局"
+        }
+      ],
+      "parties": [
+        "金军（完颜宗翰、完颜宗望等）",
+        "北宋军与勤王军"
+      ],
+      "outcome": "开封失守，徽、钦二帝被俘北行，北宋朝廷覆亡。",
+      "whyImportant": "宋廷重建于南方，南北分治由后续多年战争逐步形成。",
+      "certainty": "年代可考；位置为区域示意",
+      "dateNote": "1125年起金军南下；1126年发生两次开封围攻，1127年俘帝北行。严格按现代西历讨论城陷日期仍需历法换算；本条按年表示战争至政治终局，不把全部称为1127年单次攻城。",
+      "locationNote": "经纬度是依据所述现代地域人工选取并取整的浏览锚点，不是古战场边界、精确阵地或历史城垣测绘。",
+      "linkedEventId": "chron_jingkang",
+      "linkedEventRole": "独立战争区间；关联事件保留自身原来的时间，禁止把终局卡片改成战争起点",
+      "sourceIds": [
+        "battle_cff38428f6",
+        "battle_71a83f86af"
+      ],
+      "eventIds": [
+        "campaign_war_jingkang",
+        "chron_jingkang"
+      ],
+      "priority": 8
+    },
+    {
+      "id": "war_caishi",
+      "title": "采石之战",
+      "startYear": 1161,
+      "endYear": 1161,
+      "location": "采石矶（今马鞍山长江岸）",
+      "coordinates": [
+        118.46,
+        31.65
+      ],
+      "locations": [
+        {
+          "label": "采石矶（今马鞍山长江岸）",
+          "coordinates": [
+            118.46,
+            31.65
+          ],
+          "role": "主战区示意"
+        }
+      ],
+      "parties": [
+        "南宋军（虞允文等）",
+        "金军（完颜亮等）"
+      ],
+      "outcome": "宋军阻遏金军在采石渡江。",
+      "whyImportant": "挫败金朝此次渡江进攻，维持南宋江防；完颜亮后来死于军变，不是在采石被杀。",
+      "certainty": "年代可考；位置为区域示意",
+      "dateNote": "原历十一月；未未经换算就写成现代11月同日。",
+      "locationNote": "经纬度是依据所述现代地域人工选取并取整的浏览锚点，不是古战场边界、精确阵地或历史城垣测绘。",
+      "startDateLabel": "绍兴三十一年十一月",
+      "endDateLabel": "绍兴三十一年十一月",
+      "sourceIds": [
+        "battle_2162f53dc2",
+        "battle_0c9e1d6555"
+      ],
+      "eventIds": [
+        "chron_caishi"
+      ],
+      "priority": 8
+    },
+    {
+      "id": "war_xiangyang",
+      "title": "襄阳、樊城攻防",
+      "startYear": 1267,
+      "endYear": 1273,
+      "location": "襄阳—樊城（汉水两岸）",
+      "coordinates": [
+        112.14,
+        32.03
+      ],
+      "locations": [
+        {
+          "label": "襄阳城",
+          "coordinates": [
+            112.14,
+            32.01
+          ],
+          "role": "南岸长期围城"
+        },
+        {
+          "label": "樊城",
+          "coordinates": [
+            112.14,
+            32.06
+          ],
+          "role": "北岸城防"
+        }
+      ],
+      "parties": [
+        "南宋军（吕文焕等）",
+        "蒙古军、后来的元军（阿术、刘整等）"
+      ],
+      "outcome": "樊城破，吕文焕以襄阳降元。",
+      "whyImportant": "宋朝汉水防线失去关键支点，元军得以沿江南进。",
+      "certainty": "年代可考；位置为区域示意",
+      "dateNote": "1267年计入安阳滩等前哨战；1268年作为正式长期围城的起点也常见。明确选用整场攻防的1267—1273范围，不能称精确连续围城六整年。1271年前进攻方不提前称为已建国号的元朝。",
+      "locationNote": "经纬度是依据所述现代地域人工选取并取整的浏览锚点，不是古战场边界、精确阵地或历史城垣测绘。",
+      "startDateLabel": "咸淳三年前哨战；四年起持续围城",
+      "endDateLabel": "咸淳九年正月樊城破、二月襄阳降",
+      "linkedEventId": "chron_xiangyang",
+      "linkedEventRole": "独立战争区间；关联事件保留自身原来的时间，禁止把终局卡片改成战争起点",
+      "sourceIds": [
+        "battle_244d5cb22a",
+        "battle_216b77e1bc"
+      ],
+      "eventIds": [
+        "campaign_war_xiangyang",
+        "chron_xiangyang"
+      ],
+      "priority": 8
+    },
+    {
+      "id": "war_yamen",
+      "title": "崖山海战",
+      "startYear": 1279,
+      "endYear": 1279,
+      "location": "崖山—崖门（今江门新会海口一带）",
+      "coordinates": [
+        113.05,
+        22.27
+      ],
+      "locations": [
+        {
+          "label": "崖山—崖门（今江门新会海口一带）",
+          "coordinates": [
+            113.05,
+            22.27
+          ],
+          "role": "主战区示意"
+        }
+      ],
+      "parties": [
+        "元军（张弘范、李恒等）",
+        "南宋流亡朝廷及水军（张世杰等）"
+      ],
+      "outcome": "宋军败，陆秀夫负赵昺入海，宋室最后朝廷结束。",
+      "whyImportant": "南宋政权终局；不把1276年临安投降与1279年流亡朝廷终结合并为一事。",
+      "certainty": "年代可考；位置为区域示意",
+      "dateNote": "《宋史》记二月癸未，保留原历；现代资料常见3月19日，但公历/儒略历与原历换算需另验，本数据不冒填ISO日。海岸和河口已变化，地图点是今崖门附近区域。",
+      "locationNote": "经纬度是依据所述现代地域人工选取并取整的浏览锚点，不是古战场边界、精确阵地或历史城垣测绘。",
+      "startDateLabel": "祥兴二年正月（元军至崖山）",
+      "endDateLabel": "祥兴二年二月癸未（决战）",
+      "linkedEventId": "chron_yamen",
+      "sourceIds": [
+        "battle_78935381e2"
+      ],
+      "eventIds": [
+        "chron_yamen"
+      ],
+      "priority": 8
+    },
+    {
+      "id": "war_poyang",
+      "title": "鄱阳湖之战",
+      "startYear": 1363,
+      "endYear": 1363,
+      "location": "鄱阳湖康郎山—湖口战区",
+      "coordinates": [
+        116.32,
+        29.13
+      ],
+      "locations": [
+        {
+          "label": "鄱阳湖相关水域",
+          "coordinates": [
+            116.32,
+            29.13
+          ],
+          "role": "湖战区域示意"
+        },
+        {
+          "label": "洪都",
+          "coordinates": [
+            115.89,
+            28.68
+          ],
+          "role": "前期围城及救援目标"
+        },
+        {
+          "label": "湖口",
+          "coordinates": [
+            116.22,
+            29.73
+          ],
+          "role": "后期封锁与突围区域"
+        }
+      ],
+      "parties": [
+        "朱元璋军",
+        "陈友谅汉军"
+      ],
+      "outcome": "陈友谅战死，朱元璋获胜；陈理政权仍延续至次年。",
+      "whyImportant": "显著改变元末江南群雄的实力格局，不能称朱元璋当年已建立明朝。",
+      "certainty": "年代可考；位置为区域示意",
+      "dateNote": "只保留原历月；鄱阳湖水域、洲滩及古湖岸变化大，不把现代湖心坐标当精确交战点；未采纳地方传说的陈友谅死后存活故事。",
+      "locationNote": "经纬度是依据所述现代地域人工选取并取整的浏览锚点，不是古战场边界、精确阵地或历史城垣测绘。",
+      "startDateLabel": "至正二十三年七月",
+      "endDateLabel": "至正二十三年八月（决战与突围）",
+      "sourceIds": [
+        "battle_4d02cf296a",
+        "battle_f46b74b52b"
+      ],
+      "eventIds": [
+        "campaign_war_poyang"
+      ],
+      "priority": 8
+    },
+    {
+      "id": "war_jingnan",
+      "title": "靖难之役",
+      "startYear": 1399,
+      "endYear": 1402,
+      "location": "北平至应天（南京）",
+      "coordinates": [
+        118.78,
+        32.05
+      ],
+      "locations": [
+        {
+          "label": "北平",
+          "coordinates": [
+            116.35,
+            39.9
+          ],
+          "role": "朱棣起兵区域"
+        },
+        {
+          "label": "应天府",
+          "coordinates": [
+            118.78,
+            32.05
+          ],
+          "role": "1402年攻入的京城"
+        }
+      ],
+      "parties": [
+        "燕王朱棣军",
+        "建文朝廷军"
+      ],
+      "outcome": "朱棣军进入南京，朱棣取得皇位。",
+      "whyImportant": "明朝内部继承战争，未改变国号，但重构权力与后来的迁都方向。",
+      "certainty": "年代可考；位置为区域示意",
+      "dateNote": "建文原历；“历四年”按年号包举，并非足四整年的时长。",
+      "locationNote": "经纬度是依据所述现代地域人工选取并取整的浏览锚点，不是古战场边界、精确阵地或历史城垣测绘。",
+      "startDateLabel": "建文元年七月",
+      "endDateLabel": "建文四年六月十三日（南京城开）",
+      "sourceIds": [
+        "battle_c54ffb9bfb"
+      ],
+      "eventIds": [
+        "campaign_war_jingnan"
+      ],
+      "priority": 8
+    },
+    {
+      "id": "war_tumu",
+      "title": "土木堡之战",
+      "startYear": 1449,
+      "endYear": 1449,
+      "location": "土木堡（今怀来县东）",
+      "coordinates": [
+        115.53,
+        40.4
+      ],
+      "locations": [
+        {
+          "label": "土木堡（今怀来县东）",
+          "coordinates": [
+            115.53,
+            40.4
+          ],
+          "role": "主战区示意"
+        }
+      ],
+      "parties": [
+        "明军（明英宗、王振等）",
+        "瓦剌军（也先等）"
+      ],
+      "outcome": "明军大败，明英宗被俘。",
+      "whyImportant": "引发北京防御和皇位更替危机，但明朝没有在1449年灭亡。",
+      "certainty": "年代可考；位置为区域示意",
+      "dateNote": "采用正统十四年（1449）年度，不沿用来源中的50万人为精确可证兵力。",
+      "locationNote": "经纬度是依据所述现代地域人工选取并取整的浏览锚点，不是古战场边界、精确阵地或历史城垣测绘。",
+      "linkedEventId": "late_tumu",
+      "sourceIds": [
+        "battle_2844856f8b"
+      ],
+      "eventIds": [
+        "late_tumu"
+      ],
+      "priority": 8
+    },
+    {
+      "certainty": "年代可考；位置为区域示意",
+      "dateNote": "1618年为杨镐获任经略及备战阶段，主要战斗在1619年。古战场部分被大伙房水库覆盖，不能以今水岸冒充1619年河道。",
+      "locationNote": "除巨鹿借CHGIS历史城址区域外，经纬度均为依据现代地域手工选取的近似浏览锚点，应在地图展示中明确标为示意，建议使用战区光晕而非精确定位针。数值不得被解释为史料直接记载的坐标。",
+      "id": "war_sarhu",
+      "title": "萨尔浒之战",
+      "startYear": 1619,
+      "endYear": 1619,
+      "location": "萨尔浒（今抚顺东大伙房水库周边）",
+      "coordinates": [
+        124.15,
+        41.87
+      ],
+      "locations": [
+        {
+          "label": "萨尔浒相关区域",
+          "coordinates": [
+            124.15,
+            41.87
+          ],
+          "role": "主战区示意"
+        }
+      ],
+      "parties": [
+        "明军及朝鲜援军",
+        "后金军（努尔哈赤等）"
+      ],
+      "outcome": "后金集中兵力击败分路来攻的明军，明方多路军队遭严重损失。",
+      "whyImportant": "辽东战争的力量对比向后金倾斜；此时国号是后金，不能提前写成清朝。",
+      "linkedEventId": "late_sarhu",
+      "sourceIds": [
+        "battle_19591cdae3"
+      ],
+      "eventIds": [
+        "late_sarhu"
+      ],
+      "priority": 8
+    },
+    {
+      "id": "war_shanhaiguan",
+      "title": "山海关之战",
+      "startYear": 1644,
+      "endYear": 1644,
+      "location": "山海关及石河相关区域",
+      "coordinates": [
+        119.75,
+        40
+      ],
+      "locations": [
+        {
+          "label": "山海关及石河相关区域",
+          "coordinates": [
+            119.75,
+            40
+          ],
+          "role": "主战区示意"
+        }
+      ],
+      "parties": [
+        "清军（多尔衮等）",
+        "吴三桂军",
+        "大顺军（李自成等）"
+      ],
+      "outcome": "清军与吴三桂军合击，大顺军败退。",
+      "whyImportant": "改变北京和华北的控制权，为清廷入京创造条件；不是清在同一天统一全国。",
+      "certainty": "年代可考；位置为区域示意",
+      "dateNote": "保留原历月；交战前的使节往来、李吴战斗与清军投入不是同一瞬间。地点是关城及石河战区参照，不把一片石、石河与关门三个地望混为一个点。",
+      "locationNote": "经纬度是依据所述现代地域人工选取并取整的浏览锚点，不是古战场边界、精确阵地或历史城垣测绘。",
+      "startDateLabel": "顺治元年四月",
+      "endDateLabel": "顺治元年四月",
+      "linkedEventId": "late_qing_enters",
+      "sourceIds": [
+        "battle_a29f6a226a"
+      ],
+      "eventIds": [
+        "late_qing_enters"
+      ],
+      "priority": 8
+    },
+    {
+      "id": "war_sanfan",
+      "title": "三藩之乱",
+      "startYear": 1673,
+      "endYear": 1681,
+      "location": "云南起兵及南方多战区",
+      "coordinates": [
+        102.71,
+        25.04
+      ],
+      "locations": [
+        {
+          "label": "昆明",
+          "coordinates": [
+            102.71,
+            25.04
+          ],
+          "role": "起兵与终局相关区域"
+        },
+        {
+          "label": "衡州",
+          "coordinates": [
+            112.61,
+            26.9
+          ],
+          "role": "吴三桂称帝区域"
+        },
+        {
+          "label": "岳州",
+          "coordinates": [
+            113.12,
+            29.37
+          ],
+          "role": "长江中游重要战区"
+        },
+        {
+          "label": "福建",
+          "coordinates": [
+            119.3,
+            26.08
+          ],
+          "role": "耿氏相关战区区域锚点"
+        },
+        {
+          "label": "广东",
+          "coordinates": [
+            113.26,
+            23.13
+          ],
+          "role": "尚氏相关战区区域锚点"
+        }
+      ],
+      "parties": [
+        "清军",
+        "吴三桂、吴世璠等军及耿、尚诸部"
+      ],
+      "outcome": "清军攻取昆明，吴世璠死，吴周政权终结。",
+      "whyImportant": "清朝削弱南方藩镇，战后财政和地方军政结构调整。",
+      "certainty": "年代可考；位置为区域示意",
+      "dateNote": "1673年三月是撤藩请求阶段，不能误作吴三桂武装起兵月；以十一月起兵作起点。故宫方略藏品介绍有“康熙二十年（1683）”排印误，应为1681；本条不沿用。",
+      "locationNote": "经纬度是依据所述现代地域人工选取并取整的浏览锚点，不是古战场边界、精确阵地或历史城垣测绘。",
+      "startDateLabel": "康熙十二年十一月（吴三桂起兵）",
+      "endDateLabel": "康熙二十年十月（昆明终局）",
+      "sourceIds": [
+        "battle_b9408475d6",
+        "battle_6c02b3ae5e"
+      ],
+      "eventIds": [
+        "campaign_war_sanfan",
+        "late_three_feudatories",
+        "late_three_feudatories_end"
+      ],
+      "priority": 8
+    },
+    {
+      "id": "war_penghu",
+      "title": "澎湖海战",
+      "startYear": 1683,
+      "endYear": 1683,
+      "location": "澎湖群岛海域",
+      "coordinates": [
+        119.57,
+        23.56
+      ],
+      "locations": [
+        {
+          "label": "澎湖群岛海域",
+          "coordinates": [
+            119.57,
+            23.56
+          ],
+          "role": "主战区示意"
+        }
+      ],
+      "parties": [
+        "清军水师（施琅）",
+        "郑氏军水师（刘国轩等）"
+      ],
+      "outcome": "郑军败退台湾，郑克塽随后归降清廷。",
+      "whyImportant": "郑氏统治终结的关键军事前提；台湾府设置是1684年的另一节点。",
+      "certainty": "年代可考；位置为区域示意",
+      "dateNote": "1683年年度；7月8日常指自铜山出发，不能误作整场海战的唯一决战日。海域锚点不是舰队精确位置。",
+      "locationNote": "经纬度是依据所述现代地域人工选取并取整的浏览锚点，不是古战场边界、精确阵地或历史城垣测绘。",
+      "sourceIds": [
+        "battle_8743228c84",
+        "battle_43224fc0e2"
+      ],
+      "eventIds": [
+        "late_zheng_surrenders"
+      ],
+      "priority": 8
+    },
+    {
+      "id": "war_opium_first",
+      "title": "第一次鸦片战争",
+      "startYear": 1840,
+      "endYear": 1842,
+      "location": "珠江口至东南沿海、长江战区",
+      "coordinates": [
+        113.63,
+        22.78
+      ],
+      "locations": [
+        {
+          "label": "虎门—珠江口",
+          "coordinates": [
+            113.63,
+            22.78
+          ],
+          "role": "早期主要战区"
+        },
+        {
+          "label": "定海",
+          "coordinates": [
+            122.11,
+            30.02
+          ],
+          "role": "东海战区"
+        },
+        {
+          "label": "吴淞",
+          "coordinates": [
+            121.49,
+            31.38
+          ],
+          "role": "长江口战区"
+        },
+        {
+          "label": "镇江",
+          "coordinates": [
+            119.45,
+            32.2
+          ],
+          "role": "1842年战区"
+        },
+        {
+          "label": "南京",
+          "coordinates": [
+            118.78,
+            32.05
+          ],
+          "role": "议约终局"
+        }
+      ],
+      "parties": [
+        "清",
+        "英国"
+      ],
+      "outcome": "清廷战败，签订《南京条约》。",
+      "whyImportant": "香港岛割让及五口开放等条款改变清朝疆域与对外交往。",
+      "certainty": "年代可考；位置为区域示意",
+      "dateNote": "按中国通行战争框架1840—1842；1839年的九龙、穿鼻等中英冲突可单列为前期，不以同一标签消除定义差别。",
+      "locationNote": "经纬度是依据所述现代地域人工选取并取整的浏览锚点，不是古战场边界、精确阵地或历史城垣测绘。",
+      "startDateLabel": "1840年6月（英国远征舰队来华）",
+      "endDate": "1842-08-29",
+      "endDateLabel": "1842年8月29日《南京条约》",
+      "linkedEventId": "late_opium_war_start",
+      "sourceIds": [
+        "battle_b45fd55261",
+        "battle_8d5b3c95c9"
+      ],
+      "eventIds": [
+        "campaign_war_opium_first",
+        "late_opium_war_start",
+        "late_nanjing_treaty"
+      ],
+      "priority": 8
+    },
+    {
+      "id": "war_taiping",
+      "title": "太平天国战争",
+      "startYear": 1851,
+      "endYear": 1864,
+      "location": "金田起兵、长江流域及天京",
+      "coordinates": [
+        118.78,
+        32.05
+      ],
+      "locations": [
+        {
+          "label": "金田",
+          "coordinates": [
+            110.13,
+            23.81
+          ],
+          "role": "1851年起兵地区"
+        },
+        {
+          "label": "武昌",
+          "coordinates": [
+            114.3,
+            30.55
+          ],
+          "role": "1853年进军区域"
+        },
+        {
+          "label": "天京",
+          "coordinates": [
+            118.78,
+            32.05
+          ],
+          "role": "1853年定都、1864年陷落"
+        }
+      ],
+      "parties": [
+        "太平天国军",
+        "清军及湘军、淮军等地方军队"
+      ],
+      "outcome": "天京陷落，太平天国主要政治中心覆灭。",
+      "whyImportant": "长期内战改变清朝财政与地方军事权力结构，广泛影响人口和社会。",
+      "certainty": "年代可考；位置为区域示意",
+      "dateNote": "以金田起义至天京陷落为1851—1864主窗口；1850团营前期与1864年后余部活动需另列，不声称1864年所有武装同时消失。",
+      "locationNote": "经纬度是依据所述现代地域人工选取并取整的浏览锚点，不是古战场边界、精确阵地或历史城垣测绘。",
+      "linkedEventId": "late_jintian",
+      "linkedEventRole": "独立战争区间；关联事件保留自身原来的时间，禁止把终局卡片改成战争起点",
+      "sourceIds": [
+        "battle_17c6dbfeeb",
+        "battle_b8e34e577e"
+      ],
+      "eventIds": [
+        "campaign_war_taiping",
+        "late_jintian",
+        "late_tianjing",
+        "late_tianjing_falls"
+      ],
+      "priority": 8
+    },
+    {
+      "id": "war_opium_second",
+      "title": "第二次鸦片战争",
+      "startYear": 1856,
+      "endYear": 1860,
+      "location": "广州—大沽—北京",
+      "coordinates": [
+        117.71,
+        38.98
+      ],
+      "locations": [
+        {
+          "label": "广州",
+          "coordinates": [
+            113.26,
+            23.13
+          ],
+          "role": "1856年英国进攻、1857年联军攻占"
+        },
+        {
+          "label": "大沽",
+          "coordinates": [
+            117.71,
+            38.98
+          ],
+          "role": "1858、1859、1860多次战斗"
+        },
+        {
+          "label": "北京",
+          "coordinates": [
+            116.39,
+            39.91
+          ],
+          "role": "1860年入侵与议约"
+        }
+      ],
+      "parties": [
+        "清",
+        "英国、法国"
+      ],
+      "outcome": "英法联军攻入北京，清廷接受《北京条约》等安排。",
+      "whyImportant": "战争与外交压力进一步改变清朝边界、通商及驻使制度。",
+      "certainty": "年代可考；位置为区域示意",
+      "dateNote": "1856年先为中英冲突，法国随后参与，不称1856年起所有战役都有英法共同作战。1860年各国条约并非同日同一份文件。",
+      "locationNote": "经纬度是依据所述现代地域人工选取并取整的浏览锚点，不是古战场边界、精确阵地或历史城垣测绘。",
+      "sourceIds": [
+        "battle_ad781bb288",
+        "battle_46fc2009db"
+      ],
+      "eventIds": [
+        "campaign_war_opium_second",
+        "late_peking_treaties"
+      ],
+      "priority": 8
+    },
+    {
+      "id": "war_sino_japanese",
+      "title": "甲午中日战争",
+      "startYear": 1894,
+      "endYear": 1895,
+      "location": "朝鲜、黄海与辽东—山东战区",
+      "coordinates": [
+        123,
+        38
+      ],
+      "locations": [
+        {
+          "label": "丰岛海域",
+          "coordinates": [
+            126.38,
+            37.12
+          ],
+          "role": "1894年首开海上战事"
+        },
+        {
+          "label": "黄海海战区域",
+          "coordinates": [
+            123,
+            38
+          ],
+          "role": "1894年9月17日海战的广域示意"
+        },
+        {
+          "label": "旅顺",
+          "coordinates": [
+            121.25,
+            38.81
+          ],
+          "role": "辽东战区"
+        },
+        {
+          "label": "威海卫",
+          "coordinates": [
+            122.12,
+            37.5
+          ],
+          "role": "1895年北洋海军终局"
+        },
+        {
+          "label": "澎湖",
+          "coordinates": [
+            119.57,
+            23.56
+          ],
+          "role": "1895年日军攻占地区"
+        }
+      ],
+      "parties": [
+        "清",
+        "日本"
+      ],
+      "outcome": "清廷战败，签订《马关条约》。",
+      "whyImportant": "台澎割让、赔款与通商条款引起疆域和政治局势重大变化。",
+      "certainty": "年代可考；位置为区域示意",
+      "dateNote": "以丰岛交战至《马关条约》签署为主要战争窗口；1894年8月1日才正式宣战，1895年台湾抵抗另有后续，不被本结束日消除。黄海锚点仅代表海域，非已核战舰坐标。",
+      "locationNote": "经纬度是依据所述现代地域人工选取并取整的浏览锚点，不是古战场边界、精确阵地或历史城垣测绘。",
+      "startDate": "1894-07-25",
+      "endDate": "1895-04-17",
+      "startDateLabel": "1894年7月25日（丰岛海战）",
+      "endDateLabel": "1895年4月17日《马关条约》",
+      "linkedEventId": "late_sino_japanese",
+      "sourceIds": [
+        "battle_4261b58937",
+        "battle_6c6cb6d65f"
+      ],
+      "eventIds": [
+        "campaign_war_sino_japanese",
+        "late_sino_japanese",
+        "late_shimonoseki"
+      ],
+      "priority": 8
+    }
+  ]
+}

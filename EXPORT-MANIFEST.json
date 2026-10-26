@@ -1,9 +1,9 @@
 {
-  "exported_at": "2026-10-26T07:39:47.008Z",
-  "source_revision": "c174bc5b22ec11b7dcf278ced8cc370caba1122e",
+  "exported_at": "2026-10-26T07:56:18.552Z",
+  "source_revision": "3c12af12c39bfd483d8339fa0b695b4feac5f425",
   "static_directory": "dist",
-  "file_count": 63,
-  "total_bytes": 25926930,
+  "file_count": 65,
+  "total_bytes": 26058662,
   "files": [
     {
       "path": "D3-LICENSE.txt",
@@ -17,8 +17,8 @@
     },
     {
       "path": "README.md",
-      "bytes": 60913,
-      "sha256": "3e5438ed558a9437f7b53f2d897e0591ae5eb695bead78d7dfae467e78531552"
+      "bytes": 61959,
+      "sha256": "f4ce85a9d86253aaf014f57f809ce03f4062329af8df4806d39418291cf80e3b"
     },
     {
       "path": "ancient-atlas.json",
@@ -52,8 +52,8 @@
     },
     {
       "path": "app.js",
-      "bytes": 50188,
-      "sha256": "c7947c290e4728e770181046755418991ab334af422fd33eb91286d3f69b926c"
+      "bytes": 50515,
+      "sha256": "0dc7ae0b82d3d5b977c2234978609cbf611eba608e9e7a341c7a0bc3654e87b5"
     },
     {
       "path": "assets/dynasty-lettering/ART-DIRECTION.md",
@@ -212,13 +212,13 @@
     },
     {
       "path": "history-chronicle.js",
-      "bytes": 15833,
-      "sha256": "89b9a1f1bb939209c7e1d332437fa3096f3564b30c2d583464472035563cea43"
+      "bytes": 15869,
+      "sha256": "66fbc58220e140b286dac1fefe8ab19ca6a4a9f8b8427db2b816a3aaad86e879"
     },
     {
       "path": "history-events.json",
-      "bytes": 188474,
-      "sha256": "8349c4d11d067ec26387ab0b5b6097e1173edbe3dc73d4e209d9c842572543a9"
+      "bytes": 213681,
+      "sha256": "0e1af97d70606c990611b23237ee96b55d4f6d57115ccadaca1834c7e6572d1d"
     },
     {
       "path": "history-years.js",
@@ -227,8 +227,8 @@
     },
     {
       "path": "index.html",
-      "bytes": 35599,
-      "sha256": "d658400ecc0821f7954a2d1bddefa494f4824631e5a9f7ac7cda8d17a57eb444"
+      "bytes": 35891,
+      "sha256": "1e2ee224cc2db03a0f51826e18d343c3de628ddd9f91de586ac32b9e9a42e880"
     },
     {
       "path": "land.json",
@@ -297,8 +297,8 @@
     },
     {
       "path": "source.zip",
-      "bytes": 9422740,
-      "sha256": "1a21ff8386aab13467564e84c04b95f11a0669b67bc63c73a1837456c88db2b7"
+      "bytes": 9450961,
+      "sha256": "f94cdb15397371e341be8157e8c1062fcc4e49ed1bd662c8634a884c7868e2f5"
     },
     {
       "path": "stories.json",
@@ -307,13 +307,23 @@
     },
     {
       "path": "style.css",
-      "bytes": 140748,
-      "sha256": "20530824d01e2e99d9406620ffa48358b0e4712a65b3bf81014458b7aee72bf2"
+      "bytes": 144674,
+      "sha256": "3a3586be6cd311c8b966f7889031777ade3be585a47b2a5ba44a97f01fcb2826"
     },
     {
       "path": "time-axis.js",
       "bytes": 6470,
       "sha256": "8a818f807f58bbc52819d7b2e37fbd43509a50829a5c3408ac36356bc9b65026"
+    },
+    {
+      "path": "war-context.js",
+      "bytes": 7849,
+      "sha256": "59fcd2cdc882980106d1116401e4a57a4eb3b34e2d9b32a09e101c19ba641f80"
+    },
+    {
+      "path": "wars.json",
+      "bytes": 64828,
+      "sha256": "0b33675d3bbf07ce3214b5863e2b453d906781b1a8c635aed7195a9746d89090"
     },
     {
       "path": "years-view.js",
