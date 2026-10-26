@@ -1,9 +1,9 @@
 {
-  "exported_at": "2026-10-26T07:31:19.428Z",
-  "source_revision": "b9786f863ea9690af1914ce18491bf387d92f514",
+  "exported_at": "2026-10-26T07:39:47.008Z",
+  "source_revision": "c174bc5b22ec11b7dcf278ced8cc370caba1122e",
   "static_directory": "dist",
   "file_count": 63,
-  "total_bytes": 25917324,
+  "total_bytes": 25926930,
   "files": [
     {
       "path": "D3-LICENSE.txt",
@@ -17,8 +17,8 @@
     },
     {
       "path": "README.md",
-      "bytes": 60139,
-      "sha256": "a07e7cb26e3dbe1b7ee8b1e77c1059edb4ed601d424e8a6fc8a79ec635953741"
+      "bytes": 60913,
+      "sha256": "3e5438ed558a9437f7b53f2d897e0591ae5eb695bead78d7dfae467e78531552"
     },
     {
       "path": "ancient-atlas.json",
@@ -52,8 +52,8 @@
     },
     {
       "path": "app.js",
-      "bytes": 50019,
-      "sha256": "7e01df59d6ac8208701d419ac9a8dda8e213e8da303b2d65fab831010f84fad9"
+      "bytes": 50188,
+      "sha256": "c7947c290e4728e770181046755418991ab334af422fd33eb91286d3f69b926c"
     },
     {
       "path": "assets/dynasty-lettering/ART-DIRECTION.md",
@@ -117,8 +117,8 @@
     },
     {
       "path": "atlas-motion.js",
-      "bytes": 4552,
-      "sha256": "a0e7d9550a20376d751a77b06d12cc3e08b7fbcd34284d73cb2bf894011b5e31"
+      "bytes": 10570,
+      "sha256": "e4540b097beb453d5fd5b0244c80518fa38954f925f9daacbd8e545ce3f377a9"
     },
     {
       "path": "atlas.json",
@@ -227,8 +227,8 @@
     },
     {
       "path": "index.html",
-      "bytes": 35578,
-      "sha256": "cc584e634c56d98a79add8bdabf909c10ad5b8964be2641a817c24cb94fb5938"
+      "bytes": 35599,
+      "sha256": "d658400ecc0821f7954a2d1bddefa494f4824631e5a9f7ac7cda8d17a57eb444"
     },
     {
       "path": "land.json",
@@ -297,8 +297,8 @@
     },
     {
       "path": "source.zip",
-      "bytes": 9420271,
-      "sha256": "452c5ff4dd58f43ba163a4e0b78266731b6805eeefe6114bacdff9b2fb9ebc7e"
+      "bytes": 9422740,
+      "sha256": "1a21ff8386aab13467564e84c04b95f11a0669b67bc63c73a1837456c88db2b7"
     },
     {
       "path": "stories.json",
@@ -307,8 +307,8 @@
     },
     {
       "path": "style.css",
-      "bytes": 140593,
-      "sha256": "c3beb3eac42bf837a939d1749670b04d78bb4ec92ba9df464b65effaa308713d"
+      "bytes": 140748,
+      "sha256": "20530824d01e2e99d9406620ffa48358b0e4712a65b3bf81014458b7aee72bf2"
     },
     {
       "path": "time-axis.js",
