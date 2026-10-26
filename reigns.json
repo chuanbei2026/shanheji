@@ -408,6 +408,126 @@
       "title": "故宫博物院 · 军机处",
       "url": "https://www.dpm.org.cn/court/system/236360.html",
       "note": "区分1729军机房与1732办理军机处；故宫用“大部分学者认为”限定创设年。"
+    },
+    "nanbei-moe": {
+      "title": "教育部《中国历代帝王年表》南北朝段",
+      "url": "https://dict.revised.moe.edu.tw/appendix.jsp?ID=2&la=0&page=2&powerMode=0",
+      "note": "用于主线名单与在位范围交叉检索；宋文帝末年、北魏道武帝末年、北周明帝即位等处另依正史修正，不机械照抄。"
+    },
+    "nanbei-eras": {
+      "title": "密西西比大学托管《中国历代纪元表》南北朝段",
+      "url": "https://home.olemiss.edu/~gg/lidaijiy.htm",
+      "note": "作为年号起点交叉索引，继位沿用、无年号纪年与短期在位者另查正史。"
+    },
+    "nanbei-song": {
+      "title": "《宋书》本纪及二凶传",
+      "url": "https://zh.wikisource.org/wiki/宋書",
+      "note": "元嘉三十年（453）文帝遇弑、刘劭自立与孝武帝即位；刘劭另列，不纳入通行宋八帝序号。"
+    },
+    "nanbei-qi": {
+      "title": "《南齐书·东昏侯纪》",
+      "url": "https://zh.wikisource.org/wiki/南齊書/卷7",
+      "note": "498年永泰元年七月萧宝卷即位，499年才改永元；同年新旧君并列。"
+    },
+    "nanbei-liang": {
+      "title": "《梁书·简文帝纪》",
+      "url": "https://zh.wikisource.org/wiki/梁書/卷04",
+      "note": "太清三年（549）即位，次年大宝元年。"
+    },
+    "nanbei-houjing": {
+      "title": "《梁书·侯景传》",
+      "url": "https://zh.wikisource.org/wiki/梁書/卷56",
+      "note": "区分萧栋的天正、侯景控制建康和自立汉国；年表中的在位者与实际军政控制者分别记载。"
+    },
+    "nanbei-chen": {
+      "title": "《陈书·废帝纪》",
+      "url": "https://zh.wikisource.org/wiki/陳書/卷4",
+      "note": "566天康元年即位，567光大元年，568废帝；宣帝568即位后次年改太建。"
+    },
+    "nanbei-wei": {
+      "title": "《魏书》帝纪",
+      "url": "https://zh.wikisource.org/wiki/魏書",
+      "note": "北魏主朝在位及年号序列；道武帝409年去世，不采用年表408年误差。"
+    },
+    "nanbei-wei11": {
+      "title": "《魏书·废出三帝纪》",
+      "url": "https://zh.wikisource.org/wiki/魏書/卷11",
+      "note": "531—532年的并立、废立与太昌、永兴、永熙改元；传统永熙三年末跨入公历535年。"
+    },
+    "nanbei-beishi5": {
+      "title": "《北史·魏本纪第五》",
+      "url": "https://zh.wikisource.org/wiki/北史/卷005",
+      "note": "东魏534年立元善见，西魏535年立元宝炬；元钦551即位、552改元，无正式年号；元廓554立、556传统年末禅位。"
+    },
+    "nanbei-zhou4": {
+      "title": "《周书·明帝纪》",
+      "url": "https://zh.wikisource.org/wiki/周書/卷04",
+      "note": "宇文毓557年九月即天王位，559年八月改称皇帝并建武成，不将557—558漏作待核。"
+    },
+    "nanbei-zhou": {
+      "title": "《周书》帝纪及宇文护传",
+      "url": "https://zh.wikisource.org/wiki/周書",
+      "note": "宇文护军政权力、武帝亲政、宣帝禅位后掌权及杨坚辅政，均不增算在位皇帝。"
+    },
+    "nanbei-nqi8": {
+      "title": "《北齐书·后主幼主纪》",
+      "url": "https://zh.wikisource.org/wiki/北齊書/卷8",
+      "note": "高纬565即位后改天统；高湛仍为太上皇掌权；隆化与承光之交跨公历577年初。"
+    },
+    "nanbei-nqi": {
+      "title": "《北齐书》帝纪",
+      "url": "https://zh.wikisource.org/wiki/北齊書",
+      "note": "高殷559年即位、560改乾明，高湛561年即位，不把次年改元误作继位年。"
+    },
+    "nanbei-beishi93": {
+      "title": "《北史·僭伪附庸列传》",
+      "url": "https://zh.wikisource.org/wiki/北史/卷093",
+      "note": "江陵后梁（西梁）的萧詧、萧岿、萧琮，与907年建立的朱氏后梁区分。"
+    },
+    "nanbei-jin130": {
+      "title": "《晋书·赫连勃勃载记》",
+      "url": "https://zh.wikisource.org/wiki/晉書/卷130",
+      "note": "夏国的赫连勃勃、赫连昌、赫连定及其更替；不与上古夏朝混用。"
+    },
+    "nanbei-jin125": {
+      "title": "《晋书·冯跋载记》",
+      "url": "https://zh.wikisource.org/wiki/晉書/卷125",
+      "note": "冯跋、冯弘更替及北燕覆亡；与《北史》卷93互参。"
+    },
+    "nanbei-jin129": {
+      "title": "《晋书·沮渠蒙逊载记》",
+      "url": "https://zh.wikisource.org/wiki/晉書/卷129",
+      "note": "蒙逊、牧犍在位与北魏攻取姑臧；439后高昌残余政权不在本条主线范围。"
+    },
+    "nanbei-wei13": {
+      "title": "《魏书·皇后列传》",
+      "url": "https://zh.wikisource.org/wiki/魏書/卷13",
+      "note": "文明太后、灵太后及528年临时拥立幼主的记载。"
+    },
+    "nanbei-liang55": {
+      "title": "《梁书·武陵王纪等传》",
+      "url": "https://zh.wikisource.org/wiki/梁書/卷55",
+      "note": "萧纪在蜀称帝，与萧绎并立，不并入梁六帝主线。"
+    },
+    "wudai-primary": {
+      "title": "《旧五代史》各朝本纪",
+      "url": "https://zh.wikisource.org/wiki/舊五代史",
+      "note": "五代主朝在位与沿用年号；同年更替按年并列，历年末跨入下一公历年的处单独说明。"
+    },
+    "nanbei-wei99": {
+      "title": "《魏书·沮渠蒙逊传》附牧犍",
+      "url": "https://zh.wikisource.org/wiki/魏書/卷99",
+      "note": "承和与传世文本永和的异名并存；并记对外奉魏正朔与内部纪年。"
+    },
+    "nanbei-wei74": {
+      "title": "《魏书·尔朱荣传》元颢入洛",
+      "url": "https://zh.wikisource.org/wiki/魏書/卷74",
+      "note": "永安二年四月在梁国城南即位、号孝基，入洛后改建武；与其他记528受立的表述区分。"
+    },
+    "nanbei-feng-study": {
+      "title": "中央研究院史语所·郑雅如论北魏皇太后制度",
+      "url": "https://www11.ihp.sinica.edu.tw/storage/w2_file/4441saQjvjZ.pdf",
+      "note": "据《魏书》区分466诛乙浑后临朝、467罢令以及476年后再度临朝；不把文成帝去世之年直接当作临朝开始。"
     }
   },
   "reigns": [
@@ -4149,6 +4269,48 @@
       "role": "ruler"
     },
     {
+      "dynasty": "北魏",
+      "polity": "北魏",
+      "name": "拓跋珪",
+      "title": "北魏道武帝",
+      "from": 386,
+      "to": 409,
+      "role": "ruler",
+      "eras": [
+        {
+          "from": 386,
+          "to": 396,
+          "name": "登国",
+          "baseYear": 1
+        },
+        {
+          "from": 396,
+          "to": 398,
+          "name": "皇始",
+          "baseYear": 1
+        },
+        {
+          "from": 398,
+          "to": 404,
+          "name": "天兴",
+          "baseYear": 1
+        },
+        {
+          "from": 404,
+          "to": 409,
+          "name": "天赐",
+          "baseYear": 1
+        }
+      ],
+      "sources": [
+        "nanbei-moe",
+        "nanbei-eras",
+        "nanbei-wei"
+      ],
+      "verificationLevel": "chronology_crosscheck",
+      "note": "386建魏时为王，398称帝；409年去世。"
+    },
+    {
       "dynasty": "东晋",
       "polity": "东晋",
       "from": 396,
@@ -4182,6 +4344,147 @@
       "role": "ruler"
     },
     {
+      "dynasty": "北凉",
+      "polity": "北凉",
+      "name": "沮渠蒙逊",
+      "title": "北凉武宣王",
+      "from": 401,
+      "to": 433,
+      "role": "ruler",
+      "eras": [
+        {
+          "from": 401,
+          "to": 412,
+          "name": "永安",
+          "baseYear": 1
+        },
+        {
+          "from": 412,
+          "to": 428,
+          "name": "玄始",
+          "baseYear": 1
+        },
+        {
+          "from": 428,
+          "to": 431,
+          "name": "承玄",
+          "baseYear": 1
+        },
+        {
+          "from": 431,
+          "to": 433,
+          "name": "义和",
+          "baseYear": 1
+        }
+      ],
+      "sources": [
+        "nanbei-jin129",
+        "nanbei-beishi93"
+      ],
+      "verificationLevel": "chronology_crosscheck",
+      "note": ""
+    },
+    {
+      "dynasty": "夏",
+      "polity": "胡夏",
+      "name": "赫连勃勃",
+      "title": "夏武烈帝",
+      "from": 407,
+      "to": 425,
+      "role": "ruler",
+      "eras": [
+        {
+          "from": 407,
+          "to": 413,
+          "name": "龙升",
+          "baseYear": 1
+        },
+        {
+          "from": 413,
+          "to": 418,
+          "name": "凤翔",
+          "baseYear": 1
+        },
+        {
+          "from": 418,
+          "to": 419,
+          "name": "昌武",
+          "baseYear": 1
+        },
+        {
+          "from": 419,
+          "to": 425,
+          "name": "真兴",
+          "baseYear": 1
+        }
+      ],
+      "sources": [
+        "nanbei-jin130",
+        "nanbei-beishi93"
+      ],
+      "verificationLevel": "chronology_crosscheck",
+      "note": "407称大夏天王，418称帝；与上古夏朝区分。"
+    },
+    {
+      "dynasty": "北魏",
+      "polity": "北魏",
+      "name": "拓跋嗣",
+      "title": "北魏明元帝",
+      "from": 409,
+      "to": 423,
+      "role": "ruler",
+      "eras": [
+        {
+          "from": 409,
+          "to": 413,
+          "name": "永兴",
+          "baseYear": 1
+        },
+        {
+          "from": 414,
+          "to": 416,
+          "name": "神瑞",
+          "baseYear": 1
+        },
+        {
+          "from": 416,
+          "to": 423,
+          "name": "泰常",
+          "baseYear": 1
+        }
+      ],
+      "sources": [
+        "nanbei-moe",
+        "nanbei-eras",
+        "nanbei-wei"
+      ],
+      "verificationLevel": "chronology_crosscheck",
+      "note": "按年度汇总；同年继位者并列，不表示全年同时执政。"
+    },
+    {
+      "dynasty": "北燕",
+      "polity": "北燕",
+      "name": "冯跋",
+      "title": "北燕文成天王",
+      "from": 409,
+      "to": 430,
+      "role": "ruler",
+      "eras": [
+        {
+          "from": 409,
+          "to": 430,
+          "name": "太平",
+          "baseYear": 1
+        }
+      ],
+      "sources": [
+        "nanbei-jin125",
+        "nanbei-beishi93"
+      ],
+      "verificationLevel": "chronology_crosscheck",
+      "note": ""
+    },
+    {
       "dynasty": "东晋",
       "polity": "东晋",
       "from": 418,
@@ -4201,6 +4504,2247 @@
         }
       ],
       "role": "ruler"
+    },
+    {
+      "dynasty": "刘宋",
+      "polity": "宋",
+      "name": "刘裕",
+      "title": "南朝宋武帝",
+      "from": 420,
+      "to": 422,
+      "role": "ruler",
+      "eras": [
+        {
+          "from": 420,
+          "to": 422,
+          "name": "永初",
+          "baseYear": 1
+        }
+      ],
+      "sources": [
+        "nanbei-moe",
+        "nanbei-eras",
+        "nanbei-song"
+      ],
+      "verificationLevel": "chronology_crosscheck",
+      "note": "按年度汇总；同年继位者并列，不表示全年同时执政。"
+    },
+    {
+      "dynasty": "刘宋",
+      "polity": "宋",
+      "name": "刘义符",
+      "title": "南朝宋少帝",
+      "from": 422,
+      "to": 424,
+      "role": "ruler",
+      "eras": [
+        {
+          "from": 422,
+          "to": 422,
+          "name": "永初",
+          "baseYear": 3
+        },
+        {
+          "from": 423,
+          "to": 424,
+          "name": "景平",
+          "baseYear": 1
+        }
+      ],
+      "sources": [
+        "nanbei-moe",
+        "nanbei-eras",
+        "nanbei-song"
+      ],
+      "verificationLevel": "chronology_crosscheck",
+      "note": "按年度汇总；同年继位者并列，不表示全年同时执政。"
+    },
+    {
+      "dynasty": "北魏",
+      "polity": "北魏",
+      "name": "拓跋焘",
+      "title": "北魏太武帝",
+      "from": 423,
+      "to": 452,
+      "role": "ruler",
+      "eras": [
+        {
+          "from": 423,
+          "to": 423,
+          "name": "泰常",
+          "baseYear": 8
+        },
+        {
+          "from": 424,
+          "to": 428,
+          "name": "始光",
+          "baseYear": 1
+        },
+        {
+          "from": 428,
+          "to": 431,
+          "name": "神䴥",
+          "baseYear": 1
+        },
+        {
+          "from": 432,
+          "to": 435,
+          "name": "延和",
+          "baseYear": 1
+        },
+        {
+          "from": 435,
+          "to": 440,
+          "name": "太延",
+          "baseYear": 1
+        },
+        {
+          "from": 440,
+          "to": 451,
+          "name": "太平真君",
+          "baseYear": 1
+        },
+        {
+          "from": 451,
+          "to": 452,
+          "name": "正平",
+          "baseYear": 1
+        }
+      ],
+      "sources": [
+        "nanbei-moe",
+        "nanbei-eras",
+        "nanbei-wei"
+      ],
+      "verificationLevel": "chronology_crosscheck",
+      "note": "按年度汇总；同年继位者并列，不表示全年同时执政。"
+    },
+    {
+      "dynasty": "刘宋",
+      "polity": "宋",
+      "name": "刘义隆",
+      "title": "南朝宋文帝",
+      "from": 424,
+      "to": 453,
+      "role": "ruler",
+      "eras": [
+        {
+          "from": 424,
+          "to": 424,
+          "name": "景平",
+          "baseYear": 2
+        },
+        {
+          "from": 424,
+          "to": 453,
+          "name": "元嘉",
+          "baseYear": 1
+        }
+      ],
+      "sources": [
+        "nanbei-moe",
+        "nanbei-eras",
+        "nanbei-song"
+      ],
+      "verificationLevel": "chronology_crosscheck",
+      "note": "文帝元嘉三十年即453年遇弑；修正通行表作452年的偏差。"
+    },
+    {
+      "dynasty": "夏",
+      "polity": "胡夏",
+      "name": "赫连昌",
+      "title": "夏主",
+      "from": 425,
+      "to": 428,
+      "role": "ruler",
+      "eras": [
+        {
+          "from": 425,
+          "to": 428,
+          "name": "承光",
+          "baseYear": 1
+        }
+      ],
+      "sources": [
+        "nanbei-jin130",
+        "nanbei-beishi93"
+      ],
+      "verificationLevel": "chronology_crosscheck",
+      "note": ""
+    },
+    {
+      "dynasty": "夏",
+      "polity": "胡夏",
+      "name": "赫连定",
+      "title": "夏主",
+      "from": 428,
+      "to": 431,
+      "role": "ruler",
+      "eras": [
+        {
+          "from": 428,
+          "to": 431,
+          "name": "胜光",
+          "baseYear": 1
+        }
+      ],
+      "sources": [
+        "nanbei-jin130",
+        "nanbei-beishi93"
+      ],
+      "verificationLevel": "chronology_crosscheck",
+      "note": ""
+    },
+    {
+      "dynasty": "北燕",
+      "polity": "北燕",
+      "name": "冯弘",
+      "title": "北燕昭成帝",
+      "from": 430,
+      "to": 436,
+      "role": "ruler",
+      "eras": [
+        {
+          "from": 430,
+          "to": 430,
+          "name": "太平",
+          "baseYear": 22
+        },
+        {
+          "from": 431,
+          "to": 436,
+          "name": "太兴",
+          "baseYear": 1
+        }
+      ],
+      "sources": [
+        "nanbei-jin125",
+        "nanbei-beishi93"
+      ],
+      "verificationLevel": "chronology_crosscheck",
+      "note": "436离开龙城奔高句丽；此处为北燕本土主线，不延长到438年遇害。"
+    },
+    {
+      "dynasty": "北凉",
+      "polity": "北凉",
+      "name": "沮渠牧犍",
+      "title": "北凉哀王",
+      "from": 433,
+      "to": 439,
+      "role": "ruler",
+      "eras": [
+        {
+          "from": 433,
+          "to": 439,
+          "name": "承和",
+          "baseYear": 1
+        }
+      ],
+      "sources": [
+        "nanbei-jin129",
+        "nanbei-beishi93",
+        "nanbei-wei99"
+      ],
+      "verificationLevel": "chronology_crosscheck",
+      "note": "439年北魏攻取姑臧，北凉河西主朝亡；不把牧犍在魏被杀之年作为在位末年。 年号在部分文献中写作永和；本表采用承和，沿用传世年表433—439框架；吐鲁番文书另见建平等纪年，其地区与换算仍有研究分歧，不强行统一。"
+    },
+    {
+      "dynasty": "北魏",
+      "polity": "北魏",
+      "name": "拓跋余",
+      "title": "北魏南安王",
+      "from": 452,
+      "to": 452,
+      "role": "ruler",
+      "eras": [
+        {
+          "from": 452,
+          "to": 452,
+          "name": "承平",
+          "baseYear": 1
+        }
+      ],
+      "sources": [
+        "nanbei-moe",
+        "nanbei-eras",
+        "nanbei-wei"
+      ],
+      "verificationLevel": "chronology_crosscheck",
+      "note": "年号又见永平记法；此表采用承平。"
+    },
+    {
+      "dynasty": "北魏",
+      "polity": "北魏",
+      "name": "拓跋濬",
+      "title": "北魏文成帝",
+      "from": 452,
+      "to": 465,
+      "role": "ruler",
+      "eras": [
+        {
+          "from": 452,
+          "to": 454,
+          "name": "兴安",
+          "baseYear": 1
+        },
+        {
+          "from": 454,
+          "to": 455,
+          "name": "兴光",
+          "baseYear": 1
+        },
+        {
+          "from": 455,
+          "to": 459,
+          "name": "太安",
+          "baseYear": 1
+        },
+        {
+          "from": 460,
+          "to": 465,
+          "name": "和平",
+          "baseYear": 1
+        }
+      ],
+      "sources": [
+        "nanbei-moe",
+        "nanbei-eras",
+        "nanbei-wei"
+      ],
+      "verificationLevel": "chronology_crosscheck",
+      "note": "按年度汇总；同年继位者并列，不表示全年同时执政。"
+    },
+    {
+      "dynasty": "刘宋",
+      "polity": "宋",
+      "name": "刘劭",
+      "title": "宋元凶",
+      "from": 453,
+      "to": 453,
+      "role": "ruler",
+      "eras": [
+        {
+          "from": 453,
+          "to": 453,
+          "name": "太初",
+          "baseYear": 1
+        }
+      ],
+      "sources": [
+        "nanbei-moe",
+        "nanbei-eras",
+        "nanbei-song"
+      ],
+      "verificationLevel": "chronology_crosscheck",
+      "note": "453年弑父自立，随后被刘骏消灭；不纳入通行宋八帝的序号。"
+    },
+    {
+      "dynasty": "刘宋",
+      "polity": "宋",
+      "name": "刘骏",
+      "title": "南朝宋孝武帝",
+      "from": 453,
+      "to": 464,
+      "role": "ruler",
+      "eras": [
+        {
+          "from": 453,
+          "to": 453,
+          "name": "元嘉",
+          "baseYear": 30
+        },
+        {
+          "from": 454,
+          "to": 456,
+          "name": "孝建",
+          "baseYear": 1
+        },
+        {
+          "from": 457,
+          "to": 464,
+          "name": "大明",
+          "baseYear": 1
+        }
+      ],
+      "sources": [
+        "nanbei-moe",
+        "nanbei-eras",
+        "nanbei-song"
+      ],
+      "verificationLevel": "chronology_crosscheck",
+      "note": "按年度汇总；同年继位者并列，不表示全年同时执政。"
+    },
+    {
+      "dynasty": "刘宋",
+      "polity": "宋",
+      "name": "刘子业",
+      "title": "宋前废帝",
+      "from": 464,
+      "to": 465,
+      "role": "ruler",
+      "eras": [
+        {
+          "from": 464,
+          "to": 464,
+          "name": "大明",
+          "baseYear": 8
+        },
+        {
+          "from": 465,
+          "to": 465,
+          "name": "永光",
+          "baseYear": 1
+        },
+        {
+          "from": 465,
+          "to": 465,
+          "name": "景和",
+          "baseYear": 1
+        }
+      ],
+      "sources": [
+        "nanbei-moe",
+        "nanbei-eras",
+        "nanbei-song"
+      ],
+      "verificationLevel": "chronology_crosscheck",
+      "note": "按年度汇总；同年继位者并列，不表示全年同时执政。"
+    },
+    {
+      "dynasty": "北魏",
+      "polity": "北魏",
+      "name": "冯太后",
+      "title": "文明太后 · 临朝",
+      "from": 466,
+      "to": 467,
+      "role": "powerholder",
+      "eras": [],
+      "sources": [
+        "nanbei-wei13",
+        "nanbei-feng-study"
+      ],
+      "verificationLevel": "chronology_crosscheck",
+      "note": "466年诛乙浑后第一次临朝，467年孝文帝出生后罢令不听政；与476年起再度临朝分开。"
+    },
+    {
+      "dynasty": "北魏",
+      "polity": "北魏",
+      "name": "拓跋弘",
+      "title": "北魏献文帝",
+      "from": 465,
+      "to": 471,
+      "role": "ruler",
+      "eras": [
+        {
+          "from": 465,
+          "to": 465,
+          "name": "和平",
+          "baseYear": 6
+        },
+        {
+          "from": 466,
+          "to": 467,
+          "name": "天安",
+          "baseYear": 1
+        },
+        {
+          "from": 467,
+          "to": 471,
+          "name": "皇兴",
+          "baseYear": 1
+        }
+      ],
+      "sources": [
+        "nanbei-moe",
+        "nanbei-eras",
+        "nanbei-wei"
+      ],
+      "verificationLevel": "chronology_crosscheck",
+      "note": "按年度汇总；同年继位者并列，不表示全年同时执政。"
+    },
+    {
+      "dynasty": "刘宋",
+      "polity": "宋",
+      "name": "刘彧",
+      "title": "南朝宋明帝",
+      "from": 465,
+      "to": 472,
+      "role": "ruler",
+      "eras": [
+        {
+          "from": 465,
+          "to": 471,
+          "name": "泰始",
+          "baseYear": 1
+        },
+        {
+          "from": 472,
+          "to": 472,
+          "name": "泰豫",
+          "baseYear": 1
+        }
+      ],
+      "sources": [
+        "nanbei-moe",
+        "nanbei-eras",
+        "nanbei-song"
+      ],
+      "verificationLevel": "chronology_crosscheck",
+      "note": "按年度汇总；同年继位者并列，不表示全年同时执政。"
+    },
+    {
+      "dynasty": "北魏",
+      "polity": "北魏",
+      "name": "拓跋弘",
+      "title": "献文帝 · 太上皇",
+      "from": 471,
+      "to": 476,
+      "role": "powerholder",
+      "eras": [],
+      "sources": [
+        "nanbei-wei"
+      ],
+      "verificationLevel": "chronology_crosscheck",
+      "note": "禅位后仍参与军政，未另增皇帝序号。"
+    },
+    {
+      "dynasty": "北魏",
+      "polity": "北魏",
+      "name": "元宏",
+      "title": "北魏孝文帝",
+      "from": 471,
+      "to": 499,
+      "role": "ruler",
+      "eras": [
+        {
+          "from": 471,
+          "to": 476,
+          "name": "延兴",
+          "baseYear": 1
+        },
+        {
+          "from": 476,
+          "to": 476,
+          "name": "承明",
+          "baseYear": 1
+        },
+        {
+          "from": 477,
+          "to": 499,
+          "name": "太和",
+          "baseYear": 1
+        }
+      ],
+      "sources": [
+        "nanbei-moe",
+        "nanbei-eras",
+        "nanbei-wei"
+      ],
+      "verificationLevel": "chronology_crosscheck",
+      "note": "即拓跋宏；496年改姓元。姓名规范化用于匹配同一人，不表示471年已改姓。"
+    },
+    {
+      "dynasty": "刘宋",
+      "polity": "宋",
+      "name": "刘昱",
+      "title": "宋后废帝",
+      "from": 472,
+      "to": 477,
+      "role": "ruler",
+      "eras": [
+        {
+          "from": 472,
+          "to": 472,
+          "name": "泰豫",
+          "baseYear": 1
+        },
+        {
+          "from": 473,
+          "to": 477,
+          "name": "元徽",
+          "baseYear": 1
+        }
+      ],
+      "sources": [
+        "nanbei-moe",
+        "nanbei-eras",
+        "nanbei-song"
+      ],
+      "verificationLevel": "chronology_crosscheck",
+      "note": "按年度汇总；同年继位者并列，不表示全年同时执政。"
+    },
+    {
+      "dynasty": "北魏",
+      "polity": "北魏",
+      "name": "冯太后",
+      "title": "文明太后 · 临朝",
+      "from": 476,
+      "to": 490,
+      "role": "powerholder",
+      "eras": [],
+      "sources": [
+        "nanbei-wei"
+      ],
+      "verificationLevel": "chronology_crosscheck",
+      "note": "献文帝死后再度临朝，至490年去世。"
+    },
+    {
+      "dynasty": "刘宋",
+      "polity": "宋",
+      "name": "刘准",
+      "title": "南朝宋顺帝",
+      "from": 477,
+      "to": 479,
+      "role": "ruler",
+      "eras": [
+        {
+          "from": 477,
+          "to": 479,
+          "name": "升明",
+          "baseYear": 1
+        }
+      ],
+      "sources": [
+        "nanbei-moe",
+        "nanbei-eras",
+        "nanbei-song"
+      ],
+      "verificationLevel": "chronology_crosscheck",
+      "note": "按年度汇总；同年继位者并列，不表示全年同时执政。"
+    },
+    {
+      "dynasty": "南齐",
+      "polity": "齐",
+      "name": "萧道成",
+      "title": "南朝齐高帝",
+      "from": 479,
+      "to": 482,
+      "role": "ruler",
+      "eras": [
+        {
+          "from": 479,
+          "to": 482,
+          "name": "建元",
+          "baseYear": 1
+        }
+      ],
+      "sources": [
+        "nanbei-moe",
+        "nanbei-eras",
+        "nanbei-qi"
+      ],
+      "verificationLevel": "chronology_crosscheck",
+      "note": "按年度汇总；同年继位者并列，不表示全年同时执政。"
+    },
+    {
+      "dynasty": "南齐",
+      "polity": "齐",
+      "name": "萧赜",
+      "title": "南朝齐武帝",
+      "from": 482,
+      "to": 493,
+      "role": "ruler",
+      "eras": [
+        {
+          "from": 482,
+          "to": 482,
+          "name": "建元",
+          "baseYear": 4
+        },
+        {
+          "from": 483,
+          "to": 493,
+          "name": "永明",
+          "baseYear": 1
+        }
+      ],
+      "sources": [
+        "nanbei-moe",
+        "nanbei-eras",
+        "nanbei-qi"
+      ],
+      "verificationLevel": "chronology_crosscheck",
+      "note": "按年度汇总；同年继位者并列，不表示全年同时执政。"
+    },
+    {
+      "dynasty": "南齐",
+      "polity": "齐",
+      "name": "萧昭业",
+      "title": "南朝齐郁林王",
+      "from": 493,
+      "to": 494,
+      "role": "ruler",
+      "eras": [
+        {
+          "from": 493,
+          "to": 493,
+          "name": "永明",
+          "baseYear": 11
+        },
+        {
+          "from": 494,
+          "to": 494,
+          "name": "隆昌",
+          "baseYear": 1
+        }
+      ],
+      "sources": [
+        "nanbei-moe",
+        "nanbei-eras",
+        "nanbei-qi"
+      ],
+      "verificationLevel": "chronology_crosscheck",
+      "note": "按年度汇总；同年继位者并列，不表示全年同时执政。"
+    },
+    {
+      "dynasty": "南齐",
+      "polity": "齐",
+      "name": "萧昭文",
+      "title": "南朝齐海陵王",
+      "from": 494,
+      "to": 494,
+      "role": "ruler",
+      "eras": [
+        {
+          "from": 494,
+          "to": 494,
+          "name": "延兴",
+          "baseYear": 1
+        }
+      ],
+      "sources": [
+        "nanbei-moe",
+        "nanbei-eras",
+        "nanbei-qi"
+      ],
+      "verificationLevel": "chronology_crosscheck",
+      "note": "按年度汇总；同年继位者并列，不表示全年同时执政。"
+    },
+    {
+      "dynasty": "南齐",
+      "polity": "齐",
+      "name": "萧鸾",
+      "title": "南朝齐明帝",
+      "from": 494,
+      "to": 498,
+      "role": "ruler",
+      "eras": [
+        {
+          "from": 494,
+          "to": 498,
+          "name": "建武",
+          "baseYear": 1
+        },
+        {
+          "from": 498,
+          "to": 498,
+          "name": "永泰",
+          "baseYear": 1
+        }
+      ],
+      "sources": [
+        "nanbei-moe",
+        "nanbei-eras",
+        "nanbei-qi"
+      ],
+      "verificationLevel": "chronology_crosscheck",
+      "note": "按年度汇总；同年继位者并列，不表示全年同时执政。"
+    },
+    {
+      "dynasty": "南齐",
+      "polity": "齐",
+      "name": "萧宝卷",
+      "title": "南朝齐东昏侯",
+      "from": 498,
+      "to": 501,
+      "role": "ruler",
+      "eras": [
+        {
+          "from": 498,
+          "to": 498,
+          "name": "永泰",
+          "baseYear": 1
+        },
+        {
+          "from": 499,
+          "to": 501,
+          "name": "永元",
+          "baseYear": 1
+        }
+      ],
+      "sources": [
+        "nanbei-moe",
+        "nanbei-eras",
+        "nanbei-qi"
+      ],
+      "verificationLevel": "chronology_crosscheck",
+      "note": "按年度汇总；同年继位者并列，不表示全年同时执政。"
+    },
+    {
+      "dynasty": "北魏",
+      "polity": "北魏",
+      "name": "元恪",
+      "title": "北魏宣武帝",
+      "from": 499,
+      "to": 515,
+      "role": "ruler",
+      "eras": [
+        {
+          "from": 499,
+          "to": 499,
+          "name": "太和",
+          "baseYear": 23
+        },
+        {
+          "from": 500,
+          "to": 503,
+          "name": "景明",
+          "baseYear": 1
+        },
+        {
+          "from": 504,
+          "to": 508,
+          "name": "正始",
+          "baseYear": 1
+        },
+        {
+          "from": 508,
+          "to": 512,
+          "name": "永平",
+          "baseYear": 1
+        },
+        {
+          "from": 512,
+          "to": 515,
+          "name": "延昌",
+          "baseYear": 1
+        }
+      ],
+      "sources": [
+        "nanbei-moe",
+        "nanbei-eras",
+        "nanbei-wei"
+      ],
+      "verificationLevel": "chronology_crosscheck",
+      "note": "按年度汇总；同年继位者并列，不表示全年同时执政。"
+    },
+    {
+      "dynasty": "南齐",
+      "polity": "齐",
+      "name": "萧宝融",
+      "title": "南朝齐和帝",
+      "from": 501,
+      "to": 502,
+      "role": "ruler",
+      "eras": [
+        {
+          "from": 501,
+          "to": 502,
+          "name": "中兴",
+          "baseYear": 1
+        }
+      ],
+      "sources": [
+        "nanbei-moe",
+        "nanbei-eras",
+        "nanbei-qi"
+      ],
+      "verificationLevel": "chronology_crosscheck",
+      "note": "按年度汇总；同年继位者并列，不表示全年同时执政。"
+    },
+    {
+      "dynasty": "梁",
+      "polity": "梁",
+      "name": "萧衍",
+      "title": "南朝梁武帝",
+      "from": 502,
+      "to": 549,
+      "role": "ruler",
+      "eras": [
+        {
+          "from": 502,
+          "to": 519,
+          "name": "天监",
+          "baseYear": 1
+        },
+        {
+          "from": 520,
+          "to": 527,
+          "name": "普通",
+          "baseYear": 1
+        },
+        {
+          "from": 527,
+          "to": 529,
+          "name": "大通",
+          "baseYear": 1
+        },
+        {
+          "from": 529,
+          "to": 534,
+          "name": "中大通",
+          "baseYear": 1
+        },
+        {
+          "from": 535,
+          "to": 546,
+          "name": "大同",
+          "baseYear": 1
+        },
+        {
+          "from": 546,
+          "to": 547,
+          "name": "中大同",
+          "baseYear": 1
+        },
+        {
+          "from": 547,
+          "to": 549,
+          "name": "太清",
+          "baseYear": 1
+        }
+      ],
+      "sources": [
+        "nanbei-moe",
+        "nanbei-eras",
+        "nanbei-liang"
+      ],
+      "verificationLevel": "chronology_crosscheck",
+      "note": "按年度汇总；同年继位者并列，不表示全年同时执政。"
+    },
+    {
+      "dynasty": "北魏",
+      "polity": "北魏",
+      "name": "胡太后",
+      "title": "灵太后 · 临朝",
+      "from": 515,
+      "to": 520,
+      "role": "powerholder",
+      "eras": [],
+      "sources": [
+        "nanbei-wei"
+      ],
+      "verificationLevel": "chronology_crosscheck",
+      "note": "第一次临朝；520年元叉等发动政变。"
+    },
+    {
+      "dynasty": "北魏",
+      "polity": "北魏",
+      "name": "元诩",
+      "title": "北魏孝明帝",
+      "from": 515,
+      "to": 528,
+      "role": "ruler",
+      "eras": [
+        {
+          "from": 515,
+          "to": 515,
+          "name": "延昌",
+          "baseYear": 4
+        },
+        {
+          "from": 516,
+          "to": 518,
+          "name": "熙平",
+          "baseYear": 1
+        },
+        {
+          "from": 518,
+          "to": 520,
+          "name": "神龟",
+          "baseYear": 1
+        },
+        {
+          "from": 520,
+          "to": 525,
+          "name": "正光",
+          "baseYear": 1
+        },
+        {
+          "from": 525,
+          "to": 528,
+          "name": "孝昌",
+          "baseYear": 1
+        },
+        {
+          "from": 528,
+          "to": 528,
+          "name": "武泰",
+          "baseYear": 1
+        }
+      ],
+      "sources": [
+        "nanbei-moe",
+        "nanbei-eras",
+        "nanbei-wei"
+      ],
+      "verificationLevel": "chronology_crosscheck",
+      "note": "按年度汇总；同年继位者并列，不表示全年同时执政。"
+    },
+    {
+      "dynasty": "北魏",
+      "polity": "北魏",
+      "name": "元叉",
+      "title": "领军 · 控制朝政",
+      "from": 520,
+      "to": 525,
+      "role": "powerholder",
+      "eras": [],
+      "sources": [
+        "nanbei-wei"
+      ],
+      "verificationLevel": "chronology_crosscheck",
+      "note": "520—525年掌权，并非在位皇帝。"
+    },
+    {
+      "dynasty": "北魏",
+      "polity": "北魏",
+      "name": "胡太后",
+      "title": "灵太后 · 再度临朝",
+      "from": 525,
+      "to": 528,
+      "role": "powerholder",
+      "eras": [],
+      "sources": [
+        "nanbei-wei"
+      ],
+      "verificationLevel": "chronology_crosscheck",
+      "note": "525年复出，528年河阴之变中被杀。"
+    },
+    {
+      "dynasty": "北魏",
+      "polity": "北魏",
+      "name": "孝明帝女（名不详）",
+      "title": "临时拥立者",
+      "from": 528,
+      "to": 528,
+      "role": "ruler",
+      "eras": [
+        {
+          "from": 528,
+          "to": 528,
+          "name": "武泰",
+          "baseYear": 1
+        }
+      ],
+      "sources": [
+        "nanbei-wei13",
+        "nanbei-eras"
+      ],
+      "verificationLevel": "chronology_crosscheck",
+      "note": "胡太后曾将孝明帝之女冒称为男而立，旋废；保留身份说明，不编入北魏十四帝主线。"
+    },
+    {
+      "dynasty": "北魏",
+      "polity": "北魏",
+      "name": "元钊",
+      "title": "北魏幼主",
+      "from": 528,
+      "to": 528,
+      "role": "ruler",
+      "eras": [
+        {
+          "from": 528,
+          "to": 528,
+          "name": "武泰",
+          "baseYear": 1
+        }
+      ],
+      "sources": [
+        "nanbei-wei13",
+        "nanbei-eras"
+      ],
+      "verificationLevel": "chronology_crosscheck",
+      "note": "孝明帝死后胡太后所立，随后与胡太后同被尔朱荣杀害；不编入北魏十四帝主线。"
+    },
+    {
+      "dynasty": "北魏",
+      "polity": "北魏",
+      "name": "尔朱荣",
+      "title": "天柱大将军 · 军政",
+      "from": 528,
+      "to": 530,
+      "role": "powerholder",
+      "eras": [],
+      "sources": [
+        "nanbei-beishi5"
+      ],
+      "verificationLevel": "chronology_crosscheck",
+      "note": "依托军队干预朝廷，530年被孝庄帝诛杀。"
+    },
+    {
+      "dynasty": "北魏",
+      "polity": "北魏",
+      "name": "元子攸",
+      "title": "北魏孝庄帝",
+      "from": 528,
+      "to": 531,
+      "role": "ruler",
+      "eras": [
+        {
+          "from": 528,
+          "to": 528,
+          "name": "建义",
+          "baseYear": 1
+        },
+        {
+          "from": 528,
+          "to": 530,
+          "name": "永安",
+          "baseYear": 1
+        },
+        {
+          "from": 531,
+          "to": 531,
+          "name": "永安",
+          "baseYear": 3
+        }
+      ],
+      "sources": [
+        "nanbei-moe",
+        "nanbei-eras",
+        "nanbei-wei11"
+      ],
+      "verificationLevel": "chronology_crosscheck",
+      "note": "按年度汇总；同年继位者并列，不表示全年同时执政。 传统永安三年十二月遇害跨入公历531年初，531年初仍为永安三年。"
+    },
+    {
+      "dynasty": "北魏",
+      "polity": "北魏",
+      "name": "元颢",
+      "title": "北海王（另立）",
+      "from": 529,
+      "to": 529,
+      "role": "ruler",
+      "eras": [
+        {
+          "from": 529,
+          "to": 529,
+          "name": "孝基",
+          "baseYear": 1
+        },
+        {
+          "from": 529,
+          "to": 529,
+          "name": "建武",
+          "baseYear": 1
+        }
+      ],
+      "sources": [
+        "nanbei-wei11",
+        "nanbei-eras",
+        "nanbei-wei74"
+      ],
+      "verificationLevel": "chronology_crosscheck",
+      "note": "528受梁支持为魏主，529在睢阳即帝位、入洛后改建武；本表从529列实际称帝，与元子攸并立。"
+    },
+    {
+      "dynasty": "北魏",
+      "polity": "北魏",
+      "name": "元晔",
+      "title": "北魏长广王",
+      "from": 530,
+      "to": 531,
+      "role": "ruler",
+      "eras": [
+        {
+          "from": 530,
+          "to": 531,
+          "name": "建明",
+          "baseYear": 1
+        }
+      ],
+      "sources": [
+        "nanbei-moe",
+        "nanbei-eras",
+        "nanbei-wei11"
+      ],
+      "verificationLevel": "chronology_crosscheck",
+      "note": "按年度汇总；同年继位者并列，不表示全年同时执政。"
+    },
+    {
+      "dynasty": "北魏",
+      "polity": "北魏",
+      "name": "元恭",
+      "title": "北魏节闵帝",
+      "from": 531,
+      "to": 532,
+      "role": "ruler",
+      "eras": [
+        {
+          "from": 531,
+          "to": 532,
+          "name": "普泰",
+          "baseYear": 1
+        }
+      ],
+      "sources": [
+        "nanbei-moe",
+        "nanbei-eras",
+        "nanbei-wei11"
+      ],
+      "verificationLevel": "chronology_crosscheck",
+      "note": "与高欢拥立的元朗先后并存，不把全部记录误作纯粹顺次继位。"
+    },
+    {
+      "dynasty": "北魏",
+      "polity": "北魏",
+      "name": "元朗",
+      "title": "北魏安定王",
+      "from": 531,
+      "to": 532,
+      "role": "ruler",
+      "eras": [
+        {
+          "from": 531,
+          "to": 532,
+          "name": "中兴",
+          "baseYear": 1
+        }
+      ],
+      "sources": [
+        "nanbei-moe",
+        "nanbei-eras",
+        "nanbei-wei11"
+      ],
+      "verificationLevel": "chronology_crosscheck",
+      "note": "在高欢支持下另立，与元恭一度并立。"
+    },
+    {
+      "dynasty": "北魏",
+      "polity": "北魏",
+      "name": "元修",
+      "title": "北魏孝武帝",
+      "from": 532,
+      "to": 535,
+      "role": "ruler",
+      "eras": [
+        {
+          "from": 532,
+          "to": 532,
+          "name": "太昌",
+          "baseYear": 1
+        },
+        {
+          "from": 532,
+          "to": 532,
+          "name": "永兴",
+          "baseYear": 1
+        },
+        {
+          "from": 532,
+          "to": 534,
+          "name": "永熙",
+          "baseYear": 1
+        },
+        {
+          "from": 535,
+          "to": 535,
+          "name": "永熙",
+          "baseYear": 3
+        }
+      ],
+      "sources": [
+        "nanbei-moe",
+        "nanbei-eras",
+        "nanbei-wei11"
+      ],
+      "verificationLevel": "chronology_crosscheck",
+      "note": "534年西迁长安；永熙三年末遇害在公历535年初，535年纪年仍为永熙三年。"
+    },
+    {
+      "dynasty": "北魏",
+      "polity": "西魏",
+      "name": "元修",
+      "title": "北魏孝武帝",
+      "from": 534,
+      "to": 535,
+      "role": "ruler",
+      "eras": [
+        {
+          "from": 534,
+          "to": 534,
+          "name": "永熙",
+          "baseYear": 3
+        },
+        {
+          "from": 535,
+          "to": 535,
+          "name": "永熙",
+          "baseYear": 3
+        }
+      ],
+      "sources": [
+        "nanbei-moe",
+        "nanbei-eras",
+        "nanbei-beishi5"
+      ],
+      "verificationLevel": "chronology_crosscheck",
+      "note": "西迁长安的北魏朝廷；534年图层提前使用西魏名称，不表示元宝炬已即位。535年初仍沿永熙三年。",
+      "mapBridge": true
+    },
+    {
+      "dynasty": "东魏",
+      "polity": "东魏",
+      "name": "高欢",
+      "title": "大丞相 · 军政",
+      "from": 534,
+      "to": 547,
+      "role": "powerholder",
+      "eras": [],
+      "sources": [
+        "nanbei-beishi5"
+      ],
+      "verificationLevel": "chronology_crosscheck",
+      "note": "元善见为在位皇帝，高欢为主要军政掌权者。"
+    },
+    {
+      "dynasty": "东魏",
+      "polity": "东魏",
+      "name": "元善见",
+      "title": "东魏孝静帝",
+      "from": 534,
+      "to": 550,
+      "role": "ruler",
+      "eras": [
+        {
+          "from": 534,
+          "to": 537,
+          "name": "天平",
+          "baseYear": 1
+        },
+        {
+          "from": 538,
+          "to": 539,
+          "name": "元象",
+          "baseYear": 1
+        },
+        {
+          "from": 539,
+          "to": 542,
+          "name": "兴和",
+          "baseYear": 1
+        },
+        {
+          "from": 543,
+          "to": 550,
+          "name": "武定",
+          "baseYear": 1
+        }
+      ],
+      "sources": [
+        "nanbei-moe",
+        "nanbei-eras",
+        "nanbei-beishi5"
+      ],
+      "verificationLevel": "chronology_crosscheck",
+      "note": "按年度汇总；同年继位者并列，不表示全年同时执政。"
+    },
+    {
+      "dynasty": "西魏",
+      "polity": "西魏",
+      "name": "元宝炬",
+      "title": "西魏文帝",
+      "from": 535,
+      "to": 551,
+      "role": "ruler",
+      "eras": [
+        {
+          "from": 535,
+          "to": 551,
+          "name": "大统",
+          "baseYear": 1
+        }
+      ],
+      "sources": [
+        "nanbei-moe",
+        "nanbei-eras",
+        "nanbei-beishi5"
+      ],
+      "verificationLevel": "chronology_crosscheck",
+      "note": "按年度汇总；同年继位者并列，不表示全年同时执政。"
+    },
+    {
+      "dynasty": "西魏",
+      "polity": "西魏",
+      "name": "宇文泰",
+      "title": "大丞相／太师 · 军政",
+      "from": 535,
+      "to": 556,
+      "role": "powerholder",
+      "eras": [],
+      "sources": [
+        "nanbei-beishi5"
+      ],
+      "verificationLevel": "chronology_crosscheck",
+      "note": "三位西魏皇帝之下的主要军政掌权者。"
+    },
+    {
+      "dynasty": "东魏",
+      "polity": "东魏",
+      "name": "高澄",
+      "title": "大将军 · 军政",
+      "from": 547,
+      "to": 549,
+      "role": "powerholder",
+      "eras": [],
+      "sources": [
+        "nanbei-beishi5"
+      ],
+      "verificationLevel": "chronology_crosscheck",
+      "note": "高欢死后接掌权力，549年遇刺。"
+    },
+    {
+      "dynasty": "东魏",
+      "polity": "东魏",
+      "name": "高洋",
+      "title": "齐王 · 军政",
+      "from": 549,
+      "to": 550,
+      "role": "powerholder",
+      "eras": [],
+      "sources": [
+        "nanbei-beishi5"
+      ],
+      "verificationLevel": "chronology_crosscheck",
+      "note": "继高澄掌权，550年代魏称帝。"
+    },
+    {
+      "dynasty": "梁",
+      "polity": "梁",
+      "name": "萧纲",
+      "title": "南朝梁简文帝",
+      "from": 549,
+      "to": 551,
+      "role": "ruler",
+      "eras": [
+        {
+          "from": 549,
+          "to": 549,
+          "name": "太清",
+          "baseYear": 3
+        },
+        {
+          "from": 550,
+          "to": 551,
+          "name": "大宝",
+          "baseYear": 1
+        }
+      ],
+      "sources": [
+        "nanbei-moe",
+        "nanbei-eras",
+        "nanbei-liang"
+      ],
+      "verificationLevel": "chronology_crosscheck",
+      "note": "按年度汇总；同年继位者并列，不表示全年同时执政。"
+    },
+    {
+      "dynasty": "梁",
+      "polity": "梁",
+      "name": "侯景",
+      "title": "控制建康朝廷",
+      "from": 549,
+      "to": 551,
+      "role": "powerholder",
+      "eras": [],
+      "sources": [
+        "nanbei-houjing"
+      ],
+      "verificationLevel": "chronology_crosscheck",
+      "note": "549年攻陷建康后控制梁朝廷，551年自立汉国；并不控制全部梁境。"
+    },
+    {
+      "dynasty": "北齐",
+      "polity": "北齐",
+      "name": "高洋",
+      "title": "北齐文宣帝",
+      "from": 550,
+      "to": 559,
+      "role": "ruler",
+      "eras": [
+        {
+          "from": 550,
+          "to": 559,
+          "name": "天保",
+          "baseYear": 1
+        }
+      ],
+      "sources": [
+        "nanbei-moe",
+        "nanbei-eras",
+        "nanbei-nqi"
+      ],
+      "verificationLevel": "chronology_crosscheck",
+      "note": "按年度汇总；同年继位者并列，不表示全年同时执政。"
+    },
+    {
+      "dynasty": "梁",
+      "polity": "梁",
+      "name": "萧栋",
+      "title": "梁豫章王",
+      "from": 551,
+      "to": 552,
+      "role": "ruler",
+      "eras": [
+        {
+          "from": 551,
+          "to": 551,
+          "name": "天正",
+          "baseYear": 1
+        },
+        {
+          "from": 552,
+          "to": 552,
+          "name": "天正",
+          "baseYear": 1
+        }
+      ],
+      "sources": [
+        "nanbei-moe",
+        "nanbei-eras",
+        "nanbei-houjing"
+      ],
+      "verificationLevel": "chronology_crosscheck",
+      "note": "天正元年十一月禅位侯景，折合公历552年初；552年仅含年初短暂在位，不作天正二年。"
+    },
+    {
+      "dynasty": "西魏",
+      "polity": "西魏",
+      "name": "元钦",
+      "title": "西魏废帝",
+      "from": 551,
+      "to": 554,
+      "role": "ruler",
+      "eras": [
+        {
+          "from": 551,
+          "to": 551,
+          "name": "大统",
+          "baseYear": 17
+        },
+        {
+          "from": 552,
+          "to": 554,
+          "name": "废帝",
+          "baseYear": 1,
+          "kind": "regnal_count"
+        }
+      ],
+      "sources": [
+        "nanbei-moe",
+        "nanbei-eras",
+        "nanbei-beishi5"
+      ],
+      "verificationLevel": "chronology_crosscheck",
+      "note": "551即位，552起以废帝元年纪，不使用杜撰年号；在位末年554。"
+    },
+    {
+      "dynasty": "梁",
+      "polity": "梁",
+      "name": "萧纪",
+      "title": "武陵王（蜀中称帝）",
+      "from": 552,
+      "to": 553,
+      "role": "ruler",
+      "eras": [
+        {
+          "from": 552,
+          "to": 553,
+          "name": "天正",
+          "baseYear": 1
+        }
+      ],
+      "sources": [
+        "nanbei-liang55",
+        "nanbei-eras"
+      ],
+      "verificationLevel": "chronology_crosscheck",
+      "note": "552年在成都称帝，与江陵的萧绎并立；不编入梁六帝主线。"
+    },
+    {
+      "dynasty": "梁",
+      "polity": "梁",
+      "name": "萧绎",
+      "title": "南朝梁元帝",
+      "from": 552,
+      "to": 554,
+      "role": "ruler",
+      "eras": [
+        {
+          "from": 552,
+          "to": 554,
+          "name": "承圣",
+          "baseYear": 1
+        }
+      ],
+      "sources": [
+        "nanbei-moe",
+        "nanbei-eras",
+        "nanbei-houjing"
+      ],
+      "verificationLevel": "chronology_crosscheck",
+      "note": "按年度汇总；同年继位者并列，不表示全年同时执政。"
+    },
+    {
+      "dynasty": "西梁",
+      "polity": "西梁",
+      "name": "萧詧",
+      "title": "梁王（尚未称帝）",
+      "from": 554,
+      "to": 554,
+      "role": "ruler",
+      "eras": [],
+      "noEra": true,
+      "mapBridge": true,
+      "sources": [
+        "nanbei-beishi93"
+      ],
+      "verificationLevel": "chronology_crosscheck",
+      "note": "554年西魏攻取江陵后支持萧詧主梁嗣，555年才正式称帝并建大定；此条对应地图提前标出的西梁势力，不将称帝提前。"
+    },
+    {
+      "dynasty": "西魏",
+      "polity": "西魏",
+      "name": "元廓",
+      "title": "西魏恭帝",
+      "from": 554,
+      "to": 557,
+      "role": "ruler",
+      "eras": [
+        {
+          "from": 554,
+          "to": 556,
+          "name": "恭帝",
+          "baseYear": 1,
+          "kind": "regnal_count"
+        },
+        {
+          "from": 557,
+          "to": 557,
+          "name": "恭帝",
+          "baseYear": 3,
+          "kind": "regnal_count"
+        }
+      ],
+      "sources": [
+        "nanbei-moe",
+        "nanbei-eras",
+        "nanbei-beishi5"
+      ],
+      "verificationLevel": "chronology_crosscheck",
+      "note": "不建年号，使用恭帝在位纪年；传统三年十二月禅位跨入公历557年初。"
+    },
+    {
+      "dynasty": "梁",
+      "polity": "梁",
+      "name": "萧渊明",
+      "title": "梁贞阳侯",
+      "from": 555,
+      "to": 555,
+      "role": "ruler",
+      "eras": [
+        {
+          "from": 555,
+          "to": 555,
+          "name": "天成",
+          "baseYear": 1
+        }
+      ],
+      "sources": [
+        "nanbei-moe",
+        "nanbei-eras",
+        "nanbei-beishi5"
+      ],
+      "verificationLevel": "chronology_crosscheck",
+      "note": "555年在北齐支持下即位，同年被陈霸先废；修正部分表作554年即位的偏差。"
+    },
+    {
+      "dynasty": "梁",
+      "polity": "梁",
+      "name": "萧方智",
+      "title": "南朝梁敬帝",
+      "from": 555,
+      "to": 557,
+      "role": "ruler",
+      "eras": [
+        {
+          "from": 555,
+          "to": 556,
+          "name": "绍泰",
+          "baseYear": 1
+        },
+        {
+          "from": 556,
+          "to": 557,
+          "name": "太平",
+          "baseYear": 1
+        }
+      ],
+      "sources": [
+        "nanbei-moe",
+        "nanbei-eras",
+        "nanbei-beishi5"
+      ],
+      "verificationLevel": "chronology_crosscheck",
+      "note": "按年度汇总；同年继位者并列，不表示全年同时执政。"
+    },
+    {
+      "dynasty": "西梁",
+      "polity": "西梁",
+      "name": "萧詧",
+      "title": "西梁宣帝",
+      "from": 555,
+      "to": 562,
+      "role": "ruler",
+      "eras": [
+        {
+          "from": 555,
+          "to": 562,
+          "name": "大定",
+          "baseYear": 1
+        }
+      ],
+      "sources": [
+        "nanbei-moe",
+        "nanbei-eras",
+        "nanbei-beishi93"
+      ],
+      "verificationLevel": "chronology_crosscheck",
+      "note": "按年度汇总；同年继位者并列，不表示全年同时执政。"
+    },
+    {
+      "dynasty": "西魏",
+      "polity": "西魏",
+      "name": "宇文护",
+      "title": "承接辅政",
+      "from": 556,
+      "to": 557,
+      "role": "powerholder",
+      "eras": [],
+      "sources": [
+        "nanbei-zhou"
+      ],
+      "verificationLevel": "chronology_crosscheck",
+      "note": "宇文泰去世后辅政，继而建立北周。"
+    },
+    {
+      "dynasty": "北周",
+      "polity": "北周",
+      "name": "宇文觉",
+      "title": "北周孝闵帝",
+      "from": 557,
+      "to": 557,
+      "role": "ruler",
+      "eras": [
+        {
+          "from": 557,
+          "to": 557,
+          "name": "孝闵帝",
+          "baseYear": 1,
+          "kind": "regnal_count"
+        }
+      ],
+      "sources": [
+        "nanbei-moe",
+        "nanbei-eras",
+        "nanbei-zhou"
+      ],
+      "verificationLevel": "chronology_crosscheck",
+      "note": "在位时称天王，无正式年号；皇帝称号为追谥。"
+    },
+    {
+      "dynasty": "陈",
+      "polity": "陈",
+      "name": "陈霸先",
+      "title": "南朝陈武帝",
+      "from": 557,
+      "to": 559,
+      "role": "ruler",
+      "eras": [
+        {
+          "from": 557,
+          "to": 559,
+          "name": "永定",
+          "baseYear": 1
+        }
+      ],
+      "sources": [
+        "nanbei-moe",
+        "nanbei-eras",
+        "nanbei-chen"
+      ],
+      "verificationLevel": "chronology_crosscheck",
+      "note": "按年度汇总；同年继位者并列，不表示全年同时执政。"
+    },
+    {
+      "dynasty": "北周",
+      "polity": "北周",
+      "name": "宇文毓",
+      "title": "北周明帝",
+      "from": 557,
+      "to": 560,
+      "role": "ruler",
+      "eras": [
+        {
+          "from": 557,
+          "to": 558,
+          "name": "明帝",
+          "baseYear": 1,
+          "kind": "regnal_count"
+        },
+        {
+          "from": 559,
+          "to": 560,
+          "name": "武成",
+          "baseYear": 1
+        }
+      ],
+      "sources": [
+        "nanbei-moe",
+        "nanbei-eras",
+        "nanbei-zhou4"
+      ],
+      "verificationLevel": "chronology_crosscheck",
+      "note": "557即天王位，559改称皇帝。明帝元年、二年为在位纪年，非年号。"
+    },
+    {
+      "dynasty": "北周",
+      "polity": "北周",
+      "name": "宇文护",
+      "title": "大冢宰／太师 · 军政",
+      "from": 557,
+      "to": 572,
+      "role": "powerholder",
+      "eras": [],
+      "sources": [
+        "nanbei-zhou4"
+      ],
+      "verificationLevel": "chronology_crosscheck",
+      "note": "主要军政权力延续至572年被武帝诛杀，非指各帝完全不理政。"
+    },
+    {
+      "dynasty": "北齐",
+      "polity": "北齐",
+      "name": "高殷",
+      "title": "北齐废帝",
+      "from": 559,
+      "to": 560,
+      "role": "ruler",
+      "eras": [
+        {
+          "from": 559,
+          "to": 559,
+          "name": "天保",
+          "baseYear": 10
+        },
+        {
+          "from": 560,
+          "to": 560,
+          "name": "乾明",
+          "baseYear": 1
+        }
+      ],
+      "sources": [
+        "nanbei-moe",
+        "nanbei-eras",
+        "nanbei-nqi"
+      ],
+      "verificationLevel": "chronology_crosscheck",
+      "note": "按年度汇总；同年继位者并列，不表示全年同时执政。"
+    },
+    {
+      "dynasty": "陈",
+      "polity": "陈",
+      "name": "陈蒨",
+      "title": "南朝陈文帝",
+      "from": 559,
+      "to": 566,
+      "role": "ruler",
+      "eras": [
+        {
+          "from": 559,
+          "to": 559,
+          "name": "永定",
+          "baseYear": 3
+        },
+        {
+          "from": 560,
+          "to": 566,
+          "name": "天嘉",
+          "baseYear": 1
+        },
+        {
+          "from": 566,
+          "to": 566,
+          "name": "天康",
+          "baseYear": 1
+        }
+      ],
+      "sources": [
+        "nanbei-moe",
+        "nanbei-eras",
+        "nanbei-chen"
+      ],
+      "verificationLevel": "chronology_crosscheck",
+      "note": "按年度汇总；同年继位者并列，不表示全年同时执政。"
+    },
+    {
+      "dynasty": "北齐",
+      "polity": "北齐",
+      "name": "高演",
+      "title": "北齐孝昭帝",
+      "from": 560,
+      "to": 561,
+      "role": "ruler",
+      "eras": [
+        {
+          "from": 560,
+          "to": 561,
+          "name": "皇建",
+          "baseYear": 1
+        }
+      ],
+      "sources": [
+        "nanbei-moe",
+        "nanbei-eras",
+        "nanbei-nqi"
+      ],
+      "verificationLevel": "chronology_crosscheck",
+      "note": "按年度汇总；同年继位者并列，不表示全年同时执政。"
+    },
+    {
+      "dynasty": "北周",
+      "polity": "北周",
+      "name": "宇文邕",
+      "title": "北周武帝",
+      "from": 560,
+      "to": 578,
+      "role": "ruler",
+      "eras": [
+        {
+          "from": 560,
+          "to": 560,
+          "name": "武成",
+          "baseYear": 2
+        },
+        {
+          "from": 561,
+          "to": 565,
+          "name": "保定",
+          "baseYear": 1
+        },
+        {
+          "from": 566,
+          "to": 572,
+          "name": "天和",
+          "baseYear": 1
+        },
+        {
+          "from": 572,
+          "to": 578,
+          "name": "建德",
+          "baseYear": 1
+        },
+        {
+          "from": 578,
+          "to": 578,
+          "name": "宣政",
+          "baseYear": 1
+        }
+      ],
+      "sources": [
+        "nanbei-moe",
+        "nanbei-eras",
+        "nanbei-zhou"
+      ],
+      "verificationLevel": "chronology_crosscheck",
+      "note": "按年度汇总；同年继位者并列，不表示全年同时执政。"
+    },
+    {
+      "dynasty": "北齐",
+      "polity": "北齐",
+      "name": "高湛",
+      "title": "北齐武成帝",
+      "from": 561,
+      "to": 565,
+      "role": "ruler",
+      "eras": [
+        {
+          "from": 561,
+          "to": 562,
+          "name": "太宁",
+          "baseYear": 1
+        },
+        {
+          "from": 562,
+          "to": 565,
+          "name": "河清",
+          "baseYear": 1
+        }
+      ],
+      "sources": [
+        "nanbei-moe",
+        "nanbei-eras",
+        "nanbei-nqi"
+      ],
+      "verificationLevel": "chronology_crosscheck",
+      "note": "按年度汇总；同年继位者并列，不表示全年同时执政。"
+    },
+    {
+      "dynasty": "西梁",
+      "polity": "西梁",
+      "name": "萧岿",
+      "title": "西梁明帝",
+      "from": 562,
+      "to": 585,
+      "role": "ruler",
+      "eras": [
+        {
+          "from": 562,
+          "to": 585,
+          "name": "天保",
+          "baseYear": 1
+        }
+      ],
+      "sources": [
+        "nanbei-moe",
+        "nanbei-eras",
+        "nanbei-beishi93"
+      ],
+      "verificationLevel": "chronology_crosscheck",
+      "note": "按年度汇总；同年继位者并列，不表示全年同时执政。"
+    },
+    {
+      "dynasty": "北齐",
+      "polity": "北齐",
+      "name": "高湛",
+      "title": "太上皇 · 掌权",
+      "from": 565,
+      "to": 568,
+      "role": "powerholder",
+      "eras": [],
+      "sources": [
+        "nanbei-nqi8"
+      ],
+      "verificationLevel": "chronology_crosscheck",
+      "note": "禅位高纬后继续控制军国大事，568年去世。"
+    },
+    {
+      "dynasty": "北齐",
+      "polity": "北齐",
+      "name": "高纬",
+      "title": "北齐后主",
+      "from": 565,
+      "to": 577,
+      "role": "ruler",
+      "eras": [
+        {
+          "from": 565,
+          "to": 569,
+          "name": "天统",
+          "baseYear": 1
+        },
+        {
+          "from": 570,
+          "to": 576,
+          "name": "武平",
+          "baseYear": 1
+        },
+        {
+          "from": 576,
+          "to": 576,
+          "name": "隆化",
+          "baseYear": 1
+        },
+        {
+          "from": 577,
+          "to": 577,
+          "name": "隆化",
+          "baseYear": 1
+        }
+      ],
+      "sources": [
+        "nanbei-moe",
+        "nanbei-eras",
+        "nanbei-nqi8"
+      ],
+      "verificationLevel": "chronology_crosscheck",
+      "note": "隆化元年末跨公历577年初；577年内禅位高恒。"
+    },
+    {
+      "dynasty": "陈",
+      "polity": "陈",
+      "name": "陈伯宗",
+      "title": "南朝陈废帝",
+      "from": 566,
+      "to": 568,
+      "role": "ruler",
+      "eras": [
+        {
+          "from": 566,
+          "to": 566,
+          "name": "天康",
+          "baseYear": 1
+        },
+        {
+          "from": 567,
+          "to": 568,
+          "name": "光大",
+          "baseYear": 1
+        }
+      ],
+      "sources": [
+        "nanbei-moe",
+        "nanbei-eras",
+        "nanbei-chen"
+      ],
+      "verificationLevel": "chronology_crosscheck",
+      "note": "按年度汇总；同年继位者并列，不表示全年同时执政。"
+    },
+    {
+      "dynasty": "陈",
+      "polity": "陈",
+      "name": "陈顼",
+      "title": "南朝陈宣帝",
+      "from": 568,
+      "to": 582,
+      "role": "ruler",
+      "eras": [
+        {
+          "from": 568,
+          "to": 568,
+          "name": "光大",
+          "baseYear": 2
+        },
+        {
+          "from": 569,
+          "to": 582,
+          "name": "太建",
+          "baseYear": 1
+        }
+      ],
+      "sources": [
+        "nanbei-moe",
+        "nanbei-eras",
+        "nanbei-chen"
+      ],
+      "verificationLevel": "chronology_crosscheck",
+      "note": "按年度汇总；同年继位者并列，不表示全年同时执政。"
+    },
+    {
+      "dynasty": "北齐",
+      "polity": "北齐",
+      "name": "高恒",
+      "title": "北齐幼主",
+      "from": 577,
+      "to": 577,
+      "role": "ruler",
+      "eras": [
+        {
+          "from": 577,
+          "to": 577,
+          "name": "承光",
+          "baseYear": 1
+        }
+      ],
+      "sources": [
+        "nanbei-moe",
+        "nanbei-eras",
+        "nanbei-nqi8"
+      ],
+      "verificationLevel": "chronology_crosscheck",
+      "note": "按年度汇总；同年继位者并列，不表示全年同时执政。"
+    },
+    {
+      "dynasty": "北周",
+      "polity": "北周",
+      "name": "宇文赟",
+      "title": "北周宣帝",
+      "from": 578,
+      "to": 579,
+      "role": "ruler",
+      "eras": [
+        {
+          "from": 578,
+          "to": 578,
+          "name": "宣政",
+          "baseYear": 1
+        },
+        {
+          "from": 579,
+          "to": 579,
+          "name": "大成",
+          "baseYear": 1
+        }
+      ],
+      "sources": [
+        "nanbei-moe",
+        "nanbei-eras",
+        "nanbei-zhou"
+      ],
+      "verificationLevel": "chronology_crosscheck",
+      "note": "按年度汇总；同年继位者并列，不表示全年同时执政。"
+    },
+    {
+      "dynasty": "北周",
+      "polity": "北周",
+      "name": "宇文赟",
+      "title": "天元皇帝 · 退位后掌权",
+      "from": 579,
+      "to": 580,
+      "role": "powerholder",
+      "eras": [],
+      "sources": [
+        "nanbei-zhou"
+      ],
+      "verificationLevel": "chronology_crosscheck",
+      "note": "禅位静帝后仍掌权，580年去世。"
+    },
+    {
+      "dynasty": "北周",
+      "polity": "北周",
+      "name": "宇文阐",
+      "title": "北周静帝",
+      "from": 579,
+      "to": 581,
+      "role": "ruler",
+      "eras": [
+        {
+          "from": 579,
+          "to": 580,
+          "name": "大象",
+          "baseYear": 1
+        },
+        {
+          "from": 581,
+          "to": 581,
+          "name": "大定",
+          "baseYear": 1
+        }
+      ],
+      "sources": [
+        "nanbei-moe",
+        "nanbei-eras",
+        "nanbei-zhou"
+      ],
+      "verificationLevel": "chronology_crosscheck",
+      "note": "按年度汇总；同年继位者并列，不表示全年同时执政。"
+    },
+    {
+      "dynasty": "北周",
+      "polity": "北周",
+      "name": "杨坚",
+      "title": "大丞相 · 辅政",
+      "from": 580,
+      "to": 581,
+      "role": "powerholder",
+      "eras": [],
+      "sources": [
+        "nanbei-zhou"
+      ],
+      "verificationLevel": "chronology_crosscheck",
+      "note": "宣帝死后辅政，581年代周建隋。"
     },
     {
       "dynasty": "隋",
@@ -4228,6 +6772,72 @@
         }
       ],
       "role": "ruler"
+    },
+    {
+      "dynasty": "陈",
+      "polity": "陈",
+      "name": "陈叔宝",
+      "title": "南朝陈后主",
+      "from": 582,
+      "to": 589,
+      "role": "ruler",
+      "eras": [
+        {
+          "from": 582,
+          "to": 582,
+          "name": "太建",
+          "baseYear": 14
+        },
+        {
+          "from": 583,
+          "to": 586,
+          "name": "至德",
+          "baseYear": 1
+        },
+        {
+          "from": 587,
+          "to": 589,
+          "name": "祯明",
+          "baseYear": 1
+        }
+      ],
+      "sources": [
+        "nanbei-moe",
+        "nanbei-eras",
+        "nanbei-chen"
+      ],
+      "verificationLevel": "chronology_crosscheck",
+      "note": "按年度汇总；同年继位者并列，不表示全年同时执政。"
+    },
+    {
+      "dynasty": "西梁",
+      "polity": "西梁",
+      "name": "萧琮",
+      "title": "西梁后主",
+      "from": 585,
+      "to": 587,
+      "role": "ruler",
+      "eras": [
+        {
+          "from": 585,
+          "to": 585,
+          "name": "天保",
+          "baseYear": 24
+        },
+        {
+          "from": 586,
+          "to": 587,
+          "name": "广运",
+          "baseYear": 1
+        }
+      ],
+      "sources": [
+        "nanbei-moe",
+        "nanbei-eras",
+        "nanbei-beishi93"
+      ],
+      "verificationLevel": "chronology_crosscheck",
+      "note": "按年度汇总；同年继位者并列，不表示全年同时执政。"
     },
     {
       "dynasty": "隋",
@@ -4726,6 +7336,20 @@
     {
       "dynasty": "唐",
       "polity": "唐",
+      "name": "李旦",
+      "title": "太上皇（掌部分军国权）",
+      "from": 712,
+      "to": 713,
+      "role": "powerholder",
+      "eras": [],
+      "sources": [
+        "audit-tang7"
+      ],
+      "note": "712年传位后仍决三品以上除授等大事；713年七月后军国政事归玄宗。年度交接不表示全年同样分权。"
+    },
+    {
+      "dynasty": "唐",
+      "polity": "唐",
       "from": 712,
       "to": 756,
       "name": "李隆基",
@@ -5197,6 +7821,35 @@
       ]
     },
     {
+      "dynasty": "后梁",
+      "polity": "后梁",
+      "name": "朱温",
+      "title": "后梁太祖",
+      "from": 907,
+      "to": 912,
+      "role": "ruler",
+      "eras": [
+        {
+          "from": 907,
+          "to": 911,
+          "name": "开平",
+          "baseYear": 1
+        },
+        {
+          "from": 911,
+          "to": 912,
+          "name": "乾化",
+          "baseYear": 1
+        }
+      ],
+      "sources": [
+        "wudai-primary",
+        "nanbei-eras"
+      ],
+      "verificationLevel": "chronology_crosscheck",
+      "note": "原名朱温，曾名朱全忠，即位后名朱晃；此处以既有检索名朱温统一匹配。"
+    },
+    {
       "dynasty": "辽",
       "polity": "辽",
       "from": 907,
@@ -5237,6 +7890,70 @@
       "sources": [
         "yangwu-primary"
       ]
+    },
+    {
+      "dynasty": "后梁",
+      "polity": "后梁",
+      "name": "朱友珪",
+      "title": "后梁郢王",
+      "from": 912,
+      "to": 913,
+      "role": "ruler",
+      "eras": [
+        {
+          "from": 912,
+          "to": 912,
+          "name": "乾化",
+          "baseYear": 2
+        },
+        {
+          "from": 913,
+          "to": 913,
+          "name": "凤历",
+          "baseYear": 1
+        }
+      ],
+      "sources": [
+        "wudai-primary",
+        "nanbei-eras"
+      ],
+      "verificationLevel": "chronology_crosscheck",
+      "note": ""
+    },
+    {
+      "dynasty": "后梁",
+      "polity": "后梁",
+      "name": "朱友贞",
+      "title": "后梁末帝",
+      "from": 913,
+      "to": 923,
+      "role": "ruler",
+      "eras": [
+        {
+          "from": 913,
+          "to": 915,
+          "name": "乾化",
+          "baseYear": 3
+        },
+        {
+          "from": 915,
+          "to": 921,
+          "name": "贞明",
+          "baseYear": 1
+        },
+        {
+          "from": 921,
+          "to": 923,
+          "name": "龙德",
+          "baseYear": 1
+        }
+      ],
+      "sources": [
+        "wudai-primary",
+        "nanbei-eras"
+      ],
+      "verificationLevel": "chronology_crosscheck",
+      "note": "即位后复用乾化，非乾化元年。"
     },
     {
       "dynasty": "杨吴",
@@ -5414,6 +8131,145 @@
       "role": "ruler"
     },
     {
+      "dynasty": "后唐",
+      "polity": "后唐",
+      "name": "李从厚",
+      "title": "后唐闵帝",
+      "from": 933,
+      "to": 934,
+      "role": "ruler",
+      "eras": [
+        {
+          "from": 933,
+          "to": 933,
+          "name": "长兴",
+          "baseYear": 4
+        },
+        {
+          "from": 934,
+          "to": 934,
+          "name": "应顺",
+          "baseYear": 1
+        }
+      ],
+      "sources": [
+        "wudai-primary",
+        "nanbei-eras"
+      ],
+      "verificationLevel": "chronology_crosscheck",
+      "note": ""
+    },
+    {
+      "dynasty": "后唐",
+      "polity": "后唐",
+      "name": "李从珂",
+      "title": "后唐末帝",
+      "from": 934,
+      "to": 936,
+      "role": "ruler",
+      "eras": [
+        {
+          "from": 934,
+          "to": 936,
+          "name": "清泰",
+          "baseYear": 1
+        }
+      ],
+      "sources": [
+        "wudai-primary",
+        "nanbei-eras"
+      ],
+      "verificationLevel": "chronology_crosscheck",
+      "note": ""
+    },
+    {
+      "dynasty": "后晋",
+      "polity": "后晋",
+      "name": "石敬瑭",
+      "title": "后晋高祖",
+      "from": 936,
+      "to": 942,
+      "role": "ruler",
+      "eras": [
+        {
+          "from": 936,
+          "to": 942,
+          "name": "天福",
+          "baseYear": 1
+        }
+      ],
+      "sources": [
+        "wudai-primary",
+        "nanbei-eras"
+      ],
+      "verificationLevel": "chronology_crosscheck",
+      "note": ""
+    },
+    {
+      "dynasty": "后晋",
+      "polity": "后晋",
+      "name": "石重贵",
+      "title": "后晋出帝",
+      "from": 942,
+      "to": 947,
+      "role": "ruler",
+      "eras": [
+        {
+          "from": 942,
+          "to": 943,
+          "name": "天福",
+          "baseYear": 7
+        },
+        {
+          "from": 944,
+          "to": 946,
+          "name": "开运",
+          "baseYear": 1
+        },
+        {
+          "from": 947,
+          "to": 947,
+          "name": "开运",
+          "baseYear": 3
+        }
+      ],
+      "sources": [
+        "wudai-primary",
+        "nanbei-eras"
+      ],
+      "verificationLevel": "chronology_crosscheck",
+      "note": "传统开运三年末亡国跨入公历947年初；不将947年写成开运四年。"
+    },
+    {
+      "dynasty": "后汉",
+      "polity": "后汉",
+      "name": "刘知远",
+      "title": "后汉高祖",
+      "from": 947,
+      "to": 948,
+      "role": "ruler",
+      "eras": [
+        {
+          "from": 947,
+          "to": 947,
+          "name": "天福",
+          "baseYear": 12
+        },
+        {
+          "from": 948,
+          "to": 948,
+          "name": "乾祐",
+          "baseYear": 1
+        }
+      ],
+      "sources": [
+        "wudai-primary",
+        "nanbei-eras"
+      ],
+      "verificationLevel": "chronology_crosscheck",
+      "note": "建国沿用后晋天福十二年，948年改乾祐。"
+    },
+    {
       "dynasty": "辽",
       "polity": "辽",
       "from": 947,
@@ -5427,6 +8283,64 @@
       "role": "ruler"
     },
     {
+      "dynasty": "后汉",
+      "polity": "后汉",
+      "name": "刘承祐",
+      "title": "后汉隐帝",
+      "from": 948,
+      "to": 951,
+      "role": "ruler",
+      "eras": [
+        {
+          "from": 948,
+          "to": 950,
+          "name": "乾祐",
+          "baseYear": 1
+        },
+        {
+          "from": 951,
+          "to": 951,
+          "name": "乾祐",
+          "baseYear": 3
+        }
+      ],
+      "sources": [
+        "wudai-primary",
+        "nanbei-eras"
+      ],
+      "verificationLevel": "chronology_crosscheck",
+      "note": "传统乾祐三年末遇害跨入公历951年初；不作乾祐四年。"
+    },
+    {
+      "dynasty": "后周",
+      "polity": "后周",
+      "name": "郭威",
+      "title": "后周太祖",
+      "from": 951,
+      "to": 954,
+      "role": "ruler",
+      "eras": [
+        {
+          "from": 951,
+          "to": 953,
+          "name": "广顺",
+          "baseYear": 1
+        },
+        {
+          "from": 954,
+          "to": 954,
+          "name": "显德",
+          "baseYear": 1
+        }
+      ],
+      "sources": [
+        "wudai-primary",
+        "nanbei-eras"
+      ],
+      "verificationLevel": "chronology_crosscheck",
+      "note": ""
+    },
+    {
       "dynasty": "辽",
       "polity": "辽",
       "from": 951,
@@ -5438,6 +8352,52 @@
         "regional-liao-primary"
       ],
       "role": "ruler"
+    },
+    {
+      "dynasty": "后周",
+      "polity": "后周",
+      "name": "柴荣",
+      "title": "后周世宗",
+      "from": 954,
+      "to": 959,
+      "role": "ruler",
+      "eras": [
+        {
+          "from": 954,
+          "to": 959,
+          "name": "显德",
+          "baseYear": 1
+        }
+      ],
+      "sources": [
+        "wudai-primary",
+        "nanbei-eras"
+      ],
+      "verificationLevel": "chronology_crosscheck",
+      "note": ""
+    },
+    {
+      "dynasty": "后周",
+      "polity": "后周",
+      "name": "柴宗训",
+      "title": "后周恭帝",
+      "from": 959,
+      "to": 960,
+      "role": "ruler",
+      "eras": [
+        {
+          "from": 959,
+          "to": 960,
+          "name": "显德",
+          "baseYear": 6
+        }
+      ],
+      "sources": [
+        "wudai-primary",
+        "nanbei-eras"
+      ],
+      "verificationLevel": "chronology_crosscheck",
+      "note": ""
     },
     {
       "dynasty": "北宋",
@@ -7349,6 +10309,20 @@
     {
       "dynasty": "清",
       "polity": "清",
+      "name": "弘历",
+      "title": "太上皇（训政）",
+      "from": 1796,
+      "to": 1799,
+      "role": "powerholder",
+      "eras": [],
+      "sources": [
+        "audit-qing-qianlong"
+      ],
+      "note": "1796禅位后仍掌握最高决策权，1799去世。与嘉庆帝名义帝位分列。"
+    },
+    {
+      "dynasty": "清",
+      "polity": "清",
       "from": 1796,
       "to": 1820,
       "name": "颙琰",
@@ -7523,36 +10497,8 @@
       "note": "1911立法局原始会议记录确证。",
       "dynasty": "九龙新界（英租）",
       "eras": []
-    },
-    {
-      "dynasty": "唐",
-      "polity": "唐",
-      "name": "李旦",
-      "title": "太上皇（掌部分军国权）",
-      "from": 712,
-      "to": 713,
-      "role": "powerholder",
-      "eras": [],
-      "sources": [
-        "audit-tang7"
-      ],
-      "note": "712年传位后仍决三品以上除授等大事；713年七月后军国政事归玄宗。年度交接不表示全年同样分权。"
-    },
-    {
-      "dynasty": "清",
-      "polity": "清",
-      "name": "弘历",
-      "title": "太上皇（训政）",
-      "from": 1796,
-      "to": 1799,
-      "role": "powerholder",
-      "eras": [],
-      "sources": [
-        "audit-qing-qianlong"
-      ],
-      "note": "1796禅位后仍掌握最高决策权，1799去世。与嘉庆帝名义帝位分列。"
     }
   ],
-  "version": 1,
-  "scope": "Annual reign and era reading aid. Inclusive years allow succession-year overlap. Era boundaries without exact dates are annual approximations; inherited accession-year eras remain incomplete. Borders are a separate snapshot layer."
+  "version": "2026-10-26-nanbei-annual-1",
+  "scope": "Annual reign and era reading aid. Inclusive years allow succession-year overlap. Era boundaries without exact dates are annual approximations; inherited accession-year eras remain incomplete. Borders are a separate snapshot layer. Added annual Northern and Southern Dynasties rulers and selected power holders, cross-checked against regnal tables and targeted primary chronicles. Traditional calendar late-year carryovers are explicit; annual matches do not assert a day-level political snapshot."
 }
