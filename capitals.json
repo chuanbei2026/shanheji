@@ -301,7 +301,7 @@
     {
       "id": "sui-luo",
       "dynasty": "隋",
-      "from": 605,
+      "from": 606,
       "to": 617,
       "name": "洛阳",
       "modern": "洛阳",
@@ -313,7 +313,7 @@
       "sourceIds": [
         "tang"
       ],
-      "note": "605年营建东都洛阳；与大兴两京并存，采用隋唐洛阳城址。江都为后期驻跸地，不自动当作正式迁都。"
+      "note": "605年营建东京，606年改称东都；大兴与洛阳两京并存。江都巡幸不自动当作废大兴、洛阳而另立正式首都。"
     },
     {
       "id": "tang-chang-a",
@@ -387,7 +387,7 @@
     {
       "id": "tang-chang-b",
       "dynasty": "唐",
-      "from": 705,
+      "from": 706,
       "to": 903,
       "name": "长安",
       "modern": "西安",
@@ -398,9 +398,10 @@
       "role": "都城",
       "sourceIds": [
         "north-xian-chronicle",
-        "tang"
+        "tang",
+        "move-tang7"
       ],
-      "note": "复唐后长安为主要都城。705年朝廷曾先在洛阳，后还长安；安史之乱、黄巢战争等期间朝廷出奔，不代表每年一直控制都城。"
+      "note": "705年复唐时朝廷仍在洛阳；706年神龙二年十月还长安。长安为主要都城，洛阳仍是东都；皇帝临时出奔不等于都城建制取消。"
     },
     {
       "id": "song",
@@ -663,7 +664,7 @@
     {
       "id": "wu-seat",
       "dynasty": "孙吴",
-      "from": 222,
+      "from": 221,
       "to": 228,
       "name": "武昌",
       "modern": "鄂州",
@@ -730,6 +731,181 @@
         "wuNanjing"
       ],
       "note": "266年十二月孙皓还都建业。280年晋灭吴，年度层不再标吴都。"
+    },
+    {
+      "id": "tang-luo-705",
+      "dynasty": "唐",
+      "from": 705,
+      "to": 705,
+      "name": "东都",
+      "modern": "洛阳",
+      "point": [
+        112.47,
+        34.68
+      ],
+      "role": "朝廷驻地",
+      "sourceIds": [
+        "move-tang7"
+      ],
+      "note": "705年复唐并复神都为东都；朝廷到706年才还长安，不能提前一年切换实际驻地。"
+    },
+    {
+      "id": "tang-east-restored",
+      "dynasty": "唐",
+      "from": 706,
+      "to": 903,
+      "name": "东都",
+      "modern": "洛阳",
+      "point": [
+        112.47,
+        34.68
+      ],
+      "role": "东都",
+      "sourceIds": [
+        "move-tang7",
+        "move-tang-plan"
+      ],
+      "note": "706年还长安后仍保留东都；两京制度不等于皇帝同时驻在两地。904年改按唐廷迁洛后的都城展示。"
+    },
+    {
+      "id": "sui-tokyo-605",
+      "dynasty": "隋",
+      "from": 605,
+      "to": 605,
+      "name": "洛阳",
+      "modern": "洛阳",
+      "point": [
+        112.47,
+        34.68
+      ],
+      "role": "东京",
+      "sourceIds": [
+        "move-sui3"
+      ],
+      "note": "605年营建东京，606年才改称东都。建城、朝廷移驻与两京制度不是一个瞬时事件。"
+    },
+    {
+      "id": "wei-pingcheng",
+      "dynasty": "北魏",
+      "from": 398,
+      "to": 493,
+      "name": "平城",
+      "modern": "大同",
+      "point": [
+        113.3,
+        40.09
+      ],
+      "role": "都城",
+      "sourceIds": [
+        "move-wei2",
+        "move-pingcheng"
+      ],
+      "note": "398年由盛乐迁平城；494年迁洛阳。标识为古城区域示意，不把整个今大同市域当作城址。"
+    },
+    {
+      "id": "wei-luoyang",
+      "dynasty": "北魏",
+      "from": 494,
+      "to": 533,
+      "name": "洛阳",
+      "modern": "洛阳",
+      "point": [
+        112.63,
+        34.72
+      ],
+      "role": "都城",
+      "sourceIds": [
+        "move-pingcheng",
+        "move-wei12"
+      ],
+      "note": "494年迁洛阳；534年元修西入关中，另立的元善见朝廷北迁邺。年级展示不把两支朝廷合为同一都城。"
+    },
+    {
+      "id": "eastwei-ye",
+      "dynasty": "东魏",
+      "from": 534,
+      "to": 549,
+      "name": "邺",
+      "modern": "临漳",
+      "point": [
+        114.61,
+        36.24
+      ],
+      "role": "都城",
+      "sourceIds": [
+        "move-wei12"
+      ],
+      "note": "534年由洛阳迁邺，次年起扩建邺南城；迁都与新城施工分开。550年北齐继立，未把550年整年仍标作东魏。"
+    },
+    {
+      "id": "jin-zhongdu",
+      "dynasty": "金",
+      "from": 1153,
+      "to": 1213,
+      "name": "中都",
+      "modern": "北京",
+      "point": [
+        116.35,
+        39.88
+      ],
+      "role": "都城",
+      "sourceIds": [
+        "move-jin1153"
+      ],
+      "note": "1153年由上京迁中都；城址在今北京老城西南，区别于元大都。1214年金廷迁南京开封府。"
+    },
+    {
+      "id": "jin-nanjing",
+      "dynasty": "金",
+      "from": 1214,
+      "to": 1232,
+      "name": "南京·开封府",
+      "modern": "开封",
+      "point": [
+        114.3,
+        34.8
+      ],
+      "role": "都城",
+      "sourceIds": [
+        "move-jin14",
+        "move-jin1214"
+      ],
+      "note": "1214年由中都南迁。金南京是今开封；天兴元年岁末至1233年初朝廷离汴，此后不再将开封画作稳定皇帝驻地。"
+    },
+    {
+      "id": "laterjin-shenyang",
+      "dynasty": "后金",
+      "from": 1625,
+      "to": 1633,
+      "name": "沈阳",
+      "modern": "沈阳",
+      "point": [
+        123.45,
+        41.8
+      ],
+      "role": "都城",
+      "sourceIds": [
+        "move-shenyang"
+      ],
+      "note": "1625年努尔哈赤由辽阳迁此；国号仍为后金，1634年才改城名盛京，1636年改国号清。"
+    },
+    {
+      "id": "laterjin-shengjing",
+      "dynasty": "后金",
+      "from": 1634,
+      "to": 1635,
+      "name": "盛京",
+      "modern": "沈阳",
+      "point": [
+        123.45,
+        41.8
+      ],
+      "role": "都城",
+      "sourceIds": [
+        "shengjing",
+        "move-shenyang"
+      ],
+      "note": "1634年沈阳改称盛京，地点未变；1636年改国号清后由清代条目衔接。"
     }
   ],
   "sources": {
@@ -850,6 +1026,124 @@
     "wuNanjing": {
       "title": "南京市地方志办公室 · 东吴两次迁都南京",
       "url": "https://dfz.nanjing.gov.cn/gzdt/202403/t20240315_4186987.html"
+    },
+    "move-han9": {
+      "title": "《后汉书》卷九·献帝纪",
+      "url": "https://zh.wikisource.org/wiki/後漢書/卷9"
+    },
+    "move-wu48": {
+      "title": "《三国志》卷四十八·三嗣主传",
+      "url": "https://zh.wikisource.org/wiki/三國志/卷48"
+    },
+    "move-wu-ezhou": {
+      "title": "鄂州市政府 · 吴都武昌城",
+      "url": "https://www.ezhou.gov.cn/zjez/ezrw/ezss/202205/t20220526_469968.html"
+    },
+    "move-wei2": {
+      "title": "《魏书》卷二·太祖纪",
+      "url": "https://zh.wikisource.org/wiki/魏書/卷2"
+    },
+    "move-wei12": {
+      "title": "《魏书》卷十二·孝静纪",
+      "url": "https://zh.wikisource.org/wiki/魏書/卷12"
+    },
+    "move-pingcheng": {
+      "title": "大同市政府·历史溯源",
+      "url": "https://dt.gov.cn/dtszf/sqgllssy/202510/2f0c0525819a4af3ae0ba42eb47ad053.shtml"
+    },
+    "move-sui1": {
+      "title": "《隋书》卷一·高祖纪上",
+      "url": "https://zh.wikisource.org/wiki/隋書/卷01"
+    },
+    "move-sui3": {
+      "title": "《隋书》卷三·炀帝纪上",
+      "url": "https://zh.wikisource.org/wiki/隋書/卷03"
+    },
+    "move-tang7": {
+      "title": "《旧唐书》卷七·中宗纪",
+      "url": "https://zh.wikisource.org/wiki/舊唐書/卷7",
+      "evidence": "神龙元年复国号、改神都为东都；神龙二年十月车驾还京师、至自东都。"
+    },
+    "move-tang-plan": {
+      "title": "洛阳文旅局 · 洛阳历史文化名城保护规划",
+      "url": "https://oss.ly.gov.cn/lyswhgdhlyj/upload/20240723/297ed34a90d832350190dd810af40005.pdf"
+    },
+    "move-tang904": {
+      "title": "洛阳市志·大事记（904年）",
+      "url": "https://oss.ly.gov.cn/upload-file/files/20241218/4bf4f3e74241441c9b6f9dc5f46ace8f.pdf"
+    },
+    "move-linan": {
+      "title": "国家民委 · 《咸淳临安志》与南宋行在",
+      "url": "https://www.neac.gov.cn/seac/c103391/202301/1160353.shtml"
+    },
+    "move-jin1153": {
+      "title": "北京市政府·北京建都870周年考古成果展",
+      "url": "https://www.beijing.gov.cn/renwen/zt/2023whhzrycr/whcc/202306/t20230605_3122428.html"
+    },
+    "move-jin14": {
+      "title": "《金史》卷十四·宣宗纪上",
+      "url": "https://zh.wikisource.org/wiki/金史/卷14"
+    },
+    "move-jin1214": {
+      "title": "北京市文旅局·寻迹金中都",
+      "url": "https://mp.visitbeijing.com.cn/a1/48ALwjo3qxD"
+    },
+    "move-yuan": {
+      "title": "中国国家博物馆 · 元大都",
+      "url": "https://www.chnmuseum.cn/yj/xscg/xslw/201812/t20181224_33233.shtml"
+    },
+    "move-shenyang": {
+      "title": "沈阳故宫博物院·宫廷人物（努尔哈赤）",
+      "url": "https://www.sypm.org.cn/shjy_4/5.html"
+    },
+    "move-ming": {
+      "title": "首都博物馆 · 1420：从南京到北京",
+      "url": "https://capitalmuseum.org.cn/exhibition/5fa1658c7a394b6ab12aa0ca3a92f636"
+    },
+    "move-qing": {
+      "title": "故宫博物院 · 清廷迁都北京",
+      "url": "https://www.dpm.org.cn/court/event/159873.html"
     }
+  },
+  "capitalChangeReview": {
+    "checkedAt": "2026-10-26",
+    "newEvents": 16,
+    "linkedEvents": 22,
+    "corrections": [
+      "唐中宗还长安：705→706，依据《旧唐书》神龙二年十月。",
+      "隋洛阳：605为东京营建，606起称东都。",
+      "补孙吴221年武昌王都，与229、265、266迁还都节点衔接。"
+    ],
+    "limits": [
+      "为主要迁都及重要政治中心变动的补编，不是全部政权逐月驻地总表。",
+      "传统年号月份保留原纪年，不自动改写为公历月日。",
+      "盘庚迁殷保留约年；出发都邑等争议未补成确定迁移路线。",
+      "临时出奔与巡幸不自动改变制度都城；两都并用不画为单向废旧迁新。",
+      "地图年内采用后期状态；直线、曲线仅为方向示意，不是行进路线复原。"
+    ],
+    "reviewedEventIds": [
+      "anc_eastward",
+      "anc_xianyang",
+      "cap_han_190",
+      "chron_xuchang",
+      "cap_wu_229",
+      "cap_wu_265",
+      "cap_wu_266",
+      "cap_wei_398",
+      "chron_luoyang_move",
+      "cap_eastwei_534",
+      "cap_sui_583",
+      "cap_sui_605",
+      "cap_tang_684",
+      "cap_tang_706",
+      "cap_tang_904",
+      "cap_song_1138",
+      "cap_jin_1153",
+      "cap_jin_1214",
+      "cap_yuan_1272",
+      "late_beijing_capital",
+      "cap_laterjin_1625",
+      "late_qing_enters"
+    ]
   }
 }

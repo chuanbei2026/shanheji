@@ -4266,5 +4266,46 @@
       "北凉承和／永和等文献异名保留在人物说明；考古文书的其他纪年未强行归并。",
       "上古、春秋战国部分诸侯、十六国其他政权、周边政权与城址仍有未覆盖项目；本轮范围以南北朝在图项目及五代主朝为主。"
     ]
+  },
+  "capitalRelocationReview": {
+    "checkedAt": "2026-10-26",
+    "newEvents": 16,
+    "linkedEvents": 22,
+    "corrections": [
+      "唐中宗还长安：705→706，依据《旧唐书》神龙二年十月。",
+      "隋洛阳：605为东京营建，606起称东都。",
+      "补孙吴221年武昌王都，与229、265、266迁还都节点衔接。"
+    ],
+    "limits": [
+      "为主要迁都及重要政治中心变动的补编，不是全部政权逐月驻地总表。",
+      "传统年号月份保留原纪年，不自动改写为公历月日。",
+      "盘庚迁殷保留约年；出发都邑等争议未补成确定迁移路线。",
+      "临时出奔与巡幸不自动改变制度都城；两都并用不画为单向废旧迁新。",
+      "地图年内采用后期状态；直线、曲线仅为方向示意，不是行进路线复原。"
+    ],
+    "reviewedEventIds": [
+      "anc_eastward",
+      "anc_xianyang",
+      "cap_han_190",
+      "chron_xuchang",
+      "cap_wu_229",
+      "cap_wu_265",
+      "cap_wu_266",
+      "cap_wei_398",
+      "chron_luoyang_move",
+      "cap_eastwei_534",
+      "cap_sui_583",
+      "cap_sui_605",
+      "cap_tang_684",
+      "cap_tang_706",
+      "cap_tang_904",
+      "cap_song_1138",
+      "cap_jin_1153",
+      "cap_jin_1214",
+      "cap_yuan_1272",
+      "late_beijing_capital",
+      "cap_laterjin_1625",
+      "late_qing_enters"
+    ]
   }
 }

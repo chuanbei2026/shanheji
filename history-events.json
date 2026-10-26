@@ -802,6 +802,83 @@
       "title": "故宫博物院 · 军机处",
       "url": "https://www.dpm.org.cn/court/system/236360.html",
       "note": "区分1729军机房与1732办理军机处；故宫用“大部分学者认为”限定创设年。"
+    },
+    "move-han9": {
+      "title": "《后汉书》卷九·献帝纪",
+      "url": "https://zh.wikisource.org/wiki/後漢書/卷9"
+    },
+    "move-wu48": {
+      "title": "《三国志》卷四十八·三嗣主传",
+      "url": "https://zh.wikisource.org/wiki/三國志/卷48"
+    },
+    "move-wu-ezhou": {
+      "title": "鄂州市政府 · 吴都武昌城",
+      "url": "https://www.ezhou.gov.cn/zjez/ezrw/ezss/202205/t20220526_469968.html"
+    },
+    "move-wei2": {
+      "title": "《魏书》卷二·太祖纪",
+      "url": "https://zh.wikisource.org/wiki/魏書/卷2"
+    },
+    "move-wei12": {
+      "title": "《魏书》卷十二·孝静纪",
+      "url": "https://zh.wikisource.org/wiki/魏書/卷12"
+    },
+    "move-pingcheng": {
+      "title": "大同市政府·历史溯源",
+      "url": "https://dt.gov.cn/dtszf/sqgllssy/202510/2f0c0525819a4af3ae0ba42eb47ad053.shtml"
+    },
+    "move-sui1": {
+      "title": "《隋书》卷一·高祖纪上",
+      "url": "https://zh.wikisource.org/wiki/隋書/卷01"
+    },
+    "move-sui3": {
+      "title": "《隋书》卷三·炀帝纪上",
+      "url": "https://zh.wikisource.org/wiki/隋書/卷03"
+    },
+    "move-tang7": {
+      "title": "《旧唐书》卷七·中宗纪",
+      "url": "https://zh.wikisource.org/wiki/舊唐書/卷7",
+      "evidence": "神龙元年复国号、改神都为东都；神龙二年十月车驾还京师、至自东都。"
+    },
+    "move-tang-plan": {
+      "title": "洛阳文旅局 · 洛阳历史文化名城保护规划",
+      "url": "https://oss.ly.gov.cn/lyswhgdhlyj/upload/20240723/297ed34a90d832350190dd810af40005.pdf"
+    },
+    "move-tang904": {
+      "title": "洛阳市志·大事记（904年）",
+      "url": "https://oss.ly.gov.cn/upload-file/files/20241218/4bf4f3e74241441c9b6f9dc5f46ace8f.pdf"
+    },
+    "move-linan": {
+      "title": "国家民委 · 《咸淳临安志》与南宋行在",
+      "url": "https://www.neac.gov.cn/seac/c103391/202301/1160353.shtml"
+    },
+    "move-jin1153": {
+      "title": "北京市政府·北京建都870周年考古成果展",
+      "url": "https://www.beijing.gov.cn/renwen/zt/2023whhzrycr/whcc/202306/t20230605_3122428.html"
+    },
+    "move-jin14": {
+      "title": "《金史》卷十四·宣宗纪上",
+      "url": "https://zh.wikisource.org/wiki/金史/卷14"
+    },
+    "move-jin1214": {
+      "title": "北京市文旅局·寻迹金中都",
+      "url": "https://mp.visitbeijing.com.cn/a1/48ALwjo3qxD"
+    },
+    "move-yuan": {
+      "title": "中国国家博物馆 · 元大都",
+      "url": "https://www.chnmuseum.cn/yj/xscg/xslw/201812/t20181224_33233.shtml"
+    },
+    "move-shenyang": {
+      "title": "沈阳故宫博物院·宫廷人物（努尔哈赤）",
+      "url": "https://www.sypm.org.cn/shjy_4/5.html"
+    },
+    "move-ming": {
+      "title": "首都博物馆 · 1420：从南京到北京",
+      "url": "https://capitalmuseum.org.cn/exhibition/5fa1658c7a394b6ab12aa0ca3a92f636"
+    },
+    "move-qing": {
+      "title": "故宫博物院 · 清廷迁都北京",
+      "url": "https://www.dpm.org.cn/court/event/159873.html"
     }
   },
   "events": [
@@ -967,7 +1044,26 @@
       ],
       "people": [
         "周平王 · 姬宜臼"
-      ]
+      ],
+      "capitalMove": {
+        "polity": "东周",
+        "kind": "move",
+        "from": {
+          "label": "镐京",
+          "point": [
+            108.76,
+            34.22
+          ]
+        },
+        "to": {
+          "label": "雒邑",
+          "point": [
+            112.49,
+            34.69
+          ]
+        },
+        "geometryNote": "端点为古城区域示意；虚线仅表迁移方向，不复原实际道路。"
+      }
     },
     {
       "id": "anc_xuge",
@@ -1169,7 +1265,26 @@
       ],
       "people": [
         "秦孝公 · 嬴渠梁"
-      ]
+      ],
+      "capitalMove": {
+        "polity": "秦",
+        "kind": "move",
+        "from": {
+          "label": "栎阳",
+          "point": [
+            109.22,
+            34.66
+          ]
+        },
+        "to": {
+          "label": "咸阳",
+          "point": [
+            108.83,
+            34.41
+          ]
+        },
+        "geometryNote": "端点为古城区域示意；虚线仅表迁移方向，不复原实际道路。"
+      }
     },
     {
       "id": "anc_bashu",
@@ -1827,19 +1942,75 @@
       ]
     },
     {
+      "id": "cap_han_190",
+      "year": 190,
+      "title": "董卓迫献帝迁都长安",
+      "category": "政权与变局",
+      "brief": "汉廷离开雒阳，关东讨董战争改变了政治中心。",
+      "summary": "董卓控制汉献帝，迫使朝廷从雒阳西迁长安，并迁徙百姓、破坏雒阳。献帝先行入长安，董卓本人后来才西入，不能把两人的抵达日期混作一天。",
+      "impact": "东汉中央权威进一步依附军阀，雒阳及周边社会遭受重创。",
+      "people": [
+        "东汉献帝 · 刘协",
+        "董卓"
+      ],
+      "sources": [
+        "move-han9"
+      ],
+      "capitalMove": {
+        "polity": "东汉",
+        "kind": "move",
+        "from": {
+          "label": "雒阳",
+          "point": [
+            112.63,
+            34.72
+          ]
+        },
+        "to": {
+          "label": "长安",
+          "point": [
+            108.86,
+            34.38
+          ]
+        },
+        "geometryNote": "端点为古城区域示意；虚线仅表迁移方向，不复原实际道路。"
+      },
+      "dateNote": "《后汉书》系于初平元年二月迁都、三月抵长安；沿传统年度纪年展示。"
+    },
+    {
       "id": "chron_xuchang",
       "year": 196,
       "title": "曹操迎献帝都许",
       "category": "政权与变局",
-      "summary": "曹操迎接流离中的汉献帝，将朝廷安置于许。曹操获得借汉廷名义发布命令的政治优势，并逐步掌握朝廷实权。",
+      "summary": "汉献帝从长安东归，196年抵雒阳后，曹操再迎朝廷迁往许县。许县到221年才改名许昌，不能提前用当时尚未设置的地名作都城名。",
       "impact": "军事竞争与中央名义权威结合，成为曹操整合北方的重要条件。",
       "sources": [
-        "ec_caocao"
+        "ec_caocao",
+        "move-han9"
       ],
       "people": [
         "东汉献帝 · 刘协",
         "曹操"
-      ]
+      ],
+      "capitalMove": {
+        "polity": "东汉",
+        "kind": "move",
+        "from": {
+          "label": "雒阳",
+          "point": [
+            112.63,
+            34.72
+          ]
+        },
+        "to": {
+          "label": "许县",
+          "point": [
+            114.03,
+            34.04
+          ]
+        },
+        "geometryNote": "端点为古城区域示意；虚线仅表迁移方向，不复原实际道路。"
+      }
     },
     {
       "id": "chron_guandu",
@@ -1954,6 +2125,41 @@
       ]
     },
     {
+      "id": "cap_wu_229",
+      "year": 229,
+      "title": "孙权迁都建业",
+      "category": "政权与变局",
+      "brief": "称帝数月后，吴廷由武昌迁往建业。",
+      "summary": "孙权在武昌称帝后，于同年迁都建业，武昌仍保留重要政治军事地位。这里的武昌在今鄂州，不能误画成今武汉武昌。",
+      "impact": "长江下游成为孙吴的主要政治中心。",
+      "people": [
+        "吴大帝 · 孙权"
+      ],
+      "sources": [
+        "move-wu-ezhou"
+      ],
+      "capitalMove": {
+        "polity": "孙吴",
+        "kind": "move",
+        "from": {
+          "label": "武昌",
+          "point": [
+            114.87,
+            30.4
+          ]
+        },
+        "to": {
+          "label": "建业",
+          "point": [
+            118.8,
+            32.06
+          ]
+        },
+        "geometryNote": "端点为古城区域示意；虚线仅表迁移方向，不复原实际道路。"
+      },
+      "dateNote": "采用黄龙元年九月迁建业的传统纪年；年度地图显示年内后期状态。"
+    },
+    {
       "id": "enrich_jin_xuandi",
       "year": 249,
       "title": "高平陵之变",
@@ -1989,6 +2195,43 @@
       ]
     },
     {
+      "id": "cap_wu_265",
+      "year": 265,
+      "title": "孙皓迁都武昌",
+      "category": "政权与变局",
+      "brief": "吴廷西迁，江东的供给负担与反对随之加重。",
+      "summary": "孙皓由建业迁都武昌，留丁固、诸葛靓守建业。此举涉及长江中上游控制，也遭到江东士族和民众反对，不能只用一句童谣解释全部决策。",
+      "impact": "新的转运与徭役负担，成为随后还都的背景。",
+      "people": [
+        "吴末帝 · 孙皓",
+        "陆凯"
+      ],
+      "sources": [
+        "move-wu48",
+        "move-wu-ezhou"
+      ],
+      "capitalMove": {
+        "polity": "孙吴",
+        "kind": "move",
+        "from": {
+          "label": "建业",
+          "point": [
+            118.8,
+            32.06
+          ]
+        },
+        "to": {
+          "label": "武昌",
+          "point": [
+            114.87,
+            30.4
+          ]
+        },
+        "geometryNote": "端点为古城区域示意；虚线仅表迁移方向，不复原实际道路。"
+      },
+      "dateNote": "甘露元年九月；266年十二月再还建业，不误作267年。"
+    },
+    {
       "id": "chron_end_wei",
       "year": 265,
       "title": "司马炎代魏，建立西晋",
@@ -2005,6 +2248,42 @@
         "魏元帝 · 曹奂",
         "西晋武帝 · 司马炎"
       ]
+    },
+    {
+      "id": "cap_wu_266",
+      "year": 266,
+      "title": "孙皓还都建业",
+      "category": "政权与变局",
+      "brief": "迁武昌一年多后，吴廷重新回到建业。",
+      "summary": "孙皓在武昌驻跸期间，江东对迁都与供给的不满持续，施但之乱等又加剧局势变化。孙皓最终还都建业。",
+      "impact": "建业再次成为孙吴都城，直到280年晋灭吴。",
+      "people": [
+        "吴末帝 · 孙皓"
+      ],
+      "sources": [
+        "move-wu48",
+        "move-wu-ezhou"
+      ],
+      "capitalMove": {
+        "polity": "孙吴",
+        "kind": "return",
+        "from": {
+          "label": "武昌",
+          "point": [
+            114.87,
+            30.4
+          ]
+        },
+        "to": {
+          "label": "建业",
+          "point": [
+            118.8,
+            32.06
+          ]
+        },
+        "geometryNote": "端点为古城区域示意；虚线仅表迁移方向，不复原实际道路。"
+      },
+      "dateNote": "宝鼎元年十二月；按传统年度系于266年，不把农历月份当作公历十二月。"
     },
     {
       "id": "chron_end_wu",
@@ -2150,6 +2429,42 @@
       ]
     },
     {
+      "id": "cap_wei_398",
+      "year": 398,
+      "title": "拓跋珪迁都平城",
+      "category": "政权与变局",
+      "brief": "北魏由盛乐南迁平城，开始经营新的都城。",
+      "summary": "拓跋珪将政治中心由盛乐迁到平城，此后称帝、改元天兴。平城成为北魏近百年的政治中心。",
+      "impact": "都城南移推动北魏整合华北，平城也成为多族群汇聚的城市。",
+      "people": [
+        "北魏道武帝 · 拓跋珪"
+      ],
+      "sources": [
+        "move-wei2",
+        "move-pingcheng"
+      ],
+      "capitalMove": {
+        "polity": "北魏",
+        "kind": "move",
+        "from": {
+          "label": "盛乐",
+          "point": [
+            111.82,
+            40.4
+          ]
+        },
+        "to": {
+          "label": "平城",
+          "point": [
+            113.3,
+            40.09
+          ]
+        },
+        "geometryNote": "端点为古城区域示意；虚线仅表迁移方向，不复原实际道路。"
+      },
+      "dateNote": "天兴元年七月迁平城；与当年稍后称帝分开理解。"
+    },
+    {
       "id": "chron_end_southyan",
       "year": 410,
       "title": "东晋刘裕灭南燕",
@@ -2256,7 +2571,65 @@
       "sources": [
         "ec_luoyang",
         "ec_weixiao"
+      ],
+      "capitalMove": {
+        "polity": "北魏",
+        "kind": "move",
+        "from": {
+          "label": "平城",
+          "point": [
+            113.3,
+            40.09
+          ]
+        },
+        "to": {
+          "label": "洛阳",
+          "point": [
+            112.63,
+            34.72
+          ]
+        },
+        "geometryNote": "端点为古城区域示意；虚线仅表迁移方向，不复原实际道路。"
+      },
+      "people": [
+        "北魏孝文帝 · 拓跋宏"
       ]
+    },
+    {
+      "id": "cap_eastwei_534",
+      "year": 534,
+      "title": "东魏朝廷由洛阳迁邺",
+      "category": "政权与变局",
+      "brief": "北魏分裂之际，元善见的朝廷北迁邺城。",
+      "summary": "孝武帝元修西入关中后，高欢另立元善见。新朝廷从洛阳迁往邺城，随后重整宫室和城市。西魏则到535年才以元宝炬为帝，不提前一年混称。",
+      "impact": "邺城与关中的朝廷形成长期对峙，迁都也带来人口与物资转移。",
+      "people": [
+        "东魏孝静帝 · 元善见",
+        "高欢"
+      ],
+      "sources": [
+        "move-wei12"
+      ],
+      "capitalMove": {
+        "polity": "东魏",
+        "kind": "move",
+        "from": {
+          "label": "洛阳",
+          "point": [
+            112.63,
+            34.72
+          ]
+        },
+        "to": {
+          "label": "邺",
+          "point": [
+            114.61,
+            36.24
+          ]
+        },
+        "geometryNote": "端点为古城区域示意；虚线仅表迁移方向，不复原实际道路。"
+      },
+      "dateNote": "天平元年十月启程北迁，十一月到邺；不是北魏所有朝廷同时迁往同一地点。"
     },
     {
       "id": "chron_wei_split",
@@ -2316,6 +2689,42 @@
       ]
     },
     {
+      "id": "cap_sui_583",
+      "year": 583,
+      "title": "隋文帝迁入大兴城",
+      "category": "政权与变局",
+      "brief": "新都位于汉长安旧城东南，后来成为唐长安的基础。",
+      "summary": "隋文帝在582年下诏营建新都，583年迁入大兴。旧长安与新大兴分址；不能把建城开工年当作迁都完成年。",
+      "impact": "新都的规划与宫城、道路体系影响了此后的唐长安。",
+      "people": [
+        "隋文帝 · 杨坚",
+        "宇文恺"
+      ],
+      "sources": [
+        "move-sui1"
+      ],
+      "capitalMove": {
+        "polity": "隋",
+        "kind": "move",
+        "from": {
+          "label": "长安旧城",
+          "point": [
+            108.86,
+            34.38
+          ]
+        },
+        "to": {
+          "label": "大兴",
+          "point": [
+            108.94,
+            34.26
+          ]
+        },
+        "geometryNote": "端点为古城区域示意；虚线仅表迁移方向，不复原实际道路。"
+      },
+      "dateNote": "开皇三年三月丙辰入新都；不换算未经复核的西历日。"
+    },
+    {
       "id": "chron_sui_unites",
       "year": 589,
       "title": "隋灭陈，南北重新统一",
@@ -2326,6 +2735,42 @@
         "ec_sui"
       ],
       "outcomeId": "end_chen"
+    },
+    {
+      "id": "cap_sui_605",
+      "year": 605,
+      "title": "隋炀帝营建东京洛阳",
+      "category": "政权与变局",
+      "brief": "在大兴之外建设东京，形成两京格局。",
+      "summary": "隋炀帝下令在洛阳营建东京。建设和朝廷移驻有先后，大兴的京师身份并未随之消失；606年改称东都。",
+      "impact": "两京之间的交通、漕运和东部统治成为隋朝政治的重要部分。",
+      "people": [
+        "隋炀帝 · 杨广",
+        "杨素"
+      ],
+      "sources": [
+        "move-sui3"
+      ],
+      "capitalMove": {
+        "polity": "隋",
+        "kind": "dual",
+        "from": {
+          "label": "大兴",
+          "point": [
+            108.94,
+            34.26
+          ]
+        },
+        "to": {
+          "label": "东京·洛阳",
+          "point": [
+            112.47,
+            34.68
+          ]
+        },
+        "geometryNote": "端点为古城区域示意；虚线仅表迁移方向，不复原实际道路。"
+      },
+      "dateNote": "605年为营建节点；不能把后期巡幸江都直接称作正式迁都。"
     },
     {
       "id": "chron_canal",
@@ -2535,6 +2980,40 @@
       }
     },
     {
+      "id": "cap_tang_684",
+      "year": 684,
+      "title": "洛阳改称神都",
+      "category": "政权与变局",
+      "brief": "武则天临朝称制，洛阳的政治地位进一步提高。",
+      "summary": "武则天临朝时期将东都洛阳改称神都，并以此为执政中心。684年尚属唐，690年才建立周。",
+      "impact": "洛阳成为武后政治的重要中心；改名与改国号是不同事件。",
+      "people": [
+        "武则天"
+      ],
+      "sources": [
+        "move-tang-plan"
+      ],
+      "capitalMove": {
+        "polity": "唐",
+        "kind": "rename",
+        "from": {
+          "label": "东都·洛阳",
+          "point": [
+            112.47,
+            34.68
+          ]
+        },
+        "to": {
+          "label": "神都",
+          "point": [
+            112.47,
+            34.68
+          ]
+        },
+        "geometryNote": "端点为古城区域示意；虚线仅表迁移方向，不复原实际道路。"
+      }
+    },
+    {
       "id": "chron_wu_zhou",
       "year": 690,
       "title": "武则天称帝，改唐为周",
@@ -2562,6 +3041,41 @@
         "唐中宗 · 李显",
         "则天皇帝 · 武则天"
       ]
+    },
+    {
+      "id": "cap_tang_706",
+      "year": 706,
+      "title": "唐中宗自东都还长安",
+      "category": "政权与变局",
+      "brief": "705年复唐之后，朝廷到次年才返回长安。",
+      "summary": "神龙政变发生于705年；《旧唐书》中宗纪把车驾还京师、至自东都记在神龙二年十月，即706年。复国号与朝廷还长安不能并为同一年的迁都。",
+      "impact": "长安重新成为主要驻跸中心，洛阳仍保留东都地位。",
+      "people": [
+        "唐中宗 · 李显"
+      ],
+      "sources": [
+        "move-tang7"
+      ],
+      "capitalMove": {
+        "polity": "唐",
+        "kind": "return",
+        "from": {
+          "label": "东都·洛阳",
+          "point": [
+            112.47,
+            34.68
+          ]
+        },
+        "to": {
+          "label": "长安",
+          "point": [
+            108.94,
+            34.26
+          ]
+        },
+        "geometryNote": "端点为古城区域示意；虚线仅表迁移方向，不复原实际道路。"
+      },
+      "dateNote": "神龙二年十月；改正旧地图说明中“705年后还长安”的提前一年问题。"
     },
     {
       "id": "chron_kaiyuan",
@@ -2669,6 +3183,42 @@
         "唐僖宗 · 李儇",
         "黄巢"
       ]
+    },
+    {
+      "id": "cap_tang_904",
+      "year": 904,
+      "title": "朱全忠迫唐昭宗迁都洛阳",
+      "category": "政权与变局",
+      "brief": "唐廷被迫东迁，长安的宫室与居民也遭到迁毁。",
+      "summary": "朱全忠胁迫唐昭宗离开长安，途中一度驻陕州，随后进入洛阳。迁都并非只换一座宫殿，还伴随人口和建筑材料的强制转移。",
+      "impact": "唐廷更直接受朱全忠控制，三年后唐朝终结。",
+      "people": [
+        "唐昭宗 · 李晔",
+        "朱全忠"
+      ],
+      "sources": [
+        "move-tang904"
+      ],
+      "capitalMove": {
+        "polity": "唐",
+        "kind": "move",
+        "from": {
+          "label": "长安",
+          "point": [
+            108.94,
+            34.26
+          ]
+        },
+        "to": {
+          "label": "洛阳",
+          "point": [
+            112.47,
+            34.68
+          ]
+        },
+        "geometryNote": "端点为古城区域示意；虚线仅表迁移方向，不复原实际道路。"
+      },
+      "dateNote": "天复四年正月被迫迁都，闰四月抵洛阳；途中驻跸不另当正式都城。"
     },
     {
       "id": "chron_tang_end",
@@ -3028,6 +3578,41 @@
       ]
     },
     {
+      "id": "cap_song_1138",
+      "year": 1138,
+      "title": "宋高宗还临安，长期以此为行在",
+      "category": "政权与变局",
+      "brief": "朝廷从建康回到临安，此后长期驻留。",
+      "summary": "南渡后的宋廷多次转徙。1138年宋高宗由建康返回临安，形成长期驻留的政治中心；临安仍称行在，名义京师为东京开封。",
+      "impact": "朝廷、漕运与城市发展围绕临安形成新的重心。",
+      "people": [
+        "南宋高宗 · 赵构"
+      ],
+      "sources": [
+        "move-linan"
+      ],
+      "capitalMove": {
+        "polity": "南宋",
+        "kind": "seat",
+        "from": {
+          "label": "建康",
+          "point": [
+            118.8,
+            32.06
+          ]
+        },
+        "to": {
+          "label": "临安府",
+          "point": [
+            120.16,
+            30.24
+          ]
+        },
+        "geometryNote": "端点为古城区域示意；虚线仅表迁移方向，不复原实际道路。"
+      },
+      "dateNote": "绍兴八年；不是南宋1127年建立当天就已定居临安。"
+    },
+    {
       "id": "chron_yancheng",
       "year": 1140,
       "title": "岳飞北伐，郾城等地交战",
@@ -3055,6 +3640,40 @@
       "previousCategory": "疆域与战争"
     },
     {
+      "id": "cap_jin_1153",
+      "year": 1153,
+      "title": "完颜亮迁都中都",
+      "category": "政权与变局",
+      "brief": "金廷由上京南迁燕京，改燕京为中都。",
+      "summary": "完颜亮组织营建新都，把朝廷由上京会宁府迁到燕京，并定名中都。金中都在今北京旧城西南一带，与后来元大都不是同一城址。",
+      "impact": "金朝政治中心南移，也改变了北京在后世都城史中的地位。",
+      "people": [
+        "金海陵王 · 完颜亮"
+      ],
+      "sources": [
+        "move-jin1153"
+      ],
+      "capitalMove": {
+        "polity": "金",
+        "kind": "move",
+        "from": {
+          "label": "上京会宁府",
+          "point": [
+            126.98,
+            45.54
+          ]
+        },
+        "to": {
+          "label": "中都",
+          "point": [
+            116.35,
+            39.88
+          ]
+        },
+        "geometryNote": "端点为古城区域示意；虚线仅表迁移方向，不复原实际道路。"
+      }
+    },
+    {
       "id": "chron_caishi",
       "year": 1161,
       "title": "完颜亮南侵与采石之战",
@@ -3079,6 +3698,42 @@
       "sources": [
         "mid_y001"
       ]
+    },
+    {
+      "id": "cap_jin_1214",
+      "year": 1214,
+      "title": "金宣宗南迁南京开封府",
+      "category": "政权与变局",
+      "brief": "蒙古军事压力下，金廷离开中都南迁。",
+      "summary": "与蒙古议和之后，金宣宗将朝廷从中都迁往南京开封府。中都到1215年才陷落，迁都与城陷不能合成同一年。",
+      "impact": "金朝转向以河南为中心，北方局势进一步恶化。",
+      "people": [
+        "金宣宗 · 完颜珣"
+      ],
+      "sources": [
+        "move-jin14",
+        "move-jin1214"
+      ],
+      "capitalMove": {
+        "polity": "金",
+        "kind": "move",
+        "from": {
+          "label": "中都",
+          "point": [
+            116.35,
+            39.88
+          ]
+        },
+        "to": {
+          "label": "南京·开封府",
+          "point": [
+            114.3,
+            34.8
+          ]
+        },
+        "geometryNote": "端点为古城区域示意；虚线仅表迁移方向，不复原实际道路。"
+      },
+      "dateNote": "贞祐二年；金南京是今开封，不是今江苏南京。"
     },
     {
       "id": "chron_xia_fall",
@@ -3162,6 +3817,40 @@
       "people": [
         "元世祖 · 忽必烈"
       ]
+    },
+    {
+      "id": "cap_yuan_1272",
+      "year": 1272,
+      "title": "中都改称大都，两都制度延续",
+      "category": "政权与变局",
+      "brief": "国号大元确立后，中都改名大都，上都仍保留地位。",
+      "summary": "1271年定国号大元，次年改中都为大都。元廷并非从此废弃上都，而是继续实行两都巡幸；改名也不能当作一夜完成的城市营建。",
+      "impact": "大都与上都共同构成元朝的重要政治空间。",
+      "people": [
+        "元世祖 · 忽必烈"
+      ],
+      "sources": [
+        "move-yuan"
+      ],
+      "capitalMove": {
+        "polity": "元",
+        "kind": "rename",
+        "from": {
+          "label": "中都",
+          "point": [
+            116.4,
+            39.94
+          ]
+        },
+        "to": {
+          "label": "大都",
+          "point": [
+            116.4,
+            39.94
+          ]
+        },
+        "geometryNote": "端点为古城区域示意；虚线仅表迁移方向，不复原实际道路。"
+      }
     },
     {
       "id": "chron_xiangyang",
@@ -3324,7 +4013,26 @@
       ],
       "people": [
         "明成祖 · 朱棣"
-      ]
+      ],
+      "capitalMove": {
+        "polity": "明",
+        "kind": "move",
+        "from": {
+          "label": "南京·应天府",
+          "point": [
+            118.8,
+            32.06
+          ]
+        },
+        "to": {
+          "label": "北京",
+          "point": [
+            116.4,
+            39.92
+          ]
+        },
+        "geometryNote": "端点为古城区域示意；虚线仅表迁移方向，不复原实际道路。"
+      }
     },
     {
       "id": "late_tumu",
@@ -3529,6 +4237,40 @@
       ]
     },
     {
+      "id": "cap_laterjin_1625",
+      "year": 1625,
+      "title": "后金由辽阳迁都沈阳",
+      "category": "政权与变局",
+      "brief": "努尔哈赤把政治中心由辽阳移到沈阳。",
+      "summary": "努尔哈赤下令迁都沈阳。此时国号仍为后金；沈阳1634年才改称盛京，1636年才改国号为清。",
+      "impact": "沈阳成为后金与清入关前的重要政治中心。",
+      "people": [
+        "清太祖 · 努尔哈赤"
+      ],
+      "sources": [
+        "move-shenyang"
+      ],
+      "capitalMove": {
+        "polity": "后金",
+        "kind": "move",
+        "from": {
+          "label": "辽阳",
+          "point": [
+            123.18,
+            41.27
+          ]
+        },
+        "to": {
+          "label": "沈阳",
+          "point": [
+            123.45,
+            41.8
+          ]
+        },
+        "geometryNote": "端点为古城区域示意；虚线仅表迁移方向，不复原实际道路。"
+      }
+    },
+    {
       "id": "enrich_jisi",
       "year": 1629,
       "title": "己巳之变：后金军直趋北京",
@@ -3601,10 +4343,29 @@
         "late_capital1644"
       ],
       "people": [
-        "李自成",
-        "吴三桂",
-        "多尔衮"
-      ]
+        "清世祖 · 福临",
+        "多尔衮",
+        "吴三桂"
+      ],
+      "capitalMove": {
+        "polity": "清",
+        "kind": "move",
+        "from": {
+          "label": "盛京",
+          "point": [
+            123.45,
+            41.8
+          ]
+        },
+        "to": {
+          "label": "北京",
+          "point": [
+            116.4,
+            39.92
+          ]
+        },
+        "geometryNote": "端点为古城区域示意；虚线仅表迁移方向，不复原实际道路。"
+      }
     },
     {
       "id": "chron_end_hongguang",
@@ -3630,7 +4391,7 @@
       ],
       "outcomeId": "end_yongli",
       "people": [
-        "郑和",
+        "南明永历帝 · 朱由榔",
         "吴三桂"
       ]
     },
