@@ -310,3 +310,7 @@ Northern Song and Southern Song imperial rosters are expanded by default in para
 ## Qing regnal identification
 
 Qing roster rows show temple title, familiar regnal name and personal name in that order. Hong Taiji lists Tiancong/Chongde in the complete roster and uses the corresponding phase label in the current-ruler card. Accession-year inherited era dates remain in the separate annual calendar readout. Puyi retains the existing Xuantong Emperor title without repeating Xuantong or inventing a temple name. Qing-only roster spacing accommodates the additional field.
+
+## Default starting year
+
+Opening the atlas without a valid year or stage starts at 770 BCE (the Spring and Autumn opening), and replay after reaching 1911 restarts there. Explicit year/stage links retain their targets, while Xia, Shang and Western Zhou remain reachable through the complete timeline, keyboard and search.
