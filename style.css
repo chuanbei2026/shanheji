@@ -272,3 +272,25 @@ header{gap:22px}.atlas-jump{position:relative;flex:1;max-width:490px;min-width:2
 .range-date-line:before,.range-date-line:after{content:'';position:absolute;top:-3px;width:1px;height:7px;background:var(--range-color)}
 .range-date-line:before{left:0}.range-date-line:after{right:0}
 @media(max-width:800px){.atlas-left{grid-template-rows:360px 278px}.atlas-left .chronology{height:278px}.dynasty-range-lane{font-size:9px}}
+
+/* Compact event headers keep dates, classification and titles together. */
+.events-panel .continuous-news .compact-event,.history-events .compact-event{position:relative;padding:11px 10px;margin-bottom:12px}
+.compact-event .event-visual-head,.events-panel .continuous-news .compact-event .event-visual-head{display:flex;align-items:baseline;gap:9px;flex-wrap:nowrap}
+.compact-event .news-year,.events-panel .continuous-news .compact-event .news-year,.events-panel .compact-event:has(.event-duration) .news-year{flex:0 0 auto;max-width:90px;font:600 19px/1.4 'Songti SC',STSong,serif;letter-spacing:0;color:var(--event-color);padding:0;white-space:normal;text-align:left}
+.compact-event h3,.events-panel .continuous-news .compact-event h3{flex:1;min-width:0;font:600 17px/1.5 'Songti SC',STSong,serif;letter-spacing:0;margin:0;color:#344b3e}
+.compact-event .event-kind{display:inline-flex;align-items:center;gap:3px;vertical-align:1px;margin-right:5px;white-space:nowrap;color:var(--event-color)}
+.compact-event .event-kind small{font:9px/1.4 -apple-system,'PingFang SC',sans-serif;letter-spacing:0}
+.compact-event .event-glyph,.events-panel .continuous-news .compact-event .event-glyph{display:inline-flex;align-items:center;justify-content:center;width:18px;height:18px;border:0;border-radius:3px;background:var(--event-tint);box-shadow:none}
+.compact-event .event-glyph svg,.events-panel .continuous-news .compact-event .event-glyph svg{width:15px;height:15px}
+.compact-event .event-intro{font:11px/1.75 -apple-system,'PingFang SC',sans-serif;color:#7e8875;margin:7px 0 0;padding-right:22px;display:-webkit-box;-webkit-line-clamp:3;-webkit-box-orient:vertical;overflow:hidden}
+.compact-event .event-people.compact{margin-top:6px;padding-right:24px}
+.compact-event .event-relation,.events-panel .compact-event .event-relation{margin:7px 0 0;padding:0 24px 0 0}
+.compact-event .polity-party{min-height:25px;padding:2px 4px}.events-panel .compact-event .polity-party b{font-size:13px}.compact-event .relation-symbol svg{width:20px;height:20px}.compact-event .relation-symbol small{display:none}
+.compact-event .news-map{margin:6px 28px 0 0;padding:2px 4px;font-size:9px}
+.compact-event .event-story-toggle{position:absolute;right:9px;bottom:9px;display:flex;align-items:center;justify-content:center;cursor:pointer;width:22px;height:22px;padding:0;border:1px solid #d9dece;border-radius:4px;color:#849174;background:#fbfaf2}
+.compact-event .event-story-toggle svg{width:14px;height:14px;fill:none;stroke:currentColor;stroke-width:1.5;stroke-linecap:round;stroke-linejoin:round;pointer-events:none}
+.compact-event .event-story-toggle:hover,.compact-event .event-story-toggle:focus-visible{color:#40583d;border-color:#829576}
+.event-story-dialog{max-width:560px}.event-story-dialog>p,.event-story-dialog .news-impact{font-size:13px;line-height:1.9}.event-story-dialog .event-people{margin:10px 0}
+.compact-event .event-duration{margin:8px 24px 0 0}.compact-event .duration-caption{font-size:9px}.compact-event .duration-dates{display:none}
+.history-events .compact-event .event-intro{-webkit-line-clamp:3}.history-events .compact-event .event-people b{font-size:9px}
+.compact-event .event-duration{padding:5px 0;background:none}.compact-event .duration-track{margin:6px 2px;height:4px}.compact-event .duration-track b{width:8px;height:8px;top:-2px;border-width:1px}
