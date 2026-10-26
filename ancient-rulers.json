@@ -1,0 +1,2323 @@
+{
+  "version": 1,
+  "updated": "2026-10-25",
+  "scope": "先秦王系、主要列国国君和考古地望补充；不是全体诸侯或全部年份的完整复原。",
+  "method": "前841以前不生成逐年精确在位表。宣王以后的周王采用通行元年纪年骨架，先秦君主不套用皇帝帝系序位。战国部分纪年存在异说，本表采用通行年份并注明，空缺不拿前后君主沿用。所有坐标为为本地图选取的粗略地望点，不宣称来源给出这些精确经纬度。古址from/to表示本界面保守展示范围，不自动等于始建、废弃的精确年代。",
+  "limitations": [
+    "夏商早期代表人物是传世王系与考古时代的说明，不是某个精确公历年的已定统治者。",
+    "先秦族称不直接套现代民族，夏人、商人、周人及华夏是历史语境称谓。",
+    "前841之后仍有即位年与元年差一、同年继位、史记旧表与现代考订不同等问题。",
+    "各国以侯、公、王等身份在位；前221以前没有秦式皇帝身份。"
+  ],
+  "sources": {
+    "anc-nmc": {
+      "title": "中国国家博物馆《古代中国》·夏商西周",
+      "url": "https://www.chnmuseum.cn/portals/0/web/zt/gudai/detail2.html",
+      "note": "用于时代背景与考古地望；不是各王精确在位年表。"
+    },
+    "anc-shiji-zhou": {
+      "title": "《史记》卷四·周本纪",
+      "url": "https://zh.wikisource.org/wiki/史記/卷004"
+    },
+    "anc-shiji-table": {
+      "title": "《史记》卷十四·十二诸侯年表",
+      "url": "https://zh.wikisource.org/wiki/史記/卷014"
+    },
+    "anc-six-table": {
+      "title": "《史记》卷十五·六国年表",
+      "url": "https://zh.wikisource.org/wiki/史記/卷015",
+      "note": "齐魏等纪年有考订差异，不能将所有旧表数字不加辨别地转换成公历。"
+    },
+    "anc-moe": {
+      "title": "教育部《中国历代帝王年表》·周",
+      "url": "https://dict.revised.moe.edu.tw/appendix.jsp?ID=2&la=0",
+      "note": "只采用共和以后的周王主线；前841前该表传统年代未采用。该表所列255—249惠王非新的周天子，本表不计。"
+    },
+    "anc-qin": {
+      "title": "《史记》卷五·秦本纪",
+      "url": "https://zh.wikisource.org/wiki/史記/卷005"
+    },
+    "anc-chu": {
+      "title": "《史记》卷四十·楚世家",
+      "url": "https://zh.wikisource.org/wiki/史記/卷040"
+    },
+    "anc-zhao": {
+      "title": "《史记》卷四十三·赵世家",
+      "url": "https://zh.wikisource.org/wiki/史記/卷043"
+    },
+    "anc-qi": {
+      "title": "《史记》卷四十六·田敬仲完世家",
+      "url": "https://zh.wikisource.org/wiki/史記/卷046"
+    },
+    "anc-jin": {
+      "title": "《史记》卷三十九·晋世家",
+      "url": "https://zh.wikisource.org/wiki/史記/卷039"
+    },
+    "anc-weihan": {
+      "title": "《史记》卷四十四·魏世家",
+      "url": "https://zh.wikisource.org/wiki/史記/卷044"
+    },
+    "anc-han": {
+      "title": "《史记》卷四十五·韩世家",
+      "url": "https://zh.wikisource.org/wiki/史記/卷045"
+    },
+    "anc-yan": {
+      "title": "《史记》卷三十四·燕召公世家",
+      "url": "https://zh.wikisource.org/wiki/史記/卷034"
+    },
+    "anc-qihuan": {
+      "title": "山东地方史志·齐桓公",
+      "url": "https://shandong-chorography.org/database/f063/section/26/article/113/"
+    },
+    "anc-qixuan": {
+      "title": "中国哲学书电子化计划·齐宣王",
+      "url": "https://ctext.org/dictionary.pl?did=492&if=gb&remap=gb",
+      "note": "辅助现代纪年换算；与原典合读，不是出土同时代记录。"
+    },
+    "anc-zhaowuling": {
+      "title": "中国哲学书电子化计划·赵武灵王",
+      "url": "https://ctext.org/dictionary.pl?did=1028&if=gb"
+    },
+    "anc-hanzhao": {
+      "title": "湖南省纪委监委·韩昭侯不许私求",
+      "url": "https://www.sxfj.gov.cn/jing_cai_zhuan_ti/267e63/10909499.shtml"
+    },
+    "anc-yinxu": {
+      "title": "UNESCO·Yin Xu",
+      "url": "https://whc.unesco.org/en/list/1114",
+      "note": "殷墟地望和晚商考古语境；约1300起，不等于诸商王精确年界。"
+    },
+    "anc-zhengzhou": {
+      "title": "郑州市政府·郑州商代都城遗址",
+      "url": "https://www.zhengzhou.gov.cn/view22/6472622.jhtml",
+      "note": "地点及早商遗存；其亳都认定与其他学说并存，标签不强定亳。"
+    },
+    "anc-fenghao": {
+      "title": "湖北省博物馆·西周都城考古的主要收获",
+      "url": "https://m-www.hbww.org.cn/p/10888.html"
+    },
+    "anc-chengzhou": {
+      "title": "北京大学学术期刊·洛阳西周时代的遗址与成周、王城",
+      "url": "https://ccj.pku.edu.cn/article/info?aid=330993308",
+      "access": "abstract"
+    },
+    "anc-linzi": {
+      "title": "山东地方史志·临淄齐国故城",
+      "url": "https://shandong-chorography.org/database/a/section/70/article/75/"
+    },
+    "anc-qufu": {
+      "title": "曲阜市政府·加强鲁国故城保护和管理通告",
+      "url": "https://www.qfwbw.cn/news/wzgg/2016-03-23/2268.html"
+    },
+    "anc-zhenghan": {
+      "title": "郑州市文物局·郑韩故城",
+      "url": "https://wwj.zhengzhou.gov.cn/country/3176064.jhtml"
+    },
+    "anc-chuying": {
+      "title": "尹弘兵《楚都纪南城探析：基于考古与出土文献新资料的考察》2019",
+      "url": "https://www.lsdlyj.com.cn/CN/article/downloadArticleFile.do?attachType=PDF&id=47117",
+      "note": "提出纪南城为楚都约前377—278；标签采用该研究的保守区间，非从楚建国一直画在此点。"
+    },
+    "anc-weixiang": {
+      "title": "中国哲学书电子化计划·魏襄王",
+      "url": "https://ctext.org/dictionary.pl?did=1011&if=gb&remap=gb",
+      "note": "用于修订后的现代年序，与魏世家原典合读。"
+    },
+    "anc-weizhao": {
+      "title": "中国哲学书电子化计划·昭王条",
+      "url": "https://ctext.org/dictionary.pl?char=昭&if=en"
+    },
+    "anc-chuxuan": {
+      "title": "中国哲学书电子化计划·楚宣王",
+      "url": "https://ctext.org/datawiki.pl?if=gb&res=727256"
+    }
+  },
+  "reigns": [
+    {
+      "dynasty": "周",
+      "polity": "周王畿",
+      "from": -841,
+      "to": -828,
+      "name": "周公、召公（传世说）",
+      "title": "共和执政",
+      "role": "ruler",
+      "eras": [
+        {
+          "from": -841,
+          "to": -828,
+          "name": "共和",
+          "baseYear": 1
+        }
+      ],
+      "sources": [
+        "anc-shiji-zhou",
+        "anc-shiji-table"
+      ],
+      "note": "不是皇帝或年号。《史记》记二公行政；另有共伯和主政解释，不能把该组姓名当作无争议个人君主。",
+      "verificationLevel": "chronology_crosscheck"
+    },
+    {
+      "dynasty": "周",
+      "polity": "周王畿",
+      "from": -827,
+      "to": -782,
+      "name": "姬靖",
+      "title": "周宣王",
+      "role": "ruler",
+      "eras": [
+        {
+          "from": -827,
+          "to": -782,
+          "name": "周宣王",
+          "baseYear": 1,
+          "note": "王年／公年纪年，不是后世年号。"
+        }
+      ],
+      "sources": [
+        "anc-shiji-zhou",
+        "anc-shiji-table",
+        "anc-six-table",
+        "anc-moe"
+      ],
+      "note": "先秦国君，非皇帝。采用元年起算的年度骨架；年内继位与次年改元须区别，未细分月日。“姬＋名”用作现代检索标签；异体、异名依传世常见写法，非还原当时称名习惯。",
+      "verificationLevel": "chronology_crosscheck"
+    },
+    {
+      "dynasty": "周",
+      "polity": "周王畿",
+      "from": -781,
+      "to": -771,
+      "name": "姬宫湦",
+      "title": "周幽王",
+      "role": "ruler",
+      "eras": [
+        {
+          "from": -781,
+          "to": -771,
+          "name": "周幽王",
+          "baseYear": 1,
+          "note": "王年／公年纪年，不是后世年号。"
+        }
+      ],
+      "sources": [
+        "anc-shiji-zhou",
+        "anc-shiji-table",
+        "anc-six-table",
+        "anc-moe"
+      ],
+      "note": "先秦国君，非皇帝。采用元年起算的年度骨架；年内继位与次年改元须区别，未细分月日。“姬＋名”用作现代检索标签；异体、异名依传世常见写法，非还原当时称名习惯。",
+      "verificationLevel": "chronology_crosscheck"
+    },
+    {
+      "dynasty": "周",
+      "polity": "周王畿",
+      "from": -770,
+      "to": -720,
+      "name": "姬宜臼",
+      "title": "周平王",
+      "role": "ruler",
+      "eras": [
+        {
+          "from": -770,
+          "to": -720,
+          "name": "周平王",
+          "baseYear": 1,
+          "note": "王年／公年纪年，不是后世年号。"
+        }
+      ],
+      "sources": [
+        "anc-shiji-zhou",
+        "anc-shiji-table",
+        "anc-six-table",
+        "anc-moe"
+      ],
+      "note": "先秦国君，非皇帝。采用元年起算的年度骨架；年内继位与次年改元须区别，未细分月日。“姬＋名”用作现代检索标签；异体、异名依传世常见写法，非还原当时称名习惯。",
+      "verificationLevel": "chronology_crosscheck"
+    },
+    {
+      "dynasty": "周",
+      "polity": "周王畿",
+      "from": -719,
+      "to": -697,
+      "name": "姬林",
+      "title": "周桓王",
+      "role": "ruler",
+      "eras": [
+        {
+          "from": -719,
+          "to": -697,
+          "name": "周桓王",
+          "baseYear": 1,
+          "note": "王年／公年纪年，不是后世年号。"
+        }
+      ],
+      "sources": [
+        "anc-shiji-zhou",
+        "anc-shiji-table",
+        "anc-six-table",
+        "anc-moe"
+      ],
+      "note": "先秦国君，非皇帝。采用元年起算的年度骨架；年内继位与次年改元须区别，未细分月日。“姬＋名”用作现代检索标签；异体、异名依传世常见写法，非还原当时称名习惯。",
+      "verificationLevel": "chronology_crosscheck"
+    },
+    {
+      "dynasty": "周",
+      "polity": "周王畿",
+      "from": -696,
+      "to": -682,
+      "name": "姬佗",
+      "title": "周庄王",
+      "role": "ruler",
+      "eras": [
+        {
+          "from": -696,
+          "to": -682,
+          "name": "周庄王",
+          "baseYear": 1,
+          "note": "王年／公年纪年，不是后世年号。"
+        }
+      ],
+      "sources": [
+        "anc-shiji-zhou",
+        "anc-shiji-table",
+        "anc-six-table",
+        "anc-moe"
+      ],
+      "note": "先秦国君，非皇帝。采用元年起算的年度骨架；年内继位与次年改元须区别，未细分月日。“姬＋名”用作现代检索标签；异体、异名依传世常见写法，非还原当时称名习惯。",
+      "verificationLevel": "chronology_crosscheck"
+    },
+    {
+      "dynasty": "齐",
+      "polity": "齐（春秋）",
+      "from": -685,
+      "to": -643,
+      "name": "姜小白",
+      "title": "齐桓公",
+      "role": "ruler",
+      "eras": [
+        {
+          "from": -685,
+          "to": -643,
+          "name": "齐桓公",
+          "baseYear": 1,
+          "note": "王年／公年纪年，不是后世年号。"
+        }
+      ],
+      "sources": [
+        "anc-qihuan",
+        "anc-shiji-table"
+      ],
+      "note": "先秦国君，非皇帝。采用元年起算的年度骨架；年内继位与次年改元须区别，未细分月日。",
+      "verificationLevel": "reference_chronology"
+    },
+    {
+      "dynasty": "周",
+      "polity": "周王畿",
+      "from": -681,
+      "to": -677,
+      "name": "姬胡齐",
+      "title": "周僖王",
+      "role": "ruler",
+      "eras": [
+        {
+          "from": -681,
+          "to": -677,
+          "name": "周僖王",
+          "baseYear": 1,
+          "note": "王年／公年纪年，不是后世年号。"
+        }
+      ],
+      "sources": [
+        "anc-shiji-zhou",
+        "anc-shiji-table",
+        "anc-six-table",
+        "anc-moe"
+      ],
+      "note": "先秦国君，非皇帝。采用元年起算的年度骨架；年内继位与次年改元须区别，未细分月日。“姬＋名”用作现代检索标签；异体、异名依传世常见写法，非还原当时称名习惯。",
+      "verificationLevel": "chronology_crosscheck"
+    },
+    {
+      "dynasty": "周",
+      "polity": "周王畿",
+      "from": -676,
+      "to": -652,
+      "name": "姬阆",
+      "title": "周惠王",
+      "role": "ruler",
+      "eras": [
+        {
+          "from": -676,
+          "to": -652,
+          "name": "周惠王",
+          "baseYear": 1,
+          "note": "王年／公年纪年，不是后世年号。"
+        }
+      ],
+      "sources": [
+        "anc-shiji-zhou",
+        "anc-shiji-table",
+        "anc-six-table",
+        "anc-moe"
+      ],
+      "note": "先秦国君，非皇帝。采用元年起算的年度骨架；年内继位与次年改元须区别，未细分月日。“姬＋名”用作现代检索标签；异体、异名依传世常见写法，非还原当时称名习惯。",
+      "verificationLevel": "chronology_crosscheck"
+    },
+    {
+      "dynasty": "秦",
+      "polity": "秦",
+      "from": -659,
+      "to": -621,
+      "name": "嬴任好",
+      "title": "秦穆公",
+      "role": "ruler",
+      "eras": [
+        {
+          "from": -659,
+          "to": -621,
+          "name": "秦穆公",
+          "baseYear": 1,
+          "note": "王年／公年纪年，不是后世年号。"
+        }
+      ],
+      "sources": [
+        "anc-qin",
+        "anc-shiji-table"
+      ],
+      "note": "先秦国君，非皇帝。采用元年起算的年度骨架；年内继位与次年改元须区别，未细分月日。",
+      "verificationLevel": "reference_chronology"
+    },
+    {
+      "dynasty": "周",
+      "polity": "周王畿",
+      "from": -651,
+      "to": -619,
+      "name": "姬郑",
+      "title": "周襄王",
+      "role": "ruler",
+      "eras": [
+        {
+          "from": -651,
+          "to": -619,
+          "name": "周襄王",
+          "baseYear": 1,
+          "note": "王年／公年纪年，不是后世年号。"
+        }
+      ],
+      "sources": [
+        "anc-shiji-zhou",
+        "anc-shiji-table",
+        "anc-six-table",
+        "anc-moe"
+      ],
+      "note": "先秦国君，非皇帝。采用元年起算的年度骨架；年内继位与次年改元须区别，未细分月日。“姬＋名”用作现代检索标签；异体、异名依传世常见写法，非还原当时称名习惯。",
+      "verificationLevel": "chronology_crosscheck"
+    },
+    {
+      "dynasty": "晋",
+      "polity": "晋（春秋）",
+      "from": -636,
+      "to": -628,
+      "name": "姬重耳",
+      "title": "晋文公",
+      "role": "ruler",
+      "eras": [
+        {
+          "from": -636,
+          "to": -628,
+          "name": "晋文公",
+          "baseYear": 1,
+          "note": "王年／公年纪年，不是后世年号。"
+        }
+      ],
+      "sources": [
+        "anc-jin",
+        "anc-shiji-table"
+      ],
+      "note": "先秦国君，非皇帝。采用元年起算的年度骨架；年内继位与次年改元须区别，未细分月日。",
+      "verificationLevel": "reference_chronology"
+    },
+    {
+      "dynasty": "周",
+      "polity": "周王畿",
+      "from": -618,
+      "to": -613,
+      "name": "姬壬臣",
+      "title": "周顷王",
+      "role": "ruler",
+      "eras": [
+        {
+          "from": -618,
+          "to": -613,
+          "name": "周顷王",
+          "baseYear": 1,
+          "note": "王年／公年纪年，不是后世年号。"
+        }
+      ],
+      "sources": [
+        "anc-shiji-zhou",
+        "anc-shiji-table",
+        "anc-six-table",
+        "anc-moe"
+      ],
+      "note": "先秦国君，非皇帝。采用元年起算的年度骨架；年内继位与次年改元须区别，未细分月日。“姬＋名”用作现代检索标签；异体、异名依传世常见写法，非还原当时称名习惯。",
+      "verificationLevel": "chronology_crosscheck"
+    },
+    {
+      "dynasty": "楚",
+      "polity": "楚（春秋）",
+      "from": -613,
+      "to": -591,
+      "name": "熊旅",
+      "title": "楚庄王",
+      "role": "ruler",
+      "eras": [
+        {
+          "from": -613,
+          "to": -591,
+          "name": "楚庄王",
+          "baseYear": 1,
+          "note": "王年／公年纪年，不是后世年号。"
+        }
+      ],
+      "sources": [
+        "anc-chu",
+        "anc-shiji-table"
+      ],
+      "note": "先秦国君，非皇帝。采用元年起算的年度骨架；年内继位与次年改元须区别，未细分月日。",
+      "verificationLevel": "reference_chronology"
+    },
+    {
+      "dynasty": "周",
+      "polity": "周王畿",
+      "from": -612,
+      "to": -607,
+      "name": "姬班",
+      "title": "周匡王",
+      "role": "ruler",
+      "eras": [
+        {
+          "from": -612,
+          "to": -607,
+          "name": "周匡王",
+          "baseYear": 1,
+          "note": "王年／公年纪年，不是后世年号。"
+        }
+      ],
+      "sources": [
+        "anc-shiji-zhou",
+        "anc-shiji-table",
+        "anc-six-table",
+        "anc-moe"
+      ],
+      "note": "先秦国君，非皇帝。采用元年起算的年度骨架；年内继位与次年改元须区别，未细分月日。“姬＋名”用作现代检索标签；异体、异名依传世常见写法，非还原当时称名习惯。",
+      "verificationLevel": "chronology_crosscheck"
+    },
+    {
+      "dynasty": "周",
+      "polity": "周王畿",
+      "from": -606,
+      "to": -586,
+      "name": "姬瑜",
+      "title": "周定王",
+      "role": "ruler",
+      "eras": [
+        {
+          "from": -606,
+          "to": -586,
+          "name": "周定王",
+          "baseYear": 1,
+          "note": "王年／公年纪年，不是后世年号。"
+        }
+      ],
+      "sources": [
+        "anc-shiji-zhou",
+        "anc-shiji-table",
+        "anc-six-table",
+        "anc-moe"
+      ],
+      "note": "先秦国君，非皇帝。采用元年起算的年度骨架；年内继位与次年改元须区别，未细分月日。“姬＋名”用作现代检索标签；异体、异名依传世常见写法，非还原当时称名习惯。",
+      "verificationLevel": "chronology_crosscheck"
+    },
+    {
+      "dynasty": "周",
+      "polity": "周王畿",
+      "from": -585,
+      "to": -572,
+      "name": "姬夷",
+      "title": "周简王",
+      "role": "ruler",
+      "eras": [
+        {
+          "from": -585,
+          "to": -572,
+          "name": "周简王",
+          "baseYear": 1,
+          "note": "王年／公年纪年，不是后世年号。"
+        }
+      ],
+      "sources": [
+        "anc-shiji-zhou",
+        "anc-shiji-table",
+        "anc-six-table",
+        "anc-moe"
+      ],
+      "note": "先秦国君，非皇帝。采用元年起算的年度骨架；年内继位与次年改元须区别，未细分月日。“姬＋名”用作现代检索标签；异体、异名依传世常见写法，非还原当时称名习惯。",
+      "verificationLevel": "chronology_crosscheck"
+    },
+    {
+      "dynasty": "周",
+      "polity": "周王畿",
+      "from": -571,
+      "to": -545,
+      "name": "姬泄心",
+      "title": "周灵王",
+      "role": "ruler",
+      "eras": [
+        {
+          "from": -571,
+          "to": -545,
+          "name": "周灵王",
+          "baseYear": 1,
+          "note": "王年／公年纪年，不是后世年号。"
+        }
+      ],
+      "sources": [
+        "anc-shiji-zhou",
+        "anc-shiji-table",
+        "anc-six-table",
+        "anc-moe"
+      ],
+      "note": "先秦国君，非皇帝。采用元年起算的年度骨架；年内继位与次年改元须区别，未细分月日。“姬＋名”用作现代检索标签；异体、异名依传世常见写法，非还原当时称名习惯。",
+      "verificationLevel": "chronology_crosscheck"
+    },
+    {
+      "dynasty": "周",
+      "polity": "周王畿",
+      "from": -544,
+      "to": -521,
+      "name": "姬贵",
+      "title": "周景王",
+      "role": "ruler",
+      "eras": [
+        {
+          "from": -544,
+          "to": -521,
+          "name": "周景王",
+          "baseYear": 1,
+          "note": "王年／公年纪年，不是后世年号。"
+        }
+      ],
+      "sources": [
+        "anc-shiji-zhou",
+        "anc-shiji-table",
+        "anc-six-table",
+        "anc-moe"
+      ],
+      "note": "先秦国君，非皇帝。采用元年起算的年度骨架；年内继位与次年改元须区别，未细分月日。“姬＋名”用作现代检索标签；异体、异名依传世常见写法，非还原当时称名习惯。",
+      "verificationLevel": "chronology_crosscheck"
+    },
+    {
+      "dynasty": "周",
+      "polity": "周王畿",
+      "from": -520,
+      "to": -520,
+      "name": "姬猛",
+      "title": "周悼王",
+      "role": "ruler",
+      "eras": [
+        {
+          "from": -520,
+          "to": -520,
+          "name": "周悼王",
+          "baseYear": 1,
+          "note": "王年／公年纪年，不是后世年号。"
+        }
+      ],
+      "sources": [
+        "anc-shiji-zhou",
+        "anc-shiji-table",
+        "anc-six-table",
+        "anc-moe"
+      ],
+      "note": "先秦国君，非皇帝。采用元年起算的年度骨架；年内继位与次年改元须区别，未细分月日。“姬＋名”用作现代检索标签；异体、异名依传世常见写法，非还原当时称名习惯。",
+      "verificationLevel": "chronology_crosscheck"
+    },
+    {
+      "dynasty": "周",
+      "polity": "周王畿",
+      "from": -519,
+      "to": -476,
+      "name": "姬匄",
+      "title": "周敬王",
+      "role": "ruler",
+      "eras": [
+        {
+          "from": -519,
+          "to": -476,
+          "name": "周敬王",
+          "baseYear": 1,
+          "note": "王年／公年纪年，不是后世年号。"
+        }
+      ],
+      "sources": [
+        "anc-shiji-zhou",
+        "anc-shiji-table",
+        "anc-six-table",
+        "anc-moe"
+      ],
+      "note": "先秦国君，非皇帝。采用元年起算的年度骨架；年内继位与次年改元须区别，未细分月日。“姬＋名”用作现代检索标签；异体、异名依传世常见写法，非还原当时称名习惯。",
+      "verificationLevel": "chronology_crosscheck"
+    },
+    {
+      "dynasty": "吴",
+      "polity": "吴（春秋）",
+      "from": -514,
+      "to": -496,
+      "name": "姬光",
+      "title": "吴王阖闾",
+      "role": "ruler",
+      "eras": [
+        {
+          "from": -514,
+          "to": -496,
+          "name": "吴王阖闾",
+          "baseYear": 1,
+          "note": "王年／公年纪年，不是后世年号。"
+        }
+      ],
+      "sources": [
+        "anc-shiji-table"
+      ],
+      "note": "先秦国君，非皇帝。采用元年起算的年度骨架；年内继位与次年改元须区别，未细分月日。",
+      "verificationLevel": "reference_chronology"
+    },
+    {
+      "dynasty": "吴",
+      "polity": "吴（春秋）",
+      "from": -495,
+      "to": -473,
+      "name": "姬夫差",
+      "title": "吴王夫差",
+      "role": "ruler",
+      "eras": [
+        {
+          "from": -495,
+          "to": -473,
+          "name": "吴王夫差",
+          "baseYear": 1,
+          "note": "王年／公年纪年，不是后世年号。"
+        }
+      ],
+      "sources": [
+        "anc-shiji-table"
+      ],
+      "note": "先秦国君，非皇帝。采用元年起算的年度骨架；年内继位与次年改元须区别，未细分月日。",
+      "verificationLevel": "reference_chronology"
+    },
+    {
+      "dynasty": "周",
+      "polity": "周王畿",
+      "from": -475,
+      "to": -469,
+      "name": "姬仁",
+      "title": "周元王",
+      "role": "ruler",
+      "eras": [
+        {
+          "from": -475,
+          "to": -469,
+          "name": "周元王",
+          "baseYear": 1,
+          "note": "王年／公年纪年，不是后世年号。"
+        }
+      ],
+      "sources": [
+        "anc-shiji-zhou",
+        "anc-shiji-table",
+        "anc-six-table",
+        "anc-moe"
+      ],
+      "note": "先秦国君，非皇帝。采用元年起算的年度骨架；年内继位与次年改元须区别，未细分月日。“姬＋名”用作现代检索标签；异体、异名依传世常见写法，非还原当时称名习惯。",
+      "verificationLevel": "chronology_crosscheck"
+    },
+    {
+      "dynasty": "周",
+      "polity": "周王畿",
+      "from": -468,
+      "to": -442,
+      "name": "姬介",
+      "title": "周贞定王",
+      "role": "ruler",
+      "eras": [
+        {
+          "from": -468,
+          "to": -442,
+          "name": "周贞定王",
+          "baseYear": 1,
+          "note": "王年／公年纪年，不是后世年号。"
+        }
+      ],
+      "sources": [
+        "anc-shiji-zhou",
+        "anc-shiji-table",
+        "anc-six-table",
+        "anc-moe"
+      ],
+      "note": "先秦国君，非皇帝。采用元年起算的年度骨架；年内继位与次年改元须区别，未细分月日。“姬＋名”用作现代检索标签；异体、异名依传世常见写法，非还原当时称名习惯。",
+      "verificationLevel": "chronology_crosscheck"
+    },
+    {
+      "dynasty": "周",
+      "polity": "周王畿",
+      "from": -441,
+      "to": -441,
+      "name": "姬去疾",
+      "title": "周哀王",
+      "role": "ruler",
+      "eras": [
+        {
+          "from": -441,
+          "to": -441,
+          "name": "周哀王",
+          "baseYear": 1,
+          "note": "王年／公年纪年，不是后世年号。"
+        }
+      ],
+      "sources": [
+        "anc-shiji-zhou",
+        "anc-shiji-table",
+        "anc-six-table",
+        "anc-moe"
+      ],
+      "note": "先秦国君，非皇帝。采用元年起算的年度骨架；年内继位与次年改元须区别，未细分月日。“姬＋名”用作现代检索标签；异体、异名依传世常见写法，非还原当时称名习惯。",
+      "verificationLevel": "chronology_crosscheck"
+    },
+    {
+      "dynasty": "周",
+      "polity": "周王畿",
+      "from": -441,
+      "to": -441,
+      "name": "姬叔",
+      "title": "周思王",
+      "role": "ruler",
+      "eras": [
+        {
+          "from": -441,
+          "to": -441,
+          "name": "周思王",
+          "baseYear": 1,
+          "note": "王年／公年纪年，不是后世年号。"
+        }
+      ],
+      "sources": [
+        "anc-shiji-zhou",
+        "anc-shiji-table",
+        "anc-six-table",
+        "anc-moe"
+      ],
+      "note": "先秦国君，非皇帝。采用元年起算的年度骨架；年内继位与次年改元须区别，未细分月日。“姬＋名”用作现代检索标签；异体、异名依传世常见写法，非还原当时称名习惯。",
+      "verificationLevel": "chronology_crosscheck"
+    },
+    {
+      "dynasty": "周",
+      "polity": "周王畿",
+      "from": -440,
+      "to": -426,
+      "name": "姬嵬",
+      "title": "周考王",
+      "role": "ruler",
+      "eras": [
+        {
+          "from": -440,
+          "to": -426,
+          "name": "周考王",
+          "baseYear": 1,
+          "note": "王年／公年纪年，不是后世年号。"
+        }
+      ],
+      "sources": [
+        "anc-shiji-zhou",
+        "anc-shiji-table",
+        "anc-six-table",
+        "anc-moe"
+      ],
+      "note": "先秦国君，非皇帝。采用元年起算的年度骨架；年内继位与次年改元须区别，未细分月日。“姬＋名”用作现代检索标签；异体、异名依传世常见写法，非还原当时称名习惯。",
+      "verificationLevel": "chronology_crosscheck"
+    },
+    {
+      "dynasty": "周",
+      "polity": "周王畿",
+      "from": -425,
+      "to": -402,
+      "name": "姬午",
+      "title": "周威烈王",
+      "role": "ruler",
+      "eras": [
+        {
+          "from": -425,
+          "to": -402,
+          "name": "周威烈王",
+          "baseYear": 1,
+          "note": "王年／公年纪年，不是后世年号。"
+        }
+      ],
+      "sources": [
+        "anc-shiji-zhou",
+        "anc-shiji-table",
+        "anc-six-table",
+        "anc-moe"
+      ],
+      "note": "先秦国君，非皇帝。采用元年起算的年度骨架；年内继位与次年改元须区别，未细分月日。“姬＋名”用作现代检索标签；异体、异名依传世常见写法，非还原当时称名习惯。",
+      "verificationLevel": "chronology_crosscheck"
+    },
+    {
+      "dynasty": "魏",
+      "polity": "魏（战国）",
+      "from": -403,
+      "to": -396,
+      "name": "魏斯",
+      "title": "魏文侯",
+      "role": "ruler",
+      "eras": [],
+      "sources": [
+        "anc-weihan",
+        "anc-six-table"
+      ],
+      "note": "先秦国君，非皇帝。采用元年起算的年度骨架；年内继位与次年改元须区别，未细分月日。魏文侯这里只覆盖前403以后地图范围，不以此作即位年；魏惠王跨称王改元，齐魏年序须校订。",
+      "verificationLevel": "reference_chronology"
+    },
+    {
+      "dynasty": "周",
+      "polity": "周王畿",
+      "from": -401,
+      "to": -376,
+      "name": "姬骄",
+      "title": "周安王",
+      "role": "ruler",
+      "eras": [
+        {
+          "from": -401,
+          "to": -376,
+          "name": "周安王",
+          "baseYear": 1,
+          "note": "王年／公年纪年，不是后世年号。"
+        }
+      ],
+      "sources": [
+        "anc-shiji-zhou",
+        "anc-shiji-table",
+        "anc-six-table",
+        "anc-moe"
+      ],
+      "note": "先秦国君，非皇帝。采用元年起算的年度骨架；年内继位与次年改元须区别，未细分月日。“姬＋名”用作现代检索标签；异体、异名依传世常见写法，非还原当时称名习惯。",
+      "verificationLevel": "chronology_crosscheck"
+    },
+    {
+      "dynasty": "魏",
+      "polity": "魏（战国）",
+      "from": -395,
+      "to": -370,
+      "name": "魏击",
+      "title": "魏武侯",
+      "role": "ruler",
+      "eras": [
+        {
+          "from": -395,
+          "to": -370,
+          "name": "魏武侯",
+          "baseYear": 1,
+          "note": "王年／公年纪年，不是后世年号。"
+        }
+      ],
+      "sources": [
+        "anc-weihan",
+        "anc-six-table"
+      ],
+      "note": "先秦国君，非皇帝。采用元年起算的年度骨架；年内继位与次年改元须区别，未细分月日。魏文侯这里只覆盖前403以后地图范围，不以此作即位年；魏惠王跨称王改元，齐魏年序须校订。",
+      "verificationLevel": "reference_chronology"
+    },
+    {
+      "dynasty": "周",
+      "polity": "周王畿",
+      "from": -375,
+      "to": -369,
+      "name": "姬喜",
+      "title": "周烈王",
+      "role": "ruler",
+      "eras": [
+        {
+          "from": -375,
+          "to": -369,
+          "name": "周烈王",
+          "baseYear": 1,
+          "note": "王年／公年纪年，不是后世年号。"
+        }
+      ],
+      "sources": [
+        "anc-shiji-zhou",
+        "anc-shiji-table",
+        "anc-six-table",
+        "anc-moe"
+      ],
+      "note": "先秦国君，非皇帝。采用元年起算的年度骨架；年内继位与次年改元须区别，未细分月日。“姬＋名”用作现代检索标签；异体、异名依传世常见写法，非还原当时称名习惯。",
+      "verificationLevel": "chronology_crosscheck"
+    },
+    {
+      "polity": "楚（战国）",
+      "dynasty": "楚",
+      "from": -369,
+      "to": -340,
+      "title": "楚宣王",
+      "name": "熊良夫",
+      "role": "ruler",
+      "eras": [
+        {
+          "from": -369,
+          "to": -340,
+          "name": "楚宣王",
+          "baseYear": 1,
+          "note": "王年纪年，非后世年号。"
+        }
+      ],
+      "sources": [
+        "anc-chu",
+        "anc-chuxuan"
+      ],
+      "note": "采用通行元年年序，非将《史记》旧表未经校正地直接换算。即位年和元年可能差一年，未恢复到月日。",
+      "verificationLevel": "reference_chronology"
+    },
+    {
+      "dynasty": "魏",
+      "polity": "魏（战国）",
+      "from": -369,
+      "to": -319,
+      "name": "魏罃",
+      "title": "魏惠王",
+      "role": "ruler",
+      "eras": [],
+      "sources": [
+        "anc-weihan",
+        "anc-six-table"
+      ],
+      "note": "先秦国君，非皇帝。采用元年起算的年度骨架；年内继位与次年改元须区别，未细分月日。魏文侯这里只覆盖前403以后地图范围，不以此作即位年；魏惠王跨称王改元，齐魏年序须校订。",
+      "verificationLevel": "reference_chronology"
+    },
+    {
+      "dynasty": "周",
+      "polity": "周王畿",
+      "from": -368,
+      "to": -321,
+      "name": "姬扁",
+      "title": "周显王",
+      "role": "ruler",
+      "eras": [
+        {
+          "from": -368,
+          "to": -321,
+          "name": "周显王",
+          "baseYear": 1,
+          "note": "王年／公年纪年，不是后世年号。"
+        }
+      ],
+      "sources": [
+        "anc-shiji-zhou",
+        "anc-shiji-table",
+        "anc-six-table",
+        "anc-moe"
+      ],
+      "note": "先秦国君，非皇帝。采用元年起算的年度骨架；年内继位与次年改元须区别，未细分月日。“姬＋名”用作现代检索标签；异体、异名依传世常见写法，非还原当时称名习惯。",
+      "verificationLevel": "chronology_crosscheck"
+    },
+    {
+      "dynasty": "韩",
+      "polity": "韩（战国）",
+      "from": -362,
+      "to": -333,
+      "name": "韩武",
+      "title": "韩昭侯",
+      "role": "ruler",
+      "eras": [],
+      "sources": [
+        "anc-han",
+        "anc-six-table",
+        "anc-hanzhao"
+      ],
+      "note": "先秦国君，非皇帝。采用元年起算的年度骨架；年内继位与次年改元须区别，未细分月日。韩昭侯名有仁敬等异说；称王前后不用谥号充当同时代称谓。",
+      "verificationLevel": "reference_chronology"
+    },
+    {
+      "dynasty": "秦",
+      "polity": "秦",
+      "from": -361,
+      "to": -338,
+      "name": "嬴渠梁",
+      "title": "秦孝公",
+      "role": "ruler",
+      "eras": [
+        {
+          "from": -361,
+          "to": -338,
+          "name": "秦孝公",
+          "baseYear": 1,
+          "note": "王年／公年纪年，不是后世年号。"
+        }
+      ],
+      "sources": [
+        "anc-qin",
+        "anc-six-table"
+      ],
+      "note": "先秦国君，非皇帝。采用元年起算的年度骨架；年内继位与次年改元须区别，未细分月日。秦王政在前221年统一后才称始皇帝；惠文君称王前后改元另有变化，本表不在该段硬造单一连续纪年标签。",
+      "verificationLevel": "reference_chronology"
+    },
+    {
+      "dynasty": "齐",
+      "polity": "齐（战国）",
+      "from": -356,
+      "to": -320,
+      "name": "田因齐",
+      "title": "齐威王",
+      "role": "ruler",
+      "eras": [],
+      "sources": [
+        "anc-qi",
+        "anc-qixuan"
+      ],
+      "note": "先秦国君，非皇帝。采用元年起算的年度骨架；年内继位与次年改元须区别，未细分月日。采用通行修订的田齐纪年，非机械照抄《史记·六国年表》齐魏旧列；威王称王前后不以谥号冒充当时正式称号。",
+      "verificationLevel": "reference_chronology"
+    },
+    {
+      "dynasty": "楚",
+      "polity": "楚（战国）",
+      "from": -339,
+      "to": -329,
+      "name": "熊商",
+      "title": "楚威王",
+      "role": "ruler",
+      "eras": [
+        {
+          "from": -339,
+          "to": -329,
+          "name": "楚威王",
+          "baseYear": 1,
+          "note": "王年／公年纪年，不是后世年号。"
+        }
+      ],
+      "sources": [
+        "anc-chu",
+        "anc-six-table"
+      ],
+      "note": "先秦国君，非皇帝。采用元年起算的年度骨架；年内继位与次年改元须区别，未细分月日。",
+      "verificationLevel": "reference_chronology"
+    },
+    {
+      "dynasty": "秦",
+      "polity": "秦",
+      "from": -337,
+      "to": -311,
+      "name": "嬴驷",
+      "title": "秦惠文王",
+      "role": "ruler",
+      "eras": [],
+      "sources": [
+        "anc-qin",
+        "anc-six-table"
+      ],
+      "note": "先秦国君，非皇帝。采用元年起算的年度骨架；年内继位与次年改元须区别，未细分月日。秦王政在前221年统一后才称始皇帝；惠文君称王前后改元另有变化，本表不在该段硬造单一连续纪年标签。",
+      "verificationLevel": "reference_chronology"
+    },
+    {
+      "dynasty": "韩",
+      "polity": "韩（战国）",
+      "from": -332,
+      "to": -312,
+      "name": "韩康",
+      "title": "韩宣惠王",
+      "role": "ruler",
+      "eras": [],
+      "sources": [
+        "anc-han",
+        "anc-six-table",
+        "anc-hanzhao"
+      ],
+      "note": "先秦国君，非皇帝。采用元年起算的年度骨架；年内继位与次年改元须区别，未细分月日。韩昭侯名有仁敬等异说；称王前后不用谥号充当同时代称谓。",
+      "verificationLevel": "reference_chronology"
+    },
+    {
+      "dynasty": "楚",
+      "polity": "楚（战国）",
+      "from": -328,
+      "to": -299,
+      "name": "熊槐",
+      "title": "楚怀王",
+      "role": "ruler",
+      "eras": [
+        {
+          "from": -328,
+          "to": -299,
+          "name": "楚怀王",
+          "baseYear": 1,
+          "note": "王年／公年纪年，不是后世年号。"
+        }
+      ],
+      "sources": [
+        "anc-chu",
+        "anc-six-table"
+      ],
+      "note": "先秦国君，非皇帝。采用元年起算的年度骨架；年内继位与次年改元须区别，未细分月日。",
+      "verificationLevel": "reference_chronology"
+    },
+    {
+      "dynasty": "赵",
+      "polity": "赵（战国）",
+      "from": -325,
+      "to": -299,
+      "name": "赵雍",
+      "title": "赵武灵王",
+      "role": "ruler",
+      "eras": [],
+      "sources": [
+        "anc-zhao",
+        "anc-six-table",
+        "anc-zhaowuling"
+      ],
+      "note": "先秦国君，非皇帝。采用元年起算的年度骨架；年内继位与次年改元须区别，未细分月日。武灵王采用元年前325口径；其即位与元年可能差一年，退位后以主父身份掌权至前295，不能继续列为在位王。",
+      "verificationLevel": "reference_chronology"
+    },
+    {
+      "dynasty": "周",
+      "polity": "周王畿",
+      "from": -320,
+      "to": -315,
+      "name": "姬定",
+      "title": "周慎靓王",
+      "role": "ruler",
+      "eras": [
+        {
+          "from": -320,
+          "to": -315,
+          "name": "周慎靓王",
+          "baseYear": 1,
+          "note": "王年／公年纪年，不是后世年号。"
+        }
+      ],
+      "sources": [
+        "anc-shiji-zhou",
+        "anc-shiji-table",
+        "anc-six-table",
+        "anc-moe"
+      ],
+      "note": "先秦国君，非皇帝。采用元年起算的年度骨架；年内继位与次年改元须区别，未细分月日。“姬＋名”用作现代检索标签；异体、异名依传世常见写法，非还原当时称名习惯。",
+      "verificationLevel": "chronology_crosscheck"
+    },
+    {
+      "dynasty": "齐",
+      "polity": "齐（战国）",
+      "from": -319,
+      "to": -301,
+      "name": "田辟疆",
+      "title": "齐宣王",
+      "role": "ruler",
+      "eras": [
+        {
+          "from": -319,
+          "to": -301,
+          "name": "齐宣王",
+          "baseYear": 1,
+          "note": "王年／公年纪年，不是后世年号。"
+        }
+      ],
+      "sources": [
+        "anc-qi",
+        "anc-qixuan"
+      ],
+      "note": "先秦国君，非皇帝。采用元年起算的年度骨架；年内继位与次年改元须区别，未细分月日。采用通行修订的田齐纪年，非机械照抄《史记·六国年表》齐魏旧列；威王称王前后不以谥号冒充当时正式称号。",
+      "verificationLevel": "reference_chronology"
+    },
+    {
+      "polity": "魏（战国）",
+      "dynasty": "魏",
+      "from": -318,
+      "to": -296,
+      "title": "魏襄王",
+      "name": "魏嗣",
+      "role": "ruler",
+      "eras": [
+        {
+          "from": -318,
+          "to": -296,
+          "name": "魏襄王",
+          "baseYear": 1,
+          "note": "王年纪年，非后世年号。"
+        }
+      ],
+      "sources": [
+        "anc-weihan",
+        "anc-weixiang"
+      ],
+      "note": "采用通行元年年序，非将《史记》旧表未经校正地直接换算。即位年和元年可能差一年，未恢复到月日。",
+      "verificationLevel": "reference_chronology"
+    },
+    {
+      "dynasty": "周",
+      "polity": "周王畿",
+      "from": -314,
+      "to": -256,
+      "name": "姬延",
+      "title": "周赧王",
+      "role": "ruler",
+      "eras": [
+        {
+          "from": -314,
+          "to": -256,
+          "name": "周赧王",
+          "baseYear": 1,
+          "note": "王年／公年纪年，不是后世年号。"
+        }
+      ],
+      "sources": [
+        "anc-shiji-zhou",
+        "anc-shiji-table",
+        "anc-six-table",
+        "anc-moe"
+      ],
+      "note": "先秦国君，非皇帝。采用元年起算的年度骨架；年内继位与次年改元须区别，未细分月日。“姬＋名”用作现代检索标签；异体、异名依传世常见写法，非还原当时称名习惯。",
+      "verificationLevel": "chronology_crosscheck"
+    },
+    {
+      "dynasty": "韩",
+      "polity": "韩（战国）",
+      "from": -311,
+      "to": -296,
+      "name": "韩仓",
+      "title": "韩襄王",
+      "role": "ruler",
+      "eras": [
+        {
+          "from": -311,
+          "to": -296,
+          "name": "韩襄王",
+          "baseYear": 1,
+          "note": "王年／公年纪年，不是后世年号。"
+        }
+      ],
+      "sources": [
+        "anc-han",
+        "anc-six-table",
+        "anc-hanzhao"
+      ],
+      "note": "先秦国君，非皇帝。采用元年起算的年度骨架；年内继位与次年改元须区别，未细分月日。韩昭侯名有仁敬等异说；称王前后不用谥号充当同时代称谓。",
+      "verificationLevel": "reference_chronology"
+    },
+    {
+      "dynasty": "燕",
+      "polity": "燕（战国）",
+      "from": -311,
+      "to": -279,
+      "name": "姬职",
+      "title": "燕昭王",
+      "role": "ruler",
+      "eras": [
+        {
+          "from": -311,
+          "to": -279,
+          "name": "燕昭王",
+          "baseYear": 1,
+          "note": "王年／公年纪年，不是后世年号。"
+        }
+      ],
+      "sources": [
+        "anc-yan",
+        "anc-six-table"
+      ],
+      "note": "先秦国君，非皇帝。采用元年起算的年度骨架；年内继位与次年改元须区别，未细分月日。未可靠整理个人名的君主明确保留名未详。",
+      "verificationLevel": "reference_chronology"
+    },
+    {
+      "dynasty": "秦",
+      "polity": "秦",
+      "from": -310,
+      "to": -307,
+      "name": "嬴荡",
+      "title": "秦武王",
+      "role": "ruler",
+      "eras": [
+        {
+          "from": -310,
+          "to": -307,
+          "name": "秦武王",
+          "baseYear": 1,
+          "note": "王年／公年纪年，不是后世年号。"
+        }
+      ],
+      "sources": [
+        "anc-qin",
+        "anc-six-table"
+      ],
+      "note": "先秦国君，非皇帝。采用元年起算的年度骨架；年内继位与次年改元须区别，未细分月日。秦王政在前221年统一后才称始皇帝；惠文君称王前后改元另有变化，本表不在该段硬造单一连续纪年标签。",
+      "verificationLevel": "reference_chronology"
+    },
+    {
+      "dynasty": "秦",
+      "polity": "秦",
+      "from": -306,
+      "to": -251,
+      "name": "嬴稷",
+      "title": "秦昭襄王",
+      "role": "ruler",
+      "eras": [
+        {
+          "from": -306,
+          "to": -251,
+          "name": "秦昭襄王",
+          "baseYear": 1,
+          "note": "王年／公年纪年，不是后世年号。"
+        }
+      ],
+      "sources": [
+        "anc-qin",
+        "anc-six-table"
+      ],
+      "note": "先秦国君，非皇帝。采用元年起算的年度骨架；年内继位与次年改元须区别，未细分月日。秦王政在前221年统一后才称始皇帝；惠文君称王前后改元另有变化，本表不在该段硬造单一连续纪年标签。",
+      "verificationLevel": "reference_chronology"
+    },
+    {
+      "dynasty": "齐",
+      "polity": "齐（战国）",
+      "from": -300,
+      "to": -284,
+      "name": "田地",
+      "title": "齐湣王",
+      "role": "ruler",
+      "eras": [
+        {
+          "from": -300,
+          "to": -284,
+          "name": "齐湣王",
+          "baseYear": 1,
+          "note": "王年／公年纪年，不是后世年号。"
+        }
+      ],
+      "sources": [
+        "anc-qi",
+        "anc-qixuan"
+      ],
+      "note": "先秦国君，非皇帝。采用元年起算的年度骨架；年内继位与次年改元须区别，未细分月日。采用通行修订的田齐纪年，非机械照抄《史记·六国年表》齐魏旧列；威王称王前后不以谥号冒充当时正式称号。",
+      "verificationLevel": "reference_chronology"
+    },
+    {
+      "dynasty": "赵",
+      "polity": "赵（战国）",
+      "from": -298,
+      "to": -266,
+      "name": "赵何",
+      "title": "赵惠文王",
+      "role": "ruler",
+      "eras": [
+        {
+          "from": -298,
+          "to": -266,
+          "name": "赵惠文王",
+          "baseYear": 1,
+          "note": "王年／公年纪年，不是后世年号。"
+        }
+      ],
+      "sources": [
+        "anc-zhao",
+        "anc-six-table",
+        "anc-zhaowuling"
+      ],
+      "note": "先秦国君，非皇帝。采用元年起算的年度骨架；年内继位与次年改元须区别，未细分月日。武灵王采用元年前325口径；其即位与元年可能差一年，退位后以主父身份掌权至前295，不能继续列为在位王。",
+      "verificationLevel": "reference_chronology"
+    },
+    {
+      "dynasty": "楚",
+      "polity": "楚（战国）",
+      "from": -298,
+      "to": -263,
+      "name": "熊横",
+      "title": "楚顷襄王",
+      "role": "ruler",
+      "eras": [
+        {
+          "from": -298,
+          "to": -263,
+          "name": "楚顷襄王",
+          "baseYear": 1,
+          "note": "王年／公年纪年，不是后世年号。"
+        }
+      ],
+      "sources": [
+        "anc-chu",
+        "anc-six-table"
+      ],
+      "note": "先秦国君，非皇帝。采用元年起算的年度骨架；年内继位与次年改元须区别，未细分月日。",
+      "verificationLevel": "reference_chronology"
+    },
+    {
+      "polity": "魏（战国）",
+      "dynasty": "魏",
+      "from": -295,
+      "to": -277,
+      "title": "魏昭王",
+      "name": "魏遫",
+      "role": "ruler",
+      "eras": [
+        {
+          "from": -295,
+          "to": -277,
+          "name": "魏昭王",
+          "baseYear": 1,
+          "note": "王年纪年，非后世年号。"
+        }
+      ],
+      "sources": [
+        "anc-weihan",
+        "anc-weizhao"
+      ],
+      "note": "采用通行元年年序，非将《史记》旧表未经校正地直接换算。即位年和元年可能差一年，未恢复到月日。",
+      "verificationLevel": "reference_chronology"
+    },
+    {
+      "dynasty": "韩",
+      "polity": "韩（战国）",
+      "from": -295,
+      "to": -273,
+      "name": "韩咎",
+      "title": "韩釐王",
+      "role": "ruler",
+      "eras": [
+        {
+          "from": -295,
+          "to": -273,
+          "name": "韩釐王",
+          "baseYear": 1,
+          "note": "王年／公年纪年，不是后世年号。"
+        }
+      ],
+      "sources": [
+        "anc-han",
+        "anc-six-table",
+        "anc-hanzhao"
+      ],
+      "note": "先秦国君，非皇帝。采用元年起算的年度骨架；年内继位与次年改元须区别，未细分月日。韩昭侯名有仁敬等异说；称王前后不用谥号充当同时代称谓。",
+      "verificationLevel": "reference_chronology"
+    },
+    {
+      "dynasty": "齐",
+      "polity": "齐（战国）",
+      "from": -283,
+      "to": -265,
+      "name": "田法章",
+      "title": "齐襄王",
+      "role": "ruler",
+      "eras": [
+        {
+          "from": -283,
+          "to": -265,
+          "name": "齐襄王",
+          "baseYear": 1,
+          "note": "王年／公年纪年，不是后世年号。"
+        }
+      ],
+      "sources": [
+        "anc-qi",
+        "anc-qixuan"
+      ],
+      "note": "先秦国君，非皇帝。采用元年起算的年度骨架；年内继位与次年改元须区别，未细分月日。采用通行修订的田齐纪年，非机械照抄《史记·六国年表》齐魏旧列；威王称王前后不以谥号冒充当时正式称号。",
+      "verificationLevel": "reference_chronology"
+    },
+    {
+      "dynasty": "燕",
+      "polity": "燕（战国）",
+      "from": -278,
+      "to": -272,
+      "name": "姬乐资",
+      "title": "燕惠王",
+      "role": "ruler",
+      "eras": [
+        {
+          "from": -278,
+          "to": -272,
+          "name": "燕惠王",
+          "baseYear": 1,
+          "note": "王年／公年纪年，不是后世年号。"
+        }
+      ],
+      "sources": [
+        "anc-yan",
+        "anc-six-table"
+      ],
+      "note": "先秦国君，非皇帝。采用元年起算的年度骨架；年内继位与次年改元须区别，未细分月日。未可靠整理个人名的君主明确保留名未详。",
+      "verificationLevel": "reference_chronology"
+    },
+    {
+      "dynasty": "魏",
+      "polity": "魏（战国）",
+      "from": -276,
+      "to": -243,
+      "name": "魏圉",
+      "title": "魏安釐王",
+      "role": "ruler",
+      "eras": [
+        {
+          "from": -276,
+          "to": -243,
+          "name": "魏安釐王",
+          "baseYear": 1,
+          "note": "王年／公年纪年，不是后世年号。"
+        }
+      ],
+      "sources": [
+        "anc-weihan",
+        "anc-six-table"
+      ],
+      "note": "先秦国君，非皇帝。采用元年起算的年度骨架；年内继位与次年改元须区别，未细分月日。魏文侯这里只覆盖前403以后地图范围，不以此作即位年；魏惠王跨称王改元，齐魏年序须校订。",
+      "verificationLevel": "reference_chronology"
+    },
+    {
+      "dynasty": "韩",
+      "polity": "韩（战国）",
+      "from": -272,
+      "to": -239,
+      "name": "韩然",
+      "title": "韩桓惠王",
+      "role": "ruler",
+      "eras": [
+        {
+          "from": -272,
+          "to": -239,
+          "name": "韩桓惠王",
+          "baseYear": 1,
+          "note": "王年／公年纪年，不是后世年号。"
+        }
+      ],
+      "sources": [
+        "anc-han",
+        "anc-six-table",
+        "anc-hanzhao"
+      ],
+      "note": "先秦国君，非皇帝。采用元年起算的年度骨架；年内继位与次年改元须区别，未细分月日。韩昭侯名有仁敬等异说；称王前后不用谥号充当同时代称谓。",
+      "verificationLevel": "reference_chronology"
+    },
+    {
+      "dynasty": "燕",
+      "polity": "燕（战国）",
+      "from": -271,
+      "to": -258,
+      "name": "名未详",
+      "title": "燕武成王",
+      "role": "ruler",
+      "eras": [],
+      "sources": [
+        "anc-yan",
+        "anc-six-table"
+      ],
+      "note": "先秦国君，非皇帝。采用元年起算的年度骨架；年内继位与次年改元须区别，未细分月日。未可靠整理个人名的君主明确保留名未详。",
+      "verificationLevel": "reference_chronology"
+    },
+    {
+      "dynasty": "赵",
+      "polity": "赵（战国）",
+      "from": -265,
+      "to": -245,
+      "name": "赵丹",
+      "title": "赵孝成王",
+      "role": "ruler",
+      "eras": [
+        {
+          "from": -265,
+          "to": -245,
+          "name": "赵孝成王",
+          "baseYear": 1,
+          "note": "王年／公年纪年，不是后世年号。"
+        }
+      ],
+      "sources": [
+        "anc-zhao",
+        "anc-six-table",
+        "anc-zhaowuling"
+      ],
+      "note": "先秦国君，非皇帝。采用元年起算的年度骨架；年内继位与次年改元须区别，未细分月日。武灵王采用元年前325口径；其即位与元年可能差一年，退位后以主父身份掌权至前295，不能继续列为在位王。",
+      "verificationLevel": "reference_chronology"
+    },
+    {
+      "dynasty": "齐",
+      "polity": "齐（战国）",
+      "from": -264,
+      "to": -221,
+      "name": "田建",
+      "title": "齐王建",
+      "role": "ruler",
+      "eras": [
+        {
+          "from": -264,
+          "to": -221,
+          "name": "齐王建",
+          "baseYear": 1,
+          "note": "王年／公年纪年，不是后世年号。"
+        }
+      ],
+      "sources": [
+        "anc-qi",
+        "anc-qixuan"
+      ],
+      "note": "先秦国君，非皇帝。采用元年起算的年度骨架；年内继位与次年改元须区别，未细分月日。采用通行修订的田齐纪年，非机械照抄《史记·六国年表》齐魏旧列；威王称王前后不以谥号冒充当时正式称号。",
+      "verificationLevel": "reference_chronology"
+    },
+    {
+      "dynasty": "楚",
+      "polity": "楚（战国）",
+      "from": -262,
+      "to": -238,
+      "name": "熊完",
+      "title": "楚考烈王",
+      "role": "ruler",
+      "eras": [
+        {
+          "from": -262,
+          "to": -238,
+          "name": "楚考烈王",
+          "baseYear": 1,
+          "note": "王年／公年纪年，不是后世年号。"
+        }
+      ],
+      "sources": [
+        "anc-chu",
+        "anc-six-table"
+      ],
+      "note": "先秦国君，非皇帝。采用元年起算的年度骨架；年内继位与次年改元须区别，未细分月日。",
+      "verificationLevel": "reference_chronology"
+    },
+    {
+      "dynasty": "燕",
+      "polity": "燕（战国）",
+      "from": -257,
+      "to": -255,
+      "name": "名未详",
+      "title": "燕孝王",
+      "role": "ruler",
+      "eras": [],
+      "sources": [
+        "anc-yan",
+        "anc-six-table"
+      ],
+      "note": "先秦国君，非皇帝。采用元年起算的年度骨架；年内继位与次年改元须区别，未细分月日。未可靠整理个人名的君主明确保留名未详。",
+      "verificationLevel": "reference_chronology"
+    },
+    {
+      "dynasty": "燕",
+      "polity": "燕（战国）",
+      "from": -254,
+      "to": -222,
+      "name": "姬喜",
+      "title": "燕王喜",
+      "role": "ruler",
+      "eras": [
+        {
+          "from": -254,
+          "to": -222,
+          "name": "燕王喜",
+          "baseYear": 1,
+          "note": "王年／公年纪年，不是后世年号。"
+        }
+      ],
+      "sources": [
+        "anc-yan",
+        "anc-six-table"
+      ],
+      "note": "先秦国君，非皇帝。采用元年起算的年度骨架；年内继位与次年改元须区别，未细分月日。未可靠整理个人名的君主明确保留名未详。",
+      "verificationLevel": "reference_chronology"
+    },
+    {
+      "dynasty": "秦",
+      "polity": "秦",
+      "from": -250,
+      "to": -250,
+      "name": "嬴柱",
+      "title": "秦孝文王",
+      "role": "ruler",
+      "eras": [
+        {
+          "from": -250,
+          "to": -250,
+          "name": "秦孝文王",
+          "baseYear": 1,
+          "note": "王年／公年纪年，不是后世年号。"
+        }
+      ],
+      "sources": [
+        "anc-qin",
+        "anc-six-table"
+      ],
+      "note": "先秦国君，非皇帝。采用元年起算的年度骨架；年内继位与次年改元须区别，未细分月日。秦王政在前221年统一后才称始皇帝；惠文君称王前后改元另有变化，本表不在该段硬造单一连续纪年标签。",
+      "verificationLevel": "reference_chronology"
+    },
+    {
+      "dynasty": "秦",
+      "polity": "秦",
+      "from": -249,
+      "to": -247,
+      "name": "嬴子楚",
+      "title": "秦庄襄王",
+      "role": "ruler",
+      "eras": [
+        {
+          "from": -249,
+          "to": -247,
+          "name": "秦庄襄王",
+          "baseYear": 1,
+          "note": "王年／公年纪年，不是后世年号。"
+        }
+      ],
+      "sources": [
+        "anc-qin",
+        "anc-six-table"
+      ],
+      "note": "先秦国君，非皇帝。采用元年起算的年度骨架；年内继位与次年改元须区别，未细分月日。秦王政在前221年统一后才称始皇帝；惠文君称王前后改元另有变化，本表不在该段硬造单一连续纪年标签。",
+      "verificationLevel": "reference_chronology"
+    },
+    {
+      "dynasty": "秦",
+      "polity": "秦",
+      "from": -246,
+      "to": -222,
+      "name": "嬴政",
+      "title": "秦王政",
+      "role": "ruler",
+      "eras": [
+        {
+          "from": -246,
+          "to": -222,
+          "name": "秦王政",
+          "baseYear": 1,
+          "note": "王年／公年纪年，不是后世年号。"
+        }
+      ],
+      "sources": [
+        "anc-qin",
+        "anc-six-table"
+      ],
+      "note": "先秦国君，非皇帝。采用元年起算的年度骨架；年内继位与次年改元须区别，未细分月日。秦王政在前221年统一后才称始皇帝；惠文君称王前后改元另有变化，本表不在该段硬造单一连续纪年标签。",
+      "verificationLevel": "reference_chronology"
+    },
+    {
+      "dynasty": "赵",
+      "polity": "赵（战国）",
+      "from": -244,
+      "to": -236,
+      "name": "赵偃",
+      "title": "赵悼襄王",
+      "role": "ruler",
+      "eras": [
+        {
+          "from": -244,
+          "to": -236,
+          "name": "赵悼襄王",
+          "baseYear": 1,
+          "note": "王年／公年纪年，不是后世年号。"
+        }
+      ],
+      "sources": [
+        "anc-zhao",
+        "anc-six-table",
+        "anc-zhaowuling"
+      ],
+      "note": "先秦国君，非皇帝。采用元年起算的年度骨架；年内继位与次年改元须区别，未细分月日。武灵王采用元年前325口径；其即位与元年可能差一年，退位后以主父身份掌权至前295，不能继续列为在位王。",
+      "verificationLevel": "reference_chronology"
+    },
+    {
+      "dynasty": "魏",
+      "polity": "魏（战国）",
+      "from": -242,
+      "to": -228,
+      "name": "魏增",
+      "title": "魏景湣王",
+      "role": "ruler",
+      "eras": [
+        {
+          "from": -242,
+          "to": -228,
+          "name": "魏景湣王",
+          "baseYear": 1,
+          "note": "王年／公年纪年，不是后世年号。"
+        }
+      ],
+      "sources": [
+        "anc-weihan",
+        "anc-six-table"
+      ],
+      "note": "先秦国君，非皇帝。采用元年起算的年度骨架；年内继位与次年改元须区别，未细分月日。魏文侯这里只覆盖前403以后地图范围，不以此作即位年；魏惠王跨称王改元，齐魏年序须校订。",
+      "verificationLevel": "reference_chronology"
+    },
+    {
+      "dynasty": "韩",
+      "polity": "韩（战国）",
+      "from": -238,
+      "to": -230,
+      "name": "韩安",
+      "title": "韩王安",
+      "role": "ruler",
+      "eras": [
+        {
+          "from": -238,
+          "to": -230,
+          "name": "韩王安",
+          "baseYear": 1,
+          "note": "王年／公年纪年，不是后世年号。"
+        }
+      ],
+      "sources": [
+        "anc-han",
+        "anc-six-table",
+        "anc-hanzhao"
+      ],
+      "note": "先秦国君，非皇帝。采用元年起算的年度骨架；年内继位与次年改元须区别，未细分月日。韩昭侯名有仁敬等异说；称王前后不用谥号充当同时代称谓。",
+      "verificationLevel": "reference_chronology"
+    },
+    {
+      "dynasty": "楚",
+      "polity": "楚（战国）",
+      "from": -237,
+      "to": -228,
+      "name": "熊悍",
+      "title": "楚幽王",
+      "role": "ruler",
+      "eras": [
+        {
+          "from": -237,
+          "to": -228,
+          "name": "楚幽王",
+          "baseYear": 1,
+          "note": "王年／公年纪年，不是后世年号。"
+        }
+      ],
+      "sources": [
+        "anc-chu",
+        "anc-six-table"
+      ],
+      "note": "先秦国君，非皇帝。采用元年起算的年度骨架；年内继位与次年改元须区别，未细分月日。",
+      "verificationLevel": "reference_chronology"
+    },
+    {
+      "dynasty": "赵",
+      "polity": "赵（战国）",
+      "from": -235,
+      "to": -228,
+      "name": "赵迁",
+      "title": "赵幽缪王",
+      "role": "ruler",
+      "eras": [
+        {
+          "from": -235,
+          "to": -228,
+          "name": "赵幽缪王",
+          "baseYear": 1,
+          "note": "王年／公年纪年，不是后世年号。"
+        }
+      ],
+      "sources": [
+        "anc-zhao",
+        "anc-six-table",
+        "anc-zhaowuling"
+      ],
+      "note": "先秦国君，非皇帝。采用元年起算的年度骨架；年内继位与次年改元须区别，未细分月日。武灵王采用元年前325口径；其即位与元年可能差一年，退位后以主父身份掌权至前295，不能继续列为在位王。",
+      "verificationLevel": "reference_chronology"
+    },
+    {
+      "dynasty": "楚",
+      "polity": "楚（战国）",
+      "from": -228,
+      "to": -228,
+      "name": "熊犹",
+      "title": "楚哀王",
+      "role": "ruler",
+      "eras": [
+        {
+          "from": -228,
+          "to": -228,
+          "name": "楚哀王",
+          "baseYear": 1,
+          "note": "王年／公年纪年，不是后世年号。"
+        }
+      ],
+      "sources": [
+        "anc-chu",
+        "anc-six-table"
+      ],
+      "note": "先秦国君，非皇帝。采用元年起算的年度骨架；年内继位与次年改元须区别，未细分月日。",
+      "verificationLevel": "reference_chronology"
+    },
+    {
+      "dynasty": "魏",
+      "polity": "魏（战国）",
+      "from": -227,
+      "to": -225,
+      "name": "魏假",
+      "title": "魏王假",
+      "role": "ruler",
+      "eras": [
+        {
+          "from": -227,
+          "to": -225,
+          "name": "魏王假",
+          "baseYear": 1,
+          "note": "王年／公年纪年，不是后世年号。"
+        }
+      ],
+      "sources": [
+        "anc-weihan",
+        "anc-six-table"
+      ],
+      "note": "先秦国君，非皇帝。采用元年起算的年度骨架；年内继位与次年改元须区别，未细分月日。魏文侯这里只覆盖前403以后地图范围，不以此作即位年；魏惠王跨称王改元，齐魏年序须校订。",
+      "verificationLevel": "reference_chronology"
+    },
+    {
+      "dynasty": "楚",
+      "polity": "楚（战国）",
+      "from": -227,
+      "to": -223,
+      "name": "熊负刍",
+      "title": "楚王负刍",
+      "role": "ruler",
+      "eras": [
+        {
+          "from": -227,
+          "to": -223,
+          "name": "楚王负刍",
+          "baseYear": 1,
+          "note": "王年／公年纪年，不是后世年号。"
+        }
+      ],
+      "sources": [
+        "anc-chu",
+        "anc-six-table"
+      ],
+      "note": "先秦国君，非皇帝。采用元年起算的年度骨架；年内继位与次年改元须区别，未细分月日。",
+      "verificationLevel": "reference_chronology"
+    },
+    {
+      "dynasty": "赵",
+      "polity": "代（战国）",
+      "from": -227,
+      "to": -222,
+      "name": "赵嘉",
+      "title": "代王",
+      "role": "ruler",
+      "eras": [
+        {
+          "from": -227,
+          "to": -222,
+          "name": "代王",
+          "baseYear": 1,
+          "note": "王年／公年纪年，不是后世年号。"
+        }
+      ],
+      "sources": [
+        "anc-zhao",
+        "anc-six-table"
+      ],
+      "note": "先秦国君，非皇帝。采用元年起算的年度骨架；年内继位与次年改元须区别，未细分月日。",
+      "verificationLevel": "reference_chronology"
+    }
+  ],
+  "referenceLeaders": [
+    {
+      "year": -2070,
+      "polity": "夏（传世王朝）",
+      "rulers": [
+        {
+          "name": "禹、启等（传世王系）",
+          "title": "传世夏王"
+        }
+      ],
+      "ethnicity": "夏人（传世称谓）",
+      "point": [
+        112.7,
+        34.7
+      ],
+      "referenceOnly": true,
+      "approximate": true,
+      "note": "前2070只是本图采用的传统/断代工程约年，不将禹、启精确定位到该年。二里头不能无条件对应某一位夏王。",
+      "sources": [
+        "anc-nmc"
+      ]
+    },
+    {
+      "year": -1600,
+      "polity": "商",
+      "rulers": [
+        {
+          "name": "成汤",
+          "title": "商王（传世始祖）"
+        }
+      ],
+      "ethnicity": "商人",
+      "point": [
+        113.68,
+        34.75
+      ],
+      "referenceOnly": true,
+      "approximate": true,
+      "note": "约前1600为商初参考年代，成汤具体在位起讫及亳都地望有争议。",
+      "sources": [
+        "anc-nmc",
+        "anc-zhengzhou"
+      ]
+    },
+    {
+      "year": -1300,
+      "polity": "商",
+      "rulers": [
+        {
+          "name": "盘庚",
+          "title": "商王"
+        }
+      ],
+      "ethnicity": "商人",
+      "point": [
+        114.32,
+        36.13
+      ],
+      "referenceOnly": true,
+      "approximate": true,
+      "note": "盘庚迁殷约前14—13世纪，采用殷墟考古语境，不把前1300当已定迁都年。",
+      "sources": [
+        "anc-nmc",
+        "anc-yinxu"
+      ]
+    },
+    {
+      "year": -1200,
+      "polity": "商",
+      "rulers": [
+        {
+          "name": "武丁",
+          "title": "商王"
+        }
+      ],
+      "ethnicity": "商人",
+      "point": [
+        114.32,
+        36.13
+      ],
+      "referenceOnly": true,
+      "approximate": true,
+      "note": "晚商武丁时代有卜辞材料；这里为约时代人物说明，不代表本年王在位已被逐年定准。",
+      "sources": [
+        "anc-yinxu"
+      ]
+    },
+    {
+      "year": -1046,
+      "polity": "商",
+      "rulers": [
+        {
+          "name": "帝辛",
+          "title": "商末王"
+        }
+      ],
+      "ethnicity": "商人",
+      "point": [
+        114.32,
+        36.13
+      ],
+      "referenceOnly": true,
+      "approximate": true,
+      "note": "周克商年采用约前1046的断代工程口径，仍有不同意见。",
+      "sources": [
+        "anc-nmc",
+        "anc-shiji-zhou"
+      ]
+    },
+    {
+      "year": -1046,
+      "polity": "周王畿",
+      "rulers": [
+        {
+          "name": "姬发",
+          "title": "周武王"
+        }
+      ],
+      "ethnicity": "周人",
+      "point": [
+        108.76,
+        34.22
+      ],
+      "referenceOnly": true,
+      "approximate": true,
+      "note": "代表克商前后的周武王，未生成前841以前无争议的逐年在位表。",
+      "sources": [
+        "anc-nmc",
+        "anc-shiji-zhou"
+      ]
+    },
+    {
+      "year": -1000,
+      "polity": "周王畿",
+      "rulers": [
+        {
+          "name": "成王、康王等（早期王系）",
+          "title": "西周早期诸王"
+        }
+      ],
+      "ethnicity": "周人",
+      "point": [
+        108.76,
+        34.22
+      ],
+      "referenceOnly": true,
+      "approximate": true,
+      "note": "不将成康中的某一王硬填为前1000当年君主；王年绝对年代另有多种重建。",
+      "sources": [
+        "anc-nmc",
+        "anc-shiji-zhou"
+      ]
+    }
+  ],
+  "sites": [
+    {
+      "id": "erlitou",
+      "name": "二里头遗址",
+      "point": [
+        112.7,
+        34.7
+      ],
+      "from": -1750,
+      "to": -1530,
+      "approximate": true,
+      "note": "遗址名；探索夏文化的重要材料，不能等同于已证实的“夏王都”或指定夏王。",
+      "sources": [
+        "anc-nmc"
+      ],
+      "coordinateAccuracy": "粗略区域点位（约数公里至数十公里），不作遗址边界或城垣测绘依据。"
+    },
+    {
+      "id": "zhengzhou-shang",
+      "name": "郑州商城遗址",
+      "point": [
+        113.68,
+        34.75
+      ],
+      "from": -1600,
+      "to": -1400,
+      "approximate": true,
+      "note": "早商大型都邑，亳、隞等古名对应有争议；展示考古遗址名。",
+      "sources": [
+        "anc-zhengzhou"
+      ],
+      "coordinateAccuracy": "粗略区域点位（约数公里至数十公里），不作遗址边界或城垣测绘依据。"
+    },
+    {
+      "id": "yinxu",
+      "name": "殷（殷墟）",
+      "point": [
+        114.32,
+        36.13
+      ],
+      "from": -1300,
+      "to": -1046,
+      "approximate": true,
+      "note": "晚商王都遗址；前1300起为约年代，不等于确定迁都年份。",
+      "sources": [
+        "anc-yinxu"
+      ],
+      "coordinateAccuracy": "粗略区域点位（约数公里至数十公里），不作遗址边界或城垣测绘依据。"
+    },
+    {
+      "id": "fenghao",
+      "name": "丰镐",
+      "point": [
+        108.76,
+        34.22
+      ],
+      "from": -1046,
+      "to": -771,
+      "approximate": true,
+      "note": "沣河两岸丰、镐是分开的都邑群，点位作区域示意，非两城合成一个城址。",
+      "sources": [
+        "anc-fenghao"
+      ],
+      "coordinateAccuracy": "粗略区域点位（约数公里至数十公里），不作遗址边界或城垣测绘依据。"
+    },
+    {
+      "id": "chengzhou",
+      "name": "成周（雒邑）",
+      "point": [
+        112.49,
+        34.69
+      ],
+      "from": -1000,
+      "to": -256,
+      "approximate": true,
+      "note": "成周、王城与后来汉魏洛阳有分址及年代争论；该点仅表洛阳区域，不等同某段城垣。",
+      "sources": [
+        "anc-chengzhou"
+      ],
+      "coordinateAccuracy": "粗略区域点位（约数公里至数十公里），不作遗址边界或城垣测绘依据。"
+    },
+    {
+      "id": "linzi",
+      "name": "临淄",
+      "point": [
+        118.35,
+        36.86
+      ],
+      "from": -650,
+      "to": -221,
+      "approximate": true,
+      "note": "齐国故城区域点位；不是今淄博主城区。前650仅作为本图已整理展示起点，不是建城年。",
+      "sources": [
+        "anc-linzi"
+      ],
+      "coordinateAccuracy": "粗略区域点位（约数公里至数十公里），不作遗址边界或城垣测绘依据。"
+    },
+    {
+      "id": "qufu",
+      "name": "曲阜（鲁都）",
+      "point": [
+        116.99,
+        35.6
+      ],
+      "from": -770,
+      "to": -249,
+      "approximate": true,
+      "note": "鲁国故城与今曲阜范围有叠压；点位不是鲁国全部辖域。",
+      "sources": [
+        "anc-qufu"
+      ],
+      "coordinateAccuracy": "粗略区域点位（约数公里至数十公里），不作遗址边界或城垣测绘依据。"
+    },
+    {
+      "id": "xinzheng",
+      "name": "新郑（郑韩都城）",
+      "point": [
+        113.72,
+        34.4
+      ],
+      "from": -700,
+      "to": -230,
+      "approximate": true,
+      "note": "春秋郑、战国韩都城，时代分属不同政权；前700为保守展示范围，不是始建年。",
+      "sources": [
+        "anc-zhenghan"
+      ],
+      "coordinateAccuracy": "粗略区域点位（约数公里至数十公里），不作遗址边界或城垣测绘依据。"
+    },
+    {
+      "id": "jinancheng",
+      "name": "郢（纪南城）",
+      "point": [
+        112.19,
+        30.43
+      ],
+      "from": -377,
+      "to": -278,
+      "approximate": true,
+      "note": "纪南城为楚郢都之一；按尹弘兵研究的约前377—278范围使用，不前推到全部春秋。",
+      "sources": [
+        "anc-chuying"
+      ],
+      "coordinateAccuracy": "粗略区域点位（约数公里至数十公里），不作遗址边界或城垣测绘依据。"
+    }
+  ]
+}

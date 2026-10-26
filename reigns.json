@@ -1,0 +1,7188 @@
+{
+  "sources": {
+    "jiangshan-lore": {
+      "id": "jiangshan-lore",
+      "title": "江山地图原项目·lore_data.js",
+      "url": "https://github.com/DeanChensj/jiangshan-map/blob/main/js/lore_data.js",
+      "note": "351条主纪年起点、13组并立政权轨道；不是在位表。年号起点取此，未核定月日时结束年仅取下一改元年前一年；原索引缺年号、短帝和隋炀帝江都晚期，不能视作完整。"
+    },
+    "moe1": {
+      "id": "moe1",
+      "title": "教育部·中国历代帝王年表 第1页",
+      "url": "https://dict.revised.moe.edu.tw/appendix.jsp?ID=2&la=0&page=1&powerMode=0",
+      "note": "在位骨架；规定同年新旧两君起讫年可重叠。该表部分传统历年与公历年、武后称制和称帝、元代前期及个别末年存在问题，修正处单独说明。"
+    },
+    "moe2": {
+      "id": "moe2",
+      "title": "教育部·中国历代帝王年表 第2页",
+      "url": "https://dict.revised.moe.edu.tw/appendix.jsp?ID=2&la=0&page=2&powerMode=0",
+      "note": "在位骨架；规定同年新旧两君起讫年可重叠。该表部分传统历年与公历年、武后称制和称帝、元代前期及个别末年存在问题，修正处单独说明。"
+    },
+    "moe3": {
+      "id": "moe3",
+      "title": "教育部·中国历代帝王年表 第3页",
+      "url": "https://dict.revised.moe.edu.tw/appendix.jsp?ID=2&la=0&page=3&powerMode=0",
+      "note": "在位骨架；规定同年新旧两君起讫年可重叠。该表部分传统历年与公历年、武后称制和称帝、元代前期及个别末年存在问题，修正处单独说明。"
+    },
+    "dpm-lineage": {
+      "id": "dpm-lineage",
+      "title": "故宫博物院·宫廷世系",
+      "url": "https://www.dpm.org.cn/court/lineages.html",
+      "note": "明清帝王姓名和在位参考。与教育部表对照，注意故宫部分清代起年按改元而非继位。"
+    },
+    "sypm-qing": {
+      "id": "sypm-qing",
+      "title": "沈阳故宫·清朝皇帝简表",
+      "url": "https://www.sypm.org.cn/shjy_4/6.html",
+      "note": "清十二帝名讳、年号及在位起讫交叉核。"
+    },
+    "qing-eras": {
+      "id": "qing-eras",
+      "title": "中华文史网·清代年号",
+      "url": "https://www.qinghistory.cn/qsbk/zz/",
+      "note": "天命1616—1626、天聪1627—1636、崇德1636—1643，顺治1644起；继位年与次年改元须分开。"
+    },
+    "dpm-hongtaiji": {
+      "id": "dpm-hongtaiji",
+      "title": "故宫博物院·皇太极",
+      "url": "https://www.dpm.org.cn/court/lineage/226251.html",
+      "note": "1626继汗位，1636称帝并改国号大清、改元崇德。"
+    },
+    "dpm-yuan": {
+      "id": "dpm-yuan",
+      "title": "故宫博物院·元史本纪",
+      "url": "https://www.dpm.org.cn/ancient/nation/159665.html",
+      "note": "元代帝王序列与姓名；泰定帝、天顺帝、明宗、宁宗不可因原年号索引缺项而略去。"
+    },
+    "ctext-shang": {
+      "id": "ctext-shang",
+      "title": "中国哲学书电子化计划·李重茂",
+      "url": "https://ctext.org/datawiki.pl?if=gb&res=916296",
+      "note": "710年中宗后李重茂即位，短期后退位；补原主轨缺失的唐殇帝。"
+    },
+    "samr-calendar-draft": {
+      "id": "samr-calendar-draft",
+      "title": "国家标准计划·中国日历体系代码征求意见稿",
+      "url": "https://std.samr.gov.cn/dcpspTools/gbPlan/download?path=%2Fzxd%2F2022003791%2F20_%E6%A0%87%E5%87%86%E8%B5%B7%E8%8D%89%2F20_WD_2022003791_%E6%97%A5%E6%9C%9F%E5%92%8C%E6%97%B6%E9%97%B4+%E6%97%A5%E5%8E%86%E4%BD%93%E7%B3%BB%E4%BB%A3%E7%A0%81+%E7%AC%AC2%E9%83%A8%E5%88%86%EF%BC%9A%E4%B8%AD%E5%9B%BD.pdf",
+      "note": "仅作为纪年交叉参考，非已发布标准；含元明清君主名、改元、公元纪年。"
+    },
+    "ciyuan": {
+      "id": "ciyuan",
+      "title": "商务印书馆·辞源历代纪元表",
+      "url": "https://ciyuan.cp.com.cn/appendix/DynastyTable",
+      "note": "专业辞书纪年交叉参考；网页依赖脚本，本次仅检索索引核到部分元明清条目，未宣称完整复核。"
+    },
+    "dpm-puyi": {
+      "id": "dpm-puyi",
+      "title": "故宫博物院·宣统皇帝",
+      "url": "https://www.dpm.org.cn/court/lineage/226255.html",
+      "note": "明确1912年2月12日退位，纠正把宣统三年一律截为公历1911的做法。"
+    },
+    "ctext-huai": {
+      "id": "ctext-huai",
+      "title": "中国哲学书电子化计划·晋怀帝",
+      "url": "https://ctext.org/datawiki.pl?if=gb&res=904443",
+      "note": "311被俘、313被杀，须区分名义在位与实际统治。"
+    },
+    "era-convention": {
+      "id": "era-convention",
+      "title": "本表年度整理规则",
+      "url": "https://github.com/DeanChensj/jiangshan-map/blob/main/js/lore_data.js",
+      "note": "from/to采用首尾均包含的年度；帝王同年可重叠。eras为按原起年索引恢复的年度序列，未有月日者to取下一改元年前一年、同年改元至少保留该年；这只是用于年度地图，不是严格历日换算表。已知复杂例子单独手工补。姓名优先采用通行简体本名，title为常用庙号、谥号或称谓。"
+    },
+    "ctext-yangtong": {
+      "id": "ctext-yangtong",
+      "title": "中国哲学书电子化计划·杨侗",
+      "url": "https://ctext.org/datawiki.pl?if=gb&remap=gb&res=506158",
+      "note": "杨广死后洛阳另立杨侗，皇泰元年618，619禅位王世充；补隋洛阳并立支线。"
+    },
+    "haifeng-xinhua": {
+      "id": "haifeng-xinhua",
+      "title": "新华网·海昏侯墓主人身份揭晓",
+      "url": "https://www.xinhuanet.com/politics/2016-03/02/c_1118210615.htm",
+      "note": "刘贺在位二十七天后被霍光废，继立刘询。前74起讫为昭帝、宣帝交接年的常见历史纪年。"
+    },
+    "dpm-jianwen": {
+      "id": "dpm-jianwen",
+      "title": "故宫博物院 · 建文皇帝",
+      "url": "https://www.dpm.org.cn/court/lineage/226245.html",
+      "note": "建文四年六月朱棣即位后，复用洪武纪年，称洪武三十五年。"
+    },
+    "guobo-kangxi-accession": {
+      "id": "guobo-kangxi-accession",
+      "title": "中国国家博物馆 · 顺治十八年招降郑成功部下诏谕",
+      "url": "https://www.chnmuseum.cn/zp/zpml/201812/t20181218_24751.shtml",
+      "note": "实物诏书印证1661年玄烨继位后仍用顺治十八年，1662年才改康熙元年。"
+    },
+    "regional-moe3": {
+      "id": "regional-moe3",
+      "title": "教育部·中国历代帝王年表 第3页",
+      "url": "https://dict.revised.moe.edu.tw/appendix.jsp?ID=2&la=0&page=3&powerMode=0",
+      "note": "取辽金夏在位骨架；若干农历年转公历及即位、受册、改元混淆处已据史书或研究纠正。同年新旧君可重叠。"
+    },
+    "regional-liao-primary": {
+      "id": "regional-liao-primary",
+      "title": "《辽史》太宗上所记太祖之死及皇后摄政（中国哲学书电子化计划）",
+      "url": "https://ctext.org/datawiki.pl?if=en&remap=gb&res=884880",
+      "note": "天显元年七月太祖死，为926年；皇后摄军国事。太宗至天显二年十一月927年继位，不能沿教育部表误作925年。"
+    },
+    "regional-ciyuan": {
+      "id": "regional-ciyuan",
+      "title": "商务印书馆《辞源》·中国历史纪年表",
+      "url": "https://ciyuan.cp.com.cn/appendix/DynastyTable",
+      "note": "用于年号交叉核对；只把年号起讫作年号资料，不以新年号元年当作该帝即位年。"
+    },
+    "regional-jin-dpm": {
+      "id": "regional-jin-dpm",
+      "title": "故宫博物院·《金史本纪》",
+      "url": "https://www.dpm.org.cn/ancient/nation/159658.html",
+      "note": "列金太祖至哀宗九帝名讳。末帝另据金史哀宗纪补。"
+    },
+    "regional-jin-1189": {
+      "id": "regional-jin-1189",
+      "title": "北京市文物局公开·金中都宫城考证",
+      "url": "https://wwj.beijing.gov.cn/bjww/resource/cms/article/bjww_362762/10872052/2020101016413536793.pdf",
+      "note": "引金史说明世宗死后章宗在大定二十九年1189即位；教育部表1188末年需修正。"
+    },
+    "regional-jin-xuanzong": {
+      "id": "regional-jin-xuanzong",
+      "title": "《金史》宣宗本纪所载元光二年十二月卒（中国哲学书电子化计划）",
+      "url": "https://ctext.org/datawiki.pl?if=gb&res=364088",
+      "note": "元光二年十二月庚寅已经是公历1224年1月，故宣宗到1224、哀宗1224继位；不能机械写1223。该页具体日转换栏自身不完全一致，本表只核年度。"
+    },
+    "regional-jin-last": {
+      "id": "regional-jin-last",
+      "title": "《金史》哀宗纪（史籍全文PDF）",
+      "url": "https://photoapps.yd.chaoxing.com/MobileApp/GDSL/pdf/gddj/1315447.pdf",
+      "note": "天兴三年1234正月己酉承麟即皇帝位，蔡州旋陷；末帝不是一个完整年度的独立统治。"
+    },
+    "regional-song-xia": {
+      "id": "regional-song-xia",
+      "title": "《宋史》卷486·夏国下",
+      "url": "https://zh.wikisource.org/wiki/宋史/卷486",
+      "note": "秉常即位原文为治平四年冬，并非1069；元祐元年1086秉常死、乾顺继位。传统1067年十二月可落公历1068年，采用公历年度需单独注意。"
+    },
+    "regional-xia-nxu": {
+      "id": "regional-xia-nxu",
+      "title": "宁夏大学西夏学研究院·西夏历史与文化",
+      "url": "https://xixia.nxu.edu.cn/whkf/lswh.htm",
+      "note": "明确1038称帝，1139仁孝继位，1227亡国；元昊1032前后承夏国公与1038皇帝身份区分。"
+    },
+    "regional-xia-scholar": {
+      "id": "regional-xia-scholar",
+      "title": "Igor de Rachewiltz·The Secret History of the Mongols 注释",
+      "url": "https://altaica.ru/LIBRARY/rachewiltz/Rachewiltz_The%20Secret%20History%20of%20the%20Mongols_I-II%202004.pdf",
+      "note": "学术校注以1206—1211为夏襄宗李安全在位；西夏后期年度与教育部表差异处参考。"
+    },
+    "regional-xia-eras": {
+      "id": "regional-xia-eras",
+      "title": "中国边政·西夏相关研究及年号附表",
+      "url": "https://acbas.org.tw/admin/files/中國邊政181.pdf",
+      "note": "列襄宗应天1206—1209、皇建1210—1211，神宗光定1211—1223，献宗乾定1223—1226，末主宝义1226—1227；与辞源交叉核对。"
+    },
+    "regional-dali-government": {
+      "id": "regional-dali-government",
+      "title": "云南省民族宗教事务委员会·高升泰",
+      "url": "https://mzzj.yn.gov.cn/html/2002/yunnanlishiminzurenwu_0101/8267.html",
+      "note": "1094高升泰称大中国，1096死后还位段正淳；后理国实际权力仍多操高氏手中。"
+    },
+    "regional-dali-study": {
+      "id": "regional-dali-study",
+      "title": "北京大学中国古代史研究中心公开·南诏、大理时期的阿叱力教研究",
+      "url": "https://www.pkujccs.cn/upload/1435801068411.pdf",
+      "note": "明确段正严1108—1147在位、段正兴1147—1171在位；后者另有1172终年说，本表只取论文有明确支撑的区间，不补猜1172后诸王。"
+    },
+    "regional-dali-primary": {
+      "id": "regional-dali-primary",
+      "title": "杨慎《滇载记》注译",
+      "url": "https://www.yunnanexplorer.com/static/download/nanzhao/dianzaiji.pdf",
+      "note": "段正淳1096—1108、正严大观二年1108继立，四十年而传正兴。明代记载有错讹及后世年号考古修订，不据此猜齐全部世系。"
+    },
+    "verified-leader-0-0": {
+      "title": "本年任职依据 · 郭虔瓘",
+      "url": "https://zh.wikisource.org/wiki/舊唐書/卷103"
+    },
+    "verified-leader-0-1": {
+      "title": "任职研究／原始记录 · 郭虔瓘",
+      "url": "https://www.his.ntnu.edu.tw/publish01/downloadfile.php?issue_id=26&paper_id=147&periodicalsPage=4"
+    },
+    "verified-leader-1-0": {
+      "title": "本年任职依据 · 田扬名",
+      "url": "https://contents.nahf.or.kr/id/NAHF.jo.k_0016_0198_0060_0040"
+    },
+    "verified-leader-2-0": {
+      "title": "本年任职依据 · 黄福",
+      "url": "https://shandong-chorography.org/database/f063/section/26/article/74/"
+    },
+    "verified-leader-3-0": {
+      "title": "本年任职依据 · 大岛义昌",
+      "url": "https://www.jacar.archives.go.jp/das/meta/B16080798700"
+    },
+    "verified-leader-4-0": {
+      "title": "本年任职依据 · 卢押（Frederick Lugard）",
+      "url": "https://www.legco.gov.hk/1911/h110518.pdf"
+    },
+    "anc-nmc": {
+      "title": "中国国家博物馆《古代中国》·夏商西周",
+      "url": "https://www.chnmuseum.cn/portals/0/web/zt/gudai/detail2.html",
+      "note": "用于时代背景与考古地望；不是各王精确在位年表。"
+    },
+    "anc-shiji-zhou": {
+      "title": "《史记》卷四·周本纪",
+      "url": "https://zh.wikisource.org/wiki/史記/卷004"
+    },
+    "anc-shiji-table": {
+      "title": "《史记》卷十四·十二诸侯年表",
+      "url": "https://zh.wikisource.org/wiki/史記/卷014"
+    },
+    "anc-six-table": {
+      "title": "《史记》卷十五·六国年表",
+      "url": "https://zh.wikisource.org/wiki/史記/卷015",
+      "note": "齐魏等纪年有考订差异，不能将所有旧表数字不加辨别地转换成公历。"
+    },
+    "anc-moe": {
+      "title": "教育部《中国历代帝王年表》·周",
+      "url": "https://dict.revised.moe.edu.tw/appendix.jsp?ID=2&la=0",
+      "note": "只采用共和以后的周王主线；前841前该表传统年代未采用。该表所列255—249惠王非新的周天子，本表不计。"
+    },
+    "anc-qin": {
+      "title": "《史记》卷五·秦本纪",
+      "url": "https://zh.wikisource.org/wiki/史記/卷005"
+    },
+    "anc-chu": {
+      "title": "《史记》卷四十·楚世家",
+      "url": "https://zh.wikisource.org/wiki/史記/卷040"
+    },
+    "anc-zhao": {
+      "title": "《史记》卷四十三·赵世家",
+      "url": "https://zh.wikisource.org/wiki/史記/卷043"
+    },
+    "anc-qi": {
+      "title": "《史记》卷四十六·田敬仲完世家",
+      "url": "https://zh.wikisource.org/wiki/史記/卷046"
+    },
+    "anc-jin": {
+      "title": "《史记》卷三十九·晋世家",
+      "url": "https://zh.wikisource.org/wiki/史記/卷039"
+    },
+    "anc-weihan": {
+      "title": "《史记》卷四十四·魏世家",
+      "url": "https://zh.wikisource.org/wiki/史記/卷044"
+    },
+    "anc-han": {
+      "title": "《史记》卷四十五·韩世家",
+      "url": "https://zh.wikisource.org/wiki/史記/卷045"
+    },
+    "anc-yan": {
+      "title": "《史记》卷三十四·燕召公世家",
+      "url": "https://zh.wikisource.org/wiki/史記/卷034"
+    },
+    "anc-qihuan": {
+      "title": "山东地方史志·齐桓公",
+      "url": "https://shandong-chorography.org/database/f063/section/26/article/113/"
+    },
+    "anc-qixuan": {
+      "title": "中国哲学书电子化计划·齐宣王",
+      "url": "https://ctext.org/dictionary.pl?did=492&if=gb&remap=gb",
+      "note": "辅助现代纪年换算；与原典合读，不是出土同时代记录。"
+    },
+    "anc-zhaowuling": {
+      "title": "中国哲学书电子化计划·赵武灵王",
+      "url": "https://ctext.org/dictionary.pl?did=1028&if=gb"
+    },
+    "anc-hanzhao": {
+      "title": "湖南省纪委监委·韩昭侯不许私求",
+      "url": "https://www.sxfj.gov.cn/jing_cai_zhuan_ti/267e63/10909499.shtml"
+    },
+    "anc-yinxu": {
+      "title": "UNESCO·Yin Xu",
+      "url": "https://whc.unesco.org/en/list/1114",
+      "note": "殷墟地望和晚商考古语境；约1300起，不等于诸商王精确年界。"
+    },
+    "anc-zhengzhou": {
+      "title": "郑州市政府·郑州商代都城遗址",
+      "url": "https://www.zhengzhou.gov.cn/view22/6472622.jhtml",
+      "note": "地点及早商遗存；其亳都认定与其他学说并存，标签不强定亳。"
+    },
+    "anc-fenghao": {
+      "title": "湖北省博物馆·西周都城考古的主要收获",
+      "url": "https://m-www.hbww.org.cn/p/10888.html"
+    },
+    "anc-chengzhou": {
+      "title": "北京大学学术期刊·洛阳西周时代的遗址与成周、王城",
+      "url": "https://ccj.pku.edu.cn/article/info?aid=330993308",
+      "access": "abstract"
+    },
+    "anc-linzi": {
+      "title": "山东地方史志·临淄齐国故城",
+      "url": "https://shandong-chorography.org/database/a/section/70/article/75/"
+    },
+    "anc-qufu": {
+      "title": "曲阜市政府·加强鲁国故城保护和管理通告",
+      "url": "https://www.qfwbw.cn/news/wzgg/2016-03-23/2268.html"
+    },
+    "anc-zhenghan": {
+      "title": "郑州市文物局·郑韩故城",
+      "url": "https://wwj.zhengzhou.gov.cn/country/3176064.jhtml"
+    },
+    "anc-chuying": {
+      "title": "尹弘兵《楚都纪南城探析：基于考古与出土文献新资料的考察》2019",
+      "url": "https://www.lsdlyj.com.cn/CN/article/downloadArticleFile.do?attachType=PDF&id=47117",
+      "note": "提出纪南城为楚都约前377—278；标签采用该研究的保守区间，非从楚建国一直画在此点。"
+    },
+    "anc-weixiang": {
+      "title": "中国哲学书电子化计划·魏襄王",
+      "url": "https://ctext.org/dictionary.pl?did=1011&if=gb&remap=gb",
+      "note": "用于修订后的现代年序，与魏世家原典合读。"
+    },
+    "anc-weizhao": {
+      "title": "中国哲学书电子化计划·昭王条",
+      "url": "https://ctext.org/dictionary.pl?char=昭&if=en"
+    },
+    "anc-chuxuan": {
+      "title": "中国哲学书电子化计划·楚宣王",
+      "url": "https://ctext.org/datawiki.pl?if=gb&res=727256"
+    }
+  },
+  "reigns": [
+    {
+      "dynasty": "秦",
+      "polity": "秦",
+      "from": -221,
+      "to": -210,
+      "name": "嬴政",
+      "title": "秦始皇帝",
+      "sources": [
+        "moe1",
+        "jiangshan-lore"
+      ],
+      "note": "前246即秦王位，前221始称皇帝；本图从秦统一起展示。",
+      "eras": [
+        {
+          "from": -221,
+          "to": -210,
+          "name": "始皇",
+          "baseYear": 26,
+          "note": "以秦王政即位纪年起算；统一之年为二十六年，不是元年。"
+        }
+      ],
+      "role": "ruler"
+    },
+    {
+      "dynasty": "秦",
+      "polity": "秦",
+      "from": -210,
+      "to": -207,
+      "name": "胡亥",
+      "title": "秦二世",
+      "sources": [
+        "moe1",
+        "jiangshan-lore"
+      ],
+      "note": "前210年继位，二世元年为前209年；教育部表列改元年，改用继位年。",
+      "eras": [
+        {
+          "from": -209,
+          "to": -207,
+          "name": "二世",
+          "baseYear": 1
+        }
+      ],
+      "role": "ruler"
+    },
+    {
+      "dynasty": "秦",
+      "polity": "秦",
+      "from": -207,
+      "to": -207,
+      "name": "子婴",
+      "title": "秦王子婴",
+      "sources": [
+        "moe1"
+      ],
+      "note": "前207年赵高立子婴为秦王，在位约46日；不是新建独立年号的皇帝。本表保留以完整展示秦亡过程。",
+      "role": "ruler"
+    },
+    {
+      "dynasty": "西汉",
+      "polity": "西汉",
+      "from": -206,
+      "to": -195,
+      "name": "刘邦",
+      "title": "西汉高祖",
+      "sources": [
+        "moe1",
+        "jiangshan-lore"
+      ],
+      "eras": [
+        {
+          "from": -206,
+          "to": -195,
+          "name": "高帝",
+          "baseYear": 1
+        }
+      ],
+      "note": "前206—前203年为汉王，前202年称帝；高祖为后世庙号。",
+      "role": "ruler"
+    },
+    {
+      "dynasty": "西汉",
+      "polity": "西汉",
+      "from": -195,
+      "to": -188,
+      "name": "刘盈",
+      "title": "西汉惠帝",
+      "sources": [
+        "moe1",
+        "jiangshan-lore"
+      ],
+      "eras": [
+        {
+          "from": -194,
+          "to": -188,
+          "name": "惠帝",
+          "baseYear": 1
+        }
+      ],
+      "role": "ruler"
+    },
+    {
+      "dynasty": "西汉",
+      "polity": "西汉",
+      "from": -188,
+      "to": -184,
+      "name": "刘恭",
+      "title": "西汉少帝恭",
+      "sources": [
+        "moe1",
+        "jiangshan-lore"
+      ],
+      "eras": [
+        {
+          "from": -187,
+          "to": -184,
+          "name": "高后纪年",
+          "baseYear": 1
+        }
+      ],
+      "role": "ruler"
+    },
+    {
+      "dynasty": "西汉",
+      "polity": "西汉",
+      "from": -188,
+      "to": -180,
+      "name": "吕雉",
+      "title": "汉高后",
+      "sources": [
+        "moe1",
+        "jiangshan-lore"
+      ],
+      "note": "临朝称制，与少帝刘恭、刘弘名义帝位并存。原主纪年用高后，不能因此删去两位少帝。",
+      "eras": [
+        {
+          "from": -187,
+          "to": -180,
+          "name": "高后纪年",
+          "baseYear": 1
+        }
+      ],
+      "role": "powerholder"
+    },
+    {
+      "dynasty": "西汉",
+      "polity": "西汉",
+      "from": -184,
+      "to": -180,
+      "name": "刘弘",
+      "title": "西汉少帝弘",
+      "sources": [
+        "moe1",
+        "jiangshan-lore"
+      ],
+      "eras": [
+        {
+          "from": -184,
+          "to": -180,
+          "name": "高后纪年",
+          "baseYear": 4
+        }
+      ],
+      "role": "ruler"
+    },
+    {
+      "dynasty": "西汉",
+      "polity": "西汉",
+      "from": -180,
+      "to": -157,
+      "name": "刘恒",
+      "title": "西汉文帝",
+      "sources": [
+        "moe1",
+        "jiangshan-lore"
+      ],
+      "eras": [
+        {
+          "from": -179,
+          "to": -164,
+          "name": "文帝前元",
+          "baseYear": 1
+        },
+        {
+          "from": -163,
+          "to": -157,
+          "name": "文帝后元",
+          "baseYear": 1
+        }
+      ],
+      "role": "ruler"
+    },
+    {
+      "dynasty": "西汉",
+      "polity": "西汉",
+      "from": -157,
+      "to": -141,
+      "name": "刘启",
+      "title": "西汉景帝",
+      "sources": [
+        "moe1",
+        "jiangshan-lore"
+      ],
+      "eras": [
+        {
+          "from": -156,
+          "to": -150,
+          "name": "景帝前元",
+          "baseYear": 1
+        },
+        {
+          "from": -149,
+          "to": -144,
+          "name": "景帝中元",
+          "baseYear": 1
+        },
+        {
+          "from": -143,
+          "to": -141,
+          "name": "景帝后元",
+          "baseYear": 1
+        }
+      ],
+      "role": "ruler"
+    },
+    {
+      "dynasty": "西汉",
+      "polity": "西汉",
+      "from": -141,
+      "to": -87,
+      "name": "刘彻",
+      "title": "西汉武帝",
+      "sources": [
+        "moe1",
+        "jiangshan-lore"
+      ],
+      "eras": [
+        {
+          "from": -140,
+          "to": -135,
+          "name": "建元",
+          "baseYear": 1
+        },
+        {
+          "from": -134,
+          "to": -129,
+          "name": "元光",
+          "baseYear": 1
+        },
+        {
+          "from": -128,
+          "to": -123,
+          "name": "元朔",
+          "baseYear": 1
+        },
+        {
+          "from": -122,
+          "to": -117,
+          "name": "元狩",
+          "baseYear": 1
+        },
+        {
+          "from": -116,
+          "to": -111,
+          "name": "元鼎",
+          "baseYear": 1
+        },
+        {
+          "from": -110,
+          "to": -105,
+          "name": "元封",
+          "baseYear": 1
+        },
+        {
+          "from": -104,
+          "to": -101,
+          "name": "太初",
+          "baseYear": 1
+        },
+        {
+          "from": -100,
+          "to": -97,
+          "name": "天汉",
+          "baseYear": 1
+        },
+        {
+          "from": -96,
+          "to": -93,
+          "name": "太始",
+          "baseYear": 1
+        },
+        {
+          "from": -92,
+          "to": -89,
+          "name": "征和",
+          "baseYear": 1
+        },
+        {
+          "from": -88,
+          "to": -87,
+          "name": "后元",
+          "baseYear": 1
+        }
+      ],
+      "role": "ruler"
+    },
+    {
+      "dynasty": "西汉",
+      "polity": "西汉",
+      "from": -87,
+      "to": -74,
+      "name": "刘弗陵",
+      "title": "西汉昭帝",
+      "sources": [
+        "moe1",
+        "jiangshan-lore"
+      ],
+      "eras": [
+        {
+          "from": -86,
+          "to": -81,
+          "name": "始元",
+          "baseYear": 1
+        },
+        {
+          "from": -80,
+          "to": -75,
+          "name": "元凤",
+          "baseYear": 1
+        },
+        {
+          "from": -74,
+          "to": -74,
+          "name": "元平",
+          "baseYear": 1
+        }
+      ],
+      "role": "ruler"
+    },
+    {
+      "dynasty": "西汉",
+      "polity": "西汉",
+      "from": -74,
+      "to": -74,
+      "name": "刘贺",
+      "title": "汉废帝（海昏侯）",
+      "sources": [
+        "moe1",
+        "jiangshan-lore",
+        "haifeng-xinhua"
+      ],
+      "note": "昭帝卒后、宣帝即位前短暂在位二十七天，被霍光废黜，无独立年号，沿用元平；教育部主表未列，此处补入。",
+      "eras": [
+        {
+          "from": -74,
+          "to": -74,
+          "name": "元平",
+          "baseYear": 1
+        }
+      ],
+      "role": "ruler"
+    },
+    {
+      "dynasty": "西汉",
+      "polity": "西汉",
+      "from": -74,
+      "to": -49,
+      "name": "刘询",
+      "title": "西汉宣帝",
+      "sources": [
+        "moe1",
+        "jiangshan-lore"
+      ],
+      "eras": [
+        {
+          "from": -73,
+          "to": -70,
+          "name": "本始",
+          "baseYear": 1
+        },
+        {
+          "from": -69,
+          "to": -66,
+          "name": "地节",
+          "baseYear": 1
+        },
+        {
+          "from": -65,
+          "to": -62,
+          "name": "元康",
+          "baseYear": 1
+        },
+        {
+          "from": -61,
+          "to": -58,
+          "name": "神爵",
+          "baseYear": 1
+        },
+        {
+          "from": -57,
+          "to": -54,
+          "name": "五凤",
+          "baseYear": 1
+        },
+        {
+          "from": -53,
+          "to": -50,
+          "name": "甘露",
+          "baseYear": 1
+        },
+        {
+          "from": -49,
+          "to": -49,
+          "name": "黄龙",
+          "baseYear": 1
+        }
+      ],
+      "role": "ruler"
+    },
+    {
+      "dynasty": "西汉",
+      "polity": "西汉",
+      "from": -49,
+      "to": -33,
+      "name": "刘奭",
+      "title": "西汉元帝",
+      "sources": [
+        "moe1",
+        "jiangshan-lore"
+      ],
+      "eras": [
+        {
+          "from": -48,
+          "to": -44,
+          "name": "初元",
+          "baseYear": 1
+        },
+        {
+          "from": -43,
+          "to": -39,
+          "name": "永光",
+          "baseYear": 1
+        },
+        {
+          "from": -38,
+          "to": -34,
+          "name": "建昭",
+          "baseYear": 1
+        },
+        {
+          "from": -33,
+          "to": -33,
+          "name": "竟宁",
+          "baseYear": 1
+        }
+      ],
+      "role": "ruler"
+    },
+    {
+      "dynasty": "西汉",
+      "polity": "西汉",
+      "from": -33,
+      "to": -7,
+      "name": "刘骜",
+      "title": "西汉成帝",
+      "sources": [
+        "moe1",
+        "jiangshan-lore"
+      ],
+      "eras": [
+        {
+          "from": -32,
+          "to": -29,
+          "name": "建始",
+          "baseYear": 1
+        },
+        {
+          "from": -28,
+          "to": -25,
+          "name": "河平",
+          "baseYear": 1
+        },
+        {
+          "from": -24,
+          "to": -21,
+          "name": "阳朔",
+          "baseYear": 1
+        },
+        {
+          "from": -20,
+          "to": -17,
+          "name": "鸿嘉",
+          "baseYear": 1
+        },
+        {
+          "from": -16,
+          "to": -13,
+          "name": "永始",
+          "baseYear": 1
+        },
+        {
+          "from": -12,
+          "to": -9,
+          "name": "元延",
+          "baseYear": 1
+        },
+        {
+          "from": -8,
+          "to": -7,
+          "name": "绥和",
+          "baseYear": 1
+        }
+      ],
+      "role": "ruler"
+    },
+    {
+      "dynasty": "西汉",
+      "polity": "西汉",
+      "from": -7,
+      "to": -1,
+      "name": "刘欣",
+      "title": "西汉哀帝",
+      "sources": [
+        "moe1",
+        "jiangshan-lore"
+      ],
+      "eras": [
+        {
+          "from": -6,
+          "to": -3,
+          "name": "建平",
+          "baseYear": 1
+        },
+        {
+          "from": -2,
+          "to": -1,
+          "name": "元寿",
+          "baseYear": 1
+        }
+      ],
+      "role": "ruler"
+    },
+    {
+      "dynasty": "西汉",
+      "polity": "西汉",
+      "from": -1,
+      "to": 5,
+      "name": "刘衎",
+      "title": "西汉平帝",
+      "sources": [
+        "moe1",
+        "jiangshan-lore"
+      ],
+      "eras": [
+        {
+          "from": 1,
+          "to": 5,
+          "name": "元始",
+          "baseYear": 1
+        }
+      ],
+      "role": "ruler"
+    },
+    {
+      "dynasty": "西汉",
+      "polity": "西汉",
+      "from": 6,
+      "to": 8,
+      "name": "刘婴",
+      "title": "西汉孺子婴",
+      "sources": [
+        "moe1",
+        "jiangshan-lore"
+      ],
+      "note": "孺子婴为皇太子，未正式即皇帝位；实际掌权为摄皇帝王莽，不能把他视作实际统治者。",
+      "eras": [
+        {
+          "from": 6,
+          "to": 7,
+          "name": "居摄",
+          "baseYear": 1
+        },
+        {
+          "from": 8,
+          "to": 8,
+          "name": "初始",
+          "baseYear": 1
+        }
+      ],
+      "role": "ruler"
+    },
+    {
+      "dynasty": "新朝",
+      "polity": "新",
+      "from": 9,
+      "to": 23,
+      "name": "王莽",
+      "title": "新王莽",
+      "sources": [
+        "moe1",
+        "jiangshan-lore"
+      ],
+      "eras": [
+        {
+          "from": 9,
+          "to": 13,
+          "name": "始建国",
+          "baseYear": 1
+        },
+        {
+          "from": 14,
+          "to": 19,
+          "name": "天凤",
+          "baseYear": 1
+        },
+        {
+          "from": 20,
+          "to": 23,
+          "name": "地皇",
+          "baseYear": 1
+        }
+      ],
+      "role": "ruler"
+    },
+    {
+      "dynasty": "更始与群雄",
+      "polity": "更始汉",
+      "from": 23,
+      "to": 25,
+      "name": "刘玄",
+      "title": "更始帝",
+      "sources": [
+        "moe1",
+        "jiangshan-lore"
+      ],
+      "note": "更始政权，与25年光武帝所建东汉存在同年重叠。",
+      "eras": [
+        {
+          "from": 23,
+          "to": 25,
+          "name": "更始",
+          "baseYear": 1
+        }
+      ],
+      "role": "ruler"
+    },
+    {
+      "dynasty": "东汉",
+      "polity": "东汉",
+      "from": 25,
+      "to": 57,
+      "name": "刘秀",
+      "title": "东汉光武帝",
+      "sources": [
+        "moe1",
+        "jiangshan-lore"
+      ],
+      "eras": [
+        {
+          "from": 25,
+          "to": 55,
+          "name": "建武",
+          "baseYear": 1
+        },
+        {
+          "from": 56,
+          "to": 57,
+          "name": "建武中元",
+          "baseYear": 1
+        }
+      ],
+      "role": "ruler"
+    },
+    {
+      "dynasty": "东汉",
+      "polity": "东汉",
+      "from": 57,
+      "to": 75,
+      "name": "刘庄",
+      "title": "东汉明帝",
+      "sources": [
+        "moe1",
+        "jiangshan-lore"
+      ],
+      "eras": [
+        {
+          "from": 58,
+          "to": 75,
+          "name": "永平",
+          "baseYear": 1
+        }
+      ],
+      "role": "ruler"
+    },
+    {
+      "dynasty": "东汉",
+      "polity": "东汉",
+      "from": 75,
+      "to": 88,
+      "name": "刘炟",
+      "title": "东汉章帝",
+      "sources": [
+        "moe1",
+        "jiangshan-lore"
+      ],
+      "eras": [
+        {
+          "from": 76,
+          "to": 83,
+          "name": "建初",
+          "baseYear": 1
+        },
+        {
+          "from": 84,
+          "to": 86,
+          "name": "元和",
+          "baseYear": 1
+        },
+        {
+          "from": 87,
+          "to": 88,
+          "name": "章和",
+          "baseYear": 1
+        }
+      ],
+      "role": "ruler"
+    },
+    {
+      "dynasty": "东汉",
+      "polity": "东汉",
+      "from": 88,
+      "to": 105,
+      "name": "刘肇",
+      "title": "东汉和帝",
+      "sources": [
+        "moe1",
+        "jiangshan-lore"
+      ],
+      "eras": [
+        {
+          "from": 89,
+          "to": 104,
+          "name": "永元",
+          "baseYear": 1
+        },
+        {
+          "from": 105,
+          "to": 105,
+          "name": "元兴",
+          "baseYear": 1
+        }
+      ],
+      "role": "ruler"
+    },
+    {
+      "dynasty": "东汉",
+      "polity": "东汉",
+      "from": 105,
+      "to": 106,
+      "name": "刘隆",
+      "title": "东汉殇帝",
+      "sources": [
+        "moe1",
+        "jiangshan-lore"
+      ],
+      "eras": [
+        {
+          "from": 106,
+          "to": 106,
+          "name": "延平",
+          "baseYear": 1
+        }
+      ],
+      "role": "ruler"
+    },
+    {
+      "dynasty": "东汉",
+      "polity": "东汉",
+      "from": 106,
+      "to": 125,
+      "name": "刘祜",
+      "title": "东汉安帝",
+      "sources": [
+        "moe1",
+        "jiangshan-lore"
+      ],
+      "eras": [
+        {
+          "from": 107,
+          "to": 113,
+          "name": "永初",
+          "baseYear": 1
+        },
+        {
+          "from": 114,
+          "to": 119,
+          "name": "元初",
+          "baseYear": 1
+        },
+        {
+          "from": 120,
+          "to": 120,
+          "name": "永宁",
+          "baseYear": 1
+        },
+        {
+          "from": 121,
+          "to": 121,
+          "name": "建光",
+          "baseYear": 1
+        },
+        {
+          "from": 122,
+          "to": 125,
+          "name": "延光",
+          "baseYear": 1
+        }
+      ],
+      "role": "ruler"
+    },
+    {
+      "dynasty": "东汉",
+      "polity": "东汉",
+      "from": 125,
+      "to": 125,
+      "name": "刘懿",
+      "title": "东汉北乡侯",
+      "sources": [
+        "moe1"
+      ],
+      "eras": [
+        {
+          "from": 125,
+          "to": 125,
+          "name": "延光（沿用）",
+          "baseYear": 1
+        }
+      ],
+      "role": "ruler"
+    },
+    {
+      "dynasty": "东汉",
+      "polity": "东汉",
+      "from": 125,
+      "to": 144,
+      "name": "刘保",
+      "title": "东汉顺帝",
+      "sources": [
+        "moe1",
+        "jiangshan-lore"
+      ],
+      "eras": [
+        {
+          "from": 126,
+          "to": 131,
+          "name": "永建",
+          "baseYear": 1
+        },
+        {
+          "from": 132,
+          "to": 135,
+          "name": "阳嘉",
+          "baseYear": 1
+        },
+        {
+          "from": 136,
+          "to": 141,
+          "name": "永和",
+          "baseYear": 1
+        },
+        {
+          "from": 142,
+          "to": 143,
+          "name": "汉安",
+          "baseYear": 1
+        },
+        {
+          "from": 144,
+          "to": 144,
+          "name": "建康",
+          "baseYear": 1
+        }
+      ],
+      "role": "ruler"
+    },
+    {
+      "dynasty": "东汉",
+      "polity": "东汉",
+      "from": 144,
+      "to": 145,
+      "name": "刘炳",
+      "title": "东汉冲帝",
+      "sources": [
+        "moe1",
+        "jiangshan-lore"
+      ],
+      "eras": [
+        {
+          "from": 145,
+          "to": 145,
+          "name": "永憙",
+          "baseYear": 1
+        }
+      ],
+      "role": "ruler"
+    },
+    {
+      "dynasty": "东汉",
+      "polity": "东汉",
+      "from": 145,
+      "to": 146,
+      "name": "刘缵",
+      "title": "东汉质帝",
+      "sources": [
+        "moe1",
+        "jiangshan-lore"
+      ],
+      "eras": [
+        {
+          "from": 146,
+          "to": 146,
+          "name": "本初",
+          "baseYear": 1
+        }
+      ],
+      "role": "ruler"
+    },
+    {
+      "dynasty": "东汉",
+      "polity": "东汉",
+      "from": 146,
+      "to": 167,
+      "name": "刘志",
+      "title": "东汉桓帝",
+      "sources": [
+        "moe1",
+        "jiangshan-lore"
+      ],
+      "eras": [
+        {
+          "from": 147,
+          "to": 149,
+          "name": "建和",
+          "baseYear": 1
+        },
+        {
+          "from": 150,
+          "to": 150,
+          "name": "和平",
+          "baseYear": 1
+        },
+        {
+          "from": 151,
+          "to": 152,
+          "name": "元嘉",
+          "baseYear": 1
+        },
+        {
+          "from": 153,
+          "to": 154,
+          "name": "永兴",
+          "baseYear": 1
+        },
+        {
+          "from": 155,
+          "to": 157,
+          "name": "永寿",
+          "baseYear": 1
+        },
+        {
+          "from": 158,
+          "to": 166,
+          "name": "延熹",
+          "baseYear": 1
+        },
+        {
+          "from": 167,
+          "to": 167,
+          "name": "永康",
+          "baseYear": 1
+        }
+      ],
+      "role": "ruler"
+    },
+    {
+      "dynasty": "东汉",
+      "polity": "东汉",
+      "from": 167,
+      "to": 189,
+      "name": "刘宏",
+      "title": "东汉灵帝",
+      "sources": [
+        "moe1",
+        "jiangshan-lore"
+      ],
+      "eras": [
+        {
+          "from": 168,
+          "to": 171,
+          "name": "建宁",
+          "baseYear": 1
+        },
+        {
+          "from": 172,
+          "to": 177,
+          "name": "熹平",
+          "baseYear": 1
+        },
+        {
+          "from": 178,
+          "to": 183,
+          "name": "光和",
+          "baseYear": 1
+        },
+        {
+          "from": 184,
+          "to": 189,
+          "name": "中平",
+          "baseYear": 1
+        }
+      ],
+      "role": "ruler"
+    },
+    {
+      "dynasty": "东汉",
+      "polity": "东汉",
+      "from": 189,
+      "to": 189,
+      "name": "刘辩",
+      "title": "东汉弘农王",
+      "sources": [
+        "moe1"
+      ],
+      "eras": [
+        {
+          "from": 189,
+          "to": 189,
+          "name": "中平（沿用）",
+          "baseYear": 1
+        },
+        {
+          "from": 189,
+          "to": 189,
+          "name": "光熹",
+          "baseYear": 1
+        },
+        {
+          "from": 189,
+          "to": 189,
+          "name": "昭宁",
+          "baseYear": 1
+        }
+      ],
+      "role": "ruler"
+    },
+    {
+      "dynasty": "东汉",
+      "polity": "东汉",
+      "from": 189,
+      "to": 220,
+      "name": "刘协",
+      "title": "东汉献帝",
+      "sources": [
+        "moe1",
+        "jiangshan-lore"
+      ],
+      "eras": [
+        {
+          "from": 190,
+          "to": 193,
+          "name": "初平",
+          "baseYear": 1
+        },
+        {
+          "from": 194,
+          "to": 195,
+          "name": "兴平",
+          "baseYear": 1
+        },
+        {
+          "from": 196,
+          "to": 220,
+          "name": "建安",
+          "baseYear": 1
+        }
+      ],
+      "role": "ruler"
+    },
+    {
+      "dynasty": "三国",
+      "polity": "魏",
+      "from": 220,
+      "to": 226,
+      "name": "曹丕",
+      "title": "魏文帝",
+      "eras": [
+        {
+          "from": 220,
+          "to": 226,
+          "name": "黄初",
+          "baseYear": 1
+        }
+      ],
+      "sources": [
+        "moe1",
+        "jiangshan-lore"
+      ],
+      "note": "名义在位年度，首尾均包含；同年皇位更替可以重叠。",
+      "role": "ruler"
+    },
+    {
+      "dynasty": "三国",
+      "polity": "蜀汉",
+      "from": 221,
+      "to": 223,
+      "name": "刘备",
+      "title": "蜀汉昭烈帝",
+      "eras": [
+        {
+          "from": 221,
+          "to": 223,
+          "name": "章武",
+          "baseYear": 1
+        }
+      ],
+      "sources": [
+        "moe1",
+        "jiangshan-lore"
+      ],
+      "note": "名义在位年度，首尾均包含；同年皇位更替可以重叠。",
+      "role": "ruler"
+    },
+    {
+      "dynasty": "三国",
+      "polity": "吴",
+      "from": 222,
+      "to": 252,
+      "name": "孙权",
+      "title": "吴大帝",
+      "eras": [
+        {
+          "from": 222,
+          "to": 228,
+          "name": "黄武",
+          "baseYear": 1
+        },
+        {
+          "from": 229,
+          "to": 231,
+          "name": "黄龙",
+          "baseYear": 1
+        },
+        {
+          "from": 232,
+          "to": 237,
+          "name": "嘉禾",
+          "baseYear": 1
+        },
+        {
+          "from": 238,
+          "to": 250,
+          "name": "赤乌",
+          "baseYear": 1
+        },
+        {
+          "from": 251,
+          "to": 251,
+          "name": "太元",
+          "baseYear": 1
+        },
+        {
+          "from": 252,
+          "to": 252,
+          "name": "神凤",
+          "baseYear": 1
+        }
+      ],
+      "sources": [
+        "moe1",
+        "jiangshan-lore"
+      ],
+      "note": "222年称吴王并建黄武，229年称帝；二者不可混为同一年。",
+      "role": "ruler"
+    },
+    {
+      "dynasty": "三国",
+      "polity": "蜀汉",
+      "from": 223,
+      "to": 263,
+      "name": "刘禅",
+      "title": "蜀汉后主",
+      "eras": [
+        {
+          "from": 223,
+          "to": 237,
+          "name": "建兴",
+          "baseYear": 1
+        },
+        {
+          "from": 238,
+          "to": 257,
+          "name": "延熙",
+          "baseYear": 1
+        },
+        {
+          "from": 258,
+          "to": 262,
+          "name": "景耀",
+          "baseYear": 1
+        },
+        {
+          "from": 263,
+          "to": 263,
+          "name": "炎兴",
+          "baseYear": 1
+        }
+      ],
+      "sources": [
+        "moe1",
+        "jiangshan-lore"
+      ],
+      "note": "名义在位年度，首尾均包含；同年皇位更替可以重叠。",
+      "role": "ruler"
+    },
+    {
+      "dynasty": "三国",
+      "polity": "魏",
+      "from": 226,
+      "to": 239,
+      "name": "曹叡",
+      "title": "魏明帝",
+      "eras": [
+        {
+          "from": 227,
+          "to": 232,
+          "name": "太和",
+          "baseYear": 1
+        },
+        {
+          "from": 233,
+          "to": 236,
+          "name": "青龙",
+          "baseYear": 1
+        },
+        {
+          "from": 237,
+          "to": 239,
+          "name": "景初",
+          "baseYear": 1
+        }
+      ],
+      "sources": [
+        "moe1",
+        "jiangshan-lore"
+      ],
+      "note": "名义在位年度，首尾均包含；同年皇位更替可以重叠。",
+      "role": "ruler"
+    },
+    {
+      "dynasty": "三国",
+      "polity": "魏",
+      "from": 239,
+      "to": 254,
+      "name": "曹芳",
+      "title": "魏齐王",
+      "eras": [
+        {
+          "from": 240,
+          "to": 248,
+          "name": "正始",
+          "baseYear": 1
+        },
+        {
+          "from": 249,
+          "to": 254,
+          "name": "嘉平",
+          "baseYear": 1
+        }
+      ],
+      "sources": [
+        "moe1",
+        "jiangshan-lore"
+      ],
+      "note": "名义在位年度，首尾均包含；同年皇位更替可以重叠。",
+      "role": "ruler"
+    },
+    {
+      "dynasty": "三国",
+      "polity": "吴",
+      "from": 252,
+      "to": 258,
+      "name": "孙亮",
+      "title": "吴会稽王",
+      "eras": [
+        {
+          "from": 252,
+          "to": 253,
+          "name": "建兴",
+          "baseYear": 1
+        },
+        {
+          "from": 254,
+          "to": 255,
+          "name": "五凤",
+          "baseYear": 1
+        },
+        {
+          "from": 256,
+          "to": 258,
+          "name": "太平",
+          "baseYear": 1
+        }
+      ],
+      "sources": [
+        "moe1",
+        "jiangshan-lore"
+      ],
+      "note": "名义在位年度，首尾均包含；同年皇位更替可以重叠。",
+      "role": "ruler"
+    },
+    {
+      "dynasty": "三国",
+      "polity": "魏",
+      "from": 254,
+      "to": 260,
+      "name": "曹髦",
+      "title": "魏高贵乡公",
+      "eras": [
+        {
+          "from": 254,
+          "to": 255,
+          "name": "正元",
+          "baseYear": 1
+        },
+        {
+          "from": 256,
+          "to": 260,
+          "name": "甘露",
+          "baseYear": 1
+        }
+      ],
+      "sources": [
+        "moe1",
+        "jiangshan-lore"
+      ],
+      "note": "名义在位年度，首尾均包含；同年皇位更替可以重叠。",
+      "role": "ruler"
+    },
+    {
+      "dynasty": "三国",
+      "polity": "吴",
+      "from": 258,
+      "to": 264,
+      "name": "孙休",
+      "title": "吴景帝",
+      "eras": [
+        {
+          "from": 258,
+          "to": 264,
+          "name": "永安",
+          "baseYear": 1
+        }
+      ],
+      "sources": [
+        "moe1",
+        "jiangshan-lore"
+      ],
+      "note": "名义在位年度，首尾均包含；同年皇位更替可以重叠。",
+      "role": "ruler"
+    },
+    {
+      "dynasty": "三国",
+      "polity": "魏",
+      "from": 260,
+      "to": 265,
+      "name": "曹奂",
+      "title": "魏元帝",
+      "eras": [
+        {
+          "from": 260,
+          "to": 263,
+          "name": "景元",
+          "baseYear": 1
+        },
+        {
+          "from": 264,
+          "to": 265,
+          "name": "咸熙",
+          "baseYear": 1
+        }
+      ],
+      "sources": [
+        "moe1",
+        "jiangshan-lore"
+      ],
+      "note": "名义在位年度，首尾均包含；同年皇位更替可以重叠。",
+      "role": "ruler"
+    },
+    {
+      "dynasty": "三国",
+      "polity": "吴",
+      "from": 264,
+      "to": 280,
+      "name": "孙皓",
+      "title": "吴末帝",
+      "eras": [
+        {
+          "from": 264,
+          "to": 264,
+          "name": "元兴",
+          "baseYear": 1
+        },
+        {
+          "from": 265,
+          "to": 265,
+          "name": "甘露",
+          "baseYear": 1
+        },
+        {
+          "from": 266,
+          "to": 268,
+          "name": "宝鼎",
+          "baseYear": 1
+        },
+        {
+          "from": 269,
+          "to": 271,
+          "name": "建衡",
+          "baseYear": 1
+        },
+        {
+          "from": 272,
+          "to": 274,
+          "name": "凤凰",
+          "baseYear": 1
+        },
+        {
+          "from": 275,
+          "to": 275,
+          "name": "天册",
+          "baseYear": 1
+        },
+        {
+          "from": 276,
+          "to": 276,
+          "name": "天玺",
+          "baseYear": 1
+        },
+        {
+          "from": 277,
+          "to": 280,
+          "name": "天纪",
+          "baseYear": 1
+        }
+      ],
+      "sources": [
+        "moe1",
+        "jiangshan-lore"
+      ],
+      "note": "名义在位年度，首尾均包含；同年皇位更替可以重叠。",
+      "role": "ruler"
+    },
+    {
+      "dynasty": "西晋",
+      "polity": "西晋",
+      "from": 265,
+      "to": 290,
+      "name": "司马炎",
+      "title": "西晋武帝",
+      "sources": [
+        "moe1",
+        "jiangshan-lore"
+      ],
+      "eras": [
+        {
+          "from": 265,
+          "to": 274,
+          "name": "泰始",
+          "baseYear": 1
+        },
+        {
+          "from": 275,
+          "to": 279,
+          "name": "咸宁",
+          "baseYear": 1
+        },
+        {
+          "from": 280,
+          "to": 290,
+          "name": "太康",
+          "baseYear": 1
+        }
+      ],
+      "role": "ruler"
+    },
+    {
+      "dynasty": "西晋",
+      "polity": "西晋",
+      "from": 290,
+      "to": 306,
+      "name": "司马衷",
+      "title": "西晋惠帝",
+      "sources": [
+        "moe1",
+        "jiangshan-lore"
+      ],
+      "eras": [
+        {
+          "from": 290,
+          "to": 290,
+          "name": "永熙",
+          "baseYear": 1
+        },
+        {
+          "from": 291,
+          "to": 299,
+          "name": "元康",
+          "baseYear": 1
+        },
+        {
+          "from": 300,
+          "to": 300,
+          "name": "永康",
+          "baseYear": 1
+        },
+        {
+          "from": 301,
+          "to": 301,
+          "name": "永宁",
+          "baseYear": 1
+        },
+        {
+          "from": 302,
+          "to": 303,
+          "name": "太安",
+          "baseYear": 1
+        },
+        {
+          "from": 304,
+          "to": 305,
+          "name": "永兴",
+          "baseYear": 1
+        },
+        {
+          "from": 306,
+          "to": 306,
+          "name": "光熙",
+          "baseYear": 1
+        }
+      ],
+      "note": "301年赵王司马伦曾短暂篡位，本条没有表示司马衷始终连续执政；篡位时段待另核。",
+      "role": "ruler"
+    },
+    {
+      "dynasty": "西晋",
+      "polity": "西晋",
+      "from": 306,
+      "to": 313,
+      "name": "司马炽",
+      "title": "西晋怀帝",
+      "sources": [
+        "moe1",
+        "jiangshan-lore",
+        "ctext-huai"
+      ],
+      "note": "311年被俘，至313年被杀；311—313为名义君主，已不实际控制洛阳朝廷。教育部退位末年按311，本表保留名义在位并明示。",
+      "eras": [
+        {
+          "from": 307,
+          "to": 313,
+          "name": "永嘉",
+          "baseYear": 1
+        }
+      ],
+      "role": "ruler"
+    },
+    {
+      "dynasty": "西晋",
+      "polity": "西晋",
+      "from": 313,
+      "to": 316,
+      "name": "司马邺",
+      "title": "西晋愍帝",
+      "sources": [
+        "moe1",
+        "jiangshan-lore"
+      ],
+      "eras": [
+        {
+          "from": 313,
+          "to": 316,
+          "name": "建兴",
+          "baseYear": 1
+        }
+      ],
+      "role": "ruler"
+    },
+    {
+      "dynasty": "东晋",
+      "polity": "东晋",
+      "from": 317,
+      "to": 322,
+      "name": "司马睿",
+      "title": "东晋元帝",
+      "sources": [
+        "moe1",
+        "jiangshan-lore"
+      ],
+      "eras": [
+        {
+          "from": 317,
+          "to": 317,
+          "name": "建武",
+          "baseYear": 1
+        },
+        {
+          "from": 318,
+          "to": 321,
+          "name": "太兴",
+          "baseYear": 1
+        },
+        {
+          "from": 322,
+          "to": 322,
+          "name": "永昌",
+          "baseYear": 1
+        }
+      ],
+      "role": "ruler"
+    },
+    {
+      "dynasty": "东晋",
+      "polity": "东晋",
+      "from": 322,
+      "to": 325,
+      "name": "司马绍",
+      "title": "东晋明帝",
+      "sources": [
+        "moe1",
+        "jiangshan-lore"
+      ],
+      "eras": [
+        {
+          "from": 323,
+          "to": 325,
+          "name": "太宁",
+          "baseYear": 1
+        }
+      ],
+      "role": "ruler"
+    },
+    {
+      "dynasty": "东晋",
+      "polity": "东晋",
+      "from": 325,
+      "to": 342,
+      "name": "司马衍",
+      "title": "东晋成帝",
+      "sources": [
+        "moe1",
+        "jiangshan-lore"
+      ],
+      "eras": [
+        {
+          "from": 326,
+          "to": 334,
+          "name": "咸和",
+          "baseYear": 1
+        },
+        {
+          "from": 335,
+          "to": 342,
+          "name": "咸康",
+          "baseYear": 1
+        }
+      ],
+      "role": "ruler"
+    },
+    {
+      "dynasty": "东晋",
+      "polity": "东晋",
+      "from": 342,
+      "to": 344,
+      "name": "司马岳",
+      "title": "东晋康帝",
+      "sources": [
+        "moe1",
+        "jiangshan-lore"
+      ],
+      "eras": [
+        {
+          "from": 343,
+          "to": 344,
+          "name": "建元",
+          "baseYear": 1
+        }
+      ],
+      "role": "ruler"
+    },
+    {
+      "dynasty": "东晋",
+      "polity": "东晋",
+      "from": 344,
+      "to": 361,
+      "name": "司马聃",
+      "title": "东晋穆帝",
+      "sources": [
+        "moe1",
+        "jiangshan-lore"
+      ],
+      "eras": [
+        {
+          "from": 345,
+          "to": 356,
+          "name": "永和",
+          "baseYear": 1
+        },
+        {
+          "from": 357,
+          "to": 361,
+          "name": "升平",
+          "baseYear": 1
+        }
+      ],
+      "role": "ruler"
+    },
+    {
+      "dynasty": "东晋",
+      "polity": "东晋",
+      "from": 361,
+      "to": 365,
+      "name": "司马丕",
+      "title": "东晋哀帝",
+      "sources": [
+        "moe1",
+        "jiangshan-lore"
+      ],
+      "eras": [
+        {
+          "from": 362,
+          "to": 362,
+          "name": "隆和",
+          "baseYear": 1
+        },
+        {
+          "from": 363,
+          "to": 365,
+          "name": "兴宁",
+          "baseYear": 1
+        }
+      ],
+      "role": "ruler"
+    },
+    {
+      "dynasty": "东晋",
+      "polity": "东晋",
+      "from": 365,
+      "to": 371,
+      "name": "司马奕",
+      "title": "东晋废帝",
+      "sources": [
+        "moe1",
+        "jiangshan-lore"
+      ],
+      "eras": [
+        {
+          "from": 366,
+          "to": 371,
+          "name": "太和",
+          "baseYear": 1
+        }
+      ],
+      "role": "ruler"
+    },
+    {
+      "dynasty": "东晋",
+      "polity": "东晋",
+      "from": 371,
+      "to": 372,
+      "name": "司马昱",
+      "title": "东晋简文帝",
+      "sources": [
+        "moe1",
+        "jiangshan-lore"
+      ],
+      "eras": [
+        {
+          "from": 371,
+          "to": 372,
+          "name": "咸安",
+          "baseYear": 1
+        }
+      ],
+      "role": "ruler"
+    },
+    {
+      "dynasty": "东晋",
+      "polity": "东晋",
+      "from": 372,
+      "to": 396,
+      "name": "司马曜",
+      "title": "东晋孝武帝",
+      "sources": [
+        "moe1",
+        "jiangshan-lore"
+      ],
+      "eras": [
+        {
+          "from": 373,
+          "to": 375,
+          "name": "宁康",
+          "baseYear": 1
+        },
+        {
+          "from": 376,
+          "to": 396,
+          "name": "太元",
+          "baseYear": 1
+        }
+      ],
+      "role": "ruler"
+    },
+    {
+      "dynasty": "东晋",
+      "polity": "东晋",
+      "from": 396,
+      "to": 418,
+      "name": "司马德宗",
+      "title": "东晋安帝",
+      "sources": [
+        "moe1",
+        "jiangshan-lore"
+      ],
+      "eras": [
+        {
+          "from": 397,
+          "to": 401,
+          "name": "隆安",
+          "baseYear": 1
+        },
+        {
+          "from": 402,
+          "to": 404,
+          "name": "元兴",
+          "baseYear": 1
+        },
+        {
+          "from": 405,
+          "to": 418,
+          "name": "义熙",
+          "baseYear": 1
+        }
+      ],
+      "role": "ruler"
+    },
+    {
+      "dynasty": "东晋",
+      "polity": "东晋",
+      "from": 418,
+      "to": 420,
+      "name": "司马德文",
+      "title": "东晋恭帝",
+      "sources": [
+        "moe1",
+        "jiangshan-lore"
+      ],
+      "eras": [
+        {
+          "from": 419,
+          "to": 420,
+          "name": "元熙",
+          "baseYear": 1
+        }
+      ],
+      "role": "ruler"
+    },
+    {
+      "dynasty": "隋",
+      "polity": "隋",
+      "from": 581,
+      "to": 604,
+      "name": "杨坚",
+      "title": "隋文帝",
+      "sources": [
+        "moe2",
+        "jiangshan-lore"
+      ],
+      "eras": [
+        {
+          "from": 581,
+          "to": 600,
+          "name": "开皇",
+          "baseYear": 1
+        },
+        {
+          "from": 601,
+          "to": 604,
+          "name": "仁寿",
+          "baseYear": 1
+        }
+      ],
+      "role": "ruler"
+    },
+    {
+      "dynasty": "隋",
+      "polity": "隋",
+      "from": 604,
+      "to": 618,
+      "name": "杨广",
+      "title": "隋炀帝",
+      "sources": [
+        "moe2",
+        "jiangshan-lore"
+      ],
+      "note": "617年长安另立杨侑，江都杨广仍在，618年被杀；不可按主索引义宁617起便结束其在位。",
+      "eras": [
+        {
+          "from": 605,
+          "to": 618,
+          "name": "大业",
+          "baseYear": 1
+        }
+      ],
+      "role": "ruler"
+    },
+    {
+      "dynasty": "隋",
+      "polity": "隋",
+      "from": 617,
+      "to": 618,
+      "name": "杨侑",
+      "title": "隋恭帝",
+      "sources": [
+        "moe2",
+        "jiangshan-lore"
+      ],
+      "eras": [
+        {
+          "from": 617,
+          "to": 618,
+          "name": "义宁",
+          "baseYear": 1
+        }
+      ],
+      "role": "ruler"
+    },
+    {
+      "dynasty": "隋",
+      "polity": "隋（洛阳）",
+      "from": 618,
+      "to": 619,
+      "name": "杨侗",
+      "title": "隋恭帝（皇泰主）",
+      "eras": [
+        {
+          "from": 618,
+          "to": 619,
+          "name": "皇泰",
+          "baseYear": 1
+        }
+      ],
+      "sources": [
+        "ctext-yangtong"
+      ],
+      "note": "隋炀帝死后洛阳朝廷拥立，与长安杨侑不同；实际权力主要在王世充。619禅位后被杀。",
+      "role": "regional"
+    },
+    {
+      "dynasty": "唐",
+      "polity": "唐",
+      "from": 618,
+      "to": 626,
+      "name": "李渊",
+      "title": "唐高祖",
+      "sources": [
+        "moe2",
+        "jiangshan-lore"
+      ],
+      "eras": [
+        {
+          "from": 618,
+          "to": 626,
+          "name": "武德",
+          "baseYear": 1
+        }
+      ],
+      "role": "ruler"
+    },
+    {
+      "dynasty": "唐",
+      "polity": "唐",
+      "from": 626,
+      "to": 649,
+      "name": "李世民",
+      "title": "唐太宗",
+      "sources": [
+        "moe2",
+        "jiangshan-lore"
+      ],
+      "eras": [
+        {
+          "from": 627,
+          "to": 649,
+          "name": "贞观",
+          "baseYear": 1
+        }
+      ],
+      "role": "ruler"
+    },
+    {
+      "dynasty": "唐",
+      "polity": "唐",
+      "from": 649,
+      "to": 683,
+      "name": "李治",
+      "title": "唐高宗",
+      "sources": [
+        "moe2",
+        "jiangshan-lore"
+      ],
+      "eras": [
+        {
+          "from": 650,
+          "to": 655,
+          "name": "永徽",
+          "baseYear": 1
+        },
+        {
+          "from": 656,
+          "to": 660,
+          "name": "显庆",
+          "baseYear": 1
+        },
+        {
+          "from": 661,
+          "to": 663,
+          "name": "龙朔",
+          "baseYear": 1
+        },
+        {
+          "from": 664,
+          "to": 665,
+          "name": "麟德",
+          "baseYear": 1
+        },
+        {
+          "from": 666,
+          "to": 667,
+          "name": "乾封",
+          "baseYear": 1
+        },
+        {
+          "from": 668,
+          "to": 669,
+          "name": "总章",
+          "baseYear": 1
+        },
+        {
+          "from": 670,
+          "to": 673,
+          "name": "咸亨",
+          "baseYear": 1
+        },
+        {
+          "from": 674,
+          "to": 675,
+          "name": "上元",
+          "baseYear": 1
+        },
+        {
+          "from": 676,
+          "to": 678,
+          "name": "仪凤",
+          "baseYear": 1
+        },
+        {
+          "from": 679,
+          "to": 679,
+          "name": "调露",
+          "baseYear": 1
+        },
+        {
+          "from": 680,
+          "to": 680,
+          "name": "永隆",
+          "baseYear": 1
+        },
+        {
+          "from": 681,
+          "to": 681,
+          "name": "开耀",
+          "baseYear": 1
+        },
+        {
+          "from": 682,
+          "to": 682,
+          "name": "永淳",
+          "baseYear": 1
+        },
+        {
+          "from": 683,
+          "to": 683,
+          "name": "弘道",
+          "baseYear": 1
+        }
+      ],
+      "role": "ruler"
+    },
+    {
+      "dynasty": "唐",
+      "polity": "唐",
+      "from": 684,
+      "to": 684,
+      "name": "李显",
+      "title": "唐中宗",
+      "sources": [
+        "moe2",
+        "jiangshan-lore"
+      ],
+      "note": "第一次即位，684年内即被废；705年另列复位。",
+      "eras": [
+        {
+          "from": 684,
+          "to": 684,
+          "name": "嗣圣",
+          "baseYear": 1
+        }
+      ],
+      "role": "ruler"
+    },
+    {
+      "dynasty": "唐",
+      "polity": "唐",
+      "from": 684,
+      "to": 690,
+      "name": "李旦",
+      "title": "唐睿宗",
+      "sources": [
+        "moe2",
+        "jiangshan-lore"
+      ],
+      "note": "684—690名义皇帝，武则天临朝称制；教育部表将武后自684列入，但不等于684已改唐为周。",
+      "eras": [
+        {
+          "from": 685,
+          "to": 688,
+          "name": "垂拱",
+          "baseYear": 1
+        },
+        {
+          "from": 689,
+          "to": 690,
+          "name": "永昌",
+          "baseYear": 1
+        }
+      ],
+      "role": "ruler"
+    },
+    {
+      "dynasty": "唐",
+      "polity": "唐",
+      "from": 684,
+      "to": 690,
+      "name": "武则天",
+      "title": "则天太后（临朝称制）",
+      "sources": [
+        "moe2",
+        "jiangshan-lore"
+      ],
+      "note": "实际掌权者，尚未改唐为周；与睿宗李旦名义在位并行。  684年初另有文明年号，本表未恢复到月，首条光宅不能代表684全年。",
+      "eras": [
+        {
+          "from": 684,
+          "to": 684,
+          "name": "光宅",
+          "baseYear": 1
+        },
+        {
+          "from": 685,
+          "to": 688,
+          "name": "垂拱",
+          "baseYear": 1
+        },
+        {
+          "from": 689,
+          "to": 689,
+          "name": "永昌",
+          "baseYear": 1
+        },
+        {
+          "from": 689,
+          "to": 690,
+          "name": "载初",
+          "baseYear": 1
+        }
+      ],
+      "role": "powerholder"
+    },
+    {
+      "dynasty": "武周",
+      "polity": "武周",
+      "from": 690,
+      "to": 705,
+      "name": "武则天",
+      "title": "则天皇帝",
+      "sources": [
+        "moe2",
+        "jiangshan-lore"
+      ],
+      "note": "690称帝改国号周；705退位复唐。原表武后684—705混合称制与称帝，此处分开。",
+      "eras": [
+        {
+          "from": 690,
+          "to": 692,
+          "name": "天授",
+          "baseYear": 1
+        },
+        {
+          "from": 692,
+          "to": 692,
+          "name": "如意",
+          "baseYear": 1
+        },
+        {
+          "from": 692,
+          "to": 694,
+          "name": "长寿",
+          "baseYear": 1
+        },
+        {
+          "from": 694,
+          "to": 694,
+          "name": "延载",
+          "baseYear": 1
+        },
+        {
+          "from": 695,
+          "to": 695,
+          "name": "证圣",
+          "baseYear": 1
+        },
+        {
+          "from": 695,
+          "to": 696,
+          "name": "天册万岁",
+          "baseYear": 1
+        },
+        {
+          "from": 696,
+          "to": 696,
+          "name": "万岁登封",
+          "baseYear": 1
+        },
+        {
+          "from": 696,
+          "to": 697,
+          "name": "万岁通天",
+          "baseYear": 1
+        },
+        {
+          "from": 697,
+          "to": 697,
+          "name": "神功",
+          "baseYear": 1
+        },
+        {
+          "from": 698,
+          "to": 700,
+          "name": "圣历",
+          "baseYear": 1
+        },
+        {
+          "from": 700,
+          "to": 701,
+          "name": "久视",
+          "baseYear": 1
+        },
+        {
+          "from": 701,
+          "to": 701,
+          "name": "大足",
+          "baseYear": 1
+        },
+        {
+          "from": 701,
+          "to": 705,
+          "name": "长安",
+          "baseYear": 1
+        },
+        {
+          "from": 705,
+          "to": 705,
+          "name": "神龙",
+          "baseYear": 1
+        }
+      ],
+      "role": "ruler"
+    },
+    {
+      "dynasty": "唐",
+      "polity": "唐",
+      "from": 705,
+      "to": 710,
+      "name": "李显",
+      "title": "唐中宗",
+      "sources": [
+        "moe2",
+        "jiangshan-lore"
+      ],
+      "note": "第二次即位，705神龙复唐；710年后由李重茂短暂继位。",
+      "eras": [
+        {
+          "from": 705,
+          "to": 706,
+          "name": "神龙",
+          "baseYear": 1
+        },
+        {
+          "from": 707,
+          "to": 710,
+          "name": "景龙",
+          "baseYear": 1
+        }
+      ],
+      "role": "ruler"
+    },
+    {
+      "dynasty": "唐",
+      "polity": "唐",
+      "from": 710,
+      "to": 710,
+      "name": "李重茂",
+      "title": "唐殇帝",
+      "sources": [
+        "ctext-shang",
+        "jiangshan-lore"
+      ],
+      "note": "中宗卒后短暂即位，后让位李旦；补主纪年遗漏。",
+      "eras": [
+        {
+          "from": 710,
+          "to": 710,
+          "name": "唐隆",
+          "baseYear": 1
+        }
+      ],
+      "role": "ruler"
+    },
+    {
+      "dynasty": "唐",
+      "polity": "唐",
+      "from": 710,
+      "to": 712,
+      "name": "李旦",
+      "title": "唐睿宗",
+      "sources": [
+        "moe2",
+        "jiangshan-lore"
+      ],
+      "note": "第二次即位；712退位后为太上皇，实际权力到713年仍有延续，不能以皇位表穷尽。",
+      "eras": [
+        {
+          "from": 710,
+          "to": 711,
+          "name": "景云",
+          "baseYear": 1
+        },
+        {
+          "from": 712,
+          "to": 712,
+          "name": "太极",
+          "baseYear": 1
+        }
+      ],
+      "role": "ruler"
+    },
+    {
+      "dynasty": "唐",
+      "polity": "唐",
+      "from": 712,
+      "to": 756,
+      "name": "李隆基",
+      "title": "唐玄宗",
+      "sources": [
+        "moe2",
+        "jiangshan-lore"
+      ],
+      "eras": [
+        {
+          "from": 713,
+          "to": 741,
+          "name": "开元",
+          "baseYear": 1
+        },
+        {
+          "from": 742,
+          "to": 756,
+          "name": "天宝",
+          "baseYear": 1
+        }
+      ],
+      "role": "ruler"
+    },
+    {
+      "dynasty": "唐",
+      "polity": "唐",
+      "from": 756,
+      "to": 762,
+      "name": "李亨",
+      "title": "唐肃宗",
+      "sources": [
+        "moe2",
+        "jiangshan-lore"
+      ],
+      "eras": [
+        {
+          "from": 756,
+          "to": 757,
+          "name": "至德",
+          "baseYear": 1
+        },
+        {
+          "from": 758,
+          "to": 759,
+          "name": "乾元",
+          "baseYear": 1
+        },
+        {
+          "from": 760,
+          "to": 761,
+          "name": "上元",
+          "baseYear": 1
+        },
+        {
+          "from": 762,
+          "to": 762,
+          "name": "宝应",
+          "baseYear": 1
+        }
+      ],
+      "role": "ruler"
+    },
+    {
+      "dynasty": "唐",
+      "polity": "唐",
+      "from": 762,
+      "to": 779,
+      "name": "李豫",
+      "title": "唐代宗",
+      "sources": [
+        "moe2",
+        "jiangshan-lore"
+      ],
+      "eras": [
+        {
+          "from": 763,
+          "to": 764,
+          "name": "广德",
+          "baseYear": 1
+        },
+        {
+          "from": 765,
+          "to": 765,
+          "name": "永泰",
+          "baseYear": 1
+        },
+        {
+          "from": 766,
+          "to": 779,
+          "name": "大历",
+          "baseYear": 1
+        }
+      ],
+      "role": "ruler"
+    },
+    {
+      "dynasty": "唐",
+      "polity": "唐",
+      "from": 779,
+      "to": 805,
+      "name": "李适",
+      "title": "唐德宗",
+      "sources": [
+        "moe2",
+        "jiangshan-lore"
+      ],
+      "eras": [
+        {
+          "from": 780,
+          "to": 783,
+          "name": "建中",
+          "baseYear": 1
+        },
+        {
+          "from": 784,
+          "to": 784,
+          "name": "兴元",
+          "baseYear": 1
+        },
+        {
+          "from": 785,
+          "to": 805,
+          "name": "贞元",
+          "baseYear": 1
+        }
+      ],
+      "role": "ruler"
+    },
+    {
+      "dynasty": "唐",
+      "polity": "唐",
+      "from": 805,
+      "to": 805,
+      "name": "李诵",
+      "title": "唐顺宗",
+      "sources": [
+        "moe2",
+        "jiangshan-lore"
+      ],
+      "eras": [
+        {
+          "from": 805,
+          "to": 805,
+          "name": "永贞",
+          "baseYear": 1
+        }
+      ],
+      "role": "ruler"
+    },
+    {
+      "dynasty": "唐",
+      "polity": "唐",
+      "from": 805,
+      "to": 820,
+      "name": "李纯",
+      "title": "唐宪宗",
+      "sources": [
+        "moe2",
+        "jiangshan-lore"
+      ],
+      "eras": [
+        {
+          "from": 806,
+          "to": 820,
+          "name": "元和",
+          "baseYear": 1
+        }
+      ],
+      "role": "ruler"
+    },
+    {
+      "dynasty": "唐",
+      "polity": "唐",
+      "from": 820,
+      "to": 824,
+      "name": "李恒",
+      "title": "唐穆宗",
+      "sources": [
+        "moe2",
+        "jiangshan-lore"
+      ],
+      "eras": [
+        {
+          "from": 821,
+          "to": 824,
+          "name": "长庆",
+          "baseYear": 1
+        }
+      ],
+      "role": "ruler"
+    },
+    {
+      "dynasty": "唐",
+      "polity": "唐",
+      "from": 824,
+      "to": 826,
+      "name": "李湛",
+      "title": "唐敬宗",
+      "sources": [
+        "moe2",
+        "jiangshan-lore"
+      ],
+      "eras": [
+        {
+          "from": 825,
+          "to": 826,
+          "name": "宝历",
+          "baseYear": 1
+        }
+      ],
+      "role": "ruler"
+    },
+    {
+      "dynasty": "唐",
+      "polity": "唐",
+      "from": 826,
+      "to": 840,
+      "name": "李昂",
+      "title": "唐文宗",
+      "sources": [
+        "moe2",
+        "jiangshan-lore"
+      ],
+      "eras": [
+        {
+          "from": 827,
+          "to": 835,
+          "name": "大和",
+          "baseYear": 1
+        },
+        {
+          "from": 836,
+          "to": 840,
+          "name": "开成",
+          "baseYear": 1
+        }
+      ],
+      "role": "ruler"
+    },
+    {
+      "dynasty": "唐",
+      "polity": "唐",
+      "from": 840,
+      "to": 846,
+      "name": "李炎",
+      "title": "唐武宗",
+      "sources": [
+        "moe2",
+        "jiangshan-lore"
+      ],
+      "eras": [
+        {
+          "from": 841,
+          "to": 846,
+          "name": "会昌",
+          "baseYear": 1
+        }
+      ],
+      "role": "ruler"
+    },
+    {
+      "dynasty": "唐",
+      "polity": "唐",
+      "from": 846,
+      "to": 859,
+      "name": "李忱",
+      "title": "唐宣宗",
+      "sources": [
+        "moe2",
+        "jiangshan-lore"
+      ],
+      "eras": [
+        {
+          "from": 847,
+          "to": 859,
+          "name": "大中",
+          "baseYear": 1
+        }
+      ],
+      "role": "ruler"
+    },
+    {
+      "dynasty": "唐",
+      "polity": "唐",
+      "from": 859,
+      "to": 873,
+      "name": "李漼",
+      "title": "唐懿宗",
+      "sources": [
+        "moe2",
+        "jiangshan-lore"
+      ],
+      "eras": [
+        {
+          "from": 860,
+          "to": 873,
+          "name": "咸通",
+          "baseYear": 1
+        }
+      ],
+      "role": "ruler"
+    },
+    {
+      "dynasty": "唐",
+      "polity": "唐",
+      "from": 873,
+      "to": 888,
+      "name": "李儇",
+      "title": "唐僖宗",
+      "sources": [
+        "moe2",
+        "jiangshan-lore"
+      ],
+      "eras": [
+        {
+          "from": 874,
+          "to": 879,
+          "name": "乾符",
+          "baseYear": 1
+        },
+        {
+          "from": 880,
+          "to": 880,
+          "name": "广明",
+          "baseYear": 1
+        },
+        {
+          "from": 881,
+          "to": 884,
+          "name": "中和",
+          "baseYear": 1
+        },
+        {
+          "from": 885,
+          "to": 887,
+          "name": "光启",
+          "baseYear": 1
+        },
+        {
+          "from": 888,
+          "to": 888,
+          "name": "文德",
+          "baseYear": 1
+        }
+      ],
+      "role": "ruler"
+    },
+    {
+      "dynasty": "唐",
+      "polity": "唐",
+      "from": 888,
+      "to": 904,
+      "name": "李晔",
+      "title": "唐昭宗",
+      "sources": [
+        "moe2",
+        "jiangshan-lore"
+      ],
+      "eras": [
+        {
+          "from": 889,
+          "to": 889,
+          "name": "龙纪",
+          "baseYear": 1
+        },
+        {
+          "from": 890,
+          "to": 891,
+          "name": "大顺",
+          "baseYear": 1
+        },
+        {
+          "from": 892,
+          "to": 893,
+          "name": "景福",
+          "baseYear": 1
+        },
+        {
+          "from": 894,
+          "to": 897,
+          "name": "乾宁",
+          "baseYear": 1
+        },
+        {
+          "from": 898,
+          "to": 900,
+          "name": "光化",
+          "baseYear": 1
+        },
+        {
+          "from": 901,
+          "to": 904,
+          "name": "天复",
+          "baseYear": 1
+        }
+      ],
+      "role": "ruler"
+    },
+    {
+      "dynasty": "唐",
+      "polity": "唐",
+      "from": 904,
+      "to": 907,
+      "name": "李柷",
+      "title": "唐哀帝",
+      "sources": [
+        "moe2",
+        "jiangshan-lore"
+      ],
+      "eras": [
+        {
+          "from": 904,
+          "to": 907,
+          "name": "天祐",
+          "baseYear": 1
+        }
+      ],
+      "role": "ruler"
+    },
+    {
+      "dynasty": "北宋",
+      "polity": "北宋",
+      "from": 960,
+      "to": 976,
+      "name": "赵匡胤",
+      "title": "北宋太祖",
+      "sources": [
+        "moe2",
+        "jiangshan-lore"
+      ],
+      "eras": [
+        {
+          "from": 960,
+          "to": 962,
+          "name": "建隆",
+          "baseYear": 1
+        },
+        {
+          "from": 963,
+          "to": 967,
+          "name": "乾德",
+          "baseYear": 1
+        },
+        {
+          "from": 968,
+          "to": 976,
+          "name": "开宝",
+          "baseYear": 1
+        }
+      ],
+      "role": "ruler"
+    },
+    {
+      "dynasty": "北宋",
+      "polity": "北宋",
+      "from": 976,
+      "to": 997,
+      "name": "赵光义",
+      "title": "北宋太宗",
+      "sources": [
+        "moe2",
+        "jiangshan-lore"
+      ],
+      "eras": [
+        {
+          "from": 976,
+          "to": 983,
+          "name": "太平兴国",
+          "baseYear": 1
+        },
+        {
+          "from": 984,
+          "to": 987,
+          "name": "雍熙",
+          "baseYear": 1
+        },
+        {
+          "from": 988,
+          "to": 989,
+          "name": "端拱",
+          "baseYear": 1
+        },
+        {
+          "from": 990,
+          "to": 994,
+          "name": "淳化",
+          "baseYear": 1
+        },
+        {
+          "from": 995,
+          "to": 997,
+          "name": "至道",
+          "baseYear": 1
+        }
+      ],
+      "role": "ruler"
+    },
+    {
+      "dynasty": "北宋",
+      "polity": "北宋",
+      "from": 997,
+      "to": 1022,
+      "name": "赵恒",
+      "title": "北宋真宗",
+      "sources": [
+        "moe2",
+        "jiangshan-lore"
+      ],
+      "eras": [
+        {
+          "from": 998,
+          "to": 1003,
+          "name": "咸平",
+          "baseYear": 1
+        },
+        {
+          "from": 1004,
+          "to": 1007,
+          "name": "景德",
+          "baseYear": 1
+        },
+        {
+          "from": 1008,
+          "to": 1016,
+          "name": "大中祥符",
+          "baseYear": 1
+        },
+        {
+          "from": 1017,
+          "to": 1021,
+          "name": "天禧",
+          "baseYear": 1
+        },
+        {
+          "from": 1022,
+          "to": 1022,
+          "name": "乾兴",
+          "baseYear": 1
+        }
+      ],
+      "role": "ruler"
+    },
+    {
+      "dynasty": "北宋",
+      "polity": "北宋",
+      "from": 1022,
+      "to": 1063,
+      "name": "赵祯",
+      "title": "北宋仁宗",
+      "sources": [
+        "moe2",
+        "jiangshan-lore"
+      ],
+      "eras": [
+        {
+          "from": 1023,
+          "to": 1031,
+          "name": "天圣",
+          "baseYear": 1
+        },
+        {
+          "from": 1032,
+          "to": 1033,
+          "name": "明道",
+          "baseYear": 1
+        },
+        {
+          "from": 1034,
+          "to": 1037,
+          "name": "景祐",
+          "baseYear": 1
+        },
+        {
+          "from": 1038,
+          "to": 1039,
+          "name": "宝元",
+          "baseYear": 1
+        },
+        {
+          "from": 1040,
+          "to": 1040,
+          "name": "康定",
+          "baseYear": 1
+        },
+        {
+          "from": 1041,
+          "to": 1048,
+          "name": "庆历",
+          "baseYear": 1
+        },
+        {
+          "from": 1049,
+          "to": 1053,
+          "name": "皇祐",
+          "baseYear": 1
+        },
+        {
+          "from": 1054,
+          "to": 1055,
+          "name": "至和",
+          "baseYear": 1
+        },
+        {
+          "from": 1056,
+          "to": 1063,
+          "name": "嘉祐",
+          "baseYear": 1
+        }
+      ],
+      "role": "ruler"
+    },
+    {
+      "dynasty": "北宋",
+      "polity": "北宋",
+      "from": 1063,
+      "to": 1067,
+      "name": "赵曙",
+      "title": "北宋英宗",
+      "sources": [
+        "moe2",
+        "jiangshan-lore"
+      ],
+      "eras": [
+        {
+          "from": 1064,
+          "to": 1067,
+          "name": "治平",
+          "baseYear": 1
+        }
+      ],
+      "role": "ruler"
+    },
+    {
+      "dynasty": "北宋",
+      "polity": "北宋",
+      "from": 1067,
+      "to": 1085,
+      "name": "赵顼",
+      "title": "北宋神宗",
+      "sources": [
+        "moe2",
+        "jiangshan-lore"
+      ],
+      "eras": [
+        {
+          "from": 1068,
+          "to": 1077,
+          "name": "熙宁",
+          "baseYear": 1
+        },
+        {
+          "from": 1078,
+          "to": 1085,
+          "name": "元丰",
+          "baseYear": 1
+        }
+      ],
+      "role": "ruler"
+    },
+    {
+      "dynasty": "北宋",
+      "polity": "北宋",
+      "from": 1085,
+      "to": 1100,
+      "name": "赵煦",
+      "title": "北宋哲宗",
+      "sources": [
+        "moe2",
+        "jiangshan-lore"
+      ],
+      "eras": [
+        {
+          "from": 1086,
+          "to": 1093,
+          "name": "元祐",
+          "baseYear": 1
+        },
+        {
+          "from": 1094,
+          "to": 1097,
+          "name": "绍圣",
+          "baseYear": 1
+        },
+        {
+          "from": 1098,
+          "to": 1100,
+          "name": "元符",
+          "baseYear": 1
+        }
+      ],
+      "role": "ruler"
+    },
+    {
+      "dynasty": "北宋",
+      "polity": "北宋",
+      "from": 1100,
+      "to": 1125,
+      "name": "赵佶",
+      "title": "北宋徽宗",
+      "sources": [
+        "moe2",
+        "jiangshan-lore"
+      ],
+      "eras": [
+        {
+          "from": 1101,
+          "to": 1101,
+          "name": "建中靖国",
+          "baseYear": 1
+        },
+        {
+          "from": 1102,
+          "to": 1106,
+          "name": "崇宁",
+          "baseYear": 1
+        },
+        {
+          "from": 1107,
+          "to": 1110,
+          "name": "大观",
+          "baseYear": 1
+        },
+        {
+          "from": 1111,
+          "to": 1117,
+          "name": "政和",
+          "baseYear": 1
+        },
+        {
+          "from": 1118,
+          "to": 1118,
+          "name": "重和",
+          "baseYear": 1
+        },
+        {
+          "from": 1119,
+          "to": 1125,
+          "name": "宣和",
+          "baseYear": 1
+        }
+      ],
+      "role": "ruler"
+    },
+    {
+      "dynasty": "北宋",
+      "polity": "北宋",
+      "from": 1126,
+      "to": 1127,
+      "name": "赵桓",
+      "title": "北宋钦宗",
+      "sources": [
+        "moe3",
+        "jiangshan-lore"
+      ],
+      "note": "公历1126年初继位，传统宣和七年为1125；教育部表1125按传统纪年，年度轴此处取公历1126。",
+      "eras": [
+        {
+          "from": 1126,
+          "to": 1127,
+          "name": "靖康",
+          "baseYear": 1
+        }
+      ],
+      "role": "ruler"
+    },
+    {
+      "dynasty": "南宋",
+      "polity": "南宋",
+      "from": 1127,
+      "to": 1162,
+      "name": "赵构",
+      "title": "南宋高宗",
+      "sources": [
+        "moe3",
+        "jiangshan-lore"
+      ],
+      "eras": [
+        {
+          "from": 1127,
+          "to": 1130,
+          "name": "建炎",
+          "baseYear": 1
+        },
+        {
+          "from": 1131,
+          "to": 1162,
+          "name": "绍兴",
+          "baseYear": 1
+        }
+      ],
+      "role": "ruler"
+    },
+    {
+      "dynasty": "南宋",
+      "polity": "南宋",
+      "from": 1162,
+      "to": 1189,
+      "name": "赵昚",
+      "title": "南宋孝宗",
+      "sources": [
+        "moe3",
+        "jiangshan-lore"
+      ],
+      "eras": [
+        {
+          "from": 1163,
+          "to": 1164,
+          "name": "隆兴",
+          "baseYear": 1
+        },
+        {
+          "from": 1165,
+          "to": 1173,
+          "name": "乾道",
+          "baseYear": 1
+        },
+        {
+          "from": 1174,
+          "to": 1189,
+          "name": "淳熙",
+          "baseYear": 1
+        }
+      ],
+      "role": "ruler"
+    },
+    {
+      "dynasty": "南宋",
+      "polity": "南宋",
+      "from": 1189,
+      "to": 1194,
+      "name": "赵惇",
+      "title": "南宋光宗",
+      "sources": [
+        "moe3",
+        "jiangshan-lore"
+      ],
+      "eras": [
+        {
+          "from": 1190,
+          "to": 1194,
+          "name": "绍熙",
+          "baseYear": 1
+        }
+      ],
+      "role": "ruler"
+    },
+    {
+      "dynasty": "南宋",
+      "polity": "南宋",
+      "from": 1194,
+      "to": 1224,
+      "name": "赵扩",
+      "title": "南宋宁宗",
+      "sources": [
+        "moe3",
+        "jiangshan-lore"
+      ],
+      "eras": [
+        {
+          "from": 1195,
+          "to": 1200,
+          "name": "庆元",
+          "baseYear": 1
+        },
+        {
+          "from": 1201,
+          "to": 1204,
+          "name": "嘉泰",
+          "baseYear": 1
+        },
+        {
+          "from": 1205,
+          "to": 1207,
+          "name": "开禧",
+          "baseYear": 1
+        },
+        {
+          "from": 1208,
+          "to": 1224,
+          "name": "嘉定",
+          "baseYear": 1
+        }
+      ],
+      "role": "ruler"
+    },
+    {
+      "dynasty": "南宋",
+      "polity": "南宋",
+      "from": 1224,
+      "to": 1264,
+      "name": "赵昀",
+      "title": "南宋理宗",
+      "sources": [
+        "moe3",
+        "jiangshan-lore"
+      ],
+      "eras": [
+        {
+          "from": 1225,
+          "to": 1227,
+          "name": "宝庆",
+          "baseYear": 1
+        },
+        {
+          "from": 1228,
+          "to": 1233,
+          "name": "绍定",
+          "baseYear": 1
+        },
+        {
+          "from": 1234,
+          "to": 1236,
+          "name": "端平",
+          "baseYear": 1
+        },
+        {
+          "from": 1237,
+          "to": 1240,
+          "name": "嘉熙",
+          "baseYear": 1
+        },
+        {
+          "from": 1241,
+          "to": 1252,
+          "name": "淳祐",
+          "baseYear": 1
+        },
+        {
+          "from": 1253,
+          "to": 1258,
+          "name": "宝祐",
+          "baseYear": 1
+        },
+        {
+          "from": 1259,
+          "to": 1259,
+          "name": "开庆",
+          "baseYear": 1
+        },
+        {
+          "from": 1260,
+          "to": 1264,
+          "name": "景定",
+          "baseYear": 1
+        }
+      ],
+      "role": "ruler"
+    },
+    {
+      "dynasty": "元",
+      "polity": "大蒙古国／元",
+      "from": 1260,
+      "to": 1294,
+      "name": "忽必烈",
+      "title": "元世祖",
+      "sources": [
+        "moe3",
+        "dpm-yuan",
+        "jiangshan-lore"
+      ],
+      "note": "1260即大汗位，1271改国号大元；不能把1260前推成元国号已成立。",
+      "eras": [
+        {
+          "from": 1260,
+          "to": 1264,
+          "name": "中统",
+          "baseYear": 1
+        },
+        {
+          "from": 1264,
+          "to": 1294,
+          "name": "至元",
+          "baseYear": 1
+        }
+      ],
+      "role": "ruler"
+    },
+    {
+      "dynasty": "南宋",
+      "polity": "南宋",
+      "from": 1264,
+      "to": 1274,
+      "name": "赵禥",
+      "title": "南宋度宗",
+      "sources": [
+        "moe3",
+        "jiangshan-lore"
+      ],
+      "eras": [
+        {
+          "from": 1265,
+          "to": 1274,
+          "name": "咸淳",
+          "baseYear": 1
+        }
+      ],
+      "role": "ruler"
+    },
+    {
+      "dynasty": "南宋",
+      "polity": "南宋",
+      "from": 1274,
+      "to": 1276,
+      "name": "赵㬎",
+      "title": "宋恭帝",
+      "sources": [
+        "moe3",
+        "jiangshan-lore"
+      ],
+      "eras": [
+        {
+          "from": 1275,
+          "to": 1276,
+          "name": "德祐",
+          "baseYear": 1
+        }
+      ],
+      "role": "ruler"
+    },
+    {
+      "dynasty": "南宋",
+      "polity": "南宋",
+      "from": 1276,
+      "to": 1278,
+      "name": "赵昰",
+      "title": "南宋端宗",
+      "sources": [
+        "moe3",
+        "jiangshan-lore"
+      ],
+      "eras": [
+        {
+          "from": 1276,
+          "to": 1278,
+          "name": "景炎",
+          "baseYear": 1
+        }
+      ],
+      "role": "ruler"
+    },
+    {
+      "dynasty": "南宋",
+      "polity": "南宋",
+      "from": 1278,
+      "to": 1279,
+      "name": "赵昺",
+      "title": "宋末帝",
+      "sources": [
+        "moe3",
+        "jiangshan-lore"
+      ],
+      "eras": [
+        {
+          "from": 1278,
+          "to": 1279,
+          "name": "祥兴",
+          "baseYear": 1
+        }
+      ],
+      "role": "ruler"
+    },
+    {
+      "dynasty": "元",
+      "polity": "元",
+      "from": 1294,
+      "to": 1307,
+      "name": "铁穆耳",
+      "title": "元成宗",
+      "sources": [
+        "moe3",
+        "dpm-yuan",
+        "jiangshan-lore"
+      ],
+      "eras": [
+        {
+          "from": 1295,
+          "to": 1296,
+          "name": "元贞",
+          "baseYear": 1
+        },
+        {
+          "from": 1297,
+          "to": 1307,
+          "name": "大德",
+          "baseYear": 1
+        }
+      ],
+      "role": "ruler"
+    },
+    {
+      "dynasty": "元",
+      "polity": "元",
+      "from": 1307,
+      "to": 1311,
+      "name": "海山",
+      "title": "元武宗",
+      "sources": [
+        "moe3",
+        "dpm-yuan",
+        "jiangshan-lore"
+      ],
+      "eras": [
+        {
+          "from": 1308,
+          "to": 1311,
+          "name": "至大",
+          "baseYear": 1
+        }
+      ],
+      "role": "ruler"
+    },
+    {
+      "dynasty": "元",
+      "polity": "元",
+      "from": 1311,
+      "to": 1320,
+      "name": "爱育黎拔力八达",
+      "title": "元仁宗",
+      "sources": [
+        "moe3",
+        "dpm-yuan",
+        "jiangshan-lore"
+      ],
+      "eras": [
+        {
+          "from": 1312,
+          "to": 1313,
+          "name": "皇庆",
+          "baseYear": 1
+        },
+        {
+          "from": 1314,
+          "to": 1320,
+          "name": "延祐",
+          "baseYear": 1
+        }
+      ],
+      "role": "ruler"
+    },
+    {
+      "dynasty": "元",
+      "polity": "元",
+      "from": 1320,
+      "to": 1323,
+      "name": "硕德八剌",
+      "title": "元英宗",
+      "sources": [
+        "moe3",
+        "dpm-yuan",
+        "jiangshan-lore"
+      ],
+      "eras": [
+        {
+          "from": 1321,
+          "to": 1323,
+          "name": "至治",
+          "baseYear": 1
+        }
+      ],
+      "role": "ruler"
+    },
+    {
+      "dynasty": "元",
+      "polity": "元",
+      "from": 1323,
+      "to": 1328,
+      "name": "也孙铁木儿",
+      "title": "元泰定帝",
+      "sources": [
+        "moe3",
+        "dpm-yuan",
+        "jiangshan-lore"
+      ],
+      "eras": [
+        {
+          "from": 1324,
+          "to": 1328,
+          "name": "泰定",
+          "baseYear": 1
+        }
+      ],
+      "note": "教育部表称晋宗，本表按故宫称泰定帝，不将有争议的晋宗作唯一帝号。",
+      "role": "ruler"
+    },
+    {
+      "dynasty": "元",
+      "polity": "元",
+      "from": 1328,
+      "to": 1328,
+      "name": "阿速吉八",
+      "title": "元天顺帝",
+      "sources": [
+        "moe3",
+        "dpm-yuan",
+        "jiangshan-lore"
+      ],
+      "eras": [
+        {
+          "from": 1328,
+          "to": 1328,
+          "name": "天顺",
+          "baseYear": 1
+        }
+      ],
+      "role": "ruler"
+    },
+    {
+      "dynasty": "元",
+      "polity": "元",
+      "from": 1328,
+      "to": 1329,
+      "name": "图帖睦尔",
+      "title": "元文宗",
+      "sources": [
+        "moe3",
+        "dpm-yuan",
+        "jiangshan-lore"
+      ],
+      "eras": [
+        {
+          "from": 1328,
+          "to": 1329,
+          "name": "天历",
+          "baseYear": 1
+        }
+      ],
+      "role": "ruler"
+    },
+    {
+      "dynasty": "元",
+      "polity": "元",
+      "from": 1329,
+      "to": 1329,
+      "name": "和世㻋",
+      "title": "元明宗",
+      "sources": [
+        "moe3",
+        "dpm-yuan",
+        "jiangshan-lore"
+      ],
+      "eras": [
+        {
+          "from": 1329,
+          "to": 1329,
+          "name": "天历",
+          "baseYear": 1
+        }
+      ],
+      "role": "ruler"
+    },
+    {
+      "dynasty": "元",
+      "polity": "元",
+      "from": 1329,
+      "to": 1332,
+      "name": "图帖睦尔",
+      "title": "元文宗",
+      "sources": [
+        "moe3",
+        "dpm-yuan",
+        "jiangshan-lore"
+      ],
+      "eras": [
+        {
+          "from": 1329,
+          "to": 1330,
+          "name": "天历",
+          "baseYear": 1
+        },
+        {
+          "from": 1330,
+          "to": 1332,
+          "name": "至顺",
+          "baseYear": 1
+        }
+      ],
+      "role": "ruler"
+    },
+    {
+      "dynasty": "元",
+      "polity": "元",
+      "from": 1332,
+      "to": 1332,
+      "name": "懿璘质班",
+      "title": "元宁宗",
+      "sources": [
+        "moe3",
+        "dpm-yuan",
+        "jiangshan-lore"
+      ],
+      "eras": [
+        {
+          "from": 1332,
+          "to": 1332,
+          "name": "至顺",
+          "baseYear": 1
+        }
+      ],
+      "role": "ruler"
+    },
+    {
+      "dynasty": "元",
+      "polity": "元",
+      "from": 1333,
+      "to": 1370,
+      "name": "妥懽帖睦尔",
+      "title": "元顺帝",
+      "sources": [
+        "moe3",
+        "dpm-yuan",
+        "jiangshan-lore"
+      ],
+      "note": "1368退出大都后在北方继续称帝，1370卒；在中原疆域卡片可将元朝阶段截止1368，不能误作本人1367去世。",
+      "eras": [
+        {
+          "from": 1333,
+          "to": 1334,
+          "name": "元统",
+          "baseYear": 1
+        },
+        {
+          "from": 1335,
+          "to": 1340,
+          "name": "至元",
+          "baseYear": 1
+        },
+        {
+          "from": 1341,
+          "to": 1370,
+          "name": "至正",
+          "baseYear": 1
+        }
+      ],
+      "role": "ruler"
+    },
+    {
+      "dynasty": "明",
+      "polity": "明",
+      "from": 1368,
+      "to": 1398,
+      "name": "朱元璋",
+      "title": "明太祖",
+      "sources": [
+        "moe3",
+        "dpm-lineage",
+        "jiangshan-lore"
+      ],
+      "eras": [
+        {
+          "from": 1368,
+          "to": 1398,
+          "name": "洪武",
+          "baseYear": 1
+        }
+      ],
+      "role": "ruler"
+    },
+    {
+      "dynasty": "明",
+      "polity": "明",
+      "from": 1398,
+      "to": 1402,
+      "name": "朱允炆",
+      "title": "明惠帝",
+      "sources": [
+        "moe3",
+        "dpm-lineage",
+        "jiangshan-lore"
+      ],
+      "eras": [
+        {
+          "from": 1399,
+          "to": 1402,
+          "name": "建文",
+          "baseYear": 1
+        }
+      ],
+      "role": "ruler"
+    },
+    {
+      "dynasty": "明",
+      "polity": "明",
+      "from": 1402,
+      "to": 1424,
+      "name": "朱棣",
+      "title": "明成祖",
+      "sources": [
+        "moe3",
+        "dpm-lineage",
+        "jiangshan-lore",
+        "dpm-jianwen"
+      ],
+      "eras": [
+        {
+          "from": 1402,
+          "to": 1402,
+          "name": "洪武",
+          "baseYear": 35,
+          "note": "废建文年号，复用洪武纪年；不代表太祖复位。"
+        },
+        {
+          "from": 1403,
+          "to": 1424,
+          "name": "永乐",
+          "baseYear": 1
+        }
+      ],
+      "role": "ruler"
+    },
+    {
+      "dynasty": "明",
+      "polity": "明",
+      "from": 1424,
+      "to": 1425,
+      "name": "朱高炽",
+      "title": "明仁宗",
+      "sources": [
+        "moe3",
+        "dpm-lineage",
+        "jiangshan-lore"
+      ],
+      "eras": [
+        {
+          "from": 1425,
+          "to": 1425,
+          "name": "洪熙",
+          "baseYear": 1
+        }
+      ],
+      "role": "ruler"
+    },
+    {
+      "dynasty": "明",
+      "polity": "明",
+      "from": 1425,
+      "to": 1435,
+      "name": "朱瞻基",
+      "title": "明宣宗",
+      "sources": [
+        "moe3",
+        "dpm-lineage",
+        "jiangshan-lore"
+      ],
+      "eras": [
+        {
+          "from": 1426,
+          "to": 1435,
+          "name": "宣德",
+          "baseYear": 1
+        }
+      ],
+      "role": "ruler"
+    },
+    {
+      "dynasty": "明",
+      "polity": "明",
+      "from": 1435,
+      "to": 1449,
+      "name": "朱祁镇",
+      "title": "明英宗",
+      "sources": [
+        "moe3",
+        "dpm-lineage",
+        "jiangshan-lore"
+      ],
+      "eras": [
+        {
+          "from": 1436,
+          "to": 1449,
+          "name": "正统",
+          "baseYear": 1
+        }
+      ],
+      "role": "ruler"
+    },
+    {
+      "dynasty": "明",
+      "polity": "明",
+      "from": 1449,
+      "to": 1457,
+      "name": "朱祁钰",
+      "title": "明代宗",
+      "sources": [
+        "moe3",
+        "dpm-lineage",
+        "jiangshan-lore"
+      ],
+      "eras": [
+        {
+          "from": 1450,
+          "to": 1457,
+          "name": "景泰",
+          "baseYear": 1
+        }
+      ],
+      "role": "ruler"
+    },
+    {
+      "dynasty": "明",
+      "polity": "明",
+      "from": 1457,
+      "to": 1464,
+      "name": "朱祁镇",
+      "title": "明英宗",
+      "sources": [
+        "moe3",
+        "dpm-lineage",
+        "jiangshan-lore"
+      ],
+      "eras": [
+        {
+          "from": 1457,
+          "to": 1464,
+          "name": "天顺",
+          "baseYear": 1
+        }
+      ],
+      "role": "ruler"
+    },
+    {
+      "dynasty": "明",
+      "polity": "明",
+      "from": 1464,
+      "to": 1487,
+      "name": "朱见深",
+      "title": "明宪宗",
+      "sources": [
+        "moe3",
+        "dpm-lineage",
+        "jiangshan-lore"
+      ],
+      "eras": [
+        {
+          "from": 1465,
+          "to": 1487,
+          "name": "成化",
+          "baseYear": 1
+        }
+      ],
+      "role": "ruler"
+    },
+    {
+      "dynasty": "明",
+      "polity": "明",
+      "from": 1487,
+      "to": 1505,
+      "name": "朱祐樘",
+      "title": "明孝宗",
+      "sources": [
+        "moe3",
+        "dpm-lineage",
+        "jiangshan-lore"
+      ],
+      "eras": [
+        {
+          "from": 1488,
+          "to": 1505,
+          "name": "弘治",
+          "baseYear": 1
+        }
+      ],
+      "role": "ruler"
+    },
+    {
+      "dynasty": "明",
+      "polity": "明",
+      "from": 1505,
+      "to": 1521,
+      "name": "朱厚照",
+      "title": "明武宗",
+      "sources": [
+        "moe3",
+        "dpm-lineage",
+        "jiangshan-lore"
+      ],
+      "eras": [
+        {
+          "from": 1506,
+          "to": 1521,
+          "name": "正德",
+          "baseYear": 1
+        }
+      ],
+      "role": "ruler"
+    },
+    {
+      "dynasty": "明",
+      "polity": "明",
+      "from": 1521,
+      "to": 1566,
+      "name": "朱厚熜",
+      "title": "明世宗",
+      "sources": [
+        "moe3",
+        "dpm-lineage",
+        "jiangshan-lore"
+      ],
+      "eras": [
+        {
+          "from": 1522,
+          "to": 1566,
+          "name": "嘉靖",
+          "baseYear": 1
+        }
+      ],
+      "role": "ruler"
+    },
+    {
+      "dynasty": "明",
+      "polity": "明",
+      "from": 1566,
+      "to": 1572,
+      "name": "朱载坖",
+      "title": "明穆宗",
+      "sources": [
+        "moe3",
+        "dpm-lineage",
+        "jiangshan-lore"
+      ],
+      "eras": [
+        {
+          "from": 1567,
+          "to": 1572,
+          "name": "隆庆",
+          "baseYear": 1
+        }
+      ],
+      "role": "ruler"
+    },
+    {
+      "dynasty": "明",
+      "polity": "明",
+      "from": 1572,
+      "to": 1620,
+      "name": "朱翊钧",
+      "title": "明神宗",
+      "sources": [
+        "moe3",
+        "dpm-lineage",
+        "jiangshan-lore"
+      ],
+      "eras": [
+        {
+          "from": 1573,
+          "to": 1620,
+          "name": "万历",
+          "baseYear": 1
+        }
+      ],
+      "role": "ruler"
+    },
+    {
+      "dynasty": "清",
+      "polity": "后金",
+      "from": 1616,
+      "to": 1626,
+      "name": "努尔哈赤",
+      "title": "清太祖",
+      "sources": [
+        "moe3",
+        "sypm-qing",
+        "dpm-lineage",
+        "jiangshan-lore"
+      ],
+      "note": "后金大汗；清太祖是追尊庙号，不能说1616年国号已是清。",
+      "eras": [
+        {
+          "from": 1616,
+          "to": 1626,
+          "name": "天命",
+          "baseYear": 1
+        }
+      ],
+      "role": "ruler"
+    },
+    {
+      "dynasty": "明",
+      "polity": "明",
+      "from": 1620,
+      "to": 1620,
+      "name": "朱常洛",
+      "title": "明光宗",
+      "sources": [
+        "moe3",
+        "dpm-lineage",
+        "jiangshan-lore"
+      ],
+      "eras": [
+        {
+          "from": 1620,
+          "to": 1620,
+          "name": "泰昌",
+          "baseYear": 1
+        }
+      ],
+      "role": "ruler"
+    },
+    {
+      "dynasty": "明",
+      "polity": "明",
+      "from": 1620,
+      "to": 1627,
+      "name": "朱由校",
+      "title": "明熹宗",
+      "sources": [
+        "moe3",
+        "dpm-lineage",
+        "jiangshan-lore"
+      ],
+      "eras": [
+        {
+          "from": 1621,
+          "to": 1627,
+          "name": "天启",
+          "baseYear": 1
+        }
+      ],
+      "role": "ruler"
+    },
+    {
+      "dynasty": "清",
+      "polity": "后金／清",
+      "from": 1626,
+      "to": 1643,
+      "name": "皇太极",
+      "title": "清太宗",
+      "sources": [
+        "moe3",
+        "sypm-qing",
+        "dpm-lineage",
+        "dpm-hongtaiji",
+        "jiangshan-lore"
+      ],
+      "note": "1626继汗位，1627天聪改元，1636称帝并改国号清；同一人在后金、清两个阶段统治。",
+      "eras": [
+        {
+          "from": 1626,
+          "to": 1626,
+          "name": "天命",
+          "baseYear": 1
+        },
+        {
+          "from": 1627,
+          "to": 1636,
+          "name": "天聪",
+          "baseYear": 1
+        },
+        {
+          "from": 1636,
+          "to": 1643,
+          "name": "崇德",
+          "baseYear": 1
+        }
+      ],
+      "role": "ruler"
+    },
+    {
+      "dynasty": "明",
+      "polity": "明",
+      "from": 1627,
+      "to": 1644,
+      "name": "朱由检",
+      "title": "明思宗",
+      "sources": [
+        "moe3",
+        "dpm-lineage",
+        "jiangshan-lore"
+      ],
+      "eras": [
+        {
+          "from": 1628,
+          "to": 1644,
+          "name": "崇祯",
+          "baseYear": 1
+        }
+      ],
+      "role": "ruler"
+    },
+    {
+      "dynasty": "清",
+      "polity": "清",
+      "from": 1643,
+      "to": 1661,
+      "name": "福临",
+      "title": "清世祖",
+      "sources": [
+        "moe3",
+        "sypm-qing",
+        "dpm-lineage",
+        "jiangshan-lore"
+      ],
+      "eras": [
+        {
+          "from": 1644,
+          "to": 1661,
+          "name": "顺治",
+          "baseYear": 1
+        }
+      ],
+      "role": "ruler"
+    },
+    {
+      "dynasty": "清",
+      "polity": "清",
+      "from": 1661,
+      "to": 1722,
+      "name": "玄烨",
+      "title": "清圣祖",
+      "sources": [
+        "moe3",
+        "sypm-qing",
+        "dpm-lineage",
+        "jiangshan-lore",
+        "guobo-kangxi-accession"
+      ],
+      "eras": [
+        {
+          "from": 1661,
+          "to": 1661,
+          "name": "顺治",
+          "baseYear": 18,
+          "note": "即位当年沿用前帝年号。"
+        },
+        {
+          "from": 1662,
+          "to": 1722,
+          "name": "康熙",
+          "baseYear": 1
+        }
+      ],
+      "role": "ruler"
+    },
+    {
+      "dynasty": "清",
+      "polity": "清",
+      "from": 1722,
+      "to": 1735,
+      "name": "胤禛",
+      "title": "清世宗",
+      "sources": [
+        "moe3",
+        "sypm-qing",
+        "dpm-lineage",
+        "jiangshan-lore"
+      ],
+      "eras": [
+        {
+          "from": 1723,
+          "to": 1735,
+          "name": "雍正",
+          "baseYear": 1
+        }
+      ],
+      "role": "ruler"
+    },
+    {
+      "dynasty": "清",
+      "polity": "清",
+      "from": 1735,
+      "to": 1796,
+      "name": "弘历",
+      "title": "清高宗",
+      "sources": [
+        "moe3",
+        "sypm-qing",
+        "dpm-lineage",
+        "jiangshan-lore"
+      ],
+      "note": "1796正式禅位；以太上皇身份继续掌握大权至1799，嘉庆1796—1799不能等同完全亲政。",
+      "eras": [
+        {
+          "from": 1736,
+          "to": 1796,
+          "name": "乾隆",
+          "baseYear": 1
+        }
+      ],
+      "role": "ruler"
+    },
+    {
+      "dynasty": "清",
+      "polity": "清",
+      "from": 1796,
+      "to": 1820,
+      "name": "颙琰",
+      "title": "清仁宗",
+      "sources": [
+        "moe3",
+        "sypm-qing",
+        "dpm-lineage",
+        "jiangshan-lore"
+      ],
+      "eras": [
+        {
+          "from": 1796,
+          "to": 1820,
+          "name": "嘉庆",
+          "baseYear": 1
+        }
+      ],
+      "role": "ruler"
+    },
+    {
+      "dynasty": "清",
+      "polity": "清",
+      "from": 1820,
+      "to": 1850,
+      "name": "旻宁",
+      "title": "清宣宗",
+      "sources": [
+        "moe3",
+        "sypm-qing",
+        "dpm-lineage",
+        "jiangshan-lore"
+      ],
+      "eras": [
+        {
+          "from": 1821,
+          "to": 1850,
+          "name": "道光",
+          "baseYear": 1
+        }
+      ],
+      "role": "ruler"
+    },
+    {
+      "dynasty": "清",
+      "polity": "清",
+      "from": 1850,
+      "to": 1861,
+      "name": "奕詝",
+      "title": "清文宗",
+      "sources": [
+        "moe3",
+        "sypm-qing",
+        "dpm-lineage",
+        "jiangshan-lore"
+      ],
+      "eras": [
+        {
+          "from": 1851,
+          "to": 1861,
+          "name": "咸丰",
+          "baseYear": 1
+        }
+      ],
+      "role": "ruler"
+    },
+    {
+      "dynasty": "清",
+      "polity": "清",
+      "from": 1861,
+      "to": 1874,
+      "name": "载淳",
+      "title": "清穆宗",
+      "sources": [
+        "moe3",
+        "sypm-qing",
+        "dpm-lineage",
+        "jiangshan-lore"
+      ],
+      "eras": [
+        {
+          "from": 1862,
+          "to": 1874,
+          "name": "同治",
+          "baseYear": 1
+        }
+      ],
+      "role": "ruler"
+    },
+    {
+      "dynasty": "清",
+      "polity": "清",
+      "from": 1875,
+      "to": 1908,
+      "name": "载湉",
+      "title": "清德宗",
+      "sources": [
+        "moe3",
+        "sypm-qing",
+        "dpm-lineage",
+        "jiangshan-lore"
+      ],
+      "note": "传统同治十三年十二月继位，对应公历1875年；慈禧、慈安摄政及后期训政另属实际权力层。",
+      "eras": [
+        {
+          "from": 1875,
+          "to": 1908,
+          "name": "光绪",
+          "baseYear": 1
+        }
+      ],
+      "role": "ruler"
+    },
+    {
+      "dynasty": "清",
+      "polity": "清",
+      "from": 1908,
+      "to": 1912,
+      "name": "溥仪",
+      "title": "清宣统帝",
+      "sources": [
+        "moe3",
+        "sypm-qing",
+        "dpm-lineage",
+        "jiangshan-lore",
+        "dpm-puyi"
+      ],
+      "note": "1908继位，1909改宣统；1912年2月退位，若图轴到1911则只裁展示上限，勿改在位事实。",
+      "eras": [
+        {
+          "from": 1909,
+          "to": 1912,
+          "name": "宣统",
+          "baseYear": 1
+        }
+      ],
+      "role": "ruler"
+    },
+    {
+      "dynasty": "辽",
+      "polity": "辽",
+      "from": 907,
+      "to": 926,
+      "name": "耶律阿保机",
+      "title": "辽太祖",
+      "sources": [
+        "regional-moe3",
+        "regional-liao-primary"
+      ],
+      "note": "907为契丹首领推戴起点，916正式称帝建元；926卒。教育部表925末年不采用。",
+      "role": "ruler"
+    },
+    {
+      "dynasty": "辽",
+      "polity": "辽",
+      "from": 927,
+      "to": 947,
+      "name": "耶律德光",
+      "title": "辽太宗",
+      "sources": [
+        "regional-moe3",
+        "regional-liao-primary"
+      ],
+      "role": "ruler"
+    },
+    {
+      "dynasty": "辽",
+      "polity": "辽",
+      "from": 947,
+      "to": 951,
+      "name": "耶律阮",
+      "title": "辽世宗",
+      "sources": [
+        "regional-moe3",
+        "regional-liao-primary"
+      ],
+      "role": "ruler"
+    },
+    {
+      "dynasty": "辽",
+      "polity": "辽",
+      "from": 951,
+      "to": 969,
+      "name": "耶律璟",
+      "title": "辽穆宗",
+      "sources": [
+        "regional-moe3",
+        "regional-liao-primary"
+      ],
+      "role": "ruler"
+    },
+    {
+      "dynasty": "辽",
+      "polity": "辽",
+      "from": 969,
+      "to": 982,
+      "name": "耶律贤",
+      "title": "辽景宗",
+      "sources": [
+        "regional-moe3",
+        "regional-liao-primary"
+      ],
+      "role": "ruler"
+    },
+    {
+      "dynasty": "辽",
+      "polity": "辽",
+      "from": 982,
+      "to": 1031,
+      "name": "耶律隆绪",
+      "title": "辽圣宗",
+      "sources": [
+        "regional-moe3",
+        "regional-liao-primary"
+      ],
+      "role": "ruler"
+    },
+    {
+      "dynasty": "辽",
+      "polity": "辽",
+      "from": 1031,
+      "to": 1055,
+      "name": "耶律宗真",
+      "title": "辽兴宗",
+      "sources": [
+        "regional-moe3",
+        "regional-liao-primary"
+      ],
+      "role": "ruler"
+    },
+    {
+      "dynasty": "辽",
+      "polity": "辽",
+      "from": 1055,
+      "to": 1101,
+      "name": "耶律洪基",
+      "title": "辽道宗",
+      "sources": [
+        "regional-moe3",
+        "regional-liao-primary"
+      ],
+      "role": "ruler"
+    },
+    {
+      "dynasty": "辽",
+      "polity": "辽",
+      "from": 1101,
+      "to": 1125,
+      "name": "耶律延禧",
+      "title": "辽天祚帝",
+      "sources": [
+        "regional-moe3",
+        "regional-liao-primary"
+      ],
+      "role": "ruler"
+    },
+    {
+      "dynasty": "辽",
+      "polity": "辽",
+      "from": 926,
+      "to": 927,
+      "name": "述律平",
+      "title": "述律皇后摄政",
+      "sources": [
+        "regional-liao-primary"
+      ],
+      "note": "太祖死后摄军国事，至927太宗即位。此项是实际执政者，不称皇帝；与辽帝世系分层理解。",
+      "role": "powerholder"
+    },
+    {
+      "dynasty": "金",
+      "polity": "金",
+      "from": 1115,
+      "to": 1123,
+      "name": "完颜阿骨打",
+      "title": "金太祖",
+      "sources": [
+        "regional-moe3",
+        "regional-jin-dpm"
+      ],
+      "role": "ruler"
+    },
+    {
+      "dynasty": "金",
+      "polity": "金",
+      "from": 1123,
+      "to": 1135,
+      "name": "完颜吴乞买",
+      "title": "金太宗",
+      "sources": [
+        "regional-moe3",
+        "regional-jin-dpm"
+      ],
+      "role": "ruler"
+    },
+    {
+      "dynasty": "金",
+      "polity": "金",
+      "from": 1135,
+      "to": 1149,
+      "name": "完颜亶",
+      "title": "金熙宗",
+      "sources": [
+        "regional-moe3",
+        "regional-jin-dpm"
+      ],
+      "role": "ruler"
+    },
+    {
+      "dynasty": "金",
+      "polity": "金",
+      "from": 1149,
+      "to": 1161,
+      "name": "完颜亮",
+      "title": "金海陵王",
+      "sources": [
+        "regional-moe3",
+        "regional-jin-dpm"
+      ],
+      "role": "ruler"
+    },
+    {
+      "dynasty": "金",
+      "polity": "金",
+      "from": 1161,
+      "to": 1189,
+      "name": "完颜雍",
+      "title": "金世宗",
+      "sources": [
+        "regional-moe3",
+        "regional-jin-dpm",
+        "regional-jin-1189"
+      ],
+      "role": "ruler"
+    },
+    {
+      "dynasty": "金",
+      "polity": "金",
+      "from": 1189,
+      "to": 1208,
+      "name": "完颜璟",
+      "title": "金章宗",
+      "sources": [
+        "regional-moe3",
+        "regional-jin-dpm",
+        "regional-jin-1189"
+      ],
+      "role": "ruler"
+    },
+    {
+      "dynasty": "金",
+      "polity": "金",
+      "from": 1208,
+      "to": 1213,
+      "name": "完颜永济",
+      "title": "金卫绍王",
+      "sources": [
+        "regional-moe3",
+        "regional-jin-dpm"
+      ],
+      "role": "ruler"
+    },
+    {
+      "dynasty": "金",
+      "polity": "金",
+      "from": 1213,
+      "to": 1224,
+      "name": "完颜珣",
+      "title": "金宣宗",
+      "sources": [
+        "regional-moe3",
+        "regional-jin-dpm",
+        "regional-jin-xuanzong"
+      ],
+      "role": "ruler"
+    },
+    {
+      "dynasty": "金",
+      "polity": "金",
+      "from": 1224,
+      "to": 1234,
+      "name": "完颜守绪",
+      "title": "金哀宗",
+      "sources": [
+        "regional-moe3",
+        "regional-jin-dpm",
+        "regional-jin-xuanzong"
+      ],
+      "role": "ruler"
+    },
+    {
+      "dynasty": "金",
+      "polity": "金",
+      "from": 1234,
+      "to": 1234,
+      "name": "完颜承麟",
+      "title": "金末帝",
+      "sources": [
+        "regional-moe3",
+        "regional-jin-dpm",
+        "regional-jin-last"
+      ],
+      "note": "1234年蔡州被围时受禅，继位旋即战死；不标未经本轮核实的盛昌年号。",
+      "role": "ruler"
+    },
+    {
+      "dynasty": "西夏",
+      "polity": "西夏",
+      "from": 1032,
+      "to": 1048,
+      "name": "李元昊",
+      "title": "西夏景宗",
+      "sources": [
+        "regional-moe3",
+        "regional-ciyuan",
+        "regional-song-xia",
+        "regional-xia-nxu"
+      ],
+      "note": "1032前后继夏国公；1038称大夏皇帝。1032—1037应显示国主／夏国公身份，不能提前称帝。",
+      "role": "ruler"
+    },
+    {
+      "dynasty": "西夏",
+      "polity": "西夏",
+      "from": 1048,
+      "to": 1068,
+      "name": "李谅祚",
+      "title": "西夏毅宗",
+      "sources": [
+        "regional-moe3",
+        "regional-ciyuan",
+        "regional-song-xia",
+        "regional-xia-nxu"
+      ],
+      "note": "1048继位；传统拱化五年1067十二月去世，换公历已在1068年1月。不能用1049延嗣宁国元年充作即位年。",
+      "role": "ruler"
+    },
+    {
+      "dynasty": "西夏",
+      "polity": "西夏",
+      "from": 1068,
+      "to": 1086,
+      "name": "李秉常",
+      "title": "西夏惠宗",
+      "sources": [
+        "regional-moe3",
+        "regional-ciyuan",
+        "regional-song-xia",
+        "regional-xia-nxu"
+      ],
+      "note": "宋史作治平四年冬即位；毅宗卒在传统1067十二月，对应公历1068年1月。1069年为宋廷册封，并非即位。",
+      "role": "ruler"
+    },
+    {
+      "dynasty": "西夏",
+      "polity": "西夏",
+      "from": 1086,
+      "to": 1139,
+      "name": "李乾顺",
+      "title": "西夏崇宗",
+      "sources": [
+        "regional-moe3",
+        "regional-ciyuan",
+        "regional-song-xia",
+        "regional-xia-nxu"
+      ],
+      "role": "ruler"
+    },
+    {
+      "dynasty": "西夏",
+      "polity": "西夏",
+      "from": 1139,
+      "to": 1193,
+      "name": "李仁孝",
+      "title": "西夏仁宗",
+      "sources": [
+        "regional-moe3",
+        "regional-ciyuan",
+        "regional-song-xia",
+        "regional-xia-nxu"
+      ],
+      "role": "ruler"
+    },
+    {
+      "dynasty": "西夏",
+      "polity": "西夏",
+      "from": 1193,
+      "to": 1206,
+      "name": "李纯祐",
+      "title": "西夏桓宗",
+      "sources": [
+        "regional-moe3",
+        "regional-ciyuan",
+        "regional-song-xia",
+        "regional-xia-nxu"
+      ],
+      "note": "1193即位，1194才改天庆，不能把年号首年当即位年。",
+      "role": "ruler"
+    },
+    {
+      "dynasty": "西夏",
+      "polity": "西夏",
+      "from": 1206,
+      "to": 1211,
+      "name": "李安全",
+      "title": "西夏襄宗",
+      "sources": [
+        "regional-moe3",
+        "regional-ciyuan",
+        "regional-song-xia",
+        "regional-xia-nxu",
+        "regional-xia-scholar",
+        "regional-xia-eras"
+      ],
+      "role": "ruler"
+    },
+    {
+      "dynasty": "西夏",
+      "polity": "西夏",
+      "from": 1211,
+      "to": 1223,
+      "name": "李遵顼",
+      "title": "西夏神宗",
+      "sources": [
+        "regional-moe3",
+        "regional-ciyuan",
+        "regional-song-xia",
+        "regional-xia-nxu",
+        "regional-xia-eras"
+      ],
+      "role": "ruler"
+    },
+    {
+      "dynasty": "西夏",
+      "polity": "西夏",
+      "from": 1223,
+      "to": 1226,
+      "name": "李德旺",
+      "title": "西夏献宗",
+      "sources": [
+        "regional-moe3",
+        "regional-ciyuan",
+        "regional-song-xia",
+        "regional-xia-nxu",
+        "regional-xia-eras"
+      ],
+      "role": "ruler"
+    },
+    {
+      "dynasty": "西夏",
+      "polity": "西夏",
+      "from": 1226,
+      "to": 1227,
+      "name": "李睍",
+      "title": "西夏末帝",
+      "sources": [
+        "regional-moe3",
+        "regional-ciyuan",
+        "regional-song-xia",
+        "regional-xia-nxu",
+        "regional-xia-eras"
+      ],
+      "role": "ruler"
+    },
+    {
+      "dynasty": "大理",
+      "polity": "大理",
+      "from": 1094,
+      "to": 1096,
+      "name": "高升泰",
+      "title": "大中国国主",
+      "sources": [
+        "regional-dali-government"
+      ],
+      "note": "此期国号大中／大中国，非段氏大理国。1096归政段氏；不据国主一人等同全部地区实权。",
+      "role": "ruler"
+    },
+    {
+      "dynasty": "大理",
+      "polity": "大理",
+      "from": 1096,
+      "to": 1108,
+      "name": "段正淳",
+      "title": "大理中宗",
+      "sources": [
+        "regional-dali-government",
+        "regional-dali-primary"
+      ],
+      "note": "后理国君主，高氏仍掌握重要实际权力。",
+      "role": "ruler"
+    },
+    {
+      "dynasty": "大理",
+      "polity": "大理",
+      "from": 1108,
+      "to": 1147,
+      "name": "段正严",
+      "title": "大理宪宗",
+      "sources": [
+        "regional-dali-study",
+        "regional-dali-primary"
+      ],
+      "note": "又名段和誉；国主为段氏，实际政治同时需说明高氏相国势力。",
+      "role": "ruler"
+    },
+    {
+      "dynasty": "大理",
+      "polity": "大理",
+      "from": 1147,
+      "to": 1171,
+      "name": "段正兴",
+      "title": "大理景宗",
+      "sources": [
+        "regional-dali-study"
+      ],
+      "note": "所引论文明确1147—1171；终年另有1172说，暂不冒充已完全核定。1172后本轮无足够直接资料，不猜填。",
+      "role": "ruler"
+    },
+    {
+      "polity": "安西都护府",
+      "name": "田扬名",
+      "title": "安西都护",
+      "from": 698,
+      "to": 704,
+      "role": "ruler",
+      "sources": [
+        "verified-leader-1-0"
+      ],
+      "note": "学术注释任期，不自动沿用至714年。",
+      "dynasty": "安西都护府",
+      "eras": []
+    },
+    {
+      "polity": "北庭都护府",
+      "name": "郭虔瓘",
+      "title": "北庭都护、瀚海军经略使",
+      "from": 714,
+      "to": 714,
+      "role": "ruler",
+      "sources": [
+        "verified-leader-0-0",
+        "verified-leader-0-1"
+      ],
+      "note": "本年春北庭守城有原典与出土勋告双重依据；不扩展未经确认的起讫。",
+      "dynasty": "北庭都护府",
+      "eras": []
+    },
+    {
+      "polity": "交趾布政司（1407—1427）",
+      "name": "黄福",
+      "title": "掌交趾布政、按察二司事",
+      "from": 1407,
+      "to": 1424,
+      "role": "ruler",
+      "sources": [
+        "verified-leader-2-0"
+      ],
+      "note": "1407任命，仁宗即位后召还；1427再赴交趾另段处理。",
+      "dynasty": "交趾布政司（1407—1427）",
+      "eras": []
+    },
+    {
+      "polity": "旅大（俄租）",
+      "name": "大岛义昌",
+      "title": "关东都督",
+      "from": 1911,
+      "to": 1911,
+      "role": "ruler",
+      "sources": [
+        "verified-leader-3-0"
+      ],
+      "note": "1911原档明确在任；原atlas键仍为旅大（俄租），显示层需纠正。",
+      "dynasty": "旅大（日租）",
+      "eras": []
+    },
+    {
+      "polity": "九龙新界（英租）",
+      "name": "卢押（Frederick Lugard）",
+      "title": "香港总督",
+      "from": 1911,
+      "to": 1911,
+      "role": "ruler",
+      "sources": [
+        "verified-leader-4-0"
+      ],
+      "note": "1911立法局原始会议记录确证。",
+      "dynasty": "九龙新界（英租）",
+      "eras": []
+    },
+    {
+      "dynasty": "周",
+      "polity": "周王畿",
+      "from": -841,
+      "to": -828,
+      "name": "周公、召公（传世说）",
+      "title": "共和执政",
+      "role": "ruler",
+      "eras": [
+        {
+          "from": -841,
+          "to": -828,
+          "name": "共和",
+          "baseYear": 1
+        }
+      ],
+      "sources": [
+        "anc-shiji-zhou",
+        "anc-shiji-table"
+      ],
+      "note": "不是皇帝或年号。《史记》记二公行政；另有共伯和主政解释，不能把该组姓名当作无争议个人君主。",
+      "verificationLevel": "chronology_crosscheck"
+    },
+    {
+      "dynasty": "周",
+      "polity": "周王畿",
+      "from": -827,
+      "to": -782,
+      "name": "姬靖",
+      "title": "周宣王",
+      "role": "ruler",
+      "eras": [
+        {
+          "from": -827,
+          "to": -782,
+          "name": "周宣王",
+          "baseYear": 1,
+          "note": "王年／公年纪年，不是后世年号。"
+        }
+      ],
+      "sources": [
+        "anc-shiji-zhou",
+        "anc-shiji-table",
+        "anc-six-table",
+        "anc-moe"
+      ],
+      "note": "先秦国君，非皇帝。采用元年起算的年度骨架；年内继位与次年改元须区别，未细分月日。“姬＋名”用作现代检索标签；异体、异名依传世常见写法，非还原当时称名习惯。",
+      "verificationLevel": "chronology_crosscheck"
+    },
+    {
+      "dynasty": "周",
+      "polity": "周王畿",
+      "from": -781,
+      "to": -771,
+      "name": "姬宫湦",
+      "title": "周幽王",
+      "role": "ruler",
+      "eras": [
+        {
+          "from": -781,
+          "to": -771,
+          "name": "周幽王",
+          "baseYear": 1,
+          "note": "王年／公年纪年，不是后世年号。"
+        }
+      ],
+      "sources": [
+        "anc-shiji-zhou",
+        "anc-shiji-table",
+        "anc-six-table",
+        "anc-moe"
+      ],
+      "note": "先秦国君，非皇帝。采用元年起算的年度骨架；年内继位与次年改元须区别，未细分月日。“姬＋名”用作现代检索标签；异体、异名依传世常见写法，非还原当时称名习惯。",
+      "verificationLevel": "chronology_crosscheck"
+    },
+    {
+      "dynasty": "周",
+      "polity": "周王畿",
+      "from": -770,
+      "to": -720,
+      "name": "姬宜臼",
+      "title": "周平王",
+      "role": "ruler",
+      "eras": [
+        {
+          "from": -770,
+          "to": -720,
+          "name": "周平王",
+          "baseYear": 1,
+          "note": "王年／公年纪年，不是后世年号。"
+        }
+      ],
+      "sources": [
+        "anc-shiji-zhou",
+        "anc-shiji-table",
+        "anc-six-table",
+        "anc-moe"
+      ],
+      "note": "先秦国君，非皇帝。采用元年起算的年度骨架；年内继位与次年改元须区别，未细分月日。“姬＋名”用作现代检索标签；异体、异名依传世常见写法，非还原当时称名习惯。",
+      "verificationLevel": "chronology_crosscheck"
+    },
+    {
+      "dynasty": "周",
+      "polity": "周王畿",
+      "from": -719,
+      "to": -697,
+      "name": "姬林",
+      "title": "周桓王",
+      "role": "ruler",
+      "eras": [
+        {
+          "from": -719,
+          "to": -697,
+          "name": "周桓王",
+          "baseYear": 1,
+          "note": "王年／公年纪年，不是后世年号。"
+        }
+      ],
+      "sources": [
+        "anc-shiji-zhou",
+        "anc-shiji-table",
+        "anc-six-table",
+        "anc-moe"
+      ],
+      "note": "先秦国君，非皇帝。采用元年起算的年度骨架；年内继位与次年改元须区别，未细分月日。“姬＋名”用作现代检索标签；异体、异名依传世常见写法，非还原当时称名习惯。",
+      "verificationLevel": "chronology_crosscheck"
+    },
+    {
+      "dynasty": "周",
+      "polity": "周王畿",
+      "from": -696,
+      "to": -682,
+      "name": "姬佗",
+      "title": "周庄王",
+      "role": "ruler",
+      "eras": [
+        {
+          "from": -696,
+          "to": -682,
+          "name": "周庄王",
+          "baseYear": 1,
+          "note": "王年／公年纪年，不是后世年号。"
+        }
+      ],
+      "sources": [
+        "anc-shiji-zhou",
+        "anc-shiji-table",
+        "anc-six-table",
+        "anc-moe"
+      ],
+      "note": "先秦国君，非皇帝。采用元年起算的年度骨架；年内继位与次年改元须区别，未细分月日。“姬＋名”用作现代检索标签；异体、异名依传世常见写法，非还原当时称名习惯。",
+      "verificationLevel": "chronology_crosscheck"
+    },
+    {
+      "dynasty": "齐",
+      "polity": "齐（春秋）",
+      "from": -685,
+      "to": -643,
+      "name": "姜小白",
+      "title": "齐桓公",
+      "role": "ruler",
+      "eras": [
+        {
+          "from": -685,
+          "to": -643,
+          "name": "齐桓公",
+          "baseYear": 1,
+          "note": "王年／公年纪年，不是后世年号。"
+        }
+      ],
+      "sources": [
+        "anc-qihuan",
+        "anc-shiji-table"
+      ],
+      "note": "先秦国君，非皇帝。采用元年起算的年度骨架；年内继位与次年改元须区别，未细分月日。",
+      "verificationLevel": "reference_chronology"
+    },
+    {
+      "dynasty": "周",
+      "polity": "周王畿",
+      "from": -681,
+      "to": -677,
+      "name": "姬胡齐",
+      "title": "周僖王",
+      "role": "ruler",
+      "eras": [
+        {
+          "from": -681,
+          "to": -677,
+          "name": "周僖王",
+          "baseYear": 1,
+          "note": "王年／公年纪年，不是后世年号。"
+        }
+      ],
+      "sources": [
+        "anc-shiji-zhou",
+        "anc-shiji-table",
+        "anc-six-table",
+        "anc-moe"
+      ],
+      "note": "先秦国君，非皇帝。采用元年起算的年度骨架；年内继位与次年改元须区别，未细分月日。“姬＋名”用作现代检索标签；异体、异名依传世常见写法，非还原当时称名习惯。",
+      "verificationLevel": "chronology_crosscheck"
+    },
+    {
+      "dynasty": "周",
+      "polity": "周王畿",
+      "from": -676,
+      "to": -652,
+      "name": "姬阆",
+      "title": "周惠王",
+      "role": "ruler",
+      "eras": [
+        {
+          "from": -676,
+          "to": -652,
+          "name": "周惠王",
+          "baseYear": 1,
+          "note": "王年／公年纪年，不是后世年号。"
+        }
+      ],
+      "sources": [
+        "anc-shiji-zhou",
+        "anc-shiji-table",
+        "anc-six-table",
+        "anc-moe"
+      ],
+      "note": "先秦国君，非皇帝。采用元年起算的年度骨架；年内继位与次年改元须区别，未细分月日。“姬＋名”用作现代检索标签；异体、异名依传世常见写法，非还原当时称名习惯。",
+      "verificationLevel": "chronology_crosscheck"
+    },
+    {
+      "dynasty": "秦",
+      "polity": "秦",
+      "from": -659,
+      "to": -621,
+      "name": "嬴任好",
+      "title": "秦穆公",
+      "role": "ruler",
+      "eras": [
+        {
+          "from": -659,
+          "to": -621,
+          "name": "秦穆公",
+          "baseYear": 1,
+          "note": "王年／公年纪年，不是后世年号。"
+        }
+      ],
+      "sources": [
+        "anc-qin",
+        "anc-shiji-table"
+      ],
+      "note": "先秦国君，非皇帝。采用元年起算的年度骨架；年内继位与次年改元须区别，未细分月日。",
+      "verificationLevel": "reference_chronology"
+    },
+    {
+      "dynasty": "周",
+      "polity": "周王畿",
+      "from": -651,
+      "to": -619,
+      "name": "姬郑",
+      "title": "周襄王",
+      "role": "ruler",
+      "eras": [
+        {
+          "from": -651,
+          "to": -619,
+          "name": "周襄王",
+          "baseYear": 1,
+          "note": "王年／公年纪年，不是后世年号。"
+        }
+      ],
+      "sources": [
+        "anc-shiji-zhou",
+        "anc-shiji-table",
+        "anc-six-table",
+        "anc-moe"
+      ],
+      "note": "先秦国君，非皇帝。采用元年起算的年度骨架；年内继位与次年改元须区别，未细分月日。“姬＋名”用作现代检索标签；异体、异名依传世常见写法，非还原当时称名习惯。",
+      "verificationLevel": "chronology_crosscheck"
+    },
+    {
+      "dynasty": "晋",
+      "polity": "晋（春秋）",
+      "from": -636,
+      "to": -628,
+      "name": "姬重耳",
+      "title": "晋文公",
+      "role": "ruler",
+      "eras": [
+        {
+          "from": -636,
+          "to": -628,
+          "name": "晋文公",
+          "baseYear": 1,
+          "note": "王年／公年纪年，不是后世年号。"
+        }
+      ],
+      "sources": [
+        "anc-jin",
+        "anc-shiji-table"
+      ],
+      "note": "先秦国君，非皇帝。采用元年起算的年度骨架；年内继位与次年改元须区别，未细分月日。",
+      "verificationLevel": "reference_chronology"
+    },
+    {
+      "dynasty": "周",
+      "polity": "周王畿",
+      "from": -618,
+      "to": -613,
+      "name": "姬壬臣",
+      "title": "周顷王",
+      "role": "ruler",
+      "eras": [
+        {
+          "from": -618,
+          "to": -613,
+          "name": "周顷王",
+          "baseYear": 1,
+          "note": "王年／公年纪年，不是后世年号。"
+        }
+      ],
+      "sources": [
+        "anc-shiji-zhou",
+        "anc-shiji-table",
+        "anc-six-table",
+        "anc-moe"
+      ],
+      "note": "先秦国君，非皇帝。采用元年起算的年度骨架；年内继位与次年改元须区别，未细分月日。“姬＋名”用作现代检索标签；异体、异名依传世常见写法，非还原当时称名习惯。",
+      "verificationLevel": "chronology_crosscheck"
+    },
+    {
+      "dynasty": "楚",
+      "polity": "楚（春秋）",
+      "from": -613,
+      "to": -591,
+      "name": "熊旅",
+      "title": "楚庄王",
+      "role": "ruler",
+      "eras": [
+        {
+          "from": -613,
+          "to": -591,
+          "name": "楚庄王",
+          "baseYear": 1,
+          "note": "王年／公年纪年，不是后世年号。"
+        }
+      ],
+      "sources": [
+        "anc-chu",
+        "anc-shiji-table"
+      ],
+      "note": "先秦国君，非皇帝。采用元年起算的年度骨架；年内继位与次年改元须区别，未细分月日。",
+      "verificationLevel": "reference_chronology"
+    },
+    {
+      "dynasty": "周",
+      "polity": "周王畿",
+      "from": -612,
+      "to": -607,
+      "name": "姬班",
+      "title": "周匡王",
+      "role": "ruler",
+      "eras": [
+        {
+          "from": -612,
+          "to": -607,
+          "name": "周匡王",
+          "baseYear": 1,
+          "note": "王年／公年纪年，不是后世年号。"
+        }
+      ],
+      "sources": [
+        "anc-shiji-zhou",
+        "anc-shiji-table",
+        "anc-six-table",
+        "anc-moe"
+      ],
+      "note": "先秦国君，非皇帝。采用元年起算的年度骨架；年内继位与次年改元须区别，未细分月日。“姬＋名”用作现代检索标签；异体、异名依传世常见写法，非还原当时称名习惯。",
+      "verificationLevel": "chronology_crosscheck"
+    },
+    {
+      "dynasty": "周",
+      "polity": "周王畿",
+      "from": -606,
+      "to": -586,
+      "name": "姬瑜",
+      "title": "周定王",
+      "role": "ruler",
+      "eras": [
+        {
+          "from": -606,
+          "to": -586,
+          "name": "周定王",
+          "baseYear": 1,
+          "note": "王年／公年纪年，不是后世年号。"
+        }
+      ],
+      "sources": [
+        "anc-shiji-zhou",
+        "anc-shiji-table",
+        "anc-six-table",
+        "anc-moe"
+      ],
+      "note": "先秦国君，非皇帝。采用元年起算的年度骨架；年内继位与次年改元须区别，未细分月日。“姬＋名”用作现代检索标签；异体、异名依传世常见写法，非还原当时称名习惯。",
+      "verificationLevel": "chronology_crosscheck"
+    },
+    {
+      "dynasty": "周",
+      "polity": "周王畿",
+      "from": -585,
+      "to": -572,
+      "name": "姬夷",
+      "title": "周简王",
+      "role": "ruler",
+      "eras": [
+        {
+          "from": -585,
+          "to": -572,
+          "name": "周简王",
+          "baseYear": 1,
+          "note": "王年／公年纪年，不是后世年号。"
+        }
+      ],
+      "sources": [
+        "anc-shiji-zhou",
+        "anc-shiji-table",
+        "anc-six-table",
+        "anc-moe"
+      ],
+      "note": "先秦国君，非皇帝。采用元年起算的年度骨架；年内继位与次年改元须区别，未细分月日。“姬＋名”用作现代检索标签；异体、异名依传世常见写法，非还原当时称名习惯。",
+      "verificationLevel": "chronology_crosscheck"
+    },
+    {
+      "dynasty": "周",
+      "polity": "周王畿",
+      "from": -571,
+      "to": -545,
+      "name": "姬泄心",
+      "title": "周灵王",
+      "role": "ruler",
+      "eras": [
+        {
+          "from": -571,
+          "to": -545,
+          "name": "周灵王",
+          "baseYear": 1,
+          "note": "王年／公年纪年，不是后世年号。"
+        }
+      ],
+      "sources": [
+        "anc-shiji-zhou",
+        "anc-shiji-table",
+        "anc-six-table",
+        "anc-moe"
+      ],
+      "note": "先秦国君，非皇帝。采用元年起算的年度骨架；年内继位与次年改元须区别，未细分月日。“姬＋名”用作现代检索标签；异体、异名依传世常见写法，非还原当时称名习惯。",
+      "verificationLevel": "chronology_crosscheck"
+    },
+    {
+      "dynasty": "周",
+      "polity": "周王畿",
+      "from": -544,
+      "to": -521,
+      "name": "姬贵",
+      "title": "周景王",
+      "role": "ruler",
+      "eras": [
+        {
+          "from": -544,
+          "to": -521,
+          "name": "周景王",
+          "baseYear": 1,
+          "note": "王年／公年纪年，不是后世年号。"
+        }
+      ],
+      "sources": [
+        "anc-shiji-zhou",
+        "anc-shiji-table",
+        "anc-six-table",
+        "anc-moe"
+      ],
+      "note": "先秦国君，非皇帝。采用元年起算的年度骨架；年内继位与次年改元须区别，未细分月日。“姬＋名”用作现代检索标签；异体、异名依传世常见写法，非还原当时称名习惯。",
+      "verificationLevel": "chronology_crosscheck"
+    },
+    {
+      "dynasty": "周",
+      "polity": "周王畿",
+      "from": -520,
+      "to": -520,
+      "name": "姬猛",
+      "title": "周悼王",
+      "role": "ruler",
+      "eras": [
+        {
+          "from": -520,
+          "to": -520,
+          "name": "周悼王",
+          "baseYear": 1,
+          "note": "王年／公年纪年，不是后世年号。"
+        }
+      ],
+      "sources": [
+        "anc-shiji-zhou",
+        "anc-shiji-table",
+        "anc-six-table",
+        "anc-moe"
+      ],
+      "note": "先秦国君，非皇帝。采用元年起算的年度骨架；年内继位与次年改元须区别，未细分月日。“姬＋名”用作现代检索标签；异体、异名依传世常见写法，非还原当时称名习惯。",
+      "verificationLevel": "chronology_crosscheck"
+    },
+    {
+      "dynasty": "周",
+      "polity": "周王畿",
+      "from": -519,
+      "to": -476,
+      "name": "姬匄",
+      "title": "周敬王",
+      "role": "ruler",
+      "eras": [
+        {
+          "from": -519,
+          "to": -476,
+          "name": "周敬王",
+          "baseYear": 1,
+          "note": "王年／公年纪年，不是后世年号。"
+        }
+      ],
+      "sources": [
+        "anc-shiji-zhou",
+        "anc-shiji-table",
+        "anc-six-table",
+        "anc-moe"
+      ],
+      "note": "先秦国君，非皇帝。采用元年起算的年度骨架；年内继位与次年改元须区别，未细分月日。“姬＋名”用作现代检索标签；异体、异名依传世常见写法，非还原当时称名习惯。",
+      "verificationLevel": "chronology_crosscheck"
+    },
+    {
+      "dynasty": "吴",
+      "polity": "吴（春秋）",
+      "from": -514,
+      "to": -496,
+      "name": "姬光",
+      "title": "吴王阖闾",
+      "role": "ruler",
+      "eras": [
+        {
+          "from": -514,
+          "to": -496,
+          "name": "吴王阖闾",
+          "baseYear": 1,
+          "note": "王年／公年纪年，不是后世年号。"
+        }
+      ],
+      "sources": [
+        "anc-shiji-table"
+      ],
+      "note": "先秦国君，非皇帝。采用元年起算的年度骨架；年内继位与次年改元须区别，未细分月日。",
+      "verificationLevel": "reference_chronology"
+    },
+    {
+      "dynasty": "吴",
+      "polity": "吴（春秋）",
+      "from": -495,
+      "to": -473,
+      "name": "姬夫差",
+      "title": "吴王夫差",
+      "role": "ruler",
+      "eras": [
+        {
+          "from": -495,
+          "to": -473,
+          "name": "吴王夫差",
+          "baseYear": 1,
+          "note": "王年／公年纪年，不是后世年号。"
+        }
+      ],
+      "sources": [
+        "anc-shiji-table"
+      ],
+      "note": "先秦国君，非皇帝。采用元年起算的年度骨架；年内继位与次年改元须区别，未细分月日。",
+      "verificationLevel": "reference_chronology"
+    },
+    {
+      "dynasty": "周",
+      "polity": "周王畿",
+      "from": -475,
+      "to": -469,
+      "name": "姬仁",
+      "title": "周元王",
+      "role": "ruler",
+      "eras": [
+        {
+          "from": -475,
+          "to": -469,
+          "name": "周元王",
+          "baseYear": 1,
+          "note": "王年／公年纪年，不是后世年号。"
+        }
+      ],
+      "sources": [
+        "anc-shiji-zhou",
+        "anc-shiji-table",
+        "anc-six-table",
+        "anc-moe"
+      ],
+      "note": "先秦国君，非皇帝。采用元年起算的年度骨架；年内继位与次年改元须区别，未细分月日。“姬＋名”用作现代检索标签；异体、异名依传世常见写法，非还原当时称名习惯。",
+      "verificationLevel": "chronology_crosscheck"
+    },
+    {
+      "dynasty": "周",
+      "polity": "周王畿",
+      "from": -468,
+      "to": -442,
+      "name": "姬介",
+      "title": "周贞定王",
+      "role": "ruler",
+      "eras": [
+        {
+          "from": -468,
+          "to": -442,
+          "name": "周贞定王",
+          "baseYear": 1,
+          "note": "王年／公年纪年，不是后世年号。"
+        }
+      ],
+      "sources": [
+        "anc-shiji-zhou",
+        "anc-shiji-table",
+        "anc-six-table",
+        "anc-moe"
+      ],
+      "note": "先秦国君，非皇帝。采用元年起算的年度骨架；年内继位与次年改元须区别，未细分月日。“姬＋名”用作现代检索标签；异体、异名依传世常见写法，非还原当时称名习惯。",
+      "verificationLevel": "chronology_crosscheck"
+    },
+    {
+      "dynasty": "周",
+      "polity": "周王畿",
+      "from": -441,
+      "to": -441,
+      "name": "姬去疾",
+      "title": "周哀王",
+      "role": "ruler",
+      "eras": [
+        {
+          "from": -441,
+          "to": -441,
+          "name": "周哀王",
+          "baseYear": 1,
+          "note": "王年／公年纪年，不是后世年号。"
+        }
+      ],
+      "sources": [
+        "anc-shiji-zhou",
+        "anc-shiji-table",
+        "anc-six-table",
+        "anc-moe"
+      ],
+      "note": "先秦国君，非皇帝。采用元年起算的年度骨架；年内继位与次年改元须区别，未细分月日。“姬＋名”用作现代检索标签；异体、异名依传世常见写法，非还原当时称名习惯。",
+      "verificationLevel": "chronology_crosscheck"
+    },
+    {
+      "dynasty": "周",
+      "polity": "周王畿",
+      "from": -441,
+      "to": -441,
+      "name": "姬叔",
+      "title": "周思王",
+      "role": "ruler",
+      "eras": [
+        {
+          "from": -441,
+          "to": -441,
+          "name": "周思王",
+          "baseYear": 1,
+          "note": "王年／公年纪年，不是后世年号。"
+        }
+      ],
+      "sources": [
+        "anc-shiji-zhou",
+        "anc-shiji-table",
+        "anc-six-table",
+        "anc-moe"
+      ],
+      "note": "先秦国君，非皇帝。采用元年起算的年度骨架；年内继位与次年改元须区别，未细分月日。“姬＋名”用作现代检索标签；异体、异名依传世常见写法，非还原当时称名习惯。",
+      "verificationLevel": "chronology_crosscheck"
+    },
+    {
+      "dynasty": "周",
+      "polity": "周王畿",
+      "from": -440,
+      "to": -426,
+      "name": "姬嵬",
+      "title": "周考王",
+      "role": "ruler",
+      "eras": [
+        {
+          "from": -440,
+          "to": -426,
+          "name": "周考王",
+          "baseYear": 1,
+          "note": "王年／公年纪年，不是后世年号。"
+        }
+      ],
+      "sources": [
+        "anc-shiji-zhou",
+        "anc-shiji-table",
+        "anc-six-table",
+        "anc-moe"
+      ],
+      "note": "先秦国君，非皇帝。采用元年起算的年度骨架；年内继位与次年改元须区别，未细分月日。“姬＋名”用作现代检索标签；异体、异名依传世常见写法，非还原当时称名习惯。",
+      "verificationLevel": "chronology_crosscheck"
+    },
+    {
+      "dynasty": "周",
+      "polity": "周王畿",
+      "from": -425,
+      "to": -402,
+      "name": "姬午",
+      "title": "周威烈王",
+      "role": "ruler",
+      "eras": [
+        {
+          "from": -425,
+          "to": -402,
+          "name": "周威烈王",
+          "baseYear": 1,
+          "note": "王年／公年纪年，不是后世年号。"
+        }
+      ],
+      "sources": [
+        "anc-shiji-zhou",
+        "anc-shiji-table",
+        "anc-six-table",
+        "anc-moe"
+      ],
+      "note": "先秦国君，非皇帝。采用元年起算的年度骨架；年内继位与次年改元须区别，未细分月日。“姬＋名”用作现代检索标签；异体、异名依传世常见写法，非还原当时称名习惯。",
+      "verificationLevel": "chronology_crosscheck"
+    },
+    {
+      "dynasty": "魏",
+      "polity": "魏（战国）",
+      "from": -403,
+      "to": -396,
+      "name": "魏斯",
+      "title": "魏文侯",
+      "role": "ruler",
+      "eras": [],
+      "sources": [
+        "anc-weihan",
+        "anc-six-table"
+      ],
+      "note": "先秦国君，非皇帝。采用元年起算的年度骨架；年内继位与次年改元须区别，未细分月日。魏文侯这里只覆盖前403以后地图范围，不以此作即位年；魏惠王跨称王改元，齐魏年序须校订。",
+      "verificationLevel": "reference_chronology"
+    },
+    {
+      "dynasty": "周",
+      "polity": "周王畿",
+      "from": -401,
+      "to": -376,
+      "name": "姬骄",
+      "title": "周安王",
+      "role": "ruler",
+      "eras": [
+        {
+          "from": -401,
+          "to": -376,
+          "name": "周安王",
+          "baseYear": 1,
+          "note": "王年／公年纪年，不是后世年号。"
+        }
+      ],
+      "sources": [
+        "anc-shiji-zhou",
+        "anc-shiji-table",
+        "anc-six-table",
+        "anc-moe"
+      ],
+      "note": "先秦国君，非皇帝。采用元年起算的年度骨架；年内继位与次年改元须区别，未细分月日。“姬＋名”用作现代检索标签；异体、异名依传世常见写法，非还原当时称名习惯。",
+      "verificationLevel": "chronology_crosscheck"
+    },
+    {
+      "dynasty": "魏",
+      "polity": "魏（战国）",
+      "from": -395,
+      "to": -370,
+      "name": "魏击",
+      "title": "魏武侯",
+      "role": "ruler",
+      "eras": [
+        {
+          "from": -395,
+          "to": -370,
+          "name": "魏武侯",
+          "baseYear": 1,
+          "note": "王年／公年纪年，不是后世年号。"
+        }
+      ],
+      "sources": [
+        "anc-weihan",
+        "anc-six-table"
+      ],
+      "note": "先秦国君，非皇帝。采用元年起算的年度骨架；年内继位与次年改元须区别，未细分月日。魏文侯这里只覆盖前403以后地图范围，不以此作即位年；魏惠王跨称王改元，齐魏年序须校订。",
+      "verificationLevel": "reference_chronology"
+    },
+    {
+      "dynasty": "周",
+      "polity": "周王畿",
+      "from": -375,
+      "to": -369,
+      "name": "姬喜",
+      "title": "周烈王",
+      "role": "ruler",
+      "eras": [
+        {
+          "from": -375,
+          "to": -369,
+          "name": "周烈王",
+          "baseYear": 1,
+          "note": "王年／公年纪年，不是后世年号。"
+        }
+      ],
+      "sources": [
+        "anc-shiji-zhou",
+        "anc-shiji-table",
+        "anc-six-table",
+        "anc-moe"
+      ],
+      "note": "先秦国君，非皇帝。采用元年起算的年度骨架；年内继位与次年改元须区别，未细分月日。“姬＋名”用作现代检索标签；异体、异名依传世常见写法，非还原当时称名习惯。",
+      "verificationLevel": "chronology_crosscheck"
+    },
+    {
+      "polity": "楚（战国）",
+      "dynasty": "楚",
+      "from": -369,
+      "to": -340,
+      "title": "楚宣王",
+      "name": "熊良夫",
+      "role": "ruler",
+      "eras": [
+        {
+          "from": -369,
+          "to": -340,
+          "name": "楚宣王",
+          "baseYear": 1,
+          "note": "王年纪年，非后世年号。"
+        }
+      ],
+      "sources": [
+        "anc-chu",
+        "anc-chuxuan"
+      ],
+      "note": "采用通行元年年序，非将《史记》旧表未经校正地直接换算。即位年和元年可能差一年，未恢复到月日。",
+      "verificationLevel": "reference_chronology"
+    },
+    {
+      "dynasty": "魏",
+      "polity": "魏（战国）",
+      "from": -369,
+      "to": -319,
+      "name": "魏罃",
+      "title": "魏惠王",
+      "role": "ruler",
+      "eras": [],
+      "sources": [
+        "anc-weihan",
+        "anc-six-table"
+      ],
+      "note": "先秦国君，非皇帝。采用元年起算的年度骨架；年内继位与次年改元须区别，未细分月日。魏文侯这里只覆盖前403以后地图范围，不以此作即位年；魏惠王跨称王改元，齐魏年序须校订。",
+      "verificationLevel": "reference_chronology"
+    },
+    {
+      "dynasty": "周",
+      "polity": "周王畿",
+      "from": -368,
+      "to": -321,
+      "name": "姬扁",
+      "title": "周显王",
+      "role": "ruler",
+      "eras": [
+        {
+          "from": -368,
+          "to": -321,
+          "name": "周显王",
+          "baseYear": 1,
+          "note": "王年／公年纪年，不是后世年号。"
+        }
+      ],
+      "sources": [
+        "anc-shiji-zhou",
+        "anc-shiji-table",
+        "anc-six-table",
+        "anc-moe"
+      ],
+      "note": "先秦国君，非皇帝。采用元年起算的年度骨架；年内继位与次年改元须区别，未细分月日。“姬＋名”用作现代检索标签；异体、异名依传世常见写法，非还原当时称名习惯。",
+      "verificationLevel": "chronology_crosscheck"
+    },
+    {
+      "dynasty": "韩",
+      "polity": "韩（战国）",
+      "from": -362,
+      "to": -333,
+      "name": "韩武",
+      "title": "韩昭侯",
+      "role": "ruler",
+      "eras": [],
+      "sources": [
+        "anc-han",
+        "anc-six-table",
+        "anc-hanzhao"
+      ],
+      "note": "先秦国君，非皇帝。采用元年起算的年度骨架；年内继位与次年改元须区别，未细分月日。韩昭侯名有仁敬等异说；称王前后不用谥号充当同时代称谓。",
+      "verificationLevel": "reference_chronology"
+    },
+    {
+      "dynasty": "秦",
+      "polity": "秦",
+      "from": -361,
+      "to": -338,
+      "name": "嬴渠梁",
+      "title": "秦孝公",
+      "role": "ruler",
+      "eras": [
+        {
+          "from": -361,
+          "to": -338,
+          "name": "秦孝公",
+          "baseYear": 1,
+          "note": "王年／公年纪年，不是后世年号。"
+        }
+      ],
+      "sources": [
+        "anc-qin",
+        "anc-six-table"
+      ],
+      "note": "先秦国君，非皇帝。采用元年起算的年度骨架；年内继位与次年改元须区别，未细分月日。秦王政在前221年统一后才称始皇帝；惠文君称王前后改元另有变化，本表不在该段硬造单一连续纪年标签。",
+      "verificationLevel": "reference_chronology"
+    },
+    {
+      "dynasty": "齐",
+      "polity": "齐（战国）",
+      "from": -356,
+      "to": -320,
+      "name": "田因齐",
+      "title": "齐威王",
+      "role": "ruler",
+      "eras": [],
+      "sources": [
+        "anc-qi",
+        "anc-qixuan"
+      ],
+      "note": "先秦国君，非皇帝。采用元年起算的年度骨架；年内继位与次年改元须区别，未细分月日。采用通行修订的田齐纪年，非机械照抄《史记·六国年表》齐魏旧列；威王称王前后不以谥号冒充当时正式称号。",
+      "verificationLevel": "reference_chronology"
+    },
+    {
+      "dynasty": "楚",
+      "polity": "楚（战国）",
+      "from": -339,
+      "to": -329,
+      "name": "熊商",
+      "title": "楚威王",
+      "role": "ruler",
+      "eras": [
+        {
+          "from": -339,
+          "to": -329,
+          "name": "楚威王",
+          "baseYear": 1,
+          "note": "王年／公年纪年，不是后世年号。"
+        }
+      ],
+      "sources": [
+        "anc-chu",
+        "anc-six-table"
+      ],
+      "note": "先秦国君，非皇帝。采用元年起算的年度骨架；年内继位与次年改元须区别，未细分月日。",
+      "verificationLevel": "reference_chronology"
+    },
+    {
+      "dynasty": "秦",
+      "polity": "秦",
+      "from": -337,
+      "to": -311,
+      "name": "嬴驷",
+      "title": "秦惠文王",
+      "role": "ruler",
+      "eras": [],
+      "sources": [
+        "anc-qin",
+        "anc-six-table"
+      ],
+      "note": "先秦国君，非皇帝。采用元年起算的年度骨架；年内继位与次年改元须区别，未细分月日。秦王政在前221年统一后才称始皇帝；惠文君称王前后改元另有变化，本表不在该段硬造单一连续纪年标签。",
+      "verificationLevel": "reference_chronology"
+    },
+    {
+      "dynasty": "韩",
+      "polity": "韩（战国）",
+      "from": -332,
+      "to": -312,
+      "name": "韩康",
+      "title": "韩宣惠王",
+      "role": "ruler",
+      "eras": [],
+      "sources": [
+        "anc-han",
+        "anc-six-table",
+        "anc-hanzhao"
+      ],
+      "note": "先秦国君，非皇帝。采用元年起算的年度骨架；年内继位与次年改元须区别，未细分月日。韩昭侯名有仁敬等异说；称王前后不用谥号充当同时代称谓。",
+      "verificationLevel": "reference_chronology"
+    },
+    {
+      "dynasty": "楚",
+      "polity": "楚（战国）",
+      "from": -328,
+      "to": -299,
+      "name": "熊槐",
+      "title": "楚怀王",
+      "role": "ruler",
+      "eras": [
+        {
+          "from": -328,
+          "to": -299,
+          "name": "楚怀王",
+          "baseYear": 1,
+          "note": "王年／公年纪年，不是后世年号。"
+        }
+      ],
+      "sources": [
+        "anc-chu",
+        "anc-six-table"
+      ],
+      "note": "先秦国君，非皇帝。采用元年起算的年度骨架；年内继位与次年改元须区别，未细分月日。",
+      "verificationLevel": "reference_chronology"
+    },
+    {
+      "dynasty": "赵",
+      "polity": "赵（战国）",
+      "from": -325,
+      "to": -299,
+      "name": "赵雍",
+      "title": "赵武灵王",
+      "role": "ruler",
+      "eras": [],
+      "sources": [
+        "anc-zhao",
+        "anc-six-table",
+        "anc-zhaowuling"
+      ],
+      "note": "先秦国君，非皇帝。采用元年起算的年度骨架；年内继位与次年改元须区别，未细分月日。武灵王采用元年前325口径；其即位与元年可能差一年，退位后以主父身份掌权至前295，不能继续列为在位王。",
+      "verificationLevel": "reference_chronology"
+    },
+    {
+      "dynasty": "周",
+      "polity": "周王畿",
+      "from": -320,
+      "to": -315,
+      "name": "姬定",
+      "title": "周慎靓王",
+      "role": "ruler",
+      "eras": [
+        {
+          "from": -320,
+          "to": -315,
+          "name": "周慎靓王",
+          "baseYear": 1,
+          "note": "王年／公年纪年，不是后世年号。"
+        }
+      ],
+      "sources": [
+        "anc-shiji-zhou",
+        "anc-shiji-table",
+        "anc-six-table",
+        "anc-moe"
+      ],
+      "note": "先秦国君，非皇帝。采用元年起算的年度骨架；年内继位与次年改元须区别，未细分月日。“姬＋名”用作现代检索标签；异体、异名依传世常见写法，非还原当时称名习惯。",
+      "verificationLevel": "chronology_crosscheck"
+    },
+    {
+      "dynasty": "齐",
+      "polity": "齐（战国）",
+      "from": -319,
+      "to": -301,
+      "name": "田辟疆",
+      "title": "齐宣王",
+      "role": "ruler",
+      "eras": [
+        {
+          "from": -319,
+          "to": -301,
+          "name": "齐宣王",
+          "baseYear": 1,
+          "note": "王年／公年纪年，不是后世年号。"
+        }
+      ],
+      "sources": [
+        "anc-qi",
+        "anc-qixuan"
+      ],
+      "note": "先秦国君，非皇帝。采用元年起算的年度骨架；年内继位与次年改元须区别，未细分月日。采用通行修订的田齐纪年，非机械照抄《史记·六国年表》齐魏旧列；威王称王前后不以谥号冒充当时正式称号。",
+      "verificationLevel": "reference_chronology"
+    },
+    {
+      "polity": "魏（战国）",
+      "dynasty": "魏",
+      "from": -318,
+      "to": -296,
+      "title": "魏襄王",
+      "name": "魏嗣",
+      "role": "ruler",
+      "eras": [
+        {
+          "from": -318,
+          "to": -296,
+          "name": "魏襄王",
+          "baseYear": 1,
+          "note": "王年纪年，非后世年号。"
+        }
+      ],
+      "sources": [
+        "anc-weihan",
+        "anc-weixiang"
+      ],
+      "note": "采用通行元年年序，非将《史记》旧表未经校正地直接换算。即位年和元年可能差一年，未恢复到月日。",
+      "verificationLevel": "reference_chronology"
+    },
+    {
+      "dynasty": "周",
+      "polity": "周王畿",
+      "from": -314,
+      "to": -256,
+      "name": "姬延",
+      "title": "周赧王",
+      "role": "ruler",
+      "eras": [
+        {
+          "from": -314,
+          "to": -256,
+          "name": "周赧王",
+          "baseYear": 1,
+          "note": "王年／公年纪年，不是后世年号。"
+        }
+      ],
+      "sources": [
+        "anc-shiji-zhou",
+        "anc-shiji-table",
+        "anc-six-table",
+        "anc-moe"
+      ],
+      "note": "先秦国君，非皇帝。采用元年起算的年度骨架；年内继位与次年改元须区别，未细分月日。“姬＋名”用作现代检索标签；异体、异名依传世常见写法，非还原当时称名习惯。",
+      "verificationLevel": "chronology_crosscheck"
+    },
+    {
+      "dynasty": "韩",
+      "polity": "韩（战国）",
+      "from": -311,
+      "to": -296,
+      "name": "韩仓",
+      "title": "韩襄王",
+      "role": "ruler",
+      "eras": [
+        {
+          "from": -311,
+          "to": -296,
+          "name": "韩襄王",
+          "baseYear": 1,
+          "note": "王年／公年纪年，不是后世年号。"
+        }
+      ],
+      "sources": [
+        "anc-han",
+        "anc-six-table",
+        "anc-hanzhao"
+      ],
+      "note": "先秦国君，非皇帝。采用元年起算的年度骨架；年内继位与次年改元须区别，未细分月日。韩昭侯名有仁敬等异说；称王前后不用谥号充当同时代称谓。",
+      "verificationLevel": "reference_chronology"
+    },
+    {
+      "dynasty": "燕",
+      "polity": "燕（战国）",
+      "from": -311,
+      "to": -279,
+      "name": "姬职",
+      "title": "燕昭王",
+      "role": "ruler",
+      "eras": [
+        {
+          "from": -311,
+          "to": -279,
+          "name": "燕昭王",
+          "baseYear": 1,
+          "note": "王年／公年纪年，不是后世年号。"
+        }
+      ],
+      "sources": [
+        "anc-yan",
+        "anc-six-table"
+      ],
+      "note": "先秦国君，非皇帝。采用元年起算的年度骨架；年内继位与次年改元须区别，未细分月日。未可靠整理个人名的君主明确保留名未详。",
+      "verificationLevel": "reference_chronology"
+    },
+    {
+      "dynasty": "秦",
+      "polity": "秦",
+      "from": -310,
+      "to": -307,
+      "name": "嬴荡",
+      "title": "秦武王",
+      "role": "ruler",
+      "eras": [
+        {
+          "from": -310,
+          "to": -307,
+          "name": "秦武王",
+          "baseYear": 1,
+          "note": "王年／公年纪年，不是后世年号。"
+        }
+      ],
+      "sources": [
+        "anc-qin",
+        "anc-six-table"
+      ],
+      "note": "先秦国君，非皇帝。采用元年起算的年度骨架；年内继位与次年改元须区别，未细分月日。秦王政在前221年统一后才称始皇帝；惠文君称王前后改元另有变化，本表不在该段硬造单一连续纪年标签。",
+      "verificationLevel": "reference_chronology"
+    },
+    {
+      "dynasty": "秦",
+      "polity": "秦",
+      "from": -306,
+      "to": -251,
+      "name": "嬴稷",
+      "title": "秦昭襄王",
+      "role": "ruler",
+      "eras": [
+        {
+          "from": -306,
+          "to": -251,
+          "name": "秦昭襄王",
+          "baseYear": 1,
+          "note": "王年／公年纪年，不是后世年号。"
+        }
+      ],
+      "sources": [
+        "anc-qin",
+        "anc-six-table"
+      ],
+      "note": "先秦国君，非皇帝。采用元年起算的年度骨架；年内继位与次年改元须区别，未细分月日。秦王政在前221年统一后才称始皇帝；惠文君称王前后改元另有变化，本表不在该段硬造单一连续纪年标签。",
+      "verificationLevel": "reference_chronology"
+    },
+    {
+      "dynasty": "齐",
+      "polity": "齐（战国）",
+      "from": -300,
+      "to": -284,
+      "name": "田地",
+      "title": "齐湣王",
+      "role": "ruler",
+      "eras": [
+        {
+          "from": -300,
+          "to": -284,
+          "name": "齐湣王",
+          "baseYear": 1,
+          "note": "王年／公年纪年，不是后世年号。"
+        }
+      ],
+      "sources": [
+        "anc-qi",
+        "anc-qixuan"
+      ],
+      "note": "先秦国君，非皇帝。采用元年起算的年度骨架；年内继位与次年改元须区别，未细分月日。采用通行修订的田齐纪年，非机械照抄《史记·六国年表》齐魏旧列；威王称王前后不以谥号冒充当时正式称号。",
+      "verificationLevel": "reference_chronology"
+    },
+    {
+      "dynasty": "赵",
+      "polity": "赵（战国）",
+      "from": -298,
+      "to": -266,
+      "name": "赵何",
+      "title": "赵惠文王",
+      "role": "ruler",
+      "eras": [
+        {
+          "from": -298,
+          "to": -266,
+          "name": "赵惠文王",
+          "baseYear": 1,
+          "note": "王年／公年纪年，不是后世年号。"
+        }
+      ],
+      "sources": [
+        "anc-zhao",
+        "anc-six-table",
+        "anc-zhaowuling"
+      ],
+      "note": "先秦国君，非皇帝。采用元年起算的年度骨架；年内继位与次年改元须区别，未细分月日。武灵王采用元年前325口径；其即位与元年可能差一年，退位后以主父身份掌权至前295，不能继续列为在位王。",
+      "verificationLevel": "reference_chronology"
+    },
+    {
+      "dynasty": "楚",
+      "polity": "楚（战国）",
+      "from": -298,
+      "to": -263,
+      "name": "熊横",
+      "title": "楚顷襄王",
+      "role": "ruler",
+      "eras": [
+        {
+          "from": -298,
+          "to": -263,
+          "name": "楚顷襄王",
+          "baseYear": 1,
+          "note": "王年／公年纪年，不是后世年号。"
+        }
+      ],
+      "sources": [
+        "anc-chu",
+        "anc-six-table"
+      ],
+      "note": "先秦国君，非皇帝。采用元年起算的年度骨架；年内继位与次年改元须区别，未细分月日。",
+      "verificationLevel": "reference_chronology"
+    },
+    {
+      "polity": "魏（战国）",
+      "dynasty": "魏",
+      "from": -295,
+      "to": -277,
+      "title": "魏昭王",
+      "name": "魏遫",
+      "role": "ruler",
+      "eras": [
+        {
+          "from": -295,
+          "to": -277,
+          "name": "魏昭王",
+          "baseYear": 1,
+          "note": "王年纪年，非后世年号。"
+        }
+      ],
+      "sources": [
+        "anc-weihan",
+        "anc-weizhao"
+      ],
+      "note": "采用通行元年年序，非将《史记》旧表未经校正地直接换算。即位年和元年可能差一年，未恢复到月日。",
+      "verificationLevel": "reference_chronology"
+    },
+    {
+      "dynasty": "韩",
+      "polity": "韩（战国）",
+      "from": -295,
+      "to": -273,
+      "name": "韩咎",
+      "title": "韩釐王",
+      "role": "ruler",
+      "eras": [
+        {
+          "from": -295,
+          "to": -273,
+          "name": "韩釐王",
+          "baseYear": 1,
+          "note": "王年／公年纪年，不是后世年号。"
+        }
+      ],
+      "sources": [
+        "anc-han",
+        "anc-six-table",
+        "anc-hanzhao"
+      ],
+      "note": "先秦国君，非皇帝。采用元年起算的年度骨架；年内继位与次年改元须区别，未细分月日。韩昭侯名有仁敬等异说；称王前后不用谥号充当同时代称谓。",
+      "verificationLevel": "reference_chronology"
+    },
+    {
+      "dynasty": "齐",
+      "polity": "齐（战国）",
+      "from": -283,
+      "to": -265,
+      "name": "田法章",
+      "title": "齐襄王",
+      "role": "ruler",
+      "eras": [
+        {
+          "from": -283,
+          "to": -265,
+          "name": "齐襄王",
+          "baseYear": 1,
+          "note": "王年／公年纪年，不是后世年号。"
+        }
+      ],
+      "sources": [
+        "anc-qi",
+        "anc-qixuan"
+      ],
+      "note": "先秦国君，非皇帝。采用元年起算的年度骨架；年内继位与次年改元须区别，未细分月日。采用通行修订的田齐纪年，非机械照抄《史记·六国年表》齐魏旧列；威王称王前后不以谥号冒充当时正式称号。",
+      "verificationLevel": "reference_chronology"
+    },
+    {
+      "dynasty": "燕",
+      "polity": "燕（战国）",
+      "from": -278,
+      "to": -272,
+      "name": "姬乐资",
+      "title": "燕惠王",
+      "role": "ruler",
+      "eras": [
+        {
+          "from": -278,
+          "to": -272,
+          "name": "燕惠王",
+          "baseYear": 1,
+          "note": "王年／公年纪年，不是后世年号。"
+        }
+      ],
+      "sources": [
+        "anc-yan",
+        "anc-six-table"
+      ],
+      "note": "先秦国君，非皇帝。采用元年起算的年度骨架；年内继位与次年改元须区别，未细分月日。未可靠整理个人名的君主明确保留名未详。",
+      "verificationLevel": "reference_chronology"
+    },
+    {
+      "dynasty": "魏",
+      "polity": "魏（战国）",
+      "from": -276,
+      "to": -243,
+      "name": "魏圉",
+      "title": "魏安釐王",
+      "role": "ruler",
+      "eras": [
+        {
+          "from": -276,
+          "to": -243,
+          "name": "魏安釐王",
+          "baseYear": 1,
+          "note": "王年／公年纪年，不是后世年号。"
+        }
+      ],
+      "sources": [
+        "anc-weihan",
+        "anc-six-table"
+      ],
+      "note": "先秦国君，非皇帝。采用元年起算的年度骨架；年内继位与次年改元须区别，未细分月日。魏文侯这里只覆盖前403以后地图范围，不以此作即位年；魏惠王跨称王改元，齐魏年序须校订。",
+      "verificationLevel": "reference_chronology"
+    },
+    {
+      "dynasty": "韩",
+      "polity": "韩（战国）",
+      "from": -272,
+      "to": -239,
+      "name": "韩然",
+      "title": "韩桓惠王",
+      "role": "ruler",
+      "eras": [
+        {
+          "from": -272,
+          "to": -239,
+          "name": "韩桓惠王",
+          "baseYear": 1,
+          "note": "王年／公年纪年，不是后世年号。"
+        }
+      ],
+      "sources": [
+        "anc-han",
+        "anc-six-table",
+        "anc-hanzhao"
+      ],
+      "note": "先秦国君，非皇帝。采用元年起算的年度骨架；年内继位与次年改元须区别，未细分月日。韩昭侯名有仁敬等异说；称王前后不用谥号充当同时代称谓。",
+      "verificationLevel": "reference_chronology"
+    },
+    {
+      "dynasty": "燕",
+      "polity": "燕（战国）",
+      "from": -271,
+      "to": -258,
+      "name": "名未详",
+      "title": "燕武成王",
+      "role": "ruler",
+      "eras": [],
+      "sources": [
+        "anc-yan",
+        "anc-six-table"
+      ],
+      "note": "先秦国君，非皇帝。采用元年起算的年度骨架；年内继位与次年改元须区别，未细分月日。未可靠整理个人名的君主明确保留名未详。",
+      "verificationLevel": "reference_chronology"
+    },
+    {
+      "dynasty": "赵",
+      "polity": "赵（战国）",
+      "from": -265,
+      "to": -245,
+      "name": "赵丹",
+      "title": "赵孝成王",
+      "role": "ruler",
+      "eras": [
+        {
+          "from": -265,
+          "to": -245,
+          "name": "赵孝成王",
+          "baseYear": 1,
+          "note": "王年／公年纪年，不是后世年号。"
+        }
+      ],
+      "sources": [
+        "anc-zhao",
+        "anc-six-table",
+        "anc-zhaowuling"
+      ],
+      "note": "先秦国君，非皇帝。采用元年起算的年度骨架；年内继位与次年改元须区别，未细分月日。武灵王采用元年前325口径；其即位与元年可能差一年，退位后以主父身份掌权至前295，不能继续列为在位王。",
+      "verificationLevel": "reference_chronology"
+    },
+    {
+      "dynasty": "齐",
+      "polity": "齐（战国）",
+      "from": -264,
+      "to": -221,
+      "name": "田建",
+      "title": "齐王建",
+      "role": "ruler",
+      "eras": [
+        {
+          "from": -264,
+          "to": -221,
+          "name": "齐王建",
+          "baseYear": 1,
+          "note": "王年／公年纪年，不是后世年号。"
+        }
+      ],
+      "sources": [
+        "anc-qi",
+        "anc-qixuan"
+      ],
+      "note": "先秦国君，非皇帝。采用元年起算的年度骨架；年内继位与次年改元须区别，未细分月日。采用通行修订的田齐纪年，非机械照抄《史记·六国年表》齐魏旧列；威王称王前后不以谥号冒充当时正式称号。",
+      "verificationLevel": "reference_chronology"
+    },
+    {
+      "dynasty": "楚",
+      "polity": "楚（战国）",
+      "from": -262,
+      "to": -238,
+      "name": "熊完",
+      "title": "楚考烈王",
+      "role": "ruler",
+      "eras": [
+        {
+          "from": -262,
+          "to": -238,
+          "name": "楚考烈王",
+          "baseYear": 1,
+          "note": "王年／公年纪年，不是后世年号。"
+        }
+      ],
+      "sources": [
+        "anc-chu",
+        "anc-six-table"
+      ],
+      "note": "先秦国君，非皇帝。采用元年起算的年度骨架；年内继位与次年改元须区别，未细分月日。",
+      "verificationLevel": "reference_chronology"
+    },
+    {
+      "dynasty": "燕",
+      "polity": "燕（战国）",
+      "from": -257,
+      "to": -255,
+      "name": "名未详",
+      "title": "燕孝王",
+      "role": "ruler",
+      "eras": [],
+      "sources": [
+        "anc-yan",
+        "anc-six-table"
+      ],
+      "note": "先秦国君，非皇帝。采用元年起算的年度骨架；年内继位与次年改元须区别，未细分月日。未可靠整理个人名的君主明确保留名未详。",
+      "verificationLevel": "reference_chronology"
+    },
+    {
+      "dynasty": "燕",
+      "polity": "燕（战国）",
+      "from": -254,
+      "to": -222,
+      "name": "姬喜",
+      "title": "燕王喜",
+      "role": "ruler",
+      "eras": [
+        {
+          "from": -254,
+          "to": -222,
+          "name": "燕王喜",
+          "baseYear": 1,
+          "note": "王年／公年纪年，不是后世年号。"
+        }
+      ],
+      "sources": [
+        "anc-yan",
+        "anc-six-table"
+      ],
+      "note": "先秦国君，非皇帝。采用元年起算的年度骨架；年内继位与次年改元须区别，未细分月日。未可靠整理个人名的君主明确保留名未详。",
+      "verificationLevel": "reference_chronology"
+    },
+    {
+      "dynasty": "秦",
+      "polity": "秦",
+      "from": -250,
+      "to": -250,
+      "name": "嬴柱",
+      "title": "秦孝文王",
+      "role": "ruler",
+      "eras": [
+        {
+          "from": -250,
+          "to": -250,
+          "name": "秦孝文王",
+          "baseYear": 1,
+          "note": "王年／公年纪年，不是后世年号。"
+        }
+      ],
+      "sources": [
+        "anc-qin",
+        "anc-six-table"
+      ],
+      "note": "先秦国君，非皇帝。采用元年起算的年度骨架；年内继位与次年改元须区别，未细分月日。秦王政在前221年统一后才称始皇帝；惠文君称王前后改元另有变化，本表不在该段硬造单一连续纪年标签。",
+      "verificationLevel": "reference_chronology"
+    },
+    {
+      "dynasty": "秦",
+      "polity": "秦",
+      "from": -249,
+      "to": -247,
+      "name": "嬴子楚",
+      "title": "秦庄襄王",
+      "role": "ruler",
+      "eras": [
+        {
+          "from": -249,
+          "to": -247,
+          "name": "秦庄襄王",
+          "baseYear": 1,
+          "note": "王年／公年纪年，不是后世年号。"
+        }
+      ],
+      "sources": [
+        "anc-qin",
+        "anc-six-table"
+      ],
+      "note": "先秦国君，非皇帝。采用元年起算的年度骨架；年内继位与次年改元须区别，未细分月日。秦王政在前221年统一后才称始皇帝；惠文君称王前后改元另有变化，本表不在该段硬造单一连续纪年标签。",
+      "verificationLevel": "reference_chronology"
+    },
+    {
+      "dynasty": "秦",
+      "polity": "秦",
+      "from": -246,
+      "to": -222,
+      "name": "嬴政",
+      "title": "秦王政",
+      "role": "ruler",
+      "eras": [
+        {
+          "from": -246,
+          "to": -222,
+          "name": "秦王政",
+          "baseYear": 1,
+          "note": "王年／公年纪年，不是后世年号。"
+        }
+      ],
+      "sources": [
+        "anc-qin",
+        "anc-six-table"
+      ],
+      "note": "先秦国君，非皇帝。采用元年起算的年度骨架；年内继位与次年改元须区别，未细分月日。秦王政在前221年统一后才称始皇帝；惠文君称王前后改元另有变化，本表不在该段硬造单一连续纪年标签。",
+      "verificationLevel": "reference_chronology"
+    },
+    {
+      "dynasty": "赵",
+      "polity": "赵（战国）",
+      "from": -244,
+      "to": -236,
+      "name": "赵偃",
+      "title": "赵悼襄王",
+      "role": "ruler",
+      "eras": [
+        {
+          "from": -244,
+          "to": -236,
+          "name": "赵悼襄王",
+          "baseYear": 1,
+          "note": "王年／公年纪年，不是后世年号。"
+        }
+      ],
+      "sources": [
+        "anc-zhao",
+        "anc-six-table",
+        "anc-zhaowuling"
+      ],
+      "note": "先秦国君，非皇帝。采用元年起算的年度骨架；年内继位与次年改元须区别，未细分月日。武灵王采用元年前325口径；其即位与元年可能差一年，退位后以主父身份掌权至前295，不能继续列为在位王。",
+      "verificationLevel": "reference_chronology"
+    },
+    {
+      "dynasty": "魏",
+      "polity": "魏（战国）",
+      "from": -242,
+      "to": -228,
+      "name": "魏增",
+      "title": "魏景湣王",
+      "role": "ruler",
+      "eras": [
+        {
+          "from": -242,
+          "to": -228,
+          "name": "魏景湣王",
+          "baseYear": 1,
+          "note": "王年／公年纪年，不是后世年号。"
+        }
+      ],
+      "sources": [
+        "anc-weihan",
+        "anc-six-table"
+      ],
+      "note": "先秦国君，非皇帝。采用元年起算的年度骨架；年内继位与次年改元须区别，未细分月日。魏文侯这里只覆盖前403以后地图范围，不以此作即位年；魏惠王跨称王改元，齐魏年序须校订。",
+      "verificationLevel": "reference_chronology"
+    },
+    {
+      "dynasty": "韩",
+      "polity": "韩（战国）",
+      "from": -238,
+      "to": -230,
+      "name": "韩安",
+      "title": "韩王安",
+      "role": "ruler",
+      "eras": [
+        {
+          "from": -238,
+          "to": -230,
+          "name": "韩王安",
+          "baseYear": 1,
+          "note": "王年／公年纪年，不是后世年号。"
+        }
+      ],
+      "sources": [
+        "anc-han",
+        "anc-six-table",
+        "anc-hanzhao"
+      ],
+      "note": "先秦国君，非皇帝。采用元年起算的年度骨架；年内继位与次年改元须区别，未细分月日。韩昭侯名有仁敬等异说；称王前后不用谥号充当同时代称谓。",
+      "verificationLevel": "reference_chronology"
+    },
+    {
+      "dynasty": "楚",
+      "polity": "楚（战国）",
+      "from": -237,
+      "to": -228,
+      "name": "熊悍",
+      "title": "楚幽王",
+      "role": "ruler",
+      "eras": [
+        {
+          "from": -237,
+          "to": -228,
+          "name": "楚幽王",
+          "baseYear": 1,
+          "note": "王年／公年纪年，不是后世年号。"
+        }
+      ],
+      "sources": [
+        "anc-chu",
+        "anc-six-table"
+      ],
+      "note": "先秦国君，非皇帝。采用元年起算的年度骨架；年内继位与次年改元须区别，未细分月日。",
+      "verificationLevel": "reference_chronology"
+    },
+    {
+      "dynasty": "赵",
+      "polity": "赵（战国）",
+      "from": -235,
+      "to": -228,
+      "name": "赵迁",
+      "title": "赵幽缪王",
+      "role": "ruler",
+      "eras": [
+        {
+          "from": -235,
+          "to": -228,
+          "name": "赵幽缪王",
+          "baseYear": 1,
+          "note": "王年／公年纪年，不是后世年号。"
+        }
+      ],
+      "sources": [
+        "anc-zhao",
+        "anc-six-table",
+        "anc-zhaowuling"
+      ],
+      "note": "先秦国君，非皇帝。采用元年起算的年度骨架；年内继位与次年改元须区别，未细分月日。武灵王采用元年前325口径；其即位与元年可能差一年，退位后以主父身份掌权至前295，不能继续列为在位王。",
+      "verificationLevel": "reference_chronology"
+    },
+    {
+      "dynasty": "楚",
+      "polity": "楚（战国）",
+      "from": -228,
+      "to": -228,
+      "name": "熊犹",
+      "title": "楚哀王",
+      "role": "ruler",
+      "eras": [
+        {
+          "from": -228,
+          "to": -228,
+          "name": "楚哀王",
+          "baseYear": 1,
+          "note": "王年／公年纪年，不是后世年号。"
+        }
+      ],
+      "sources": [
+        "anc-chu",
+        "anc-six-table"
+      ],
+      "note": "先秦国君，非皇帝。采用元年起算的年度骨架；年内继位与次年改元须区别，未细分月日。",
+      "verificationLevel": "reference_chronology"
+    },
+    {
+      "dynasty": "魏",
+      "polity": "魏（战国）",
+      "from": -227,
+      "to": -225,
+      "name": "魏假",
+      "title": "魏王假",
+      "role": "ruler",
+      "eras": [
+        {
+          "from": -227,
+          "to": -225,
+          "name": "魏王假",
+          "baseYear": 1,
+          "note": "王年／公年纪年，不是后世年号。"
+        }
+      ],
+      "sources": [
+        "anc-weihan",
+        "anc-six-table"
+      ],
+      "note": "先秦国君，非皇帝。采用元年起算的年度骨架；年内继位与次年改元须区别，未细分月日。魏文侯这里只覆盖前403以后地图范围，不以此作即位年；魏惠王跨称王改元，齐魏年序须校订。",
+      "verificationLevel": "reference_chronology"
+    },
+    {
+      "dynasty": "楚",
+      "polity": "楚（战国）",
+      "from": -227,
+      "to": -223,
+      "name": "熊负刍",
+      "title": "楚王负刍",
+      "role": "ruler",
+      "eras": [
+        {
+          "from": -227,
+          "to": -223,
+          "name": "楚王负刍",
+          "baseYear": 1,
+          "note": "王年／公年纪年，不是后世年号。"
+        }
+      ],
+      "sources": [
+        "anc-chu",
+        "anc-six-table"
+      ],
+      "note": "先秦国君，非皇帝。采用元年起算的年度骨架；年内继位与次年改元须区别，未细分月日。",
+      "verificationLevel": "reference_chronology"
+    },
+    {
+      "dynasty": "赵",
+      "polity": "代（战国）",
+      "from": -227,
+      "to": -222,
+      "name": "赵嘉",
+      "title": "代王",
+      "role": "ruler",
+      "eras": [
+        {
+          "from": -227,
+          "to": -222,
+          "name": "代王",
+          "baseYear": 1,
+          "note": "王年／公年纪年，不是后世年号。"
+        }
+      ],
+      "sources": [
+        "anc-zhao",
+        "anc-six-table"
+      ],
+      "note": "先秦国君，非皇帝。采用元年起算的年度骨架；年内继位与次年改元须区别，未细分月日。",
+      "verificationLevel": "reference_chronology"
+    }
+  ],
+  "version": 1,
+  "scope": "Annual reign and era reading aid. Inclusive years allow succession-year overlap. Era boundaries without exact dates are annual approximations; inherited accession-year eras remain incomplete. Borders are a separate snapshot layer."
+}

@@ -1,0 +1,1449 @@
+{
+  "version": 1,
+  "updated": "2026-10-25",
+  "scope": "Dated unfilled labels for nearby polities, confederations and historical groups. Display windows and approximate activity anchors are not exact founding/extinction dates, capitals, borders or population maps.",
+  "sources": {
+    "ne-nmc": {
+      "title": "中国国家博物馆《古代中国》·夏商西周时期",
+      "url": "https://www.chnmuseum.cn/portals/0/web/zt/gudai/detail2.html"
+    },
+    "ne-shiji110": {
+      "title": "《史记》卷110·匈奴列传",
+      "url": "https://zh.wikisource.org/wiki/史記/卷110"
+    },
+    "ne-shiji115": {
+      "title": "《史记》卷115·朝鲜列传",
+      "url": "https://zh.wikisource.org/wiki/史記/卷115"
+    },
+    "ne-shiji113": {
+      "title": "《史记》卷113·南越列传",
+      "url": "https://zh.wikisource.org/wiki/史記/卷113"
+    },
+    "ne-shiji114": {
+      "title": "《史记》卷114·东越列传",
+      "url": "https://zh.wikisource.org/wiki/史記/卷114"
+    },
+    "ne-shiji116": {
+      "title": "《史记》卷116·西南夷列传",
+      "url": "https://zh.wikisource.org/wiki/史記/卷116"
+    },
+    "ne-shiji123": {
+      "title": "《史记》卷123·大宛列传",
+      "url": "https://zh.wikisource.org/wiki/史記/卷123"
+    },
+    "ne-hanshu96": {
+      "title": "《汉书》卷96上·西域传",
+      "url": "https://zh.wikisource.org/wiki/漢書/卷096上"
+    },
+    "ne-houhan85": {
+      "title": "《后汉书》卷85·东夷列传",
+      "url": "https://zh.wikisource.org/wiki/後漢書/卷85"
+    },
+    "ne-houhan87": {
+      "title": "《后汉书》卷87·西羌传",
+      "url": "https://zh.wikisource.org/wiki/後漢書/卷87"
+    },
+    "ne-houhan90": {
+      "title": "《后汉书》卷90·乌桓鲜卑列传",
+      "url": "https://zh.wikisource.org/wiki/後漢書/卷90"
+    },
+    "ne-houhan89": {
+      "title": "《后汉书》卷89·南匈奴列传",
+      "url": "https://zh.wikisource.org/wiki/後漢書/卷89"
+    },
+    "ne-jin97": {
+      "title": "《晋书》卷97·四夷传",
+      "url": "https://zh.wikisource.org/wiki/晉書/卷097"
+    },
+    "ne-wei103": {
+      "title": "《魏书》卷103·蠕蠕高车等传",
+      "url": "https://zh.wikisource.org/wiki/魏書/卷103"
+    },
+    "ne-sui84": {
+      "title": "《隋书》卷84·突厥铁勒等传",
+      "url": "https://zh.wikisource.org/wiki/隋書/卷84"
+    },
+    "ne-tang194": {
+      "title": "《旧唐书》卷194上·突厥传",
+      "url": "https://zh.wikisource.org/wiki/舊唐書/卷194上"
+    },
+    "ne-tang194b": {
+      "title": "《旧唐书》卷194下·西突厥传",
+      "url": "https://zh.wikisource.org/wiki/舊唐書/卷194下"
+    },
+    "ne-tang195": {
+      "title": "《旧唐书》卷195·回纥传",
+      "url": "https://zh.wikisource.org/wiki/舊唐書/卷195"
+    },
+    "ne-tang196": {
+      "title": "《旧唐书》卷196上·吐蕃传",
+      "url": "https://zh.wikisource.org/wiki/舊唐書/卷196上"
+    },
+    "ne-tang197": {
+      "title": "《旧唐书》卷197·南蛮西南蛮传",
+      "url": "https://zh.wikisource.org/wiki/舊唐書/卷197"
+    },
+    "ne-tang198": {
+      "title": "《旧唐书》卷198·西戎传",
+      "url": "https://zh.wikisource.org/wiki/舊唐書/卷198"
+    },
+    "ne-tang199": {
+      "title": "《旧唐书》卷199上·东夷传",
+      "url": "https://zh.wikisource.org/wiki/舊唐書/卷199上"
+    },
+    "ne-tang199b": {
+      "title": "《旧唐书》卷199下·北狄传",
+      "url": "https://zh.wikisource.org/wiki/舊唐書/卷199下"
+    },
+    "ne-hanshu96b": {
+      "title": "《汉书》卷96下·西域传",
+      "url": "https://zh.wikisource.org/wiki/漢書/卷096下"
+    },
+    "nl-liao": {
+      "title": "中国国家博物馆·契丹族的精美金银器",
+      "url": "https://www.chnmuseum.cn/yj/xscg/xslw/201812/t20181224_33225.shtml"
+    },
+    "nl-xia": {
+      "title": "故宫博物院·西夏金器研究",
+      "url": "https://www.dpm.org.cn/Uploads/pdf/5079/T00048_00.pdf"
+    },
+    "nl-jin": {
+      "title": "中国国家博物馆·女真贵族的腰佩",
+      "url": "https://www.chnmuseum.cn/yj/xscg/xslw/201812/t20181224_33230.shtml"
+    },
+    "nl-mongol": {
+      "title": "国家民委·蒙古族历史沿革",
+      "url": "https://www.neac.gov.cn/seac/ztzl/mgz/lsyg.shtml"
+    },
+    "nl-genghis": {
+      "title": "中国国家博物馆·成吉思汗像",
+      "url": "https://www.chnmuseum.cn/zp/zpml/ysp/202012/t20201216_248518.shtml"
+    },
+    "nl-uyghur": {
+      "title": "国家民委·维吾尔族历史沿革",
+      "url": "https://www.neac.gov.cn/seac/ztzl/wwez/lsyg.shtml"
+    },
+    "nl-gaochang": {
+      "title": "国家艺术基金资助项目·高昌故城",
+      "url": "https://www.silkroadshow.cn/relics_42_show.html"
+    },
+    "nl-dali": {
+      "title": "云南省民族宗教事务委员会·段思平",
+      "url": "https://mzzj.yn.gov.cn/html/2002/yunnanlishiminzurenwu_0101/8266.html"
+    },
+    "nl-dali-years": {
+      "title": "云南省民族宗教事务委员会·大理国古都调研",
+      "url": "https://mzzj.yn.gov.cn/html/2012/minzongyaowen_0508/538.html"
+    },
+    "nl-goryeo": {
+      "title": "韩国学中央研究院·高丽",
+      "url": "https://encykorea.aks.ac.kr/Article/E0003424"
+    },
+    "nl-joseon": {
+      "title": "韩国学中央研究院·朝鲜",
+      "url": "https://encykorea.aks.ac.kr/Article/E0051904"
+    },
+    "nl-empire": {
+      "title": "韩国学中央研究院·大韩帝国",
+      "url": "https://encykorea.aks.ac.kr/Article/E0015187"
+    },
+    "nl-annex": {
+      "title": "韩国学中央研究院·韩日合并",
+      "url": "https://encykorea.aks.ac.kr/Article/E0061925"
+    },
+    "nl-annam": {
+      "title": "《明史》卷321·安南",
+      "url": "https://zh.wikisource.org/wiki/明史/卷321"
+    },
+    "nl-viet": {
+      "title": "越南驻美国使馆·越南历史",
+      "url": "https://en.vietnamembassy-usa.org/vietnam/history",
+      "access": "search_index",
+      "note": "本次正文抓取超时，检索摘要仅用于国家建置主线；不冒称逐条王年复核。"
+    },
+    "nl-viet-ly": {
+      "title": "《大越史记全书》本纪卷三·李纪",
+      "url": "https://zh.wikisource.org/wiki/大越史記全書/本紀卷之三"
+    },
+    "nl-burma": {
+      "title": "云南大学朱振明·缅甸历史文化发展及中缅交往（中国社会科学网／人民网）",
+      "url": "https://theory.people.com.cn/n1/2017/0911/c40531-29526336.html"
+    },
+    "nl-ryukyu": {
+      "title": "UNESCO·琉球王国城堡遗产评估",
+      "url": "https://whc.unesco.org/document/1076"
+    },
+    "nl-khalkha": {
+      "title": "故宫博物院·康熙皇帝纪年",
+      "url": "https://www.dpm.org.cn/court/lineage/226256.html"
+    },
+    "nl-dzungar": {
+      "title": "中国国家博物馆·《平定准噶尔图》卷",
+      "url": "https://www.chnmuseum.cn/zp/zpml/ysp/202012/t20201217_248571.shtml"
+    },
+    "nl-tibet": {
+      "title": "国家民委·藏族历史沿革",
+      "url": "https://www.neac.gov.cn/seac/ztzl/201806/1066630.shtml"
+    }
+  },
+  "entries": [
+    {
+      "id": "zhou-rong",
+      "name": "西戎诸部",
+      "ethnicity": "戎（历史泛称）",
+      "kind": "group",
+      "from": -1046,
+      "to": -301,
+      "point": [
+        104,
+        36.3
+      ],
+      "note": "周秦文献所见西方多个群体的概括，内部有不同君长；不是一个连续统一国家。显示范围取西周至战国前段，不表示此后族群消失。 标签锚点只指大致活动地区，不是首都坐标或疆界。",
+      "sourceIds": [
+        "ne-nmc",
+        "ne-shiji110"
+      ],
+      "matchNames": [
+        "西戎"
+      ],
+      "priority": 3
+    },
+    {
+      "id": "zhou-di",
+      "name": "北狄诸部",
+      "ethnicity": "狄（历史泛称）",
+      "kind": "group",
+      "from": -770,
+      "to": -301,
+      "point": [
+        112,
+        40.4
+      ],
+      "note": "春秋战国北方诸群，有赤狄、白狄等不同政治集团，不能全归为单一民族或国家。 标签锚点只指大致活动地区，不是首都坐标或疆界。",
+      "sourceIds": [
+        "ne-shiji110"
+      ],
+      "matchNames": [
+        "北狄"
+      ],
+      "priority": 3
+    },
+    {
+      "id": "zhou-yi",
+      "name": "东夷诸部",
+      "ethnicity": "夷（历史泛称）",
+      "kind": "group",
+      "from": -1046,
+      "to": -771,
+      "point": [
+        120,
+        35.2
+      ],
+      "note": "商周文献和青铜器语境中的东方诸群概括；与后世“东夷传”包含范围不相同，不直接等同某现代民族。 标签锚点只指大致活动地区，不是首都坐标或疆界。",
+      "sourceIds": [
+        "ne-nmc"
+      ],
+      "matchNames": [
+        "东夷"
+      ],
+      "priority": 3
+    },
+    {
+      "id": "xiongnu-early",
+      "name": "匈奴",
+      "ethnicity": "匈奴",
+      "kind": "confederation",
+      "from": -300,
+      "to": 47,
+      "point": [
+        109.5,
+        44.2
+      ],
+      "note": "秦末应读为头曼时期的匈奴；冒顿前209年后才继位。此条不在图上倒填冒顿姓名。草原联盟内部多部族，范围随时代变动。 标签锚点只指大致活动地区，不是首都坐标或疆界。",
+      "sourceIds": [
+        "ne-shiji110"
+      ],
+      "matchNames": [
+        "匈奴"
+      ],
+      "priority": 1
+    },
+    {
+      "id": "donghu",
+      "name": "东胡",
+      "ethnicity": "东胡诸部",
+      "kind": "confederation",
+      "from": -300,
+      "to": -210,
+      "point": [
+        119,
+        44.4
+      ],
+      "note": "《史记》记秦末东胡强、月氏盛；与匈奴分列。显示截止前210是保守窗口，并非断言此年灭亡，东胡王败于冒顿后的具体年另有纪年讨论。 标签锚点只指大致活动地区，不是首都坐标或疆界。",
+      "sourceIds": [
+        "ne-shiji110"
+      ],
+      "matchNames": [
+        "东胡"
+      ],
+      "priority": 1
+    },
+    {
+      "id": "yuezhi-hexi",
+      "name": "月氏",
+      "ethnicity": "月氏",
+      "kind": "confederation",
+      "from": -300,
+      "to": -177,
+      "point": [
+        98.4,
+        39.5
+      ],
+      "note": "西迁前主要活动于河西一带。此标签不是后来大夏附近的大月氏，也不将秦时月氏提前放到中亚。显示终点用于避开随后西迁的年代争议。 标签锚点只指大致活动地区，不是首都坐标或疆界。",
+      "sourceIds": [
+        "ne-shiji110",
+        "ne-shiji123"
+      ],
+      "matchNames": [
+        "月氏"
+      ],
+      "priority": 1
+    },
+    {
+      "id": "qiang-qinhan",
+      "name": "羌诸部",
+      "ethnicity": "羌（历史诸部）",
+      "kind": "group",
+      "from": -221,
+      "to": 300,
+      "point": [
+        99.8,
+        35.3
+      ],
+      "note": "河湟及邻近高地的诸羌群体；各部有自己的首领，不能当作统一“羌国”。区间为秦汉至魏晋的文献显示窗口。 标签锚点只指大致活动地区，不是首都坐标或疆界。",
+      "sourceIds": [
+        "ne-shiji110",
+        "ne-houhan87"
+      ],
+      "matchNames": [
+        "羌",
+        "西羌"
+      ],
+      "priority": 1
+    },
+    {
+      "id": "baiyue",
+      "name": "百越诸部",
+      "ethnicity": "越（诸群）",
+      "kind": "group",
+      "from": -403,
+      "to": -111,
+      "point": [
+        109.2,
+        22
+      ],
+      "note": "岭南及东南的多个越人群体的总称，不是一个“百越帝国”；部分位于秦汉行政或军事控制范围内，此标签不等于独立疆域。 标签锚点只指大致活动地区，不是首都坐标或疆界。",
+      "sourceIds": [
+        "ne-shiji113",
+        "ne-shiji114"
+      ],
+      "matchNames": [
+        "百越"
+      ],
+      "priority": 1
+    },
+    {
+      "id": "goseon-before-wiman",
+      "name": "古朝鲜",
+      "ethnicity": "朝鲜诸群",
+      "kind": "polity",
+      "from": -300,
+      "to": -195,
+      "point": [
+        125.2,
+        40.1
+      ],
+      "note": "秦汉之际文献所见朝鲜政权的区域参照；不将箕子传说当作已证实的建国年代，也不把现代民族国界前移。与后来的卫满朝鲜分段。 标签锚点只指大致活动地区，不是首都坐标或疆界。",
+      "sourceIds": [
+        "ne-shiji115"
+      ],
+      "matchNames": [
+        "朝鲜",
+        "古朝鲜"
+      ],
+      "priority": 1
+    },
+    {
+      "id": "wiman-joseon",
+      "name": "卫满朝鲜",
+      "ethnicity": "燕地移民＋当地诸群",
+      "kind": "polity",
+      "from": -194,
+      "to": -108,
+      "point": [
+        125.7,
+        39.1
+      ],
+      "note": "卫满出自燕地移民集团，统治范围与居民来源多元；汉灭右渠朝鲜后不继续沿用独立政权标签。王险城精确地望另有讨论。 标签锚点只指大致活动地区，不是首都坐标或疆界。",
+      "sourceIds": [
+        "ne-shiji115"
+      ],
+      "matchNames": [
+        "卫满朝鲜",
+        "朝鲜"
+      ],
+      "priority": 2
+    },
+    {
+      "id": "nanyue",
+      "name": "南越",
+      "ethnicity": "中原移民＋越",
+      "kind": "polity",
+      "from": -203,
+      "to": -111,
+      "point": [
+        113.2,
+        23
+      ],
+      "note": "赵氏统治集团与岭南越人并存；主图已有南越色块时去重。前203为常用立国口径，具体称王过程并非一日完成。 标签锚点只指大致活动地区，不是首都坐标或疆界。",
+      "sourceIds": [
+        "ne-shiji113"
+      ],
+      "matchNames": [
+        "南越",
+        "南越（赵佗）"
+      ],
+      "priority": 2
+    },
+    {
+      "id": "minyue",
+      "name": "闽越",
+      "ethnicity": "闽越",
+      "kind": "polity",
+      "from": -202,
+      "to": -110,
+      "point": [
+        119,
+        26
+      ],
+      "note": "以汉封无诸至汉武帝平东越为显示范围；不能把此前越人活动都等同于同一政权。 标签锚点只指大致活动地区，不是首都坐标或疆界。",
+      "sourceIds": [
+        "ne-shiji114"
+      ],
+      "matchNames": [
+        "闽越",
+        "东越"
+      ],
+      "priority": 2
+    },
+    {
+      "id": "dian",
+      "name": "滇",
+      "ethnicity": "滇地诸群",
+      "kind": "polity",
+      "from": -200,
+      "to": -109,
+      "point": [
+        102.8,
+        24.8
+      ],
+      "note": "《史记》记滇王及其与汉的关系。前109受汉王印不等于滇人消失或王号立即废除，条目仅选择早期交涉前的显示窗口。 标签锚点只指大致活动地区，不是首都坐标或疆界。",
+      "sourceIds": [
+        "ne-shiji116"
+      ],
+      "matchNames": [
+        "滇"
+      ],
+      "priority": 2
+    },
+    {
+      "id": "wusun",
+      "name": "乌孙",
+      "ethnicity": "乌孙",
+      "kind": "polity",
+      "from": -138,
+      "to": 220,
+      "point": [
+        80.5,
+        43
+      ],
+      "note": "伊犁河谷与周边的乌孙政治集团；选汉代交涉材料的显示窗口，不将前138和220当作绝对建国、亡国年。 标签锚点只指大致活动地区，不是首都坐标或疆界。",
+      "sourceIds": [
+        "ne-shiji123",
+        "ne-hanshu96b"
+      ],
+      "matchNames": [
+        "乌孙"
+      ],
+      "priority": 2
+    },
+    {
+      "id": "dayuezhi",
+      "name": "大月氏",
+      "ethnicity": "月氏",
+      "kind": "confederation",
+      "from": -128,
+      "to": 100,
+      "point": [
+        68.8,
+        37.2
+      ],
+      "note": "张骞所见已迁大夏附近的大月氏，与河西旧月氏分段；这里的锚点位于阿姆河上游区域，若视窗不含此处可以不显示。 标签锚点只指大致活动地区，不是首都坐标或疆界。",
+      "sourceIds": [
+        "ne-shiji123"
+      ],
+      "matchNames": [
+        "大月氏"
+      ],
+      "priority": 3
+    },
+    {
+      "id": "dayuan",
+      "name": "大宛",
+      "ethnicity": "费尔干纳绿洲诸群",
+      "kind": "polity",
+      "from": -130,
+      "to": 100,
+      "point": [
+        71.5,
+        40.4
+      ],
+      "note": "汉代文献所见费尔干纳绿洲国家；不强定为单一现代民族。区间为本图采用的汉代材料窗口。 标签锚点只指大致活动地区，不是首都坐标或疆界。",
+      "sourceIds": [
+        "ne-shiji123"
+      ],
+      "matchNames": [
+        "大宛"
+      ],
+      "priority": 3
+    },
+    {
+      "id": "yutian",
+      "name": "于阗",
+      "ethnicity": "于阗绿洲诸群",
+      "kind": "polity",
+      "from": -60,
+      "to": 220,
+      "point": [
+        79.9,
+        37.1
+      ],
+      "note": "汉代绿洲王国。与都护、匈奴等关系有进退，标签不表示始终独立或始终由某一方直接控制。 标签锚点只指大致活动地区，不是首都坐标或疆界。",
+      "sourceIds": [
+        "ne-hanshu96"
+      ],
+      "matchNames": [
+        "于阗",
+        "于闐"
+      ],
+      "priority": 3
+    },
+    {
+      "id": "qiuci",
+      "name": "龟兹",
+      "ethnicity": "龟兹绿洲诸群",
+      "kind": "polity",
+      "from": -60,
+      "to": 220,
+      "point": [
+        82.9,
+        41.7
+      ],
+      "note": "汉代龟兹国的区域参照；不把现代维吾尔民族名称直接替代古代龟兹居民。 标签锚点只指大致活动地区，不是首都坐标或疆界。",
+      "sourceIds": [
+        "ne-hanshu96b"
+      ],
+      "matchNames": [
+        "龟兹",
+        "龜茲"
+      ],
+      "priority": 3
+    },
+    {
+      "id": "fuyu",
+      "name": "夫余",
+      "ethnicity": "夫余",
+      "kind": "polity",
+      "from": 25,
+      "to": 346,
+      "point": [
+        126.4,
+        44
+      ],
+      "note": "东汉至前燕攻夫余前的显示窗口；不是其全部存在年代，也不是把后世扶余一名均放在此处。 标签锚点只指大致活动地区，不是首都坐标或疆界。",
+      "sourceIds": [
+        "ne-houhan85",
+        "ne-jin97"
+      ],
+      "matchNames": [
+        "夫余",
+        "扶余"
+      ],
+      "priority": 2
+    },
+    {
+      "id": "goguryeo",
+      "name": "高句丽",
+      "ethnicity": "高句丽",
+      "kind": "polity",
+      "from": 1,
+      "to": 668,
+      "point": [
+        126.6,
+        41.4
+      ],
+      "note": "以汉魏晋隋唐材料可连续追踪的政权为显示对象，起点仅为显示下限，不冒称公元1年建国。南北迁都和控制范围变化很大。 标签锚点只指大致活动地区，不是首都坐标或疆界。",
+      "sourceIds": [
+        "ne-houhan85",
+        "ne-tang199"
+      ],
+      "matchNames": [
+        "高句丽",
+        "高丽",
+        "高句驪"
+      ],
+      "priority": 2
+    },
+    {
+      "id": "wuhuan",
+      "name": "乌桓诸部",
+      "ethnicity": "乌桓",
+      "kind": "confederation",
+      "from": 25,
+      "to": 207,
+      "point": [
+        118.8,
+        42
+      ],
+      "note": "东汉东北边地诸部，不是统一中央集权国家；207后政治形势变化，此窗口不表示族群灭绝。 标签锚点只指大致活动地区，不是首都坐标或疆界。",
+      "sourceIds": [
+        "ne-houhan90"
+      ],
+      "matchNames": [
+        "乌桓"
+      ],
+      "priority": 2
+    },
+    {
+      "id": "xianbei",
+      "name": "鲜卑诸部",
+      "ethnicity": "鲜卑",
+      "kind": "confederation",
+      "from": 25,
+      "to": 235,
+      "point": [
+        114.5,
+        45.4
+      ],
+      "note": "东汉鲜卑诸部与檀石槐时期的联合，不能和后来所有鲜卑王朝的疆域等同。235仅为早期材料窗口终点。 标签锚点只指大致活动地区，不是首都坐标或疆界。",
+      "sourceIds": [
+        "ne-houhan90"
+      ],
+      "matchNames": [
+        "鲜卑"
+      ],
+      "priority": 2
+    },
+    {
+      "id": "north-xiongnu",
+      "name": "北匈奴",
+      "ethnicity": "匈奴",
+      "kind": "confederation",
+      "from": 48,
+      "to": 91,
+      "point": [
+        103,
+        46
+      ],
+      "note": "48年南北分立后北方匈奴势力；91年受重创后继续存在与西迁过程复杂，此条不把后续各地“匈奴”都放在同一锚点。 标签锚点只指大致活动地区，不是首都坐标或疆界。",
+      "sourceIds": [
+        "ne-houhan89"
+      ],
+      "matchNames": [
+        "北匈奴"
+      ],
+      "priority": 2
+    },
+    {
+      "id": "tuyuhun",
+      "name": "吐谷浑",
+      "ethnicity": "鲜卑慕容系王室／多族群",
+      "kind": "polity",
+      "from": 317,
+      "to": 663,
+      "point": [
+        97.7,
+        36.7
+      ],
+      "note": "青海及周边的吐谷浑政权；王室源出慕容鲜卑，境内并非单一族群。663后仍有残部及唐境内王统，不用本锚点一概延续。 标签锚点只指大致活动地区，不是首都坐标或疆界。",
+      "sourceIds": [
+        "ne-jin97",
+        "ne-tang198"
+      ],
+      "matchNames": [
+        "吐谷浑",
+        "吐谷渾"
+      ],
+      "priority": 2
+    },
+    {
+      "id": "rouran",
+      "name": "柔然汗国",
+      "ethnicity": "柔然联盟诸部",
+      "kind": "confederation",
+      "from": 402,
+      "to": 552,
+      "point": [
+        105.5,
+        46.5
+      ],
+      "note": "社仑称可汗后的草原联盟至突厥崛起的主要时期；统治集团与附属部众多元，不强定现代民族归属。 标签锚点只指大致活动地区，不是首都坐标或疆界。",
+      "sourceIds": [
+        "ne-wei103",
+        "ne-sui84"
+      ],
+      "matchNames": [
+        "柔然",
+        "蠕蠕"
+      ],
+      "priority": 2
+    },
+    {
+      "id": "turk-unified",
+      "name": "突厥汗国",
+      "ethnicity": "突厥诸部",
+      "kind": "confederation",
+      "from": 552,
+      "to": 582,
+      "point": [
+        96,
+        46
+      ],
+      "note": "突厥兴起后至东西分立前的汗国概括；分裂不是单年全部完成，后续用东西分段标签。 标签锚点只指大致活动地区，不是首都坐标或疆界。",
+      "sourceIds": [
+        "ne-sui84"
+      ],
+      "matchNames": [
+        "突厥",
+        "突厥汗国"
+      ],
+      "priority": 2
+    },
+    {
+      "id": "east-turk",
+      "name": "东突厥",
+      "ethnicity": "突厥诸部",
+      "kind": "confederation",
+      "from": 583,
+      "to": 630,
+      "point": [
+        108,
+        46.7
+      ],
+      "note": "隋唐之际东部汗国；630唐俘颉利后不继续把这一汗国标签沿用到第二突厥时期。 标签锚点只指大致活动地区，不是首都坐标或疆界。",
+      "sourceIds": [
+        "ne-sui84",
+        "ne-tang194"
+      ],
+      "matchNames": [
+        "东突厥",
+        "突厥"
+      ],
+      "priority": 2
+    },
+    {
+      "id": "west-turk",
+      "name": "西突厥",
+      "ethnicity": "突厥诸部",
+      "kind": "confederation",
+      "from": 583,
+      "to": 657,
+      "point": [
+        76.2,
+        44
+      ],
+      "note": "西部汗国及十姓诸部的区域概括；657以后余部与唐羁縻关系另有阶段，不能理解为全体突厥人消失。 标签锚点只指大致活动地区，不是首都坐标或疆界。",
+      "sourceIds": [
+        "ne-sui84",
+        "ne-tang194b"
+      ],
+      "matchNames": [
+        "西突厥"
+      ],
+      "priority": 2
+    },
+    {
+      "id": "second-turk",
+      "name": "后突厥汗国",
+      "ethnicity": "突厥诸部",
+      "kind": "confederation",
+      "from": 682,
+      "to": 744,
+      "point": [
+        106.5,
+        47.2
+      ],
+      "note": "骨咄禄复兴的第二突厥汗国；与630以前的东突厥分期，不能跨空白期直接当同一政权。 标签锚点只指大致活动地区，不是首都坐标或疆界。",
+      "sourceIds": [
+        "ne-tang194"
+      ],
+      "matchNames": [
+        "后突厥",
+        "第二突厥",
+        "突厥"
+      ],
+      "priority": 2
+    },
+    {
+      "id": "uyghur-khaganate",
+      "name": "回纥汗国",
+      "ethnicity": "回纥／回鹘诸部",
+      "kind": "confederation",
+      "from": 744,
+      "to": 840,
+      "point": [
+        102.8,
+        47.3
+      ],
+      "note": "鄂尔浑河流域汗国；788前后名称由回纥改回鹘，统一显示并在详情注明。840后诸部西迁，不能仍留在此锚点。 标签锚点只指大致活动地区，不是首都坐标或疆界。",
+      "sourceIds": [
+        "ne-tang195"
+      ],
+      "matchNames": [
+        "回纥",
+        "回鹘",
+        "回纥汗国"
+      ],
+      "priority": 2
+    },
+    {
+      "id": "tibet",
+      "name": "吐蕃",
+      "ethnicity": "吐蕃王室及高原诸群",
+      "kind": "polity",
+      "from": 629,
+      "to": 842,
+      "point": [
+        91.1,
+        29.7
+      ],
+      "note": "唐代吐蕃王朝的核心区域参照；王朝扩张远超锚点，842后地方分裂，不把整个高原作为一个统一政权续画。 标签锚点只指大致活动地区，不是首都坐标或疆界。629为本表显示起点，不作王朝建国年的断言。",
+      "sourceIds": [
+        "ne-tang196"
+      ],
+      "matchNames": [
+        "吐蕃"
+      ],
+      "priority": 2
+    },
+    {
+      "id": "nanzhao",
+      "name": "南诏",
+      "ethnicity": "乌蛮、白蛮等历史群体",
+      "kind": "polity",
+      "from": 738,
+      "to": 902,
+      "point": [
+        100.2,
+        25.6
+      ],
+      "note": "以六诏统一后至郑氏代立为显示范围；不能把后世民族名录与南诏多族群社会直接一一对应。 标签锚点只指大致活动地区，不是首都坐标或疆界。",
+      "sourceIds": [
+        "ne-tang197"
+      ],
+      "matchNames": [
+        "南诏"
+      ],
+      "priority": 2
+    },
+    {
+      "id": "silla",
+      "name": "新罗",
+      "ethnicity": "新罗人／半岛诸群",
+      "kind": "polity",
+      "from": 503,
+      "to": 907,
+      "point": [
+        129.2,
+        35.8
+      ],
+      "note": "取新罗正式国号后至本数据唐末上限；新罗实际延续至935，不将907当作亡国。503前也有前身政权。 标签锚点只指大致活动地区，不是首都坐标或疆界。",
+      "sourceIds": [
+        "ne-tang199"
+      ],
+      "matchNames": [
+        "新罗"
+      ],
+      "priority": 2
+    },
+    {
+      "id": "baekje",
+      "name": "百济",
+      "ethnicity": "百济人／半岛诸群",
+      "kind": "polity",
+      "from": 200,
+      "to": 660,
+      "point": [
+        126.9,
+        36.3
+      ],
+      "note": "取汉魏以后可追踪交涉的显示窗口，200不是建国断言；660灭亡后复国运动另需细分。 标签锚点只指大致活动地区，不是首都坐标或疆界。",
+      "sourceIds": [
+        "ne-tang199"
+      ],
+      "matchNames": [
+        "百济"
+      ],
+      "priority": 3
+    },
+    {
+      "id": "balhae",
+      "name": "渤海",
+      "ethnicity": "靺鞨为主／高句丽遗民等",
+      "kind": "polity",
+      "from": 698,
+      "to": 907,
+      "point": [
+        129,
+        44.1
+      ],
+      "note": "大祚荣政权最初国号及唐册封渤海在不同年份；698是政权形成的常用口径。实际延续至926，907只是本分表上限。 标签锚点只指大致活动地区，不是首都坐标或疆界。",
+      "sourceIds": [
+        "ne-tang199b"
+      ],
+      "matchNames": [
+        "渤海",
+        "渤海国"
+      ],
+      "priority": 2
+    },
+    {
+      "id": "khitan-early",
+      "name": "契丹诸部",
+      "ethnicity": "契丹",
+      "kind": "confederation",
+      "from": 500,
+      "to": 907,
+      "point": [
+        119,
+        44
+      ],
+      "note": "隋唐材料中的契丹诸部，不能提前标作辽朝；907及916的汗位、建国称帝另有不同节点。 标签锚点只指大致活动地区，不是首都坐标或疆界。",
+      "sourceIds": [
+        "ne-sui84",
+        "ne-tang199b"
+      ],
+      "matchNames": [
+        "契丹"
+      ],
+      "priority": 2
+    },
+    {
+      "id": "linyi",
+      "name": "林邑",
+      "ethnicity": "林邑诸群",
+      "kind": "polity",
+      "from": 192,
+      "to": 757,
+      "point": [
+        107.3,
+        16.3
+      ],
+      "note": "今越南中部一带的古国汉文称谓；不把所有时期占城及全部居民都直接称作同一种族。地理上若超出当前地图视窗可省略。 标签锚点只指大致活动地区，不是首都坐标或疆界。",
+      "sourceIds": [
+        "ne-jin97"
+      ],
+      "matchNames": [
+        "林邑"
+      ],
+      "priority": 3
+    },
+    {
+      "id": "gaochang",
+      "name": "高昌国",
+      "ethnicity": "汉系王室／绿洲多族群",
+      "kind": "polity",
+      "from": 460,
+      "to": 640,
+      "point": [
+        89.2,
+        42.9
+      ],
+      "note": "麴氏等高昌王国阶段的概括；非“少数民族单一国家”，仅为邻近政权背景。640唐置西州后不继续以独立王国显示。 标签锚点只指大致活动地区，不是首都坐标或疆界。",
+      "sourceIds": [
+        "ne-tang198"
+      ],
+      "matchNames": [
+        "高昌",
+        "高昌国"
+      ],
+      "priority": 3
+    },
+    {
+      "id": "late_liao",
+      "name": "辽（契丹）",
+      "ethnicity": "契丹",
+      "kind": "polity",
+      "from": 916,
+      "to": 1125,
+      "point": [
+        120,
+        44
+      ],
+      "note": "契丹王朝；不能把其辖境内全部居民都视为契丹。 锚点只标大致活动地区，非确界、人口分布或首都测绘。",
+      "sourceIds": [
+        "nl-liao"
+      ],
+      "matchNames": [
+        "辽",
+        "契丹"
+      ]
+    },
+    {
+      "id": "late_xixia",
+      "name": "西夏",
+      "ethnicity": "党项",
+      "kind": "polity",
+      "from": 1038,
+      "to": 1227,
+      "point": [
+        106,
+        39
+      ],
+      "note": "李元昊称帝后的夏国；族群标签指王室与主要统治集团。 锚点只标大致活动地区，非确界、人口分布或首都测绘。",
+      "sourceIds": [
+        "nl-xia"
+      ],
+      "matchNames": [
+        "西夏",
+        "夏"
+      ]
+    },
+    {
+      "id": "late_jin",
+      "name": "金",
+      "ethnicity": "女真",
+      "kind": "polity",
+      "from": 1115,
+      "to": 1234,
+      "point": [
+        126,
+        45
+      ],
+      "note": "完颜氏建立的金朝，族群标签不代表所有辖境人口。 锚点只标大致活动地区，非确界、人口分布或首都测绘。",
+      "sourceIds": [
+        "nl-jin"
+      ],
+      "matchNames": [
+        "金",
+        "女真"
+      ]
+    },
+    {
+      "id": "late_mongol_tribes",
+      "name": "蒙古诸部",
+      "ethnicity": "蒙古及草原诸部",
+      "kind": "group",
+      "from": 1100,
+      "to": 1205,
+      "point": [
+        111,
+        48
+      ],
+      "note": "仅选12世纪的草原背景；此前后部落持续变化，不能画作一个统一国家。 锚点只标大致活动地区，非确界、人口分布或首都测绘。",
+      "sourceIds": [
+        "nl-mongol"
+      ],
+      "matchNames": [
+        "蒙古诸部"
+      ]
+    },
+    {
+      "id": "late_mongol_state",
+      "name": "大蒙古国",
+      "ethnicity": "蒙古",
+      "kind": "polity",
+      "from": 1206,
+      "to": 1270,
+      "point": [
+        105,
+        48
+      ],
+      "note": "1206统一后的汗国；本标签到元国号前停止，不代表整个蒙古帝国1271年消失。 锚点只标大致活动地区，非确界、人口分布或首都测绘。",
+      "sourceIds": [
+        "nl-genghis"
+      ],
+      "matchNames": [
+        "蒙古",
+        "大蒙古国",
+        "元"
+      ]
+    },
+    {
+      "id": "late_gaochang",
+      "name": "高昌回鹘",
+      "ethnicity": "回鹘等",
+      "kind": "polity",
+      "from": 900,
+      "to": 1208,
+      "point": [
+        89.4,
+        43.7
+      ],
+      "note": "本组从900年开始显示已建立的高昌回鹘；1209归附蒙古后仍有亦都护延续，不应把标签终点读成政权灭亡年。 锚点只标大致活动地区，非确界、人口分布或首都测绘。",
+      "sourceIds": [
+        "nl-uyghur",
+        "nl-gaochang"
+      ],
+      "matchNames": [
+        "高昌回鹘",
+        "回鹘（高昌）",
+        "高昌"
+      ]
+    },
+    {
+      "id": "late_karakhan",
+      "name": "喀喇汗",
+      "ethnicity": "葛逻禄、样磨、回鹘等",
+      "kind": "polity",
+      "from": 960,
+      "to": 1130,
+      "point": [
+        77,
+        42
+      ],
+      "note": "采用10世纪中后期至12世纪初的独立阶段作为显示窗口；建国确年与双汗分治不可简化，1130不是断言统一灭国年。 锚点只标大致活动地区，非确界、人口分布或首都测绘。",
+      "sourceIds": [
+        "nl-uyghur"
+      ],
+      "matchNames": [
+        "喀喇汗",
+        "喀拉汗"
+      ]
+    },
+    {
+      "id": "late_dali_early",
+      "name": "大理",
+      "ethnicity": "白族先民及滇西诸群",
+      "kind": "polity",
+      "from": 937,
+      "to": 1093,
+      "point": [
+        100.1,
+        26.2
+      ],
+      "note": "段氏大理；1094—1095高氏大中短暂中断单独留空，避免沿用段氏国家标签。 锚点只标大致活动地区，非确界、人口分布或首都测绘。",
+      "sourceIds": [
+        "nl-dali",
+        "nl-dali-years"
+      ],
+      "matchNames": [
+        "大理",
+        "大理国"
+      ]
+    },
+    {
+      "id": "late_dali_restored",
+      "name": "大理",
+      "ethnicity": "白族先民及滇西诸群",
+      "kind": "polity",
+      "from": 1096,
+      "to": 1253,
+      "point": [
+        100.1,
+        26.2
+      ],
+      "note": "后理段氏恢复后的阶段；采用1253蒙古攻克的通行年，未将此等同全部地方制度立即消失。 锚点只标大致活动地区，非确界、人口分布或首都测绘。",
+      "sourceIds": [
+        "nl-dali-years"
+      ],
+      "matchNames": [
+        "大理",
+        "大理国"
+      ]
+    },
+    {
+      "id": "late_goryeo",
+      "name": "高丽",
+      "ethnicity": "高丽人（历史称谓）",
+      "kind": "polity",
+      "from": 918,
+      "to": 1391,
+      "point": [
+        127,
+        38.6
+      ],
+      "note": "王氏高丽；不是高句丽延续王朝，也不以今天民族边界替代其历史人口。1392年内更替，本组年切片从1392使用朝鲜。 锚点只标大致活动地区，非确界、人口分布或首都测绘。",
+      "sourceIds": [
+        "nl-goryeo"
+      ],
+      "matchNames": [
+        "高丽"
+      ]
+    },
+    {
+      "id": "late_joseon",
+      "name": "朝鲜",
+      "ethnicity": "朝鲜人（历史称谓）",
+      "kind": "polity",
+      "from": 1392,
+      "to": 1896,
+      "point": [
+        127.8,
+        37.8
+      ],
+      "note": "李氏朝鲜；1897年改国号为大韩帝国，年度标签采用该年后期称谓。 锚点只标大致活动地区，非确界、人口分布或首都测绘。",
+      "sourceIds": [
+        "nl-joseon",
+        "nl-empire"
+      ],
+      "matchNames": [
+        "朝鲜",
+        "李氏朝鲜"
+      ]
+    },
+    {
+      "id": "late_korean_empire",
+      "name": "大韩帝国",
+      "ethnicity": "朝鲜人（历史称谓）",
+      "kind": "polity",
+      "from": 1897,
+      "to": 1909,
+      "point": [
+        127.8,
+        37.8
+      ],
+      "note": "1897建帝国，1910被日本吞并；此显示窗口不延用到1911。 锚点只标大致活动地区，非确界、人口分布或首都测绘。",
+      "sourceIds": [
+        "nl-empire",
+        "nl-annex"
+      ],
+      "matchNames": [
+        "大韩帝国"
+      ]
+    },
+    {
+      "id": "late_korea_colonial",
+      "name": "朝鲜（日殖）",
+      "ethnicity": "朝鲜半岛居民／日本殖民当局",
+      "kind": "regional",
+      "from": 1910,
+      "to": 1911,
+      "point": [
+        127.8,
+        37.8
+      ],
+      "note": "1910后为日本殖民统治；不是仍独立存在的朝鲜王国。 锚点只标大致活动地区，非确界、人口分布或首都测绘。",
+      "sourceIds": [
+        "nl-annex"
+      ],
+      "matchNames": [
+        "朝鲜（日占）",
+        "朝鲜（日殖）"
+      ]
+    },
+    {
+      "id": "late_dai_viet_medieval",
+      "name": "安南（大越）",
+      "ethnicity": "越人／京族先民等",
+      "kind": "polity",
+      "from": 1054,
+      "to": 1406,
+      "point": [
+        105.4,
+        20.5
+      ],
+      "note": "大越国号语境与中国文献安南称谓并列；李、陈、胡政权相继，非一朝统治到底。1407后明设交趾布政司，不沿用此国家标签。 锚点只标大致活动地区，非确界、人口分布或首都测绘。",
+      "sourceIds": [
+        "nl-viet-ly",
+        "nl-annam"
+      ],
+      "matchNames": [
+        "安南",
+        "大越"
+      ]
+    },
+    {
+      "id": "late_dai_viet_late",
+      "name": "安南（大越）",
+      "ethnicity": "越人／京族先民等",
+      "kind": "polity",
+      "from": 1428,
+      "to": 1801,
+      "point": [
+        105.4,
+        20.5
+      ],
+      "note": "黎利恢复后的大越历史范围入口；其间存在莫氏、郑阮分治及西山，标签不是统一实际控制线。 锚点只标大致活动地区，非确界、人口分布或首都测绘。",
+      "sourceIds": [
+        "nl-annam",
+        "nl-viet"
+      ],
+      "matchNames": [
+        "安南",
+        "大越"
+      ]
+    },
+    {
+      "id": "late_ryukyu",
+      "name": "琉球",
+      "ethnicity": "琉球人",
+      "kind": "polity",
+      "from": 1429,
+      "to": 1878,
+      "point": [
+        128.4,
+        26.3
+      ],
+      "note": "1429三山统一后王国；1609后受萨摩控制仍维持王统，1879废藩置县前止。 锚点只标大致活动地区，非确界、人口分布或首都测绘。",
+      "sourceIds": [
+        "nl-ryukyu"
+      ],
+      "matchNames": [
+        "琉球"
+      ]
+    },
+    {
+      "id": "late_pagan",
+      "name": "蒲甘",
+      "ethnicity": "缅族为主，含孟等",
+      "kind": "polity",
+      "from": 1044,
+      "to": 1287,
+      "point": [
+        95.1,
+        21.1
+      ],
+      "note": "以阿奴律陀统一后的蒲甘阶段为显示范围，不将849建城传统混作本条起点；1287后进入分裂。 锚点只标大致活动地区，非确界、人口分布或首都测绘。",
+      "sourceIds": [
+        "nl-burma"
+      ],
+      "matchNames": [
+        "蒲甘",
+        "缅（蒲甘）"
+      ]
+    },
+    {
+      "id": "late_toungoo",
+      "name": "东吁",
+      "ethnicity": "缅族统治集团，含孟、掸等",
+      "kind": "polity",
+      "from": 1531,
+      "to": 1751,
+      "point": [
+        96.5,
+        20.1
+      ],
+      "note": "采用1531王朝扩张至1752灭亡前的年度窗口；不是整个缅甸人口同属一族。 锚点只标大致活动地区，非确界、人口分布或首都测绘。",
+      "sourceIds": [
+        "nl-burma"
+      ],
+      "matchNames": [
+        "东吁",
+        "缅甸"
+      ]
+    },
+    {
+      "id": "late_konbaung",
+      "name": "贡榜",
+      "ethnicity": "缅族统治集团，含多族群",
+      "kind": "polity",
+      "from": 1752,
+      "to": 1885,
+      "point": [
+        95.6,
+        22.1
+      ],
+      "note": "雍籍牙建立的贡榜王朝；1885英军攻占王都后结束，边界和控制范围历时改变。 锚点只标大致活动地区，非确界、人口分布或首都测绘。",
+      "sourceIds": [
+        "nl-burma"
+      ],
+      "matchNames": [
+        "贡榜",
+        "缅甸"
+      ]
+    },
+    {
+      "id": "late_oirat",
+      "name": "瓦剌诸部",
+      "ethnicity": "卫拉特蒙古",
+      "kind": "confederation",
+      "from": 1409,
+      "to": 1599,
+      "point": [
+        92,
+        47
+      ],
+      "note": "以明1409册封及15—16世纪活动为显示窗口，终点不是族群消失或单一国家灭亡年。各部并非始终统一。 锚点只标大致活动地区，非确界、人口分布或首都测绘。",
+      "sourceIds": [
+        "nl-mongol"
+      ],
+      "matchNames": [
+        "瓦剌",
+        "瓦剌（蒙古）",
+        "卫拉特"
+      ]
+    },
+    {
+      "id": "late_khalkha",
+      "name": "喀尔喀诸部",
+      "ethnicity": "蒙古",
+      "kind": "confederation",
+      "from": 1570,
+      "to": 1690,
+      "point": [
+        106,
+        48.2
+      ],
+      "note": "取16世纪后期至1691多伦会盟前的近邻背景；多个汗部不能当作一位首领统治的整块国家。 锚点只标大致活动地区，非确界、人口分布或首都测绘。",
+      "sourceIds": [
+        "nl-mongol",
+        "nl-khalkha"
+      ],
+      "matchNames": [
+        "喀尔喀",
+        "漠北蒙古"
+      ]
+    },
+    {
+      "id": "late_dzungar",
+      "name": "准噶尔",
+      "ethnicity": "卫拉特蒙古",
+      "kind": "polity",
+      "from": 1680,
+      "to": 1755,
+      "point": [
+        83.5,
+        46.1
+      ],
+      "note": "只显示准噶尔强盛的17世纪末至1755阶段，不以1680作建国年；达瓦齐之后的战事仍延续。 锚点只标大致活动地区，非确界、人口分布或首都测绘。",
+      "sourceIds": [
+        "nl-dzungar"
+      ],
+      "matchNames": [
+        "准噶尔",
+        "准部"
+      ]
+    },
+    {
+      "id": "late_tibetan_regions",
+      "name": "吐蕃诸部",
+      "ethnicity": "吐蕃／藏地诸群",
+      "kind": "regional",
+      "from": 900,
+      "to": 1246,
+      "point": [
+        90.6,
+        31.5
+      ],
+      "note": "吐蕃王朝解体后的地方势力背景，不表示整个高原仍有一个统一吐蕃国家；取蒙古介入前的展示阶段。 锚点只标大致活动地区，非确界、人口分布或首都测绘。",
+      "sourceIds": [
+        "nl-tibet"
+      ],
+      "matchNames": [
+        "吐蕃诸部",
+        "吐蕃（分裂）"
+      ]
+    }
+  ]
+}

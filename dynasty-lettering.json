@@ -1,0 +1,123 @@
+{
+  "version": 1,
+  "method": "Contemporary AI-generated calligraphic raster artwork inspired by documented representative traditions. Not a historical facsimile, extracted original glyph, unique dynasty-wide script, or year-specific handwriting reconstruction. Traditional glyphs are retained for Han and Jin. Existing modern labels and accessible names disambiguate the artwork.",
+  "entries": [
+    {
+      "id": "qin",
+      "glyph": "秦",
+      "label": "秦",
+      "style": "小篆意趣",
+      "shortStyle": "小篆",
+      "note": "借鉴秦代刻石小篆匀整、圆转、纵长的形态。《泰山刻石》相传为李斯书，题签不是原碑集字；秦时也存在隶书等书写形式。",
+      "asset": "assets/dynasty-lettering/qin.png",
+      "source": {
+        "title": "中国国家博物馆 · 泰山刻石残字册页",
+        "url": "https://www.chnmuseum.cn/zp/zpml/201812/t20181218_25487.shtml"
+      }
+    },
+    {
+      "id": "han",
+      "glyph": "漢",
+      "label": "汉",
+      "style": "汉隶意趣",
+      "shortStyle": "汉隶",
+      "note": "借鉴东汉《曹全碑》扁方舒展、波磔鲜明的秀韵一路；展示传统字“漢”。汉代篆、隶等并存，不把这种风格视为整个两汉唯一书体。",
+      "asset": "assets/dynasty-lettering/han.png",
+      "source": {
+        "title": "西安碑林博物馆 · 曹全碑",
+        "url": "https://www.beilin-museum.com/index.php?a=index&aid=145&c=View&m=home"
+      }
+    },
+    {
+      "id": "jin",
+      "glyph": "晉",
+      "label": "晋",
+      "style": "二王行书意趣",
+      "shortStyle": "行书",
+      "note": "借鉴《兰亭序》传世古摹本的映带与欹正变化，展示传统字“晉”。现存相关作品为古摹本，不称王羲之原迹，也不宣称此字出自原帖。",
+      "asset": "assets/dynasty-lettering/jin.png",
+      "source": {
+        "title": "故宫博物院 · 行书摹兰亭序卷",
+        "url": "https://www.dpm.org.cn/collection/handwriting/228279.html"
+      }
+    },
+    {
+      "id": "sui",
+      "glyph": "隋",
+      "label": "隋",
+      "style": "隋楷意趣",
+      "shortStyle": "隋楷",
+      "note": "借鉴《龙藏寺碑》方整安雅、保留隶意及书写笔意的面貌。隋楷承接南北朝、启发唐楷，不表示楷书从隋朝才开始。",
+      "asset": "assets/dynasty-lettering/sui.png",
+      "source": {
+        "title": "清华大学艺术博物馆 · 龙藏寺碑相关研究",
+        "url": "https://www.artmuseum.tsinghua.edu.cn/xsyj/ztyj/yssyj/201709/t20170925_2721.shtml"
+      }
+    },
+    {
+      "id": "tang",
+      "glyph": "唐",
+      "label": "唐",
+      "style": "颜体楷书意趣",
+      "shortStyle": "唐楷",
+      "note": "借鉴颜真卿早年《多宝塔碑》端庄严密、方折有力的形态。原碑刻于唐代，故宫所藏条目为明拓本；这是唐楷的一种面貌。",
+      "asset": "assets/dynasty-lettering/tang.png",
+      "source": {
+        "title": "故宫博物院 · 多宝塔碑",
+        "url": "https://www.dpm.org.cn/collection/impres/234169.html"
+      }
+    },
+    {
+      "id": "song",
+      "glyph": "宋",
+      "label": "宋",
+      "style": "宋人行书意趣",
+      "shortStyle": "行书",
+      "note": "借鉴苏轼《黄州寒食诗卷》宽博沉着、富于节奏的行书笔意。它是宋代尚意书风的代表之一，不是宋代的统一字体。",
+      "asset": "assets/dynasty-lettering/song.png",
+      "source": {
+        "title": "台北故宫博物院 · 黄州寒食诗卷",
+        "url": "https://digitalarchive.npm.gov.tw/opendata/Pub/Detail/14714?dep=P&mode=full"
+      }
+    },
+    {
+      "id": "yuan",
+      "glyph": "元",
+      "label": "元",
+      "style": "赵体楷书意趣",
+      "shortStyle": "赵楷",
+      "note": "借鉴赵孟頫《胆巴碑》温润秀整且富有书写流动的面貌；《胆巴碑》的书体归类为楷书，题签不作为碑中“元”字的摹本。",
+      "asset": "assets/dynasty-lettering/yuan.png",
+      "source": {
+        "title": "故宫博物院 · 赵孟頫帝师胆巴碑",
+        "url": "https://www.dpm.org.cn/journal_detail/246101.html"
+      }
+    },
+    {
+      "id": "ming",
+      "glyph": "明",
+      "label": "明",
+      "style": "文人行书意趣",
+      "shortStyle": "行书",
+      "note": "借鉴文徵明行书的秀逸、修长与流畅，以故宫所藏《行书新燕篇卷》为风格参照，不把明代全部书风归于一人。",
+      "asset": "assets/dynasty-lettering/ming.png",
+      "source": {
+        "title": "故宫博物院 · 文徵明行书新燕篇卷",
+        "url": "https://www.dpm.org.cn/collection/handwriting/234154.html"
+      }
+    },
+    {
+      "id": "qing",
+      "glyph": "清",
+      "label": "清",
+      "style": "馆阁楷书意趣",
+      "shortStyle": "馆阁楷",
+      "note": "借鉴清代官场馆阁书写方正、光洁、整齐的端整意趣。馆阁体尤其在乾隆中叶以后广泛流布，只是清代书风的一条线索，不代表全清唯一字体。",
+      "asset": "assets/dynasty-lettering/qing.png",
+      "source": {
+        "title": "故宫博物院 · 馆阁体",
+        "url": "https://www.dpm.org.cn/lemmas/244278.html"
+      }
+    }
+  ]
+}

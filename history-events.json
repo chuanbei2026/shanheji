@@ -1,0 +1,4213 @@
+{
+  "version": 1,
+  "scope": "Curated key events, 221 BCE–1911 CE; event dates independent of territorial snapshots.",
+  "sources": {
+    "ec_qin": {
+      "title": "《史记·秦始皇本纪》",
+      "url": "https://zh.wikisource.org/wiki/史記/卷006"
+    },
+    "ec_xiang": {
+      "title": "《史记·项羽本纪》",
+      "url": "https://zh.wikisource.org/wiki/史記/卷007"
+    },
+    "ec_gaozu": {
+      "title": "《史记·高祖本纪》",
+      "url": "https://zh.wikisource.org/wiki/史記/卷008"
+    },
+    "ec_jing": {
+      "title": "《史记·孝景本纪》",
+      "url": "https://zh.wikisource.org/wiki/史記/卷011"
+    },
+    "ec_xiongnu": {
+      "title": "《汉书·匈奴传上》",
+      "url": "https://zh.wikisource.org/wiki/漢書/卷094上"
+    },
+    "ec_wu": {
+      "title": "《汉书·武帝纪》",
+      "url": "https://zh.wikisource.org/wiki/漢書/卷006"
+    },
+    "ec_zhangqian": {
+      "title": "《汉书·张骞李广利传》",
+      "url": "https://zh.wikisource.org/wiki/漢書/卷061"
+    },
+    "ec_dayuan": {
+      "title": "《史记·大宛列传》",
+      "url": "https://zh.wikisource.org/wiki/史記/卷123"
+    },
+    "ec_west": {
+      "title": "《汉书·西域传上》",
+      "url": "https://zh.wikisource.org/wiki/漢書/卷096上"
+    },
+    "ec_guangwu": {
+      "title": "《后汉书·光武帝纪上》",
+      "url": "https://zh.wikisource.org/wiki/後漢書/卷1上"
+    },
+    "ec_dou": {
+      "title": "《后汉书·窦融列传（附窦宪）》",
+      "url": "https://zh.wikisource.org/wiki/後漢書/卷23"
+    },
+    "ec_banchao": {
+      "title": "《后汉书·班梁列传》",
+      "url": "https://zh.wikisource.org/wiki/後漢書/卷47"
+    },
+    "ec_cai": {
+      "title": "《后汉书·宦者列传（蔡伦）》",
+      "url": "https://zh.wikisource.org/wiki/後漢書/卷78"
+    },
+    "ec_ling": {
+      "title": "《后汉书·孝灵帝纪》",
+      "url": "https://zh.wikisource.org/wiki/後漢書/卷8"
+    },
+    "ec_caocao": {
+      "title": "《三国志·武帝纪》",
+      "url": "https://zh.wikisource.org/wiki/三國志/卷01"
+    },
+    "ec_liubei": {
+      "title": "《三国志·先主传》",
+      "url": "https://zh.wikisource.org/wiki/三國志/卷32"
+    },
+    "ec_zhouyu": {
+      "title": "《三国志·周瑜鲁肃吕蒙传》",
+      "url": "https://zh.wikisource.org/wiki/三國志/卷54"
+    },
+    "ec_guanyu": {
+      "title": "《三国志·关羽张飞马超黄忠赵云传》",
+      "url": "https://zh.wikisource.org/wiki/三國志/卷36"
+    },
+    "ec_luxun": {
+      "title": "《三国志·陆逊传》",
+      "url": "https://zh.wikisource.org/wiki/三國志/卷58"
+    },
+    "ec_zhuge": {
+      "title": "《三国志·诸葛亮传》",
+      "url": "https://zh.wikisource.org/wiki/三國志/卷35"
+    },
+    "ec_jinhui": {
+      "title": "《晋书·惠帝纪》",
+      "url": "https://zh.wikisource.org/wiki/晉書/卷004"
+    },
+    "ec_jinhuai": {
+      "title": "《晋书·怀帝愍帝纪》",
+      "url": "https://zh.wikisource.org/wiki/晉書/卷005"
+    },
+    "ec_jinyuan": {
+      "title": "《晋书·元帝明帝纪》",
+      "url": "https://zh.wikisource.org/wiki/晉書/卷006"
+    },
+    "ec_xie": {
+      "title": "《晋书·谢尚谢安传》",
+      "url": "https://zh.wikisource.org/wiki/晉書/卷079"
+    },
+    "ec_equal": {
+      "title": "河北省民族事务委员会：燕赵三交史话（均田制）",
+      "url": "https://mw.hebei.gov.cn/system/2023/12/26/030270001.shtml"
+    },
+    "ec_luoyang": {
+      "title": "洛阳市人民政府：历史沿革（494年迁都）",
+      "url": "https://www.ly.gov.cn/mlly/lsyg/"
+    },
+    "ec_weixiao": {
+      "title": "《魏书·高祖纪下》",
+      "url": "https://zh.wikisource.org/wiki/魏書/卷7下"
+    },
+    "ec_liang": {
+      "title": "《梁书·侯景传》",
+      "url": "https://zh.wikisource.org/wiki/梁書/卷56"
+    },
+    "ec_sui": {
+      "title": "《隋书·高祖纪下》",
+      "url": "https://zh.wikisource.org/wiki/隋書/卷02"
+    },
+    "ec_eras": {
+      "title": "中国科学院自然科学史研究所：中国历代年号索引表",
+      "url": "https://agri-history.ihns.ac.cn/history/historic%20table.htm"
+    },
+    "ec_xiongnu_late": {
+      "title": "《汉书·匈奴传下》",
+      "url": "https://zh.wikisource.org/wiki/漢書/卷094下"
+    },
+    "ec_wei_huo": {
+      "title": "《汉书·卫青霍去病传》",
+      "url": "https://zh.wikisource.org/wiki/漢書/卷055"
+    },
+    "ec_nanyue": {
+      "title": "《史记·南越列传》",
+      "url": "https://zh.wikisource.org/wiki/史記/卷113"
+    },
+    "ec_chaoxian": {
+      "title": "《史记·朝鲜列传》",
+      "url": "https://zh.wikisource.org/wiki/史記/卷115"
+    },
+    "ec_zhangqian_museum": {
+      "title": "中国国家博物馆：中华史诗美术大展·张骞出使西域",
+      "url": "https://en.chnmuseum.cn/Portals/0/web/exhibition/exhibitions/161120Chines-Epic/"
+    },
+    "ec_zhangqian_cas": {
+      "title": "中国科学院地理资源所：中国历史上第一位通西域的使者——张骞（前139年说）",
+      "url": "https://igsnrr.cas.cn/cbkx/kpyd/dlxj/202009/t20200910_5692662.html"
+    },
+    "ec_julu": {
+      "title": "巨鹿县人民政府：巨鹿之战（秦二世三年、前207年）",
+      "url": "https://www.julu.gov.cn/mljl.jsp"
+    },
+    "mid_sui3": {
+      "title": "《隋书·炀帝纪上》",
+      "url": "https://zh.wikisource.org/wiki/隋書/卷03"
+    },
+    "mid_sui4": {
+      "title": "《隋书·炀帝纪下》",
+      "url": "https://zh.wikisource.org/wiki/隋書/卷04"
+    },
+    "mid_t1": {
+      "title": "《舊唐書》卷1",
+      "url": "https://zh.wikisource.org/wiki/舊唐書/卷1"
+    },
+    "mid_t2": {
+      "title": "《舊唐書》卷2",
+      "url": "https://zh.wikisource.org/wiki/舊唐書/卷2"
+    },
+    "mid_t3": {
+      "title": "《舊唐書》卷3",
+      "url": "https://zh.wikisource.org/wiki/舊唐書/卷3"
+    },
+    "mid_t4": {
+      "title": "《舊唐書》卷4",
+      "url": "https://zh.wikisource.org/wiki/舊唐書/卷4"
+    },
+    "mid_t5": {
+      "title": "《舊唐書》卷5",
+      "url": "https://zh.wikisource.org/wiki/舊唐書/卷5"
+    },
+    "mid_t6": {
+      "title": "《舊唐書》卷6",
+      "url": "https://zh.wikisource.org/wiki/舊唐書/卷6"
+    },
+    "mid_t8": {
+      "title": "《舊唐書》卷8",
+      "url": "https://zh.wikisource.org/wiki/舊唐書/卷8"
+    },
+    "mid_t9": {
+      "title": "《舊唐書》卷9",
+      "url": "https://zh.wikisource.org/wiki/舊唐書/卷9"
+    },
+    "mid_t10": {
+      "title": "《舊唐書》卷10",
+      "url": "https://zh.wikisource.org/wiki/舊唐書/卷10"
+    },
+    "mid_t11": {
+      "title": "《舊唐書》卷11",
+      "url": "https://zh.wikisource.org/wiki/舊唐書/卷11"
+    },
+    "mid_t12": {
+      "title": "《舊唐書》卷12",
+      "url": "https://zh.wikisource.org/wiki/舊唐書/卷12"
+    },
+    "mid_t19下": {
+      "title": "《舊唐書》卷19下",
+      "url": "https://zh.wikisource.org/wiki/舊唐書/卷19下"
+    },
+    "mid_t20下": {
+      "title": "《舊唐書》卷20下",
+      "url": "https://zh.wikisource.org/wiki/舊唐書/卷20下"
+    },
+    "mid_t191": {
+      "title": "《舊唐書》卷191",
+      "url": "https://zh.wikisource.org/wiki/舊唐書/卷191"
+    },
+    "mid_s001": {
+      "title": "《宋史》卷001",
+      "url": "https://zh.wikisource.org/wiki/宋史/卷001"
+    },
+    "mid_s002": {
+      "title": "《宋史》卷002",
+      "url": "https://zh.wikisource.org/wiki/宋史/卷002"
+    },
+    "mid_s004": {
+      "title": "《宋史》卷004",
+      "url": "https://zh.wikisource.org/wiki/宋史/卷004"
+    },
+    "mid_s005": {
+      "title": "《宋史》卷005",
+      "url": "https://zh.wikisource.org/wiki/宋史/卷005"
+    },
+    "mid_s007": {
+      "title": "《宋史》卷007",
+      "url": "https://zh.wikisource.org/wiki/宋史/卷007"
+    },
+    "mid_s011": {
+      "title": "《宋史》卷011",
+      "url": "https://zh.wikisource.org/wiki/宋史/卷011"
+    },
+    "mid_s014": {
+      "title": "《宋史》卷014",
+      "url": "https://zh.wikisource.org/wiki/宋史/卷014"
+    },
+    "mid_s015": {
+      "title": "《宋史》卷015",
+      "url": "https://zh.wikisource.org/wiki/宋史/卷015"
+    },
+    "mid_s024": {
+      "title": "《宋史》卷024",
+      "url": "https://zh.wikisource.org/wiki/宋史/卷024"
+    },
+    "mid_s029": {
+      "title": "《宋史》卷029",
+      "url": "https://zh.wikisource.org/wiki/宋史/卷029"
+    },
+    "mid_s032": {
+      "title": "《宋史》卷032",
+      "url": "https://zh.wikisource.org/wiki/宋史/卷032"
+    },
+    "mid_s047": {
+      "title": "《宋史》卷047",
+      "url": "https://zh.wikisource.org/wiki/宋史/卷047"
+    },
+    "mid_s336": {
+      "title": "《宋史》卷336",
+      "url": "https://zh.wikisource.org/wiki/宋史/卷336"
+    },
+    "mid_s485": {
+      "title": "《宋史》卷485",
+      "url": "https://zh.wikisource.org/wiki/宋史/卷485"
+    },
+    "mid_y001": {
+      "title": "《元史》卷001",
+      "url": "https://zh.wikisource.org/wiki/元史/卷001"
+    },
+    "mid_y002": {
+      "title": "《元史》卷002",
+      "url": "https://zh.wikisource.org/wiki/元史/卷002"
+    },
+    "mid_y003": {
+      "title": "《元史》卷003",
+      "url": "https://zh.wikisource.org/wiki/元史/卷003"
+    },
+    "mid_y004": {
+      "title": "《元史》卷004",
+      "url": "https://zh.wikisource.org/wiki/元史/卷004"
+    },
+    "mid_y007": {
+      "title": "《元史》卷007",
+      "url": "https://zh.wikisource.org/wiki/元史/卷007"
+    },
+    "mid_y008": {
+      "title": "《元史》卷008",
+      "url": "https://zh.wikisource.org/wiki/元史/卷008"
+    },
+    "mid_y042": {
+      "title": "《元史》卷042",
+      "url": "https://zh.wikisource.org/wiki/元史/卷042"
+    },
+    "mid_f8": {
+      "title": "《新五代史·晋高祖本纪》",
+      "url": "https://zh.wikisource.org/wiki/新五代史/卷08"
+    },
+    "mid_l1": {
+      "title": "《辽史·太祖本纪上》",
+      "url": "https://zh.wikisource.org/wiki/遼史/卷1"
+    },
+    "mid_j2": {
+      "title": "《金史·太祖本纪》",
+      "url": "https://zh.wikisource.org/wiki/金史/卷2"
+    },
+    "mid_j3": {
+      "title": "《金史·太宗本纪》",
+      "url": "https://zh.wikisource.org/wiki/金史/卷3"
+    },
+    "mid_f05": {
+      "title": "《新五代史》卷05",
+      "url": "https://zh.wikisource.org/wiki/新五代史/卷05"
+    },
+    "mid_f09": {
+      "title": "《新五代史》卷09",
+      "url": "https://zh.wikisource.org/wiki/新五代史/卷09"
+    },
+    "mid_f10": {
+      "title": "《新五代史·汉高祖本纪》",
+      "url": "https://zh.wikisource.org/wiki/新五代史/卷10"
+    },
+    "mid_f11": {
+      "title": "《新五代史》卷11",
+      "url": "https://zh.wikisource.org/wiki/新五代史/卷11"
+    },
+    "mid_f12": {
+      "title": "《新五代史》卷12",
+      "url": "https://zh.wikisource.org/wiki/新五代史/卷12"
+    },
+    "late_ming_central": {
+      "title": "故宫博物院：中书省",
+      "url": "https://www.dpm.org.cn/court/system/236406.html"
+    },
+    "late_yunnan": {
+      "title": "贵州省政协：傅友德经略云贵",
+      "url": "https://www.gzszx.gov.cn/wstd/wsmb/37010.shtml"
+    },
+    "late_jingnan": {
+      "title": "故宫博物院：靖难起家——朱棣",
+      "url": "https://www.dpm.org.cn/explode/others/208160.html"
+    },
+    "late_yongle": {
+      "title": "故宫博物院：永乐皇帝大事年表",
+      "url": "https://www.dpm.org.cn/court/lineage/226257.html"
+    },
+    "late_zhenghe": {
+      "title": "中国科学院地理资源所：航海家郑和",
+      "url": "https://www.igsnrr.cas.cn/cbkx/kpyd/dlxj/202009/t20200910_5692679.html"
+    },
+    "late_beijing": {
+      "title": "首都博物馆：古都北京历史文化篇",
+      "url": "https://capitalmuseum.org.cn/exhibition/c6c19ad37dc64b829b9d7f5a4c36a66b"
+    },
+    "late_tumu": {
+      "title": "故宫博物院：正统皇帝",
+      "url": "https://www.dpm.org.cn/court/lineage/226258.html"
+    },
+    "late_qijiguang": {
+      "title": "山东地情档案：台州大捷",
+      "url": "https://shandong-chorography.org/database/a/section/86/article/11/"
+    },
+    "late_altan": {
+      "title": "人民周刊：隆庆和议之马市开设",
+      "url": "https://paper.people.com.cn/rmzk/pc/content/202501/14/content_30052158.html"
+    },
+    "late_wanli": {
+      "title": "故宫博物院：万历皇帝",
+      "url": "https://www.dpm.org.cn/court/lineage/226265.html"
+    },
+    "late_nurhaci": {
+      "title": "故宫博物院：努尔哈赤",
+      "url": "https://www.dpm.org.cn/court/lineage/226250.html"
+    },
+    "late_hongtaiji": {
+      "title": "故宫博物院：皇太极",
+      "url": "https://www.dpm.org.cn/lemmas/239616.html"
+    },
+    "late_capital1644": {
+      "title": "故宫博物院：清廷迁都北京",
+      "url": "https://www.dpm.org.cn/court/event/159873.html"
+    },
+    "late_zheng": {
+      "title": "中国国家博物馆：郑成功的火药弹",
+      "url": "https://www.chnmuseum.cn/yj/xscg/xslw/201812/t20181224_33268.shtml"
+    },
+    "late_kangxi": {
+      "title": "故宫博物院：康熙皇帝大事年表",
+      "url": "https://www.dpm.org.cn/court/lineage/226256.html"
+    },
+    "late_shilang": {
+      "title": "故宫博物院：施琅",
+      "url": "https://www.dpm.org.cn/court/figure/104030.html"
+    },
+    "late_nerchinsk": {
+      "title": "故宫博物院：中俄尼布楚条约",
+      "url": "https://www.dpm.org.cn/lemmas/241561.html"
+    },
+    "late_tibet": {
+      "title": "中国人民大学清史研究所：清驻藏兵制考",
+      "url": "https://iqh.ruc.edu.cn/old/qdbjmzyj/bj_ztyj/xnbj/18e4ea92149540ff84f6eaedad06156f.htm"
+    },
+    "late_qianlong": {
+      "title": "故宫博物院：乾隆皇帝大事年表",
+      "url": "https://www.dpm.org.cn/court/lineage/226263.html"
+    },
+    "late_hoja": {
+      "title": "新疆统战：黑水营战役与大小和卓",
+      "url": "https://www.xjtzb.gov.cn/static/content/tzbk/2025-04-24/1366823536001556480.html"
+    },
+    "late_torghut": {
+      "title": "国家民委：土尔扈特部万里东归",
+      "url": "https://www.neac.gov.cn/seac/c103391/202304/1162852.shtml"
+    },
+    "late_opium": {
+      "title": "中国国家博物馆：虎门销烟池铺地石",
+      "url": "https://www.chnmuseum.cn/zp/zpml/gmww/202104/t20210402_249493.shtml"
+    },
+    "late_nanjing": {
+      "title": "南京条约史料陈列馆：《南京条约》复制件",
+      "url": "https://njjhs.cn/Collection/54.html"
+    },
+    "late_nanjing_text": {
+      "title": "《南京条约》原文",
+      "url": "https://zh.wikisource.org/zh-hans/江寧條約"
+    },
+    "late_taiping": {
+      "title": "中国国家博物馆：太平天国钱币",
+      "url": "https://www.chnmuseum.cn/zp/zpml/hb/202210/t20221018_257507.shtml"
+    },
+    "late_taiping_war": {
+      "title": "故宫博物院：太平天国起义",
+      "url": "https://www.dpm.org.cn/lemmas/241752.html"
+    },
+    "late_xianfeng": {
+      "title": "故宫博物院：咸丰皇帝及条约资料",
+      "url": "https://www.dpm.org.cn/court/lineage/226247.html"
+    },
+    "late_xinjiang": {
+      "title": "中国人民大学清史研究所：新疆与台湾建省档案",
+      "url": "https://iqh.ruc.edu.cn/old/qdzwgxyj/zwgx_zwgxsda/zwda/a1c00c63d25a4440866c6882388dce85.htm"
+    },
+    "late_guangxu": {
+      "title": "故宫博物院：光绪皇帝大事年表",
+      "url": "https://www.dpm.org.cn/court/lineage/226254.html"
+    },
+    "late_shimonoseki": {
+      "title": "外交部：《马关条约》",
+      "url": "https://www.mfa.gov.cn/diaoyudao/chn/flfg/gjty/201510/t20151009_8560614.htm"
+    },
+    "late_boxer": {
+      "title": "深圳盐田档案史志：辛丑条约",
+      "url": "https://www.yantian.gov.cn/ytdayszxxw/lsjt/content/post_11735249.html"
+    },
+    "late_exams": {
+      "title": "美国国务院历史文献：1905年清廷废科举诏令译文",
+      "url": "https://history.state.gov/historicaldocuments/frus1905/d212"
+    },
+    "late_wuchang": {
+      "title": "中国国家博物馆：武昌起义",
+      "url": "https://www.chnmuseum.cn/zp/zpml/ysp/202012/t20201214_248424.shtml"
+    },
+    "late_three_feudatories": {
+      "title": "故宫博物院：平定三藩",
+      "url": "https://www.dpm.org.cn/court/event/160317.html"
+    },
+    "late_aigun_museum": {
+      "title": "瑷珲历史陈列馆：历史陈列",
+      "url": "https://www.aihuihistorymuseum.org.cn/show_index.aspx"
+    },
+    "late_korea": {
+      "title": "中国国家博物馆：万历四十年朝鲜咨文及援朝背景",
+      "url": "https://www.chnmuseum.cn/zp/zpml/201812/t20181218_24702.shtml"
+    },
+    "late_opium_war": {
+      "title": "中国国家博物馆：鸦片烟具与鸦片战争",
+      "url": "https://www.chnmuseum.cn/zp/zpml/201812/t20181218_25802.shtml"
+    },
+    "late_zuo_campaign": {
+      "title": "国家民委：维吾尔族历史沿革（晚清新疆战事）",
+      "url": "https://www.neac.gov.cn/seac/ztzl/wwez/lsyg.shtml"
+    },
+    "late_zuo_strategy": {
+      "title": "西北大学：左宗棠指挥新疆战事与刘锦棠、张曜前线作战",
+      "url": "https://nationalcommunity.nwu.edu.cn/info/1009/1244.htm"
+    },
+    "late_ili_treaty": {
+      "title": "《中俄改订条约》（伊犁条约）原文",
+      "url": "https://zh.wikisource.org/zh-hant/伊犁條約"
+    },
+    "outcome_cq_shiji": {
+      "title": "《史记》秦始皇本纪",
+      "url": "https://ctext.org/shiji/qin-shi-huang-ben-ji/zhs"
+    },
+    "outcome_cq_han": {
+      "title": "中国国家博物馆·秦汉时期",
+      "url": "https://www.chnmuseum.cn/portals/0/web/zt/gudai/detail4.html"
+    },
+    "outcome_cq_sanguo33": {
+      "title": "《三国志》卷33后主传",
+      "url": "https://zh.wikisource.org/wiki/三國志/卷33"
+    },
+    "outcome_cq_dynasty": {
+      "title": "日本国立公文书馆·汉籍相关年表（三国史事）",
+      "url": "https://www.archives.go.jp/exhibition/digital/rekishitomonogatari/history02.html"
+    },
+    "outcome_cq_jin3": {
+      "title": "《晋书》卷3武帝纪",
+      "url": "https://zh.wikisource.org/wiki/晉書/卷003"
+    },
+    "outcome_extra_tongjian_094": {
+      "title": "《资治通鉴》卷094·晋成帝咸和四年329年",
+      "url": "https://zh.wikisource.org/wiki/資治通鑑/卷094"
+    },
+    "outcome_extra_tongjian_097": {
+      "title": "《资治通鉴》卷097·晋穆帝永和三年347年",
+      "url": "https://zh.wikisource.org/wiki/資治通鑑/卷097"
+    },
+    "outcome_extra_chenghan": {
+      "title": "复旦大学CHGIS·宛暖县沿革，引用《晋书》卷8永和三年条",
+      "url": "https://tgaz.fudan.edu.cn/tgaz/placename/hvd_45533"
+    },
+    "outcome_extra_tongjian_102": {
+      "title": "《资治通鉴》卷102·晋海西公太和五年370年",
+      "url": "https://zh.wikisource.org/wiki/資治通鑑/卷102"
+    },
+    "outcome_extra_tongjian_104": {
+      "title": "《资治通鉴》卷104·晋孝武帝太元元年376年",
+      "url": "https://zh.wikisource.org/wiki/資治通鑑/卷104"
+    },
+    "outcome_extra_tongjian_115": {
+      "title": "《资治通鉴》卷115·晋安帝义熙六年410年",
+      "url": "https://zh.wikisource.org/wiki/資治通鑑/卷115"
+    },
+    "outcome_extra_tongjian_118": {
+      "title": "《资治通鉴》卷118·晋安帝义熙十三年417年",
+      "url": "https://zh.wikisource.org/wiki/資治通鑑/卷118"
+    },
+    "outcome_extra_tongjian_122": {
+      "title": "《资治通鉴》卷122·宋文帝元嘉八年431年、九年432年",
+      "url": "https://zh.wikisource.org/wiki/資治通鑑/卷122"
+    },
+    "outcome_extra_tongjian_123": {
+      "title": "《资治通鉴》卷123·宋文帝元嘉十三年436年、十六年439年",
+      "url": "https://zh.wikisource.org/wiki/資治通鑑/卷123"
+    },
+    "outcome_extra_gaochang": {
+      "title": "甘肃文博局·两百余件文物展现五凉历史文化",
+      "url": "https://www.gswbj.gov.cn/a/2022/06/09/13939_2.html"
+    },
+    "outcome_extra_tongjian_173": {
+      "title": "《资治通鉴》卷173·陈宣帝太建九年577年",
+      "url": "https://zh.wikisource.org/wiki/資治通鑑/卷173"
+    },
+    "outcome_extra_zhouqi": {
+      "title": "河北省民族事务委员会·燕赵三交史话",
+      "url": "https://mw.hebei.gov.cn/system/2023/12/26/030270010.shtml"
+    },
+    "outcome_cq_suitang": {
+      "title": "中国国家博物馆·隋唐五代时期",
+      "url": "https://www.chnmuseum.cn/portals/0/web/zt/gudai/detail6.html"
+    },
+    "outcome_cq_song2": {
+      "title": "《宋史》卷2太祖本纪二",
+      "url": "https://zh.wikisource.org/wiki/宋史/卷002"
+    },
+    "outcome_cq_wuyue": {
+      "title": "浙江省社科联·纳土归宋",
+      "url": "https://www.zjskw.gov.cn/col/col1229556977/art/2026/art_0bf5c649e8280cea2b67498755ac6d79.html"
+    },
+    "outcome_cq_beiping": {
+      "title": "国务院参事室傅熹年·明清都城北京城",
+      "url": "https://www.counsellor.gov.cn/2009-10/23/c_1210743208.htm"
+    },
+    "outcome_cq_hongguang": {
+      "title": "故宫博物院·南明弘光政权及其覆灭",
+      "url": "https://www.dpm.org.cn/court/event/159031.html"
+    },
+    "outcome_cq_yongli": {
+      "title": "中国国家博物馆·俘获永历帝宣捷诏谕",
+      "url": "https://www.chnmuseum.cn/zp/zpml/gjwxbt/202008/t20200824_247135.shtml"
+    },
+    "mid_f70": {
+      "title": "《新五代史·东汉世家》（北汉）",
+      "url": "https://zh.wikisource.org/wiki/新五代史/卷70"
+    },
+    "verify_yongle_nlc": {
+      "title": "国家图书馆：《永乐大典》史话（1407定稿、1408誊写完成）",
+      "url": "https://www.nlc.cn/migrated/www.nlc.cn/newhxjy/wjsy/wjls/wjqcsy/wjdsq/201011/P020101123502766205500.pdf"
+    },
+    "anc-nm-early": {
+      "title": "中国国家博物馆《古代中国》·夏商西周时期",
+      "url": "https://www.chnmuseum.cn/portals/0/web/zt/gudai/detail2.html"
+    },
+    "anc-nm-eastern": {
+      "title": "中国国家博物馆《古代中国》·春秋战国时期",
+      "url": "https://www.chnmuseum.cn/portals/0/web/zt/gudai/detail3.html"
+    },
+    "anc-dating": {
+      "title": "中国文字博物馆·禹迹夏踪考（断代工程年代框架）",
+      "url": "https://www.wzbwg.com/newsinfo/11916"
+    },
+    "anc-li": {
+      "title": "中国国家博物馆·克商之证——利簋",
+      "url": "https://m.chnmuseum.cn/Portals/0/web/zt/100n/guobao_content-5.html?id=27"
+    },
+    "anc-wuding": {
+      "title": "中国国家博物馆·中华史诗美术大展：武丁强盛、商鞅变法",
+      "url": "https://en.chnmuseum.cn/Portals/0/web/exhibition/exhibitions/161120Chines-Epic/"
+    },
+    "anc-shangyang": {
+      "title": "上海博物馆·商鞅方升",
+      "url": "https://www.shanghaimuseum.net/resource/museum_files/show_files/20180903105852824/index.html"
+    },
+    "anc-sj4": {
+      "title": "《史记》·周本纪",
+      "url": "https://zh.wikisource.org/wiki/史記/卷004"
+    },
+    "anc-sj5": {
+      "title": "《史记》·秦本纪",
+      "url": "https://zh.wikisource.org/wiki/史記/卷005"
+    },
+    "anc-sj6": {
+      "title": "《史记》·秦始皇本纪",
+      "url": "https://zh.wikisource.org/wiki/史記/卷006"
+    },
+    "anc-sj32": {
+      "title": "《史记》·齐太公世家",
+      "url": "https://zh.wikisource.org/wiki/史記/卷032"
+    },
+    "anc-sj39": {
+      "title": "《史记》·晋世家",
+      "url": "https://zh.wikisource.org/wiki/史記/卷039"
+    },
+    "anc-sj41": {
+      "title": "《史记》·越王勾践世家",
+      "url": "https://zh.wikisource.org/wiki/史記/卷041"
+    },
+    "anc-sj43": {
+      "title": "《史记》·赵世家",
+      "url": "https://zh.wikisource.org/wiki/史記/卷043"
+    },
+    "anc-sj47": {
+      "title": "《史记》·孔子世家",
+      "url": "https://zh.wikisource.org/wiki/史記/卷047"
+    },
+    "anc-tj1": {
+      "title": "《资治通鉴》卷1·周纪一",
+      "url": "https://zh.wikisource.org/wiki/資治通鑑/卷001"
+    },
+    "anc-tj2": {
+      "title": "《资治通鉴》卷2·周纪二",
+      "url": "https://zh.wikisource.org/wiki/資治通鑑/卷002"
+    },
+    "anc-tj3": {
+      "title": "《资治通鉴》卷3·周纪三",
+      "url": "https://zh.wikisource.org/wiki/資治通鑑/卷003"
+    },
+    "anc-tj4": {
+      "title": "《资治通鉴》卷4·周纪四",
+      "url": "https://zh.wikisource.org/wiki/資治通鑑/卷004"
+    },
+    "anc-tj5": {
+      "title": "《资治通鉴》卷5·周纪五",
+      "url": "https://zh.wikisource.org/wiki/資治通鑑/卷005"
+    },
+    "anc-tj6": {
+      "title": "《资治通鉴》卷6·秦纪一",
+      "url": "https://zh.wikisource.org/wiki/資治通鑑/卷006"
+    },
+    "anc-zz桓公": {
+      "title": "《春秋左氏传》·桓公",
+      "url": "https://zh.wikisource.org/wiki/春秋左氏傳/桓公"
+    },
+    "anc-zz僖公": {
+      "title": "《春秋左氏传》·僖公",
+      "url": "https://zh.wikisource.org/wiki/春秋左氏傳/僖公"
+    },
+    "anc-zz宣公": {
+      "title": "《春秋左氏传》·宣公",
+      "url": "https://zh.wikisource.org/wiki/春秋左氏傳/宣公"
+    },
+    "anc-zz襄公": {
+      "title": "《春秋左氏传》·襄公",
+      "url": "https://zh.wikisource.org/wiki/春秋左氏傳/襄公"
+    },
+    "anc-zz定公": {
+      "title": "《春秋左氏传》·定公",
+      "url": "https://zh.wikisource.org/wiki/春秋左氏傳/定公"
+    },
+    "anshi_start_gazetteer": {
+      "title": "北京市方志馆《安禄山祸乱幽州城》：天宝十四年十一月初九起兵",
+      "url": "https://wap.bjd.com.cn/news/2022/11/28/10243971.shtml"
+    },
+    "anshi_end_tongjian": {
+      "title": "《资治通鉴》卷222：宝应二年正月，史朝义败亡",
+      "url": "https://zh.wikisource.org/wiki/資治通鑑/卷222"
+    },
+    "anshi_duration_study": {
+      "title": "北京市文物局《潞镇统治下的幽州》：755年末至763年春，历时七年多",
+      "url": "https://wwj.beijing.gov.cn/bjww/resource/cms/article/bjww_362762/10864881/2020091610102620578.pdf"
+    },
+    "enrich_han_wendi": {
+      "title": "《汉书》卷4·文帝纪",
+      "url": "https://zh.wikisource.org/wiki/漢書/卷004"
+    },
+    "enrich_jin_xuandi": {
+      "title": "《晋书》卷1·宣帝纪",
+      "url": "https://zh.wikisource.org/wiki/晉書/卷001"
+    },
+    "enrich_song_found": {
+      "title": "南京市地方志办公室·南朝刘宋的南京成语典故",
+      "url": "https://dfz.nanjing.gov.cn/gzdt/202405/t20240506_4658409.html"
+    },
+    "enrich_dayan": {
+      "title": "西安市地方志办公室·大雁塔",
+      "url": "https://xadfz.xa.gov.cn/xadq/rwxa/1802954373708996609.html"
+    },
+    "enrich_jiaozi": {
+      "title": "中国国家博物馆·中华史诗美术大展·交子",
+      "url": "https://en.chnmuseum.cn/Portals/0/web/exhibition/exhibitions/161120Chines-Epic/"
+    },
+    "enrich_duomen": {
+      "title": "故宫博物院·夺门之变",
+      "url": "https://www.dpm.org.cn/lemmas/241376.html"
+    },
+    "enrich_yangming": {
+      "title": "湖南省纪委监委·王阳明“龙场悟道”",
+      "url": "https://www.sxfj.gov.cn/jing_cai_zhuan_ti/267e63/10955730.shtml"
+    },
+    "enrich_liujin": {
+      "title": "故宫博物院·正德皇帝·刘瑾",
+      "url": "https://www.dpm.org.cn/court/lineage/226240.html"
+    },
+    "enrich_ningwang": {
+      "title": "福建省人民政府·王阳明平宁王之乱",
+      "url": "https://www.fujian.gov.cn/zwgk/ztzl/sxzygwzxsgzx/sdjj/wvjj/202308/t20230810_6222878.htm"
+    },
+    "enrich_daliyi": {
+      "title": "故宫博物院·大礼议",
+      "url": "https://www.dpm.org.cn/lemmas/241433.html"
+    },
+    "enrich_bencao": {
+      "title": "中国国家博物馆·《本草纲目》",
+      "url": "https://www.chnmuseum.cn/zp/zpml/gjwxbt/202203/t20220301_254064.shtml"
+    },
+    "enrich_jisi": {
+      "title": "故宫博物院·皇太极入关奔袭战略",
+      "url": "https://www.dpm.org.cn/court/event/158734.html"
+    },
+    "enrich_tiangong": {
+      "title": "中国科学院自然科学史研究所·宋应星",
+      "url": "https://agri-history.ihns.ac.cn/agriculturists/syx.htm"
+    },
+    "enrich_aobai": {
+      "title": "故宫博物院·鳌拜罪案史料辩证",
+      "url": "https://www.dpm.org.cn/journal/247005.html"
+    },
+    "enrich_yongzheng": {
+      "title": "故宫博物院·雍正皇帝",
+      "url": "https://www.dpm.org.cn/court/lineage/226259.html"
+    },
+    "enrich_junji": {
+      "title": "故宫博物院·清代军机处档案研究",
+      "url": "https://www.dpm.org.cn/Uploads/pdf/1540/T00014_00.pdf"
+    },
+    "enrich_qianlong": {
+      "title": "故宫博物院·乾隆皇帝",
+      "url": "https://www.dpm.org.cn/court/lineage/226263.html"
+    },
+    "enrich_siku": {
+      "title": "故宫博物院·《四库全书》",
+      "url": "https://www.dpm.org.cn/lemmas/241812.html"
+    },
+    "enrich_macartney": {
+      "title": "中国国家博物馆·马戛尔尼的礼物",
+      "url": "https://www.chnmuseum.cn/yj/xscg/xslw/201812/t20181224_33280.shtml"
+    },
+    "enrich_heshen": {
+      "title": "故宫博物院·和珅",
+      "url": "https://www.dpm.org.cn/court/figure/104004.html"
+    },
+    "enrich_tianli": {
+      "title": "故宫博物院·嘉庆皇帝",
+      "url": "https://www.dpm.org.cn/court/lineage/226238.html"
+    },
+    "enrich_xinyou": {
+      "title": "故宫博物院·辛酉政变",
+      "url": "https://www.dpm.org.cn/court/event/156213.html"
+    },
+    "enrich_puyi": {
+      "title": "故宫博物院·宣统皇帝大事年表",
+      "url": "https://www.dpm.org.cn/court/lineage/226255.html"
+    }
+  },
+  "events": [
+    {
+      "id": "anc_xia",
+      "year": -2070,
+      "title": "夏代与早期王权的形成",
+      "category": "政权与变局",
+      "summary": "传世文献把禹、启置于夏王朝开端。此条采用断代工程约前2070年的框架作浏览起点，不表示已有同时代文字证实这一年的建国事件。",
+      "impact": "二里头等遗存为研究早期国家提供考古材料，但遗址、王名和具体年份之间不能直接画等号。",
+      "sources": [
+        "anc-dating",
+        "anc-nm-early"
+      ],
+      "approximate": true,
+      "dateLabel": "约前2070年",
+      "datePrecision": "chronological_framework",
+      "certaintyNote": "夏的起讫采用研究框架；具体年与夏王名的考古对应仍有争论。"
+    },
+    {
+      "id": "anc_shang",
+      "year": -1600,
+      "title": "商兴起，夏商更替",
+      "category": "政权与变局",
+      "summary": "传世史书叙述成汤取代夏。这里用约前1600年作为夏商分界的研究性年代，不把灭夏之战精确定位到这一年。",
+      "impact": "商代青铜与城市遗存构成更丰富的早期国家材料。",
+      "sources": [
+        "anc-dating",
+        "anc-nm-early"
+      ],
+      "approximate": true,
+      "dateLabel": "约前1600年",
+      "datePrecision": "chronological_framework"
+    },
+    {
+      "id": "anc_pangeng",
+      "year": -1300,
+      "title": "盘庚迁殷",
+      "category": "政权与变局",
+      "summary": "商王室此前曾迁都。盘庚迁殷后，安阳地区成为晚商政治中心；具体迁年采用约前1300年的年代框架。",
+      "impact": "殷墟遗址、甲骨文和王陵使晚商历史具有不同于夏代的证据密度。",
+      "sources": [
+        "anc-dating",
+        "anc-nm-early"
+      ],
+      "approximate": true,
+      "dateLabel": "约前1300年",
+      "datePrecision": "estimated_year"
+    },
+    {
+      "id": "anc_wuding",
+      "year": -1250,
+      "title": "武丁时代：甲骨记录中的征伐与妇好",
+      "category": "文化与交流",
+      "summary": "甲骨卜辞记录商王的祭祀、农业与征伐，也记载妇好率军活动。本条是武丁时期的入口，不把这些多年活动说成同年发生。",
+      "impact": "文字与考古材料可以相互印证，但商的方国关系不等于连续疆界。",
+      "sources": [
+        "anc-wuding",
+        "anc-dating"
+      ],
+      "approximate": true,
+      "dateLabel": "约前13世纪（武丁时期）",
+      "datePrecision": "period_anchor",
+      "periodFrom": -1250,
+      "periodTo": -1192
+    },
+    {
+      "id": "anc_muye",
+      "year": -1046,
+      "title": "武王克商，牧野之战",
+      "category": "疆域与战争",
+      "summary": "周武王率联合军击败商王帝辛。利簋铭文提供克商的同时代记录；前1046年是本页采用的断代工程方案，并非无争议的绝对纪年。",
+      "impact": "周取代商成为新的王朝，商人群体和地方方国并未因此全部消失。",
+      "sources": [
+        "anc-li",
+        "anc-sj4"
+      ],
+      "approximate": true,
+      "dateLabel": "约前1046年",
+      "datePrecision": "chronology_project",
+      "certaintyNote": "利簋可证克商的干支日；换算为绝对公元年份仍涉及学术推定。"
+    },
+    {
+      "id": "anc_zhougong",
+      "year": -1042,
+      "title": "周公摄政与东征",
+      "category": "疆域与战争",
+      "summary": "武王去世、成王年幼，周公摄政，平定武庚及管蔡等联合反叛。此处前1042年仅作西周早期摄政、东征叙事的约略入口。",
+      "impact": "周朝重新控制东方的重要据点，并调整对商遗民与诸侯的安排。",
+      "sources": [
+        "anc-sj4",
+        "anc-nm-early"
+      ],
+      "approximate": true,
+      "dateLabel": "约前11世纪（成王初年）",
+      "datePrecision": "period_anchor"
+    },
+    {
+      "id": "anc_chengzhou",
+      "year": -1040,
+      "title": "营建成周，封邦建国",
+      "category": "改革与社会",
+      "summary": "西周早期营建洛邑、成周，通过封授宗亲与功臣建立诸侯网络。这是持续展开的政治工程，不是前1040年一次划定全国边界。",
+      "impact": "王畿、诸侯与方国构成层级关系；分封不等于周王直接治理每一块土地。",
+      "sources": [
+        "anc-sj4",
+        "anc-nm-early"
+      ],
+      "approximate": true,
+      "dateLabel": "约前11世纪（成王时期）",
+      "datePrecision": "period_anchor"
+    },
+    {
+      "id": "anc_gonghe",
+      "year": -841,
+      "title": "国人暴动与共和行政",
+      "category": "政权与变局",
+      "summary": "周厉王出奔彘，王朝进入共和行政时期。《史记》采用周、召二相行政说，共伯和摄政则是另一种古史解释。",
+      "impact": "前841年是传统连续纪年中一个可靠的起点；这不表示以前的历史全无文字或考古证据。",
+      "sources": [
+        "anc-sj4",
+        "anc-dating"
+      ]
+    },
+    {
+      "id": "anc_xuan",
+      "year": -827,
+      "title": "宣王即位，谋求恢复王室秩序",
+      "category": "政权与变局",
+      "summary": "共和行政结束，周宣王即位。他尝试整顿王政并展开军事行动；后世所谓中兴并不表示整个在位期没有失利。",
+      "impact": "王室一度恢复威望，西周晚期的结构性矛盾仍然存在。",
+      "sources": [
+        "anc-sj4"
+      ],
+      "people": [
+        "周宣王 · 姬靖"
+      ]
+    },
+    {
+      "id": "anc_western_zhou_end",
+      "year": -771,
+      "title": "幽王遇害，西周王室危机",
+      "category": "政权与变局",
+      "summary": "申侯联合戎人等攻入王畿，周幽王被杀。继承冲突和诸侯关系是理解危机的重要背景，不能只归结为烽火戏诸侯的故事。",
+      "impact": "镐京政治中心瓦解；随后形成东迁及王位竞争的复杂过程。",
+      "sources": [
+        "anc-sj4"
+      ],
+      "people": [
+        "周幽王 · 姬宫湦"
+      ]
+    },
+    {
+      "id": "anc_eastward",
+      "year": -770,
+      "title": "平王东迁洛邑",
+      "category": "政权与变局",
+      "summary": "按通行纪年，周平王东迁洛邑。东迁前后的王位竞争仍有出土文献与传世文献需要互证，本页以此前后作为西周、东周分界。",
+      "impact": "周王室仍然存在，但诸侯在军政上的自主权逐渐增强。",
+      "sources": [
+        "anc-sj4",
+        "anc-nm-eastern"
+      ],
+      "people": [
+        "周平王 · 姬宜臼"
+      ]
+    },
+    {
+      "id": "anc_xuge",
+      "year": -707,
+      "title": "繻葛之战，周郑交兵",
+      "category": "疆域与战争",
+      "summary": "周桓王率诸侯军讨郑，郑军抵抗并射伤周王。事件见《左传》桓公五年。",
+      "impact": "王室的军事号召力受到冲击，不能再把周天子名义地位等同于直接控制列国。",
+      "sources": [
+        "anc-zz桓公"
+      ],
+      "people": [
+        "周桓王 · 姬林"
+      ]
+    },
+    {
+      "id": "anc_qihuan",
+      "year": -685,
+      "title": "齐桓公即位，管仲辅政",
+      "category": "改革与社会",
+      "summary": "齐国继承争夺后，小白即位为齐桓公，任用管仲整顿政治、财政与军事。改革与称霸是多年过程。",
+      "impact": "齐逐渐成为调动诸侯的强国，周王与霸主的权力关系更需区分。",
+      "sources": [
+        "anc-sj32"
+      ],
+      "people": [
+        "齐桓公 · 姜小白"
+      ]
+    },
+    {
+      "id": "anc_kuiqiu",
+      "year": -651,
+      "title": "葵丘会盟，齐桓公霸业",
+      "category": "政权与变局",
+      "summary": "齐桓公与诸侯在葵丘会盟，周王室也参与礼仪承认。事件见《左传》僖公九年。",
+      "impact": "霸主依靠会盟、援助与军事压力组织列国，并非把各国并为齐的领土。",
+      "sources": [
+        "anc-zz僖公"
+      ],
+      "people": [
+        "齐桓公 · 姜小白"
+      ]
+    },
+    {
+      "id": "anc_chengpu",
+      "year": -632,
+      "title": "城濮之战，晋胜楚",
+      "category": "疆域与战争",
+      "summary": "晋文公所率联盟在城濮击败楚军，随后举行践土会盟。事件见《左传》僖公二十八年。",
+      "impact": "晋成为中原争霸的重要力量，晋楚竞争并未就此结束。",
+      "sources": [
+        "anc-zz僖公",
+        "anc-sj39"
+      ],
+      "people": [
+        "晋文公 · 姬重耳"
+      ]
+    },
+    {
+      "id": "anc_bi",
+      "year": -597,
+      "title": "邲之战，楚胜晋",
+      "category": "疆域与战争",
+      "summary": "楚庄王在郑国问题上与晋军交战，楚军获胜。事件见《左传》宣公十二年。",
+      "impact": "楚的中原影响增强；一场战役的胜败不等于占领所有盟国。",
+      "sources": [
+        "anc-zz宣公"
+      ],
+      "people": [
+        "楚庄王 · 熊旅"
+      ]
+    },
+    {
+      "id": "anc_mibing",
+      "year": -546,
+      "title": "宋之盟：晋楚弭兵",
+      "category": "政权与变局",
+      "summary": "宋向戌推动晋楚等国大夫会盟，协商停止部分争战，并调整诸侯的交往义务。事件见《左传》襄公二十七年。",
+      "impact": "晋楚竞争转入新的协调格局，东南吴越的力量也在上升。",
+      "sources": [
+        "anc-zz襄公"
+      ]
+    },
+    {
+      "id": "anc_boju",
+      "year": -506,
+      "title": "柏举之战，吴军入郢",
+      "category": "疆域与战争",
+      "summary": "吴王阖闾统军攻楚，吴军击败楚军并进入郢。楚昭王出逃，随后在援军和局势变化下恢复。",
+      "impact": "楚受到重创，但不能把吴军短期入郢画成楚国从此灭亡。",
+      "sources": [
+        "anc-zz定公"
+      ],
+      "people": [
+        "吴王阖闾 · 姬光"
+      ]
+    },
+    {
+      "id": "anc_confucius",
+      "year": -479,
+      "title": "孔子去世，学说由弟子传承",
+      "category": "文化与交流",
+      "summary": "孔子卒于鲁哀公十六年。他的教育实践和政治伦理经弟子及后学传播、整理；不能把后世儒学全部归为当时已定型。",
+      "impact": "思想与教育网络超越诸侯边界，构成春秋战国变革的另一条线索。",
+      "sources": [
+        "anc-sj47"
+      ]
+    },
+    {
+      "id": "anc_yue_wu",
+      "year": -473,
+      "title": "越灭吴",
+      "category": "疆域与战争",
+      "summary": "勾践领导的越国最终攻灭吴，夫差身死。吴越长期战争改变了长江下游的政治格局。",
+      "impact": "越取得吴地并扩大影响，后来又在内部争位和楚国进攻中衰落。",
+      "sources": [
+        "anc-sj41"
+      ],
+      "relation": {
+        "type": "conquest",
+        "winners": [
+          "越"
+        ],
+        "losers": [
+          "吴"
+        ]
+      }
+    },
+    {
+      "id": "anc_jinyang",
+      "year": -453,
+      "title": "晋阳之战后，韩赵魏分智氏之地",
+      "category": "疆域与战争",
+      "summary": "韩、赵、魏三家联手消灭智氏，并分割其控制地。晋国并非在这一年立刻从名义上消失。",
+      "impact": "三家成为晋地主要力量，为前403年的正式册封奠定基础。",
+      "sources": [
+        "anc-tj1",
+        "anc-sj43"
+      ]
+    },
+    {
+      "id": "anc_three_jin",
+      "year": -403,
+      "title": "周王命韩赵魏为诸侯",
+      "category": "政权与变局",
+      "summary": "周威烈王正式承认韩、赵、魏为诸侯；《资治通鉴》从这一年开篇。它与前453年灭智、后来的晋国终结是不同节点。",
+      "impact": "战国大国的政治结构更为清晰；春秋、战国的分界另有前475年等通行口径。",
+      "sources": [
+        "anc-tj1",
+        "anc-sj4"
+      ],
+      "people": [
+        "周威烈王 · 姬午"
+      ]
+    },
+    {
+      "id": "anc_tian_qi",
+      "year": -386,
+      "title": "田氏获得齐侯之命",
+      "category": "政权与变局",
+      "summary": "田氏长期掌握齐政后，田和获周王册命为诸侯。姜姓齐末主与田氏权力更替并不是单日完成。",
+      "impact": "齐国统治家族改变，但不能据此推断齐国疆界在当年全部重画。",
+      "sources": [
+        "anc-tj1"
+      ]
+    },
+    {
+      "id": "anc_shangyang",
+      "year": -359,
+      "title": "商鞅变法展开",
+      "category": "改革与社会",
+      "summary": "本条以前359年的变法议论作入口；常见简表以约前356年标首轮变法。军功、户籍、耕织和法律改革逐步展开，不能视作同年一次完成。",
+      "impact": "改革强化秦国动员资源、治理县邑和进行战争的能力。",
+      "sources": [
+        "anc-tj2",
+        "anc-wuding"
+      ],
+      "approximate": true,
+      "dateLabel": "前359—前350年（变法过程）",
+      "datePrecision": "process_anchor",
+      "periodFrom": -359,
+      "periodTo": -350,
+      "certaintyNote": "议变法、首轮实施与后续改制有不同纪年口径。",
+      "people": [
+        "商鞅"
+      ]
+    },
+    {
+      "id": "anc_xianyang",
+      "year": -350,
+      "title": "秦迁咸阳，继续推行县制等改革",
+      "category": "改革与社会",
+      "summary": "秦孝公时期营建咸阳作为新都，并继续展开县制、田制和度量衡等改革。此前都城为栎阳，不以雍直接替代这一迁都节点。",
+      "impact": "咸阳成为秦后期的政治中心，制度整合与疆域扩张相互促进。",
+      "sources": [
+        "anc-tj2",
+        "anc-sj5",
+        "anc-shangyang"
+      ],
+      "people": [
+        "秦孝公 · 嬴渠梁"
+      ]
+    },
+    {
+      "id": "anc_bashu",
+      "year": -316,
+      "title": "秦并巴蜀",
+      "category": "疆域与战争",
+      "summary": "秦军进入四川盆地，攻灭蜀，并控制巴等地；地方治理和反抗此后仍有变化。",
+      "impact": "秦获得重要人口、物产与战略纵深，并从上游对楚形成压力。",
+      "sources": [
+        "anc-tj3",
+        "anc-sj5"
+      ]
+    },
+    {
+      "id": "anc_hufu",
+      "year": -307,
+      "title": "赵武灵王推行胡服骑射",
+      "category": "改革与社会",
+      "summary": "赵武灵王倡导变服、学习骑射，事件按《史记》武灵王十九年记。改革吸收北方人群的军事经验，实施与扩编仍是过程。",
+      "impact": "赵国的军事组织与北方活动方式改变；不要把该年说成骑射技术首次出现。",
+      "sources": [
+        "anc-sj43",
+        "anc-tj3"
+      ],
+      "people": [
+        "赵武灵王 · 赵雍"
+      ]
+    },
+    {
+      "id": "anc_coalition_qi",
+      "year": -284,
+      "title": "燕等国联合攻齐",
+      "category": "疆域与战争",
+      "summary": "燕国联合诸国大举攻齐，乐毅统军取得重大进展。齐王出逃，齐国仅余部分据点，随后田单等组织恢复。",
+      "impact": "齐失去先前强国地位，但并未在前284年彻底灭亡。",
+      "sources": [
+        "anc-tj4"
+      ]
+    },
+    {
+      "id": "anc_ying",
+      "year": -278,
+      "title": "白起拔郢，楚廷东迁",
+      "category": "疆域与战争",
+      "summary": "秦将白起攻取楚都郢及周边地区，楚顷襄王迁往陈等地继续统治。",
+      "impact": "楚在长江中游的控制受到严重打击；郢陷与楚国最终灭亡相隔数十年。",
+      "sources": [
+        "anc-tj4"
+      ],
+      "people": [
+        "楚顷襄王 · 熊横",
+        "白起"
+      ]
+    },
+    {
+      "id": "anc_changping",
+      "year": -260,
+      "title": "长平之战，赵军惨败",
+      "category": "疆域与战争",
+      "summary": "围绕上党形势展开的秦赵大战以赵军失败告终。白起大规模杀降的叙述见传世史书，具体人数应审慎看待。",
+      "impact": "赵国的人力与军事力量受重创，秦仍需多年战争才能灭赵。",
+      "sources": [
+        "anc-tj5",
+        "anc-sj43"
+      ],
+      "people": [
+        "白起"
+      ]
+    },
+    {
+      "id": "anc_zhou_nan",
+      "year": -256,
+      "title": "周赧王死，秦取西周国",
+      "category": "政权与变局",
+      "summary": "周赧王向秦献地后去世，秦取得西周国土地。这里的西周国是东周晚期的小国，不能与前771年以前的西周王朝混为一谈。",
+      "impact": "通常以此作为周王朝的终点；东周国尚存至前249年。",
+      "sources": [
+        "anc-tj5",
+        "anc-sj4"
+      ],
+      "people": [
+        "周赧王 · 姬延"
+      ]
+    },
+    {
+      "id": "anc_eastern_zhou_state",
+      "year": -249,
+      "title": "秦灭东周国",
+      "category": "疆域与战争",
+      "summary": "秦相吕不韦派兵结束东周国。该地方政治实体与整个东周时代并非同一个概念。",
+      "impact": "周王室在洛阳一带的残余政治实体终结。",
+      "sources": [
+        "anc-tj6"
+      ],
+      "relation": {
+        "type": "conquest",
+        "winners": [
+          "秦"
+        ],
+        "losers": [
+          "东周国"
+        ]
+      }
+    },
+    {
+      "id": "anc_last_coalition",
+      "year": -241,
+      "title": "诸国合纵攻秦受挫",
+      "category": "疆域与战争",
+      "summary": "楚、赵、魏、韩、卫等合纵攻秦，行动受挫。各国仍试图以联盟抵抗秦国，联盟内部利益却难以长期协调。",
+      "impact": "秦统一前的联合抵抗未能扭转力量对比，六国也没有当年立即灭亡。",
+      "sources": [
+        "anc-tj6"
+      ]
+    },
+    {
+      "id": "anc_han_end",
+      "year": -230,
+      "title": "秦灭韩",
+      "category": "疆域与战争",
+      "summary": "秦内史腾攻韩，俘韩王安，秦在韩地设置郡县。",
+      "impact": "秦灭六国的连续征服进入决定性阶段。",
+      "sources": [
+        "anc-sj6"
+      ],
+      "relation": {
+        "type": "conquest",
+        "winners": [
+          "秦"
+        ],
+        "losers": [
+          "韩"
+        ]
+      },
+      "people": [
+        "韩王安 · 韩安"
+      ]
+    },
+    {
+      "id": "anc_zhao_end",
+      "year": -228,
+      "title": "秦破邯郸，赵王被俘",
+      "category": "疆域与战争",
+      "summary": "秦军攻破邯郸，俘赵王迁。赵公子嘉逃至代地继续抵抗，不能把前228年视作赵氏势力立即全部消失。",
+      "impact": "代地残余政权继续存在，至前222年被秦攻灭。",
+      "sources": [
+        "anc-sj6"
+      ]
+    },
+    {
+      "id": "anc_wei_end",
+      "year": -225,
+      "title": "秦灭魏",
+      "category": "疆域与战争",
+      "summary": "秦将王贲攻魏，引水灌大梁，魏王假投降。",
+      "impact": "魏国王廷终结，秦的郡县统治向中原腹地推进。",
+      "sources": [
+        "anc-sj6"
+      ],
+      "relation": {
+        "type": "conquest",
+        "winners": [
+          "秦"
+        ],
+        "losers": [
+          "魏"
+        ]
+      },
+      "people": [
+        "魏王假 · 魏假"
+      ]
+    },
+    {
+      "id": "anc_chu_end",
+      "year": -223,
+      "title": "秦俘楚王，楚国王廷终结",
+      "category": "疆域与战争",
+      "summary": "王翦等所率秦军大举攻楚，楚王负刍被俘。楚地的后续军事与行政整合仍需时间。",
+      "impact": "楚国王廷覆亡，不能把楚境所有地区都视为同一天完成归附。",
+      "sources": [
+        "anc-sj6"
+      ],
+      "relation": {
+        "type": "conquest",
+        "winners": [
+          "秦"
+        ],
+        "losers": [
+          "楚"
+        ]
+      },
+      "people": [
+        "楚王负刍 · 熊负刍",
+        "王翦"
+      ]
+    },
+    {
+      "id": "anc_yan_dai_end",
+      "year": -222,
+      "title": "秦灭燕、代残余政权",
+      "category": "疆域与战争",
+      "summary": "秦军攻取辽东，俘燕王喜，又俘代王嘉。此前退往边地的燕、赵残余政权结束。",
+      "impact": "六国中只余齐国未被秦吞并，次年进入前221年的统一节点。",
+      "sources": [
+        "anc-sj6"
+      ],
+      "relation": {
+        "type": "conquest",
+        "winners": [
+          "秦"
+        ],
+        "losers": [
+          "燕",
+          "代"
+        ]
+      },
+      "people": [
+        "燕王喜 · 姬喜"
+      ]
+    },
+    {
+      "id": "chron_qin_unification",
+      "year": -221,
+      "title": "秦统一六国，始皇帝登场",
+      "category": "政权与变局",
+      "summary": "王贲攻齐，齐王建被俘，秦完成兼并六国。秦王政称皇帝，在全国推行郡县制，并统一文字、度量衡等制度。",
+      "impact": "列国并立的政治格局结束，统一帝国成为此后历代反复追求的政治目标。",
+      "sources": [
+        "ec_qin"
+      ],
+      "outcomeId": "end_qi",
+      "people": [
+        "秦王政 · 嬴政",
+        "齐王建 · 田建"
+      ]
+    },
+    {
+      "id": "chron_qin_lingnan",
+      "year": -214,
+      "title": "秦置岭南三郡",
+      "category": "对外与拓展",
+      "summary": "秦军向岭南推进，设置南海、桂林、象等郡并迁人戍守。战事与开发持续多年，不能把设郡理解成所有地方已受到同样严密的控制。",
+      "impact": "岭南与中原帝国的行政联系加强；秦亡后，这里又成为南越政权的立足之地。",
+      "sources": [
+        "ec_qin"
+      ],
+      "previousCategory": "疆域与战争"
+    },
+    {
+      "id": "chron_qin_books",
+      "year": -213,
+      "title": "焚书令下达",
+      "category": "文化与交流",
+      "summary": "围绕分封与郡县的争论，李斯提出禁毁部分民间典籍。秦始皇采纳其议；医药、卜筮、种树之书等不在同一禁毁范围。",
+      "impact": "帝国强化思想与制度控制，也留下关于知识、权力和历史记忆的长期争论。",
+      "sources": [
+        "ec_qin"
+      ]
+    },
+    {
+      "id": "chron_qin_death",
+      "year": -210,
+      "title": "始皇帝去世，沙丘政变",
+      "category": "政权与变局",
+      "summary": "秦始皇巡行途中去世。赵高、李斯与胡亥改变继承安排，扶苏被迫自杀，胡亥即位为秦二世，帝国高层随即发生清洗。",
+      "impact": "统一不久的帝国出现严重继承危机，既有的徭役与政治矛盾进一步激化。",
+      "sources": [
+        "ec_qin"
+      ],
+      "people": [
+        "秦二世 · 胡亥"
+      ]
+    },
+    {
+      "id": "chron_dazexiang",
+      "year": -209,
+      "title": "陈胜吴广起事",
+      "category": "政权与变局",
+      "summary": "陈胜、吴广在大泽乡发动反秦起事，陈胜随后建立张楚。起事虽然很快受挫，各地反秦力量已经迅速兴起。",
+      "impact": "秦对地方的控制瓦解，旧六国势力与新兴军队共同进入争夺天下的战争。",
+      "sources": [
+        "ec_qin",
+        "ec_xiang"
+      ],
+      "people": [
+        "陈胜",
+        "吴广"
+      ]
+    },
+    {
+      "id": "chron_end_qin",
+      "year": -207,
+      "title": "子婴向刘邦军投降",
+      "category": "政权与变局",
+      "summary": "刘邦军进入关中，子婴出降，秦朝中央政权覆亡。项羽随后进入关中，杀死子婴；部分通史据此把秦亡记为前206年。",
+      "impact": "秦朝中央政权覆亡，但诸侯之间的战争仍在继续，楚汉相争即将展开。",
+      "sources": [
+        "outcome_cq_shiji",
+        "outcome_cq_han"
+      ],
+      "outcomeId": "end_qin",
+      "people": [
+        "秦王子婴 · 子婴",
+        "西汉高祖 · 刘邦",
+        "项羽"
+      ]
+    },
+    {
+      "id": "chron_julu",
+      "year": -207,
+      "title": "巨鹿之战：项羽击破秦军",
+      "category": "疆域与战争",
+      "summary": "项羽率军渡河救赵，在巨鹿击破围赵秦军。随后章邯等率部降楚。破釜沉舟的故事即与这场战役相联系。",
+      "impact": "秦在东方的主要军事力量被打垮，项羽成为反秦诸军中最有影响力的统帅。",
+      "sources": [
+        "ec_xiang",
+        "ec_julu"
+      ],
+      "people": [
+        "项羽"
+      ]
+    },
+    {
+      "id": "chron_hongmen_partition",
+      "year": -206,
+      "title": "鸿门宴与十八路诸侯",
+      "category": "政权与变局",
+      "summary": "刘邦先入关中后，项羽进驻关中，双方发生鸿门宴对峙。项羽随后自称西楚霸王，分封诸侯，刘邦被封为汉王。",
+      "impact": "秦亡后的权力分配没有形成稳定秩序，楚汉战争在分封矛盾中展开。",
+      "sources": [
+        "ec_xiang",
+        "ec_gaozu"
+      ],
+      "people": [
+        "西汉高祖 · 刘邦",
+        "项羽"
+      ]
+    },
+    {
+      "id": "chron_gaixia",
+      "year": -202,
+      "title": "垓下决胜，汉朝建立",
+      "category": "疆域与战争",
+      "summary": "刘邦联合诸侯围项羽于垓下。项羽败亡，刘邦称帝，汉朝建立；此后汉廷仍须处理异姓王与地方割据问题。",
+      "impact": "楚汉战争以刘邦获胜告终，但从战争联盟走向稳定帝国还需要多年重建。",
+      "sources": [
+        "ec_gaozu"
+      ],
+      "outcomeId": "end_xichu",
+      "people": [
+        "西汉高祖 · 刘邦",
+        "项羽"
+      ]
+    },
+    {
+      "id": "chron_baideng",
+      "year": -200,
+      "title": "白登之围",
+      "category": "对外与拓展",
+      "summary": "刘邦亲征匈奴，在平城附近被冒顿单于的军队围困，脱围后汉廷逐渐采取和亲等方式维持北方关系。",
+      "impact": "汉初国力难以支撑持续北进，边防、贸易与外交成为同样重要的政策选择。",
+      "sources": [
+        "ec_xiongnu"
+      ],
+      "previousCategory": "疆域与战争",
+      "people": [
+        "西汉高祖 · 刘邦"
+      ]
+    },
+    {
+      "id": "enrich_han_wendi",
+      "year": -180,
+      "title": "诸吕被诛，刘恒入继皇位",
+      "category": "政权与变局",
+      "people": [
+        "汉文帝 · 刘恒",
+        "周勃",
+        "陈平"
+      ],
+      "brief": "吕后去世后的权力重组，让代王刘恒走上皇位。",
+      "summary": "吕后去世后，周勃、陈平等控制朝廷并诛除诸吕，迎代王刘恒入长安即位，是为汉文帝。",
+      "impact": "此后的文帝时期成为后世所谓“文景之治”的重要一段。",
+      "sources": [
+        "enrich_han_wendi"
+      ]
+    },
+    {
+      "id": "chron_seven_princes",
+      "year": -154,
+      "title": "七国之乱被平定",
+      "category": "政权与变局",
+      "summary": "吴王刘濞联合楚、赵等诸侯国起兵反对削藩。景帝任用周亚夫等将领平乱，诸侯王的独立军事与行政权力遭到削弱。",
+      "impact": "汉廷与诸侯国之间的力量对比明显改变，中央集权进一步加强。",
+      "sources": [
+        "ec_jing"
+      ]
+    },
+    {
+      "id": "chron_zhangqian",
+      "year": -138,
+      "title": "张骞第一次出使西域",
+      "category": "文化与交流",
+      "summary": "汉武帝派张骞联络大月氏，谋求共同对付匈奴。张骞途中被扣留多年，返回后带来西域和中亚诸国的信息。本条采用前138年，亦有前139年说。",
+      "impact": "汉朝对西方世界的认识大幅扩展，随后外交、军事与商旅交通逐渐增长。",
+      "sources": [
+        "ec_zhangqian_museum",
+        "ec_zhangqian_cas",
+        "ec_zhangqian"
+      ],
+      "people": [
+        "张骞",
+        "汉武帝 · 刘彻"
+      ]
+    },
+    {
+      "id": "chron_henan_campaign",
+      "year": -127,
+      "title": "卫青收复河南地",
+      "category": "对外与拓展",
+      "summary": "卫青出击匈奴，攻取黄河河套以南的地区，汉廷设置朔方等郡并组织移民、筑城，强化北部边防。",
+      "impact": "汉朝由被动防御转向经营边地，农耕区与草原力量的接触带向北推进。",
+      "sources": [
+        "ec_wei_huo",
+        "ec_wu"
+      ],
+      "previousCategory": "疆域与战争",
+      "people": [
+        "卫青"
+      ]
+    },
+    {
+      "id": "chron_hexi",
+      "year": -121,
+      "title": "霍去病进军河西",
+      "category": "对外与拓展",
+      "summary": "霍去病两次出兵河西，匈奴浑邪王部随后降汉。汉朝逐步在当地设郡、移民和驻军，河西诸郡的具体设置存在分期。",
+      "impact": "河西走廊成为汉朝联系西域的重要通道，匈奴与羌诸部之间的联系受到冲击。",
+      "sources": [
+        "ec_wei_huo",
+        "ec_wu"
+      ],
+      "previousCategory": "疆域与战争",
+      "people": [
+        "霍去病"
+      ]
+    },
+    {
+      "id": "chron_mobei",
+      "year": -119,
+      "title": "漠北大战",
+      "category": "对外与拓展",
+      "summary": "卫青、霍去病分路出塞与匈奴交战，取得重要战果。远征同时带来大量人员、马匹损失和沉重的后勤负担。",
+      "impact": "匈奴主力的活动重心进一步北移，但草原并未因此变成汉朝的内地郡县。",
+      "sources": [
+        "ec_wei_huo",
+        "ec_wu"
+      ],
+      "previousCategory": "疆域与战争",
+      "people": [
+        "卫青",
+        "霍去病"
+      ]
+    },
+    {
+      "id": "chron_nanyue",
+      "year": -111,
+      "title": "汉军平南越，设置郡县",
+      "category": "对外与拓展",
+      "summary": "汉军攻破番禺，南越政权终结。汉廷在岭南及更南地区设置郡县，实际行政与地方社会之间的关系仍逐步形成。",
+      "impact": "岭南重新纳入中央王朝的郡县框架，南方帝国版图与海上交通的重要性上升。",
+      "sources": [
+        "ec_nanyue",
+        "ec_wu"
+      ],
+      "previousCategory": "疆域与战争"
+    },
+    {
+      "id": "chron_chaoxian",
+      "year": -108,
+      "title": "卫氏朝鲜覆亡，汉置四郡",
+      "category": "对外与拓展",
+      "summary": "汉军进攻卫氏朝鲜，朝鲜王右渠被杀，其政权覆亡。汉廷设置乐浪等四郡，各郡的辖境和存续时间并不相同。",
+      "impact": "汉朝在辽东以东建立新的郡县统治据点，此后仍与周边政治力量持续互动。",
+      "sources": [
+        "ec_chaoxian",
+        "ec_wu"
+      ],
+      "previousCategory": "疆域与战争"
+    },
+    {
+      "id": "chron_dayuan_campaign",
+      "year": -101,
+      "title": "汉军第二次伐大宛后返回",
+      "category": "对外与拓展",
+      "summary": "李广利再次远征大宛，大宛贵族杀王求和，汉军取得马匹后撤回。此前一次远征损失惨重，战事历时数年。",
+      "impact": "汉廷在中亚的军事影响增强，但远征到达的地区不能直接等同于常驻统治疆域。",
+      "sources": [
+        "ec_zhangqian",
+        "ec_dayuan"
+      ],
+      "previousCategory": "疆域与战争"
+    },
+    {
+      "id": "chron_western_protectorate",
+      "year": -60,
+      "title": "西域都护设置",
+      "category": "对外与拓展",
+      "summary": "汉朝在西域军事与外交经营的基础上设置都护，郑吉担任首任都护。当地诸国通常保有各自国王与社会组织。",
+      "impact": "汉朝与西域诸国的关系有了更明确的协调与军事机构，但不等同于内地郡县制。",
+      "sources": [
+        "ec_west"
+      ],
+      "previousCategory": "政权与变局"
+    },
+    {
+      "id": "chron_zhaojun",
+      "year": -33,
+      "title": "昭君出塞",
+      "category": "文化与交流",
+      "summary": "呼韩邪单于入朝，请求与汉朝和亲，王昭君出塞。此事发生在匈奴内部争斗和汉匈关系调整之后。",
+      "impact": "和亲成为缓和边境关系的象征；和平还依赖当时的力量格局、交往与长期协商。",
+      "sources": [
+        "ec_xiongnu_late"
+      ]
+    },
+    {
+      "id": "chron_end_westhan",
+      "year": 9,
+      "title": "王莽代汉，建立新朝",
+      "category": "政权与变局",
+      "summary": "王莽取得帝位、改国号为新，属于夺权取代。传统纪年记初始元年末，公历跨入9年，部分年表按8年列，应保留年界说明。",
+      "impact": "西汉皇统中断，新朝的制度改革与政治冲突由此展开。",
+      "sources": [
+        "outcome_cq_han",
+        "ec_eras"
+      ],
+      "outcomeId": "end_westhan",
+      "people": [
+        "新王莽 · 王莽"
+      ]
+    },
+    {
+      "id": "chron_end_xin",
+      "year": 23,
+      "title": "起义与政权危机终结新朝",
+      "category": "政权与变局",
+      "summary": "绿林等反抗力量兴起，长安被攻入，王莽死，新朝终结。刘秀此时尚未称帝，东汉要到25年才建立。",
+      "impact": "新朝覆亡后仍有多支力量争夺天下，刘秀的重新统一并非当年完成。",
+      "sources": [
+        "outcome_cq_han"
+      ],
+      "outcomeId": "end_xin",
+      "people": [
+        "新王莽 · 王莽",
+        "东汉光武帝 · 刘秀"
+      ]
+    },
+    {
+      "id": "chron_kunyang",
+      "year": 23,
+      "title": "昆阳之战",
+      "category": "疆域与战争",
+      "summary": "刘秀等率领的反莽军队在昆阳击败王莽主力。新朝各地统治已陷危机，这场胜利使其军事局面进一步崩溃。",
+      "impact": "刘秀的声望与军事影响迅速上升，为其后来建立东汉积累了重要资本。",
+      "sources": [
+        "ec_guangwu"
+      ],
+      "people": [
+        "新王莽 · 王莽",
+        "东汉光武帝 · 刘秀"
+      ]
+    },
+    {
+      "id": "chron_eastern_han",
+      "year": 25,
+      "title": "刘秀称帝，东汉开始",
+      "category": "政权与变局",
+      "summary": "刘秀在鄗南即皇帝位，恢复汉国号，并以洛阳为统治中心。此时赤眉、公孙述等力量仍在，统一战争尚未结束。",
+      "impact": "汉室复兴并不意味着天下立即统一，接下来十余年仍是重建帝国的过程。",
+      "sources": [
+        "ec_guangwu"
+      ],
+      "people": [
+        "东汉光武帝 · 刘秀"
+      ]
+    },
+    {
+      "id": "chron_banchao",
+      "year": 73,
+      "title": "班超出使西域",
+      "category": "文化与交流",
+      "summary": "窦固出击北匈奴后，班超受命前往西域，与鄯善、于阗等国交涉。他此后长期留在西域，运用联盟与军事行动扩大东汉影响。",
+      "impact": "东汉逐步恢复与西域诸国的联系；当地政治变化与诸国选择对这一过程同样关键。",
+      "sources": [
+        "ec_banchao"
+      ],
+      "people": [
+        "班超"
+      ]
+    },
+    {
+      "id": "chron_dou_xian",
+      "year": 89,
+      "title": "窦宪出击北匈奴",
+      "category": "对外与拓展",
+      "summary": "窦宪、耿秉联合南匈奴等力量北征，在稽落山一带击败北匈奴，并登燕然山刻石记功。北匈奴的衰退还经历后续战事。",
+      "impact": "北方草原的力量格局改变，东汉边防与南匈奴、鲜卑等力量的关系随之调整。",
+      "sources": [
+        "ec_dou"
+      ],
+      "previousCategory": "疆域与战争",
+      "people": [
+        "窦宪"
+      ]
+    },
+    {
+      "id": "chron_cai_lun",
+      "year": 105,
+      "title": "蔡伦向朝廷奏报造纸方法",
+      "category": "文化与交流",
+      "summary": "据《后汉书》，蔡伦在元兴元年奏报以树皮、麻头、旧布、鱼网等材料制纸的方法。纸在此前已经出现，不能称他从无到有发明了纸。",
+      "impact": "造纸技术的改进与传播降低了书写材料成本，为后来的知识保存和交流创造条件。",
+      "sources": [
+        "ec_cai"
+      ],
+      "people": [
+        "蔡伦",
+        "汉和帝 · 刘肇"
+      ]
+    },
+    {
+      "id": "chron_yellow_turbans",
+      "year": 184,
+      "title": "黄巾起事",
+      "category": "政权与变局",
+      "summary": "张角领导的太平道发动黄巾起事，多地响应。汉廷派军镇压，并借助地方官与豪强募兵，主力虽败，余部仍长期活动。",
+      "impact": "中央控制力在动员地方武装的过程中进一步削弱，汉末军阀割据逐渐形成。",
+      "sources": [
+        "ec_ling"
+      ]
+    },
+    {
+      "id": "chron_dongzhuo",
+      "year": 189,
+      "title": "董卓入洛，废立皇帝",
+      "category": "政权与变局",
+      "summary": "汉灵帝去世后，何进与宦官的冲突演成宫廷流血。董卓率军进入洛阳，废少帝、立献帝，并控制朝政。",
+      "impact": "皇权陷入强大军事集团的掌握，关东诸侯随后起兵，汉朝政治秩序加速瓦解。",
+      "sources": [
+        "ec_caocao"
+      ],
+      "people": [
+        "东汉灵帝 · 刘宏",
+        "董卓"
+      ]
+    },
+    {
+      "id": "chron_xuchang",
+      "year": 196,
+      "title": "曹操迎献帝都许",
+      "category": "政权与变局",
+      "summary": "曹操迎接流离中的汉献帝，将朝廷安置于许。曹操获得借汉廷名义发布命令的政治优势，并逐步掌握朝廷实权。",
+      "impact": "军事竞争与中央名义权威结合，成为曹操整合北方的重要条件。",
+      "sources": [
+        "ec_caocao"
+      ],
+      "people": [
+        "东汉献帝 · 刘协",
+        "曹操"
+      ]
+    },
+    {
+      "id": "chron_guandu",
+      "year": 200,
+      "title": "官渡之战",
+      "category": "疆域与战争",
+      "summary": "曹操与袁绍在官渡相持，曹军袭击袁军乌巢粮屯后取得胜利。袁氏在河北的势力并未当年立即消失，曹操随后继续北征。",
+      "impact": "北方统一的力量对比发生转折，曹操逐渐取得主导地位。",
+      "sources": [
+        "ec_caocao"
+      ],
+      "people": [
+        "曹操",
+        "袁绍"
+      ]
+    },
+    {
+      "id": "chron_red_cliffs",
+      "year": 208,
+      "title": "赤壁之战",
+      "category": "疆域与战争",
+      "summary": "孙权、刘备联合对抗南下的曹操，周瑜等在赤壁击败曹军。火攻与疾病共同影响战局，曹操随后撤离。",
+      "impact": "曹操短期内统一南方的努力受挫，长江流域出现孙、刘扩张的机会。",
+      "sources": [
+        "ec_liubei",
+        "ec_zhouyu"
+      ],
+      "people": [
+        "周瑜",
+        "刘备",
+        "曹操",
+        "吴大帝 · 孙权"
+      ]
+    },
+    {
+      "id": "chron_chengdu_liu",
+      "year": 214,
+      "title": "刘备取成都，领益州",
+      "category": "疆域与战争",
+      "summary": "刘备与刘璋的合作转为战争，刘备围成都，刘璋出降。刘备取得益州主体，为此后的蜀汉政权建立稳定根据地。",
+      "impact": "荆州与益州之间的联系成为刘备战略的核心，也加深了与孙权争夺荆州的矛盾。",
+      "sources": [
+        "ec_liubei"
+      ],
+      "people": [
+        "蜀汉昭烈帝 · 刘备",
+        "吴大帝 · 孙权"
+      ]
+    },
+    {
+      "id": "chron_jingzhou_loss",
+      "year": 219,
+      "title": "关羽败亡，孙权夺取荆州要地",
+      "category": "疆域与战争",
+      "summary": "关羽北攻襄樊期间，吕蒙率孙权军进入其后方，南郡等地转入孙权控制。关羽败退被俘遇害。",
+      "impact": "刘备集团失去荆州的重要据点，孙刘联盟破裂，随后爆发夷陵战争。",
+      "sources": [
+        "ec_guanyu",
+        "ec_zhouyu"
+      ],
+      "people": [
+        "蜀汉昭烈帝 · 刘备",
+        "吴大帝 · 孙权",
+        "关羽"
+      ]
+    },
+    {
+      "id": "chron_end_easthan",
+      "year": 220,
+      "title": "曹丕受禅，曹魏代汉",
+      "category": "政权与变局",
+      "summary": "曹丕取代汉献帝建立魏。",
+      "impact": "汉朝皇统结束，曹魏与蜀汉、孙吴先后形成三国并立的格局。",
+      "sources": [
+        "outcome_cq_han"
+      ],
+      "outcomeId": "end_easthan",
+      "people": [
+        "东汉献帝 · 刘协",
+        "魏文帝 · 曹丕"
+      ]
+    },
+    {
+      "id": "chron_yiling",
+      "year": 222,
+      "title": "夷陵之战",
+      "category": "疆域与战争",
+      "summary": "刘备东征孙权，陆逊先持守，后乘机火攻蜀军营垒。刘备战败退至白帝城，双方此后逐渐恢复外交往来。",
+      "impact": "蜀汉短期内夺回荆州的努力失败，三国的力量格局进一步稳定。",
+      "sources": [
+        "ec_luxun"
+      ],
+      "people": [
+        "刘备",
+        "陆逊",
+        "吴大帝 · 孙权"
+      ]
+    },
+    {
+      "id": "chron_qishan",
+      "year": 228,
+      "title": "诸葛亮首次北伐",
+      "category": "疆域与战争",
+      "summary": "诸葛亮出兵祁山，南安、天水、安定等地一度响应。马谡在街亭失利后，蜀军撤回汉中。",
+      "impact": "蜀汉试图从陇右突破曹魏防线，但一次出兵所得并未转化为稳定统治。",
+      "sources": [
+        "ec_zhuge"
+      ],
+      "people": [
+        "诸葛亮",
+        "马谡"
+      ]
+    },
+    {
+      "id": "enrich_jin_xuandi",
+      "year": 249,
+      "title": "高平陵之变",
+      "category": "政权与变局",
+      "people": [
+        "司马懿",
+        "曹爽",
+        "魏帝 · 曹芳"
+      ],
+      "brief": "皇帝出城谒陵之际，洛阳的实际权力发生易手。",
+      "summary": "曹芳与曹爽等出城谒高平陵，司马懿乘机控制洛阳要地，要求罢免曹爽。曹爽交出兵权后被诛。",
+      "impact": "司马氏进一步掌握曹魏中枢，为后来代魏的权力变化铺路。",
+      "sources": [
+        "enrich_jin_xuandi"
+      ]
+    },
+    {
+      "id": "chron_end_shu",
+      "year": 263,
+      "title": "曹魏灭蜀汉",
+      "category": "疆域与战争",
+      "summary": "魏军邓艾、钟会等分路入蜀，邓艾破绵竹后抵近成都，刘禅请降。",
+      "impact": "三国变为魏吴对峙，蜀地被纳入魏的统治，为晋日后统一提供条件。",
+      "sources": [
+        "outcome_cq_sanguo33",
+        "outcome_cq_dynasty"
+      ],
+      "outcomeId": "end_shu",
+      "people": [
+        "邓艾",
+        "钟会",
+        "刘禅"
+      ]
+    },
+    {
+      "id": "chron_end_wei",
+      "year": 265,
+      "title": "司马炎代魏，建立西晋",
+      "category": "政权与变局",
+      "summary": "司马炎受曹奂禅让，改国号晋。《晋书》记在咸熙二年冬十二月受禅、建元泰始，本条沿通行年表系于265年；传统岁次与西历年界不可直接等同。",
+      "impact": "司马氏把长期掌握的实际权力转为帝位，西晋接收魏的统治体系。",
+      "sources": [
+        "outcome_cq_jin3",
+        "outcome_cq_dynasty",
+        "ec_eras"
+      ],
+      "outcomeId": "end_wei",
+      "people": [
+        "魏元帝 · 曹奂",
+        "西晋武帝 · 司马炎"
+      ]
+    },
+    {
+      "id": "chron_end_wu",
+      "year": 280,
+      "title": "西晋灭孙吴",
+      "category": "疆域与战争",
+      "summary": "晋军多路伐吴，水陆并进，孙皓在建业出降。灭吴与265年代魏相隔十五年，不能合成一次三国同时归晋。",
+      "impact": "西晋结束三国主要政权的分立，但统一后的权力与社会矛盾继续积累。",
+      "sources": [
+        "outcome_cq_jin3",
+        "outcome_cq_dynasty"
+      ],
+      "outcomeId": "end_wu",
+      "people": [
+        "吴末帝 · 孙皓"
+      ]
+    },
+    {
+      "id": "chron_eight_princes",
+      "year": 291,
+      "title": "八王之乱的宫廷政变开端",
+      "category": "政权与变局",
+      "summary": "晋惠帝朝，贾后联合宗室诛杀杨骏，汝南王司马亮等又相继被杀。此后宗室与外戚的争权逐步扩展为多年内战。",
+      "impact": "西晋的中央与地方军队卷入权力斗争，帝国统一后的稳定被不断消耗。",
+      "sources": [
+        "ec_jinhui"
+      ]
+    },
+    {
+      "id": "chron_yongjia",
+      "year": 311,
+      "title": "永嘉之乱：洛阳失陷",
+      "category": "疆域与战争",
+      "summary": "汉赵军攻陷洛阳，晋怀帝被俘，朝廷机构和城市遭到重创。大量人口此前及此后向江南、河西等地迁移。",
+      "impact": "西晋政治中心崩溃，北方多政权竞争与人口迁徙深刻改变了社会格局。",
+      "sources": [
+        "ec_jinhuai"
+      ]
+    },
+    {
+      "id": "chron_chang_an_316",
+      "year": 316,
+      "title": "长安陷落，西晋结束",
+      "category": "政权与变局",
+      "summary": "汉赵军围困长安，晋愍帝在粮尽后出降。西晋中央政权终结，江南的司马氏与北方各地势力继续活动。",
+      "impact": "全国性的晋朝统一已无法维持，南北分立成为此后长期局面的重要起点。",
+      "sources": [
+        "ec_jinhuai"
+      ]
+    },
+    {
+      "id": "chron_eastern_jin",
+      "year": 317,
+      "title": "司马睿在建康立晋王政权",
+      "category": "政权与变局",
+      "summary": "司马睿在建康即晋王位，次年称帝，史称东晋。其政权依靠南渡士族、江南地方力量与军事集团共同维持。",
+      "impact": "晋室在长江流域延续，但与北方的统治体系已经分离。",
+      "sources": [
+        "ec_jinyuan"
+      ],
+      "people": [
+        "东晋元帝 · 司马睿"
+      ]
+    },
+    {
+      "id": "chron_end_formerzhao",
+      "year": 329,
+      "title": "后赵终结前赵",
+      "category": "疆域与战争",
+      "summary": "刘曜在328年兵败被俘后，刘熙、刘胤等退往上邽。329年后赵继续进攻并消灭其朝廷，故不能把刘曜被俘与前赵最终覆亡都压成328年。",
+      "impact": "后赵在北方兼并中占据优势，石氏势力扩张至更广的北方地区。",
+      "sources": [
+        "outcome_extra_tongjian_094"
+      ],
+      "outcomeId": "end_formerzhao"
+    },
+    {
+      "id": "chron_end_chenghan",
+      "year": 347,
+      "title": "东晋桓温灭成汉",
+      "category": "疆域与战争",
+      "summary": "桓温率东晋军入蜀，攻打成都，李势出降，成汉朝廷终结。东晋在分裂局面中取得长江上游的重要区域。",
+      "impact": "东晋重新取得蜀地，长江上游与建康朝廷的联系得到恢复。",
+      "sources": [
+        "outcome_extra_tongjian_097",
+        "outcome_extra_chenghan"
+      ],
+      "outcomeId": "end_chenghan",
+      "people": [
+        "桓温"
+      ]
+    },
+    {
+      "id": "chron_end_formeryan",
+      "year": 370,
+      "title": "前秦灭前燕",
+      "category": "疆域与战争",
+      "summary": "王猛等率前秦军击败慕容评，继而围邺。慕容暐出逃被俘，前燕覆亡；慕容氏此后的复国势力，应在后燕等各自时间线中另行呈现。",
+      "impact": "前秦扩展至关东，在北方统一进程中迈出关键一步。",
+      "sources": [
+        "outcome_extra_tongjian_102"
+      ],
+      "outcomeId": "end_formeryan"
+    },
+    {
+      "id": "chron_end_dai",
+      "year": 376,
+      "title": "前秦进攻并瓦解代国",
+      "category": "疆域与战争",
+      "summary": "前秦军北进，代国同时发生内乱，拓跋什翼犍死，前秦分置其部众。代国在此终结，386年拓跋珪重建的政权另开北魏时间线。",
+      "impact": "拓跋代国覆亡，拓跋势力此后重组，并于386年另建北魏。",
+      "sources": [
+        "outcome_extra_tongjian_104"
+      ],
+      "outcomeId": "end_dai"
+    },
+    {
+      "id": "chron_end_formerliang",
+      "year": 376,
+      "title": "前秦灭前凉",
+      "category": "疆域与战争",
+      "summary": "前秦军进攻河西，张天锡在军事失败后出降，前凉统治终结。这一次受降属于战争结果，不与吴越主动纳土所代表的直接交接方式混为一类。",
+      "impact": "河西走廊纳入前秦统治，前秦向西的政治与交通联系进一步扩大。",
+      "sources": [
+        "outcome_extra_tongjian_104"
+      ],
+      "outcomeId": "end_formerliang"
+    },
+    {
+      "id": "chron_feishui",
+      "year": 383,
+      "title": "淝水之战",
+      "category": "疆域与战争",
+      "summary": "苻坚率前秦军南下，东晋谢石、谢玄等指挥军队抵抗，秦军在淝水交战时溃败。北方此前整合的各部与势力随后重新分裂。",
+      "impact": "前秦统一南北的努力失败；战争并未消灭前秦，却促成其统治迅速瓦解。",
+      "sources": [
+        "ec_xie"
+      ],
+      "people": [
+        "苻坚",
+        "谢安",
+        "谢玄"
+      ]
+    },
+    {
+      "id": "chron_end_southyan",
+      "year": 410,
+      "title": "东晋刘裕灭南燕",
+      "category": "疆域与战争",
+      "summary": "刘裕率东晋军围攻广固，城破后俘获慕容超，南燕朝廷终结。此时刘裕仍是东晋将领，刘宋尚未建立。",
+      "impact": "东晋势力进入山东，刘裕在北伐中进一步积累军事声望与政治资源。",
+      "sources": [
+        "outcome_extra_tongjian_115"
+      ],
+      "outcomeId": "end_southyan",
+      "people": [
+        "刘裕"
+      ]
+    },
+    {
+      "id": "chron_end_laterqin",
+      "year": 417,
+      "title": "东晋刘裕灭后秦",
+      "category": "疆域与战争",
+      "summary": "晋军北伐进入长安，姚泓出降，后秦覆亡。刘裕随后南返，晋军不久失去关中；灭国与后来能否持续控制该地，是两件不同的事。",
+      "impact": "刘裕取得关中，但东晋很快失去这一成果，北伐未形成持久统一。",
+      "sources": [
+        "outcome_extra_tongjian_118"
+      ],
+      "outcomeId": "end_laterqin",
+      "people": [
+        "刘裕"
+      ]
+    },
+    {
+      "id": "enrich_song_found",
+      "year": 420,
+      "title": "刘裕代晋，建立（南朝）宋",
+      "category": "政权与变局",
+      "people": [
+        "宋武帝 · 刘裕",
+        "晋恭帝 · 司马德文"
+      ],
+      "brief": "北伐建立的威望，最终转化为皇位的更替。",
+      "summary": "刘裕接受晋恭帝禅位，在建康称帝，国号宋、改元永初，东晋结束。",
+      "impact": "南方进入宋、齐、梁、陈相继更替的南朝时期。",
+      "sources": [
+        "enrich_song_found"
+      ]
+    },
+    {
+      "id": "chron_end_xia",
+      "year": 431,
+      "title": "吐谷浑俘赫连定，胡夏终结",
+      "category": "疆域与战争",
+      "summary": "赫连定西进时被吐谷浑军俘获，夏国终结；432年又被送交北魏处死。北魏虽早已夺取统万城，最后俘获赫连定的却是吐谷浑军。",
+      "impact": "赫连氏主要政权终结，北方仍由北魏及其他力量继续竞争。",
+      "sources": [
+        "outcome_extra_tongjian_122"
+      ],
+      "outcomeId": "end_xia"
+    },
+    {
+      "id": "chron_end_northyan",
+      "year": 436,
+      "title": "北魏进逼龙城，北燕终结",
+      "category": "疆域与战争",
+      "summary": "北魏持续进逼龙城，冯弘在高句丽援军护送下弃城东走，北燕在辽西的统治结束。冯弘到438年才被杀，不能把出逃与死亡写成同年同地。",
+      "impact": "北魏势力扩展至辽西，为完成北方主要地区的统一继续创造条件。",
+      "sources": [
+        "outcome_extra_tongjian_123"
+      ],
+      "outcomeId": "end_northyan"
+    },
+    {
+      "id": "chron_end_northliang_hexi",
+      "year": 439,
+      "title": "北魏取姑臧，北凉河西统治结束",
+      "category": "疆域与战争",
+      "summary": "魏军围姑臧，沮渠牧犍出降，北凉河西朝廷终结。沮渠无讳、安周等后来转往高昌延续势力，至460年才为柔然所灭，不宜全数提前抹去。",
+      "impact": "北魏结束河西主要割据朝廷，北方大部分地区转入同一统治。",
+      "sources": [
+        "outcome_extra_tongjian_123",
+        "outcome_extra_gaochang"
+      ],
+      "outcomeId": "end_northliang_hexi"
+    },
+    {
+      "id": "chron_equal_fields",
+      "year": 485,
+      "title": "北魏颁行均田制",
+      "category": "改革与社会",
+      "summary": "冯太后主政时期，北魏颁布均田制，按身份、人口等条件授受土地，并与赋役管理相联系；实际执行受地方条件影响。",
+      "impact": "国家试图重新组织土地、户籍与税役，均田制度的影响延续到隋唐。",
+      "sources": [
+        "ec_equal"
+      ],
+      "people": [
+        "冯太后"
+      ]
+    },
+    {
+      "id": "chron_luoyang_move",
+      "year": 494,
+      "title": "孝文帝迁都洛阳",
+      "category": "改革与社会",
+      "summary": "北魏孝文帝推动迁都洛阳，随后持续改革服饰、语言、姓氏和政治制度。迁都及人员安置经历了分阶段实施。",
+      "impact": "北魏政治中心南移，鲜卑统治集团与中原制度文化的结合进一步加深。",
+      "sources": [
+        "ec_luoyang",
+        "ec_weixiao"
+      ]
+    },
+    {
+      "id": "chron_wei_split",
+      "year": 534,
+      "title": "534—535年：北魏分裂为东西两魏",
+      "category": "政权与变局",
+      "summary": "北魏孝武帝与高欢决裂，西奔关中。高欢另立元善见，东魏建立；535年宇文泰拥立元宝炬，形成西魏。",
+      "impact": "北方由一朝分成东西两套朝廷，后来分别演变为北齐与北周。",
+      "sources": [
+        "ec_eras"
+      ],
+      "people": [
+        "高欢",
+        "宇文泰"
+      ]
+    },
+    {
+      "id": "chron_houjing",
+      "year": 548,
+      "title": "侯景之乱爆发",
+      "category": "政权与变局",
+      "summary": "侯景在寿阳起兵，进攻建康，次年攻入台城。梁武帝被困而死，各地宗室与军事力量也卷入战争。",
+      "impact": "梁朝对江南的控制严重瓦解，连年战争造成社会破坏，为北方势力南进创造机会。",
+      "sources": [
+        "ec_liang"
+      ],
+      "people": [
+        "侯景"
+      ]
+    },
+    {
+      "id": "chron_end_northqi",
+      "year": 577,
+      "title": "北周灭北齐",
+      "category": "疆域与战争",
+      "summary": "周武帝宇文邕率军灭齐，高纬、高恒等被俘，北齐主要朝廷终结。高绍义等在突厥支持下仍有流亡活动，须与北齐本土统治区分。",
+      "impact": "北周控制原北齐核心区域，北方政治整合为隋朝统一奠定基础。",
+      "sources": [
+        "outcome_extra_tongjian_173",
+        "outcome_extra_zhouqi"
+      ],
+      "outcomeId": "end_northqi"
+    },
+    {
+      "id": "chron_end_northzhou",
+      "year": 581,
+      "title": "杨坚代北周，建立隋",
+      "category": "政权与变局",
+      "summary": "杨坚在北周朝廷内掌权后取得帝位，改国号隋。北方大部政权继承发生于此；不是隋从境外发动灭周战争。",
+      "impact": "杨坚以北周统治基础建立隋朝，为随后南下灭陈整合力量。",
+      "sources": [
+        "outcome_cq_suitang"
+      ],
+      "outcomeId": "end_northzhou",
+      "people": [
+        "隋文帝 · 杨坚"
+      ]
+    },
+    {
+      "id": "chron_sui_unites",
+      "year": 589,
+      "title": "隋灭陈，南北重新统一",
+      "category": "疆域与战争",
+      "summary": "隋军分路渡江，韩擒虎、贺若弼等攻入建康，陈后主被俘。陈朝覆亡，隋随后继续处理江南反抗与制度整合。",
+      "impact": "长期南北分立的主要朝廷格局结束，但统一后的行政、社会整合仍需时间。",
+      "sources": [
+        "ec_sui"
+      ],
+      "outcomeId": "end_chen"
+    },
+    {
+      "id": "chron_canal",
+      "year": 605,
+      "title": "隋炀帝开通通济渠",
+      "category": "改革与社会",
+      "summary": "隋炀帝即位后营建东都洛阳，又征发民众开通通济渠、整治邗沟，把黄河与江淮水路联系起来。运河带来漕运便利，也伴随沉重的徭役负担。",
+      "impact": "南北粮食、人员与商品运输更加紧密，但工程征发造成的民力消耗也积累了社会矛盾。",
+      "sources": [
+        "mid_sui3"
+      ],
+      "people": [
+        "隋炀帝 · 杨广"
+      ]
+    },
+    {
+      "id": "chron_sui_korea",
+      "year": 612,
+      "title": "隋第一次大举征高句丽失利",
+      "category": "对外与拓展",
+      "summary": "隋炀帝大举进攻高句丽，水陆军队深入辽东与朝鲜半岛。部分深入军队在撤退中遭受惨败，战争并没有给隋朝带来预期的征服。",
+      "impact": "战败削弱隋的军力与威望，接连征发加重社会危机，各地反抗进一步扩大。",
+      "sources": [
+        "mid_sui4"
+      ],
+      "previousCategory": "疆域与战争",
+      "people": [
+        "隋炀帝 · 杨广"
+      ]
+    },
+    {
+      "id": "chron_end_sui",
+      "year": 618,
+      "title": "江都政变与天下割据终结隋廷",
+      "category": "政权与变局",
+      "summary": "炀帝在江都政变中被杀，各地已形成多支势力，李渊同年建唐。隋的崩解并非唐军一次攻城所致，部分隋号延续至619年。",
+      "impact": "隋朝中枢崩溃，李渊等势力继续争夺天下，唐初仍经历多年统一战争。",
+      "sources": [
+        "outcome_cq_suitang"
+      ],
+      "outcomeId": "end_sui",
+      "people": [
+        "唐高祖 · 李渊"
+      ]
+    },
+    {
+      "id": "chron_tang_found",
+      "year": 618,
+      "title": "李渊称帝，唐朝建立",
+      "category": "政权与变局",
+      "summary": "隋炀帝在江都遇害后，李渊在长安称帝，改元武德。此时各地仍有割据势力，建立唐朝只是新王朝的起点，并不意味着全国已经统一。",
+      "impact": "关中成为唐朝争夺天下的基地，此后仍须逐一击败或招降各地对手。",
+      "sources": [
+        "mid_t1"
+      ],
+      "people": [
+        "隋炀帝 · 杨广",
+        "唐高祖 · 李渊"
+      ]
+    },
+    {
+      "id": "chron_hulao",
+      "year": 621,
+      "title": "虎牢之战：李世民击败窦建德",
+      "category": "疆域与战争",
+      "summary": "李世民围攻洛阳王世充时，迎击前来援救的窦建德，在虎牢取得决定性胜利。窦建德被俘，王世充随后投降，两个强大对手相继退出竞争。",
+      "impact": "唐朝控制河南的局面大为巩固；窦建德旧部此后又拥立刘黑闼，河北战争仍在继续。",
+      "sources": [
+        "mid_t1"
+      ],
+      "people": [
+        "唐太宗 · 李世民"
+      ]
+    },
+    {
+      "id": "chron_xuanwu",
+      "year": 626,
+      "title": "玄武门之变",
+      "category": "政权与变局",
+      "summary": "李世民在玄武门发动政变，杀死太子李建成、齐王李元吉，随后成为太子并继承皇位。军事功臣与皇室继承斗争在这里交汇。",
+      "impact": "皇位继承被武力改写，李世民确立最高权力，次年开始使用贞观年号。",
+      "sources": [
+        "mid_t1",
+        "mid_t2"
+      ],
+      "people": [
+        "李世民",
+        "李建成",
+        "李元吉"
+      ]
+    },
+    {
+      "id": "chron_east_turk",
+      "year": 630,
+      "title": "唐军击败东突厥，俘颉利可汗",
+      "category": "对外与拓展",
+      "summary": "李靖等率唐军进攻东突厥，在定襄、阴山一线取得胜利，颉利可汗被俘。东突厥汗庭瓦解，唐朝随后安置降附部众并调整北部边防。",
+      "impact": "北方主要威胁一度解除，唐朝得以重新安排边防、降附部众与草原诸部的政治关系。",
+      "sources": [
+        "mid_t3"
+      ],
+      "previousCategory": "疆域与战争",
+      "people": [
+        "李靖"
+      ]
+    },
+    {
+      "id": "chron_gaochang",
+      "year": 640,
+      "title": "唐灭高昌，设置西州",
+      "category": "对外与拓展",
+      "summary": "侯君集率军攻下高昌，唐朝没有只恢复原有王国，而是在当地设置西州等行政机构。吐鲁番盆地的统治形式由此发生显著变化。",
+      "impact": "唐朝在西域的驻军与行政据点向西推进，后来安西体系的经营由此展开。",
+      "sources": [
+        "mid_t3"
+      ],
+      "previousCategory": "疆域与战争",
+      "relation": {
+        "type": "conquest",
+        "winners": [
+          "唐"
+        ],
+        "losers": [
+          "高昌"
+        ]
+      }
+    },
+    {
+      "id": "chron_wencheng",
+      "year": 641,
+      "title": "文成公主入吐蕃",
+      "category": "文化与交流",
+      "summary": "唐太宗将文成公主嫁给吐蕃赞普松赞干布。婚姻使唐蕃双方建立重要的政治联系，也成为后来反复被讲述的交通与文化交流故事。",
+      "impact": "唐蕃之间建立重要姻亲纽带，双方使节、人员与物品交流更加密切。",
+      "sources": [
+        "mid_t3"
+      ],
+      "people": [
+        "唐太宗 · 李世民"
+      ]
+    },
+    {
+      "id": "chron_xuanzang_return",
+      "year": 645,
+      "title": "玄奘携佛经归国",
+      "category": "文化与交流",
+      "summary": "玄奘从印度等地求法归来，进入长安并开始长期译经。他的旅程留下关于西域与南亚诸国的珍贵记录，远远超出了后世小说中的取经故事。",
+      "impact": "大规模译经推动佛教思想与文献传播，旅途记录也留下关于西域、印度诸国的珍贵资料。",
+      "sources": [
+        "mid_t191"
+      ],
+      "people": [
+        "玄奘"
+      ]
+    },
+    {
+      "id": "enrich_dayan",
+      "year": 652,
+      "title": "长安兴建大雁塔",
+      "category": "文化与交流",
+      "people": [
+        "玄奘",
+        "唐高宗 · 李治"
+      ],
+      "brief": "玄奘归国后，译经与保存佛典成为长安的一项文化事业。",
+      "summary": "唐永徽三年，大慈恩寺内建塔，用来保存玄奘从天竺带回的佛教经典等。",
+      "impact": "译经、寺院与跨地域知识传播，构成唐代生活中疆界之外的另一条线索。",
+      "sources": [
+        "enrich_dayan"
+      ]
+    },
+    {
+      "id": "chron_west_turk",
+      "year": 657,
+      "title": "苏定方击败西突厥阿史那贺鲁",
+      "category": "对外与拓展",
+      "summary": "苏定方率军与回纥等部配合，击败阿史那贺鲁。唐朝随后在原西突厥势力范围设置羁縻机构，安排地方首领，西域政治网络重新组合。",
+      "impact": "西突厥原有汗庭权力被打破，唐通过驻军、都护机构及地方首领扩大西域影响。",
+      "sources": [
+        "mid_t4"
+      ],
+      "previousCategory": "疆域与战争",
+      "people": [
+        "苏定方"
+      ]
+    },
+    {
+      "id": "chron_goguryeo",
+      "year": 668,
+      "title": "唐与新罗联合攻灭高句丽",
+      "category": "对外与拓展",
+      "summary": "唐军与新罗协同作战，攻下平壤，高句丽王高藏被俘。唐设置安东都护府，但战后半岛局势仍在变化，并非从此获得长期稳固的全境统治。",
+      "impact": "高句丽政权终结，随后唐与新罗关系转为冲突，战果与后续实际控制必须分开。",
+      "sources": [
+        "mid_t5"
+      ],
+      "previousCategory": "疆域与战争",
+      "relation": {
+        "type": "coalition",
+        "winners": [
+          "唐",
+          "新罗"
+        ],
+        "losers": [
+          "高句丽"
+        ]
+      }
+    },
+    {
+      "id": "chron_wu_zhou",
+      "year": 690,
+      "title": "武则天称帝，改唐为周",
+      "category": "政权与变局",
+      "summary": "武则天正式称帝，改国号为周，以洛阳为政治中心。她此前已经长期参与和掌握朝政，因此这一年是国号与帝位身份的变化，而非突然开始执政。",
+      "impact": "李唐皇室失去帝位，武氏宗族地位上升，洛阳继续作为重要政治中心。",
+      "sources": [
+        "mid_t6"
+      ],
+      "people": [
+        "武则天"
+      ]
+    },
+    {
+      "id": "chron_shenlong",
+      "year": 705,
+      "title": "神龙政变与唐朝复国",
+      "category": "政权与变局",
+      "summary": "张柬之等发动政变，迫使武则天退位，拥立唐中宗李显，恢复唐朝国号。武周结束，李唐宗室重返皇位，但宫廷权力斗争并未就此停止。",
+      "impact": "李唐恢复帝位与国号，但武氏、韦后及宗室之间的竞争仍延续到此后的多次政变。",
+      "sources": [
+        "mid_t6"
+      ],
+      "people": [
+        "唐中宗 · 李显",
+        "则天皇帝 · 武则天"
+      ]
+    },
+    {
+      "id": "chron_kaiyuan",
+      "year": 713,
+      "title": "玄宗掌握实权，改元开元",
+      "category": "政权与变局",
+      "summary": "唐玄宗诛除太平公主一派后，军国大事转由皇帝决断，年底改元开元。此后姚崇、宋璟等参与治理，后来被称作开元盛世的时期逐渐展开。",
+      "impact": "玄宗确立独立决策地位，此后治理、选官与财政整顿为长期繁荣积累条件。",
+      "sources": [
+        "mid_t8"
+      ],
+      "people": [
+        "唐玄宗 · 李隆基"
+      ]
+    },
+    {
+      "id": "chron_anshi",
+      "year": 755,
+      "title": "安史之乱",
+      "category": "疆域与战争",
+      "summary": "安禄山从范阳起兵，利用其掌握的边军向中原进攻。叛军迅速进入河北、河南，唐朝由此陷入持续多年的大战，原有的边防部署也被打乱。",
+      "impact": "帝国的人口、财政与军事秩序遭受严重冲击，地方军镇势力在战争中上升。",
+      "sources": [
+        "mid_t9",
+        "anshi_start_gazetteer",
+        "anshi_end_tongjian",
+        "anshi_duration_study"
+      ],
+      "endYear": 763,
+      "startDateLabel": "天宝十四载十一月初九",
+      "endDateLabel": "宝应二年正月",
+      "durationLabel": "历时七年余",
+      "dateNote": "起点采用安禄山范阳起兵，终点采用史朝义败亡。起日可核至日，结束目前核至月；均为当时历法纪日，不混用现代公历换算。《通鉴》以广德元年统摄763年，正月当时仍用宝应二年。",
+      "people": [
+        "唐玄宗 · 李隆基",
+        "安禄山",
+        "史思明"
+      ],
+      "brief": "战争延续七年余，三位唐朝皇帝先后面对危机，中央与地方的关系深受影响。"
+    },
+    {
+      "id": "chron_chang_an_fall",
+      "year": 756,
+      "title": "潼关失守，玄宗出奔",
+      "category": "疆域与战争",
+      "summary": "唐军在潼关战败后，叛军进入长安，玄宗逃往蜀地。肃宗在灵武即位，唐朝同时面对都城失陷、皇权交接与重新组织军队的紧急局面。",
+      "impact": "唐朝失去两京与关中核心区域，必须依靠新的军政中心集结力量，逐步组织反攻。",
+      "sources": [
+        "mid_t9",
+        "mid_t10"
+      ]
+    },
+    {
+      "id": "chron_anshi_end",
+      "year": 763,
+      "title": "吐蕃一度进入长安",
+      "category": "疆域与战争",
+      "summary": "安史之乱结束的同年，吐蕃军又一度占领长安，代宗出奔。唐朝并未立即恢复战前的边防与权力结构。",
+      "impact": "河北部分降将继续掌握军镇，西北防线也更为脆弱，中央重新整合地方十分困难。",
+      "sources": [
+        "mid_t11"
+      ]
+    },
+    {
+      "id": "chron_two_tax",
+      "year": 780,
+      "title": "杨炎推行两税法",
+      "category": "改革与社会",
+      "summary": "唐德宗采纳杨炎建议，以夏秋两次征税为主要安排，按资产和土地等情况定税。改革回应了户籍流动、均田制衰退及旧赋役难以继续运转的问题。",
+      "impact": "国家财政更重视实际资产与土地，唐后期的税收结构由此发生长期变化。",
+      "sources": [
+        "mid_t12"
+      ],
+      "people": [
+        "唐德宗 · 李适",
+        "杨炎"
+      ]
+    },
+    {
+      "id": "chron_huangchao",
+      "year": 875,
+      "title": "黄巢参加起义，唐末战乱扩大",
+      "category": "疆域与战争",
+      "summary": "王仙芝起事后，黄巢聚众响应。起义军随后转战多地，地方军事力量也借镇压之机扩大，唐廷对各地军政的控制进一步松动。",
+      "impact": "长期战乱破坏漕运、生产与地方秩序，军阀在平叛和相互兼并中壮大。",
+      "sources": [
+        "mid_t19下"
+      ],
+      "people": [
+        "黄巢"
+      ]
+    },
+    {
+      "id": "chron_huangchao_capital",
+      "year": 880,
+      "title": "黄巢攻入长安",
+      "category": "疆域与战争",
+      "summary": "黄巢军攻破潼关并进入长安，唐僖宗出奔，黄巢随后建立大齐政权。《旧唐书》记在广明元年十二月，本条沿传统纪年系于880年；该年号延续至881年，不能将传统岁末直接等同西历年末。唐廷此后依靠地方军队和沙陀等力量反攻。",
+      "impact": "唐朝失去都城但仍在外地延续，平叛军将逐渐形成新的政治竞争者。",
+      "sources": [
+        "mid_t19下",
+        "ec_eras"
+      ],
+      "people": [
+        "唐僖宗 · 李儇",
+        "黄巢"
+      ]
+    },
+    {
+      "id": "chron_tang_end",
+      "year": 907,
+      "title": "朱温代唐，五代开始",
+      "category": "政权与变局",
+      "summary": "朱温迫使唐哀帝退位，建立后梁。中原进入后梁、后唐、后晋、后汉、后周相继更替的时期，南方与河东等地仍有多个并立政权。",
+      "impact": "唐朝皇统结束，中原和南方由多个政权分别控制，短期内无人能够重新统一全国。",
+      "sources": [
+        "mid_t20下"
+      ],
+      "outcomeId": "end_tang",
+      "people": [
+        "唐哀帝 · 李柷",
+        "朱温"
+      ]
+    },
+    {
+      "id": "chron_khitan_empire",
+      "year": 916,
+      "title": "耶律阿保机称帝，契丹政权发展",
+      "category": "政权与变局",
+      "summary": "耶律阿保机在平息内部竞争后，于916年接受尊号、建元神册，契丹政权进一步发展。本条采用通行建国纪年；907年取得可汗地位与916年的尊号、建元应分别理解，《辽史》对早期帝号的追记也须辨析。",
+      "impact": "契丹国家组织进一步发展，逐渐成为左右东北、蒙古高原东部与华北局势的强国。",
+      "sources": [
+        "mid_l1"
+      ],
+      "people": [
+        "辽太祖 · 耶律阿保机"
+      ]
+    },
+    {
+      "id": "chron_later_tang",
+      "year": 923,
+      "title": "李存勖灭后梁，建立后唐",
+      "category": "疆域与战争",
+      "summary": "李存勖在魏州称帝，沿用唐国号，随后击败后梁主力并突入汴州。后梁末帝朱友贞自杀，中原由后梁转入以河东军事集团为核心的后唐统治。",
+      "impact": "长期梁晋争战结束，河东与河北的胜利者掌握中原，但南方诸国仍各自存在。",
+      "sources": [
+        "mid_f05"
+      ],
+      "relation": {
+        "type": "conquest",
+        "winners": [
+          "后唐"
+        ],
+        "losers": [
+          "后梁"
+        ]
+      }
+    },
+    {
+      "id": "chron_yanyun",
+      "year": 936,
+      "title": "石敬瑭借契丹援助建后晋，割让燕云",
+      "category": "对外与拓展",
+      "summary": "石敬瑭为对抗后唐，向契丹求援，在契丹军事支持下称帝，并以幽、云等十六州作为交换条件。后晋的建立与北方要地的转移紧密相连。",
+      "impact": "燕云地区进入契丹统治，后来宋朝长期围绕这一带的城塞和战略通道展开争夺。",
+      "sources": [
+        "mid_f8"
+      ],
+      "previousCategory": "疆域与战争"
+    },
+    {
+      "id": "chron_later_jin_fall",
+      "year": 947,
+      "title": "契丹灭后晋，刘知远建立后汉",
+      "category": "疆域与战争",
+      "summary": "后晋主力向契丹投降后，契丹军进入汴州，晋出帝石重贵被俘北迁。同年刘知远在太原称帝，趁契丹军北撤进入中原，建立后汉。",
+      "impact": "中原在一年内经历多次权力交接，契丹的军事胜利未能转化为对中原的持续直接统治。",
+      "sources": [
+        "mid_f09",
+        "mid_f10"
+      ],
+      "relation": {
+        "type": "conquest",
+        "winners": [
+          "契丹"
+        ],
+        "losers": [
+          "后晋"
+        ]
+      }
+    },
+    {
+      "id": "chron_later_zhou",
+      "year": 951,
+      "title": "郭威建立后周，北汉在河东延续",
+      "category": "疆域与战争",
+      "summary": "郭威在与后汉朝廷冲突后率军入汴，继而被拥立为帝，建立后周。刘氏宗室刘崇在太原另立北汉，原后汉势力并未全部归入后周。",
+      "impact": "中原再次改朝换代，河东仍保留独立政权，形成后来后周与宋需要面对的北方对手。",
+      "sources": [
+        "mid_f11",
+        "mid_f70"
+      ]
+    },
+    {
+      "id": "chron_zhou_huainan",
+      "year": 958,
+      "title": "后周夺取南唐江北诸州",
+      "category": "疆域与战争",
+      "summary": "周世宗柴荣经过多年淮南战争，迫使南唐交出江北十四州，并以长江作为双方边界。南唐国力大为削弱，李璟放弃皇帝称号，转为称臣。",
+      "impact": "后周获得江淮大片土地与交通资源，这些成果后来成为宋朝进一步南下的重要基础。",
+      "sources": [
+        "mid_f12"
+      ]
+    },
+    {
+      "id": "chron_zhou_north",
+      "year": 959,
+      "title": "柴荣北伐，后周收取三关",
+      "category": "疆域与战争",
+      "summary": "周世宗柴荣北征契丹，取得瓦桥、益津等关口及瀛州、莫州一带。行军中患病后回师，不久去世，年幼的柴宗训继承皇位。",
+      "impact": "后周北界得到局部推进，但燕云大部分地区仍在辽控制下，幼主继位又改变了中原政局。",
+      "sources": [
+        "mid_f12"
+      ]
+    },
+    {
+      "id": "chron_song_found",
+      "year": 960,
+      "title": "陈桥兵变，赵匡胤建立宋朝",
+      "category": "政权与变局",
+      "summary": "后周将领赵匡胤在陈桥发生兵变后，被拥立为皇帝，取代后周。宋朝建立时，南唐、吴越、北汉等政权仍在，后来的兼并还需要多年战争与谈判。",
+      "impact": "中原改朝换代，宋的疆域扩展则是此后二十年逐步发生的过程。",
+      "sources": [
+        "mid_s001"
+      ],
+      "outcomeId": "end_laterzhou",
+      "people": [
+        "北宋太祖 · 赵匡胤"
+      ]
+    },
+    {
+      "id": "chron_end_latershu",
+      "year": 965,
+      "title": "北宋灭后蜀",
+      "category": "疆域与战争",
+      "summary": "宋军由王全斌等率领入蜀，攻破剑门，孟昶投降。终结后蜀后仍有地方动乱，不能把朝廷投降等同全境立即平稳。",
+      "impact": "四川盆地纳入宋朝版图，宋廷获得重要的财赋与战略基地。",
+      "sources": [
+        "outcome_cq_song2"
+      ],
+      "outcomeId": "end_latershu"
+    },
+    {
+      "id": "chron_end_southhan",
+      "year": 971,
+      "title": "北宋灭南汉",
+      "category": "疆域与战争",
+      "summary": "宋军南下攻入广州，刘鋹被俘，南汉终结。",
+      "impact": "岭南的主要割据政权结束，宋朝的南方整合进一步推进。",
+      "sources": [
+        "outcome_cq_song2"
+      ],
+      "outcomeId": "end_southhan"
+    },
+    {
+      "id": "chron_south_tang",
+      "year": 975,
+      "title": "宋军攻下金陵，南唐结束",
+      "category": "疆域与战争",
+      "summary": "曹彬等率宋军渡江进攻南唐，经过围城攻下金陵，李煜投降。南唐的国库、人口与江南经济区域成为宋廷整合的重要资源。",
+      "impact": "长江下游的主要割据政权消失，但吴越等地尚未在这一年一并归宋。",
+      "sources": [
+        "mid_s002"
+      ],
+      "outcomeId": "end_southtang"
+    },
+    {
+      "id": "chron_end_wuyue",
+      "year": 978,
+      "title": "吴越纳土归宋",
+      "category": "政权与变局",
+      "summary": "钱俶向宋廷献所辖州县，吴越作为割据政权结束。它发生在军事压力和政治选择之中，但直接方式是纳土，不能虚构攻杭州战役。",
+      "impact": "吴越辖区由献土方式归宋，江南东部转入宋朝州县体制。",
+      "sources": [
+        "outcome_cq_wuyue"
+      ],
+      "outcomeId": "end_wuyue"
+    },
+    {
+      "id": "chron_north_han",
+      "year": 979,
+      "title": "宋灭北汉，又在高梁河受挫",
+      "category": "疆域与战争",
+      "summary": "宋太宗攻下太原，北汉结束；随后乘势北进，试图夺取燕云，却在高梁河遭辽军击败。一次北伐中，兼并成功与扩张失败先后出现。",
+      "impact": "北汉割据结束，但宋夺取燕云的尝试失败，宋辽在华北继续相持。",
+      "sources": [
+        "mid_s004"
+      ],
+      "outcomeId": "end_northhan",
+      "people": [
+        "北宋太宗 · 赵光义"
+      ]
+    },
+    {
+      "id": "chron_yongxi",
+      "year": 986,
+      "title": "雍熙北伐失败",
+      "category": "对外与拓展",
+      "summary": "宋太宗分路出兵攻辽，试图夺取燕云。东路失利导致各路撤退，西路杨业在撤军过程中战败被俘，宋朝未能实现这次北伐目标。",
+      "impact": "北伐目标未能实现，宋辽边境继续对峙，宋朝对辽的军事战略逐渐趋向防守。",
+      "sources": [
+        "mid_s005"
+      ],
+      "previousCategory": "疆域与战争",
+      "people": [
+        "北宋太宗 · 赵光义"
+      ]
+    },
+    {
+      "id": "chron_chanyuan",
+      "year": 1004,
+      "title": "澶州对峙与澶渊议和",
+      "category": "对外与拓展",
+      "summary": "辽军南下，宋真宗抵达澶州，双方随后达成和议，约定边界、岁币及互不侵扰等事项。通称澶渊之盟，议和发生在景德元年末，公历跨至1005年。",
+      "impact": "此后宋辽保持较长时期的和平与贸易，边界的相对稳定也是历史的重要内容。",
+      "sources": [
+        "mid_s007"
+      ],
+      "previousCategory": "疆域与战争",
+      "people": [
+        "宋真宗 · 赵恒",
+        "辽圣宗 · 耶律隆绪",
+        "寇准"
+      ]
+    },
+    {
+      "id": "enrich_jiaozi",
+      "year": 1023,
+      "title": "宋廷设益州交子务",
+      "category": "改革与社会",
+      "people": [
+        "宋仁宗 · 赵祯"
+      ],
+      "brief": "纸币从民间信用工具，逐步进入国家管理。",
+      "summary": "北宋朝廷决定在益州设置交子务，次年正式发行官交子。此处以设立机构之年为节点，区分于实际发行年份。",
+      "impact": "货币与商业制度在相对稳定的疆域之内持续改变。",
+      "sources": [
+        "enrich_jiaozi"
+      ]
+    },
+    {
+      "id": "chron_xia_found",
+      "year": 1038,
+      "title": "李元昊称帝，西夏建立",
+      "category": "政权与变局",
+      "summary": "李元昊称帝，建立以党项统治集团为核心的夏政权，宋夏关系由原有册封往来转向战争。其势力控制着河西交通与西北若干重要地区。",
+      "impact": "宋辽夏三方关系逐步成形，宋夏经历多年战争后才通过谈判恢复相对稳定的往来。",
+      "sources": [
+        "mid_s485"
+      ],
+      "people": [
+        "西夏景宗 · 李元昊"
+      ]
+    },
+    {
+      "id": "chron_qingli",
+      "year": 1043,
+      "title": "范仲淹主持庆历新政",
+      "category": "改革与社会",
+      "summary": "范仲淹等提出整顿官吏考核、选举、学校和地方治理的方案，希望改善积弊。改革很快遇到政治阻力，持续时间较短，却留下深远的政治讨论。",
+      "impact": "改革受到既得利益和政治分歧阻碍，但整顿吏治、兴办学校的主张影响后世。",
+      "sources": [
+        "mid_s011"
+      ],
+      "people": [
+        "范仲淹"
+      ]
+    },
+    {
+      "id": "chron_wang_reform",
+      "year": 1069,
+      "title": "王安石变法启动",
+      "category": "改革与社会",
+      "summary": "宋神宗任用王安石，设制置三司条例司，青苗等新法陆续推行。改革试图改善财政、农业生产与军政能力，也引发朝廷内持续的激烈争论。",
+      "impact": "财政与军政整顿分年推进，不同地区执行效果不一，围绕新法的争论长期影响政局。",
+      "sources": [
+        "mid_s014"
+      ],
+      "people": [
+        "宋神宗 · 赵顼",
+        "王安石"
+      ],
+      "brief": "财政、军政与农业制度的改革，激起延续多年的新旧法争论。"
+    },
+    {
+      "id": "chron_xihe",
+      "year": 1072,
+      "title": "王韶经营熙河，宋向西北拓展",
+      "category": "对外与拓展",
+      "summary": "1072年，王韶攻取武胜，宋廷升置熙州并设熙河路；1073年继续进取河州等地。当地吐蕃诸部的归附、抵抗与宋的军事行动交织在一起，不能把数年的进展都归入同一年。",
+      "impact": "宋朝西北边界出现局部扩展，边地族群的关系同时发生变化，仍需长期经营。",
+      "sources": [
+        "mid_s015"
+      ],
+      "previousCategory": "疆域与战争"
+    },
+    {
+      "id": "chron_tongjian",
+      "year": 1084,
+      "title": "《资治通鉴》成书进呈",
+      "category": "文化与交流",
+      "summary": "司马光主持编纂的《资治通鉴》完成并进呈，全书按年代叙述战国至五代的重要史事。编纂持续近二十年，汇集大量文献校勘与历史评论。",
+      "impact": "这部编年史为后世认识历朝兴衰、君臣决策与战争演变提供了重要参照。",
+      "sources": [
+        "mid_s336"
+      ],
+      "people": [
+        "司马光",
+        "宋神宗 · 赵顼"
+      ]
+    },
+    {
+      "id": "chron_jin_found",
+      "year": 1115,
+      "title": "完颜阿骨打建立金朝",
+      "category": "政权与变局",
+      "summary": "完颜阿骨打在反辽战争中称帝，建立金朝。女真诸部的军事整合迅速改变东北力量对比，金军此后向辽的核心区域持续推进。",
+      "impact": "一个新的北方强国崛起，宋与金联手攻辽的选择，也为后来的宋金冲突埋下背景。",
+      "sources": [
+        "mid_j2"
+      ],
+      "people": [
+        "金太祖 · 完颜阿骨打"
+      ]
+    },
+    {
+      "id": "chron_liao_fall",
+      "year": 1125,
+      "title": "金俘天祚帝，辽的核心朝廷终结",
+      "category": "疆域与战争",
+      "summary": "金军俘获辽天祚帝，辽朝在东北、华北的核心统治结束。部分契丹力量继续活动，耶律大石率众向西发展，后来在中亚建立西辽。",
+      "impact": "原属辽的区域被重新争夺，金很快将军事压力转向此前联合攻辽的宋朝。",
+      "sources": [
+        "mid_j3"
+      ],
+      "outcomeId": "end_liao",
+      "people": [
+        "辽天祚帝 · 耶律延禧"
+      ]
+    },
+    {
+      "id": "chron_jingkang",
+      "year": 1127,
+      "title": "靖康之变，北宋朝廷覆亡",
+      "category": "疆域与战争",
+      "summary": "金军攻破开封后，掳走徽宗、钦宗及皇族、官民。赵构随后在应天府即位，宋朝廷继续存在，却失去了北方大片地区，进入南渡与重新立足的过程。",
+      "impact": "北宋结束与南宋建立相接，南北分治并非一天划成整齐边界，而由多年战争形成。",
+      "sources": [
+        "mid_s024"
+      ],
+      "outcomeId": "end_northsong",
+      "people": [
+        "南宋高宗 · 赵构"
+      ]
+    },
+    {
+      "id": "chron_yancheng",
+      "year": 1140,
+      "title": "岳飞北伐，郾城等地交战",
+      "category": "对外与拓展",
+      "summary": "金军重新南进，宋军在顺昌、郾城等战场反击。岳飞部取得郾城、颍昌等战斗胜利，随后奉命撤回，北伐没有转化为持久收复整个中原。",
+      "impact": "宋军遏止金军攻势，却未长期保住北伐新取得的地域，宋廷继续推动议和。",
+      "sources": [
+        "mid_s029"
+      ],
+      "previousCategory": "疆域与战争",
+      "people": [
+        "岳飞"
+      ]
+    },
+    {
+      "id": "chron_shaoxing",
+      "year": 1141,
+      "title": "绍兴和议，宋金划定边界框架",
+      "category": "对外与拓展",
+      "summary": "宋金达成绍兴和议，宋接受称臣、岁贡等条件，双方以淮水至大散关一线为主要分界。具体交割、盟誓与落实延续到次年。",
+      "impact": "长期南北对峙的框架确立；它既涉及疆域，也涉及名分、财政与边民生活。",
+      "sources": [
+        "mid_s029"
+      ],
+      "previousCategory": "疆域与战争"
+    },
+    {
+      "id": "chron_caishi",
+      "year": 1161,
+      "title": "完颜亮南侵与采石之战",
+      "category": "对外与拓展",
+      "summary": "金海陵王完颜亮大举南侵，宋军在采石等地抵抗，金军渡江受阻。金朝内部发生政变，完颜亮在军中被杀，南侵计划最终失败。",
+      "impact": "长江防线没有被这次攻势突破，宋金对峙延续，金内部最高权力也随之重组。",
+      "sources": [
+        "mid_s032"
+      ],
+      "previousCategory": "疆域与战争",
+      "people": [
+        "金海陵王 · 完颜亮"
+      ]
+    },
+    {
+      "id": "chron_mongol",
+      "year": 1206,
+      "title": "铁木真被推举为成吉思汗",
+      "category": "政权与变局",
+      "summary": "铁木真在统一蒙古高原主要竞争势力后，被推举为成吉思汗，建立大蒙古国。军事组织与政治整合让草原力量能够开展更大规模的对外战争。",
+      "impact": "蒙古各部的政治军事整合，为随后征西夏、伐金和更远距离的扩张提供了基础。",
+      "sources": [
+        "mid_y001"
+      ]
+    },
+    {
+      "id": "chron_xia_fall",
+      "year": 1227,
+      "title": "蒙古灭西夏，成吉思汗去世",
+      "category": "疆域与战争",
+      "summary": "蒙古军在长期战争后迫使西夏最后的统治者投降，西夏政权终结。成吉思汗也在这一年去世，征服进程与蒙古最高权力继承同时成为重大问题。",
+      "impact": "河西与宁夏地区进入蒙古统治网络，党项人口和文化并不会随着国号结束立即消失。",
+      "sources": [
+        "mid_y001"
+      ],
+      "outcomeId": "end_xixia"
+    },
+    {
+      "id": "chron_jin_fall",
+      "year": 1234,
+      "title": "蒙宋联合攻破蔡州，金朝灭亡",
+      "category": "疆域与战争",
+      "summary": "金哀宗退守蔡州，蒙古军与南宋军联合围攻。城破后金朝终结，宋试图收复旧地，却很快与蒙古发生直接军事冲突。",
+      "impact": "共同敌人的消失没有带来持久联盟，蒙古与南宋开始围绕河南及更南地区争夺。",
+      "sources": [
+        "mid_y002"
+      ],
+      "outcomeId": "end_jin",
+      "people": [
+        "金哀宗 · 完颜守绪"
+      ]
+    },
+    {
+      "id": "chron_dali",
+      "year": 1253,
+      "title": "忽必烈率军攻下大理",
+      "category": "疆域与战争",
+      "summary": "忽必烈率蒙古军从西南方向进攻大理，攻下其政治中心。原王室与地方首领此后以不同方式继续参与地方治理，云南的行政重组是后续过程。",
+      "impact": "大理王国的中央权力被征服，云南地方势力重新组合，蒙古获得从西南进攻宋的方向。",
+      "sources": [
+        "mid_y003"
+      ],
+      "people": [
+        "元世祖 · 忽必烈"
+      ]
+    },
+    {
+      "id": "chron_mongke",
+      "year": 1259,
+      "title": "蒙哥在攻宋军中去世",
+      "category": "政权与变局",
+      "summary": "蒙古大汗蒙哥在四川攻宋期间去世，蒙古各路进军与最高权力继承受到影响。其死亡背景与钓鱼城战事相关，具体死因在史料中并不一致。",
+      "impact": "蒙古内部的继承竞争改变战争节奏，为忽必烈与阿里不哥争位创造了局面。",
+      "sources": [
+        "mid_y003"
+      ],
+      "people": [
+        "元世祖 · 忽必烈"
+      ]
+    },
+    {
+      "id": "chron_kublai",
+      "year": 1260,
+      "title": "忽必烈与阿里不哥争夺汗位",
+      "category": "政权与变局",
+      "summary": "忽必烈在开平被拥立为大汗，阿里不哥也在蒙古本土称汗，内战随之爆发。忽必烈同时建立中统年号，逐步发展以中原为中心的统治机构。",
+      "impact": "汗位内战加深蒙古内部的分裂，忽必烈的统治机构逐渐以中原和华北为重要基础。",
+      "sources": [
+        "mid_y004"
+      ],
+      "people": [
+        "元世祖 · 忽必烈"
+      ]
+    },
+    {
+      "id": "chron_yuan_name",
+      "year": 1271,
+      "title": "忽必烈改国号为大元",
+      "category": "政权与变局",
+      "summary": "忽必烈颁诏建立大元国号，取《易经》乾元之义。此时南宋仍统治江南，忽必烈一面调整官制与财政，一面继续组织对宋战争。",
+      "impact": "国号改变标志政治制度与正统表达的调整；元的疆域仍在战争中继续扩展。",
+      "sources": [
+        "mid_y007"
+      ],
+      "people": [
+        "元世祖 · 忽必烈"
+      ]
+    },
+    {
+      "id": "chron_xiangyang",
+      "year": 1273,
+      "title": "襄樊失守，元军打开南下通道",
+      "category": "疆域与战争",
+      "summary": "元军多年围困襄阳、樊城，切断支援并攻破樊城，吕文焕随后献襄阳投降。南宋失去汉水中游最重要的防御枢纽之一。",
+      "impact": "元军能够沿汉水进入长江流域，南宋整体防御局势随之急剧恶化。",
+      "sources": [
+        "mid_y008"
+      ]
+    },
+    {
+      "id": "chron_linan",
+      "year": 1276,
+      "title": "临安投降，南宋残余朝廷继续抵抗",
+      "category": "疆域与战争",
+      "summary": "元军逼近临安，宋恭帝朝廷投降，谢太后等北上。宋宗室及将领在东南沿海另立朝廷，继续组织抵抗，南宋并未在这一年完全终结。",
+      "impact": "元取得江南的主要政治中心，宋的抵抗转向福建、广东等地与海上的流亡朝廷。",
+      "sources": [
+        "mid_s047"
+      ],
+      "people": [
+        "宋恭帝 · 赵㬎"
+      ]
+    },
+    {
+      "id": "chron_yamen",
+      "year": 1279,
+      "title": "崖山海战，南宋最后朝廷结束",
+      "category": "疆域与战争",
+      "summary": "张弘范率元军在崖山击败宋军，陆秀夫负幼帝赵昺入海，南宋最后的流亡朝廷结束。此后部分地方仍有抵抗，但已不再存在宋室主持的朝廷。",
+      "impact": "元完成对南宋主要统治区域的征服，结束长期南北对峙的政治格局。",
+      "sources": [
+        "mid_s047"
+      ],
+      "outcomeId": "end_southsong",
+      "people": [
+        "宋末帝 · 赵昺",
+        "陆秀夫"
+      ]
+    },
+    {
+      "id": "chron_red_turban",
+      "year": 1351,
+      "title": "红巾军起义，元末战争扩大",
+      "category": "疆域与战争",
+      "summary": "黄河治理征发与社会矛盾交织之际，刘福通等在颍州发动起义。各地红巾军和其他武装随后兴起，元朝对地方的控制迅速陷入长期战争。",
+      "impact": "多个势力并起而非单一叛军接收天下，后来明朝的形成也经历了复杂的兼并。",
+      "sources": [
+        "mid_y042"
+      ]
+    },
+    {
+      "id": "chron_end_yuan_dadu",
+      "year": 1368,
+      "title": "明军取大都，元廷北走",
+      "category": "疆域与战争",
+      "summary": "徐达率明军进入大都，元廷退往北方，元朝在中原的统治终结。蒙古高原上的北元继续存在，不应把全部元廷势力直接删除。",
+      "impact": "元廷退出大都、转入北方，明朝仍须面对持续存在的蒙古政治与军事力量。",
+      "sources": [
+        "outcome_cq_beiping"
+      ],
+      "outcomeId": "end_yuan_dadu"
+    },
+    {
+      "id": "late_abolish_chancellor",
+      "year": 1380,
+      "title": "胡惟庸案与废除丞相",
+      "category": "改革与社会",
+      "summary": "朱元璋以谋反罪处死胡惟庸，撤销中书省和丞相职位，六部直接向皇帝负责。官员的奏报与行政权力重新分配，中央政治结构经历深刻调整。",
+      "impact": "中央决策进一步集中于皇帝，后来内阁作为辅政机构逐渐发展。",
+      "sources": [
+        "late_ming_central"
+      ],
+      "people": [
+        "明太祖 · 朱元璋"
+      ]
+    },
+    {
+      "id": "late_yunnan_campaign",
+      "year": 1381,
+      "title": "明军大举进军云南",
+      "category": "对外与拓展",
+      "summary": "傅友德、蓝玉、沐英奉命率军入滇，攻击仍奉元朝的梁王势力。战事跨越年界，次年明廷设置云南布政使司，军事征服后仍需长期经营。",
+      "impact": "明朝的西南控制格局发生重大变化，卫所、屯田和沐氏镇守相继展开。",
+      "sources": [
+        "late_yunnan"
+      ],
+      "previousCategory": "疆域与战争"
+    },
+    {
+      "id": "late_jingnan_start",
+      "year": 1399,
+      "title": "燕王朱棣发动靖难之役",
+      "category": "政权与变局",
+      "summary": "建文帝推行削藩，引起燕王朱棣反抗。朱棣以北平为基地起兵，叔侄之间的皇位战争延续数年，使明朝北方与中央之间陷入大规模内战。",
+      "impact": "战争改变了皇位继承方向，也为后来的迁都北京埋下伏笔。",
+      "sources": [
+        "late_jingnan"
+      ],
+      "people": [
+        "燕王 · 朱棣",
+        "建文帝 · 朱允炆"
+      ]
+    },
+    {
+      "id": "late_jingnan_end",
+      "year": 1402,
+      "title": "朱棣攻入南京，夺取皇位",
+      "category": "政权与变局",
+      "summary": "靖难军进入南京，建文帝失去皇位，朱棣即位，次年改元永乐。朝廷改写建文纪年，并重新安排功臣、藩王与中央权力关系。",
+      "impact": "王朝国号没有改变，统治中心及北方军事战略却将逐步转向北京。",
+      "sources": [
+        "late_jingnan",
+        "late_yongle"
+      ],
+      "people": [
+        "明成祖 · 朱棣",
+        "建文帝 · 朱允炆"
+      ]
+    },
+    {
+      "id": "late_voyages",
+      "year": 1405,
+      "title": "郑和首次下西洋",
+      "category": "文化与交流",
+      "summary": "郑和奉命率船队远航，此后至宣德年间共七次下西洋，往来东南亚与印度洋诸地。使团交流、贸易和军事行动并存，明朝在海外的声望与联系不断扩大。",
+      "impact": "海路上的人员、物产与知识交流扩大；这些外交往来并未使所到诸国成为明朝领土。",
+      "sources": [
+        "late_zhenghe"
+      ],
+      "people": [
+        "郑和",
+        "明成祖 · 朱棣"
+      ],
+      "brief": "郑和船队首次远航，把明朝的外交活动带向印度洋。"
+    },
+    {
+      "id": "late_encyclopedia",
+      "year": 1407,
+      "title": "《永乐大典》定稿进呈",
+      "category": "文化与交流",
+      "summary": "永乐五年，《永乐大典》大体定稿进呈并获赐书名；全书誊写至1408年冬完成。它汇辑经史子集及多种专门知识，是多年编纂与抄写共同完成的文化工程。",
+      "impact": "许多后来散佚的典籍内容借此保存，成为后世研究古代文献的重要线索。",
+      "sources": [
+        "late_yongle",
+        "verify_yongle_nlc"
+      ]
+    },
+    {
+      "id": "late_beijing_capital",
+      "year": 1421,
+      "title": "明朝正式迁都北京",
+      "category": "政权与变局",
+      "summary": "北京宫殿建成后，朱棣正式将京师迁往北京，南京成为留都。全国疆域并未因此突然扩大，但运河漕运、财政供应和北方防务的重要性进一步上升。",
+      "impact": "政治中心靠近北部边防，南北两京与漕运体系影响此后数百年的国家格局。",
+      "sources": [
+        "late_beijing"
+      ],
+      "people": [
+        "明成祖 · 朱棣"
+      ]
+    },
+    {
+      "id": "late_tumu",
+      "year": 1449,
+      "title": "土木之变与北京保卫战",
+      "category": "对外与拓展",
+      "summary": "明英宗亲征瓦剌，在土木堡遭到惨败并被俘。北京朝廷另立景泰帝，于谦等组织防御，挫败瓦剌进攻京城，避免军事失败直接演成王朝覆亡。",
+      "impact": "明朝保住北京，但皇位和军事权力重组，北方防御成为长久议题。",
+      "sources": [
+        "late_tumu"
+      ],
+      "previousCategory": "疆域与战争",
+      "people": [
+        "明英宗 · 朱祁镇",
+        "于谦",
+        "也先"
+      ]
+    },
+    {
+      "id": "enrich_duomen",
+      "year": 1457,
+      "title": "夺门之变，英宗复位",
+      "category": "政权与变局",
+      "people": [
+        "明英宗 · 朱祁镇",
+        "石亨",
+        "徐有贞",
+        "于谦"
+      ],
+      "brief": "土木之变后的两帝格局，以一次宫廷政变收场。",
+      "summary": "景泰帝病重之际，石亨、徐有贞、曹吉祥等迎出太上皇朱祁镇，拥其复位，改元天顺。",
+      "impact": "皇位再度更替，于谦等随后遭到清算。",
+      "sources": [
+        "enrich_duomen"
+      ]
+    },
+    {
+      "id": "enrich_yangming",
+      "year": 1508,
+      "title": "王阳明谪居龙场，思想转折",
+      "category": "文化与交流",
+      "people": [
+        "王守仁 · 王阳明"
+      ],
+      "brief": "被贬到贵州的经历，成为阳明心学形成的重要转折。",
+      "summary": "王守仁因反对刘瑾获罪，被贬贵州龙场驿丞，正德三年抵达龙场。其间的思想体悟，后世称为“龙场悟道”。",
+      "impact": "心学的形成与传播逐渐影响明代士人的学术及实践。",
+      "sources": [
+        "enrich_yangming"
+      ]
+    },
+    {
+      "id": "enrich_liujin",
+      "year": 1510,
+      "title": "刘瑾被捕，正德朝权力重组",
+      "category": "政权与变局",
+      "people": [
+        "明武宗 · 朱厚照",
+        "刘瑾",
+        "张永"
+      ],
+      "brief": "曾被皇帝倚重的司礼监太监，迅速失去权势。",
+      "summary": "正德五年，张永等揭发刘瑾，朱厚照下令将其逮捕、抄家，随后处死。",
+      "impact": "宦官集团内部的竞争与皇帝的取舍，改变了正德朝中枢的权力分配。",
+      "sources": [
+        "enrich_liujin"
+      ]
+    },
+    {
+      "id": "enrich_ningwang",
+      "year": 1519,
+      "title": "宁王起兵，王阳明出兵平定",
+      "category": "政权与变局",
+      "people": [
+        "宁王 · 朱宸濠",
+        "王守仁 · 王阳明"
+      ],
+      "brief": "地方藩王举兵，在江西任职的王守仁转而组织讨伐。",
+      "summary": "宁王朱宸濠在南昌起兵。王守仁原奉命赴福建，闻变后返吉安组织兵力，平定宁王之乱。",
+      "impact": "藩王与中央的关系，再次成为明代政治中的现实冲突。",
+      "sources": [
+        "enrich_ningwang"
+      ]
+    },
+    {
+      "id": "enrich_daliyi",
+      "year": 1524,
+      "title": "大礼议冲突，左顺门廷争",
+      "category": "政权与变局",
+      "people": [
+        "明世宗 · 朱厚熜",
+        "张璁",
+        "杨慎"
+      ],
+      "brief": "围绕皇帝生父名分的争论，演成君臣之间的激烈冲突。",
+      "summary": "嘉靖初年的大礼议延续至三年，朝臣在左顺门集体抗争，皇帝下令逮捕、廷杖部分官员。",
+      "impact": "礼制、继承与皇权相互纠缠，朝廷中的人事格局随之变化。",
+      "sources": [
+        "enrich_daliyi"
+      ]
+    },
+    {
+      "id": "late_taizhou",
+      "year": 1561,
+      "title": "戚继光取得台州大捷",
+      "category": "疆域与战争",
+      "summary": "戚继光率训练后的军队在浙江台州一带连续作战，击败多股倭寇。沿海危机涉及跨海武装和走私网络，战场胜利不等于向海外扩张领土。",
+      "impact": "浙江沿海局势好转，练兵与协同作战经验继续用于东南海防。",
+      "sources": [
+        "late_qijiguang"
+      ],
+      "people": [
+        "戚继光"
+      ]
+    },
+    {
+      "id": "late_altan",
+      "year": 1571,
+      "title": "隆庆和议：明与俺答封贡互市",
+      "category": "对外与拓展",
+      "summary": "明廷封蒙古土默特部首领俺答为顺义王，双方推进朝贡和边境互市。多年战争之后，马市与民间贸易为边地提供了另一种维系秩序的办法。",
+      "impact": "明蒙边境趋于缓和；册封与贸易关系不能直接等同于州县式行政统治。",
+      "sources": [
+        "late_altan"
+      ],
+      "previousCategory": "改革与社会",
+      "people": [
+        "俺答"
+      ]
+    },
+    {
+      "id": "late_zhang",
+      "year": 1572,
+      "title": "张居正开始主持改革",
+      "category": "改革与社会",
+      "summary": "明穆宗去世，年幼的万历帝即位，张居正在辅政中推进考成、整顿官政、清丈田亩和赋役改革。各项措施逐步展开，不是这一年一次完成。",
+      "impact": "统一王朝在边界相对稳定时仍经历财政与治理方式的重要变化。",
+      "sources": [
+        "late_wanli"
+      ],
+      "people": [
+        "明神宗 · 朱翊钧",
+        "张居正",
+        "明穆宗 · 朱载坖"
+      ],
+      "brief": "在幼帝辅政的十余年里，财政与官政改革逐步展开。"
+    },
+    {
+      "id": "enrich_bencao",
+      "year": 1578,
+      "title": "李时珍完成《本草纲目》",
+      "category": "文化与交流",
+      "people": [
+        "李时珍"
+      ],
+      "brief": "数十年的查书、行医与实地观察，汇成一部药物学巨著。",
+      "summary": "据中国国家博物馆介绍，李时珍自1552年起编写《本草纲目》，经多次修改，于1578年完成著述。",
+      "impact": "作品后来刊行并广泛传播；本节点指完成著述，不等同于首次出版。",
+      "sources": [
+        "enrich_bencao"
+      ]
+    },
+    {
+      "id": "late_korea_war",
+      "year": 1592,
+      "title": "日本侵朝，明朝出兵援助朝鲜",
+      "category": "对外与拓展",
+      "summary": "丰臣秀吉发动对朝鲜的战争，日军迅速攻占大片地区，明朝应朝鲜请求派兵援助。战争此后经历作战、议和及再次入侵，延续至1598年。",
+      "impact": "东亚战争牵动明朝财政与兵力，朝鲜最终得以维持其政权；援军不意味着并吞朝鲜。",
+      "sources": [
+        "late_korea"
+      ],
+      "previousCategory": "疆域与战争"
+    },
+    {
+      "id": "late_later_jin",
+      "year": 1616,
+      "title": "努尔哈赤建立后金",
+      "category": "政权与变局",
+      "summary": "努尔哈赤在整合建州女真等力量后称汗，建立后金。这个东北政权随后与明朝展开长期战争，其初期范围不能与后来清朝的广阔疆域混为一谈。",
+      "impact": "东北出现新的政治中心，明与后金之间的力量竞争逐渐升级。",
+      "sources": [
+        "late_nurhaci"
+      ],
+      "people": [
+        "清太祖 · 努尔哈赤"
+      ]
+    },
+    {
+      "id": "late_sarhu",
+      "year": 1619,
+      "title": "萨尔浒之战：后金击败明军",
+      "category": "疆域与战争",
+      "summary": "明廷组织多路军队进攻后金，努尔哈赤集中兵力，先后击败杜松、马林、刘綎等部。明军分路进军未能形成配合，战局迅速逆转。",
+      "impact": "辽东力量对比转向后金，为其此后夺取辽沈地区创造条件。",
+      "sources": [
+        "late_nurhaci"
+      ],
+      "people": [
+        "努尔哈赤",
+        "杨镐"
+      ]
+    },
+    {
+      "id": "enrich_jisi",
+      "year": 1629,
+      "title": "己巳之变：后金军直趋北京",
+      "category": "对外与拓展",
+      "people": [
+        "皇太极",
+        "袁崇焕",
+        "明思宗 · 朱由检"
+      ],
+      "brief": "后金绕开山海关防线，京师面对新的军事压力。",
+      "summary": "皇太极率后金军从龙井关、大安口等处入塞，直趋北京，袁崇焕率军驰援。",
+      "impact": "明朝北方防御暴露出缺口，军事危机又引发朝廷内部的追责。",
+      "sources": [
+        "enrich_jisi"
+      ]
+    },
+    {
+      "id": "late_qing_name",
+      "year": 1636,
+      "title": "皇太极称帝，改国号为清",
+      "category": "政权与变局",
+      "summary": "皇太极在盛京称帝，将国号由金改为大清，并继续整合满洲、蒙古和汉军力量。此时清的政治中心仍在关外，尚未进入北京。",
+      "impact": "后金转入清朝阶段，新的帝国名号先于入关统一战争出现。",
+      "sources": [
+        "late_hongtaiji"
+      ],
+      "people": [
+        "清太宗 · 皇太极"
+      ]
+    },
+    {
+      "id": "enrich_tiangong",
+      "year": 1637,
+      "title": "《天工开物》初刊",
+      "category": "文化与交流",
+      "people": [
+        "宋应星",
+        "涂绍煃"
+      ],
+      "brief": "从种粮到冶铁，普通生产者的技术经验被写进书中。",
+      "summary": "宋应星撰写的《天工开物》得到友人涂绍煃资助，于崇祯十年刊刻。",
+      "impact": "农业、手工业与日常生产的知识，留下了观察晚明社会的重要记录。",
+      "sources": [
+        "enrich_tiangong"
+      ]
+    },
+    {
+      "id": "late_beijing_falls",
+      "year": 1644,
+      "title": "李自成攻占北京，崇祯帝自尽",
+      "category": "疆域与战争",
+      "summary": "大顺军攻占北京，崇祯帝在煤山自尽，明朝北京朝廷终结。但南方随后仍有南明政权，各地抵抗与战争并没有在这一年同时结束。",
+      "impact": "北方权力中心崩解，大顺、清与南明等力量继续争夺天下。",
+      "sources": [
+        "late_capital1644"
+      ],
+      "outcomeId": "end_ming_beijing",
+      "people": [
+        "李自成"
+      ]
+    },
+    {
+      "id": "late_qing_enters",
+      "year": 1644,
+      "title": "清军入关，清廷迁都北京",
+      "category": "疆域与战争",
+      "summary": "北京失守后，吴三桂与清军联合击败李自成军。多尔衮率军进入北京，顺治帝随后迁都，清朝从东北政权转向以北京为中心统治。",
+      "impact": "清朝取得北方枢纽，但向南方扩张和消灭竞争政权仍持续多年。",
+      "sources": [
+        "late_capital1644"
+      ],
+      "people": [
+        "李自成",
+        "吴三桂",
+        "多尔衮"
+      ]
+    },
+    {
+      "id": "chron_end_hongguang",
+      "year": 1645,
+      "title": "清军攻取南京，弘光政权覆灭",
+      "category": "疆域与战争",
+      "summary": "清军南下攻取南京，弘光帝被俘，弘光政权终结。南明此后仍有隆武、永历等朝廷，不能把弘光覆灭等同全部南明结束。",
+      "impact": "南明失去南京朝廷，但隆武、永历等抗清朝廷与势力相继延续。",
+      "sources": [
+        "outcome_cq_hongguang"
+      ],
+      "outcomeId": "end_hongguang"
+    },
+    {
+      "id": "chron_end_yongli",
+      "year": 1662,
+      "title": "永历帝被杀，永历朝廷终结",
+      "category": "疆域与战争",
+      "summary": "永历帝在缅甸被交清军，后被吴三桂杀于昆明。此处用1662年标朝廷终结；明郑和部分抗清武装此后仍继续活动。",
+      "impact": "南明永历朝廷终结，沿海和台湾等地的抗清力量并未同时消失。",
+      "sources": [
+        "outcome_cq_yongli"
+      ],
+      "outcomeId": "end_yongli",
+      "people": [
+        "郑和",
+        "吴三桂"
+      ]
+    },
+    {
+      "id": "late_zheng_taiwan",
+      "year": 1662,
+      "title": "郑成功迫使荷兰守军退出台湾城",
+      "category": "对外与拓展",
+      "summary": "郑成功自1661年率军渡海，攻取赤嵌并长期围困台湾城，至1662年荷兰守军投降。郑氏政权此后在台湾西南部建立行政与屯田秩序。",
+      "impact": "台湾西南部的主要统治力量由荷兰殖民当局转为郑氏；全岛控制程度需另辨。",
+      "sources": [
+        "late_zheng"
+      ],
+      "previousCategory": "疆域与战争",
+      "people": [
+        "郑成功"
+      ]
+    },
+    {
+      "id": "enrich_aobai",
+      "year": 1669,
+      "title": "鳌拜被拘，康熙巩固亲政",
+      "category": "政权与变局",
+      "people": [
+        "清圣祖 · 玄烨",
+        "鳌拜"
+      ],
+      "brief": "辅政大臣主导的格局结束，年轻皇帝进一步掌握中枢。",
+      "summary": "康熙八年，鳌拜被拘。故宫的满汉档案研究认为，此事标志四大臣辅政体制彻底终结。",
+      "impact": "康熙个人的决策权进一步确立，随后逐步展开新的军政部署。",
+      "sources": [
+        "enrich_aobai"
+      ]
+    },
+    {
+      "id": "late_three_feudatories",
+      "year": 1673,
+      "title": "三藩之乱爆发",
+      "category": "疆域与战争",
+      "summary": "清廷决定撤藩后，吴三桂在云南起兵，耿精忠等先后响应。战争扩展至南方广大地区，统一后的清朝再次面临严重的内部军事挑战。",
+      "impact": "地方藩镇与中央的关系破裂，多省控制线反复，战事延续至1681年。",
+      "sources": [
+        "late_three_feudatories"
+      ],
+      "people": [
+        "清圣祖 · 玄烨",
+        "吴三桂"
+      ]
+    },
+    {
+      "id": "late_three_feudatories_end",
+      "year": 1681,
+      "title": "清军攻取昆明，三藩之乱结束",
+      "category": "疆域与战争",
+      "summary": "经过多年争夺，清军进入昆明，吴世璠政权覆亡，三藩之乱基本结束。战后朝廷进一步调整南方军事和行政体系，削弱藩镇割据的基础。",
+      "impact": "清廷重新稳固西南及南方的统治，为转向台湾和北方边务腾出力量。",
+      "sources": [
+        "late_three_feudatories"
+      ]
+    },
+    {
+      "id": "late_zheng_surrenders",
+      "year": 1683,
+      "title": "澎湖海战后，郑克塽降清",
+      "category": "疆域与战争",
+      "summary": "施琅率清军水师在澎湖击败郑氏军队，郑克塽随后投降。清廷内部继续讨论台湾的去留，次年设台湾府，隶属福建省。",
+      "impact": "郑氏政权终结，清朝开始在台湾设置府县，实际行政覆盖仍逐步展开。",
+      "sources": [
+        "late_shilang"
+      ],
+      "outcomeId": "end_zheng",
+      "people": [
+        "郑克塽",
+        "施琅"
+      ]
+    },
+    {
+      "id": "late_albazin",
+      "year": 1685,
+      "title": "清军第一次围攻雅克萨",
+      "category": "对外与拓展",
+      "summary": "清军进攻黑龙江上游的雅克萨俄军据点，守军撤离后又返回筑城，随后再度发生围攻。冲突没有单靠一次战役解决，最终走向议界谈判。",
+      "impact": "黑龙江流域的军事争夺成为1689年尼布楚谈判的重要背景。",
+      "sources": [
+        "late_kangxi"
+      ],
+      "previousCategory": "疆域与战争"
+    },
+    {
+      "id": "late_nerchinsk",
+      "year": 1689,
+      "title": "中俄签订《尼布楚条约》",
+      "category": "对外与拓展",
+      "summary": "清朝代表索额图等与俄国使团议定边界，以额尔古纳河、格尔必齐河和外兴安岭等确定界线，并保留部分地区另议，同时约定边境贸易。",
+      "impact": "东北边界得到条约安排；这条历史界线不等于今天的中俄国界。",
+      "sources": [
+        "late_nerchinsk"
+      ],
+      "previousCategory": "疆域与战争",
+      "people": [
+        "索额图",
+        "戈洛文"
+      ]
+    },
+    {
+      "id": "late_jao_modo",
+      "year": 1696,
+      "title": "昭莫多之战：清军击败噶尔丹",
+      "category": "对外与拓展",
+      "summary": "康熙帝再次组织对噶尔丹的战争，费扬古所部在昭莫多击败其军。噶尔丹势力遭受重创，但清朝与准噶尔其他统治者的长期竞争并未结束。",
+      "impact": "漠北局势明显改变，清朝的蒙古边疆体系进一步巩固。",
+      "sources": [
+        "late_kangxi"
+      ],
+      "previousCategory": "疆域与战争",
+      "people": [
+        "噶尔丹"
+      ]
+    },
+    {
+      "id": "late_tibet_campaign",
+      "year": 1720,
+      "title": "清军进入拉萨，准噶尔军退出",
+      "category": "对外与拓展",
+      "summary": "清廷组织南北两路军队入藏，护送格桑嘉措赴拉萨，击退占据当地的准噶尔军。战后驻军与地方权力安排经历多次调整。",
+      "impact": "清朝对西藏事务的军事与政治参与加强，不能简单套用内地州县模式。",
+      "sources": [
+        "late_tibet"
+      ],
+      "previousCategory": "疆域与战争"
+    },
+    {
+      "id": "enrich_yongzheng",
+      "year": 1722,
+      "title": "康熙去世，胤禛继位",
+      "category": "政权与变局",
+      "people": [
+        "清圣祖 · 玄烨",
+        "清世宗 · 胤禛"
+      ],
+      "brief": "长达六十余年的康熙朝落幕，朝廷迎来新的治理节奏。",
+      "summary": "康熙六十一年，玄烨去世，胤禛继位，次年改元雍正。",
+      "impact": "即位年与年号元年并不相同，后续财政与官政整顿分年展开。",
+      "sources": [
+        "enrich_yongzheng"
+      ]
+    },
+    {
+      "id": "late_ambans",
+      "year": 1727,
+      "title": "清廷开始设置驻藏大臣",
+      "category": "改革与社会",
+      "summary": "清朝开始派驻藏大臣处理和监督西藏事务，地方政治随后又经历内部冲突及制度调整。驻藏大臣、达赖喇嘛和地方官员之间的权责并非从此一成不变。",
+      "impact": "边疆治理由临时军事干预走向较持久的驻派制度。",
+      "sources": [
+        "late_tibet"
+      ]
+    },
+    {
+      "id": "enrich_junji",
+      "year": 1729,
+      "title": "军机处设立，先办军务",
+      "category": "改革与社会",
+      "people": [
+        "清世宗 · 胤禛"
+      ],
+      "brief": "办理军务的中枢机构，后来逐渐扩展至更广的政务。",
+      "summary": "雍正七年设立军机处，起初专办军务；它的职能及地位在此后逐步发展。",
+      "impact": "皇帝与军机大臣之间的办事方式，成为清代中后期中枢政治的重要部分。",
+      "sources": [
+        "enrich_junji"
+      ]
+    },
+    {
+      "id": "enrich_qianlong",
+      "year": 1735,
+      "title": "雍正去世，弘历继位",
+      "category": "政权与变局",
+      "people": [
+        "清世宗 · 胤禛",
+        "清高宗 · 弘历"
+      ],
+      "brief": "乾隆朝从继承现有制度开始，而不是一开始便有后来的盛衰。",
+      "summary": "雍正十三年胤禛去世，弘历继位，翌年改元乾隆。",
+      "impact": "弘历逐渐调整父朝政策，漫长的乾隆时期由此展开。",
+      "sources": [
+        "enrich_qianlong"
+      ]
+    },
+    {
+      "id": "late_dzungar",
+      "year": 1755,
+      "title": "清军攻入伊犁，达瓦齐被俘",
+      "category": "对外与拓展",
+      "summary": "清军利用准噶尔内部纷争进攻伊犁，达瓦齐被俘。原先参与清军行动的阿睦尔撒纳随后反抗清廷，战争继续扩大，准噶尔社会遭受严重破坏。",
+      "impact": "准噶尔汗国原有权力结构瓦解，新疆北部经历剧烈战争与人口损失。",
+      "sources": [
+        "late_qianlong"
+      ],
+      "previousCategory": "疆域与战争",
+      "people": [
+        "达瓦齐"
+      ]
+    },
+    {
+      "id": "late_hoja",
+      "year": 1759,
+      "title": "清军击败大小和卓势力",
+      "category": "对外与拓展",
+      "summary": "清军在塔里木盆地继续推进，大小和卓战败后越过葱岭逃往巴达克山。军事行动结束后，清廷逐步安排驻军和各地伯克等治理体系。",
+      "impact": "新疆南部进入清朝的统治体系，与北部共同构成此后经营西域的重要基础。",
+      "sources": [
+        "late_hoja"
+      ],
+      "previousCategory": "疆域与战争"
+    },
+    {
+      "id": "late_torghut",
+      "year": 1771,
+      "title": "渥巴锡率土尔扈特部东归",
+      "category": "文化与交流",
+      "summary": "渥巴锡率土尔扈特部众离开伏尔加河流域，经历漫长迁徙和重大损失，抵达伊犁等地。清廷接纳并分地安置，乾隆帝接见其首领。",
+      "impact": "一次跨越欧亚草原的集体迁徙，改变了新疆部分地区的族群与安置格局。",
+      "sources": [
+        "late_torghut"
+      ],
+      "people": [
+        "渥巴锡"
+      ]
+    },
+    {
+      "id": "enrich_siku",
+      "year": 1773,
+      "title": "开设四库全书馆",
+      "category": "文化与交流",
+      "people": [
+        "清高宗 · 弘历",
+        "纪昀"
+      ],
+      "brief": "大规模访书、整理与抄写，把朝廷和众多学者连接起来。",
+      "summary": "乾隆三十八年，朝廷开设四库全书馆，辑录典籍并组织整理，编纂和抄录持续多年。",
+      "impact": "这是一项长期文化工程，不能把设馆、各阁本抄成和全部完成当作同一时点。",
+      "sources": [
+        "enrich_siku"
+      ]
+    },
+    {
+      "id": "enrich_macartney",
+      "year": 1793,
+      "title": "马戛尔尼使团来华",
+      "category": "对外与拓展",
+      "people": [
+        "清高宗 · 弘历",
+        "马戛尔尼"
+      ],
+      "brief": "英国使团带着礼物和通商诉求前来，双方对交往规则理解不同。",
+      "summary": "英国派出的马戛尔尼使团于1793年抵达中国，前往北京和热河，与清廷展开交涉。",
+      "impact": "这次接触成为观察十八世纪末清廷对外交往的重要事件。",
+      "sources": [
+        "enrich_macartney"
+      ]
+    },
+    {
+      "id": "enrich_heshen",
+      "year": 1799,
+      "title": "嘉庆亲政，和珅被赐死",
+      "category": "政权与变局",
+      "people": [
+        "清仁宗 · 颙琰",
+        "和珅"
+      ],
+      "brief": "太上皇乾隆去世后，嘉庆迅速处理长期受宠的权臣。",
+      "summary": "嘉庆四年正月，乾隆去世。嘉庆开始亲政，查办和珅，以多项罪名将其赐死，并查抄家产。",
+      "impact": "皇位交接后的实际权力变化，在这次人事清算中集中显现。",
+      "sources": [
+        "enrich_heshen"
+      ]
+    },
+    {
+      "id": "enrich_tianli",
+      "year": 1813,
+      "title": "天理教起事，部分教众闯入宫禁",
+      "category": "政权与变局",
+      "people": [
+        "林清",
+        "清仁宗 · 颙琰"
+      ],
+      "brief": "社会动荡越过宫墙，清廷的安全与治理问题直接暴露。",
+      "summary": "嘉庆十八年，北方发生天理教起事，部分教众在内应接应下进入皇宫，随后被镇压。",
+      "impact": "此事促使朝廷检讨宫禁防卫，也折射出地方社会危机。",
+      "sources": [
+        "enrich_tianli"
+      ]
+    },
+    {
+      "id": "late_humen",
+      "year": 1839,
+      "title": "林则徐主持虎门销烟",
+      "category": "改革与社会",
+      "summary": "林则徐奉命赴广东查禁鸦片，在虎门集中销毁收缴鸦片。禁烟围绕贸易、白银外流与国家执法权展开，随后中英冲突升级。",
+      "impact": "鸦片问题成为战争前的重要矛盾，沿海秩序面临新的外部冲击。",
+      "sources": [
+        "late_opium"
+      ],
+      "people": [
+        "林则徐"
+      ]
+    },
+    {
+      "id": "late_opium_war_start",
+      "year": 1840,
+      "title": "第一次鸦片战争爆发",
+      "category": "对外与拓展",
+      "summary": "英国派远征军抵达中国沿海，以武力施压清廷，战争从珠江口等地扩大至东南沿海和长江。清军在多处作战失利，外交与海防面临前所未有的冲击。",
+      "impact": "战事持续至1842年，最终迫使清廷接受割地、赔款和开放口岸的条约。",
+      "sources": [
+        "late_opium_war"
+      ],
+      "previousCategory": "疆域与战争"
+    },
+    {
+      "id": "late_nanjing_treaty",
+      "year": 1842,
+      "title": "《南京条约》：割香港岛，开五口",
+      "category": "对外与拓展",
+      "summary": "第一次鸦片战争后，清朝与英国在南京签约，割让香港岛，开放广州、厦门、福州、宁波、上海通商并承担赔款。此时割让范围是香港岛，不包括后来才割让或租借的地区。",
+      "impact": "沿海港口和香港岛的政治经济格局改变，条约体系开始深刻影响清朝。",
+      "sources": [
+        "late_nanjing",
+        "late_nanjing_text"
+      ],
+      "previousCategory": "疆域与战争"
+    },
+    {
+      "id": "late_jintian",
+      "year": 1851,
+      "title": "金田起义与太平天国兴起",
+      "category": "政权与变局",
+      "summary": "洪秀全等在广西金田起事，建立太平天国，军队随后向湖南、湖北及长江下游推进。这场战争与清朝的沿海外交危机同时发展。",
+      "impact": "清朝内部出现长期竞争政权，广阔地区的实际控制线开始频繁变化。",
+      "sources": [
+        "late_taiping_war"
+      ],
+      "people": [
+        "洪秀全",
+        "杨秀清"
+      ]
+    },
+    {
+      "id": "late_tianjing",
+      "year": 1853,
+      "title": "太平军攻占南京，定都天京",
+      "category": "疆域与战争",
+      "summary": "太平军沿长江东下攻取南京，将其改称天京并定都，建立与清廷对抗的政治中心。战争继续向北方和长江中上游展开，并非全国都由太平军控制。",
+      "impact": "江南财赋地区成为长期战场，清廷财政和地方军事结构受到重创。",
+      "sources": [
+        "late_taiping"
+      ]
+    },
+    {
+      "id": "late_aigun",
+      "year": 1858,
+      "title": "《瑷珲条约》改变黑龙江边界",
+      "category": "对外与拓展",
+      "summary": "俄方在军事压力下迫使黑龙江将军奕山签订《瑷珲条约》，将黑龙江以北、外兴安岭以南地区划归俄国，乌苏里江以东地区暂作共管，后续又有条约变化。",
+      "impact": "东北疆界发生重大收缩；原定共管的乌苏里江以东地区又在1860年划归俄国。",
+      "sources": [
+        "late_xianfeng",
+        "late_aigun_museum"
+      ],
+      "previousCategory": "疆域与战争"
+    },
+    {
+      "id": "late_peking_treaties",
+      "year": 1860,
+      "title": "北京失陷与《北京条约》",
+      "category": "对外与拓展",
+      "summary": "英法联军进入北京并焚掠圆明园，清廷签订相关条约。英国取得九龙南部地区，俄国通过中俄《北京条约》取得乌苏里江以东地区等权益。",
+      "impact": "军事失败转化为割地、赔款及外交制度变化，东北和华南疆域均受影响。",
+      "sources": [
+        "late_xianfeng"
+      ],
+      "previousCategory": "疆域与战争"
+    },
+    {
+      "id": "enrich_xinyou",
+      "year": 1861,
+      "title": "辛酉政变，两宫垂帘",
+      "category": "政权与变局",
+      "people": [
+        "慈安太后",
+        "慈禧太后",
+        "恭亲王 · 奕訢",
+        "肃顺"
+      ],
+      "brief": "咸丰去世、幼帝继位后，辅政安排很快被宫廷政变改写。",
+      "summary": "慈安、慈禧与恭亲王奕訢等推翻八大臣辅政格局，肃顺等遭到处置，两宫太后随后垂帘听政。",
+      "impact": "幼帝同治在位，而实际决策形成两宫太后与亲王大臣共同参与的格局。",
+      "sources": [
+        "enrich_xinyou"
+      ]
+    },
+    {
+      "id": "late_tianjing_falls",
+      "year": 1864,
+      "title": "湘军攻陷天京",
+      "category": "疆域与战争",
+      "summary": "曾国荃率湘军攻陷天京，太平天国的主要政治中心覆灭。仍有太平军余部继续活动，因此不能把所有地方武装的结束都压缩为同一天。",
+      "impact": "长期内战造成严重破坏，湘淮军及地方督抚在战后政治中的分量上升。",
+      "sources": [
+        "late_taiping",
+        "late_taiping_war"
+      ],
+      "people": [
+        "曾国藩",
+        "曾国荃",
+        "李秀成"
+      ]
+    },
+    {
+      "id": "late_xinjiang_campaign",
+      "year": 1877,
+      "title": "清军南下，阿古柏政权瓦解",
+      "category": "对外与拓展",
+      "summary": "左宗棠统筹新疆战事，刘锦棠、张曜等自1876年先后进军北疆，1877年转攻南疆，阿古柏势力瓦解。至随后收尾战事，清廷恢复新疆大部分地区的控制，伊犁仍由俄国占领。",
+      "impact": "军事收复为伊犁交涉提供后盾，但恢复新疆大部与收回伊犁是两个相继的过程。",
+      "sources": [
+        "late_zuo_campaign",
+        "late_zuo_strategy"
+      ],
+      "previousCategory": "疆域与战争",
+      "people": [
+        "左宗棠"
+      ]
+    },
+    {
+      "id": "late_ili_treaty_event",
+      "year": 1881,
+      "title": "《伊犁条约》：交还伊犁，割留西部",
+      "category": "对外与拓展",
+      "summary": "曾纪泽与俄国议定《伊犁条约》，俄方同意交还自1871年占领的伊犁主要地区，清廷支付赔款，同时接受伊犁西部部分土地归俄等条件；具体交接与勘界随后执行。",
+      "impact": "外交交涉收回伊犁主要地区，却付出土地、赔款和贸易权益代价，西北边界继续调整。",
+      "sources": [
+        "late_ili_treaty"
+      ],
+      "previousCategory": "疆域与战争"
+    },
+    {
+      "id": "late_xinjiang_province",
+      "year": 1884,
+      "title": "新疆建省",
+      "category": "改革与社会",
+      "summary": "在收复新疆大部分地区并交涉伊犁问题之后，清廷正式设置新疆省，任命刘锦棠为巡抚。军府与地方官制的调整是多年战争、财政和行政筹划的结果。",
+      "impact": "边疆治理进一步转向省制；建省时间不等于清朝第一次进入或控制新疆。",
+      "sources": [
+        "late_xinjiang"
+      ]
+    },
+    {
+      "id": "late_sino_japanese",
+      "year": 1894,
+      "title": "甲午战争爆发，黄海海战",
+      "category": "对外与拓展",
+      "summary": "中日围绕朝鲜局势的冲突发展为战争，日军进攻清军并在黄海与北洋海军交战。陆海战事延续至次年，清朝的东北及海上防务遭受严重打击。",
+      "impact": "东亚力量关系出现转折，战败引向1895年割地赔款与国内变革压力。",
+      "sources": [
+        "late_guangxu"
+      ],
+      "previousCategory": "疆域与战争",
+      "people": [
+        "丁汝昌",
+        "伊东祐亨"
+      ]
+    },
+    {
+      "id": "late_shimonoseki",
+      "year": 1895,
+      "title": "《马关条约》与台澎割让",
+      "category": "对外与拓展",
+      "summary": "甲午战败后，清廷与日本签订《马关条约》，约定割让台湾、澎湖及辽东地区，并赔款。辽东后因三国干涉还辽，不能与台澎此后的统治变化混作同一结果。",
+      "impact": "台湾、澎湖进入日本殖民统治，清朝的东亚政治地位受到重大冲击。",
+      "sources": [
+        "late_shimonoseki",
+        "late_guangxu"
+      ],
+      "previousCategory": "疆域与战争",
+      "people": [
+        "李鸿章",
+        "伊藤博文"
+      ]
+    },
+    {
+      "id": "late_hundred_days",
+      "year": 1898,
+      "title": "戊戌变法与政变",
+      "category": "改革与社会",
+      "summary": "光绪帝在康有为等推动下颁布一系列改革措施，涉及教育、官制和经济。慈禧太后发动政变，光绪被幽禁，谭嗣同等六人遇害，多数改革受挫。",
+      "impact": "救亡改革遭遇权力结构阻力，政治变革与革命道路的争论进一步扩大。",
+      "sources": [
+        "late_guangxu"
+      ],
+      "people": [
+        "清德宗 · 载湉",
+        "康有为",
+        "谭嗣同",
+        "慈禧太后"
+      ],
+      "brief": "改革诏令密集颁布，随后宫廷政变使多数措施受挫。"
+    },
+    {
+      "id": "late_allied_armies",
+      "year": 1900,
+      "title": "义和团危机与八国联军攻入北京",
+      "category": "对外与拓展",
+      "summary": "义和团运动与清廷对外关系急剧恶化，八国联军进攻并占领北京，慈禧太后、光绪帝西逃。各地战事与政治反应并不一致。",
+      "impact": "清廷遭遇严重军事和外交危机，次年以《辛丑条约》承担重大代价。",
+      "sources": [
+        "late_guangxu"
+      ],
+      "previousCategory": "疆域与战争",
+      "people": [
+        "慈禧"
+      ]
+    },
+    {
+      "id": "late_boxer_protocol",
+      "year": 1901,
+      "title": "《辛丑条约》签订",
+      "category": "对外与拓展",
+      "summary": "清廷与十一国签订《辛丑条约》，承担巨额赔款，允许外国驻兵等。北京使馆区由各国管理，但不能把所有通商口岸或驻兵区域都当作正式割让领土。",
+      "impact": "赔款和驻军削弱财政与自主权，清末新政在更深的危机中展开。",
+      "sources": [
+        "late_boxer"
+      ],
+      "previousCategory": "政权与变局"
+    },
+    {
+      "id": "late_abolish_exams",
+      "year": 1905,
+      "title": "清廷下诏废除科举",
+      "category": "改革与社会",
+      "summary": "清廷宣布自下一科起停止乡试、会试，各地岁科考试亦停，传统科举取士制度走向终结。新式学堂与留学教育的重要性迅速上升。",
+      "impact": "延续千余年的仕进道路发生根本变化，社会精英的培养方式随之转向。",
+      "sources": [
+        "late_exams"
+      ]
+    },
+    {
+      "id": "enrich_puyi",
+      "year": 1908,
+      "title": "光绪与慈禧相继去世，溥仪即位",
+      "category": "政权与变局",
+      "people": [
+        "清德宗 · 载湉",
+        "慈禧太后",
+        "溥仪",
+        "摄政王 · 载沣"
+      ],
+      "brief": "两位长期居于政治中心的人物相继离世，清廷进入幼帝摄政时期。",
+      "summary": "光绪帝去世，次日慈禧太后去世；溥仪随后在太和殿即位，载沣任监国摄政王，翌年改元宣统。",
+      "impact": "清廷在立宪、财政与革命压力之下，再次更换最高权力安排。",
+      "sources": [
+        "enrich_puyi"
+      ]
+    },
+    {
+      "id": "late_wuchang",
+      "year": 1911,
+      "title": "武昌起义，辛亥革命扩展",
+      "category": "政权与变局",
+      "summary": "10月10日，湖北新军中的革命力量在武昌起义，随后多省宣布脱离清廷，革命迅速扩展。清朝并未在这一天正式退位，南北谈判延续至次年。",
+      "impact": "全国政治归属急剧变化，清廷被迫与南方谈判；清帝正式退位发生于1912年。",
+      "sources": [
+        "late_wuchang"
+      ],
+      "people": [
+        "黎元洪",
+        "孙中山",
+        "袁世凯"
+      ],
+      "brief": "武昌起事后，各省接连响应；清帝正式退位发生在次年。"
+    }
+  ],
+  "classificationNote": "对外与拓展按事件发生时的政权交往、征伐、边疆拓展与建置分类，不以现代国界或民族身份划分；灭国、禅代、归降、崩溃另按已记关系显示，归类不改变原有史料与事件日期。"
+}

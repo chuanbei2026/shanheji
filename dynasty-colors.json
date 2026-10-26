@@ -1,0 +1,394 @@
+{
+  "version": 2,
+  "updated": "2026-10-25",
+  "title": "王朝尚色、服色与界面配色",
+  "scope": "秦、汉、晋、隋、唐、宋、元、明、清九主朝；区分德运尚色、礼服/常服、族群习俗与现代界面识别色。",
+  "method": "先依据原典、博物馆与学术资料确认颜色所指的制度或文化语境，再选取适合浅底地图的现代设计色。HEX不是古代染料或文物的测色值；使用区间是本界面参考范围，并不声称制度从起点至终点从未改变。 地图、帝系卡片与时间条优先保持同朝色系连续；阶段差异以同一色相的明度、饱和度区分。文献尚色与界面识别色分列，礼制改色不再使同朝突然换色。",
+  "limitations": [
+    "古代尚色不能视为现代国旗或国家标准色，也不代表衣服、旗帜、器物全用同一色。",
+    "五德属性和实际服色可能不一致；晋为金行而文献记服色尚赤，不能从金德直接推出白色。",
+    "同朝可能改尚色；汉初的旗帜赤色、外黑内赤与武帝太初尚黄、东汉建武二年尚赤分别说明。",
+    "相邻政权辨识色仍需现代制图设计；本表没有为所有并立势力建立可考尚色。",
+    "界面中西汉／东汉、西晋／东晋、北宋／南宋的深浅分段是阅读设计，不表示迁都或复国之年发生了对应的礼制服色改革。"
+  ],
+  "sources": {
+    "q-史记": {
+      "title": "《史记》卷六·秦始皇本纪",
+      "url": "https://zh.wikisource.org/wiki/史記/卷006",
+      "evidence": "统一后依据水德改服色，衣服及旌旗尚黑。",
+      "access": "full_text"
+    },
+    "h-封禅": {
+      "title": "《史记》卷二十八·封禅书",
+      "url": "https://zh.wikisource.org/wiki/史記/卷028",
+      "evidence": "记高祖起事尚赤；文帝时张苍所主张的制度为外黑内赤，并有改土德尚黄的论议。汉初不能不加区别地概括成纯黑或纯赤。",
+      "access": "full_text"
+    },
+    "h-太初": {
+      "title": "《史记》卷十二·孝武本纪",
+      "url": "https://zh.wikisource.org/wiki/史記/卷012",
+      "evidence": "太初元年改历，岁首改正月，颜色尚黄。",
+      "access": "full_text"
+    },
+    "h-建武": {
+      "title": "《后汉书》卷一上·光武帝纪",
+      "url": "https://zh.wikisource.org/zh-hans/後漢書/卷1上",
+      "evidence": "建武二年正月始正火德、色尚赤。",
+      "access": "full_text"
+    },
+    "j-舆服": {
+      "title": "《晋书》卷二十五·舆服志",
+      "url": "https://zh.wikisource.org/wiki/晉書/卷025",
+      "evidence": "记晋为金行，但实际服色尚赤；史臣还就德运与服色的不一致发问。",
+      "access": "full_text"
+    },
+    "st-车服": {
+      "title": "《新唐书》卷二十四·车服志",
+      "url": "https://zh.wikisource.org/zh/新唐書/卷024",
+      "evidence": "记隋文帝听朝用赭黄纹绫袍，最初与贵臣通服；唐高祖以赭黄袍为常服，后来天子袍衫渐用赤黄。这里属于皇帝常服而非全朝唯一色。",
+      "access": "full_text"
+    },
+    "s-学术": {
+      "title": "刘复生《宋朝“火运”论略——兼谈“五德转移”政治学说的终结》",
+      "url": "https://gecc.fudan.edu.cn/zztj/Assets/userfiles/sys_eb538c1c-65ff-4e82-8e6a-a1ef01127fed/files/pdf/刘复生：宋朝_火运_论略_兼谈_五德转移_政治学说的终结_刘复生.pdf",
+      "evidence": "讨论宋朝以火德为政统的确立和论争，不能由此推定所有实际礼服只有赤色。",
+      "access": "search_index"
+    },
+    "s-故宫": {
+      "title": "故宫博物院·《明代皇帝服饰上的“华虫”考释》",
+      "url": "https://www.dpm.org.cn/Uploads/File/2023/03/21/u641912908beeb.pdf",
+      "evidence": "引宋史律历志关于开国火德、尚赤的记载，并讨论宋代服色、车舆、宫殿所见赤色；论文PDF较大，本次核搜索索引相应段落。",
+      "access": "search_index"
+    },
+    "y-国博": {
+      "title": "中国国家博物馆《海宇会同——元代瓷器文化展》",
+      "url": "https://www.chnmuseum.cn/portals/0/web/zt/20190521porcelain/",
+      "evidence": "展览援引陶宗仪关于蒙古国俗尚白、以白为吉的记载，联系元代宫廷与器物审美。此为文化习俗依据，不是统一国色法令。",
+      "access": "full_text"
+    },
+    "m-舆服": {
+      "title": "《明史》卷六十七·舆服志三",
+      "url": "https://zh.wikisource.org/wiki/明史/卷67",
+      "evidence": "洪武三年礼部议取法周汉唐宋，建议服色尚赤，获准；同段亦明确唐服饰黄与旗帜赤有别。",
+      "access": "full_text"
+    },
+    "c-故宫": {
+      "title": "故宫博物院·月白色缎绣彩云金龙纹男夹朝袍",
+      "url": "https://intl.dpm.org.cn/Textiles/85236.html",
+      "evidence": "馆藏说明清代皇帝朝服通常明黄，祭天祈谷求雨用蓝，朝日用红，夕月用月白；因此明黄是帝王服饰参照，不能说清朝只用黄色。",
+      "access": "full_text"
+    },
+    "st-通典": {
+      "title": "《通典》卷五十五·历代所尚",
+      "url": "https://zh.wikisource.org/wiki/通典/卷055",
+      "evidence": "明载隋火德、朝服旗帜尚赤而戎服黄；唐土德，武周天授二年旗帜尚赤，唐天宝九载仪仗绯幡改赤黄。",
+      "access": "full_text"
+    },
+    "t-通鉴": {
+      "title": "《资治通鉴》卷一百八十五·唐纪一",
+      "url": "https://zh.wikisource.org/wiki/資治通鑑/卷185",
+      "evidence": "武德元年五月唐高祖即位后推五运为土德、色尚黄。",
+      "access": "full_text"
+    },
+    "s-本纪": {
+      "title": "《宋史》卷一·太祖本纪一",
+      "url": "https://zh.wikisource.org/wiki/宋史/卷001",
+      "evidence": "建隆元年三月定国运为火德、色尚赤。",
+      "access": "full_text"
+    }
+  },
+  "dynasties": [
+    {
+      "key": "秦",
+      "label": "秦",
+      "from": -221,
+      "to": -207,
+      "colorName": "黑",
+      "hex": "#4b5057",
+      "basis": "水德尚黑",
+      "note": "《史记》记统一后衣服及旌旗尚黑。本界面用墨灰而非纯黑，以保持浅底地图与标签可读性。",
+      "sourceIds": [
+        "q-史记"
+      ],
+      "confidence": "documented"
+    },
+    {
+      "key": "汉",
+      "label": "西汉前期",
+      "from": -206,
+      "to": -105,
+      "colorName": "黑／赤",
+      "hex": "#665058",
+      "basis": "黑赤并用",
+      "note": "汉初旗帜尚赤、制度又有外黑内赤的记载与德运争论。地图统一取汉赤色系表示王朝延续，不用单一界面色替代这些历史差异。",
+      "sourceIds": [
+        "h-封禅"
+      ],
+      "confidence": "documented",
+      "displayHex": "#a65b53",
+      "displayName": "汉赤 · 西汉",
+      "displayBasis": "同朝深浅"
+    },
+    {
+      "key": "汉",
+      "label": "西汉·太初改制后",
+      "from": -104,
+      "to": 8,
+      "colorName": "黄",
+      "hex": "#b49a53",
+      "basis": "太初尚黄",
+      "note": "前104年太初改历时明确尚黄。颜色仅代表这项礼制选择，不否认同时存在其他服色。",
+      "sourceIds": [
+        "h-太初"
+      ],
+      "confidence": "documented",
+      "displayHex": "#a65b53",
+      "displayName": "汉赤 · 西汉",
+      "displayBasis": "同朝深浅"
+    },
+    {
+      "key": "汉",
+      "label": "东汉建武元年",
+      "from": 25,
+      "to": 25,
+      "colorName": "黄",
+      "hex": "#b49a53",
+      "basis": "沿用界面参照",
+      "note": "建武二年尚赤的明文在26年；25年的地图用东汉识别色，不宣称25年有新的定色法令。",
+      "sourceIds": [
+        "h-建武"
+      ],
+      "confidence": "interpretive",
+      "displayHex": "#bf837d",
+      "displayName": "汉赤 · 东汉",
+      "displayBasis": "同朝深浅"
+    },
+    {
+      "key": "汉",
+      "label": "东汉·建武二年后",
+      "from": 26,
+      "to": 220,
+      "colorName": "赤",
+      "hex": "#a65750",
+      "basis": "火德尚赤",
+      "note": "建武二年正火德、尚赤。此为德运与制度色，不代表日常服饰、祭服一律红色。",
+      "sourceIds": [
+        "h-建武"
+      ],
+      "confidence": "documented",
+      "displayHex": "#bf837d",
+      "displayName": "汉赤 · 东汉",
+      "displayBasis": "同朝深浅"
+    },
+    {
+      "key": "晋",
+      "label": "西晋",
+      "from": 265,
+      "to": 316,
+      "colorName": "赤",
+      "hex": "#a87869",
+      "basis": "文献服色尚赤",
+      "note": "《晋书》明确记金行而服色尚赤。因此不用由金德机械推导的白色。本界面以浅赭赤和汉、宋、明赤调相区别。",
+      "sourceIds": [
+        "j-舆服"
+      ],
+      "confidence": "documented",
+      "displayHex": "#a87869",
+      "displayName": "西晋 · 赭赤",
+      "displayBasis": "同朝深浅"
+    },
+    {
+      "key": "晋",
+      "label": "东晋",
+      "from": 317,
+      "to": 420,
+      "colorName": "赤",
+      "hex": "#a87869",
+      "basis": "文献服色尚赤",
+      "note": "《晋书》明确记金行而服色尚赤。因此不用由金德机械推导的白色。本界面以浅赭赤和汉、宋、明赤调相区别。",
+      "sourceIds": [
+        "j-舆服"
+      ],
+      "confidence": "documented",
+      "displayHex": "#c29d91",
+      "displayName": "东晋 · 赭赤",
+      "displayBasis": "同朝深浅"
+    },
+    {
+      "key": "隋",
+      "label": "隋",
+      "from": 581,
+      "to": 618,
+      "colorName": "赤",
+      "hex": "#a76e58",
+      "basis": "火德尚赤",
+      "note": "《通典》明记隋火德，朝会服色、旗帜等尚赤，而戎服用黄；皇帝又有黄袍常服。这里取礼制尚赤，不以黄袍替代王朝尚色。",
+      "sourceIds": [
+        "st-通典",
+        "st-车服"
+      ],
+      "confidence": "documented"
+    },
+    {
+      "key": "唐",
+      "label": "唐前期",
+      "from": 618,
+      "to": 689,
+      "colorName": "黄",
+      "hex": "#b49a53",
+      "basis": "土德尚黄",
+      "note": "唐初有土德尚黄的明文，帝王常服则有赭黄、赤黄。旗帜亦有赤色，不能说全朝衣物器用都黄。",
+      "sourceIds": [
+        "t-通鉴",
+        "st-车服",
+        "m-舆服"
+      ],
+      "confidence": "documented",
+      "displayHex": "#b49a53",
+      "displayName": "唐赭黄",
+      "displayBasis": "同朝同色"
+    },
+    {
+      "key": "唐",
+      "label": "武周建国之年",
+      "from": 690,
+      "to": 690,
+      "colorName": "赤色参照",
+      "hex": "#a66659",
+      "basis": "界面识别色",
+      "note": "武周在条带中单列；旗帜尚赤的具体明文在次年691年。本年界面取相邻制度的赤色参照，不倒填为690年已颁同一令。",
+      "sourceIds": [
+        "st-通典"
+      ],
+      "confidence": "design_only"
+    },
+    {
+      "key": "唐",
+      "label": "武周·天授二年后",
+      "from": 691,
+      "to": 704,
+      "colorName": "赤",
+      "hex": "#a66659",
+      "basis": "旗帜尚赤",
+      "note": "《通典》记武周天授二年正月旗帜尚赤。此处是旗色制度，不能冒称所有服色都是赤色。",
+      "sourceIds": [
+        "st-通典"
+      ],
+      "confidence": "documented"
+    },
+    {
+      "key": "唐",
+      "label": "唐复国后",
+      "from": 705,
+      "to": 749,
+      "colorName": "黄",
+      "hex": "#b49a53",
+      "basis": "土德／界面参照",
+      "note": "按唐的土德尚黄及帝王黄袍文献沿用同一家族识别色；不表示705年有新的定色法令。",
+      "sourceIds": [
+        "t-通鉴",
+        "st-车服"
+      ],
+      "confidence": "documented",
+      "displayHex": "#b49a53",
+      "displayName": "唐赭黄",
+      "displayBasis": "同朝同色"
+    },
+    {
+      "key": "唐",
+      "label": "唐·天宝九载后",
+      "from": 750,
+      "to": 907,
+      "colorName": "赤黄",
+      "hex": "#bb8851",
+      "basis": "仪仗幡色",
+      "note": "《通典》记750年将仪仗所用绯色幡改为赤黄色。地图仍沿用唐朝赭黄色系；这条仪仗制度记载保留在考据中，不表示唐后期每一机构与每次仪仗都已逐年核实。",
+      "sourceIds": [
+        "st-通典",
+        "st-车服"
+      ],
+      "confidence": "documented",
+      "displayHex": "#b49a53",
+      "displayName": "唐赭黄",
+      "displayBasis": "同朝同色"
+    },
+    {
+      "key": "宋",
+      "label": "北宋",
+      "from": 960,
+      "to": 1126,
+      "colorName": "赤",
+      "hex": "#a85d65",
+      "basis": "火德尚赤",
+      "note": "《宋史》建隆元年三月明记火德尚赤；实际礼服仍有多种颜色，宋代也有德运论争，不能把整朝衣物器用一律概括为红色。",
+      "sourceIds": [
+        "s-本纪",
+        "s-学术"
+      ],
+      "confidence": "documented",
+      "displayHex": "#a85d65",
+      "displayName": "北宋 · 宋赤",
+      "displayBasis": "同朝深浅"
+    },
+    {
+      "key": "宋",
+      "label": "南宋",
+      "from": 1127,
+      "to": 1279,
+      "colorName": "赤",
+      "hex": "#a85d65",
+      "basis": "火德尚赤",
+      "note": "《宋史》建隆元年三月明记火德尚赤；实际礼服仍有多种颜色，宋代也有德运论争，不能把整朝衣物器用一律概括为红色。",
+      "sourceIds": [
+        "s-本纪",
+        "s-学术"
+      ],
+      "confidence": "documented",
+      "displayHex": "#c08a90",
+      "displayName": "南宋 · 宋赤",
+      "displayBasis": "同朝深浅"
+    },
+    {
+      "key": "元",
+      "label": "元",
+      "from": 1271,
+      "to": 1368,
+      "colorName": "白",
+      "hex": "#b5bec5",
+      "basis": "蒙古尚白习俗",
+      "note": "国博引元人国俗尚白、以白为吉，属于蒙古文化习俗与审美证据。本界面用可辨识的灰白；不冒称元朝颁布了现代意义的统一白色国色标准。",
+      "sourceIds": [
+        "y-国博"
+      ],
+      "confidence": "documented"
+    },
+    {
+      "key": "明",
+      "label": "明",
+      "from": 1368,
+      "to": 1644,
+      "colorName": "赤",
+      "hex": "#b76049",
+      "basis": "洪武服色制度",
+      "note": "洪武三年（1370）定服色尚赤；1368—1369仅以此作为明朝整体视觉参照，并不倒填定制时间。帝王黄袍与这项尚赤制度可以并存。",
+      "sourceIds": [
+        "m-舆服"
+      ],
+      "confidence": "documented"
+    },
+    {
+      "key": "清",
+      "label": "清",
+      "from": 1636,
+      "to": 1911,
+      "colorName": "明黄",
+      "hex": "#c4a34b",
+      "basis": "帝王朝服参照",
+      "note": "以清宫典制中皇帝朝服通常用明黄为参照，非断言1636年起所有制度已经完全一致。祭天、朝日、夕月另用蓝、红、月白；明黄不是全朝唯一颜色。",
+      "sourceIds": [
+        "c-故宫"
+      ],
+      "confidence": "documented"
+    }
+  ]
+}

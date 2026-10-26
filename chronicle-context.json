@@ -1,0 +1,382 @@
+{
+  "version": 1,
+  "scope": "Dated contextual selections, not an exhaustive ethnic census or polity boundary dataset. Intervals are display bounds; citations are research entry points. Group presence does not imply an independent state.",
+  "sources": {
+    "qinhan": {
+      "title": "中国国家博物馆 · 秦汉时期",
+      "url": "https://www.chnmuseum.cn/portals/0/web/zt/gudai/detail4.html"
+    },
+    "north": {
+      "title": "陕西历史博物馆 · 冲突与融合",
+      "url": "https://www.sxhm.com/special_fuse.html"
+    },
+    "medieval": {
+      "title": "中国国家博物馆 · 三国两晋南北朝",
+      "url": "https://www.chnmuseum.cn/portals/0/web/zt/gudai/detail5.html"
+    },
+    "tang": {
+      "title": "中国国家博物馆 · 隋唐五代",
+      "url": "https://www.chnmuseum.cn/portals/0/web/zt/gudai/detail6.html"
+    },
+    "song": {
+      "title": "中国国家博物馆 · 辽宋夏金元",
+      "url": "https://www.chnmuseum.cn/portals/0/web/zt/gudai/detail7.html"
+    },
+    "mongol": {
+      "title": "国家民委 · 蒙古族历史沿革",
+      "url": "https://www.neac.gov.cn/seac/ztzl/mgz/lsyg.shtml"
+    },
+    "uyghur": {
+      "title": "国家民委 · 回纥、回鹘历史",
+      "url": "https://www.neac.gov.cn/seac/ztzl/wwez/lsyg.shtml"
+    },
+    "manchu": {
+      "title": "国家民委 · 满族历史沿革",
+      "url": "https://www.neac.gov.cn/seac/ztzl/201806/1066881.shtml"
+    },
+    "hui": {
+      "title": "国家民委 · 回族历史沿革",
+      "url": "https://www.neac.gov.cn/seac/ztzl/huiz/lsyg.shtml"
+    },
+    "bai": {
+      "title": "国家民委 · 白族历史沿革",
+      "url": "https://www.neac.gov.cn/seac/ztzl/bz/lsyg.shtml"
+    },
+    "dzungar": {
+      "title": "故宫博物院 · 准噶尔部",
+      "url": "https://www.dpm.org.cn/lemmas/241563.html"
+    }
+  },
+  "groups": [
+    {
+      "from": -221,
+      "to": 47,
+      "name": "匈奴",
+      "relation": "秦汉长期与匈奴交战、和亲和通使；单于统合的部众也有变化。",
+      "sources": [
+        "qinhan"
+      ]
+    },
+    {
+      "from": 48,
+      "to": 215,
+      "name": "南匈奴",
+      "relation": "分裂后的南匈奴内附东汉；归附并不等于族群消失。",
+      "sources": [
+        "qinhan"
+      ]
+    },
+    {
+      "from": 48,
+      "to": 91,
+      "name": "北匈奴",
+      "relation": "与南匈奴并存，汉军及其他部众对其持续用兵。",
+      "sources": [
+        "qinhan"
+      ]
+    },
+    {
+      "from": -202,
+      "to": 219,
+      "name": "乌桓、鲜卑",
+      "relation": "东北诸部与汉朝发生贸易、征战和人口迁徙。",
+      "sources": [
+        "qinhan"
+      ]
+    },
+    {
+      "from": -202,
+      "to": 219,
+      "name": "西域诸国",
+      "relation": "乌孙、龟兹、于阗、疏勒等各有政治传统，不能合称一个民族。",
+      "sources": [
+        "qinhan"
+      ]
+    },
+    {
+      "from": -221,
+      "to": -110,
+      "name": "百越诸部",
+      "relation": "南方多种人群的历史合称，不是单一族群或统一国家。",
+      "sources": [
+        "qinhan"
+      ]
+    },
+    {
+      "from": -202,
+      "to": 219,
+      "name": "羌与西南诸部",
+      "relation": "羌人与史籍所称“西南夷”等部众，与汉朝保持复杂交往。",
+      "sources": [
+        "qinhan",
+        "bai"
+      ]
+    },
+    {
+      "from": 220,
+      "to": 580,
+      "name": "鲜卑诸部",
+      "relation": "慕容、拓跋、宇文等部先后参与建国，族群融合贯穿这一时期。",
+      "sources": [
+        "north",
+        "medieval"
+      ]
+    },
+    {
+      "from": 220,
+      "to": 580,
+      "name": "氐、羌诸部",
+      "relation": "一些首领建立政权，也有大量部众生活在其他政权之内。",
+      "sources": [
+        "north"
+      ]
+    },
+    {
+      "from": 304,
+      "to": 350,
+      "name": "匈奴、羯",
+      "relation": "汉赵与石勒集团的兴起，是理解北方政权变化的重要线索。",
+      "sources": [
+        "north"
+      ]
+    },
+    {
+      "from": 402,
+      "to": 551,
+      "name": "柔然",
+      "relation": "草原联盟与北朝既有战争，也有结盟与通婚。",
+      "sources": [
+        "medieval"
+      ]
+    },
+    {
+      "from": 552,
+      "to": 743,
+      "name": "突厥诸部",
+      "relation": "不同阶段有东、西突厥及再兴政权；不能视为一个始终不变的汗国。",
+      "sources": [
+        "tang"
+      ]
+    },
+    {
+      "from": 581,
+      "to": 743,
+      "name": "铁勒诸部",
+      "relation": "包含多个部落集团，回纥是其中重要一支。",
+      "sources": [
+        "uyghur"
+      ]
+    },
+    {
+      "from": 744,
+      "to": 787,
+      "name": "回纥",
+      "relation": "漠北汗国与唐朝结盟、通婚，并参与平定安史之乱。",
+      "sources": [
+        "uyghur",
+        "tang"
+      ]
+    },
+    {
+      "from": 788,
+      "to": 839,
+      "name": "回鹘",
+      "relation": "回纥改称回鹘；与唐朝保持政治和经济往来。",
+      "sources": [
+        "uyghur"
+      ]
+    },
+    {
+      "from": 840,
+      "to": 1368,
+      "name": "西迁回鹘诸部",
+      "relation": "漠北汗国瓦解后，出现高昌回鹘等不同政治共同体。",
+      "sources": [
+        "uyghur"
+      ]
+    },
+    {
+      "from": 633,
+      "to": 841,
+      "name": "吐蕃",
+      "relation": "吐蕃赞普政权与唐朝既有会盟、婚姻，也有军事竞争。",
+      "sources": [
+        "tang"
+      ]
+    },
+    {
+      "from": 842,
+      "to": 1199,
+      "name": "吐蕃诸部",
+      "relation": "吐蕃王朝瓦解后，各地政治力量分立，不应看作一个持续统一的王朝。",
+      "sources": [
+        "song"
+      ]
+    },
+    {
+      "from": 649,
+      "to": 936,
+      "name": "乌蛮、白蛮等",
+      "relation": "史籍族称涉及南诏及邻近人群，不能直接等同今日民族分类。",
+      "sources": [
+        "bai"
+      ]
+    },
+    {
+      "from": 937,
+      "to": 1253,
+      "name": "大理与白族先民",
+      "relation": "段氏政权与多种地方人群并存，统治集团不代表全部居民。",
+      "sources": [
+        "bai",
+        "song"
+      ]
+    },
+    {
+      "from": 907,
+      "to": 1124,
+      "name": "契丹",
+      "relation": "耶律氏建立的辽与宋长期并立，境内还有汉人等多个族群。",
+      "sources": [
+        "song"
+      ]
+    },
+    {
+      "from": 907,
+      "to": 1037,
+      "name": "党项",
+      "relation": "党项诸部逐渐形成强大的地方政治力量。",
+      "sources": [
+        "song"
+      ]
+    },
+    {
+      "from": 1038,
+      "to": 1226,
+      "name": "党项·西夏",
+      "relation": "李氏建立西夏，与宋、辽、金及后起蒙古发生交往和战争。",
+      "sources": [
+        "song"
+      ]
+    },
+    {
+      "from": 916,
+      "to": 1114,
+      "name": "女真诸部",
+      "relation": "并非始终受一个首领统合；后来完颜氏建立金朝。",
+      "sources": [
+        "song"
+      ]
+    },
+    {
+      "from": 1115,
+      "to": 1234,
+      "name": "女真·金",
+      "relation": "完颜氏金朝与宋、辽及蒙古的关系，是本期的重要政治线索。",
+      "sources": [
+        "song"
+      ]
+    },
+    {
+      "from": 1189,
+      "to": 1205,
+      "name": "蒙古诸部",
+      "relation": "蒙古诸部仍在战争与整合之中，尚不是后来的元朝。",
+      "sources": [
+        "mongol"
+      ]
+    },
+    {
+      "from": 1206,
+      "to": 1367,
+      "name": "蒙古",
+      "relation": "蒙古兴起后统合多族群，蒙古帝国各汗国与元朝应分开理解。",
+      "sources": [
+        "mongol",
+        "song"
+      ]
+    },
+    {
+      "from": 1368,
+      "to": 1635,
+      "name": "蒙古诸部",
+      "relation": "北元及其后诸部的政治格局屡变，不能都按元朝旧制理解。",
+      "sources": [
+        "mongol"
+      ]
+    },
+    {
+      "from": 1368,
+      "to": 1615,
+      "name": "女真诸部",
+      "relation": "各部与明朝有朝贡、贸易与战争等关系。",
+      "sources": [
+        "manchu"
+      ]
+    },
+    {
+      "from": 1616,
+      "to": 1635,
+      "name": "女真·后金",
+      "relation": "努尔哈赤及皇太极统合部众，八旗制度逐步发展。",
+      "sources": [
+        "manchu"
+      ]
+    },
+    {
+      "from": 1636,
+      "to": 1911,
+      "name": "满洲／满族",
+      "relation": "清朝皇室及八旗核心的族群背景；八旗并不全是满人。",
+      "sources": [
+        "manchu"
+      ]
+    },
+    {
+      "from": 1636,
+      "to": 1911,
+      "name": "蒙古诸部",
+      "relation": "不同部众与清廷的关系各异，盟旗制度也有逐步形成的过程。",
+      "sources": [
+        "mongol"
+      ]
+    },
+    {
+      "from": 1635,
+      "to": 1757,
+      "name": "厄鲁特·准噶尔",
+      "relation": "卫拉特蒙古中的政治力量，与清朝长期发生战争。",
+      "sources": [
+        "dzungar",
+        "mongol"
+      ]
+    },
+    {
+      "from": 1200,
+      "to": 1911,
+      "name": "藏族与地方政教势力",
+      "relation": "不同年代有不同地方政治与宗教权威，并非一个恒定不变的政权。",
+      "sources": [
+        "song"
+      ]
+    },
+    {
+      "from": 1368,
+      "to": 1911,
+      "name": "回回与回族社群",
+      "relation": "族群形成和迁徙有长期过程，也不能用一种信仰推断单一政治立场。",
+      "sources": [
+        "hui"
+      ]
+    },
+    {
+      "from": 1368,
+      "to": 1911,
+      "name": "西南多族群",
+      "relation": "白、彝、苗、瑶等相关先民与社群各有历史，并非统一的政治集团。",
+      "sources": [
+        "bai"
+      ]
+    }
+  ]
+}
