@@ -1,9 +1,9 @@
 {
-  "exported_at": "2026-10-26T03:33:45.970Z",
-  "source_revision": "9e1d44290335ffa127f532df6a16daf082751218",
+  "exported_at": "2026-10-26T03:37:18.050Z",
+  "source_revision": "258b0582f19eef0b0e91187f865b3a370bb2bd30",
   "static_directory": "dist",
   "file_count": 63,
-  "total_bytes": 25661447,
+  "total_bytes": 25662770,
   "files": [
     {
       "path": "D3-LICENSE.txt",
@@ -17,8 +17,8 @@
     },
     {
       "path": "README.md",
-      "bytes": 52428,
-      "sha256": "142629abce44f464b2edf6c729570e620249ee97f5a0ebfa44888c16eb7bfeb7"
+      "bytes": 52871,
+      "sha256": "58b0780aeabe6050d26c45fac4b916161e9f4d8b29663fead9ce13b66bd3da90"
     },
     {
       "path": "ancient-atlas.json",
@@ -47,13 +47,13 @@
     },
     {
       "path": "annual-timeline.js",
-      "bytes": 9549,
-      "sha256": "99d98785799027b9acae8ebf7719f851385b3fdc8740ebdbf97480f67446c4c8"
+      "bytes": 9924,
+      "sha256": "1a0bf1ea8fd8b7ec5eb03f7a6f46a332af33b0c9de612b9d0c97ffc4882ef562"
     },
     {
       "path": "app.js",
-      "bytes": 49086,
-      "sha256": "41781a21c0c37c353a063d6e2552b785a42c398c68dbb915b9b86972d1263cf7"
+      "bytes": 49121,
+      "sha256": "af17ac9d983e6610844c372f9faae3e39cfa73d3a0fc2355aaa0bf7ee4e180d6"
     },
     {
       "path": "assets/dynasty-lettering/ART-DIRECTION.md",
@@ -227,8 +227,8 @@
     },
     {
       "path": "index.html",
-      "bytes": 35290,
-      "sha256": "73470d48e2e0813f4bfc5b23b380cd96fbee794f98a205f986c64d4814fd1b31"
+      "bytes": 35366,
+      "sha256": "32ab0367ab09cb487cd3aaf9f64f1c3d4dbae102cdea80aa7b578c7bbfa3fb4a"
     },
     {
       "path": "land.json",
@@ -297,8 +297,8 @@
     },
     {
       "path": "source.zip",
-      "bytes": 9375152,
-      "sha256": "76f940cc45d060ac9ebf0abab2c148d46f57e19332649fa798ef7b806cac65fc"
+      "bytes": 9375546,
+      "sha256": "c4a475ad909b77cbe427009554f6d60697d83ef68a80a63eb19b985146663804"
     },
     {
       "path": "stories.json",

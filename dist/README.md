@@ -294,3 +294,7 @@ Reviewed the current 232-event index and checked 277 original reign/power-holder
 ## Focused waterfall layout
 
 Neighboring dynasty ranges retain fully opaque family colors. The active row is 64px high and adjacent rows are 20px high on the same proportional year scale. Current segment dates are stacked beneath the name, avoiding separate endpoint captions around narrow periods. The 200-year ruler sits below all three rows; quiet full-history segments remain inside the center axis. First/last dynasty padding, cross-dynasty scrolling and keyboard year stepping were checked in the browser.
+
+## Keyboard dynasty navigation
+
+Arrow Up and Arrow Down share the previous/next dynasty actions and jump to the adjacent dynasty or historical period start. Arrow Left/Right still step by year. Dynasty keys work on the year cursor and ordinary page content, pause playback, stop at either chronology boundary, and defer to editable fields, selectors, search results and open dialogs. Modified arrow shortcuts remain available to the browser.
