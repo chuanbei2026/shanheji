@@ -528,6 +528,18 @@
       "title": "中央研究院史语所·郑雅如论北魏皇太后制度",
       "url": "https://www11.ihp.sinica.edu.tw/storage/w2_file/4441saQjvjZ.pdf",
       "note": "据《魏书》区分466诛乙浑后临朝、467罢令以及476年后再度临朝；不把文成帝去世之年直接当作临朝开始。"
+    },
+    "parallel-era-moe": {
+      "id": "parallel-era-moe",
+      "title": "教育部·中国历代年号表 第5页",
+      "url": "https://dict.revised.moe.edu.tw/appendix.jsp?ID=3&la=0&page=5&powerMode=0&ver=0",
+      "note": "辽天祚帝乾统、天庆、保大起讫；按年展示，不据此推定月日。"
+    },
+    "parallel-era-xia-museum": {
+      "id": "parallel-era-xia-museum",
+      "title": "中国国家博物馆·贞观宝钱",
+      "url": "https://www.chnmuseum.cn/zp/zpml/hb/202203/t20220301_253899.shtml",
+      "note": "藏品说明采用西夏贞观1101—1113年；与部分旧年表1102年起算不同，本表采用此说。"
     }
   },
   "reigns": [
@@ -8783,9 +8795,18 @@
         "regional-moe3",
         "regional-ciyuan",
         "regional-song-xia",
-        "regional-xia-nxu"
+        "regional-xia-nxu",
+        "parallel-era-xia-museum"
       ],
-      "role": "ruler"
+      "role": "ruler",
+      "eras": [
+        {
+          "from": 1101,
+          "to": 1113,
+          "name": "贞观",
+          "baseYear": 1
+        }
+      ]
     },
     {
       "dynasty": "大理",
@@ -8874,9 +8895,30 @@
       "title": "辽天祚帝",
       "sources": [
         "regional-moe3",
-        "regional-liao-primary"
+        "regional-liao-primary",
+        "parallel-era-moe"
       ],
-      "role": "ruler"
+      "role": "ruler",
+      "eras": [
+        {
+          "from": 1101,
+          "to": 1110,
+          "name": "乾统",
+          "baseYear": 1
+        },
+        {
+          "from": 1111,
+          "to": 1120,
+          "name": "天庆",
+          "baseYear": 1
+        },
+        {
+          "from": 1121,
+          "to": 1125,
+          "name": "保大",
+          "baseYear": 1
+        }
+      ]
     },
     {
       "dynasty": "大理",

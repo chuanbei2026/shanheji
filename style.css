@@ -312,3 +312,10 @@ header{gap:22px}.atlas-jump{position:relative;flex:1;max-width:490px;min-width:2
 .capital-move-relation span{border-style:dashed}.capital-move-relation i{font-style:normal}.capital-move-relation b{background:#f0ebdd}
 .capital-move-path{fill:none;stroke:#847144;stroke-width:1.5;stroke-dasharray:5 4;vector-effect:non-scaling-stroke}
 .capital-move-origin{fill:#faf8ee;stroke:#847144;stroke-width:1.5;vector-effect:non-scaling-stroke}.capital-move-layer{pointer-events:none}
+
+/* Compact parallel calendar rows share the map year anchor. */
+.map-era{display:flex;flex-direction:column;align-items:stretch;gap:3px;max-width:300px;padding:0;margin-top:9px}
+.map-era-row{display:flex;align-items:baseline;gap:8px;line-height:1.5;font-size:13px;border-left:3px solid var(--era-color);padding-left:7px;letter-spacing:0;text-shadow:none}
+.map-era-row>span{flex:none;min-width:26px;max-width:90px;color:#69715f;font-size:11px;overflow:hidden;text-overflow:ellipsis;white-space:nowrap}
+.map-era-row>b{font-weight:600;color:#394a35;overflow-wrap:anywhere}
+@media(max-width:700px){.map-era-row{font-size:12px}.map-era{max-width:230px;gap:2px}}
