@@ -319,3 +319,18 @@ header{gap:22px}.atlas-jump{position:relative;flex:1;max-width:490px;min-width:2
 .map-era-row>span{flex:none;min-width:26px;max-width:90px;color:#69715f;font-size:11px;overflow:hidden;text-overflow:ellipsis;white-space:nowrap}
 .map-era-row>b{font-weight:600;color:#394a35;overflow-wrap:anywhere}
 @media(max-width:700px){.map-era-row{font-size:12px}.map-era{max-width:230px;gap:2px}}
+
+/* Song rosters use the two map edges; the middle remains available to the map. */
+@media(min-width:651px){
+ .map-sovereign.parallel-courts[data-court-layout=song-sides]{left:24px;right:24px;top:22px!important;width:auto;max-width:none;max-height:none!important;overflow:visible;pointer-events:none}
+ [data-court-layout=song-sides]>.parallel-courts-heading{display:none}
+ .parallel-courts-grid.song-sides{display:flex;justify-content:space-between;align-items:flex-start;gap:20px;padding:0}
+ .song-primary-courts{width:236px;flex:none;pointer-events:auto}
+ .song-other-courts{width:196px;flex:none;display:flex;flex-direction:column;gap:8px;max-height:var(--song-court-height);overflow-y:auto;scrollbar-width:thin;pointer-events:auto}
+ .song-primary-courts>.parallel-court{max-height:var(--song-court-height);overflow-y:auto;scrollbar-width:thin}
+ .song-primary-courts .court-vertical-roster{max-height:calc(var(--song-court-height) - 105px)}
+ .song-court-layout .map-current-year{left:calc(50% - 100px);top:20px}
+}
+@media(min-width:651px) and (max-width:850px){.song-primary-courts{width:214px}.song-other-courts{width:172px}.map-sovereign.parallel-courts[data-court-layout=song-sides]{left:14px;right:14px}.song-court-layout .map-current-year{font-size:54px;left:calc(50% - 66px)}}
+@media(max-width:650px){.parallel-courts-grid.song-sides{display:flex;flex-direction:column}.song-primary-courts,.song-other-courts{width:100%}.song-other-courts{display:flex;flex-direction:column;gap:6px}}
+@media(min-width:651px){.song-primary-courts .parallel-roster-note{display:none}.song-primary-courts .court-vertical-roster{max-height:calc(var(--song-court-height) - 113px)}}
