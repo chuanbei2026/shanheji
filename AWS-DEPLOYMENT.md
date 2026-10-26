@@ -10,14 +10,14 @@ Keep README.md, this deployment guide and EXPORT-MANIFEST.json outside the publi
 
 AWS Amplify Hosting supports static website content and HTTPS delivery. Supply dist/ as the deployment artifact. No environment variables or backend bindings are needed.
 
-Official reference: https://docs.aws.amazon.com/AmazonS3/latest/userguide/WebsiteHosting.html
+Official reference: https://docs.aws.amazon.com/amplify/latest/userguide/manual-deploys.html
 
 ## Option 2: S3 with CloudFront
 
 1. Create an S3 bucket and upload the contents of dist/ at its root.
 2. Create a CloudFront distribution using the regular S3 bucket origin, with Origin Access Control (OAC), signed requests and an appropriate bucket policy. Keep the S3 bucket private.
 3. Set the default root object to index.html and redirect HTTP viewers to HTTPS.
-4. Serve the supplied secondary pages with their explicit .html paths, including /lettering-gallery.html, /ancient-guide.html and /research-review.html. No SPA route rewrite is required; selected years and stages use query parameters on the main page.
+4. Serve the supplied secondary pages with their explicit .html paths, including /lettering-gallery.html, /ancient-guide.html and /research-review.html. The independent European edition is /europe/index.html; upload that entire subdirectory. Internal regional links use explicit index.html paths so they also work with a private regular S3 origin. If you want /europe/ as a short URL, configure a CloudFront viewer-request function to append index.html to directory requests; the distribution default root object applies only to the root request. No SPA route rewrite is required; selected years and stages use query parameters on the main page.
 5. Preserve file content types: text/html, text/css, application/javascript, application/json and image/png. Refresh or invalidate cached files when updating assets with unchanged filenames.
 6. Add your custom domain and TLS certificate if desired.
 
@@ -30,4 +30,4 @@ The previous platform's owner-only authentication is not exported. Choose the AW
 
 ## After deployment
 
-Verify the main page with ?year=1137&stage=s_nansong_a0, change years, play the timeline, check a dynasty card, open the evidence dialogs and load /lettering-gallery.html. Confirm that all nine wordmark images load.
+Verify the main page with ?year=1137&stage=s_nansong_a0, change years, play the timeline, check a dynasty card, open the evidence dialogs and load /lettering-gallery.html. Confirm that all nine wordmark images load. Open /europe/index.html?year=1812, verify both Moscow-related events and their sources, then test play/pause and region switching.

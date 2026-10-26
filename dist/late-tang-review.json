@@ -1,0 +1,98 @@
+{
+  "reviewDate": "2026-10-26",
+  "scope": "Bounded late-Tang leader audit. Two recommended annual records; no map geometry or claimed territorial extent is verified by these biographical sources.",
+  "sources": {
+    "late_tang_dha_zhang": {
+      "title": "敦煌研究院·莫高窟第94窟",
+      "url": "https://www.dha.ac.cn/info/1425/3623.htm",
+      "note": "Institutional explanation cites Dunhuang manuscripts P.2913 and P.3451, places Zhang Huaishen's succession in 867 and death in 890. Zhang Yichao left for Chang'an in 867. Use a neutral de facto governing title rather than assuming formal court confirmation of the military governorship in 867."
+    },
+    "late_tang_nagoya_nanzhao": {
+      "title": "名古屋大学开放课程·中国西南民族史（2014）第7讲资料",
+      "url": "https://ocw.nagoya-u.jp/files/15/Note-07(3-3)n.pdf",
+      "note": "Page 3, Nanzhao genealogy explicitly gives Longshun [Fa] 877–897, after Shilong 859–877 and before Shunhuazhen 897–902. Annual endpoints overlap at accession years; exact accession/death days are not supplied."
+    },
+    "late_tang_ntu_longshun": {
+      "title": "侯冲·论阿嵯耶观音出现的时间和原因，华严学报7（2014），台湾大学佛学数字图书馆书目及摘要",
+      "url": "https://dlbs.liberal.ntu.edu.tw/search/search_detail.jsp?comefrom=authorinfo&seq=551444",
+      "note": "The scholarly abstract explicitly dates Longshun's reign 877–897; independent corroboration of the university teaching chart. No specific era interval is established by this abstract."
+    },
+    "late_tang_xwd68_wang": {
+      "title": "新五代史卷68·闽世家",
+      "url": "https://zh.wikisource.org/zh-hans/新五代史/卷68",
+      "note": "Primary dynastic history: Wang Chao initially leads the brothers' force; Wang Shenzhi is Chao's deputy; Chao dies in Qian'ning 4 (897) and Shenzhi succeeds. This disproves treating Shenzhi as the ruler of the whole Fujian polygon in 885, without proving an alternative polygon for that year."
+    },
+    "late_tang_xwd65_liu": {
+      "title": "新五代史卷65·南汉世家",
+      "url": "https://zh.wikisource.org/zh-hans/新五代史/卷65",
+      "note": "Primary dynastic history: Liu Qian is appointed Fengzhou prefect and Hejiang commander; after Qian's death Liu Yin succeeds in Fengzhou; Yin becomes a regional deputy and acting governor later, and is appointed military governor in Tianyou 2 (905). The passage does not give a safe exact death year for Qian. It does not support Liu Yin ruling a broad Lingnan polygon in 885."
+    }
+  },
+  "recommendedReigns": [
+    {
+      "polity": "归义军（张议潮）",
+      "dynasty": "归义军",
+      "name": "张淮深",
+      "title": "归义军主政者",
+      "from": 867,
+      "to": 890,
+      "role": "ruler",
+      "eras": [],
+      "sources": ["late_tang_dha_zhang"],
+      "note": "张议潮867年入长安后，由张淮深主政；890年遇害。此处为实际主政者，不把归义军创建者当作881—884年的在位统治者。具体唐朝授节程序另有研究分期，因此称号用主政者。",
+      "auditMetadata": {
+        "confidence": "high for identity in 881–884; annual endpoints supported by the institutional source",
+        "minimumSafeApplyFrom": 881,
+        "minimumSafeApplyTo": 884,
+        "eraStatus": "not_verified_in_this_review",
+        "doNotRenderEmptyErasAs": "无年号",
+        "polityKeyWarning": "Legacy key contains the founder's name. Preserve it only for matching; visible current-leader text must say 张淮深."
+      }
+    },
+    {
+      "polity": "南诏",
+      "dynasty": "南诏",
+      "name": "隆舜",
+      "title": "南诏国主",
+      "from": 877,
+      "to": 897,
+      "role": "ruler",
+      "eras": [],
+      "sources": ["late_tang_nagoya_nanzhao", "late_tang_ntu_longshun"],
+      "note": "隆舜又名法；两项学术资料均列在位877—897年，故881—884年可明确列其为南诏在位统治者。本次未核定其各年号与公元逐年对应关系，暂不填年号。",
+      "auditMetadata": {
+        "confidence": "high for identity in 881–884 and scholarly annual reign range; no exact day verified",
+        "minimumSafeApplyFrom": 881,
+        "minimumSafeApplyTo": 884,
+        "eraStatus": "known_to_have_eras_but_intervals_not_verified_in_this_review",
+        "doNotRenderEmptyErasAs": "无年号",
+        "ethnicityWarning": "Do not automatically equate the whole Nanzhao population with one modern ethnic group. This review does not verify an ethnicity field."
+      }
+    }
+  ],
+  "snapshotWarnings": [
+    {
+      "stage": "s_tang_d2",
+      "year": 885,
+      "polity": "威武（王审知）",
+      "finding": "The label is a retrospective founder label, not an annual ruler identification. Wang Shenzhi only succeeds Wang Chao in 897 in the primary history. At 885 Wang Chao's rising force was not yet coextensive with a later unified Fujian/Wuwei territory.",
+      "sources": ["late_tang_xwd68_wang"],
+      "recommendedAction": "Do not create an 885 Wang Shenzhi reign record. Mark the geometry as a later schematic slice or replace it only after obtaining a year-specific map and the leaders of the actual distinct jurisdictions. Simply substituting Wang Chao for the entire old polygon would create a new territorial claim."
+    },
+    {
+      "stage": "s_tang_d2",
+      "year": 885,
+      "polity": "岭南（刘隐）",
+      "finding": "Primary history puts Liu Qian before Liu Yin, and places Yin's military-governor appointment in 905. It does not support Liu Yin as the ruler of the large Lingnan polygon in 885. Broad Lingnan was not synonymous with the Liu family's Fengzhou base.",
+      "sources": ["late_tang_xwd65_liu"],
+      "recommendedAction": "Do not create an 885 Liu Yin reign or silently replace the name with Liu Qian across the entire polygon. Keep this slice explicitly schematic until the actual 885 regional governor and jurisdictional split are verified.",
+      "sourceDisagreementCaution": "A Guangdong cultural-history article dates Qian's death 894 but conflates Xu Yanruo's death with 905, whereas the primary history only explicitly places Yin's formal appointment in 905. Do not use that secondary article alone to assign exact succession ranges."
+    }
+  ],
+  "implementationNotes": [
+    "The two records use inclusive annual bounds, matching reigns.json. Annual display cannot identify a precise day inside an accession or death year.",
+    "Remove auditMetadata before inserting into production if production records reject extra keys; retain it in research provenance.",
+    "Empty eras means not verified here, not an assertion of no era. Do not invent noEra:true.",
+    "Reign evidence establishes a leader, not the historical accuracy of the existing map's boundary."
+  ]
+}

@@ -6,7 +6,11 @@ This is a static website. All deployable files live in `dist/`; no dependency in
 
 The repository is public with the owner's approval, and GitHub Pages is enabled.
 
-Website: https://chuanbei2026.github.io/shanheji/
+Website: https://shanheji.chuanbei.dev/
+
+Europe edition: https://shanheji.chuanbei.dev/europe/index.html
+
+The GitHub project address redirects to the configured custom domain. Keep CNAME when publishing.
 
 Publishing source: `gh-pages`, `/ (root)`. The publishing branch includes `.nojekyll` and contains the complete static atlas. HTTPS is enabled. GitHub republishes updates pushed to this branch.
 

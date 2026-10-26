@@ -1,0 +1,4973 @@
+{
+  "schemaVersion": 1,
+  "title": "欧洲与相关欧亚地区：经机构资料核对的事件素材",
+  "reviewedAt": "2026-10-26",
+  "scope": {
+    "startYear": -499,
+    "endYear": 1918,
+    "description": "独立欧洲编年史素材，必要时包括地中海东岸、安纳托利亚与北亚等相关欧亚地区；显示截至1918年停战。无传奇建国年份，无自绘精确疆界。"
+  },
+  "coordinateNote": "所有经纬度均为现代地图上的粗略地区、城市或遗址锚点，按研究者地理常识人工定位，不是来源提供的测量坐标。须在产品中区分地点锚点与真实疆界/战场范围；战争区间不可当作该战争的唯一战场。",
+  "calendarNote": "公元前年份用负整数，无公元0年。近代公历日期按机构明示值；1582年以前的日期按历史纪日展示，不自动声称已换算为回推格里高利历。相互矛盾的纪日不强行精确。",
+  "sources": {
+    "ionian": {
+      "title": "Encyclopaedia Iranica · Ionian Revolt (Ernst Badian)",
+      "url": "https://www.iranicaonline.org/articles/ionian-revolt/",
+      "type": "academic-reference"
+    },
+    "marathon": {
+      "title": "Hellenic Heritage · Marathon archaeological site",
+      "url": "https://www.hh.gr/en/destinations/marathon/",
+      "type": "heritage-institution"
+    },
+    "salamis": {
+      "title": "Encyclopaedia Iranica · Salamis (Christopher J. Tuplin)",
+      "url": "https://www.iranicaonline.org/articles/salamis/?generate_pdf=1",
+      "type": "academic-reference"
+    },
+    "pelop": {
+      "title": "The Metropolitan Museum of Art · Greek Art: From Prehistoric to Classical",
+      "url": "https://resources.metmuseum.org/resources/metpublications/pdf/Greek_Art_From_Prehistoric_to_Classical.pdf",
+      "type": "museum-publication"
+    },
+    "alexander": {
+      "title": "The Metropolitan Museum of Art · Art of the Hellenistic Age and the Hellenistic Tradition",
+      "url": "https://www.metmuseum.org/ko/essays/art-of-the-hellenistic-age-and-the-hellenistic-tradition",
+      "type": "museum-essay"
+    },
+    "greek": {
+      "title": "The Metropolitan Museum of Art · Ancient Greece, 1000 B.C.–1 A.D.",
+      "url": "https://www.metmuseum.org/toah/ht/04/eusb.html",
+      "type": "museum-chronology"
+    },
+    "romanRepublic": {
+      "title": "The Metropolitan Museum of Art · Italian Peninsula, 1000 B.C.–1 A.D.",
+      "url": "https://www.metmuseum.org/toah/ht/04/eust.html",
+      "type": "museum-chronology"
+    },
+    "augustus": {
+      "title": "The Metropolitan Museum of Art · Augustan Rule (27 B.C.–14 A.D.)",
+      "url": "https://www.metmuseum.org/de/essays/augustan-rule-27-b-c-14-a-d",
+      "type": "museum-essay"
+    },
+    "romanEmpire": {
+      "title": "The Metropolitan Museum of Art · Italian Peninsula, 1–500 A.D.",
+      "url": "https://www.metmuseum.org/toah/ht/05/eust.html",
+      "type": "museum-chronology"
+    },
+    "greekLate": {
+      "title": "The Metropolitan Museum of Art · Ancient Greece, 1–500 A.D.",
+      "url": "https://www.metmuseum.org/toah/ht/05/eusb.html",
+      "type": "museum-chronology"
+    },
+    "constantinople": {
+      "title": "Hungarian National Museum · Foundation of Constantinople",
+      "url": "https://seuso.mnm.hu/en/the-seuso-treasuer/chronology/foundation-constantinople",
+      "type": "museum-chronology"
+    },
+    "justinian": {
+      "title": "The Metropolitan Museum of Art · The Byzantine State under Justinian I",
+      "url": "https://www.metmuseum.org/es/essays/the-byzantine-state-under-justinian-i-justinian-the-great",
+      "type": "museum-essay"
+    },
+    "carolingian": {
+      "title": "The Metropolitan Museum of Art · Central Europe, 500–1000 A.D.",
+      "url": "https://www.metmuseum.org/fr/toah/ht/06/euwc",
+      "type": "museum-chronology"
+    },
+    "charlemagne": {
+      "title": "Vatican Museums · Crowning of Charlemagne",
+      "url": "https://www.museivaticani.va/content/museivaticani/en/collezioni/musei/stanze-di-raffaello/stanza-dell-incendio-di-borgo/incoronazione-di-carlo-magno.html",
+      "type": "museum-essay"
+    },
+    "balkanMedieval": {
+      "title": "The Metropolitan Museum of Art · Balkan Peninsula, 1000–1400 A.D.",
+      "url": "https://www.metmuseum.org/toah/ht/07/eusb.html",
+      "type": "museum-chronology"
+    },
+    "hastings": {
+      "title": "English Heritage · History of Battle Abbey and Battlefield",
+      "url": "https://www.english-heritage.org.uk/visit/places/1066-battle-of-hastings-abbey-and-battlefield/history-and-stories/history/",
+      "type": "heritage-institution"
+    },
+    "crusade": {
+      "title": "The Metropolitan Museum of Art · The Crusades (1095–1291)",
+      "url": "https://www.metmuseum.org/pt/essays/the-crusades-1095-1291",
+      "type": "museum-essay"
+    },
+    "crusadeDates": {
+      "title": "Smarthistory · The when, where and who of crusading",
+      "url": "https://smarthistory.org/the-when-where-and-who-of-crusading-3-of-4/",
+      "type": "academic-educational"
+    },
+    "magna": {
+      "title": "The National Archives · Magna Carta 1214–1225",
+      "url": "https://www.nationalarchives.gov.uk/education/teaching-resources/magna-carta-1214-1225/",
+      "type": "archive-primary-document"
+    },
+    "hundred": {
+      "title": "Royal Armouries · The Hundred Years’ War 1337–1453",
+      "url": "https://royalarmouries.org/objects-and-stories/stories/the-hundred-years-war-1337-1453",
+      "type": "museum-essay"
+    },
+    "plague": {
+      "title": "London Museum · Research on the medieval plague",
+      "url": "https://www.londonmuseum.org.uk/about/press/press-releases/new-research-finds-black-women-african-descent-more-likely-die-medieval-plague/",
+      "type": "museum-research"
+    },
+    "agincourt": {
+      "title": "College of Arms · The Battle of Agincourt",
+      "url": "https://www.college-of-arms.gov.uk/news-grants/news/item/119-the-battle-of-agincourt",
+      "type": "heraldic-institution"
+    },
+    "ottoman": {
+      "title": "The Metropolitan Museum of Art · Balkan Peninsula, 1400–1600 A.D.",
+      "url": "https://www.metmuseum.org/it/toah/ht/08/eusb.html",
+      "type": "museum-chronology"
+    },
+    "fallConstantinople": {
+      "title": "Panorama 1453 History Museum · Sultan Mehmed",
+      "url": "https://panoramikmuze.com/Eng/SultanMehmed",
+      "type": "municipal-museum"
+    },
+    "granada": {
+      "title": "Patronato de la Alhambra · Alhambra historical publication",
+      "url": "https://www.alhambra-patronato.es/ria/bitstream/handle/10514/14018/pdf_522_54_ALHAMBRA%20%2822_12_08%29.pdf?sequence=1",
+      "type": "heritage-repository"
+    },
+    "luther": {
+      "title": "Library of Congress · Ninety-Five Theses (1517 printing)",
+      "url": "https://www.loc.gov/resource/gdcwdl.wdl_07497/?st=pdf",
+      "type": "library-primary-document"
+    },
+    "reformation": {
+      "title": "Deutsches Historisches Museum · Reformation and the Thirty Years’ War",
+      "url": "https://www.dhm.de/en/exhibitions/permanent-exhibition/reformation-and-the-thirty-years-war/",
+      "type": "museum-essay"
+    },
+    "armada": {
+      "title": "UK Parliament · Armada Tapestries timeline",
+      "url": "https://armada.parliament.uk/timeline.html",
+      "type": "parliamentary-collection"
+    },
+    "westphalia": {
+      "title": "German History in Documents and Images · Peace Treaties of Westphalia",
+      "url": "https://germanhistorydocs.org/en/from-the-reformations-to-the-thirty-years-war-1500-1648/peace-treaties-of-westphalia-october-14-24-1648",
+      "type": "edited-primary-document"
+    },
+    "viennaSiege": {
+      "title": "Wien Museum · The Second Ottoman Siege",
+      "url": "https://guide.wienmuseum.at/en/objekt/085",
+      "type": "municipal-museum"
+    },
+    "glorious": {
+      "title": "UK Parliament · Invasion and desertion",
+      "url": "https://www.parliament.uk/about/living-heritage/evolutionofparliament/parliamentaryauthority/revolution/overview/invasiondesertion/",
+      "type": "parliamentary-history"
+    },
+    "northern": {
+      "title": "Armémuseum · Guided tour, Great Northern War and the Peace of Nystad",
+      "url": "https://armemuseum.se/utstallning/rundvandring-plan-3/",
+      "type": "museum-exhibition"
+    },
+    "succession": {
+      "title": "Royal Collection Trust · War of the Spanish Succession (1701–14)",
+      "url": "https://col-militarymaps-frontend.rct.uk/war-of-the-spanish-succession-1701-14",
+      "type": "royal-collection"
+    },
+    "seven": {
+      "title": "National Army Museum · Seven Years War",
+      "url": "https://www.nam.ac.uk/explore/seven-years-war",
+      "type": "museum-essay"
+    },
+    "bastille": {
+      "title": "Château de Versailles · Departure of the King, 1789",
+      "url": "https://en.chateauversailles.fr/discover/history/key-dates/departure-king-1789",
+      "type": "museum-history"
+    },
+    "napoleonWar": {
+      "title": "National Army Museum · First World War (Napoleonic Wars date reference)",
+      "url": "https://www.nam.ac.uk/explore/first-world-war",
+      "type": "museum-essay"
+    },
+    "napoleonEmpire": {
+      "title": "Fondation Napoléon · Proclamation of Empire, 18 May 1804",
+      "url": "https://www.napoleon.org/en/history-of-the-two-empires/close-up/a-close-up-on-the-proclamation-of-empire/",
+      "type": "historical-foundation-primary-records"
+    },
+    "napoleonCoronation": {
+      "title": "Fondation Napoléon · The coronation of Napoleon I",
+      "url": "https://www.napoleon.org/en/history-of-the-two-empires/close-up/a-close-up-on-the-coronation-of-napoleon-i/",
+      "type": "historical-foundation"
+    },
+    "austerlitz": {
+      "title": "Fondation Napoléon · Austerlitz, 2 December 1805: a timeline",
+      "url": "https://www.napoleon.org/en/history-of-the-two-empires/timelines/austerlitz-2-december-1805-a-timeline",
+      "type": "historical-foundation"
+    },
+    "russianCampaign": {
+      "title": "National Library of Russia · Napoleon’s Invasion of Russia, 1812",
+      "url": "https://expositions.nlr.ru/ve/RA5851/to-be-napoleon-each-wishes",
+      "type": "national-library-exhibition"
+    },
+    "viennaCongress": {
+      "title": "Federal Chancellery of Austria · The Congress of Vienna",
+      "url": "https://www.bundeskanzleramt.gv.at/en/federal-chancellery/visit-us/history/the-congress-of-vienna.html",
+      "type": "government-history"
+    },
+    "waterloo": {
+      "title": "National Army Museum · Battle of Waterloo",
+      "url": "https://www.nam.ac.uk/explore/battle-waterloo",
+      "type": "museum-essay"
+    },
+    "revolution1848": {
+      "title": "Deutsches Historisches Museum · Die Revolution von 1848/49",
+      "url": "https://www.dhm.de/lemo/kapitel/vormaerz-und-revolution/revolution-1848",
+      "type": "museum-history"
+    },
+    "crimea": {
+      "title": "The National Archives · The Crimean War",
+      "url": "https://www.nationalarchives.gov.uk/explore-the-collection/explore-by-time-period/victorians/the-crimean-war/",
+      "type": "national-archive"
+    },
+    "italy": {
+      "title": "Archivio di Stato di Torino · Birth act of the Kingdom of Italy",
+      "url": "https://archiviodistatotorino.cultura.gov.it/iorestoacasa-nascita-regno-italia/",
+      "type": "archive-primary-document"
+    },
+    "italyLimits": {
+      "title": "Comune di Milano · Museo del Risorgimento, Rooms XIII–XIV",
+      "url": "https://www2.comune.milano.it/web/civiche-raccolte-storiche/museo_del_risorgimento/percorso-espositivo/sala-xiii-xiv",
+      "type": "municipal-museum"
+    },
+    "francoPrussian": {
+      "title": "Château de Versailles · Historic galleries",
+      "url": "https://en.chateauversailles.fr/discover/estate/palace/historic-galleries",
+      "type": "museum-history"
+    },
+    "germany": {
+      "title": "Deutschlandmuseum · Imperial proclamation in Versailles",
+      "url": "https://www.deutschlandmuseum.de/en/history/calendar/1871-01-18-imperial-proclamation-in-versailles/",
+      "type": "museum-history"
+    },
+    "ww1": {
+      "title": "National Army Museum · First World War timeline",
+      "url": "https://ww1.nam.ac.uk/timeline/",
+      "type": "museum-chronology"
+    },
+    "ww1Iwm": {
+      "title": "Imperial War Museums · 4 August 1914 factsheet",
+      "url": "https://www.iwm.org.uk/sites/default/files/press-release/4_August_1914_Factsheet.pdf",
+      "type": "museum-publication"
+    },
+    "franceMedieval": {
+      "title": "The Metropolitan Museum of Art · France, 1000–1400 A.D.",
+      "url": "https://www.metmuseum.org/toah/ht/07/euwf.html",
+      "type": "museum-chronology"
+    },
+    "franceRenaissance": {
+      "title": "The Metropolitan Museum of Art · France, 1400–1600 A.D.",
+      "url": "https://www.metmuseum.org/toah/ht/08/euwf.html",
+      "type": "museum-chronology"
+    },
+    "franceModern": {
+      "title": "The Metropolitan Museum of Art · France, 1800–1900 A.D.",
+      "url": "https://www.metmuseum.org/toah/ht/10/euwf.html",
+      "type": "museum-chronology"
+    },
+    "englandMedieval": {
+      "title": "The Metropolitan Museum of Art · Great Britain and Ireland, 1000–1400 A.D.",
+      "url": "https://www.metmuseum.org/toah/ht/07/euwb.html",
+      "type": "museum-chronology"
+    },
+    "englandTudor": {
+      "title": "The Metropolitan Museum of Art · Great Britain and Ireland, 1400–1600 A.D.",
+      "url": "https://www.metmuseum.org/toah/ht/08/euwb.html",
+      "type": "museum-chronology"
+    },
+    "iberia": {
+      "title": "The Metropolitan Museum of Art · Iberian Peninsula, 1400–1600 A.D.",
+      "url": "https://www.metmuseum.org/toah/ht/08/eusi.html",
+      "type": "museum-chronology"
+    },
+    "russianEmpireSpan": {
+      "title": "Getty Thesaurus of Geographic Names · Russian Empire",
+      "url": "https://www.getty.edu/vow/TGNFullDisplay?english=Y&find=rodi&nation=&place=island&subjectid=8711816",
+      "type": "museum-research-vocabulary"
+    },
+    "russianEmpireStart": {
+      "title": "State Hermitage Museum · Year of Peter the Great display",
+      "url": "https://support.hermitagemuseum.org/en/news/view/232",
+      "type": "museum-exhibition"
+    },
+    "russianAbdication": {
+      "title": "University of York · Abdication of Tsar Nicholas II",
+      "url": "https://www.york.ac.uk/history/about/news/2017/tsar-nicholas-ii/",
+      "type": "university-primary-document"
+    },
+    "russianRevolution": {
+      "title": "NZ History · The Russian Empire",
+      "url": "https://nzhistory.govt.nz/war/russian-empire-facts",
+      "type": "government-history"
+    },
+    "gutenberg": {
+      "title": "Library of Congress · The Gutenberg Bible resource guide",
+      "url": "https://guides.loc.gov/gutenberg",
+      "type": "national-library"
+    },
+    "copernicus": {
+      "title": "Library of Congress · De revolutionibus, 1543 original edition",
+      "url": "https://www.loc.gov/resource/rbc.2012gen31925/?sp=1&st=list",
+      "type": "library-primary-document"
+    },
+    "newton": {
+      "title": "Royal Society · Principia manuscript and 1687 printing",
+      "url": "https://royalsociety.org/blog/2014/07/principia/",
+      "type": "scientific-academy-primary-document"
+    },
+    "darwin": {
+      "title": "Darwin Online · On the Origin of Species, 1859 first edition",
+      "url": "https://darwin-online.org.uk/converted/published/1859_Origin_F373/1859_Origin_F373.html",
+      "type": "academic-primary-edition"
+    },
+    "armistice": {
+      "title": "Australian War Memorial · The Armistice of 1918",
+      "url": "https://www.awm.gov.au/about/our-work/projects/centenary-projects/armistice/armistice-of-1918",
+      "type": "war-memorial"
+    },
+    "armisticeLimits": {
+      "title": "UK Foreign Office Historians · The war that did not end at 11am on 11 November",
+      "url": "https://history.blog.gov.uk/2018/11/09/the-war-that-did-not-end-at-11am-on-11-november/",
+      "type": "government-history"
+    },
+    "andalus": {
+      "title": "The Metropolitan Museum of Art · Umayyad Period in Spain (711–1031)",
+      "url": "https://www.metmuseum.org/es/essays/the-art-of-the-umayyad-period-in-spain-711-1031",
+      "type": "museum-essay"
+    },
+    "mohi": {
+      "title": "Hungarian Research Institute · The Battle of Muhi, 1241",
+      "url": "https://mki.gov.hu/hu/hirek-hu/evfordulok-hu/785-evvel-ezelott-zajlott-a-muhi-csata",
+      "type": "research-institution"
+    },
+    "mohiSite": {
+      "title": "Ludovika University · New theory about the exact location of the Battle of Muhi",
+      "url": "https://www.uni-nke.hu/hirek/2018/10/16/uj-teoria-a-muhi-csata-pontos-helyszinerol",
+      "type": "university-research"
+    },
+    "rusBaptism": {
+      "title": "Musée du Louvre · Radziwill Chronicle and the baptism of Vladimir",
+      "url": "https://mini-site.louvre.fr/sainte-russie/FR/html/1.1.html",
+      "type": "museum-manuscript-exhibition"
+    },
+    "gallipoli": {
+      "title": "Australian War Memorial · Gallipoli 1915",
+      "url": "https://www.awm.gov.au/articles/first-world-war/gallipoli-1915",
+      "type": "war-memorial"
+    },
+    "verdun": {
+      "title": "Mémorial de Verdun · The Battle of Verdun",
+      "url": "https://memorial-verdun.fr/en/ressources/la-bataille-de-verdun",
+      "type": "battlefield-museum"
+    },
+    "somme": {
+      "title": "National Army Museum · Battle of the Somme",
+      "url": "https://www.nam.ac.uk/explore/battle-somme",
+      "type": "museum-essay"
+    },
+    "germanMonarchyEnd": {
+      "title": "Deutscher Bundestag · 9. November 1918: Ende der Monarchie – die Republik wird ausgerufen",
+      "url": "https://www.bundestag.de/dokumente/textarchiv/1918-11-09-revolutionskalender-38-091118-574088",
+      "type": "parliament-history"
+    },
+    "issusYear": {
+      "title": "Bayerische Staatsgemäldesammlungen · The Battle of Alexander at Issus",
+      "url": "https://www.sammlung.pinakothek.de/en/artwork/9pL3Qyz4eb/albrecht-altdorfer/historienzyklus-alexanderschlacht-schlacht-bei-issus"
+    },
+    "babylonVisits": {
+      "title": "Andrew W. Collins · Alexander the Great and the Kingship of Babylon, Ancient History Bulletin27(2013),130–148",
+      "url": "https://www.ancienthistorybulletin.org/subscribed-users-area/wp-content/uploads/2014/10/Collins.pdf"
+    },
+    "babylonDeath": {
+      "title": "British Museum · Luxury and power large print guide, Alexander’s world",
+      "url": "https://www.britishmuseum.org/sites/default/files/2023-04/Luxury_and_power_large_print_guide.pdf"
+    },
+    "carthageThird": {
+      "title": "NASA Earth Observatory · Site of Carthage,Tunisia",
+      "url": "https://science.nasa.gov/earth/earth-observatory/site-of-carthage-tunisia-6689/"
+    },
+    "ravenna540": {
+      "title": "Met · Italian Peninsula,500–1000AD",
+      "url": "https://www.metmuseum.org/toah/ht/06/eust.html"
+    },
+    "carthage533": {
+      "title": "Frank M. Clover · Carthage and the Vandals, Excavations at Carthage1978, vol.VII(1982), ch.1; Columbia-hosted scan",
+      "url": "https://www.columbia.edu/itc/history/conant/clover_carthage.pdf"
+    },
+    "crusadeConstantinople": {
+      "title": "Fordham Medieval Sourcebook · The Crusaders at Constantinople: Collected Accounts",
+      "url": "https://sourcebooks.web.fordham.edu/source/cde-atcp.asp"
+    },
+    "crusadeAntioch": {
+      "title": "Fordham Medieval Sourcebook · The Siege and Capture of Antioch: Collected Accounts",
+      "url": "https://sourcebooks.web.fordham.edu/source/cde-antioch.asp"
+    },
+    "crusadeJerusalem": {
+      "title": "Fordham Medieval Sourcebook · The Siege and Capture of Jerusalem: Collected Accounts",
+      "url": "https://sourcebooks.web.fordham.edu/source/cde-jlem.asp"
+    },
+    "sicilyPlague": {
+      "title": "EpiMedDat · Messina, contemporary chronicle disease-event record1347",
+      "url": "https://www.epimeddat.net/Messina"
+    },
+    "pragueOrigin": {
+      "title": "Czech Parliament Library · Pražská defenestrace23května1618",
+      "url": "https://www.psp.cz/sqw/hp.sqw?k=2008&z=11335"
+    },
+    "narva1700": {
+      "title": "Swedish Army Museum · Segerns pris – Narva1700",
+      "url": "https://armemuseum.se/utstallning/en-titt-pa-segerns-pris-narva-1700/"
+    },
+    "poltava1709": {
+      "title": "Military Historical Museum of Artillery · Poltava exhibition",
+      "url": "https://museum-artillery.ru/ru/temporal/exhibitions-archive/poltava.html"
+    },
+    "viennaOccupations": {
+      "title": "San José State University Beethoven Center · Beethoven’s Vienna Online, contemporary proclamation and bombardment print",
+      "url": "https://beethovens-vienna.sjsu.edu/"
+    },
+    "napoleonViennaWars": {
+      "title": "Fondation Napoléon · Les guerres napoléoniennes du Consulat et de l’Empire",
+      "url": "https://www.napoleon.org/histoire-des-2-empires/articles/les-guerres-napoleoniennes"
+    },
+    "vienna1848": {
+      "title": "Wien Museum · Barricades in Vienna in May1848",
+      "url": "https://sammlung.wienmuseum.at/en/album/a2ciemencqh4v4gpf-barricades-in-vienna-in-may-1848/"
+    },
+    "crimeaSiege": {
+      "title": "National Army Museum · Crimean War",
+      "url": "https://www.nam.ac.uk/explore/crimean-war"
+    },
+    "sedanParis": {
+      "title": "French Ministry of Armed Forces · La défaite de Sedan. Aux origines de la Troisième République",
+      "url": "https://www.defense.gouv.fr/chemins-memoire/defaite-sedan-aux-origines-troisieme-republique"
+    },
+    "gallipoliEvacuations": {
+      "title": "Australian Department of Veterans’ Affairs · Evacuation from Gallipoli1915",
+      "url": "https://anzacportal.dva.gov.au/wars-and-missions/ww1/where-australians-served/gallipoli/evacuations-from-anzac"
+    },
+    "socialJustinianOxford": {
+      "title": "Oxford Classical Dictionary · Justinian’s codification",
+      "url": "https://academic.oup.com/edited-volume/61673/chapter-abstract/549652592",
+      "type": "academic-reference"
+    },
+    "socialJustinianWyoming": {
+      "title": "Timothy Kearley · The Creation and Transmission of Justinian’s Novels, Law Library Journal102(2010), University of Wyoming Law Library",
+      "url": "https://www.uwyo.edu/lawlib/blume-justinian/_files/docs/ajcnovels2/novelsart._llj_ed.pdf",
+      "type": "academic-publication"
+    },
+    "socialParisStatutes": {
+      "title": "FranceArchives · Promulgation des statuts de l’université de Paris par Robert de Courson",
+      "url": "https://francearchives.gouv.fr/commemo/recueil-2015/39111",
+      "type": "national-archives"
+    },
+    "socialNaplesLetter": {
+      "title": "Università Federico II · Licterae Generales, letter of1224",
+      "url": "https://www.800anni.unina.it/licterae-generales/",
+      "type": "primary-document"
+    },
+    "socialNaplesHistory": {
+      "title": "Università Federico II ·800years historical account and textual dating discussion",
+      "url": "https://www.800anni.unina.it/storia/",
+      "type": "university-history"
+    },
+    "socialHanseBoycott": {
+      "title": "UNESCO Memory of the World nomination · Documents on the History of the Hanse,1358Lübeck document",
+      "url": "https://media.unesco.org/sites/default/files/webform/mow001/documents-on-the-history-of-the-hanse_nom_en.pdf",
+      "type": "archival-nomination"
+    },
+    "socialHanseTranscription": {
+      "title": "University of Zurich Ad fontes · Flandernblockade1358, original Lübeck archival document",
+      "url": "https://adfontes.uzh.ch/en/370480/training/deutsche-transkriptionsuebungen/flandernblockade-erster-hansetag-1358",
+      "type": "primary-document-teaching-edition"
+    },
+    "socialRoyalSociety": {
+      "title": "Royal Society · History of the Royal Society",
+      "url": "https://royalsociety.org/about-us/who-we-are/history/",
+      "type": "institution-history"
+    },
+    "socialPhilosophicalTransactions": {
+      "title": "Open University · Scholarly communication over the centuries, linking vol.1issue1",
+      "url": "https://www.open.edu/openlearn/mod/oucontent/view.php?id=106072&section=1.1",
+      "type": "university-teaching"
+    },
+    "socialParisAcademy": {
+      "title": "Académie des sciences · History of the Academy",
+      "url": "https://www.academie-sciences.fr/en/history-academy",
+      "type": "institution-history"
+    },
+    "socialWattPatent": {
+      "title": "Powerhouse Museum · Specification of James Watt’s separate condenser patent, object92/1",
+      "url": "https://collection.powerhouse.com.au/object/119115",
+      "type": "museum-object"
+    },
+    "socialJennerHouse": {
+      "title": "Dr Jenner’s House · Discovery at Berkeley in1796",
+      "url": "https://jennermuseum.com/",
+      "type": "museum-history"
+    },
+    "socialJennerWellcome": {
+      "title": "Wellcome Collection · Edward Jenner vaccinating a boy, object45436i; historical catalogue note",
+      "url": "https://wellcomecollection.org/works/tr7x4acf",
+      "type": "museum-object"
+    },
+    "socialFrenchCivilCode": {
+      "title": "Assemblée nationale ·1804–1810 La codification juridique",
+      "url": "https://www.assemblee-nationale.fr/dyn/histoire-et-patrimoine/consulat-et-premier-empire/la-codification-juridique",
+      "type": "parliament-history"
+    },
+    "socialLiverpoolRailway": {
+      "title": "Science and Industry Museum ·1830: A rebellious year",
+      "url": "https://blog.scienceandindustrymuseum.org.uk/1830-a-rebellious-year/",
+      "type": "museum-history"
+    },
+    "socialLondonUnderground": {
+      "title": "London Transport Museum Library · When did the first underground railway open?",
+      "url": "https://library.ltmuseum.co.uk/Portal/Default/en-GB/RecordView/Index/108",
+      "type": "museum-reference"
+    },
+    "socialGirtonOpening": {
+      "title": "Girton College · The Great Scheme, BenslowHouse opening16October1869",
+      "url": "https://www.girton.cam.ac.uk/pioneering-history/the-great-scheme",
+      "type": "university-history"
+    },
+    "socialGirtonStudents": {
+      "title": "Girton College · Student Experience, first five students and degree restrictions",
+      "url": "https://www.girton.cam.ac.uk/pioneering-history/student-experience",
+      "type": "university-history"
+    },
+    "socialLondonWomenCharter": {
+      "title": "University of London · The historical record1836–1912, supplemental charter1878",
+      "url": "https://archives.libraries.london.ac.uk/resources/1912historicalrecord.pdf",
+      "type": "institutional-archive"
+    },
+    "socialLondonFirstGraduates": {
+      "title": "University College London · History of the English department, first women graduates1880",
+      "url": "https://www.ucl.ac.uk/arts-humanities/english/about-department/history-english-department",
+      "type": "university-history"
+    },
+    "socialFinlandRights": {
+      "title": "Ministry for Foreign Affairs of Finland · Women’s role in Finnish democracy building, universal and equal suffrage",
+      "url": "https://um.fi/documents/35732/48132/womens_role_in_finnish_democracy_building_%E2%80%93_the_finnish_experience.pdf/0e7e392a-0cab-e784-ab7f-4ab8c591ab0d?t=1560450659206",
+      "type": "government-history"
+    },
+    "socialFinlandLaw": {
+      "title": "Finlex · Suomen Suuriruhtinaanmaan Valtiopäiväjärjestys26-001/1906",
+      "url": "https://www.finlex.fi/fi/lainsaadanto/saadoskokoelma/1906/26-001",
+      "type": "primary-legislation"
+    },
+    "socialCivilCodeFamily": {
+      "title": "French Ministry of Justice ·2004CodeCivilbicentenary, family law and married women’s capacity",
+      "url": "https://www.justice.gouv.fr/sites/default/files/migrations/presse/art_pix/conf080304.pdf",
+      "type": "government-history"
+    },
+    "socialJournalHistory": {
+      "title": "University of StAndrews · Philosophical Transactions in the17thCentury",
+      "url": "https://arts.st-andrews.ac.uk/philosophicaltransactions/brief-history-of-phil-trans/phil-trans-in-17th-century/",
+      "type": "academic-research-project"
+    },
+    "socialJournalJulian": {
+      "title": "Linda Hall Library · Henry Oldenburg, printed Julian6March1665 versus Gregorian16March",
+      "url": "https://www.lindahall.org/about/news/scientist-of-the-day/henry-oldenburg/",
+      "type": "research-library"
+    }
+  },
+  "events": [
+    {
+      "id": "ionian_revolt",
+      "title": "伊奥尼亚起义",
+      "startYear": -499,
+      "endYear": -493,
+      "category": "战争",
+      "summary": "小亚细亚希腊城邦反抗阿契美尼德统治，最终被镇压。",
+      "impact": "冲突把爱琴海两岸卷入持续战争。",
+      "people": [
+        "阿里斯塔戈拉斯",
+        "大流士一世"
+      ],
+      "places": [
+        {
+          "name": "米利都一带",
+          "lon": 27.28,
+          "lat": 37.53,
+          "certainty": "approximate",
+          "note": "现代位置的近似地图锚点，不表示已复原古战场边界、精确阵位或城市城垣。",
+          "placeRole": "theatre",
+          "contextOnly": true,
+          "windows": [],
+          "phaseNote": "广义叙事关联点，尚无足够地点分期；不随整个事件区间自动作为正在发生的战役点。",
+          "phaseSources": [
+            "ionian"
+          ]
+        }
+      ],
+      "sources": [
+        "ionian"
+      ],
+      "dateNote": "采用Iranica的前499—前493年范围；部分通史止于前494年米利都陷落，不把两个终点混作无争议日期。"
+    },
+    {
+      "id": "marathon",
+      "title": "马拉松之战",
+      "startYear": -490,
+      "endYear": -490,
+      "category": "战争",
+      "summary": "雅典及其盟军在马拉松击败登陆的波斯军。",
+      "impact": "波斯对希腊大陆的此次进攻受挫。",
+      "people": [
+        "米太亚德",
+        "大流士一世"
+      ],
+      "places": [
+        {
+          "name": "马拉松平原",
+          "lon": 23.98,
+          "lat": 38.12,
+          "certainty": "approximate",
+          "note": "现代位置的近似地图锚点，不表示已复原古战场边界、精确阵位或城市城垣。"
+        }
+      ],
+      "sources": [
+        "marathon"
+      ],
+      "dateNote": "具体西历日有推算差异，仅标可证年份。"
+    },
+    {
+      "id": "salamis",
+      "title": "萨拉米斯海战",
+      "startYear": -480,
+      "endYear": -480,
+      "category": "战争",
+      "summary": "希腊联军在萨拉米斯与阿提卡之间海峡击败薛西斯舰队。",
+      "impact": "波斯陆军仍在希腊，战争没有在同日结束。",
+      "people": [
+        "薛西斯一世",
+        "地米斯托克利"
+      ],
+      "places": [
+        {
+          "name": "萨拉米斯海峡",
+          "lon": 23.57,
+          "lat": 37.95,
+          "certainty": "approximate",
+          "note": "现代位置的近似地图锚点，不表示已复原古战场边界、精确阵位或城市城垣。"
+        }
+      ],
+      "sources": [
+        "salamis"
+      ],
+      "dateNote": "仅用前480年；具体海战机动与当日细节仍有争论。"
+    },
+    {
+      "id": "peloponnesian_war",
+      "title": "伯罗奔尼撒战争",
+      "startYear": -431,
+      "endYear": -404,
+      "category": "战争",
+      "summary": "雅典与斯巴达及各自盟友的长期战争，以雅典失败告终。",
+      "impact": "希腊城邦的权力格局重组。",
+      "people": [
+        "伯里克利",
+        "吕山德"
+      ],
+      "places": [
+        {
+          "name": "雅典",
+          "lon": 23.73,
+          "lat": 37.98,
+          "certainty": "approximate",
+          "note": "现代位置的近似地图锚点，不表示已复原古战场边界、精确阵位或城市城垣。",
+          "placeRole": "theatre",
+          "contextOnly": true,
+          "windows": [],
+          "phaseNote": "广义叙事关联点，尚无足够地点分期；不随整个事件区间自动作为正在发生的战役点。",
+          "phaseSources": [
+            "pelop"
+          ]
+        },
+        {
+          "name": "斯巴达",
+          "lon": 22.43,
+          "lat": 37.08,
+          "certainty": "approximate",
+          "note": "现代位置的近似地图锚点，不表示已复原古战场边界、精确阵位或城市城垣。",
+          "placeRole": "theatre",
+          "contextOnly": true,
+          "windows": [],
+          "phaseNote": "广义叙事关联点，尚无足够地点分期；不随整个事件区间自动作为正在发生的战役点。",
+          "phaseSources": [
+            "pelop"
+          ]
+        }
+      ],
+      "sources": [
+        "pelop"
+      ]
+    },
+    {
+      "id": "alexander_campaigns",
+      "title": "亚历山大东征",
+      "startYear": -334,
+      "endYear": -323,
+      "category": "战争",
+      "summary": "马其顿军从爱琴海向东进攻，征服波斯帝国广大地区。",
+      "impact": "希腊化诸王国形成的政治前提。",
+      "people": [
+        "亚历山大三世",
+        "大流士三世"
+      ],
+      "places": [
+        {
+          "name": "伊苏斯一带",
+          "lon": 36.18,
+          "lat": 36.86,
+          "certainty": "approximate",
+          "note": "现代位置的近似地图锚点，不表示已复原古战场边界、精确阵位或城市城垣。",
+          "placeRole": "battle",
+          "contextOnly": false,
+          "windows": [
+            {
+              "fromYear": -333,
+              "toYear": -333,
+              "label": "伊苏斯之战",
+              "sources": [
+                "issusYear"
+              ]
+            }
+          ],
+          "phaseNote": "仅前333年激活；不在前334年预先亮起。古战场仍为区域近似锚点。",
+          "phaseSources": [
+            "issusYear"
+          ]
+        },
+        {
+          "name": "巴比伦",
+          "lon": 44.42,
+          "lat": 32.54,
+          "certainty": "approximate",
+          "note": "现代位置的近似地图锚点，不表示已复原古战场边界、精确阵位或城市城垣。",
+          "placeRole": "political-center",
+          "contextOnly": false,
+          "windows": [
+            {
+              "fromYear": -331,
+              "toYear": -331,
+              "label": "进入巴比伦",
+              "sources": [
+                "babylonVisits"
+              ]
+            },
+            {
+              "fromYear": -323,
+              "toYear": -323,
+              "label": "返回巴比伦与去世",
+              "sources": [
+                "babylonVisits",
+                "babylonDeath"
+              ]
+            }
+          ],
+          "phaseNote": "两个相隔多年的停留节点；不画成前331—323每年驻留或作战。",
+          "phaseSources": [
+            "babylonVisits",
+            "babylonDeath"
+          ]
+        }
+      ],
+      "sources": [
+        "alexander",
+        "issusYear",
+        "babylonVisits",
+        "babylonDeath"
+      ],
+      "dateNote": "前334—前323年为东征及帝国扩张的概括区间，不表示每处在每年皆被同等控制。"
+    },
+    {
+      "id": "alexander_death",
+      "title": "亚历山大去世，继业者时代展开",
+      "startYear": -323,
+      "endYear": -323,
+      "category": "变局",
+      "summary": "亚历山大在巴比伦去世，帝国权力随后由继业者争夺。",
+      "impact": "希腊化世界呈现多个并立中心。",
+      "people": [
+        "亚历山大三世"
+      ],
+      "places": [
+        {
+          "name": "巴比伦",
+          "lon": 44.42,
+          "lat": 32.54,
+          "certainty": "approximate",
+          "note": "现代位置的近似地图锚点，不表示已复原古战场边界、精确阵位或城市城垣。"
+        }
+      ],
+      "sources": [
+        "greek",
+        "alexander"
+      ]
+    },
+    {
+      "id": "first_punic",
+      "title": "第一次布匿战争",
+      "startYear": -264,
+      "endYear": -241,
+      "category": "战争",
+      "summary": "罗马与迦太基争夺西西里及海上优势。",
+      "impact": "西西里大部成为罗马首个海外行省。",
+      "people": [],
+      "places": [
+        {
+          "name": "西西里岛（战区参照）",
+          "lon": 14,
+          "lat": 37.5,
+          "certainty": "approximate",
+          "note": "现代位置的近似地图锚点，不表示已复原古战场边界、精确阵位或城市城垣。",
+          "placeRole": "theatre",
+          "contextOnly": false,
+          "windows": [
+            {
+              "fromYear": -264,
+              "toYear": -241,
+              "label": "西西里主要战区",
+              "sources": [
+                "romanRepublic"
+              ]
+            }
+          ],
+          "phaseNote": "战区级概括；不表示岛上每年或同一地点持续战斗，禁止战役闪动效果。",
+          "phaseSources": [
+            "romanRepublic"
+          ]
+        },
+        {
+          "name": "迦太基",
+          "lon": 10.33,
+          "lat": 36.85,
+          "certainty": "approximate",
+          "note": "现代位置的近似地图锚点，不表示已复原古战场边界、精确阵位或城市城垣。",
+          "placeRole": "political-center",
+          "contextOnly": true,
+          "windows": [],
+          "phaseNote": "迦太基为参战国家政治中心；未核定本市逐年战斗，不能当成整段围城。",
+          "phaseSources": [
+            "romanRepublic"
+          ]
+        }
+      ],
+      "sources": [
+        "romanRepublic"
+      ]
+    },
+    {
+      "id": "second_punic",
+      "title": "第二次布匿战争",
+      "startYear": -218,
+      "endYear": -201,
+      "category": "战争",
+      "summary": "罗马与迦太基再次长期交战，战争波及意大利、伊比利亚与北非。",
+      "impact": "西地中海的力量对比进一步转向罗马。",
+      "people": [
+        "汉尼拔",
+        "西庇阿"
+      ],
+      "places": [
+        {
+          "name": "意大利中部（战区参照）",
+          "lon": 12.5,
+          "lat": 42,
+          "certainty": "approximate",
+          "note": "现代位置的近似地图锚点，不表示已复原古战场边界、精确阵位或城市城垣。",
+          "placeRole": "theatre",
+          "contextOnly": true,
+          "windows": [],
+          "phaseNote": "意大利中部仅为广义战区参照；汉尼拔在意大利的行军不能由此中央锚点复原，暂不逐年激活。",
+          "phaseSources": [
+            "romanRepublic"
+          ]
+        },
+        {
+          "name": "迦太基",
+          "lon": 10.33,
+          "lat": 36.85,
+          "certainty": "approximate",
+          "note": "现代位置的近似地图锚点，不表示已复原古战场边界、精确阵位或城市城垣。",
+          "placeRole": "political-center",
+          "contextOnly": true,
+          "windows": [],
+          "phaseNote": "迦太基为参战国政治中心，不能把汉尼拔全程画作在迦太基本市作战。",
+          "phaseSources": [
+            "romanRepublic"
+          ]
+        }
+      ],
+      "sources": [
+        "romanRepublic"
+      ],
+      "dateNote": "前218年为战争通行起年；不把萨贡托围城的具体起年强压为同年。"
+    },
+    {
+      "id": "third_punic",
+      "title": "第三次布匿战争与迦太基毁灭",
+      "startYear": -149,
+      "endYear": -146,
+      "category": "战争",
+      "summary": "罗马在战争结束时攻破并毁灭迦太基。",
+      "impact": "迦太基国家终结，其领地转入罗马行省体系。",
+      "people": [
+        "小西庇阿"
+      ],
+      "places": [
+        {
+          "name": "迦太基",
+          "lon": 10.33,
+          "lat": 36.85,
+          "certainty": "approximate",
+          "note": "现代位置的近似地图锚点，不表示已复原古战场边界、精确阵位或城市城垣。",
+          "placeRole": "theatre",
+          "contextOnly": false,
+          "windows": [
+            {
+              "fromYear": -149,
+              "toYear": -146,
+              "label": "迦太基战争终结阶段",
+              "sources": [
+                "romanRepublic",
+                "carthageThird"
+              ]
+            }
+          ],
+          "phaseNote": "城市与近郊战区概括；不表示整个区间都在城内巷战。",
+          "phaseSources": [
+            "romanRepublic",
+            "carthageThird"
+          ]
+        }
+      ],
+      "sources": [
+        "romanRepublic",
+        "carthageThird"
+      ]
+    },
+    {
+      "id": "caesar_assassination",
+      "title": "恺撒遇刺",
+      "startYear": -44,
+      "endYear": -44,
+      "category": "变局",
+      "summary": "恺撒遭共和派密谋者刺杀。",
+      "impact": "刺杀未恢复稳定共和，新的内战接踵而来。",
+      "people": [
+        "尤利乌斯·恺撒",
+        "布鲁图斯",
+        "卡西乌斯"
+      ],
+      "places": [
+        {
+          "name": "罗马",
+          "lon": 12.48,
+          "lat": 41.9,
+          "certainty": "approximate",
+          "note": "现代位置的近似地图锚点，不表示已复原古战场边界、精确阵位或城市城垣。"
+        }
+      ],
+      "sources": [
+        "romanRepublic"
+      ],
+      "dateNote": "原典纪为三月十五日；为免古罗马历与西历转换歧义，此数据只用年份。"
+    },
+    {
+      "id": "actium",
+      "title": "阿克提乌姆海战",
+      "startYear": -31,
+      "endYear": -31,
+      "category": "战争",
+      "summary": "屋大维击败安东尼与克娄巴特拉一方。",
+      "impact": "屋大维掌握罗马世界最高权力的关键转折。",
+      "people": [
+        "屋大维",
+        "安东尼",
+        "克娄巴特拉七世"
+      ],
+      "places": [
+        {
+          "name": "阿克提乌姆附近海域",
+          "lon": 20.75,
+          "lat": 38.96,
+          "certainty": "approximate",
+          "note": "现代位置的近似地图锚点，不表示已复原古战场边界、精确阵位或城市城垣。"
+        }
+      ],
+      "sources": [
+        "greek",
+        "romanRepublic"
+      ],
+      "dateNote": "海战采用通行前31年；Met年表以32—31年概括其战争背景。"
+    },
+    {
+      "id": "augustus",
+      "title": "屋大维获得奥古斯都称号",
+      "startYear": -27,
+      "endYear": -27,
+      "category": "政制",
+      "summary": "奥古斯都元首制确立，罗马进入帝政时期。",
+      "impact": "共和机构仍保留，但权力集中于元首。",
+      "people": [
+        "奥古斯都"
+      ],
+      "places": [
+        {
+          "name": "罗马",
+          "lon": 12.48,
+          "lat": 41.9,
+          "certainty": "approximate",
+          "note": "现代位置的近似地图锚点，不表示已复原古战场边界、精确阵位或城市城垣。"
+        }
+      ],
+      "sources": [
+        "augustus",
+        "romanRepublic"
+      ]
+    },
+    {
+      "id": "vesuvius",
+      "title": "维苏威火山喷发",
+      "startYear": 79,
+      "endYear": 79,
+      "category": "社会",
+      "summary": "喷发掩埋庞贝、赫库兰尼姆等城市。",
+      "impact": "遗址保存了罗马城市日常生活的大量证据。",
+      "people": [
+        "老普林尼"
+      ],
+      "places": [
+        {
+          "name": "维苏威火山",
+          "lon": 14.43,
+          "lat": 40.82,
+          "certainty": "approximate",
+          "note": "现代位置的近似地图锚点，不表示已复原古战场边界、精确阵位或城市城垣。"
+        },
+        {
+          "name": "庞贝",
+          "lon": 14.49,
+          "lat": 40.75,
+          "certainty": "approximate",
+          "note": "现代位置的近似地图锚点，不表示已复原古战场边界、精确阵位或城市城垣。"
+        }
+      ],
+      "sources": [
+        "romanEmpire"
+      ],
+      "dateNote": "只标79年，不采用仍有讨论的8月24日说。"
+    },
+    {
+      "id": "dacian_wars",
+      "title": "图拉真征服达契亚",
+      "startYear": 101,
+      "endYear": 106,
+      "category": "战争",
+      "summary": "罗马经过两次达契亚战争取得胜利。",
+      "impact": "达契亚被纳入罗马行省统治。",
+      "people": [
+        "图拉真",
+        "德凯巴卢斯"
+      ],
+      "places": [
+        {
+          "name": "萨尔米泽杰图萨一带",
+          "lon": 23.31,
+          "lat": 45.62,
+          "certainty": "approximate",
+          "note": "现代位置的近似地图锚点，不表示已复原古战场边界、精确阵位或城市城垣。",
+          "placeRole": "theatre",
+          "contextOnly": true,
+          "windows": [],
+          "phaseNote": "现有来源只直接支持两次战争的总范围，未核定本锚点各年状态，不能把101—106当作连续六年围城。",
+          "phaseSources": [
+            "greekLate"
+          ]
+        }
+      ],
+      "sources": [
+        "greekLate"
+      ]
+    },
+    {
+      "id": "tetrarchy",
+      "title": "四帝共治体制形成",
+      "startYear": 293,
+      "endYear": 293,
+      "category": "政制",
+      "summary": "戴克里先以多位皇帝分工应对帝国治理压力。",
+      "impact": "权力中心分散，继承安排仍面临战争考验。",
+      "people": [
+        "戴克里先"
+      ],
+      "places": [
+        {
+          "name": "尼科米底亚（今伊兹密特）",
+          "lon": 29.92,
+          "lat": 40.77,
+          "certainty": "approximate",
+          "note": "现代位置的近似地图锚点，不表示已复原古战场边界、精确阵位或城市城垣。"
+        },
+        {
+          "name": "米迪奥拉努姆（今米兰）",
+          "lon": 9.19,
+          "lat": 45.46,
+          "certainty": "approximate",
+          "note": "现代位置的近似地图锚点，不表示已复原古战场边界、精确阵位或城市城垣。"
+        }
+      ],
+      "sources": [
+        "greekLate"
+      ]
+    },
+    {
+      "id": "milan_313",
+      "title": "米兰协议与宗教宽容",
+      "startYear": 313,
+      "endYear": 313,
+      "category": "政制",
+      "summary": "君士坦丁时代的宗教宽容安排允许基督教合法活动。",
+      "impact": "基督教与帝国权力关系开始深刻改变。",
+      "people": [
+        "君士坦丁一世",
+        "李锡尼"
+      ],
+      "places": [
+        {
+          "name": "米迪奥拉努姆（今米兰）",
+          "lon": 9.19,
+          "lat": 45.46,
+          "certainty": "approximate",
+          "note": "现代位置的近似地图锚点，不表示已复原古战场边界、精确阵位或城市城垣。"
+        }
+      ],
+      "sources": [
+        "romanEmpire"
+      ],
+      "dateNote": "传统称“米兰敕令”，不把它说成基督教成为国教。"
+    },
+    {
+      "id": "constantinople_330",
+      "title": "君士坦丁堡正式落成",
+      "startYear": 330,
+      "endYear": 330,
+      "category": "迁都",
+      "summary": "君士坦丁营建的新都正式举行落成典礼。",
+      "impact": "博斯普鲁斯海峡成为罗马帝国的重要政治中心。",
+      "people": [
+        "君士坦丁一世"
+      ],
+      "places": [
+        {
+          "name": "君士坦丁堡",
+          "lon": 28.98,
+          "lat": 41.01,
+          "certainty": "approximate",
+          "note": "现代位置的近似地图锚点，不表示已复原古战场边界、精确阵位或城市城垣。"
+        }
+      ],
+      "sources": [
+        "constantinople"
+      ],
+      "startDate": "0330-05-11",
+      "endDate": "0330-05-11",
+      "dateNote": "日期按博物馆所列历史纪日；不等于一夜废除罗马城的地位。",
+      "calendar": "source-historical"
+    },
+    {
+      "id": "adrianople",
+      "title": "阿德里安堡之战",
+      "startYear": 378,
+      "endYear": 378,
+      "category": "战争",
+      "summary": "哥特军在阿德里安堡附近击败瓦伦斯的罗马军。",
+      "impact": "巴尔干的帝国军事局势受到严重冲击。",
+      "people": [
+        "瓦伦斯"
+      ],
+      "places": [
+        {
+          "name": "阿德里安堡（今埃迪尔内）一带",
+          "lon": 26.56,
+          "lat": 41.68,
+          "certainty": "approximate",
+          "note": "现代位置的近似地图锚点，不表示已复原古战场边界、精确阵位或城市城垣。"
+        }
+      ],
+      "sources": [
+        "greekLate"
+      ]
+    },
+    {
+      "id": "roman_division",
+      "title": "狄奥多西一世去世，东西分治延续",
+      "startYear": 395,
+      "endYear": 395,
+      "category": "变局",
+      "summary": "皇帝去世后，两子分别统治东西两部分帝国。",
+      "impact": "此后东西帝国的政治命运逐渐分离。",
+      "people": [
+        "狄奥多西一世",
+        "阿卡狄乌斯",
+        "霍诺里乌斯"
+      ],
+      "places": [
+        {
+          "name": "君士坦丁堡",
+          "lon": 28.98,
+          "lat": 41.01,
+          "certainty": "approximate",
+          "note": "现代位置的近似地图锚点，不表示已复原古战场边界、精确阵位或城市城垣。"
+        },
+        {
+          "name": "米迪奥拉努姆（今米兰）",
+          "lon": 9.19,
+          "lat": 45.46,
+          "certainty": "approximate",
+          "note": "现代位置的近似地图锚点，不表示已复原古战场边界、精确阵位或城市城垣。"
+        }
+      ],
+      "sources": [
+        "romanEmpire"
+      ],
+      "dateNote": "帝国此前已有多次分治，395年不是首次出现东西行政分区。"
+    },
+    {
+      "id": "rome_410",
+      "title": "阿拉里克军洗劫罗马",
+      "startYear": 410,
+      "endYear": 410,
+      "category": "战争",
+      "summary": "西哥特首领阿拉里克攻入并洗劫罗马。",
+      "impact": "帝国旧都受创，西部政治危机继续加深。",
+      "people": [
+        "阿拉里克"
+      ],
+      "places": [
+        {
+          "name": "罗马",
+          "lon": 12.48,
+          "lat": 41.9,
+          "certainty": "approximate",
+          "note": "现代位置的近似地图锚点，不表示已复原古战场边界、精确阵位或城市城垣。"
+        }
+      ],
+      "sources": [
+        "romanEmpire"
+      ]
+    },
+    {
+      "id": "west_476",
+      "title": "罗慕路斯·奥古斯都被废",
+      "startYear": 476,
+      "endYear": 476,
+      "category": "变局",
+      "summary": "奥多亚克废黜意大利的西部皇帝罗慕路斯·奥古斯都。",
+      "impact": "通常用作西罗马帝国终结的分期标志。",
+      "people": [
+        "奥多亚克",
+        "罗慕路斯·奥古斯都"
+      ],
+      "places": [
+        {
+          "name": "拉文纳",
+          "lon": 12.2,
+          "lat": 44.42,
+          "certainty": "approximate",
+          "note": "现代位置的近似地图锚点，不表示已复原古战场边界、精确阵位或城市城垣。"
+        }
+      ],
+      "sources": [
+        "romanEmpire"
+      ],
+      "dateNote": "分期标志不表示罗马制度同日全部消失；东罗马继续存在，尼波斯的皇帝名义另有延续。"
+    },
+    {
+      "id": "justinian",
+      "title": "查士丁尼一世时代",
+      "startYear": 527,
+      "endYear": 565,
+      "category": "政制",
+      "summary": "东罗马向意大利、北非等地展开军事扩张并整编法律。",
+      "impact": "地中海多地重新进入皇帝统治，战争也带来沉重负担。",
+      "people": [
+        "查士丁尼一世",
+        "贝利萨留"
+      ],
+      "places": [
+        {
+          "name": "君士坦丁堡",
+          "lon": 28.98,
+          "lat": 41.01,
+          "certainty": "approximate",
+          "note": "现代位置的近似地图锚点，不表示已复原古战场边界、精确阵位或城市城垣。",
+          "placeRole": "political-center",
+          "contextOnly": false,
+          "windows": [
+            {
+              "fromYear": 527,
+              "toYear": 565,
+              "label": "查士丁尼统治中心",
+              "sources": [
+                "justinian"
+              ]
+            }
+          ],
+          "phaseNote": "首都政治中心；普通政治标记，不能使用战争或围城脉冲。",
+          "phaseSources": [
+            "justinian"
+          ]
+        },
+        {
+          "name": "拉文纳",
+          "lon": 12.2,
+          "lat": 44.42,
+          "certainty": "approximate",
+          "note": "现代位置的近似地图锚点，不表示已复原古战场边界、精确阵位或城市城垣。",
+          "placeRole": "theatre",
+          "contextOnly": false,
+          "windows": [
+            {
+              "fromYear": 540,
+              "toYear": 540,
+              "label": "拉文纳被贝利萨留取得",
+              "sources": [
+                "ravenna540"
+              ]
+            }
+          ],
+          "phaseNote": "来源直接说明540年取得拉文纳；不推断540年至565年连续战斗。",
+          "phaseSources": [
+            "ravenna540"
+          ]
+        },
+        {
+          "name": "迦太基",
+          "lon": 10.33,
+          "lat": 36.85,
+          "certainty": "approximate",
+          "note": "现代位置的近似地图锚点，不表示已复原古战场边界、精确阵位或城市城垣。",
+          "placeRole": "theatre",
+          "contextOnly": false,
+          "windows": [
+            {
+              "fromYear": 533,
+              "toYear": 533,
+              "label": "贝利萨留进入迦太基",
+              "sources": [
+                "carthage533"
+              ]
+            }
+          ],
+          "phaseNote": "只标533年征服节点，不能在527年预显；不延长到未核定年份。",
+          "phaseSources": [
+            "carthage533"
+          ]
+        }
+      ],
+      "sources": [
+        "justinian",
+        "ravenna540",
+        "carthage533"
+      ],
+      "dateNote": "这里是统治时段，不能把全部疆域在527年即画成565年的扩张结果。"
+    },
+    {
+      "id": "andalus_711",
+      "title": "穆斯林军进入伊比利亚半岛",
+      "startYear": 711,
+      "endYear": 711,
+      "category": "战争",
+      "summary": "来自北非的军队进入伊比利亚，西哥特统治迅速崩解。",
+      "impact": "安达卢斯的政治与文化历史由此展开。",
+      "people": [
+        "塔里克·伊本·齐亚德"
+      ],
+      "places": [
+        {
+          "name": "直布罗陀（渡海区域参照）",
+          "lon": -5.35,
+          "lat": 36.14,
+          "certainty": "approximate",
+          "note": "现代近似位置锚点，非完整历史战场范围。"
+        }
+      ],
+      "sources": [
+        "andalus"
+      ],
+      "dateNote": "只标711年；征服经历多年，不将后来的领土范围一次性画在登陆年。"
+    },
+    {
+      "id": "charlemagne_crown",
+      "title": "查理曼在罗马加冕",
+      "startYear": 800,
+      "endYear": 800,
+      "category": "政制",
+      "summary": "教宗利奥三世为查理曼举行皇帝加冕仪式。",
+      "impact": "西欧出现新的皇帝权力主张。",
+      "people": [
+        "查理曼",
+        "利奥三世"
+      ],
+      "places": [
+        {
+          "name": "罗马圣彼得大教堂一带",
+          "lon": 12.45,
+          "lat": 41.9,
+          "certainty": "approximate",
+          "note": "现代位置的近似地图锚点，不表示已复原古战场边界、精确阵位或城市城垣。"
+        }
+      ],
+      "sources": [
+        "charlemagne"
+      ],
+      "startDate": "0800-12-25",
+      "endDate": "0800-12-25",
+      "dateNote": "采用历史纪日；不能把962年后帝国制度完全倒置到800年。",
+      "calendar": "source-historical"
+    },
+    {
+      "id": "verdun",
+      "title": "《凡尔登条约》",
+      "startYear": 843,
+      "endYear": 843,
+      "category": "外交",
+      "summary": "查理曼的三个孙子分割加洛林帝国。",
+      "impact": "西、中、东法兰克形成不同的政治发展道路。",
+      "people": [
+        "秃头查理",
+        "洛泰尔一世",
+        "日耳曼人路易"
+      ],
+      "places": [
+        {
+          "name": "凡尔登",
+          "lon": 5.38,
+          "lat": 49.16,
+          "certainty": "approximate",
+          "note": "现代位置的近似地图锚点，不表示已复原古战场边界、精确阵位或城市城垣。"
+        }
+      ],
+      "sources": [
+        "carolingian"
+      ]
+    },
+    {
+      "id": "cordoba_929",
+      "title": "阿卜杜勒·拉赫曼三世称哈里发",
+      "startYear": 929,
+      "endYear": 929,
+      "category": "政制",
+      "summary": "科尔多瓦统治者使用哈里发称号。",
+      "impact": "安达卢斯成为与东方哈里发相竞争的政治文化中心。",
+      "people": [
+        "阿卜杜勒·拉赫曼三世"
+      ],
+      "places": [
+        {
+          "name": "科尔多瓦",
+          "lon": -4.78,
+          "lat": 37.89,
+          "certainty": "approximate",
+          "note": "现代近似位置锚点，非完整历史战场范围。"
+        }
+      ],
+      "sources": [
+        "andalus"
+      ]
+    },
+    {
+      "id": "otto_crown",
+      "title": "奥托一世加冕皇帝",
+      "startYear": 962,
+      "endYear": 962,
+      "category": "政制",
+      "summary": "奥托一世在罗马由教宗加冕为皇帝。",
+      "impact": "形成后世称神圣罗马帝国的重要政治传统。",
+      "people": [
+        "奥托一世",
+        "若望十二世"
+      ],
+      "places": [
+        {
+          "name": "罗马",
+          "lon": 12.48,
+          "lat": 41.9,
+          "certainty": "approximate",
+          "note": "现代位置的近似地图锚点，不表示已复原古战场边界、精确阵位或城市城垣。"
+        }
+      ],
+      "sources": [
+        "carolingian"
+      ]
+    },
+    {
+      "id": "rus_baptism_988",
+      "title": "弗拉基米尔受洗与罗斯基督教化",
+      "startYear": 988,
+      "endYear": 988,
+      "category": "宗教",
+      "summary": "罗斯大公弗拉基米尔改宗基督教，并与君士坦丁堡皇室结盟。",
+      "impact": "罗斯与东罗马的宗教文化联系加强。",
+      "people": [
+        "弗拉基米尔一世"
+      ],
+      "places": [],
+      "sources": [
+        "rusBaptism"
+      ],
+      "dateNote": "988为编年传统与博物馆采用的节点；具体受洗地点与叙事细节不在本条硬定位，基督教化也非一日完成。"
+    },
+    {
+      "id": "schism_1054",
+      "title": "东西教会分裂的标志事件",
+      "startYear": 1054,
+      "endYear": 1054,
+      "category": "宗教",
+      "summary": "罗马与君士坦丁堡的教会冲突出现相互绝罚。",
+      "impact": "成为后世理解东西教会分裂的重要节点。",
+      "people": [],
+      "places": [
+        {
+          "name": "君士坦丁堡",
+          "lon": 28.98,
+          "lat": 41.01,
+          "certainty": "approximate",
+          "note": "现代位置的近似地图锚点，不表示已复原古战场边界、精确阵位或城市城垣。"
+        },
+        {
+          "name": "罗马",
+          "lon": 12.48,
+          "lat": 41.9,
+          "certainty": "approximate",
+          "note": "现代位置的近似地图锚点，不表示已复原古战场边界、精确阵位或城市城垣。"
+        }
+      ],
+      "sources": [
+        "balkanMedieval"
+      ],
+      "dateNote": "分裂是长期过程，不把1054年解释为所有信徒同时断绝联系。"
+    },
+    {
+      "id": "hastings",
+      "title": "黑斯廷斯之战",
+      "startYear": 1066,
+      "endYear": 1066,
+      "category": "战争",
+      "summary": "诺曼底公爵威廉击败哈罗德二世的军队。",
+      "impact": "诺曼征服改变英格兰的统治集团与政治结构。",
+      "people": [
+        "威廉一世",
+        "哈罗德二世"
+      ],
+      "places": [
+        {
+          "name": "森拉克岭／今巴特尔",
+          "lon": 0.49,
+          "lat": 50.91,
+          "certainty": "approximate",
+          "note": "现代位置的近似地图锚点，不表示已复原古战场边界、精确阵位或城市城垣。"
+        }
+      ],
+      "sources": [
+        "hastings"
+      ],
+      "startDate": "1066-10-14",
+      "endDate": "1066-10-14",
+      "dateNote": "战场大致区域已知，精确战斗范围与哈罗德死法仍有讨论。",
+      "calendar": "source-historical"
+    },
+    {
+      "id": "first_crusade",
+      "title": "第一次十字军东征",
+      "startYear": 1096,
+      "endYear": 1099,
+      "category": "战争",
+      "summary": "来自西欧的十字军经安纳托利亚进军，1099年攻占耶路撒冷。",
+      "impact": "东地中海建立拉丁政权，战争伴随严重屠杀。",
+      "people": [
+        "乌尔班二世",
+        "布永的戈弗雷"
+      ],
+      "places": [
+        {
+          "name": "君士坦丁堡",
+          "lon": 28.98,
+          "lat": 41.01,
+          "certainty": "approximate",
+          "note": "现代位置的近似地图锚点，不表示已复原古战场边界、精确阵位或城市城垣。",
+          "placeRole": "origin",
+          "contextOnly": false,
+          "windows": [
+            {
+              "fromYear": 1096,
+              "toYear": 1097,
+              "label": "十字军集结与过境",
+              "sources": [
+                "crusadeConstantinople"
+              ]
+            }
+          ],
+          "phaseNote": "来源编年为1096年10月至1097年5月；此处origin指远征阶段集结点，并非整个远征唯一出发地。",
+          "phaseSources": [
+            "crusadeConstantinople"
+          ]
+        },
+        {
+          "name": "安条克",
+          "lon": 36.16,
+          "lat": 36.2,
+          "certainty": "approximate",
+          "note": "现代位置的近似地图锚点，不表示已复原古战场边界、精确阵位或城市城垣。",
+          "placeRole": "battle",
+          "contextOnly": false,
+          "windows": [
+            {
+              "fromYear": 1097,
+              "toYear": 1098,
+              "label": "安条克围攻与城外战斗",
+              "sources": [
+                "crusadeAntioch"
+              ]
+            }
+          ],
+          "phaseNote": "围攻、攻城后反围攻的阶段区间；不能1096年即激活。",
+          "phaseSources": [
+            "crusadeAntioch"
+          ]
+        },
+        {
+          "name": "耶路撒冷",
+          "lon": 35.23,
+          "lat": 31.78,
+          "certainty": "approximate",
+          "note": "现代位置的近似地图锚点，不表示已复原古战场边界、精确阵位或城市城垣。",
+          "placeRole": "battle",
+          "contextOnly": false,
+          "windows": [
+            {
+              "fromYear": 1099,
+              "toYear": 1099,
+              "label": "耶路撒冷围攻与攻占",
+              "sources": [
+                "crusadeJerusalem"
+              ]
+            }
+          ],
+          "phaseNote": "仅1099年；地点为城市锚点，非阵位复原。",
+          "phaseSources": [
+            "crusadeJerusalem"
+          ]
+        }
+      ],
+      "sources": [
+        "crusade",
+        "crusadeDates",
+        "crusadeConstantinople",
+        "crusadeAntioch",
+        "crusadeJerusalem"
+      ],
+      "dateNote": "1095为号召节点，1096—1099为常用远征区间；此处不混作同一天事件。"
+    },
+    {
+      "id": "constantinople_1204",
+      "title": "第四次十字军攻陷君士坦丁堡",
+      "startYear": 1204,
+      "endYear": 1204,
+      "category": "战争",
+      "summary": "十字军攻陷东罗马首都，建立拉丁帝国。",
+      "impact": "尼西亚、特拉比松与伊庇鲁斯等继承政权并立。",
+      "people": [],
+      "places": [
+        {
+          "name": "君士坦丁堡",
+          "lon": 28.98,
+          "lat": 41.01,
+          "certainty": "approximate",
+          "note": "现代位置的近似地图锚点，不表示已复原古战场边界、精确阵位或城市城垣。"
+        }
+      ],
+      "sources": [
+        "balkanMedieval"
+      ]
+    },
+    {
+      "id": "magna_carta",
+      "title": "《大宪章》",
+      "startYear": 1215,
+      "endYear": 1215,
+      "category": "政制",
+      "summary": "约翰王与贵族在冲突中达成大宪章安排，随后又爆发内战。",
+      "impact": "王权受约束的文书传统经历多次重颁才延续下来。",
+      "people": [
+        "约翰王"
+      ],
+      "places": [
+        {
+          "name": "兰尼米德",
+          "lon": -0.57,
+          "lat": 51.45,
+          "certainty": "approximate",
+          "note": "现代位置的近似地图锚点，不表示已复原古战场边界、精确阵位或城市城垣。"
+        }
+      ],
+      "sources": [
+        "magna"
+      ],
+      "dateNote": "不把1215文书写成当时已普遍实现现代民主或全民权利。"
+    },
+    {
+      "id": "mohi_1241",
+      "title": "穆希之战",
+      "startYear": 1241,
+      "endYear": 1241,
+      "category": "战争",
+      "summary": "蒙古军在绍约河附近击败贝拉四世的匈牙利军。",
+      "impact": "匈牙利遭到严重破坏，但没有因此长期并入蒙古汗国。",
+      "people": [
+        "拔都",
+        "速不台",
+        "贝拉四世"
+      ],
+      "places": [
+        {
+          "name": "穆希／绍约河一带",
+          "lon": 20.93,
+          "lat": 47.98,
+          "certainty": "approximate",
+          "note": "区域示意锚点；古代军营、桥梁及精确战场位置仍有考证争议。"
+        }
+      ],
+      "sources": [
+        "mohi",
+        "mohiSite"
+      ],
+      "startDate": "1241-04-11",
+      "endDate": "1241-04-12",
+      "dateNote": "研究机构采用4月11—12日的战斗范围；精确战场位置存在持续研究，不画确定阵位。",
+      "calendar": "source-historical"
+    },
+    {
+      "id": "constantinople_1261",
+      "title": "东罗马收复君士坦丁堡",
+      "startYear": 1261,
+      "endYear": 1261,
+      "category": "战争",
+      "summary": "米海尔八世的尼西亚继承政权重获旧都。",
+      "impact": "拉丁帝国在君士坦丁堡的统治终结。",
+      "people": [
+        "米海尔八世"
+      ],
+      "places": [
+        {
+          "name": "君士坦丁堡",
+          "lon": 28.98,
+          "lat": 41.01,
+          "certainty": "approximate",
+          "note": "现代位置的近似地图锚点，不表示已复原古战场边界、精确阵位或城市城垣。"
+        }
+      ],
+      "sources": [
+        "balkanMedieval"
+      ]
+    },
+    {
+      "id": "hundred_years",
+      "title": "英法百年战争",
+      "startYear": 1337,
+      "endYear": 1453,
+      "category": "战争",
+      "summary": "英法王位与领土争夺反复展开，并非连续不停交战百年。",
+      "impact": "法国王权整合与英格兰大陆领地缩减的重要过程。",
+      "people": [],
+      "places": [
+        {
+          "name": "巴黎",
+          "lon": 2.35,
+          "lat": 48.86,
+          "certainty": "approximate",
+          "note": "现代位置的近似地图锚点，不表示已复原古战场边界、精确阵位或城市城垣。",
+          "placeRole": "political-center",
+          "contextOnly": true,
+          "windows": [],
+          "phaseNote": "巴黎的政治地位与占领状态在长期战争中反复变化；未用单一总范围推断逐年城市战事。",
+          "phaseSources": [
+            "hundred"
+          ]
+        },
+        {
+          "name": "加来",
+          "lon": 1.85,
+          "lat": 50.95,
+          "certainty": "approximate",
+          "note": "现代位置的近似地图锚点，不表示已复原古战场边界、精确阵位或城市城垣。",
+          "placeRole": "battle",
+          "contextOnly": false,
+          "windows": [
+            {
+              "fromYear": 1346,
+              "toYear": 1347,
+              "label": "加来围城",
+              "sources": [
+                "hundred"
+              ]
+            }
+          ],
+          "phaseNote": "仅采用来源直接给出的1346—1347围城阶段；不把之后长期占领等同持续围城。",
+          "phaseSources": [
+            "hundred"
+          ]
+        },
+        {
+          "name": "波尔多",
+          "lon": -0.58,
+          "lat": 44.84,
+          "certainty": "approximate",
+          "note": "现代位置的近似地图锚点，不表示已复原古战场边界、精确阵位或城市城垣。",
+          "placeRole": "origin",
+          "contextOnly": false,
+          "windows": [
+            {
+              "fromYear": 1355,
+              "toYear": 1355,
+              "label": "黑太子从波尔多地区出发的劫掠",
+              "sources": [
+                "hundred"
+              ]
+            },
+            {
+              "fromYear": 1356,
+              "toYear": 1356,
+              "label": "第二次劫掠自波尔多向北",
+              "sources": [
+                "hundred"
+              ]
+            }
+          ],
+          "phaseNote": "两次远征的起点／基地，不能把波尔多市点当作普瓦捷战场；未补未经来源直接核实的其他年份。",
+          "phaseSources": [
+            "hundred"
+          ]
+        }
+      ],
+      "sources": [
+        "hundred"
+      ]
+    },
+    {
+      "id": "black_death",
+      "title": "黑死病第一轮大流行",
+      "startYear": 1347,
+      "endYear": 1353,
+      "category": "社会",
+      "summary": "鼠疫大流行横扫欧洲多个地区，造成巨大人口损失。",
+      "impact": "劳动力、社会关系与城市生活受到长期影响。",
+      "people": [],
+      "places": [
+        {
+          "name": "西西里岛（传播区域参照）",
+          "lon": 14,
+          "lat": 37.5,
+          "certainty": "approximate",
+          "note": "现代位置的近似地图锚点，不表示已复原古战场边界、精确阵位或城市城垣。",
+          "placeRole": "origin",
+          "contextOnly": false,
+          "windows": [
+            {
+              "fromYear": 1347,
+              "toYear": 1347,
+              "label": "西西里传播节点",
+              "sources": [
+                "sicilyPlague"
+              ]
+            }
+          ],
+          "phaseNote": "仅首次有记载的到达年份；origin表示本次叙事的传播节点，不声称瘟疫最初起源于西西里，也不声称岛上1348年已无疫情。",
+          "phaseSources": [
+            "sicilyPlague"
+          ]
+        },
+        {
+          "name": "伦敦",
+          "lon": -0.13,
+          "lat": 51.51,
+          "certainty": "approximate",
+          "note": "现代位置的近似地图锚点，不表示已复原古战场边界、精确阵位或城市城垣。",
+          "placeRole": "theatre",
+          "contextOnly": false,
+          "windows": [
+            {
+              "fromYear": 1348,
+              "toYear": 1350,
+              "label": "伦敦第一波疫情",
+              "sources": [
+                "plague"
+              ]
+            }
+          ],
+          "phaseNote": "来源明确为1348年秋至1350年春；疾病传播区域，绝不能渲染为战役。",
+          "phaseSources": [
+            "plague"
+          ]
+        }
+      ],
+      "sources": [
+        "plague",
+        "sicilyPlague"
+      ],
+      "dateNote": "采用伦敦博物馆所列1347—1353广域范围；英格兰主要暴发常记1348—1350，地区终点不同，后续仍反复流行。"
+    },
+    {
+      "id": "agincourt",
+      "title": "阿金库尔之战",
+      "startYear": 1415,
+      "endYear": 1415,
+      "category": "战争",
+      "summary": "亨利五世的英军在赴加来途中击败法军。",
+      "impact": "英格兰在百年战争中的地位一度增强。",
+      "people": [
+        "亨利五世"
+      ],
+      "places": [
+        {
+          "name": "阿金库尔／今阿赞库尔一带",
+          "lon": 2.14,
+          "lat": 50.46,
+          "certainty": "approximate",
+          "note": "现代位置的近似地图锚点，不表示已复原古战场边界、精确阵位或城市城垣。"
+        }
+      ],
+      "sources": [
+        "agincourt"
+      ],
+      "startDate": "1415-10-25",
+      "endDate": "1415-10-25",
+      "calendar": "source-historical"
+    },
+    {
+      "id": "constantinople_1453",
+      "title": "奥斯曼攻陷君士坦丁堡",
+      "startYear": 1453,
+      "endYear": 1453,
+      "category": "战争",
+      "summary": "穆罕默德二世军攻破君士坦丁堡。",
+      "impact": "东罗马首都失陷，城市成为奥斯曼帝国中心。",
+      "people": [
+        "穆罕默德二世",
+        "君士坦丁十一世"
+      ],
+      "places": [
+        {
+          "name": "君士坦丁堡",
+          "lon": 28.98,
+          "lat": 41.01,
+          "certainty": "approximate",
+          "note": "现代位置的近似地图锚点，不表示已复原古战场边界、精确阵位或城市城垣。"
+        }
+      ],
+      "sources": [
+        "ottoman",
+        "fallConstantinople"
+      ],
+      "startDate": "1453-05-29",
+      "endDate": "1453-05-29",
+      "dateNote": "这是破城日期；不表示围城只持续一天，摩里亚与特拉比松等政权另有终结时间。",
+      "calendar": "source-historical"
+    },
+    {
+      "id": "gutenberg_bible",
+      "title": "古腾堡《圣经》印刷",
+      "startYear": 1454,
+      "endYear": 1455,
+      "category": "文化",
+      "summary": "美因茨的金属活字印刷制作大型拉丁文《圣经》。",
+      "impact": "欧洲书籍生产与知识传播方式发生重大改变。",
+      "people": [
+        "约翰内斯·古腾堡",
+        "约翰·富斯特"
+      ],
+      "places": [
+        {
+          "name": "美因茨",
+          "lon": 8.27,
+          "lat": 50,
+          "certainty": "approximate",
+          "note": "现代位置近似锚点；非精确历史城垣、战线或完整战区。",
+          "placeRole": "origin",
+          "contextOnly": true,
+          "windows": [],
+          "phaseNote": "美因茨为印刷制作地；制作跨年和精确生产批次未拆解，不作为战役点。",
+          "phaseSources": [
+            "gutenberg"
+          ]
+        }
+      ],
+      "sources": [
+        "gutenberg"
+      ],
+      "dateNote": "采用国会图书馆1454/1455的印刷范围；不声称这是世界上首次活字印刷。"
+    },
+    {
+      "id": "granada_1492",
+      "title": "格拉纳达投降",
+      "startYear": 1492,
+      "endYear": 1492,
+      "category": "战争",
+      "summary": "天主教双王接收格拉纳达与阿尔罕布拉宫。",
+      "impact": "伊比利亚半岛最后的穆斯林王朝终结。",
+      "people": [
+        "伊莎贝拉一世",
+        "斐迪南二世",
+        "穆罕默德十二世"
+      ],
+      "places": [
+        {
+          "name": "格拉纳达",
+          "lon": -3.6,
+          "lat": 37.18,
+          "certainty": "approximate",
+          "note": "现代位置的近似地图锚点，不表示已复原古战场边界、精确阵位或城市城垣。"
+        }
+      ],
+      "sources": [
+        "granada"
+      ],
+      "startDate": "1492-01-02",
+      "endDate": "1492-01-02",
+      "calendar": "source-historical"
+    },
+    {
+      "id": "luther_1517",
+      "title": "路德《九十五条论纲》传播",
+      "startYear": 1517,
+      "endYear": 1517,
+      "category": "宗教",
+      "summary": "论纲针对赎罪券等问题提出争论，经印刷迅速扩散。",
+      "impact": "宗教改革逐步发展为跨地区的宗教与政治变局。",
+      "people": [
+        "马丁·路德"
+      ],
+      "places": [
+        {
+          "name": "维滕贝格",
+          "lon": 12.65,
+          "lat": 51.87,
+          "certainty": "approximate",
+          "note": "现代位置的近似地图锚点，不表示已复原古战场边界、精确阵位或城市城垣。"
+        }
+      ],
+      "sources": [
+        "luther"
+      ],
+      "dateNote": "1517印本实物可证；不把“亲手钉门”的后世形象当作已完全确定的场景。"
+    },
+    {
+      "id": "copernicus_1543",
+      "title": "《天体运行论》出版",
+      "startYear": 1543,
+      "endYear": 1543,
+      "category": "科学",
+      "summary": "哥白尼著作在纽伦堡出版，以日心体系解释行星运动。",
+      "impact": "欧洲天文学对宇宙结构的理解进入新的论争阶段。",
+      "people": [
+        "尼古拉·哥白尼"
+      ],
+      "places": [
+        {
+          "name": "纽伦堡（出版地）",
+          "lon": 11.08,
+          "lat": 49.45,
+          "certainty": "approximate",
+          "note": "现代位置近似锚点；非精确历史城垣、战线或完整战区。"
+        }
+      ],
+      "sources": [
+        "copernicus"
+      ]
+    },
+    {
+      "id": "augsburg_1555",
+      "title": "奥格斯堡宗教和约",
+      "startYear": 1555,
+      "endYear": 1555,
+      "category": "外交",
+      "summary": "神圣罗马帝国对天主教与路德宗的政治地位作出安排。",
+      "impact": "带来数十年相对缓和，未消除所有宗教与权力冲突。",
+      "people": [],
+      "places": [
+        {
+          "name": "奥格斯堡",
+          "lon": 10.9,
+          "lat": 48.37,
+          "certainty": "approximate",
+          "note": "现代位置的近似地图锚点，不表示已复原古战场边界、精确阵位或城市城垣。"
+        }
+      ],
+      "sources": [
+        "reformation"
+      ]
+    },
+    {
+      "id": "armada_1588",
+      "title": "西班牙无敌舰队远征",
+      "startYear": 1588,
+      "endYear": 1588,
+      "category": "战争",
+      "summary": "西班牙舰队驶向英吉利海峡，入侵英格兰的计划未能实现。",
+      "impact": "海战与撤航损失改变英西战争进程，但战争仍继续。",
+      "people": [
+        "腓力二世",
+        "伊丽莎白一世"
+      ],
+      "places": [
+        {
+          "name": "英吉利海峡（战区参照）",
+          "lon": -1,
+          "lat": 50,
+          "certainty": "approximate",
+          "note": "现代位置的近似地图锚点，不表示已复原古战场边界、精确阵位或城市城垣。"
+        },
+        {
+          "name": "加来附近海域",
+          "lon": 1.7,
+          "lat": 51,
+          "certainty": "approximate",
+          "note": "现代位置的近似地图锚点，不表示已复原古战场边界、精确阵位或城市城垣。"
+        }
+      ],
+      "sources": [
+        "armada"
+      ]
+    },
+    {
+      "id": "thirty_years",
+      "title": "三十年战争",
+      "startYear": 1618,
+      "endYear": 1648,
+      "category": "战争",
+      "summary": "从波希米亚冲突扩展为多个欧洲强权参加的长期战争。",
+      "impact": "德意志地区遭受严重破坏，政治与宗教安排重新谈判。",
+      "people": [],
+      "places": [
+        {
+          "name": "布拉格",
+          "lon": 14.42,
+          "lat": 50.08,
+          "certainty": "approximate",
+          "note": "现代位置的近似地图锚点，不表示已复原古战场边界、精确阵位或城市城垣。",
+          "placeRole": "origin",
+          "contextOnly": false,
+          "windows": [
+            {
+              "fromYear": 1618,
+              "toYear": 1618,
+              "label": "布拉格掷窗事件",
+              "sources": [
+                "pragueOrigin"
+              ]
+            }
+          ],
+          "phaseNote": "事件起点；不是布拉格从1618持续交战到1648。",
+          "phaseSources": [
+            "pragueOrigin"
+          ]
+        },
+        {
+          "name": "德意志中部（战区参照）",
+          "lon": 10.5,
+          "lat": 51,
+          "certainty": "approximate",
+          "note": "现代位置的近似地图锚点，不表示已复原古战场边界、精确阵位或城市城垣。",
+          "placeRole": "theatre",
+          "contextOnly": false,
+          "windows": [
+            {
+              "fromYear": 1618,
+              "toYear": 1648,
+              "label": "德意志广域战区参照",
+              "sources": [
+                "reformation"
+              ]
+            }
+          ],
+          "phaseNote": "来源明确帝国为战争主要战区；区域锚点不能表示这个坐标连续三十年战斗。",
+          "phaseSources": [
+            "reformation"
+          ]
+        }
+      ],
+      "sources": [
+        "reformation",
+        "pragueOrigin"
+      ]
+    },
+    {
+      "id": "westphalia_1648",
+      "title": "威斯特伐利亚和约",
+      "startYear": 1648,
+      "endYear": 1648,
+      "category": "外交",
+      "summary": "明斯特与奥斯纳布吕克的条约安排结束三十年战争核心冲突。",
+      "impact": "重定帝国内部权利、宗教安排及部分欧洲领土关系。",
+      "people": [],
+      "places": [
+        {
+          "name": "明斯特",
+          "lon": 7.63,
+          "lat": 51.96,
+          "certainty": "approximate",
+          "note": "现代位置的近似地图锚点，不表示已复原古战场边界、精确阵位或城市城垣。"
+        },
+        {
+          "name": "奥斯纳布吕克",
+          "lon": 8.05,
+          "lat": 52.28,
+          "certainty": "approximate",
+          "note": "现代位置的近似地图锚点，不表示已复原古战场边界、精确阵位或城市城垣。"
+        }
+      ],
+      "sources": [
+        "westphalia"
+      ],
+      "startDate": "1648-10-24",
+      "endDate": "1648-10-24",
+      "dateNote": "10月24日为格里高利历；文献中的10月14日为同一日的儒略历写法，不是另一场签约。法国与西班牙战争仍延续。",
+      "calendar": "gregorian-as-reported"
+    },
+    {
+      "id": "vienna_1683",
+      "title": "第二次维也纳围城",
+      "startYear": 1683,
+      "endYear": 1683,
+      "category": "战争",
+      "summary": "奥斯曼军围困维也纳约两个月，围城最终解除。",
+      "impact": "此后中欧奥斯曼与哈布斯堡的战争形势逐步变化。",
+      "people": [],
+      "places": [
+        {
+          "name": "维也纳",
+          "lon": 16.37,
+          "lat": 48.21,
+          "certainty": "approximate",
+          "note": "现代位置的近似地图锚点，不表示已复原古战场边界、精确阵位或城市城垣。"
+        }
+      ],
+      "sources": [
+        "viennaSiege"
+      ],
+      "dateNote": "机构来源支持1683年及约两个月围城，本条不强填未经本轮核对的起止日。"
+    },
+    {
+      "id": "newton_1687",
+      "title": "牛顿《自然哲学的数学原理》出版",
+      "startYear": 1687,
+      "endYear": 1687,
+      "category": "科学",
+      "summary": "牛顿在著作中系统阐述运动与引力的数学理论。",
+      "impact": "成为近代力学与天体研究的重要基础。",
+      "people": [
+        "艾萨克·牛顿",
+        "埃德蒙·哈雷"
+      ],
+      "places": [
+        {
+          "name": "伦敦（出版地）",
+          "lon": -0.13,
+          "lat": 51.51,
+          "certainty": "approximate",
+          "note": "现代位置近似锚点；非精确历史城垣、战线或完整战区。"
+        }
+      ],
+      "sources": [
+        "newton"
+      ]
+    },
+    {
+      "id": "glorious_1688",
+      "title": "英格兰王位更替与光荣革命",
+      "startYear": 1688,
+      "endYear": 1689,
+      "category": "政制",
+      "summary": "奥兰治的威廉率军登陆，詹姆斯二世出逃，议会参与新王位安排。",
+      "impact": "君主与议会关系随后经过多年重新调整。",
+      "people": [
+        "威廉三世",
+        "玛丽二世",
+        "詹姆斯二世"
+      ],
+      "places": [
+        {
+          "name": "布里克瑟姆",
+          "lon": -3.52,
+          "lat": 50.39,
+          "certainty": "approximate",
+          "note": "现代位置的近似地图锚点，不表示已复原古战场边界、精确阵位或城市城垣。",
+          "placeRole": "origin",
+          "contextOnly": false,
+          "windows": [
+            {
+              "fromYear": 1688,
+              "toYear": 1688,
+              "label": "威廉在布里克瑟姆登陆",
+              "sources": [
+                "glorious"
+              ]
+            }
+          ],
+          "phaseNote": "只标1688登陆节点，不在1689当作新登陆。",
+          "phaseSources": [
+            "glorious"
+          ]
+        },
+        {
+          "name": "伦敦",
+          "lon": -0.13,
+          "lat": 51.51,
+          "certainty": "approximate",
+          "note": "现代位置的近似地图锚点，不表示已复原古战场边界、精确阵位或城市城垣。",
+          "placeRole": "political-center",
+          "contextOnly": false,
+          "windows": [
+            {
+              "fromYear": 1688,
+              "toYear": 1689,
+              "label": "伦敦的王位与议会安排",
+              "sources": [
+                "glorious"
+              ]
+            }
+          ],
+          "phaseNote": "政治进程中心，不声称伦敦市内持续作战。",
+          "phaseSources": [
+            "glorious"
+          ]
+        }
+      ],
+      "sources": [
+        "glorious"
+      ],
+      "dateNote": "不称全程“无血革命”：苏格兰、爱尔兰后续战争尤其重要。"
+    },
+    {
+      "id": "great_northern",
+      "title": "大北方战争",
+      "startYear": 1700,
+      "endYear": 1721,
+      "category": "战争",
+      "summary": "俄国及盟友与瑞典争夺波罗的海优势。",
+      "impact": "瑞典大国地位受挫，波罗的海权力格局改变。",
+      "people": [
+        "彼得一世",
+        "查理十二世"
+      ],
+      "places": [
+        {
+          "name": "纳尔瓦",
+          "lon": 28.19,
+          "lat": 59.38,
+          "certainty": "approximate",
+          "note": "现代位置的近似地图锚点，不表示已复原古战场边界、精确阵位或城市城垣。",
+          "placeRole": "battle",
+          "contextOnly": false,
+          "windows": [
+            {
+              "fromYear": 1700,
+              "toYear": 1700,
+              "label": "纳尔瓦之战",
+              "sources": [
+                "narva1700"
+              ]
+            }
+          ],
+          "phaseNote": "只核定1700战役；不由这一资料推断其他年份的纳尔瓦战斗，纪日有瑞典／儒略／公历差，保留年精度。",
+          "phaseSources": [
+            "narva1700"
+          ]
+        },
+        {
+          "name": "波尔塔瓦",
+          "lon": 34.55,
+          "lat": 49.59,
+          "certainty": "approximate",
+          "note": "现代位置的近似地图锚点，不表示已复原古战场边界、精确阵位或城市城垣。",
+          "placeRole": "battle",
+          "contextOnly": false,
+          "windows": [
+            {
+              "fromYear": 1709,
+              "toYear": 1709,
+              "label": "波尔塔瓦之战",
+              "sources": [
+                "poltava1709"
+              ]
+            }
+          ],
+          "phaseNote": "1709年才激活；来源有俄历与公历并列，不擅取某一天。",
+          "phaseSources": [
+            "poltava1709"
+          ]
+        },
+        {
+          "name": "尼斯塔德（今新考蓬基）",
+          "lon": 21.41,
+          "lat": 60.8,
+          "certainty": "approximate",
+          "note": "现代位置的近似地图锚点，不表示已复原古战场边界、精确阵位或城市城垣。",
+          "placeRole": "treaty",
+          "contextOnly": false,
+          "windows": [
+            {
+              "fromYear": 1721,
+              "toYear": 1721,
+              "label": "尼斯塔德和约",
+              "sources": [
+                "northern"
+              ]
+            }
+          ],
+          "phaseNote": "和平谈判结果节点，只标1721；不用战争图标，也不在1700预亮。",
+          "phaseSources": [
+            "northern"
+          ]
+        }
+      ],
+      "sources": [
+        "northern",
+        "narva1700",
+        "poltava1709"
+      ]
+    },
+    {
+      "id": "spanish_succession",
+      "title": "西班牙王位继承战争",
+      "startYear": 1701,
+      "endYear": 1714,
+      "category": "战争",
+      "summary": "波旁与哈布斯堡继承主张引发欧洲多国战争。",
+      "impact": "西班牙王位与欧洲领土安排重新分配。",
+      "people": [
+        "路易十四",
+        "腓力五世",
+        "查理六世"
+      ],
+      "places": [
+        {
+          "name": "马德里",
+          "lon": -3.7,
+          "lat": 40.42,
+          "certainty": "approximate",
+          "note": "现代位置的近似地图锚点，不表示已复原古战场边界、精确阵位或城市城垣。",
+          "placeRole": "political-center",
+          "contextOnly": true,
+          "windows": [],
+          "phaseNote": "马德里作为西班牙王位争夺的政治背景；进出与占领年份需独立核定，暂不作为活跃战役。",
+          "phaseSources": [
+            "succession"
+          ]
+        },
+        {
+          "name": "乌得勒支",
+          "lon": 5.12,
+          "lat": 52.09,
+          "certainty": "approximate",
+          "note": "现代位置的近似地图锚点，不表示已复原古战场边界、精确阵位或城市城垣。",
+          "placeRole": "treaty",
+          "contextOnly": false,
+          "windows": [
+            {
+              "fromYear": 1713,
+              "toYear": 1713,
+              "label": "乌得勒支和约",
+              "sources": [
+                "succession"
+              ]
+            }
+          ],
+          "phaseNote": "不是1701即开始的城市战斗；1714另有拉施塔特及巴登和约，不延长本点。",
+          "phaseSources": [
+            "succession"
+          ]
+        }
+      ],
+      "sources": [
+        "succession"
+      ],
+      "dateNote": "采用全欧1701—1714范围；英国参战叙事常从1702计、到1713停。"
+    },
+    {
+      "id": "russian_empire_1721",
+      "title": "彼得一世获全俄罗斯皇帝称号",
+      "startYear": 1721,
+      "endYear": 1721,
+      "category": "政制",
+      "summary": "在《尼斯塔德和约》庆典期间，彼得一世获授皇帝称号。",
+      "impact": "俄罗斯帝国的正式帝号由此展开。",
+      "people": [
+        "彼得一世"
+      ],
+      "places": [
+        {
+          "name": "圣彼得堡",
+          "lon": 30.31,
+          "lat": 59.94,
+          "certainty": "approximate",
+          "note": "现代位置近似锚点；非精确历史城垣、战线或完整战区。"
+        }
+      ],
+      "sources": [
+        "russianEmpireStart"
+      ],
+      "startDate": "1721-11-02",
+      "endDate": "1721-11-02",
+      "dateNote": "11月2日为公历；俄历为10月22日。",
+      "calendar": "gregorian-as-reported"
+    },
+    {
+      "id": "seven_years",
+      "title": "七年战争",
+      "startYear": 1756,
+      "endYear": 1763,
+      "category": "战争",
+      "summary": "欧洲战争与英法在北美、印度等地的冲突相互连接。",
+      "impact": "欧洲中部大体恢复战前格局，海外力量对比大幅改变。",
+      "people": [
+        "腓特烈二世",
+        "玛丽亚·特蕾莎"
+      ],
+      "places": [
+        {
+          "name": "萨克森（战区参照）",
+          "lon": 13.74,
+          "lat": 51.05,
+          "certainty": "approximate",
+          "note": "现代位置的近似地图锚点，不表示已复原古战场边界、精确阵位或城市城垣。",
+          "placeRole": "origin",
+          "contextOnly": false,
+          "windows": [
+            {
+              "fromYear": 1756,
+              "toYear": 1756,
+              "label": "普鲁士进攻萨克森",
+              "sources": [
+                "seven"
+              ]
+            }
+          ],
+          "phaseNote": "仅1756年这一大陆战争扩大的节点；坐标为萨克森区域参照，不是精确战场。",
+          "phaseSources": [
+            "seven"
+          ]
+        },
+        {
+          "name": "巴黎",
+          "lon": 2.35,
+          "lat": 48.86,
+          "certainty": "approximate",
+          "note": "现代位置的近似地图锚点，不表示已复原古战场边界、精确阵位或城市城垣。",
+          "placeRole": "treaty",
+          "contextOnly": false,
+          "windows": [
+            {
+              "fromYear": 1763,
+              "toYear": 1763,
+              "label": "巴黎和约",
+              "sources": [
+                "seven"
+              ]
+            }
+          ],
+          "phaseNote": "1763年和平条约地点，不得从1756年起标为巴黎战场。",
+          "phaseSources": [
+            "seven"
+          ]
+        }
+      ],
+      "sources": [
+        "seven"
+      ],
+      "dateNote": "欧洲阶段通行1756—1763；北美英法冲突此前已在1754年发生。"
+    },
+    {
+      "id": "bastille_1789",
+      "title": "巴黎民众攻占巴士底狱",
+      "startYear": 1789,
+      "endYear": 1789,
+      "category": "革命",
+      "summary": "巴黎民众攻占巴士底狱，王国政治危机迅速加深。",
+      "impact": "法国革命的权力中心与群众参与显著改变。",
+      "people": [
+        "路易十六"
+      ],
+      "places": [
+        {
+          "name": "巴黎巴士底广场一带",
+          "lon": 2.37,
+          "lat": 48.85,
+          "certainty": "approximate",
+          "note": "现代位置的近似地图锚点，不表示已复原古战场边界、精确阵位或城市城垣。"
+        }
+      ],
+      "sources": [
+        "bastille"
+      ],
+      "startDate": "1789-07-14",
+      "endDate": "1789-07-14",
+      "calendar": "gregorian-as-reported"
+    },
+    {
+      "id": "napoleonic_wars",
+      "title": "拿破仑战争",
+      "startYear": 1803,
+      "endYear": 1815,
+      "category": "战争",
+      "summary": "法国与反法同盟的多次战争波及欧洲广大地区。",
+      "impact": "帝国扩张、战败与战后重组改变欧洲政治版图。",
+      "people": [
+        "拿破仑一世"
+      ],
+      "places": [
+        {
+          "name": "巴黎",
+          "lon": 2.35,
+          "lat": 48.86,
+          "certainty": "approximate",
+          "note": "现代位置的近似地图锚点，不表示已复原古战场边界、精确阵位或城市城垣。",
+          "placeRole": "political-center",
+          "contextOnly": true,
+          "windows": [],
+          "phaseNote": "巴黎为法国政治中心；1803—1815间政制与占领状态变化，未把整个战争跨度直接变成城市战事。",
+          "phaseSources": [
+            "napoleonWar",
+            "waterloo"
+          ]
+        },
+        {
+          "name": "维也纳",
+          "lon": 16.37,
+          "lat": 48.21,
+          "certainty": "approximate",
+          "note": "现代位置的近似地图锚点，不表示已复原古战场边界、精确阵位或城市城垣。",
+          "placeRole": "theatre",
+          "contextOnly": false,
+          "windows": [
+            {
+              "fromYear": 1805,
+              "toYear": 1805,
+              "label": "法军占领维也纳",
+              "sources": [
+                "viennaOccupations",
+                "napoleonViennaWars"
+              ]
+            },
+            {
+              "fromYear": 1809,
+              "toYear": 1809,
+              "label": "法军再次占领维也纳",
+              "sources": [
+                "viennaOccupations",
+                "napoleonViennaWars"
+              ]
+            }
+          ],
+          "phaseNote": "两个不连续的占领年；1806—1808不能保持活跃。资料对进入日期表述有差异，只采用共同确认的年份。1814—1815的会议由独立事件处理。",
+          "phaseSources": [
+            "viennaOccupations",
+            "napoleonViennaWars"
+          ]
+        },
+        {
+          "name": "莫斯科",
+          "lon": 37.62,
+          "lat": 55.75,
+          "certainty": "approximate",
+          "note": "现代位置的近似地图锚点，不表示已复原古战场边界、精确阵位或城市城垣。",
+          "placeRole": "theatre",
+          "contextOnly": false,
+          "windows": [
+            {
+              "fromYear": 1812,
+              "toYear": 1812,
+              "label": "法军进入莫斯科及撤退",
+              "sources": [
+                "russianCampaign"
+              ]
+            }
+          ],
+          "phaseNote": "仅1812年；不因整场战争1803开始而预显莫斯科战事。",
+          "phaseSources": [
+            "russianCampaign"
+          ]
+        }
+      ],
+      "sources": [
+        "napoleonWar",
+        "waterloo",
+        "viennaOccupations",
+        "napoleonViennaWars",
+        "russianCampaign"
+      ],
+      "dateNote": "此处采用1803—1815狭义范围；若与1792年开始的法国革命战争合称，则是更长的战争序列。"
+    },
+    {
+      "id": "french_empire_1804",
+      "title": "法兰西第一帝国建立",
+      "startYear": 1804,
+      "endYear": 1804,
+      "category": "政制",
+      "summary": "元老院法令确立帝制，拿破仑获得皇帝地位。",
+      "impact": "不能把年末加冕仪式误作帝国法律上的创立日期。",
+      "people": [
+        "拿破仑一世"
+      ],
+      "places": [
+        {
+          "name": "巴黎",
+          "lon": 2.35,
+          "lat": 48.86,
+          "certainty": "approximate",
+          "note": "现代位置的近似地图锚点，不表示已复原古战场边界、精确阵位或城市城垣。"
+        }
+      ],
+      "sources": [
+        "napoleonEmpire"
+      ],
+      "startDate": "1804-05-18",
+      "endDate": "1804-05-18",
+      "calendar": "gregorian-as-reported"
+    },
+    {
+      "id": "napoleon_coronation",
+      "title": "拿破仑加冕",
+      "startYear": 1804,
+      "endYear": 1804,
+      "category": "政制",
+      "summary": "巴黎圣母院举行皇帝与皇后的加冕仪式。",
+      "impact": "仪式将革命后的政治权力与帝王象征结合。",
+      "people": [
+        "拿破仑一世",
+        "约瑟芬",
+        "庇护七世"
+      ],
+      "places": [
+        {
+          "name": "巴黎圣母院",
+          "lon": 2.35,
+          "lat": 48.85,
+          "certainty": "approximate",
+          "note": "现代位置的近似地图锚点，不表示已复原古战场边界、精确阵位或城市城垣。"
+        }
+      ],
+      "sources": [
+        "napoleonCoronation"
+      ],
+      "startDate": "1804-12-02",
+      "endDate": "1804-12-02",
+      "calendar": "gregorian-as-reported"
+    },
+    {
+      "id": "austerlitz",
+      "title": "奥斯特里茨之战",
+      "startYear": 1805,
+      "endYear": 1805,
+      "category": "战争",
+      "summary": "法军在摩拉维亚击败俄奥联军。",
+      "impact": "第三次反法同盟遭受决定性打击。",
+      "people": [
+        "拿破仑一世",
+        "亚历山大一世",
+        "弗朗茨二世"
+      ],
+      "places": [
+        {
+          "name": "奥斯特里茨／今斯拉夫科夫附近",
+          "lon": 16.76,
+          "lat": 49.13,
+          "certainty": "approximate",
+          "note": "现代位置的近似地图锚点，不表示已复原古战场边界、精确阵位或城市城垣。"
+        }
+      ],
+      "sources": [
+        "austerlitz"
+      ],
+      "startDate": "1805-12-02",
+      "endDate": "1805-12-02",
+      "calendar": "gregorian-as-reported"
+    },
+    {
+      "id": "russia_1812",
+      "title": "拿破仑远征俄国",
+      "startYear": 1812,
+      "endYear": 1812,
+      "category": "战争",
+      "summary": "法军侵入俄国，深入至莫斯科后撤退并遭受惨重损失。",
+      "impact": "法国在欧洲的军事优势开始崩解。",
+      "people": [
+        "拿破仑一世",
+        "亚历山大一世"
+      ],
+      "places": [
+        {
+          "name": "莫斯科",
+          "lon": 37.62,
+          "lat": 55.75,
+          "certainty": "approximate",
+          "note": "现代位置的近似地图锚点，不表示已复原古战场边界、精确阵位或城市城垣。"
+        },
+        {
+          "name": "维尔纽斯（撤退区域参照）",
+          "lon": 25.28,
+          "lat": 54.69,
+          "certainty": "approximate",
+          "note": "现代位置的近似地图锚点，不表示已复原古战场边界、精确阵位或城市城垣。"
+        }
+      ],
+      "sources": [
+        "russianCampaign"
+      ],
+      "dateNote": "不把军队灾难简单归因于单一严寒因素；作战、补给与疾病均需考虑。"
+    },
+    {
+      "id": "vienna_congress",
+      "title": "维也纳会议",
+      "startYear": 1814,
+      "endYear": 1815,
+      "category": "外交",
+      "summary": "欧洲列强在拿破仑初次战败后谈判战后秩序。",
+      "impact": "领土与王朝安排重组，形成新的大国均衡。",
+      "people": [
+        "梅特涅"
+      ],
+      "places": [
+        {
+          "name": "维也纳",
+          "lon": 16.37,
+          "lat": 48.21,
+          "certainty": "approximate",
+          "note": "现代位置的近似地图锚点，不表示已复原古战场边界、精确阵位或城市城垣。",
+          "placeRole": "treaty",
+          "contextOnly": false,
+          "windows": [
+            {
+              "fromYear": 1814,
+              "toYear": 1815,
+              "label": "维也纳会议",
+              "sources": [
+                "viennaCongress"
+              ]
+            }
+          ],
+          "phaseNote": "外交谈判中心；跨年会议与1805／1809占领分别显示。",
+          "phaseSources": [
+            "viennaCongress"
+          ]
+        }
+      ],
+      "sources": [
+        "viennaCongress"
+      ],
+      "dateNote": "会议跨1814—1815年，并非滑铁卢之后才开始。"
+    },
+    {
+      "id": "waterloo",
+      "title": "滑铁卢之战",
+      "startYear": 1815,
+      "endYear": 1815,
+      "category": "战争",
+      "summary": "威灵顿的多国联军与布吕歇尔的普军击败拿破仑。",
+      "impact": "百日王朝结束，拿破仑的帝国统治终结。",
+      "people": [
+        "拿破仑一世",
+        "威灵顿",
+        "布吕歇尔"
+      ],
+      "places": [
+        {
+          "name": "滑铁卢南部战场一带",
+          "lon": 4.41,
+          "lat": 50.68,
+          "certainty": "approximate",
+          "note": "现代位置的近似地图锚点，不表示已复原古战场边界、精确阵位或城市城垣。"
+        }
+      ],
+      "sources": [
+        "waterloo"
+      ],
+      "startDate": "1815-06-18",
+      "endDate": "1815-06-18",
+      "calendar": "gregorian-as-reported"
+    },
+    {
+      "id": "revolutions_1848",
+      "title": "欧洲1848—1849年革命",
+      "startYear": 1848,
+      "endYear": 1849,
+      "category": "革命",
+      "summary": "法国、德意志、意大利及哈布斯堡诸地爆发革命与改革运动。",
+      "impact": "自由、民族与社会诉求并存，许多革命最终遭镇压。",
+      "people": [],
+      "places": [
+        {
+          "name": "巴黎",
+          "lon": 2.35,
+          "lat": 48.86,
+          "certainty": "approximate",
+          "note": "现代位置的近似地图锚点，不表示已复原古战场边界、精确阵位或城市城垣。",
+          "placeRole": "origin",
+          "contextOnly": true,
+          "windows": [],
+          "phaseNote": "巴黎为1848革命的重要起点；当前引用材料尚未直接给出本点细分范围，暂为背景。",
+          "phaseSources": [
+            "revolution1848"
+          ]
+        },
+        {
+          "name": "柏林",
+          "lon": 13.4,
+          "lat": 52.52,
+          "certainty": "approximate",
+          "note": "现代位置的近似地图锚点，不表示已复原古战场边界、精确阵位或城市城垣。",
+          "placeRole": "origin",
+          "contextOnly": false,
+          "windows": [
+            {
+              "fromYear": 1848,
+              "toYear": 1848,
+              "label": "柏林三月街垒战",
+              "sources": [
+                "revolution1848"
+              ]
+            }
+          ],
+          "phaseNote": "1848年3月18日节点，采用年精度；不是1849也持续同一场柏林战斗。",
+          "phaseSources": [
+            "revolution1848"
+          ]
+        },
+        {
+          "name": "维也纳",
+          "lon": 16.37,
+          "lat": 48.21,
+          "certainty": "approximate",
+          "note": "现代位置的近似地图锚点，不表示已复原古战场边界、精确阵位或城市城垣。",
+          "placeRole": "origin",
+          "contextOnly": false,
+          "windows": [
+            {
+              "fromYear": 1848,
+              "toYear": 1848,
+              "label": "维也纳革命与街垒",
+              "sources": [
+                "vienna1848"
+              ]
+            }
+          ],
+          "phaseNote": "只激活机构记载的1848年；不以整个欧洲革命范围推断1849年仍在此处街战。",
+          "phaseSources": [
+            "vienna1848"
+          ]
+        },
+        {
+          "name": "法兰克福",
+          "lon": 8.68,
+          "lat": 50.11,
+          "certainty": "approximate",
+          "note": "现代位置的近似地图锚点，不表示已复原古战场边界、精确阵位或城市城垣。",
+          "placeRole": "political-center",
+          "contextOnly": false,
+          "windows": [
+            {
+              "fromYear": 1848,
+              "toYear": 1849,
+              "label": "法兰克福国民议会",
+              "sources": [
+                "revolution1848"
+              ]
+            }
+          ],
+          "phaseNote": "1848会议开始、1849宪法安排的政治进程；不是持续作战。",
+          "phaseSources": [
+            "revolution1848"
+          ]
+        }
+      ],
+      "sources": [
+        "revolution1848",
+        "vienna1848"
+      ]
+    },
+    {
+      "id": "crimean_war",
+      "title": "克里米亚战争",
+      "startYear": 1853,
+      "endYear": 1856,
+      "category": "战争",
+      "summary": "俄国与奥斯曼、英国、法国等国的战争扩展到克里米亚及其他战区。",
+      "impact": "欧洲均势与俄国的黑海地位受到影响。",
+      "people": [],
+      "places": [
+        {
+          "name": "塞瓦斯托波尔（战区参照）",
+          "lon": 33.53,
+          "lat": 44.62,
+          "certainty": "approximate",
+          "note": "现代位置的近似地图锚点，不表示已复原古战场边界、精确阵位或城市城垣。",
+          "placeRole": "battle",
+          "contextOnly": false,
+          "windows": [
+            {
+              "fromYear": 1854,
+              "toYear": 1855,
+              "label": "塞瓦斯托波尔围攻",
+              "sources": [
+                "crimeaSiege"
+              ]
+            }
+          ],
+          "phaseNote": "只显示围城阶段1854—1855，不从整场战争1853年即激活该市围城。",
+          "phaseSources": [
+            "crimeaSiege"
+          ]
+        }
+      ],
+      "sources": [
+        "crimea",
+        "crimeaSiege"
+      ],
+      "dateNote": "1853为俄奥斯曼战争起年；英国与法国在1854年参战。"
+    },
+    {
+      "id": "darwin_1859",
+      "title": "《物种起源》出版",
+      "startYear": 1859,
+      "endYear": 1859,
+      "category": "科学",
+      "summary": "达尔文以自然选择说明生物物种的演变。",
+      "impact": "自然史与人类认识自身位置的讨论深受影响。",
+      "people": [
+        "查尔斯·达尔文"
+      ],
+      "places": [
+        {
+          "name": "伦敦（出版地）",
+          "lon": -0.13,
+          "lat": 51.51,
+          "certainty": "approximate",
+          "note": "现代位置近似锚点；非精确历史城垣、战线或完整战区。"
+        }
+      ],
+      "sources": [
+        "darwin"
+      ],
+      "startDate": "1859-11-24",
+      "endDate": "1859-11-24",
+      "calendar": "gregorian-as-reported"
+    },
+    {
+      "id": "italy_1861",
+      "title": "意大利王国宣布成立",
+      "startYear": 1861,
+      "endYear": 1861,
+      "category": "政制",
+      "summary": "维托里奥·埃马努埃莱二世依法获得意大利国王称号。",
+      "impact": "新王国仍未包括威尼斯与罗马，统一过程继续。",
+      "people": [
+        "维托里奥·埃马努埃莱二世",
+        "加富尔",
+        "加里波第"
+      ],
+      "places": [
+        {
+          "name": "都灵",
+          "lon": 7.69,
+          "lat": 45.07,
+          "certainty": "approximate",
+          "note": "现代位置的近似地图锚点，不表示已复原古战场边界、精确阵位或城市城垣。"
+        }
+      ],
+      "sources": [
+        "italy",
+        "italyLimits"
+      ],
+      "startDate": "1861-03-17",
+      "endDate": "1861-03-17",
+      "calendar": "gregorian-as-reported"
+    },
+    {
+      "id": "franco_prussian",
+      "title": "普法战争",
+      "startYear": 1870,
+      "endYear": 1871,
+      "category": "战争",
+      "summary": "法国与普鲁士及其德意志盟邦交战，法兰西第二帝国覆亡。",
+      "impact": "德国统一推进，法国建立第三共和国。",
+      "people": [
+        "拿破仑三世",
+        "威廉一世",
+        "俾斯麦"
+      ],
+      "places": [
+        {
+          "name": "色当",
+          "lon": 4.94,
+          "lat": 49.7,
+          "certainty": "approximate",
+          "note": "现代位置的近似地图锚点，不表示已复原古战场边界、精确阵位或城市城垣。",
+          "placeRole": "battle",
+          "contextOnly": false,
+          "windows": [
+            {
+              "fromYear": 1870,
+              "toYear": 1870,
+              "label": "色当战役与投降",
+              "sources": [
+                "sedanParis"
+              ]
+            }
+          ],
+          "phaseNote": "1870节点；战斗与投降不同日，采用年精度避免混写。",
+          "phaseSources": [
+            "sedanParis"
+          ]
+        },
+        {
+          "name": "巴黎",
+          "lon": 2.35,
+          "lat": 48.86,
+          "certainty": "approximate",
+          "note": "现代位置的近似地图锚点，不表示已复原古战场边界、精确阵位或城市城垣。",
+          "placeRole": "battle",
+          "contextOnly": false,
+          "windows": [
+            {
+              "fromYear": 1870,
+              "toYear": 1871,
+              "label": "巴黎被围",
+              "sources": [
+                "sedanParis"
+              ]
+            }
+          ],
+          "phaseNote": "跨年围城，不把1871春巴黎公社自动并作同一围城。来源对起始日写法略有差异，保留年范围。",
+          "phaseSources": [
+            "sedanParis"
+          ]
+        }
+      ],
+      "sources": [
+        "francoPrussian",
+        "germany",
+        "sedanParis"
+      ]
+    },
+    {
+      "id": "german_empire",
+      "title": "凡尔赛德意志帝国宣告仪式",
+      "startYear": 1871,
+      "endYear": 1871,
+      "category": "政制",
+      "summary": "威廉一世在凡尔赛镜厅被宣告为德意志皇帝。",
+      "impact": "普鲁士主导的德意志统一以帝国形式确立。",
+      "people": [
+        "威廉一世",
+        "俾斯麦"
+      ],
+      "places": [
+        {
+          "name": "凡尔赛",
+          "lon": 2.12,
+          "lat": 48.8,
+          "certainty": "approximate",
+          "note": "现代位置的近似地图锚点，不表示已复原古战场边界、精确阵位或城市城垣。"
+        }
+      ],
+      "sources": [
+        "francoPrussian",
+        "germany"
+      ],
+      "startDate": "1871-01-18",
+      "endDate": "1871-01-18",
+      "dateNote": "这是宣告仪式日期；帝国宪制生效等法律节点另有日期。",
+      "calendar": "gregorian-as-reported"
+    },
+    {
+      "id": "sarajevo_1914",
+      "title": "萨拉热窝刺杀",
+      "startYear": 1914,
+      "endYear": 1914,
+      "category": "变局",
+      "summary": "奥匈皇储斐迪南大公与妻子遇刺，引发七月危机。",
+      "impact": "此后各国的一连串决策把危机扩大为战争。",
+      "people": [
+        "弗朗茨·斐迪南",
+        "加夫里洛·普林西普"
+      ],
+      "places": [
+        {
+          "name": "萨拉热窝",
+          "lon": 18.41,
+          "lat": 43.86,
+          "certainty": "approximate",
+          "note": "现代位置的近似地图锚点，不表示已复原古战场边界、精确阵位或城市城垣。"
+        }
+      ],
+      "sources": [
+        "ww1"
+      ],
+      "startDate": "1914-06-28",
+      "endDate": "1914-06-28",
+      "calendar": "gregorian-as-reported"
+    },
+    {
+      "id": "war_1914",
+      "title": "奥匈对塞尔维亚宣战，欧洲大战爆发",
+      "startYear": 1914,
+      "endYear": 1914,
+      "category": "战争",
+      "summary": "奥匈对塞尔维亚宣战，俄、德、法、英随后相继卷入战争。",
+      "impact": "欧洲既有秩序遭到全面冲击。",
+      "people": [],
+      "places": [
+        {
+          "name": "维也纳",
+          "lon": 16.37,
+          "lat": 48.21,
+          "certainty": "approximate",
+          "note": "现代位置的近似地图锚点，不表示已复原古战场边界、精确阵位或城市城垣。"
+        },
+        {
+          "name": "贝尔格莱德",
+          "lon": 20.46,
+          "lat": 44.82,
+          "certainty": "approximate",
+          "note": "现代位置的近似地图锚点，不表示已复原古战场边界、精确阵位或城市城垣。"
+        }
+      ],
+      "sources": [
+        "ww1",
+        "ww1Iwm"
+      ],
+      "startDate": "1914-07-28",
+      "dateNote": "这是战争起点；第一次世界大战持续至1918年，不能把1914当作战争结束年。endYear=1914仅用于此“爆发”事件，不代表战争持续区间。",
+      "calendar": "gregorian-as-reported"
+    },
+    {
+      "id": "first_world_war",
+      "title": "第一次世界大战",
+      "startYear": 1914,
+      "endYear": 1918,
+      "category": "战争",
+      "summary": "欧洲列强战争扩展为全球性冲突，陆海空战场与民众生活皆被卷入。",
+      "impact": "多个帝国瓦解，战后政治与和平安排继续多年。",
+      "people": [],
+      "places": [
+        {
+          "name": "西线（法国北部—比利时）",
+          "lon": 3.5,
+          "lat": 50.5,
+          "certainty": "approximate",
+          "note": "现代位置近似锚点；非精确历史城垣、战线或完整战区。",
+          "placeRole": "theatre",
+          "contextOnly": true,
+          "windows": [],
+          "phaseNote": "整个大战的广域战区参照，前线范围随年变化；当前点不具有逐年战线依据，不能使用活跃战役脉冲或据此着色疆域。",
+          "phaseSources": [
+            "ww1",
+            "napoleonWar",
+            "armistice"
+          ]
+        },
+        {
+          "name": "东线（东欧区域参照）",
+          "lon": 24,
+          "lat": 51,
+          "certainty": "approximate",
+          "note": "现代位置近似锚点；非精确历史城垣、战线或完整战区。",
+          "placeRole": "theatre",
+          "contextOnly": true,
+          "windows": [],
+          "phaseNote": "整个大战的广域战区参照，前线范围随年变化；当前点不具有逐年战线依据，不能使用活跃战役脉冲或据此着色疆域。",
+          "phaseSources": [
+            "ww1",
+            "napoleonWar",
+            "armistice"
+          ]
+        },
+        {
+          "name": "巴尔干（区域参照）",
+          "lon": 20.46,
+          "lat": 44.82,
+          "certainty": "approximate",
+          "note": "现代位置近似锚点；非精确历史城垣、战线或完整战区。",
+          "placeRole": "theatre",
+          "contextOnly": true,
+          "windows": [],
+          "phaseNote": "整个大战的广域战区参照，前线范围随年变化；当前点不具有逐年战线依据，不能使用活跃战役脉冲或据此着色疆域。",
+          "phaseSources": [
+            "ww1",
+            "napoleonWar",
+            "armistice"
+          ]
+        }
+      ],
+      "sources": [
+        "ww1",
+        "napoleonWar",
+        "armistice"
+      ],
+      "startDate": "1914-07-28",
+      "endDate": "1918-11-11",
+      "dateNote": "此范围采用通行战争分期；11月11日为协约国与德国停战，不表示所有战区冲突或正式和约在同日结束。",
+      "calendar": "gregorian-as-reported"
+    },
+    {
+      "id": "gallipoli_1915",
+      "title": "加里波利登陆与陆上战役",
+      "startYear": 1915,
+      "endYear": 1916,
+      "category": "战争",
+      "summary": "协约国军登陆半岛，试图打开达达尼尔海峡，但未能突破奥斯曼防线。",
+      "impact": "协约国最终撤离，战役留下巨大伤亡与长期纪念传统。",
+      "people": [
+        "伊恩·汉密尔顿",
+        "穆斯塔法·凯末尔"
+      ],
+      "places": [
+        {
+          "name": "安扎克湾",
+          "lon": 26.28,
+          "lat": 40.25,
+          "certainty": "approximate",
+          "note": "现代近似位置锚点，非完整历史战场范围。",
+          "placeRole": "theatre",
+          "contextOnly": false,
+          "windows": [
+            {
+              "fromYear": 1915,
+              "toYear": 1915,
+              "label": "安扎克登陆与撤离",
+              "sources": [
+                "gallipoli",
+                "gallipoliEvacuations"
+              ]
+            }
+          ],
+          "phaseNote": "1915年12月完成撤离，此点不能因战役总终点为1916而继续显示活跃。",
+          "phaseSources": [
+            "gallipoli",
+            "gallipoliEvacuations"
+          ]
+        },
+        {
+          "name": "赫勒斯角",
+          "lon": 26.18,
+          "lat": 40.05,
+          "certainty": "approximate",
+          "note": "现代近似位置锚点，非完整历史战场范围。",
+          "placeRole": "theatre",
+          "contextOnly": false,
+          "windows": [
+            {
+              "fromYear": 1915,
+              "toYear": 1916,
+              "label": "赫勒斯角登陆与撤离",
+              "sources": [
+                "gallipoli",
+                "gallipoliEvacuations"
+              ]
+            }
+          ],
+          "phaseNote": "此处部队至1916年1月才撤完，须与安扎克湾1915年底撤离区分。",
+          "phaseSources": [
+            "gallipoli",
+            "gallipoliEvacuations"
+          ]
+        }
+      ],
+      "sources": [
+        "gallipoli",
+        "gallipoliEvacuations"
+      ],
+      "startDate": "1915-04-25",
+      "endDate": "1916-01-09",
+      "dateNote": "这里标陆上登陆至赫勒斯最终撤离；此前海军作战不包含在4月25日起点内。",
+      "calendar": "gregorian-as-reported"
+    },
+    {
+      "id": "verdun_1916",
+      "title": "凡尔登战役",
+      "startYear": 1916,
+      "endYear": 1916,
+      "category": "战争",
+      "summary": "德军进攻凡尔登，法军坚守并在年末反攻。",
+      "impact": "长期消耗战成为第一次世界大战的重要象征。",
+      "people": [],
+      "places": [
+        {
+          "name": "凡尔登北部战场",
+          "lon": 5.42,
+          "lat": 49.21,
+          "certainty": "approximate",
+          "note": "现代近似位置锚点，非完整历史战场范围。"
+        }
+      ],
+      "sources": [
+        "verdun"
+      ],
+      "startDate": "1916-02-21",
+      "endDate": "1916-12-18",
+      "dateNote": "采用凡尔登纪念馆21日—18日范围；终点按年末法军反攻收束，而非一场单日会战。",
+      "calendar": "gregorian-as-reported"
+    },
+    {
+      "id": "somme_1916",
+      "title": "索姆河战役",
+      "startYear": 1916,
+      "endYear": 1916,
+      "category": "战争",
+      "summary": "英法联军在索姆河地区发动持续数月的攻势。",
+      "impact": "付出惨重代价仍未取得预期战略突破。",
+      "people": [],
+      "places": [
+        {
+          "name": "索姆河／蒂耶普瓦勒一带",
+          "lon": 2.69,
+          "lat": 50.05,
+          "certainty": "approximate",
+          "note": "现代近似位置锚点，非完整历史战场范围。"
+        }
+      ],
+      "sources": [
+        "somme"
+      ],
+      "startDate": "1916-07-01",
+      "endDate": "1916-11-18",
+      "calendar": "gregorian-as-reported"
+    },
+    {
+      "id": "russian_abdication_1917",
+      "title": "尼古拉二世退位",
+      "startYear": 1917,
+      "endYear": 1917,
+      "category": "革命",
+      "summary": "俄国皇帝在战争与革命危机中签署退位书。",
+      "impact": "罗曼诺夫君主统治终结，临时政府与苏维埃并存。",
+      "people": [
+        "尼古拉二世"
+      ],
+      "places": [
+        {
+          "name": "普斯科夫（退位书地点）",
+          "lon": 28.33,
+          "lat": 57.82,
+          "certainty": "approximate",
+          "note": "现代位置近似锚点；非精确历史城垣、战线或完整战区。"
+        },
+        {
+          "name": "彼得格勒",
+          "lon": 30.31,
+          "lat": 59.94,
+          "certainty": "approximate",
+          "note": "现代位置近似锚点；非精确历史城垣、战线或完整战区。"
+        }
+      ],
+      "sources": [
+        "russianAbdication"
+      ],
+      "startDate": "1917-03-15",
+      "endDate": "1917-03-15",
+      "dateNote": "公历3月15日，俄历3月2日；不能把二月革命和十月革命合并为一次事件。",
+      "calendar": "gregorian-as-reported"
+    },
+    {
+      "id": "russian_october_1917",
+      "title": "布尔什维克夺取临时政府权力",
+      "startYear": 1917,
+      "endYear": 1917,
+      "category": "革命",
+      "summary": "布尔什维克在彼得格勒等关键城市夺权。",
+      "impact": "苏维埃政府形成，随后仍有内战与长期重组。",
+      "people": [
+        "列宁",
+        "托洛茨基"
+      ],
+      "places": [
+        {
+          "name": "彼得格勒",
+          "lon": 30.31,
+          "lat": 59.94,
+          "certainty": "approximate",
+          "note": "现代位置近似锚点；非精确历史城垣、战线或完整战区。"
+        }
+      ],
+      "sources": [
+        "russianRevolution"
+      ],
+      "startDate": "1917-11-07",
+      "endDate": "1917-11-07",
+      "dateNote": "通称十月革命，公历为11月7日、俄历为10月25日；夺权过程不止一个瞬间。",
+      "calendar": "gregorian-as-reported"
+    },
+    {
+      "id": "armistice_1918",
+      "title": "贡比涅停战生效",
+      "startYear": 1918,
+      "endYear": 1918,
+      "category": "外交",
+      "summary": "协约国与德国签署停战协议，西线于当日11时停止交战。",
+      "impact": "这不是完整和平条约，其他地区的冲突并未全部结束。",
+      "people": [],
+      "places": [
+        {
+          "name": "贡比涅森林一带",
+          "lon": 2.91,
+          "lat": 49.42,
+          "certainty": "approximate",
+          "note": "现代位置近似锚点；非精确历史城垣、战线或完整战区。"
+        }
+      ],
+      "sources": [
+        "armistice",
+        "armisticeLimits"
+      ],
+      "startDate": "1918-11-11",
+      "endDate": "1918-11-11",
+      "calendar": "gregorian-as-reported"
+    },
+    {
+      "id": "justinian_codex_529",
+      "title": "第一版《查士丁尼法典》颁布",
+      "startYear": 529,
+      "endYear": 529,
+      "category": "社会",
+      "summary": "帝国整理历代敕令，颁布第一版法典，取代旧有法律汇编。",
+      "impact": "法律整理成为帝国治理与诉讼的重要基础。",
+      "people": [
+        "查士丁尼一世"
+      ],
+      "places": [
+        {
+          "name": "君士坦丁堡（颁布中心）",
+          "lon": 28.98,
+          "lat": 41.01,
+          "certainty": "approximate",
+          "note": "现代位置近似锚点，表示机构、出版、颁布或活动所在城市；不是领土、精确建筑坐标或历史线路。",
+          "placeRole": "political-center",
+          "contextOnly": false,
+          "windows": [
+            {
+              "fromYear": 529,
+              "toYear": 529,
+              "label": "第一版《查士丁尼法典》颁布",
+              "sources": [
+                "socialJustinianOxford"
+              ]
+            }
+          ],
+          "phaseNote": "单年节点；不从后续制度影响推导多年持续活动或疆域。",
+          "phaseSources": [
+            "socialJustinianOxford"
+          ]
+        }
+      ],
+      "sources": [
+        "socialJustinianOxford"
+      ],
+      "startDate": "0529-04-07",
+      "endDate": "0529-04-07",
+      "dateNote": "采用学术来源给出的颁布日，历史儒略历纪日；不作回推公历换算，也不等同所有法条同日生效。",
+      "calendar": "source-julian"
+    },
+    {
+      "id": "justinian_codex_534",
+      "title": "修订版《查士丁尼法典》颁布",
+      "startYear": 534,
+      "endYear": 534,
+      "category": "社会",
+      "summary": "修订法典纳入新敕令并取代529年版本，成为传世的法典文本。",
+      "impact": "这一法律传统经后世研究与传播持续影响欧洲法学。",
+      "people": [
+        "查士丁尼一世"
+      ],
+      "places": [
+        {
+          "name": "君士坦丁堡（颁布中心）",
+          "lon": 28.98,
+          "lat": 41.01,
+          "certainty": "approximate",
+          "note": "现代位置近似锚点，表示机构、出版、颁布或活动所在城市；不是领土、精确建筑坐标或历史线路。",
+          "placeRole": "political-center",
+          "contextOnly": false,
+          "windows": [
+            {
+              "fromYear": 534,
+              "toYear": 534,
+              "label": "修订版《查士丁尼法典》颁布",
+              "sources": [
+                "socialJustinianWyoming"
+              ]
+            }
+          ],
+          "phaseNote": "单年节点；不从后续制度影响推导多年持续活动或疆域。",
+          "phaseSources": [
+            "socialJustinianWyoming"
+          ]
+        }
+      ],
+      "sources": [
+        "socialJustinianWyoming"
+      ],
+      "startDate": "0534-11-16",
+      "endDate": "0534-11-16",
+      "dateNote": "这是Cordi颁布日，历史儒略历纪日；不与后续生效日混同。529年第一版已不传，534年版本传世。",
+      "calendar": "source-julian"
+    },
+    {
+      "id": "paris_statutes_1215",
+      "title": "巴黎学校共同体获得成文章程",
+      "startYear": 1215,
+      "endYear": 1215,
+      "category": "文化",
+      "summary": "罗贝尔·德·库尔松向巴黎师生颁布章程，规定教学与学习制度。",
+      "impact": "大学共同体的组织与学术规范逐步制度化。",
+      "people": [
+        "罗贝尔·德·库尔松"
+      ],
+      "places": [
+        {
+          "name": "巴黎（机构／颁布地点）",
+          "lon": 2.35,
+          "lat": 48.86,
+          "certainty": "approximate",
+          "note": "现代位置近似锚点，表示机构、出版、颁布或活动所在城市；不是领土、精确建筑坐标或历史线路。",
+          "placeRole": "political-center",
+          "contextOnly": false,
+          "windows": [
+            {
+              "fromYear": 1215,
+              "toYear": 1215,
+              "label": "巴黎学校共同体获得成文章程",
+              "sources": [
+                "socialParisStatutes"
+              ]
+            }
+          ],
+          "phaseNote": "单年节点；不从后续制度影响推导多年持续活动或疆域。",
+          "phaseSources": [
+            "socialParisStatutes"
+          ]
+        }
+      ],
+      "sources": [
+        "socialParisStatutes"
+      ],
+      "dateNote": "档案来源明确为1215年8月，只记年份；不把这份章程当作巴黎教学活动从无到有的唯一创校日。",
+      "calendar": "source-year"
+    },
+    {
+      "id": "naples_studium_1224",
+      "title": "腓特烈二世宣布设立那不勒斯学府",
+      "startYear": 1224,
+      "endYear": 1224,
+      "category": "文化",
+      "summary": "皇帝在公开信中宣布设立学府，吸引学生在王国内学习法律与诸艺。",
+      "impact": "高等教育与官员培养、王国治理建立紧密联系。",
+      "people": [
+        "腓特烈二世"
+      ],
+      "places": [
+        {
+          "name": "那不勒斯（办学城市）",
+          "lon": 14.27,
+          "lat": 40.85,
+          "certainty": "approximate",
+          "note": "现代位置近似锚点，表示机构、出版、颁布或活动所在城市；不是领土、精确建筑坐标或历史线路。",
+          "placeRole": "political-center",
+          "contextOnly": false,
+          "windows": [
+            {
+              "fromYear": 1224,
+              "toYear": 1224,
+              "label": "腓特烈二世宣布设立那不勒斯学府",
+              "sources": [
+                "socialNaplesLetter",
+                "socialNaplesHistory"
+              ]
+            }
+          ],
+          "phaseNote": "单年节点；不从后续制度影响推导多年持续活动或疆域。",
+          "phaseSources": [
+            "socialNaplesLetter",
+            "socialNaplesHistory"
+          ]
+        }
+      ],
+      "sources": [
+        "socialNaplesLetter",
+        "socialNaplesHistory"
+      ],
+      "dateNote": "1224年有传世文本支持；大学专题研究提示月份可能为6月或7月，因此不用常见的6月5日作为无争议精确日。",
+      "calendar": "source-year"
+    },
+    {
+      "id": "hanse_lubeck_resolution_1358",
+      "title": "汉萨城市共同制定贸易禁运",
+      "startYear": 1358,
+      "endYear": 1358,
+      "category": "社会",
+      "summary": "吕贝克会议制定对佛兰德等地的禁运条款，要求各城共同执行。",
+      "impact": "商人权益通过跨城市协商与集体规则维护。",
+      "people": [],
+      "places": [
+        {
+          "name": "吕贝克（城市会议地点）",
+          "lon": 10.69,
+          "lat": 53.87,
+          "certainty": "approximate",
+          "note": "现代位置近似锚点，表示机构、出版、颁布或活动所在城市；不是领土、精确建筑坐标或历史线路。",
+          "placeRole": "political-center",
+          "contextOnly": false,
+          "windows": [
+            {
+              "fromYear": 1358,
+              "toYear": 1358,
+              "label": "汉萨城市共同制定贸易禁运",
+              "sources": [
+                "socialHanseBoycott",
+                "socialHanseTranscription"
+              ]
+            }
+          ],
+          "phaseNote": "单年节点；不从后续制度影响推导多年持续活动或疆域。",
+          "phaseSources": [
+            "socialHanseBoycott",
+            "socialHanseTranscription"
+          ]
+        }
+      ],
+      "sources": [
+        "socialHanseBoycott",
+        "socialHanseTranscription"
+      ],
+      "startDate": "1358-01-20",
+      "endDate": "1358-01-20",
+      "dateNote": "历史儒略历纪日；以存世决议为节点，不把有争议的1356／1358“首次大会”问题硬定为汉萨建国日。",
+      "calendar": "source-julian"
+    },
+    {
+      "id": "royal_society_meeting_1660",
+      "title": "皇家学会前身举行首次会议",
+      "startYear": 1660,
+      "endYear": 1660,
+      "category": "科学",
+      "summary": "伦敦学者在雷恩讲座后决定组织交流，以观察和实验研究自然。",
+      "impact": "固定会议与通信网络帮助知识积累和验证。",
+      "people": [
+        "克里斯托弗·雷恩"
+      ],
+      "places": [
+        {
+          "name": "伦敦（机构／出版城市）",
+          "lon": -0.13,
+          "lat": 51.51,
+          "certainty": "approximate",
+          "note": "现代位置近似锚点，表示机构、出版、颁布或活动所在城市；不是领土、精确建筑坐标或历史线路。",
+          "placeRole": "political-center",
+          "contextOnly": false,
+          "windows": [
+            {
+              "fromYear": 1660,
+              "toYear": 1660,
+              "label": "皇家学会前身举行首次会议",
+              "sources": [
+                "socialRoyalSociety"
+              ]
+            }
+          ],
+          "phaseNote": "单年节点；不从后续制度影响推导多年持续活动或疆域。",
+          "phaseSources": [
+            "socialRoyalSociety"
+          ]
+        }
+      ],
+      "sources": [
+        "socialRoyalSociety"
+      ],
+      "startDate": "1660-11-28",
+      "endDate": "1660-11-28",
+      "dateNote": "沿用英国机构记载的儒略历月日；1660年会议与后来的皇家特许状不是同一节点。",
+      "calendar": "source-julian"
+    },
+    {
+      "id": "philosophical_transactions_1665",
+      "title": "《哲学汇刊》开始出版",
+      "startYear": 1665,
+      "endYear": 1665,
+      "category": "科学",
+      "summary": "奥尔登堡把学者通信与研究消息整理为定期印行的刊物。",
+      "impact": "印刷期刊为交流发现、记录优先权提供稳定渠道。",
+      "people": [
+        "亨利·奥尔登堡"
+      ],
+      "places": [
+        {
+          "name": "伦敦（机构／出版城市）",
+          "lon": -0.13,
+          "lat": 51.51,
+          "certainty": "approximate",
+          "note": "现代位置近似锚点，表示机构、出版、颁布或活动所在城市；不是领土、精确建筑坐标或历史线路。",
+          "placeRole": "origin",
+          "contextOnly": false,
+          "windows": [
+            {
+              "fromYear": 1665,
+              "toYear": 1665,
+              "label": "《哲学汇刊》开始出版",
+              "sources": [
+                "socialPhilosophicalTransactions",
+                "socialJournalHistory",
+                "socialJournalJulian"
+              ]
+            }
+          ],
+          "phaseNote": "单年节点；不从后续制度影响推导多年持续活动或疆域。",
+          "phaseSources": [
+            "socialPhilosophicalTransactions",
+            "socialJournalHistory",
+            "socialJournalJulian"
+          ]
+        }
+      ],
+      "sources": [
+        "socialPhilosophicalTransactions",
+        "socialJournalHistory",
+        "socialJournalJulian"
+      ],
+      "startDate": "1665-03-06",
+      "endDate": "1665-03-06",
+      "dateNote": "沿用学术机构通行日期：英国儒略历月日，年份规范为1665；不声称初刊已具备今日完整同行评审制度。",
+      "calendar": "source-julian"
+    },
+    {
+      "id": "paris_academy_1666",
+      "title": "巴黎科学院举行首次会议",
+      "startYear": 1666,
+      "endYear": 1666,
+      "category": "科学",
+      "summary": "科尔贝尔组织学者，在巴黎国王图书馆举行科学院首次会议。",
+      "impact": "国家支持的集体研究与科学咨询形成长期制度。",
+      "people": [
+        "让-巴蒂斯特·科尔贝尔"
+      ],
+      "places": [
+        {
+          "name": "巴黎（机构／颁布地点）",
+          "lon": 2.35,
+          "lat": 48.86,
+          "certainty": "approximate",
+          "note": "现代位置近似锚点，表示机构、出版、颁布或活动所在城市；不是领土、精确建筑坐标或历史线路。",
+          "placeRole": "political-center",
+          "contextOnly": false,
+          "windows": [
+            {
+              "fromYear": 1666,
+              "toYear": 1666,
+              "label": "巴黎科学院举行首次会议",
+              "sources": [
+                "socialParisAcademy"
+              ]
+            }
+          ],
+          "phaseNote": "单年节点；不从后续制度影响推导多年持续活动或疆域。",
+          "phaseSources": [
+            "socialParisAcademy"
+          ]
+        }
+      ],
+      "sources": [
+        "socialParisAcademy"
+      ],
+      "startDate": "1666-12-22",
+      "endDate": "1666-12-22",
+      "dateNote": "法国已采用格里高利历；1666年首次会议不能与1699年章程改革混同。",
+      "calendar": "gregorian-as-reported"
+    },
+    {
+      "id": "watt_condenser_patent_1769",
+      "title": "瓦特取得分离冷凝器相关专利",
+      "startYear": 1769,
+      "endYear": 1769,
+      "category": "科学",
+      "summary": "专利提出让汽缸保持热、在独立容器中冷凝蒸汽，以减少燃料消耗。",
+      "impact": "蒸汽动力效率改良推动后续工业应用。",
+      "people": [
+        "詹姆斯·瓦特"
+      ],
+      "places": [
+        {
+          "name": "伦敦（机构／出版城市）",
+          "lon": -0.13,
+          "lat": 51.51,
+          "certainty": "approximate",
+          "note": "现代位置近似锚点，表示机构、出版、颁布或活动所在城市；不是领土、精确建筑坐标或历史线路。",
+          "placeRole": "origin",
+          "contextOnly": false,
+          "windows": [
+            {
+              "fromYear": 1769,
+              "toYear": 1769,
+              "label": "瓦特取得分离冷凝器相关专利",
+              "sources": [
+                "socialWattPatent"
+              ]
+            }
+          ],
+          "phaseNote": "单年节点；不从后续制度影响推导多年持续活动或疆域。",
+          "phaseSources": [
+            "socialWattPatent"
+          ]
+        }
+      ],
+      "sources": [
+        "socialWattPatent"
+      ],
+      "startDate": "1769-01-05",
+      "endDate": "1769-01-05",
+      "dateNote": "格里高利历；专利日期为1月5日，登记说明书日期为4月29日。伦敦是专利法律办理城市参照，不是发明实验地。",
+      "calendar": "gregorian-as-reported"
+    },
+    {
+      "id": "jenner_vaccination_1796",
+      "title": "詹纳开展牛痘接种实验",
+      "startYear": 1796,
+      "endYear": 1796,
+      "category": "科学",
+      "summary": "詹纳为詹姆斯·菲普斯接种牛痘材料，随后检验其对天花的保护作用。",
+      "impact": "这一实验成为疫苗预防天花的重要历史节点。",
+      "people": [
+        "爱德华·詹纳",
+        "詹姆斯·菲普斯",
+        "萨拉·内尔姆斯"
+      ],
+      "places": [
+        {
+          "name": "伯克利（詹纳实验所在城镇）",
+          "lon": -2.46,
+          "lat": 51.69,
+          "certainty": "approximate",
+          "note": "现代位置近似锚点，表示机构、出版、颁布或活动所在城市；不是领土、精确建筑坐标或历史线路。",
+          "placeRole": "origin",
+          "contextOnly": false,
+          "windows": [
+            {
+              "fromYear": 1796,
+              "toYear": 1796,
+              "label": "詹纳开展牛痘接种实验",
+              "sources": [
+                "socialJennerHouse",
+                "socialJennerWellcome"
+              ]
+            }
+          ],
+          "phaseNote": "单年节点；不从后续制度影响推导多年持续活动或疆域。",
+          "phaseSources": [
+            "socialJennerHouse",
+            "socialJennerWellcome"
+          ]
+        }
+      ],
+      "sources": [
+        "socialJennerHouse",
+        "socialJennerWellcome"
+      ],
+      "startDate": "1796-05-14",
+      "endDate": "1796-05-14",
+      "dateNote": "格里高利历；5月14日是牛痘接种，后续检验另在7月，不能把整个实验过程说成一天完成。",
+      "calendar": "gregorian-as-reported"
+    },
+    {
+      "id": "french_civil_code_1804",
+      "title": "法国《民法典》颁布",
+      "startYear": 1804,
+      "endYear": 1804,
+      "category": "社会",
+      "summary": "各项民事法律合并为法典，统一规定人身、财产和家庭关系。",
+      "impact": "成文法典影响欧洲及其他地区，但保留了当时的家庭与性别不平等。",
+      "people": [
+        "拿破仑·波拿巴"
+      ],
+      "places": [
+        {
+          "name": "巴黎（机构／颁布地点）",
+          "lon": 2.35,
+          "lat": 48.86,
+          "certainty": "approximate",
+          "note": "现代位置近似锚点，表示机构、出版、颁布或活动所在城市；不是领土、精确建筑坐标或历史线路。",
+          "placeRole": "political-center",
+          "contextOnly": false,
+          "windows": [
+            {
+              "fromYear": 1804,
+              "toYear": 1804,
+              "label": "法国《民法典》颁布",
+              "sources": [
+                "socialFrenchCivilCode",
+                "socialCivilCodeFamily"
+              ]
+            }
+          ],
+          "phaseNote": "单年节点；不从后续制度影响推导多年持续活动或疆域。",
+          "phaseSources": [
+            "socialFrenchCivilCode",
+            "socialCivilCodeFamily"
+          ]
+        }
+      ],
+      "sources": [
+        "socialFrenchCivilCode",
+        "socialCivilCodeFamily"
+      ],
+      "startDate": "1804-03-21",
+      "endDate": "1804-03-21",
+      "dateNote": "格里高利历1804年3月21日，对应法国共和历十二年风月30日；不与5月帝国建立或12月加冕混同。",
+      "calendar": "gregorian-as-reported"
+    },
+    {
+      "id": "liverpool_manchester_railway_1830",
+      "title": "利物浦—曼彻斯特铁路开通",
+      "startYear": 1830,
+      "endYear": 1830,
+      "category": "社会",
+      "summary": "两座工业城市之间的铁路举行通车仪式，蒸汽列车运输进入新阶段。",
+      "impact": "城市联系、货物流通与人们的出行方式随之改变。",
+      "people": [],
+      "places": [
+        {
+          "name": "利物浦（铁路端点参照）",
+          "lon": -2.97,
+          "lat": 53.4,
+          "certainty": "approximate",
+          "note": "现代位置近似锚点，表示机构、出版、颁布或活动所在城市；不是领土、精确建筑坐标或历史线路。",
+          "placeRole": "origin",
+          "contextOnly": false,
+          "windows": [
+            {
+              "fromYear": 1830,
+              "toYear": 1830,
+              "label": "利物浦—曼彻斯特铁路开通",
+              "sources": [
+                "socialLiverpoolRailway"
+              ]
+            }
+          ],
+          "phaseNote": "单年节点；不从后续制度影响推导多年持续活动或疆域。",
+          "phaseSources": [
+            "socialLiverpoolRailway"
+          ]
+        },
+        {
+          "name": "曼彻斯特（铁路端点参照）",
+          "lon": -2.25,
+          "lat": 53.48,
+          "certainty": "approximate",
+          "note": "现代位置近似锚点，表示机构、出版、颁布或活动所在城市；不是领土、精确建筑坐标或历史线路。",
+          "placeRole": "origin",
+          "contextOnly": false,
+          "windows": [
+            {
+              "fromYear": 1830,
+              "toYear": 1830,
+              "label": "利物浦—曼彻斯特铁路开通",
+              "sources": [
+                "socialLiverpoolRailway"
+              ]
+            }
+          ],
+          "phaseNote": "单年节点；不从后续制度影响推导多年持续活动或疆域。",
+          "phaseSources": [
+            "socialLiverpoolRailway"
+          ]
+        }
+      ],
+      "sources": [
+        "socialLiverpoolRailway"
+      ],
+      "startDate": "1830-09-15",
+      "endDate": "1830-09-15",
+      "dateNote": "格里高利历；两点只是铁路端点参照，不连成未经复原的精确历史线路。",
+      "calendar": "gregorian-as-reported"
+    },
+    {
+      "id": "metropolitan_railway_1863",
+      "title": "伦敦地下铁路向公众开放",
+      "startYear": 1863,
+      "endYear": 1863,
+      "category": "社会",
+      "summary": "大都会铁路开始载客，连接帕丁顿与法灵顿街一线。",
+      "impact": "地下交通逐步改变大城市的通勤与空间组织。",
+      "people": [],
+      "places": [
+        {
+          "name": "伦敦（机构／出版城市）",
+          "lon": -0.13,
+          "lat": 51.51,
+          "certainty": "approximate",
+          "note": "现代位置近似锚点，表示机构、出版、颁布或活动所在城市；不是领土、精确建筑坐标或历史线路。",
+          "placeRole": "origin",
+          "contextOnly": false,
+          "windows": [
+            {
+              "fromYear": 1863,
+              "toYear": 1863,
+              "label": "伦敦地下铁路向公众开放",
+              "sources": [
+                "socialLondonUnderground"
+              ]
+            }
+          ],
+          "phaseNote": "单年节点；不从后续制度影响推导多年持续活动或疆域。",
+          "phaseSources": [
+            "socialLondonUnderground"
+          ]
+        }
+      ],
+      "sources": [
+        "socialLondonUnderground"
+      ],
+      "startDate": "1863-01-10",
+      "endDate": "1863-01-10",
+      "dateNote": "格里高利历；此为向公众开放日，区别于前一日的庆典或试乘。最初使用蒸汽牵引。",
+      "calendar": "gregorian-as-reported"
+    },
+    {
+      "id": "girton_hitchin_1869",
+      "title": "女子学院在希钦开课",
+      "startYear": 1869,
+      "endYear": 1869,
+      "category": "文化",
+      "summary": "后来成为格顿学院的女子学院在本斯洛庄园开办，首批女生入学。",
+      "impact": "女性大学程度教育扩大，但当时仍不能获得剑桥学位。",
+      "people": [],
+      "places": [
+        {
+          "name": "希钦（本斯洛庄园办学地）",
+          "lon": -0.27,
+          "lat": 51.95,
+          "certainty": "approximate",
+          "note": "现代位置近似锚点，表示机构、出版、颁布或活动所在城市；不是领土、精确建筑坐标或历史线路。",
+          "placeRole": "origin",
+          "contextOnly": false,
+          "windows": [
+            {
+              "fromYear": 1869,
+              "toYear": 1869,
+              "label": "女子学院在希钦开课",
+              "sources": [
+                "socialGirtonOpening",
+                "socialGirtonStudents"
+              ]
+            }
+          ],
+          "phaseNote": "单年节点；不从后续制度影响推导多年持续活动或疆域。",
+          "phaseSources": [
+            "socialGirtonOpening",
+            "socialGirtonStudents"
+          ]
+        }
+      ],
+      "sources": [
+        "socialGirtonOpening",
+        "socialGirtonStudents"
+      ],
+      "startDate": "1869-10-16",
+      "endDate": "1869-10-16",
+      "dateNote": "格里高利历；1869年的地点是希钦，不是后来迁入的剑桥附近格顿校址。",
+      "calendar": "gregorian-as-reported"
+    },
+    {
+      "id": "london_women_degree_access_1878",
+      "title": "伦敦大学向女性开放学位资格",
+      "startYear": 1878,
+      "endYear": 1878,
+      "category": "社会",
+      "summary": "补充特许状使女性能够按与男性相同条件参加各类学位考试。",
+      "impact": "取得学位的制度障碍被突破，实际毕业仍需要完成学习与考试。",
+      "people": [],
+      "places": [
+        {
+          "name": "伦敦（机构／出版城市）",
+          "lon": -0.13,
+          "lat": 51.51,
+          "certainty": "approximate",
+          "note": "现代位置近似锚点，表示机构、出版、颁布或活动所在城市；不是领土、精确建筑坐标或历史线路。",
+          "placeRole": "political-center",
+          "contextOnly": false,
+          "windows": [
+            {
+              "fromYear": 1878,
+              "toYear": 1878,
+              "label": "伦敦大学向女性开放学位资格",
+              "sources": [
+                "socialLondonWomenCharter",
+                "socialLondonFirstGraduates"
+              ]
+            }
+          ],
+          "phaseNote": "单年节点；不从后续制度影响推导多年持续活动或疆域。",
+          "phaseSources": [
+            "socialLondonWomenCharter",
+            "socialLondonFirstGraduates"
+          ]
+        }
+      ],
+      "sources": [
+        "socialLondonWomenCharter",
+        "socialLondonFirstGraduates"
+      ],
+      "dateNote": "1878是制度开放年；不能说这一年首批女生已经毕业，首批女性文学学士毕业于1880年。",
+      "calendar": "source-year"
+    },
+    {
+      "id": "finland_suffrage_reform_1906",
+      "title": "芬兰改革议会与选举权",
+      "startYear": 1906,
+      "endYear": 1906,
+      "category": "社会",
+      "summary": "一院制议会取代等级议会，女性获得议会选举权与参选资格。",
+      "impact": "政治参与扩大，1907年选举中19名女性成为议员。",
+      "people": [],
+      "places": [
+        {
+          "name": "赫尔辛基（芬兰议会改革参照）",
+          "lon": 24.94,
+          "lat": 60.17,
+          "certainty": "approximate",
+          "note": "现代位置近似锚点，表示机构、出版、颁布或活动所在城市；不是领土、精确建筑坐标或历史线路。",
+          "placeRole": "political-center",
+          "contextOnly": false,
+          "windows": [
+            {
+              "fromYear": 1906,
+              "toYear": 1906,
+              "label": "芬兰改革议会与选举权",
+              "sources": [
+                "socialFinlandRights",
+                "socialFinlandLaw"
+              ]
+            }
+          ],
+          "phaseNote": "单年节点；不从后续制度影响推导多年持续活动或疆域。",
+          "phaseSources": [
+            "socialFinlandRights",
+            "socialFinlandLaw"
+          ]
+        }
+      ],
+      "sources": [
+        "socialFinlandRights",
+        "socialFinlandLaw"
+      ],
+      "dateNote": "只按确证改革年1906展示；芬兰当时是俄罗斯帝国治下自治大公国，首次新制选举在1907年，勿提前显示女性已当选。",
+      "calendar": "source-year"
+    }
+  ],
+  "reviewNotes": [
+    "机构材料本身也可能简化：Met罗马年表概览把476与东哥特合并叙述，事件采用其详细条目中的奥多亚克，并注明分期限制。",
+    "威斯特伐利亚和约的10月14/24是历法差，不是两次签署。",
+    "路德钉门叙事与喷发的具体月日不当作无争议事实。",
+    "1347—1353为黑死病广域第一波范围，各地流行与终止年份不同。",
+    "王朝存续条带或领土图需要另外的地图依据，这份素材只为事件与地点锚点提供证据。",
+    "穆希的精确战场有大学与国家博物馆持续研究，只给区域锚点；988受洗未硬贴地点。",
+    "711进入伊比利亚只标年份，不照抄机构页可能混合登陆日与瓜达莱特战役日的细节。",
+    "Exact historical dates remain literal source dates; no Date.parse conversion to a proleptic Gregorian calendar is performed."
+  ],
+  "spans": [
+    {
+      "id": "greek_classical",
+      "title": "希腊城邦世界（观察段）",
+      "startYear": -499,
+      "endYear": -323,
+      "kind": "regional-period",
+      "region": "爱琴海",
+      "sources": [
+        "greek"
+      ],
+      "note": "本篇从前499年开始，非希腊文明或城邦制度的创立年；并存城邦不等于统一国家。",
+      "regionAnchor": {
+        "lon": 23,
+        "lat": 39,
+        "label": "希腊城邦",
+        "note": "地区文字的近似排版锚点，不表示首都、国界或整个地区的主权；存续与性质以条带所附来源为准。"
+      }
+    },
+    {
+      "id": "hellenistic",
+      "title": "希腊化时代",
+      "startYear": -323,
+      "endYear": -30,
+      "kind": "regional-period",
+      "region": "东地中海",
+      "sources": [
+        "alexander"
+      ],
+      "note": "采用亚历山大去世至克娄巴特拉去世的常见分期；诸王国疆域持续变化。",
+      "regionAnchor": {
+        "lon": 30,
+        "lat": 36,
+        "label": "希腊化诸国",
+        "note": "地区文字的近似排版锚点，不表示首都、国界或整个地区的主权；存续与性质以条带所附来源为准。"
+      }
+    },
+    {
+      "id": "roman_republic_observed",
+      "title": "罗马共和国（观察段）",
+      "startYear": -264,
+      "endYear": -27,
+      "kind": "observed-polity",
+      "region": "意大利／地中海",
+      "sources": [
+        "romanRepublic"
+      ],
+      "note": "从文字与历史记录较充足的布匿战争阶段切入，不把传统前509建国年当作本条已核实的精确节点。",
+      "regionAnchor": {
+        "lon": 12.5,
+        "lat": 42.5,
+        "label": "罗马共和国",
+        "note": "地区文字的近似排版锚点，不表示首都、国界或整个地区的主权；存续与性质以条带所附来源为准。"
+      }
+    },
+    {
+      "id": "roman_imperial",
+      "title": "罗马帝政与东西共治",
+      "startYear": -27,
+      "endYear": 395,
+      "kind": "institution",
+      "region": "地中海",
+      "sources": [
+        "romanRepublic",
+        "romanEmpire"
+      ],
+      "note": "前27为元首制常用起点；395为本条分期，不表示罗马帝国此后全部灭亡。",
+      "regionAnchor": {
+        "lon": 13,
+        "lat": 42.3,
+        "label": "罗马帝政",
+        "note": "地区文字的近似排版锚点，不表示首都、国界或整个地区的主权；存续与性质以条带所附来源为准。"
+      }
+    },
+    {
+      "id": "west_roman",
+      "title": "西罗马帝国",
+      "startYear": 395,
+      "endYear": 476,
+      "kind": "polity",
+      "region": "西地中海",
+      "sources": [
+        "romanEmpire"
+      ],
+      "note": "采用最后一轮东西分治至476意大利皇帝被废的通行观察区间，保留尼波斯问题。",
+      "regionAnchor": {
+        "lon": 10,
+        "lat": 44,
+        "label": "西部帝廷",
+        "note": "地区文字的近似排版锚点，不表示首都、国界或整个地区的主权；存续与性质以条带所附来源为准。"
+      }
+    },
+    {
+      "id": "east_roman",
+      "title": "东罗马帝国（1204年前）",
+      "startYear": 395,
+      "endYear": 1204,
+      "kind": "polity",
+      "region": "东地中海",
+      "sources": [
+        "romanEmpire",
+        "balkanMedieval"
+      ],
+      "note": "东罗马承继罗马制度；395是编年观察分界，非突然建国。1204首都失陷，继承政权仍存在。",
+      "regionAnchor": {
+        "lon": 29.1,
+        "lat": 41.7,
+        "label": "东罗马",
+        "note": "地区文字的近似排版锚点，不表示首都、国界或整个地区的主权；存续与性质以条带所附来源为准。"
+      }
+    },
+    {
+      "id": "nicaea",
+      "title": "尼西亚帝国",
+      "startYear": 1204,
+      "endYear": 1261,
+      "kind": "polity",
+      "region": "安纳托利亚西部",
+      "sources": [
+        "balkanMedieval"
+      ],
+      "note": "1204后东罗马继承政权之一，1261重获君士坦丁堡。",
+      "regionAnchor": {
+        "lon": 30.5,
+        "lat": 39.5,
+        "label": "尼西亚",
+        "note": "地区文字的近似排版锚点，不表示首都、国界或整个地区的主权；存续与性质以条带所附来源为准。"
+      }
+    },
+    {
+      "id": "latin_empire",
+      "title": "君士坦丁堡拉丁帝国",
+      "startYear": 1204,
+      "endYear": 1261,
+      "kind": "polity",
+      "region": "海峡地区",
+      "sources": [
+        "balkanMedieval"
+      ],
+      "note": "只标在君士坦丁堡的统治区间，不把整个旧东罗马疆域当作实际控制区。",
+      "regionAnchor": {
+        "lon": 28,
+        "lat": 42.2,
+        "label": "拉丁帝国",
+        "note": "地区文字的近似排版锚点，不表示首都、国界或整个地区的主权；存续与性质以条带所附来源为准。"
+      }
+    },
+    {
+      "id": "restored_byzantium",
+      "title": "复都后的东罗马帝国",
+      "startYear": 1261,
+      "endYear": 1453,
+      "kind": "polity",
+      "region": "东地中海",
+      "sources": [
+        "balkanMedieval",
+        "ottoman"
+      ],
+      "note": "1261恢复首都至1453失陷；不吞并特拉比松等另有王统的政权。",
+      "regionAnchor": {
+        "lon": 29.1,
+        "lat": 41.7,
+        "label": "东罗马",
+        "note": "地区文字的近似排版锚点，不表示首都、国界或整个地区的主权；存续与性质以条带所附来源为准。"
+      }
+    },
+    {
+      "id": "charlemagne_empire",
+      "title": "加洛林帝国（三分前观察段）",
+      "startYear": 800,
+      "endYear": 843,
+      "kind": "observed-polity",
+      "region": "西欧／中欧",
+      "sources": [
+        "charlemagne",
+        "carolingian"
+      ],
+      "note": "800加冕到843凡尔登分割；加洛林王朝及皇帝头衔并未在843全部消失。",
+      "regionAnchor": {
+        "lon": 8,
+        "lat": 48,
+        "label": "加洛林帝国",
+        "note": "地区文字的近似排版锚点，不表示首都、国界或整个地区的主权；存续与性质以条带所附来源为准。"
+      }
+    },
+    {
+      "id": "holy_roman",
+      "title": "神圣罗马帝国",
+      "startYear": 962,
+      "endYear": 1806,
+      "kind": "institution",
+      "region": "中欧",
+      "sources": [
+        "carolingian"
+      ],
+      "note": "帝国的制度与领土结构随时代变化，条带不代表中央始终直接控制全部地区。",
+      "regionAnchor": {
+        "lon": 10.5,
+        "lat": 50.5,
+        "label": "神圣罗马帝国",
+        "note": "地区文字的近似排版锚点，不表示首都、国界或整个地区的主权；存续与性质以条带所附来源为准。"
+      }
+    },
+    {
+      "id": "capetian",
+      "title": "法国卡佩王朝（直系）",
+      "startYear": 987,
+      "endYear": 1328,
+      "kind": "dynasty",
+      "region": "法国",
+      "sources": [
+        "franceMedieval"
+      ],
+      "note": "直系卡佩王统；瓦卢瓦与波旁仍属广义卡佩家族支系。",
+      "regionAnchor": {
+        "lon": 2.5,
+        "lat": 47,
+        "label": "卡佩王朝",
+        "note": "地区文字的近似排版锚点，不表示首都、国界或整个地区的主权；存续与性质以条带所附来源为准。"
+      }
+    },
+    {
+      "id": "valois",
+      "title": "法国瓦卢瓦王朝",
+      "startYear": 1328,
+      "endYear": 1589,
+      "kind": "dynasty",
+      "region": "法国",
+      "sources": [
+        "franceRenaissance"
+      ],
+      "note": "王朝存续不等于各年疆域相同。",
+      "regionAnchor": {
+        "lon": 2.5,
+        "lat": 47,
+        "label": "瓦卢瓦王朝",
+        "note": "地区文字的近似排版锚点，不表示首都、国界或整个地区的主权；存续与性质以条带所附来源为准。"
+      }
+    },
+    {
+      "id": "bourbon",
+      "title": "法国波旁王朝（革命前）",
+      "startYear": 1589,
+      "endYear": 1792,
+      "kind": "dynasty",
+      "region": "法国",
+      "sources": [
+        "franceRenaissance"
+      ],
+      "note": "标首次王朝统治段；1814后复辟不并入同一连续条带。",
+      "regionAnchor": {
+        "lon": 2.5,
+        "lat": 47,
+        "label": "波旁王朝",
+        "note": "地区文字的近似排版锚点，不表示首都、国界或整个地区的主权；存续与性质以条带所附来源为准。"
+      }
+    },
+    {
+      "id": "norman_england",
+      "title": "英格兰诺曼王朝",
+      "startYear": 1066,
+      "endYear": 1154,
+      "kind": "dynasty",
+      "region": "英格兰",
+      "sources": [
+        "englandMedieval"
+      ],
+      "note": "为英格兰王统，不把苏格兰、爱尔兰同时视作其统一王国。",
+      "regionAnchor": {
+        "lon": -1.8,
+        "lat": 53,
+        "label": "诺曼王统",
+        "note": "地区文字的近似排版锚点，不表示首都、国界或整个地区的主权；存续与性质以条带所附来源为准。"
+      }
+    },
+    {
+      "id": "plantagenet",
+      "title": "英格兰金雀花王统",
+      "startYear": 1154,
+      "endYear": 1485,
+      "kind": "dynasty",
+      "region": "英格兰",
+      "sources": [
+        "englandMedieval",
+        "englandTudor"
+      ],
+      "note": "采用包括兰开斯特、约克两支的广义金雀花范围，不能称期间没有王统争夺。",
+      "regionAnchor": {
+        "lon": -1.8,
+        "lat": 53,
+        "label": "金雀花王统",
+        "note": "地区文字的近似排版锚点，不表示首都、国界或整个地区的主权；存续与性质以条带所附来源为准。"
+      }
+    },
+    {
+      "id": "tudor",
+      "title": "英格兰都铎王朝",
+      "startYear": 1485,
+      "endYear": 1603,
+      "kind": "dynasty",
+      "region": "英格兰",
+      "sources": [
+        "englandTudor"
+      ],
+      "note": "英格兰王朝区间，威尔士和爱尔兰地位另有变化。",
+      "regionAnchor": {
+        "lon": -1.8,
+        "lat": 53,
+        "label": "都铎王朝",
+        "note": "地区文字的近似排版锚点，不表示首都、国界或整个地区的主权；存续与性质以条带所附来源为准。"
+      }
+    },
+    {
+      "id": "nasrid_granada",
+      "title": "格拉纳达纳斯里王朝",
+      "startYear": 1238,
+      "endYear": 1492,
+      "kind": "dynasty",
+      "region": "伊比利亚",
+      "sources": [
+        "iberia"
+      ],
+      "note": "从1238格拉纳达中心阶段计；其他年表以1232王朝兴起为起点，两者不能无说明混用。",
+      "regionAnchor": {
+        "lon": -3,
+        "lat": 37,
+        "label": "格拉纳达",
+        "note": "地区文字的近似排版锚点，不表示首都、国界或整个地区的主权；存续与性质以条带所附来源为准。"
+      }
+    },
+    {
+      "id": "portugal_kingdom",
+      "title": "葡萄牙王国",
+      "startYear": 1139,
+      "endYear": 1910,
+      "kind": "polity",
+      "region": "伊比利亚",
+      "sources": [
+        "iberia"
+      ],
+      "note": "1139为称王节点；王国获得承认、疆域确定与独立程度仍有后续过程。条带不能理解为各时期独立程度始终相同。",
+      "regionAnchor": {
+        "lon": -8.5,
+        "lat": 39.6,
+        "label": "葡萄牙王国",
+        "note": "地区文字的近似排版锚点，不表示首都、国界或整个地区的主权；存续与性质以条带所附来源为准。"
+      }
+    },
+    {
+      "id": "castile_aragon",
+      "title": "卡斯蒂利亚—阿拉贡王朝联合",
+      "startYear": 1479,
+      "endYear": 1516,
+      "kind": "dynastic-union",
+      "region": "伊比利亚",
+      "sources": [
+        "iberia"
+      ],
+      "note": "不是两王国行政与法律在1479立即完全合并。",
+      "regionAnchor": {
+        "lon": -2,
+        "lat": 40.5,
+        "label": "卡斯蒂利亚—阿拉贡",
+        "note": "地区文字的近似排版锚点，不表示首都、国界或整个地区的主权；存续与性质以条带所附来源为准。"
+      }
+    },
+    {
+      "id": "french_empire_first",
+      "title": "法兰西第一帝国（首次统治）",
+      "startYear": 1804,
+      "endYear": 1814,
+      "kind": "polity",
+      "region": "法国",
+      "sources": [
+        "franceModern",
+        "napoleonEmpire"
+      ],
+      "note": "首次帝制统治段；1815年短暂复辟未并入此连续条带，百日王朝终结见滑铁卢事件。",
+      "regionAnchor": {
+        "lon": 2.5,
+        "lat": 47,
+        "label": "法兰西第一帝国",
+        "note": "地区文字的近似排版锚点，不表示首都、国界或整个地区的主权；存续与性质以条带所附来源为准。"
+      }
+    },
+    {
+      "id": "russian_empire",
+      "title": "俄罗斯帝国",
+      "startYear": 1721,
+      "endYear": 1917,
+      "kind": "polity",
+      "region": "东欧／北亚",
+      "sources": [
+        "russianEmpireSpan",
+        "russianEmpireStart",
+        "russianAbdication"
+      ],
+      "note": "1721采用正式皇帝称号起点，1917君主统治终结；此前俄罗斯国家历史仍长于此条。",
+      "regionAnchor": {
+        "lon": 35,
+        "lat": 56,
+        "label": "俄罗斯帝国",
+        "note": "地区文字的近似排版锚点，不表示首都、国界或整个地区的主权；存续与性质以条带所附来源为准。"
+      }
+    },
+    {
+      "id": "italian_kingdom_observed",
+      "title": "意大利王国（本篇观察段）",
+      "startYear": 1861,
+      "endYear": 1918,
+      "kind": "observed-polity",
+      "region": "意大利",
+      "sources": [
+        "italy",
+        "italyLimits"
+      ],
+      "note": "1918为本编年史显示截止，不是意大利王国终结年。1861尚未包括罗马、威尼斯。",
+      "continuesAfterWindow": true,
+      "regionAnchor": {
+        "lon": 12.5,
+        "lat": 42.5,
+        "label": "意大利王国",
+        "note": "地区文字的近似排版锚点，不表示首都、国界或整个地区的主权；存续与性质以条带所附来源为准。"
+      }
+    },
+    {
+      "id": "german_empire",
+      "title": "德意志帝国",
+      "startYear": 1871,
+      "endYear": 1918,
+      "kind": "polity",
+      "region": "中欧",
+      "sources": [
+        "germany",
+        "germanMonarchyEnd"
+      ],
+      "note": "1871建立至1918年君主制终结；1871宣告仪式与宪法日期有别，条带结束不表示德国国家在1918年消失。",
+      "regionAnchor": {
+        "lon": 10.5,
+        "lat": 50.5,
+        "label": "德意志帝国",
+        "note": "地区文字的近似排版锚点，不表示首都、国界或整个地区的主权；存续与性质以条带所附来源为准。"
+      }
+    },
+    {
+      "id": "cordoba_caliphate",
+      "title": "科尔多瓦哈里发国",
+      "startYear": 929,
+      "endYear": 1031,
+      "kind": "polity",
+      "region": "伊比利亚",
+      "sources": [
+        "andalus"
+      ],
+      "note": "后倭马亚哈里发阶段；756—929的埃米尔国另有前史。",
+      "regionAnchor": {
+        "lon": -4.8,
+        "lat": 37.8,
+        "label": "科尔多瓦哈里发国",
+        "note": "地区文字的近似排版锚点，不表示首都、国界或整个地区的主权；存续与性质以条带所附来源为准。"
+      }
+    }
+  ],
+  "spansNote": "这些条带混合政权、王朝、制度与明确标出的观察段，必须显示kind或相应说明；不同类型不得合并为一条全欧统一王朝轴。起止年表示时间存续，不推导疆界。",
+  "placePhaseReview": {
+    "reviewedAt": "2026-10-26T08:15:20.507Z",
+    "rules": {
+      "join": "eventId + placeIndex; locationName is a check against accidental mismatches.",
+      "visibility": "A place is temporally active only when contextOnly is false and at least one inclusive window contains the current year. Otherwise hide it in live mode. Optional context mode may show neutral, non-pulsing background points.",
+      "roles": "battle=战斗／围城；theatre=广域战区、占领或传播阶段；political-center=政治过程；treaty=和议地点；origin=远征集结、登陆、传播到达或危机节点。origin不必是唯一或最早历史起源。",
+      "precision": "Year windows mean a documented episode occurred during that year, not that it lasted fromJanuary1toDecember31. Multi-year theatre windows do not assert continuous local combat. Never interpolate between disjoint windows.",
+      "coordinates": "Coordinates inherited from original data are approximate modern anchors and not validated battlefield outlines.",
+      "contextOnly": "Empty windows deliberately avoid making unsupported yearly claims. Parent event duration is not evidence for every place."
+    },
+    "validation": {
+      "eventCount": 24,
+      "placeCount": 50,
+      "phasedPlaces": 35,
+      "phaseWindows": 38,
+      "contextOnlyPlaces": 15,
+      "errors": [],
+      "regressionCount": 23,
+      "regressionMismatches": []
+    },
+    "regressionExpectations": [
+      {
+        "eventId": "napoleonic_wars",
+        "placeIndex": 1,
+        "year": 1803,
+        "expectedActive": false
+      },
+      {
+        "eventId": "napoleonic_wars",
+        "placeIndex": 1,
+        "year": 1805,
+        "expectedActive": true
+      },
+      {
+        "eventId": "napoleonic_wars",
+        "placeIndex": 1,
+        "year": 1807,
+        "expectedActive": false
+      },
+      {
+        "eventId": "napoleonic_wars",
+        "placeIndex": 1,
+        "year": 1809,
+        "expectedActive": true
+      },
+      {
+        "eventId": "napoleonic_wars",
+        "placeIndex": 2,
+        "year": 1803,
+        "expectedActive": false
+      },
+      {
+        "eventId": "napoleonic_wars",
+        "placeIndex": 2,
+        "year": 1812,
+        "expectedActive": true
+      },
+      {
+        "eventId": "great_northern",
+        "placeIndex": 1,
+        "year": 1700,
+        "expectedActive": false
+      },
+      {
+        "eventId": "great_northern",
+        "placeIndex": 1,
+        "year": 1709,
+        "expectedActive": true
+      },
+      {
+        "eventId": "great_northern",
+        "placeIndex": 2,
+        "year": 1700,
+        "expectedActive": false
+      },
+      {
+        "eventId": "great_northern",
+        "placeIndex": 2,
+        "year": 1721,
+        "expectedActive": true
+      },
+      {
+        "eventId": "first_crusade",
+        "placeIndex": 2,
+        "year": 1096,
+        "expectedActive": false
+      },
+      {
+        "eventId": "first_crusade",
+        "placeIndex": 2,
+        "year": 1099,
+        "expectedActive": true
+      },
+      {
+        "eventId": "justinian",
+        "placeIndex": 1,
+        "year": 527,
+        "expectedActive": false
+      },
+      {
+        "eventId": "justinian",
+        "placeIndex": 1,
+        "year": 540,
+        "expectedActive": true
+      },
+      {
+        "eventId": "black_death",
+        "placeIndex": 1,
+        "year": 1347,
+        "expectedActive": false
+      },
+      {
+        "eventId": "black_death",
+        "placeIndex": 1,
+        "year": 1349,
+        "expectedActive": true
+      },
+      {
+        "eventId": "spanish_succession",
+        "placeIndex": 1,
+        "year": 1701,
+        "expectedActive": false
+      },
+      {
+        "eventId": "spanish_succession",
+        "placeIndex": 1,
+        "year": 1713,
+        "expectedActive": true
+      },
+      {
+        "eventId": "crimean_war",
+        "placeIndex": 0,
+        "year": 1853,
+        "expectedActive": false
+      },
+      {
+        "eventId": "crimean_war",
+        "placeIndex": 0,
+        "year": 1854,
+        "expectedActive": true
+      },
+      {
+        "eventId": "gallipoli_1915",
+        "placeIndex": 0,
+        "year": 1916,
+        "expectedActive": false
+      },
+      {
+        "eventId": "gallipoli_1915",
+        "placeIndex": 1,
+        "year": 1916,
+        "expectedActive": true
+      },
+      {
+        "eventId": "dacian_wars",
+        "placeIndex": 0,
+        "year": 103,
+        "expectedActive": false
+      }
+    ]
+  },
+  "socialReview": {
+    "reviewedAt": "2026-10-26T08:26:47.630Z",
+    "selectionNotes": [
+      "查士丁尼529与534分别列出，避免把法律制度只藏在皇帝军事生涯中。",
+      "大学选用1215巴黎章程和1224那不勒斯公开信，避开以1088等追认年份当作精确建校记录。",
+      "汉萨采用1358存世贸易禁运决议，规避第一次大会或“建国”时间争议。",
+      "皇家学会会议、期刊初刊、科学院会议是三类不同的知识基础设施。",
+      "铁路、地下交通、女子学院和选举制度把普通生活与长期社会变化放入编年轴。"
+    ],
+    "unresolvedIssues": [
+      {
+        "topic": "Constitutio Antoniniana",
+        "decision": "未加入本批；大学藏本文献采用212／213，细节与除外群体仍有讨论，不能硬定精确日。",
+        "sources": [
+          "https://www.constitutio.de/en"
+        ]
+      },
+      {
+        "topic": "Authentica Habita",
+        "decision": "未加入本批；大学研究页同时存在1155与1158等纪年讨论，不能把1158作为无争议精确日。",
+        "sources": [
+          "https://www.unibo.it/it/ateneo/chi-siamo/la-nostra-storia/alumni-e-personaggi-celebri/ugo-di-porta-ravegnana"
+        ]
+      },
+      {
+        "topic": "Naples foundation month",
+        "decision": "采用1224年，保留大学专题文章指出的6月／7月不确定性。"
+      },
+      {
+        "topic": "London women graduates",
+        "decision": "1878是获得资格，首批文学学士毕业为1880；避免沿用部分机构概述中将两者压成同年的简化。"
+      },
+      {
+        "topic": "Legal equality in1804",
+        "decision": "法典统一民法不等于现代男女平等；简介不作此夸大。"
+      },
+      {
+        "topic": "Calendar and granularity",
+        "decision": "年精度展示不会表现同年后续试验过程的精确进度；如升级日历轴，需要进一步拆分接种与检验等节点。"
+      }
+    ],
+    "validation": {
+      "eventCount": 16,
+      "sourceCount": 25,
+      "duplicateIds": [],
+      "errors": [],
+      "maxSummaryCharacters": 31,
+      "allSingleYear": true,
+      "phaseWindowCount": 17
+    }
+  }
+}

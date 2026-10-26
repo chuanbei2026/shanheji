@@ -1,15 +1,23 @@
 # Shan He Ji — Local Export
 
-Complete editable static website exported on 2026-10-25.
+Complete editable static website, updated on 2026-10-26. China and Europe are independent editions within the same project.
 
-Live website: **https://chuanbei2026.github.io/shanheji/**
-Source revision: 3c12af12c39bfd483d8339fa0b695b4feac5f425.
+Live China edition: **https://shanheji.chuanbei.dev/**
+
+Live Europe edition: **https://shanheji.chuanbei.dev/europe/index.html**
+Source revision: 1f06524acae582e2af67a2f3d6f2ec23efb24d7c.
 
 ## Layout
 
 - dist/: deployable website, including HTML, CSS, JavaScript, historical JSON data, local D3 library, images, evidence pages, licenses and source archive.
 - AWS-DEPLOYMENT.md: deployment notes for AWS.
 - EXPORT-MANIFEST.json: SHA-256 inventory for verifying the exported website.
+
+## Editions and validation
+
+- China: dist/index.html; source-linked territorial references, annual reigns, events and war locations.
+- Europe: dist/europe/index.html; documented event places, coexistence spans and independently navigable chronology.
+- Data checks: run node dist/check-data.cjs. These validate references and selected calendar/visibility regressions; they do not certify every historical assertion.
 
 ## Local preview
 
