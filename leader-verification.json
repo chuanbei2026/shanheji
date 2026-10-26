@@ -474,17 +474,25 @@
       "frameId": "s_tang_a4",
       "title": "安东都护府",
       "year": 668,
-      "status": "任期仍待核",
-      "note": "668年初设安东。旧史可考薛仁贵参与平壤驻守并检校安东都护，另有魏哲墓志补证初任次序；年内接任与精确年仍需合校墓志，不直接把整个668年统一给一人。",
-      "people": [],
-      "sources": [
-        "https://db.history.go.kr/ancient/level.do?levelId=ko_038_1100_0060"
+      "status": "年内任职已证，交接未定",
+      "note": "仅证668年高丽降后任职，非该年从年初至年末唯一都护。初任次序与魏哲墓志的交接问题仍保留；不向669以后推定任期。",
+      "people": [
+        {
+          "name": "薛仁贵",
+          "title": "检校安东都护",
+          "scope": "668年高丽降后"
+        }
       ],
-      "finding": "668年初设安东。旧史可考薛仁贵参与平壤驻守并检校安东都护，另有魏哲墓志补证初任次序；年内接任与精确年仍需合校墓志，不直接把整个668年统一给一人。",
+      "sources": [
+        "https://db.history.go.kr/ancient/level.do?levelId=ko_038_1100_0060",
+        "https://zh.wikisource.org/wiki/舊唐書/卷83"
+      ],
+      "finding": "仅证668年高丽降后任职，非该年从年初至年末唯一都护。初任次序与魏哲墓志的交接问题仍保留；不向669以后推定任期。",
       "sourceIds": [
         "andong"
       ],
-      "sourceScope": "来源用于制度、候选人物或前后时点核查，未证明本年具体首长。"
+      "sourceScope": "旧唐书可证年内后段职衔；初任排序和完整任期未定。",
+      "followUp": "2026-10-26年内任职已有依据，未解决首任排序。"
     },
     {
       "frameId": "s_tang_a",
@@ -1113,5 +1121,14 @@
     "withNamedPeople": 18,
     "remainingExactTenureUnresolved": 14,
     "chronologicalCorrections": 13
+  },
+  "followUp20261026": {
+    "scope": "Only the Andong 668 appointment was newly attested; other unresolved appointments retain earlier findings.",
+    "source": {
+      "title": "《旧唐书》卷83·薛仁贵传",
+      "url": "https://zh.wikisource.org/wiki/舊唐書/卷83",
+      "note": "高丽降后诏留平壤、兼检校安东都护；可证668后段任职，不足解决魏哲墓志所涉初任次序。"
+    },
+    "finding": "仅证668年高丽降后任职，非该年从年初至年末唯一都护。初任次序与魏哲墓志的交接问题仍保留；不向669以后推定任期。"
   }
 }

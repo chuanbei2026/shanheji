@@ -4307,5 +4307,687 @@
       "cap_laterjin_1625",
       "late_qing_enters"
     ]
+  },
+  "regionalAnnualFollowUp": {
+    "checkedAt": "2026-10-26",
+    "scope": "Targeted follow-up of missing annual rulers; not a full historical fact certification.",
+    "stats": {
+      "addedRecords": 28,
+      "snapshotUpdates": 29,
+      "newAnnualPolityPairs": 133,
+      "newFramePolityPairs": 28
+    },
+    "limitations": [
+      "蒙古汗位间缺及摄政年份本轮未补，不把前一大汗延长填满。",
+      "北元只补至1388；后来汗系和诸部实权未由本轮覆盖。",
+      "绍武跨公历年的存在与其改元口径分别说明。",
+      "朱以海、郑克臧列监国或实权，不混成称帝皇帝。",
+      "唐边疆都护精确任期、若干古城城址和传统夏商王年仍保留原有争议。",
+      "安东668年补薛仁贵的已证年内任职，不宣称初任顺序已定。"
+    ],
+    "sourceCautions": [
+      {
+        "url": "https://www.dpm.org.cn/lemmas/241559.html",
+        "issue": "郑经词条误将郑成功卒年印为1642；已用郑成功词条及清史稿交叉排除。"
+      },
+      {
+        "url": "https://zh.wikisource.org/wiki/明史/卷327",
+        "issue": "本纪继承关系称脱古思帖木儿为爱猷识理达腊之子；本轮只采用交替年份，不采用该亲属关系。"
+      }
+    ],
+    "records": [
+      {
+        "dynasty": "北元",
+        "polity": "北元",
+        "from": 1368,
+        "to": 1370,
+        "name": "妥懽帖睦尔",
+        "title": "元惠宗（顺帝）",
+        "role": "ruler",
+        "sources": [
+          "review-north-ming"
+        ],
+        "eras": [
+          {
+            "from": 1368,
+            "to": 1370,
+            "name": "至正",
+            "baseYear": 28
+          }
+        ],
+        "note": "1368年退出大都后仍在位，1370年去世；与大都元朝终结分开。",
+        "verificationLevel": "source_checked_annual_range"
+      },
+      {
+        "dynasty": "北元",
+        "polity": "北元",
+        "from": 1370,
+        "to": 1378,
+        "name": "爱猷识理达腊",
+        "title": "北元昭宗",
+        "role": "ruler",
+        "sources": [
+          "review-north-ming",
+          "review-north-era"
+        ],
+        "eras": [
+          {
+            "from": 1370,
+            "to": 1370,
+            "name": "至正",
+            "baseYear": 30
+          },
+          {
+            "from": 1371,
+            "to": 1378,
+            "name": "宣光",
+            "baseYear": 1
+          }
+        ],
+        "note": "1370即位、1371改宣光。",
+        "verificationLevel": "source_checked_annual_range"
+      },
+      {
+        "dynasty": "北元",
+        "polity": "北元",
+        "from": 1378,
+        "to": 1388,
+        "name": "脱古思帖木儿",
+        "title": "北元天元帝",
+        "role": "ruler",
+        "sources": [
+          "review-north-ming",
+          "review-north-era"
+        ],
+        "eras": [
+          {
+            "from": 1378,
+            "to": 1378,
+            "name": "宣光",
+            "baseYear": 8
+          },
+          {
+            "from": 1379,
+            "to": 1388,
+            "name": "天元",
+            "baseYear": 1
+          }
+        ],
+        "note": "1378即位、1379改天元；1388死后蒙古诸部政局另论，不向后沿用。",
+        "verificationLevel": "source_checked_annual_range"
+      },
+      {
+        "dynasty": "明夏",
+        "polity": "明夏",
+        "from": 1360,
+        "to": 1362,
+        "name": "明玉珍",
+        "title": "陇蜀王",
+        "role": "ruler",
+        "sources": [
+          "review-mingxia"
+        ],
+        "eras": [],
+        "note": "1360年自称陇蜀王；1363年才称帝，本段不是大夏皇帝在位。",
+        "verificationLevel": "source_checked_annual_range"
+      },
+      {
+        "dynasty": "明夏",
+        "polity": "明夏",
+        "from": 1363,
+        "to": 1366,
+        "name": "明玉珍",
+        "title": "夏太祖",
+        "role": "ruler",
+        "sources": [
+          "review-mingxia"
+        ],
+        "eras": [
+          {
+            "from": 1363,
+            "to": 1366,
+            "name": "天统",
+            "baseYear": 1
+          }
+        ],
+        "note": "",
+        "verificationLevel": "source_checked_annual_range"
+      },
+      {
+        "dynasty": "明夏",
+        "polity": "明夏",
+        "from": 1366,
+        "to": 1371,
+        "name": "明升",
+        "title": "夏后主",
+        "role": "ruler",
+        "sources": [
+          "review-mingxia",
+          "review-mingxia-era"
+        ],
+        "eras": [
+          {
+            "from": 1367,
+            "to": 1371,
+            "name": "开熙",
+            "baseYear": 1
+          }
+        ],
+        "note": "1366继位，开熙元年按1367年口径。地方概述的“继位，改元”不等于同年元年。",
+        "verificationLevel": "source_checked_annual_range"
+      },
+      {
+        "dynasty": "南明",
+        "polity": "南明",
+        "from": 1644,
+        "to": 1645,
+        "name": "朱由崧",
+        "title": "南明弘光帝",
+        "role": "ruler",
+        "sources": [
+          "review-nanming-fu"
+        ],
+        "eras": [
+          {
+            "from": 1644,
+            "to": 1644,
+            "name": "崇祯",
+            "baseYear": 17
+          },
+          {
+            "from": 1645,
+            "to": 1645,
+            "name": "弘光",
+            "baseYear": 1
+          }
+        ],
+        "note": "",
+        "verificationLevel": "source_checked_annual_range"
+      },
+      {
+        "dynasty": "南明",
+        "polity": "南明",
+        "from": 1645,
+        "to": 1646,
+        "name": "朱聿键",
+        "title": "南明隆武帝",
+        "role": "ruler",
+        "sources": [
+          "review-nanming-tang"
+        ],
+        "eras": [
+          {
+            "from": 1645,
+            "to": 1646,
+            "name": "隆武",
+            "baseYear": 1
+          }
+        ],
+        "note": "与鲁王监国先后并存；不理解为统一控制全部南明地区。",
+        "verificationLevel": "source_checked_annual_range"
+      },
+      {
+        "dynasty": "南明",
+        "polity": "南明",
+        "from": 1646,
+        "to": 1647,
+        "name": "朱聿鐭",
+        "title": "南明绍武帝",
+        "role": "ruler",
+        "sources": [
+          "review-nanming-tang"
+        ],
+        "eras": [],
+        "note": "广州短期朝廷，农历丙戌十一月称帝、十二月败亡，跨公历1646年末—1647年初。年号原拟次年绍武，元年口径未在本轮精确月日表中统一，不计算其年号数字。",
+        "verificationLevel": "source_checked_annual_range"
+      },
+      {
+        "dynasty": "南明",
+        "polity": "南明",
+        "from": 1646,
+        "to": 1662,
+        "name": "朱由榔",
+        "title": "南明永历帝",
+        "role": "ruler",
+        "sources": [
+          "review-nanming-gui",
+          "review-nanming-era"
+        ],
+        "eras": [
+          {
+            "from": 1647,
+            "to": 1662,
+            "name": "永历",
+            "baseYear": 1
+          }
+        ],
+        "note": "1646年即位，以1647为永历元年；后期流亡及军事实控与君位分开。",
+        "verificationLevel": "source_checked_annual_range"
+      },
+      {
+        "dynasty": "南明",
+        "polity": "南明",
+        "from": 1645,
+        "to": 1653,
+        "name": "朱以海",
+        "title": "鲁王监国",
+        "role": "powerholder",
+        "sources": [
+          "review-zheng",
+          "review-lu-regency"
+        ],
+        "eras": [],
+        "note": "鲁监国朝廷与隆武、永历并存，不列作称帝皇帝；1653去监国号，去世不等于监国结束。",
+        "verificationLevel": "source_checked_annual_range"
+      },
+      {
+        "dynasty": "明郑",
+        "polity": "明郑",
+        "from": 1661,
+        "to": 1662,
+        "name": "郑成功",
+        "title": "延平郡王",
+        "role": "ruler",
+        "sources": [
+          "review-zheng-first"
+        ],
+        "eras": [
+          {
+            "from": 1661,
+            "to": 1662,
+            "name": "永历",
+            "baseYear": 15
+          }
+        ],
+        "note": "所列为台湾阶段；承用南明永历纪年，并未自行称帝。",
+        "verificationLevel": "source_checked_annual_range"
+      },
+      {
+        "dynasty": "明郑",
+        "polity": "明郑",
+        "from": 1662,
+        "to": 1681,
+        "name": "郑经",
+        "title": "延平郡王",
+        "role": "ruler",
+        "sources": [
+          "review-zheng",
+          "review-zheng-first",
+          "review-zheng-calendar"
+        ],
+        "eras": [
+          {
+            "from": 1662,
+            "to": 1681,
+            "name": "永历",
+            "baseYear": 16
+          }
+        ],
+        "note": "1662年继承期间有郑世袭在台争位；次年不重置其统治起年。",
+        "verificationLevel": "source_checked_annual_range"
+      },
+      {
+        "dynasty": "明郑",
+        "polity": "明郑",
+        "from": 1681,
+        "to": 1683,
+        "name": "郑克塽",
+        "title": "延平郡王",
+        "role": "ruler",
+        "sources": [
+          "review-zheng",
+          "review-zheng-calendar"
+        ],
+        "eras": [
+          {
+            "from": 1681,
+            "to": 1683,
+            "name": "永历",
+            "baseYear": 35
+          }
+        ],
+        "note": "",
+        "verificationLevel": "source_checked_annual_range"
+      },
+      {
+        "dynasty": "明郑",
+        "polity": "明郑",
+        "from": 1681,
+        "to": 1681,
+        "name": "郑克臧",
+        "title": "延平王世子／监国",
+        "role": "powerholder",
+        "sources": [
+          "review-zheng"
+        ],
+        "eras": [],
+        "note": "郑经死后被杀，属年内继承争夺，不列成已称帝的君主。",
+        "verificationLevel": "source_checked_annual_range"
+      },
+      {
+        "dynasty": "蒙古",
+        "polity": "大蒙古国",
+        "from": 1206,
+        "to": 1227,
+        "name": "铁木真",
+        "title": "成吉思汗",
+        "role": "ruler",
+        "sources": [
+          "review-mongol1"
+        ],
+        "eras": [],
+        "note": "后追尊元太祖；此时尚无大元国号。",
+        "verificationLevel": "source_checked_annual_range"
+      },
+      {
+        "dynasty": "蒙古",
+        "polity": "大蒙古国",
+        "from": 1229,
+        "to": 1241,
+        "name": "窝阔台",
+        "title": "蒙古大汗（元太宗）",
+        "role": "ruler",
+        "sources": [
+          "review-mongol2"
+        ],
+        "eras": [],
+        "note": "",
+        "verificationLevel": "source_checked_annual_range"
+      },
+      {
+        "dynasty": "蒙古",
+        "polity": "大蒙古国",
+        "from": 1246,
+        "to": 1248,
+        "name": "贵由",
+        "title": "蒙古大汗（元定宗）",
+        "role": "ruler",
+        "sources": [
+          "review-mongol2"
+        ],
+        "eras": [],
+        "note": "",
+        "verificationLevel": "source_checked_annual_range"
+      },
+      {
+        "dynasty": "蒙古",
+        "polity": "大蒙古国",
+        "from": 1251,
+        "to": 1259,
+        "name": "蒙哥",
+        "title": "蒙古大汗（元宪宗）",
+        "role": "ruler",
+        "sources": [
+          "review-mongol3"
+        ],
+        "eras": [],
+        "note": "",
+        "verificationLevel": "source_checked_annual_range"
+      },
+      {
+        "dynasty": "吴周",
+        "polity": "吴周 · 三藩",
+        "from": 1673,
+        "to": 1677,
+        "name": "吴三桂",
+        "title": "平西王／反清首领",
+        "role": "ruler",
+        "sources": [
+          "review-wuzhou"
+        ],
+        "eras": [],
+        "note": "本条只指吴氏军事集团；耿、尚等藩镇各自用兵，不能把合并地图等同吴氏完全统治。",
+        "verificationLevel": "source_checked_annual_range"
+      },
+      {
+        "dynasty": "吴周",
+        "polity": "吴周 · 三藩",
+        "from": 1678,
+        "to": 1678,
+        "name": "吴三桂",
+        "title": "吴周皇帝",
+        "role": "ruler",
+        "sources": [
+          "review-wuzhou"
+        ],
+        "eras": [
+          {
+            "from": 1678,
+            "to": 1678,
+            "name": "昭武",
+            "baseYear": 1
+          }
+        ],
+        "note": "",
+        "verificationLevel": "source_checked_annual_range"
+      },
+      {
+        "dynasty": "吴周",
+        "polity": "吴周 · 三藩",
+        "from": 1678,
+        "to": 1681,
+        "name": "吴世璠",
+        "title": "吴周皇帝",
+        "role": "ruler",
+        "sources": [
+          "review-wuzhou",
+          "review-wuzhou-era"
+        ],
+        "eras": [
+          {
+            "from": 1679,
+            "to": 1681,
+            "name": "洪化",
+            "baseYear": 1
+          }
+        ],
+        "note": "1678年继承，次年为洪化元年。",
+        "verificationLevel": "source_checked_annual_range"
+      },
+      {
+        "dynasty": "大顺",
+        "polity": "大顺（李自成）",
+        "from": 1643,
+        "to": 1643,
+        "name": "李自成",
+        "title": "新顺王",
+        "role": "ruler",
+        "sources": [
+          "review-dashun"
+        ],
+        "eras": [],
+        "note": "1643年新顺王阶段与1644年大顺建号分开。",
+        "verificationLevel": "source_checked_annual_range"
+      },
+      {
+        "dynasty": "大顺",
+        "polity": "大顺（李自成）",
+        "from": 1644,
+        "to": 1645,
+        "name": "李自成",
+        "title": "大顺皇帝",
+        "role": "ruler",
+        "sources": [
+          "review-dashun"
+        ],
+        "eras": [
+          {
+            "from": 1644,
+            "to": 1645,
+            "name": "永昌",
+            "baseYear": 1
+          }
+        ],
+        "note": "1645年死亡记载另有异说，本表采用通行九宫山说；不把余部活动当作李自成仍在位。",
+        "verificationLevel": "source_checked_annual_range"
+      },
+      {
+        "dynasty": "赵",
+        "polity": "代（战国）",
+        "from": -228,
+        "to": -222,
+        "name": "赵嘉",
+        "title": "代王",
+        "role": "ruler",
+        "sources": [
+          "review-daijia"
+        ],
+        "eras": [],
+        "note": "秦灭邯郸后赵王族在代地延续，前222年覆亡；与赵王迁分开。",
+        "verificationLevel": "source_checked_annual_range"
+      },
+      {
+        "dynasty": "赵",
+        "polity": "赵（战国）",
+        "from": -403,
+        "to": -403,
+        "name": "赵籍",
+        "title": "赵烈侯",
+        "role": "ruler",
+        "sources": [
+          "review-tiantong"
+        ],
+        "eras": [],
+        "note": "本条仅核前403年受封时点，不代表完整在位表。",
+        "verificationLevel": "source_checked_annual_range"
+      },
+      {
+        "dynasty": "韩",
+        "polity": "韩（战国）",
+        "from": -403,
+        "to": -403,
+        "name": "韩虔",
+        "title": "韩景侯",
+        "role": "ruler",
+        "sources": [
+          "review-tiantong"
+        ],
+        "eras": [],
+        "note": "本条仅核前403年受封时点，不代表完整在位表。",
+        "verificationLevel": "source_checked_annual_range"
+      },
+      {
+        "dynasty": "唐边疆官署",
+        "polity": "安东都护府",
+        "from": 668,
+        "to": 668,
+        "name": "薛仁贵",
+        "title": "右威卫大将军／检校安东都护",
+        "role": "regional",
+        "eras": [],
+        "sources": [
+          "review-andong668"
+        ],
+        "note": "仅证668年高丽降后任职，非该年从年初至年末唯一都护。初任次序与魏哲墓志的交接问题仍保留；不向669以后推定任期。",
+        "verificationLevel": "attested_within_year"
+      }
+    ],
+    "sources": {
+      "review-north-ming": {
+        "title": "《明史》卷327·鞑靼",
+        "url": "https://zh.wikisource.org/wiki/明史/卷327",
+        "note": "洪武元年出塞、三年顺帝卒、十一年爱猷识理达腊卒、二十一年脱古思帖木儿被杀。原文亲属关系有误，不采用其“子”说。"
+      },
+      "review-north-era": {
+        "title": "故宫博物院·关于北元宣光年号的考证",
+        "url": "https://www.dpm.org.cn/historical/talk/203511.html",
+        "note": "据官印、高丽史与经卷考定朝廷宣光1371—1378、天元1379—1388；云南续用宣光的地方纪年不等于北元朝廷继续改元。"
+      },
+      "review-mingxia": {
+        "title": "重庆市地方志办公室·明玉珍",
+        "url": "https://dfz.cq.gov.cn/zqlswh/rwby_417819/202311/t20231102_12510537.html",
+        "note": "采用1363年称帝、1366年病逝及明升继位、1371年降明；开熙另以次年元年口径展示。"
+      },
+      "review-nanming-fu": {
+        "title": "故宫博物院·南明弘光政权及其覆灭",
+        "url": "https://www.dpm.org.cn/court/event/159031.html",
+        "note": "弘光帝1644即位、1645覆亡；即位年与弘光元年不同。"
+      },
+      "review-nanming-tang": {
+        "title": "故宫博物院·隆武政权",
+        "url": "https://www.dpm.org.cn/court/event/159831.html",
+        "note": "用于隆武与绍武朝廷；不采用附录中将永历朝廷终结简单写作1661年的概述。"
+      },
+      "review-nanming-gui": {
+        "title": "故宫博物院·朱由榔",
+        "url": "https://www.dpm.org.cn/court/figure/104053.html",
+        "note": "1646年即位，1662年被杀。"
+      },
+      "review-nanming-era": {
+        "title": "故宫博物院·永历朝廷研究",
+        "url": "https://www.dpm.org.cn/Uploads/pdf/1962/T00004_00.pdf",
+        "note": "1646年十一月十八日称帝，以明年为永历元年；不能把即位直接换成永历元年。"
+      },
+      "review-zheng": {
+        "title": "《清史稿》卷224·郑成功及子孙",
+        "url": "https://zh.wikisource.org/wiki/清史稿/卷224",
+        "note": "清史稿“锦”即郑经；记康熙二十年郑经死、克臧被杀及克塽继承，二十二年降清。其敌对修辞不采用。"
+      },
+      "review-zheng-first": {
+        "title": "故宫博物院·郑成功",
+        "url": "https://www.dpm.org.cn/lemmas/242403.html",
+        "note": "核郑成功1661渡台、1662病逝及郑经继承；不采用另一“郑经”词条把死亡年误印为1642的文本。"
+      },
+      "review-zheng-calendar": {
+        "title": "国史馆台湾文献馆·史迹大楼",
+        "url": "https://www.th.gov.tw/CP/104/176/",
+        "note": "永历三十七年即康熙二十二年1683，郑氏沿用永历，不把永历帝本人延长为在位至1683。"
+      },
+      "review-mongol1": {
+        "title": "《元史》卷1·太祖本纪",
+        "url": "https://zh.wikisource.org/wiki/元史/卷001",
+        "note": "成吉思汗1206—1227；元庙号为后世追尊，不表示1206已有大元国号。"
+      },
+      "review-mongol2": {
+        "title": "《元史》卷2·太宗定宗本纪",
+        "url": "https://zh.wikisource.org/wiki/元史/卷002",
+        "note": "窝阔台1229—1241、贵由1246—1248；汗位间缺期不延长前任填满。"
+      },
+      "review-mongol3": {
+        "title": "《元史》卷3·宪宗本纪",
+        "url": "https://zh.wikisource.org/wiki/元史/卷003",
+        "note": "蒙哥1251—1259；另有皇后摄政时期，不套用在位大汗。"
+      },
+      "review-wuzhou": {
+        "title": "《清史稿》卷474·吴三桂",
+        "url": "https://zh.wikisource.org/wiki/清史稿/卷474",
+        "note": "1673起兵与1678称帝分开；吴世璠1678继位，洪化元年按1679起算。三藩不是吴氏始终一统的国家。"
+      },
+      "review-dashun": {
+        "title": "《明史》卷309·李自成张献忠",
+        "url": "https://zh.wikisource.org/wiki/明史/卷309",
+        "note": "李自成1643新顺王、1644永昌纪元分开；1645死亡不把余部延作其本人执政。"
+      },
+      "review-tiantong": {
+        "title": "《资治通鉴》卷1·周纪",
+        "url": "https://zh.wikisource.org/wiki/資治通鑑/卷001",
+        "note": "前403年赵籍、韩虔受命为诸侯；本轮仅为这一确证年补条，不据此强填完整任期。"
+      },
+      "review-daijia": {
+        "title": "《史记》卷43·赵世家",
+        "url": "https://zh.wikisource.org/wiki/史記/卷043",
+        "note": "赵亡大夫立嘉，代地六年后为秦所灭。采用前228—前222包含首尾的年度存在段，非六个完整周年。"
+      },
+      "review-mingxia-era": {
+        "title": "杨学可《明氏实录》·明升即位诏",
+        "url": "https://zh.wikisource.org/zh-hans/明氏實錄",
+        "note": "丙午即位诏明言以明年为开熙元年；不采用该书与现代地方志相异的明玉珍称帝年。"
+      },
+      "review-lu-regency": {
+        "title": "金门县政府·鲁王与金门",
+        "url": "https://www.kinmen.gov.tw/News_Content2.aspx?n=98E3CA7358C89100&s=9FDF3411CF610119&sms=BF7D6D478B935644",
+        "note": "据鲁王圹志专题记1645监国、1653去监国号、1662病逝；任期不延至死年。"
+      },
+      "review-wuzhou-era": {
+        "title": "故宫博物院·吴周纪年官印研究",
+        "url": "https://www.dpm.org.cn/Uploads/pdf/4214/T00072_00.pdf",
+        "note": "洪化元年己未官印和出土纪年物支持1679元年，吴世璠1678即位。"
+      },
+      "review-andong668": {
+        "title": "《旧唐书》卷83·薛仁贵传",
+        "url": "https://zh.wikisource.org/wiki/舊唐書/卷83",
+        "note": "高丽降后诏留平壤、兼检校安东都护；可证668后段任职，不足解决魏哲墓志所涉初任次序。"
+      }
+    }
   }
 }

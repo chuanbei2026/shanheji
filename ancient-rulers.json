@@ -130,6 +130,16 @@
     "anc-chuxuan": {
       "title": "中国哲学书电子化计划·楚宣王",
       "url": "https://ctext.org/datawiki.pl?if=gb&res=727256"
+    },
+    "review-tiantong": {
+      "title": "《资治通鉴》卷1·周纪",
+      "url": "https://zh.wikisource.org/wiki/資治通鑑/卷001",
+      "note": "前403年赵籍、韩虔受命为诸侯；本轮仅为这一确证年补条，不据此强填完整任期。"
+    },
+    "review-daijia": {
+      "title": "《史记》卷43·赵世家",
+      "url": "https://zh.wikisource.org/wiki/史記/卷043",
+      "note": "赵亡大夫立嘉，代地六年后为秦所灭。采用前228—前222包含首尾的年度存在段，非六个完整周年。"
     }
   },
   "reigns": [
@@ -2018,6 +2028,51 @@
       ],
       "note": "先秦国君，非皇帝。采用元年起算的年度骨架；年内继位与次年改元须区别，未细分月日。",
       "verificationLevel": "reference_chronology"
+    },
+    {
+      "dynasty": "赵",
+      "polity": "代（战国）",
+      "from": -228,
+      "to": -222,
+      "name": "赵嘉",
+      "title": "代王",
+      "role": "ruler",
+      "sources": [
+        "review-daijia"
+      ],
+      "eras": [],
+      "note": "秦灭邯郸后赵王族在代地延续，前222年覆亡；与赵王迁分开。",
+      "verificationLevel": "source_checked_annual_range"
+    },
+    {
+      "dynasty": "赵",
+      "polity": "赵（战国）",
+      "from": -403,
+      "to": -403,
+      "name": "赵籍",
+      "title": "赵烈侯",
+      "role": "ruler",
+      "sources": [
+        "review-tiantong"
+      ],
+      "eras": [],
+      "note": "本条仅核前403年受封时点，不代表完整在位表。",
+      "verificationLevel": "source_checked_annual_range"
+    },
+    {
+      "dynasty": "韩",
+      "polity": "韩（战国）",
+      "from": -403,
+      "to": -403,
+      "name": "韩虔",
+      "title": "韩景侯",
+      "role": "ruler",
+      "sources": [
+        "review-tiantong"
+      ],
+      "eras": [],
+      "note": "本条仅核前403年受封时点，不代表完整在位表。",
+      "verificationLevel": "source_checked_annual_range"
     }
   ],
   "referenceLeaders": [
