@@ -1,9 +1,9 @@
 {
-  "exported_at": "2026-10-26T03:43:44.976Z",
-  "source_revision": "ad40e1a0abe16eab14ee9d907c5c1c1c6ac810ee",
+  "exported_at": "2026-10-26T03:45:43.688Z",
+  "source_revision": "5ba8fa0a2d52582d22925e9a6568fb2de683fc50",
   "static_directory": "dist",
   "file_count": 63,
-  "total_bytes": 25666427,
+  "total_bytes": 25666445,
   "files": [
     {
       "path": "D3-LICENSE.txt",
@@ -227,8 +227,8 @@
     },
     {
       "path": "index.html",
-      "bytes": 35366,
-      "sha256": "eb1d886d72af9874f66f1c7752e737d0324364e7717c6378ce202b7ecd3bf8cc"
+      "bytes": 35384,
+      "sha256": "11328154adf747d3981a78f14d510d1be1d1d79f9e1f06f0b003a90fc9358ddd"
     },
     {
       "path": "land.json",
@@ -298,7 +298,7 @@
     {
       "path": "source.zip",
       "bytes": 9376457,
-      "sha256": "00363972e6262bda70ed0280492053a0d4fe9fceb1c1b4c666ff99a2de172d63"
+      "sha256": "b6e2939694d81677d5cd6e9c9319b83fd86e267b2ce01b1ac664b88201b86b8a"
     },
     {
       "path": "stories.json",
