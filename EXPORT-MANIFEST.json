@@ -1,9 +1,9 @@
 {
-  "exported_at": "2026-10-26T03:45:43.688Z",
-  "source_revision": "5ba8fa0a2d52582d22925e9a6568fb2de683fc50",
+  "exported_at": "2026-10-26T03:48:18.958Z",
+  "source_revision": "0ebc34ac3bc68592ffc71ba34b66c23bce89cb01",
   "static_directory": "dist",
   "file_count": 63,
-  "total_bytes": 25666445,
+  "total_bytes": 25667067,
   "files": [
     {
       "path": "D3-LICENSE.txt",
@@ -17,8 +17,8 @@
     },
     {
       "path": "README.md",
-      "bytes": 53311,
-      "sha256": "5b99e4373bdf22eb55fd673dd18f99749e71b8d2c22071d39d90876c97f82681"
+      "bytes": 53619,
+      "sha256": "f06a3831cecf556eb587ac328d8ff2f1b4560a197a5ced4eb2d85268763954ac"
     },
     {
       "path": "ancient-atlas.json",
@@ -192,8 +192,8 @@
     },
     {
       "path": "emperor-lineage.js",
-      "bytes": 21000,
-      "sha256": "aadc609926c9fbfaf55570b504f923daf35ffd21bea973681e9dc794eda4b6b5"
+      "bytes": 21126,
+      "sha256": "dc0a62b67c98922954bbf32d18b05ab5fa3908061204aee33665b973453843d7"
     },
     {
       "path": "emperor-lineages.json",
@@ -227,8 +227,8 @@
     },
     {
       "path": "index.html",
-      "bytes": 35384,
-      "sha256": "11328154adf747d3981a78f14d510d1be1d1d79f9e1f06f0b003a90fc9358ddd"
+      "bytes": 35390,
+      "sha256": "2849d1dd4128e44c0de5293b8743f426d0607cd3f8d74eb3790c7b7893fa4ae4"
     },
     {
       "path": "land.json",
@@ -297,8 +297,8 @@
     },
     {
       "path": "source.zip",
-      "bytes": 9376457,
-      "sha256": "b6e2939694d81677d5cd6e9c9319b83fd86e267b2ce01b1ac664b88201b86b8a"
+      "bytes": 9376639,
+      "sha256": "85bb39f932fd0ac3c4054ee4fae8406018910bc7c83c90622995372b37358164"
     },
     {
       "path": "stories.json",

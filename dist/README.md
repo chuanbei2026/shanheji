@@ -302,3 +302,7 @@ Arrow Up and Arrow Down share the previous/next dynasty actions and jump to the 
 ## Stable court panels during playback
 
 Court panels reconcile text and attributes in place instead of replacing their full HTML every year. Dynasty and ruler keys preserve image nodes, focus, disclosure state and roster scroll positions. Parallel courts bypass the temporary single-court rendering path. Whole-panel opacity and translate animations are disabled for court panels; map and event transitions retain their existing behavior.
+
+## Song court defaults
+
+Northern Song and Southern Song imperial rosters are expanded by default in parallel court panels. Liao, Jin and other peer courts start collapsed. Manual expand/collapse choices persist during year navigation and playback within the session. Geographic court ordering is unchanged.
