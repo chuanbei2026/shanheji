@@ -4,6 +4,7 @@
 const esc=s=>String(s??'').replaceAll('&','&amp;').replaceAll('<','&lt;').replaceAll('>','&gt;').replaceAll('"','&quot;');
 let ctx;
 const rosterIncumbents=new WeakMap();
+function focusIncumbent(list,info,force=false){if(!list)return;const key=(info.rulers||[]).map(r=>canonical(r.name)).join('|');if(!force&&rosterIncumbents.get(list)===key)return;rosterIncumbents.set(list,key);const row=list.querySelector('.is-reigning');if(!row)return;const bounds=list.getBoundingClientRect(),active=row.getBoundingClientRect();if(active.top<bounds.top||active.bottom>bounds.bottom)list.scrollTop+=active.top-bounds.top-(list.clientHeight-row.offsetHeight)/2;}
 function labelOf(d){return d.label==='刘宋'?'（南朝）宋':d.label;}
 function canonical(name){return ({'拓跋宏':'元宏','拓跋恪':'元恪','拓跋诩':'元诩','元脩':'元修','拓跋浚':'拓跋濬'})[name]||name;}
 function rankOf(d,name){return d.names.findIndex(n=>canonical(n)===canonical(name))+1;}
@@ -102,9 +103,9 @@ function render(feature,info){
   const top=document.getElementById('emperorReadout');
   const year=ctx.getYear();if(year>=-770&&year<-221){renderPreImperial(feature,year);return;}top.classList.remove('pre-imperial-courts');
   const layout=arrangeCourts(peerCourts(year),year),peers=layout.peers;
-  if(peers.length<2){top.classList.remove('parallel-courts');top.setAttribute('aria-label','当前皇帝的本朝序位');renderSingle(feature,info);return;}
+  if(peers.length<2){top.dataset.courtLayout='';delete top.dataset.northCount;delete top.dataset.southCount;top.classList.remove('parallel-courts');top.setAttribute('aria-label','当前皇帝的本朝序位');renderSingle(feature,info);return;}
   renderSingle(feature,info,true);
-  top.hidden=false;top.classList.remove('has-vertical-roster');top.classList.add('parallel-courts');top.dataset.northCount=layout.north;top.dataset.southCount=layout.south;top.dataset.courtLayout=layout.name;
+  top.hidden=false;top.classList.remove('has-vertical-roster','qing-roster');top.classList.add('parallel-courts');top.dataset.northCount=layout.north;top.dataset.southCount=layout.south;top.dataset.courtLayout=layout.name;
   top.setAttribute('aria-label','本年并立政权及统治者，共'+peers.length+'组');
   const cards=peers.map((peer,i)=>{
     const d=peer.dynasty,people=identities(peer.info,year),title=peer.feature.properties.title,formal=(title==='刘备势力'&&year<221)||(title==='孙权势力'&&year<229)||['后金','大蒙古国','蒙古'].includes(title)?title:labelOf(d);
@@ -115,7 +116,7 @@ function render(feature,info){
   const courtHtml='<div class="parallel-courts-heading"><b>并立政权</b><span>'+peers.length+' 组 · 帝系可展开</span></div><div class="parallel-courts-grid '+layout.name+'">'+(layout.name==='song-sides'?'<div class="song-primary-courts">'+cards[0]+'</div><div class="song-other-courts">'+cards.slice(1).join('')+'</div>':cards.join(''))+'</div>';
   if(root.AtlasMotion)root.AtlasMotion.replace(top,courtHtml,'parallel:'+layout.name+':'+peers.map(p=>p.dynasty.id).join('|'),{stable:true});else top.innerHTML=courtHtml;
   top.querySelectorAll('[data-peer-select]').forEach(b=>b.onclick=()=>{ctx.stop?.();ctx.selectPeer?.(peers[+b.dataset.peerSelect].index);});
-  top.querySelectorAll('[data-peer-roster]').forEach(el=>{const peer=peers[+el.dataset.peerRoster];el.ontoggle=()=>{if(el.open)expandedCourts.add(peer.dynasty.id);else expandedCourts.delete(peer.dynasty.id);if(el.open){const list=el.querySelector('.court-vertical-roster'),active=list?.querySelector('.is-reigning');if(list&&active)list.scrollTop=Math.max(0,active.offsetTop-list.offsetTop-list.clientHeight/2);}};el.querySelectorAll('[data-court-reign]').forEach(b=>b.onclick=()=>{const name=peer.dynasty.names[+b.dataset.courtReign],rs=reignsFor(name,peer.id,ctx.getReigns().reigns);if(rs.length){ctx.stop?.();ctx.setYear(Math.min(...rs.map(r=>r.from)));}});});
+  top.querySelectorAll('[data-peer-roster]').forEach(el=>{const peer=peers[+el.dataset.peerRoster];el.ontoggle=()=>{if(el.open)expandedCourts.add(peer.dynasty.id);else expandedCourts.delete(peer.dynasty.id);if(el.open){const list=el.querySelector('.court-vertical-roster'),active=list?.querySelector('.is-reigning');if(list&&active)list.scrollTop=Math.max(0,active.offsetTop-list.offsetTop-list.clientHeight/2);}};queueMicrotask(()=>{if(el.isConnected&&el.open)focusIncumbent(el.querySelector('.court-vertical-roster'),peer.info);});el.querySelectorAll('[data-court-reign]').forEach(b=>b.onclick=()=>{const name=peer.dynasty.names[+b.dataset.courtReign],rs=reignsFor(name,peer.id,ctx.getReigns().reigns);if(rs.length){ctx.stop?.();ctx.setYear(Math.min(...rs.map(r=>r.from)));}});});
 }
 
 function decorateTrack(){if(!ctx)return;const all=ctx.getReigns().reigns;document.querySelectorAll('.reign-bar').forEach(b=>{b.querySelector('.emperor-bar-rank')?.remove();const r=all.find(r=>r.name===b.dataset.name&&r.from<=+b.dataset.from&&r.to>=+b.dataset.from&&r.role==='ruler');if(!r)return;const id=r.dynasty==='东汉'?'东汉':resolve(r.polity,r.from),o=ordinal(ctx.data,id,r.name);if(!o?.rank)return;if(b.getBoundingClientRect().width<105){b.title+=' · 本朝第'+o.rank+'位 / 共'+o.total+'位';return;}const rank=document.createElement('em');rank.className='emperor-bar-rank';rank.textContent='第'+o.rank+' / '+o.total+'位';b.append(rank);b.setAttribute('aria-label',r.title+' '+r.name+'，本朝第'+o.rank+'位，共'+o.total+'位，'+ctx.yr(+b.dataset.from)+'至'+ctx.yr(+b.dataset.to)+'，选择年份');});}
