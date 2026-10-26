@@ -220,3 +220,12 @@ header{gap:22px}.atlas-jump{position:relative;flex:1;max-width:490px;min-width:2
 /* Explicit geographic slots keep court positions independent of input/selection order. */
 .parallel-courts[data-north-count="1"][data-south-count="2"] .geographic-courts{grid-template-areas:"north north" "southwest southeast"}.parallel-courts[data-north-count="2"][data-south-count="1"] .geographic-courts{grid-template-areas:"northwest northeast" "south south"}.parallel-courts[data-north-count="2"][data-south-count="2"] .geographic-courts{grid-template-areas:"northwest northeast" "southwest southeast"}.parallel-courts[data-north-count="1"][data-south-count="1"] .geographic-courts{grid-template-columns:1fr;grid-template-areas:"north" "south"}.geographic-courts .parallel-court[data-court-slot=north]{grid-area:north!important}.geographic-courts .parallel-court[data-court-slot=south]{grid-area:south!important}.geographic-courts .parallel-court[data-court-slot=northwest]{grid-area:northwest!important}.geographic-courts .parallel-court[data-court-slot=northeast]{grid-area:northeast!important}.geographic-courts .parallel-court[data-court-slot=southwest]{grid-area:southwest!important}.geographic-courts .parallel-court[data-court-slot=southeast]{grid-area:southeast!important}
 @media(max-width:650px){.parallel-courts[data-north-count="1"][data-south-count="2"] .geographic-courts{grid-template-areas:"north" "southwest" "southeast"}.parallel-courts[data-north-count="2"][data-south-count="1"] .geographic-courts{grid-template-areas:"northwest" "northeast" "south"}.parallel-courts[data-north-count="2"][data-south-count="2"] .geographic-courts{grid-template-areas:"northwest" "northeast" "southwest" "southeast"}}
+
+/* Qing rulers are recognizable by temple title, regnal name and personal name. */
+.map-sovereign.has-vertical-roster.qing-roster{width:260px}
+.court-reign-era{font-size:10px;color:inherit;white-space:nowrap;font-weight:500}
+.qing-reign-row .court-reign-dot{margin:0 3px}
+.parallel-court-roster .qing-reign-row .court-reign-identity{white-space:normal;overflow:visible;line-height:1.65}
+.parallel-court-roster .qing-reign-row .court-reign-item{height:auto;min-height:27px}
+.parallel-court-roster .court-reign-era{font-size:9px}
+@media(max-width:650px){.map-sovereign.has-vertical-roster.qing-roster{width:250px;max-width:calc(100% - 30px)}}

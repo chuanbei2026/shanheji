@@ -306,3 +306,7 @@ Court panels reconcile text and attributes in place instead of replacing their f
 ## Song court defaults
 
 Northern Song and Southern Song imperial rosters are expanded by default in parallel court panels. Liao, Jin and other peer courts start collapsed. Manual expand/collapse choices persist during year navigation and playback within the session. Geographic court ordering is unchanged.
+
+## Qing regnal identification
+
+Qing roster rows show temple title, familiar regnal name and personal name in that order. Hong Taiji lists Tiancong/Chongde in the complete roster and uses the corresponding phase label in the current-ruler card. Accession-year inherited era dates remain in the separate annual calendar readout. Puyi retains the existing Xuantong Emperor title without repeating Xuantong or inventing a temple name. Qing-only roster spacing accommodates the additional field.
