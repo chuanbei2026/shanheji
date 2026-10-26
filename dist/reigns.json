@@ -354,6 +354,60 @@
       "title": "《新五代史》卷6·唐本纪：李嗣源即位及天成纪年",
       "url": "https://zh.wikisource.org/wiki/新五代史/卷06",
       "note": "李嗣源于同光四年（926）即位，改元天成；纠正通行简表将即位误列925的情况。"
+    },
+    "audit-era-index": {
+      "title": "中国科学院自然科学史研究所 · 中国历代年号索引表",
+      "url": "https://agri-history.ihns.ac.cn/history/historic%20table.htm",
+      "note": "本轮核对年号起点及交接；该索引不是无误的历日转换表，个别异文仍以本纪核对。"
+    },
+    "audit-houhan6": {
+      "title": "《后汉书》卷六 · 顺帝纪",
+      "url": "https://zh.wikisource.org/wiki/後漢書/卷6",
+      "note": "安帝、北乡侯及顺帝交接在延光四年；不重新从元年计。"
+    },
+    "audit-houhan9": {
+      "title": "《后汉书》卷九 · 献帝纪",
+      "url": "https://zh.wikisource.org/wiki/後漢書/卷9"
+    },
+    "audit-jin3": {
+      "title": "《晋书》卷三 · 武帝纪",
+      "url": "https://zh.wikisource.org/wiki/晉書/卷003",
+      "note": "太康十年后有太熙元年，不能将太康直接延长到290年。"
+    },
+    "audit-tang7": {
+      "title": "《旧唐书》卷七 · 中宗睿宗纪",
+      "url": "https://zh.wikisource.org/wiki/舊唐書/卷7",
+      "note": "712年先后有太极、延和、先天，713年先天二年；上皇与皇帝权限另分。"
+    },
+    "audit-yuan31": {
+      "title": "《元史》卷三十一 · 明宗纪",
+      "url": "https://zh.wikisource.org/wiki/元史/卷031",
+      "note": "明宗在天历二年即位，未另立天历元年。"
+    },
+    "audit-yuan-ning": {
+      "title": "故宫博物院 · 懿璘质班",
+      "url": "https://www.dpm.org.cn/lemmas/242711.html",
+      "note": "至顺三年1332即位；沿用纪年，不重置元年。"
+    },
+    "audit-qing-hongtaiji": {
+      "title": "故宫博物院 · 皇太极",
+      "url": "https://www.dpm.org.cn/court/lineage/226251.html",
+      "note": "1626继汗位在天命十一年。"
+    },
+    "audit-qing-qianlong": {
+      "title": "故宫博物院 · 乾隆皇帝",
+      "url": "https://www.dpm.org.cn/court/lineage/226263.html",
+      "note": "乾隆六十年1795；1796禅位后仍以太上皇掌权至1799，帝位与实权分列。"
+    },
+    "audit-qing-tongzhi": {
+      "title": "金陵图书馆 · 清朝时期光绪年间年表",
+      "url": "https://www.jllib.com/szzy/jlsbnjs/201101/P020110118730827595533.pdf",
+      "note": "检索索引列1875年1月12日为同治十三年十二月初五，正文抓取超时；与故宫所记农历死亡日互证。"
+    },
+    "audit-junji": {
+      "title": "故宫博物院 · 军机处",
+      "url": "https://www.dpm.org.cn/court/system/236360.html",
+      "note": "区分1729军机房与1732办理军机处；故宫用“大部分学者认为”限定创设年。"
     }
   },
   "reigns": [
@@ -3071,14 +3125,15 @@
       "name": "刘懿",
       "title": "东汉北乡侯",
       "sources": [
-        "moe1"
+        "moe1",
+        "audit-houhan6"
       ],
       "eras": [
         {
           "from": 125,
           "to": 125,
           "name": "延光（沿用）",
-          "baseYear": 1
+          "baseYear": 4
         }
       ],
       "role": "ruler"
@@ -3274,14 +3329,15 @@
       "name": "刘辩",
       "title": "东汉弘农王",
       "sources": [
-        "moe1"
+        "moe1",
+        "audit-era-index"
       ],
       "eras": [
         {
           "from": 189,
           "to": 189,
           "name": "中平（沿用）",
-          "baseYear": 1
+          "baseYear": 6
         },
         {
           "from": 189,
@@ -3307,9 +3363,23 @@
       "title": "东汉献帝",
       "sources": [
         "moe1",
-        "jiangshan-lore"
+        "jiangshan-lore",
+        "audit-houhan9",
+        "audit-era-index"
       ],
       "eras": [
+        {
+          "from": 189,
+          "to": 189,
+          "name": "永汉",
+          "baseYear": 1
+        },
+        {
+          "from": 189,
+          "to": 189,
+          "name": "中平",
+          "baseYear": 6
+        },
         {
           "from": 190,
           "to": 193,
@@ -3326,6 +3396,12 @@
           "from": 196,
           "to": 220,
           "name": "建安",
+          "baseYear": 1
+        },
+        {
+          "from": 220,
+          "to": 220,
+          "name": "延康",
           "baseYear": 1
         }
       ],
@@ -3714,7 +3790,8 @@
       "title": "西晋武帝",
       "sources": [
         "moe1",
-        "jiangshan-lore"
+        "jiangshan-lore",
+        "audit-jin3"
       ],
       "eras": [
         {
@@ -3731,8 +3808,14 @@
         },
         {
           "from": 280,
-          "to": 290,
+          "to": 289,
           "name": "太康",
+          "baseYear": 1
+        },
+        {
+          "from": 290,
+          "to": 290,
+          "name": "太熙",
           "baseYear": 1
         }
       ],
@@ -4614,7 +4697,8 @@
       "title": "唐睿宗",
       "sources": [
         "moe2",
-        "jiangshan-lore"
+        "jiangshan-lore",
+        "audit-tang7"
       ],
       "note": "第二次即位；712退位后为太上皇，实际权力到713年仍有延续，不能以皇位表穷尽。",
       "eras": [
@@ -4629,6 +4713,12 @@
           "to": 712,
           "name": "太极",
           "baseYear": 1
+        },
+        {
+          "from": 712,
+          "to": 712,
+          "name": "延和",
+          "baseYear": 1
         }
       ],
       "role": "ruler"
@@ -4642,9 +4732,16 @@
       "title": "唐玄宗",
       "sources": [
         "moe2",
-        "jiangshan-lore"
+        "jiangshan-lore",
+        "audit-tang7"
       ],
       "eras": [
+        {
+          "from": 712,
+          "to": 713,
+          "name": "先天",
+          "baseYear": 1
+        },
         {
           "from": 713,
           "to": 741,
@@ -6575,14 +6672,15 @@
       "sources": [
         "moe3",
         "dpm-yuan",
-        "jiangshan-lore"
+        "jiangshan-lore",
+        "audit-yuan31"
       ],
       "eras": [
         {
           "from": 1329,
           "to": 1329,
           "name": "天历",
-          "baseYear": 1
+          "baseYear": 2
         }
       ],
       "role": "ruler"
@@ -6597,14 +6695,15 @@
       "sources": [
         "moe3",
         "dpm-yuan",
-        "jiangshan-lore"
+        "jiangshan-lore",
+        "audit-yuan31"
       ],
       "eras": [
         {
           "from": 1329,
           "to": 1330,
           "name": "天历",
-          "baseYear": 1
+          "baseYear": 2
         },
         {
           "from": 1330,
@@ -6625,14 +6724,15 @@
       "sources": [
         "moe3",
         "dpm-yuan",
-        "jiangshan-lore"
+        "jiangshan-lore",
+        "audit-yuan-ning"
       ],
       "eras": [
         {
           "from": 1332,
           "to": 1332,
           "name": "至顺",
-          "baseYear": 1
+          "baseYear": 3
         }
       ],
       "role": "ruler"
@@ -7082,7 +7182,8 @@
         "sypm-qing",
         "dpm-lineage",
         "dpm-hongtaiji",
-        "jiangshan-lore"
+        "jiangshan-lore",
+        "audit-qing-hongtaiji"
       ],
       "note": "1626继汗位，1627天聪改元，1636称帝并改国号清；同一人在后金、清两个阶段统治。",
       "eras": [
@@ -7090,7 +7191,7 @@
           "from": 1626,
           "to": 1626,
           "name": "天命",
-          "baseYear": 1
+          "baseYear": 11
         },
         {
           "from": 1627,
@@ -7217,15 +7318,30 @@
         "moe3",
         "sypm-qing",
         "dpm-lineage",
-        "jiangshan-lore"
+        "jiangshan-lore",
+        "audit-qing-qianlong"
       ],
       "note": "1796正式禅位；以太上皇身份继续掌握大权至1799，嘉庆1796—1799不能等同完全亲政。",
       "eras": [
         {
+          "from": 1735,
+          "to": 1735,
+          "name": "雍正",
+          "baseYear": 13,
+          "note": "继位当年沿用。"
+        },
+        {
           "from": 1736,
-          "to": 1796,
+          "to": 1795,
           "name": "乾隆",
           "baseYear": 1
+        },
+        {
+          "from": 1796,
+          "to": 1796,
+          "name": "乾隆",
+          "baseYear": 60,
+          "note": "西历1796年初尚在乾隆六十年岁末，正月禅位并改嘉庆；不是乾隆六十一年。"
         }
       ],
       "role": "ruler"
@@ -7303,14 +7419,15 @@
       "dynasty": "清",
       "polity": "清",
       "from": 1861,
-      "to": 1874,
+      "to": 1875,
       "name": "载淳",
       "title": "清穆宗",
       "sources": [
         "moe3",
         "sypm-qing",
         "dpm-lineage",
-        "jiangshan-lore"
+        "jiangshan-lore",
+        "audit-qing-tongzhi"
       ],
       "eras": [
         {
@@ -7318,9 +7435,17 @@
           "to": 1874,
           "name": "同治",
           "baseYear": 1
+        },
+        {
+          "from": 1875,
+          "to": 1875,
+          "name": "同治",
+          "baseYear": 13,
+          "note": "同治十三年十二月跨入西历1875年；不是同治十四年。"
         }
       ],
-      "role": "ruler"
+      "role": "ruler",
+      "note": "同治十三年十二月初五去世，对应西历1875年1月12日；1875交接年可同时列同治与光绪，不能把跨年计算成同治十四年。"
     },
     {
       "dynasty": "清",
@@ -7398,6 +7523,34 @@
       "note": "1911立法局原始会议记录确证。",
       "dynasty": "九龙新界（英租）",
       "eras": []
+    },
+    {
+      "dynasty": "唐",
+      "polity": "唐",
+      "name": "李旦",
+      "title": "太上皇（掌部分军国权）",
+      "from": 712,
+      "to": 713,
+      "role": "powerholder",
+      "eras": [],
+      "sources": [
+        "audit-tang7"
+      ],
+      "note": "712年传位后仍决三品以上除授等大事；713年七月后军国政事归玄宗。年度交接不表示全年同样分权。"
+    },
+    {
+      "dynasty": "清",
+      "polity": "清",
+      "name": "弘历",
+      "title": "太上皇（训政）",
+      "from": 1796,
+      "to": 1799,
+      "role": "powerholder",
+      "eras": [],
+      "sources": [
+        "audit-qing-qianlong"
+      ],
+      "note": "1796禅位后仍掌握最高决策权，1799去世。与嘉庆帝名义帝位分列。"
     }
   ],
   "version": 1,

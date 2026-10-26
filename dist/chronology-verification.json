@@ -2,21 +2,21 @@
   "version": 1,
   "checkedAt": "2026-10-25",
   "title": "通史主线与事件编年复核记录",
-  "scope": "秦统一六国至1911年，171条现有事件的全量资料索引审查，以及主线和重点史事的联网复核。",
+  "scope": "夏商周至1911年，现有232条事件的编年与出处索引审查；重点君主交接、年号和身份的定向复核。",
   "method": [
-    "逐条审阅171条事件的年份、标题、摘要与引用ID，检查排序、重复ID、空引用和引用是否可解析。",
+    "逐条审阅现有232条事件的年份、标题、摘要与引用ID；检查277条原君主/实权记录、35组帝系的结构与来源引用。数据结构检查不等于逐条史实证实。",
     "以中国国家博物馆《古代中国》五个通史展览章节核对政权主线，配合中科院年号索引辨认年号与年度。",
     "对下列标为 core_fact_rechecked 的重点条目重新阅读相应原典或机构资料；它只表示主事件及所注具体问题的复核，不代表每句因果解释已获独立证实。"
   ],
   "limitations": [
-    "没有将171条全部叙述逐字与多套学术版本独立校勘；其余条目明确仅完成索引与整体主线审查。",
+    "232条事件均完成编年与索引审查，但没有逐句与多套学术版本独立校勘；每条仍保留实际复核层次。",
     "国博为通史式概述，不是疆域逐年实控地图，不能用作每条边线的独立依据。",
     "传统纪年与西历年界可能错位；本版仍使用通行年表式年度位置，并在已识别的跨年点补说明，没有伪造精确到日的统一换算。",
     "早期正史亦含追记、修史立场与互异记载；本轮未消除所有史学争议。"
   ],
   "stats": {
-    "eventsReviewed": 171,
-    "coreFactsRechecked": 37,
+    "eventsReviewed": 232,
+    "coreFactsRechecked": 38,
     "changes": 6,
     "missingSourceReferences": 0,
     "duplicateEventIds": 0
@@ -76,7 +76,7 @@
       ]
     }
   ],
-  "summary": "已审阅171条事件的年度、标题、摘要与出处索引；其中37条的主事实或特定纪年问题重新联网复核，作6项表述或出处补充。通史对照采用国博《古代中国》五个时期章节与中科院年号表。其余条目未冒称逐句独立考证。",
+  "summary": "现有232条事件完成编年与出处索引审阅；38条保留主事实复核记录。本轮另处理10组定向问题，补2条实权记录；不宣称全部叙述、边界或历日已独立校勘。",
   "sources": {
     "ec_qin": {
       "title": "《史记·秦始皇本纪》",
@@ -708,12 +708,745 @@
       "title": "辛亥革命博物院：共和之基——辛亥革命历史陈列",
       "url": "https://www.1911museum.cn/view_59.html",
       "scope": "区分1911年10月10日武昌起义与1912年2月12日清帝退位。"
+    },
+    "audit-era-index": {
+      "title": "中国科学院自然科学史研究所 · 中国历代年号索引表",
+      "url": "https://agri-history.ihns.ac.cn/history/historic%20table.htm",
+      "note": "本轮核对年号起点及交接；该索引不是无误的历日转换表，个别异文仍以本纪核对。"
+    },
+    "audit-houhan6": {
+      "title": "《后汉书》卷六 · 顺帝纪",
+      "url": "https://zh.wikisource.org/wiki/後漢書/卷6",
+      "note": "安帝、北乡侯及顺帝交接在延光四年；不重新从元年计。"
+    },
+    "audit-houhan9": {
+      "title": "《后汉书》卷九 · 献帝纪",
+      "url": "https://zh.wikisource.org/wiki/後漢書/卷9"
+    },
+    "audit-jin3": {
+      "title": "《晋书》卷三 · 武帝纪",
+      "url": "https://zh.wikisource.org/wiki/晉書/卷003",
+      "note": "太康十年后有太熙元年，不能将太康直接延长到290年。"
+    },
+    "audit-tang7": {
+      "title": "《旧唐书》卷七 · 中宗睿宗纪",
+      "url": "https://zh.wikisource.org/wiki/舊唐書/卷7",
+      "note": "712年先后有太极、延和、先天，713年先天二年；上皇与皇帝权限另分。"
+    },
+    "audit-yuan31": {
+      "title": "《元史》卷三十一 · 明宗纪",
+      "url": "https://zh.wikisource.org/wiki/元史/卷031",
+      "note": "明宗在天历二年即位，未另立天历元年。"
+    },
+    "audit-yuan-ning": {
+      "title": "故宫博物院 · 懿璘质班",
+      "url": "https://www.dpm.org.cn/lemmas/242711.html",
+      "note": "至顺三年1332即位；沿用纪年，不重置元年。"
+    },
+    "audit-qing-hongtaiji": {
+      "title": "故宫博物院 · 皇太极",
+      "url": "https://www.dpm.org.cn/court/lineage/226251.html",
+      "note": "1626继汗位在天命十一年。"
+    },
+    "audit-qing-qianlong": {
+      "title": "故宫博物院 · 乾隆皇帝",
+      "url": "https://www.dpm.org.cn/court/lineage/226263.html",
+      "note": "乾隆六十年1795；1796禅位后仍以太上皇掌权至1799，帝位与实权分列。"
+    },
+    "audit-qing-tongzhi": {
+      "title": "金陵图书馆 · 清朝时期光绪年间年表",
+      "url": "https://www.jllib.com/szzy/jlsbnjs/201101/P020110118730827595533.pdf",
+      "note": "检索索引列1875年1月12日为同治十三年十二月初五，正文抓取超时；与故宫所记农历死亡日互证。"
+    },
+    "audit-junji": {
+      "title": "故宫博物院 · 军机处",
+      "url": "https://www.dpm.org.cn/court/system/236360.html",
+      "note": "区分1729军机房与1732办理军机处；故宫用“大部分学者认为”限定创设年。"
+    },
+    "anc-nm-early": {
+      "title": "中国国家博物馆《古代中国》·夏商西周时期",
+      "url": "https://www.chnmuseum.cn/portals/0/web/zt/gudai/detail2.html"
+    },
+    "anc-nm-eastern": {
+      "title": "中国国家博物馆《古代中国》·春秋战国时期",
+      "url": "https://www.chnmuseum.cn/portals/0/web/zt/gudai/detail3.html"
+    },
+    "anc-dating": {
+      "title": "中国文字博物馆·禹迹夏踪考（断代工程年代框架）",
+      "url": "https://www.wzbwg.com/newsinfo/11916"
+    },
+    "anc-li": {
+      "title": "中国国家博物馆·克商之证——利簋",
+      "url": "https://m.chnmuseum.cn/Portals/0/web/zt/100n/guobao_content-5.html?id=27"
+    },
+    "anc-wuding": {
+      "title": "中国国家博物馆·中华史诗美术大展：武丁强盛、商鞅变法",
+      "url": "https://en.chnmuseum.cn/Portals/0/web/exhibition/exhibitions/161120Chines-Epic/"
+    },
+    "anc-shangyang": {
+      "title": "上海博物馆·商鞅方升",
+      "url": "https://www.shanghaimuseum.net/resource/museum_files/show_files/20180903105852824/index.html"
+    },
+    "anc-sj4": {
+      "title": "《史记》·周本纪",
+      "url": "https://zh.wikisource.org/wiki/史記/卷004"
+    },
+    "anc-sj5": {
+      "title": "《史记》·秦本纪",
+      "url": "https://zh.wikisource.org/wiki/史記/卷005"
+    },
+    "anc-sj6": {
+      "title": "《史记》·秦始皇本纪",
+      "url": "https://zh.wikisource.org/wiki/史記/卷006"
+    },
+    "anc-sj32": {
+      "title": "《史记》·齐太公世家",
+      "url": "https://zh.wikisource.org/wiki/史記/卷032"
+    },
+    "anc-sj39": {
+      "title": "《史记》·晋世家",
+      "url": "https://zh.wikisource.org/wiki/史記/卷039"
+    },
+    "anc-sj41": {
+      "title": "《史记》·越王勾践世家",
+      "url": "https://zh.wikisource.org/wiki/史記/卷041"
+    },
+    "anc-sj43": {
+      "title": "《史记》·赵世家",
+      "url": "https://zh.wikisource.org/wiki/史記/卷043"
+    },
+    "anc-sj47": {
+      "title": "《史记》·孔子世家",
+      "url": "https://zh.wikisource.org/wiki/史記/卷047"
+    },
+    "anc-tj1": {
+      "title": "《资治通鉴》卷1·周纪一",
+      "url": "https://zh.wikisource.org/wiki/資治通鑑/卷001"
+    },
+    "anc-tj2": {
+      "title": "《资治通鉴》卷2·周纪二",
+      "url": "https://zh.wikisource.org/wiki/資治通鑑/卷002"
+    },
+    "anc-tj3": {
+      "title": "《资治通鉴》卷3·周纪三",
+      "url": "https://zh.wikisource.org/wiki/資治通鑑/卷003"
+    },
+    "anc-tj4": {
+      "title": "《资治通鉴》卷4·周纪四",
+      "url": "https://zh.wikisource.org/wiki/資治通鑑/卷004"
+    },
+    "anc-tj5": {
+      "title": "《资治通鉴》卷5·周纪五",
+      "url": "https://zh.wikisource.org/wiki/資治通鑑/卷005"
+    },
+    "anc-tj6": {
+      "title": "《资治通鉴》卷6·秦纪一",
+      "url": "https://zh.wikisource.org/wiki/資治通鑑/卷006"
+    },
+    "anc-zz桓公": {
+      "title": "《春秋左氏传》·桓公",
+      "url": "https://zh.wikisource.org/wiki/春秋左氏傳/桓公"
+    },
+    "anc-zz僖公": {
+      "title": "《春秋左氏传》·僖公",
+      "url": "https://zh.wikisource.org/wiki/春秋左氏傳/僖公"
+    },
+    "anc-zz宣公": {
+      "title": "《春秋左氏传》·宣公",
+      "url": "https://zh.wikisource.org/wiki/春秋左氏傳/宣公"
+    },
+    "anc-zz襄公": {
+      "title": "《春秋左氏传》·襄公",
+      "url": "https://zh.wikisource.org/wiki/春秋左氏傳/襄公"
+    },
+    "anc-zz定公": {
+      "title": "《春秋左氏传》·定公",
+      "url": "https://zh.wikisource.org/wiki/春秋左氏傳/定公"
+    },
+    "anshi_start_gazetteer": {
+      "title": "北京市方志馆《安禄山祸乱幽州城》：天宝十四年十一月初九起兵",
+      "url": "https://wap.bjd.com.cn/news/2022/11/28/10243971.shtml"
+    },
+    "anshi_end_tongjian": {
+      "title": "《资治通鉴》卷222：宝应二年正月，史朝义败亡",
+      "url": "https://zh.wikisource.org/wiki/資治通鑑/卷222"
+    },
+    "anshi_duration_study": {
+      "title": "北京市文物局《潞镇统治下的幽州》：755年末至763年春，历时七年多",
+      "url": "https://wwj.beijing.gov.cn/bjww/resource/cms/article/bjww_362762/10864881/2020091610102620578.pdf"
+    },
+    "enrich_han_wendi": {
+      "title": "《汉书》卷4·文帝纪",
+      "url": "https://zh.wikisource.org/wiki/漢書/卷004"
+    },
+    "enrich_jin_xuandi": {
+      "title": "《晋书》卷1·宣帝纪",
+      "url": "https://zh.wikisource.org/wiki/晉書/卷001"
+    },
+    "enrich_song_found": {
+      "title": "南京市地方志办公室·南朝刘宋的南京成语典故",
+      "url": "https://dfz.nanjing.gov.cn/gzdt/202405/t20240506_4658409.html"
+    },
+    "enrich_dayan": {
+      "title": "西安市地方志办公室·大雁塔",
+      "url": "https://xadfz.xa.gov.cn/xadq/rwxa/1802954373708996609.html"
+    },
+    "enrich_jiaozi": {
+      "title": "中国国家博物馆·中华史诗美术大展·交子",
+      "url": "https://en.chnmuseum.cn/Portals/0/web/exhibition/exhibitions/161120Chines-Epic/"
+    },
+    "enrich_duomen": {
+      "title": "故宫博物院·夺门之变",
+      "url": "https://www.dpm.org.cn/lemmas/241376.html"
+    },
+    "enrich_yangming": {
+      "title": "湖南省纪委监委·王阳明“龙场悟道”",
+      "url": "https://www.sxfj.gov.cn/jing_cai_zhuan_ti/267e63/10955730.shtml"
+    },
+    "enrich_liujin": {
+      "title": "故宫博物院·正德皇帝·刘瑾",
+      "url": "https://www.dpm.org.cn/court/lineage/226240.html"
+    },
+    "enrich_ningwang": {
+      "title": "福建省人民政府·王阳明平宁王之乱",
+      "url": "https://www.fujian.gov.cn/zwgk/ztzl/sxzygwzxsgzx/sdjj/wvjj/202308/t20230810_6222878.htm"
+    },
+    "enrich_daliyi": {
+      "title": "故宫博物院·大礼议",
+      "url": "https://www.dpm.org.cn/lemmas/241433.html"
+    },
+    "enrich_bencao": {
+      "title": "中国国家博物馆·《本草纲目》",
+      "url": "https://www.chnmuseum.cn/zp/zpml/gjwxbt/202203/t20220301_254064.shtml"
+    },
+    "enrich_jisi": {
+      "title": "故宫博物院·皇太极入关奔袭战略",
+      "url": "https://www.dpm.org.cn/court/event/158734.html"
+    },
+    "enrich_tiangong": {
+      "title": "中国科学院自然科学史研究所·宋应星",
+      "url": "https://agri-history.ihns.ac.cn/agriculturists/syx.htm"
+    },
+    "enrich_aobai": {
+      "title": "故宫博物院·鳌拜罪案史料辩证",
+      "url": "https://www.dpm.org.cn/journal/247005.html"
+    },
+    "enrich_yongzheng": {
+      "title": "故宫博物院·雍正皇帝",
+      "url": "https://www.dpm.org.cn/court/lineage/226259.html"
+    },
+    "enrich_junji": {
+      "title": "故宫博物院·清代军机处档案研究",
+      "url": "https://www.dpm.org.cn/Uploads/pdf/1540/T00014_00.pdf"
+    },
+    "enrich_qianlong": {
+      "title": "故宫博物院·乾隆皇帝",
+      "url": "https://www.dpm.org.cn/court/lineage/226263.html"
+    },
+    "enrich_siku": {
+      "title": "故宫博物院·《四库全书》",
+      "url": "https://www.dpm.org.cn/lemmas/241812.html"
+    },
+    "enrich_macartney": {
+      "title": "中国国家博物馆·马戛尔尼的礼物",
+      "url": "https://www.chnmuseum.cn/yj/xscg/xslw/201812/t20181224_33280.shtml"
+    },
+    "enrich_heshen": {
+      "title": "故宫博物院·和珅",
+      "url": "https://www.dpm.org.cn/court/figure/104004.html"
+    },
+    "enrich_tianli": {
+      "title": "故宫博物院·嘉庆皇帝",
+      "url": "https://www.dpm.org.cn/court/lineage/226238.html"
+    },
+    "enrich_xinyou": {
+      "title": "故宫博物院·辛酉政变",
+      "url": "https://www.dpm.org.cn/court/event/156213.html"
+    },
+    "enrich_puyi": {
+      "title": "故宫博物院·宣统皇帝大事年表",
+      "url": "https://www.dpm.org.cn/court/lineage/226255.html"
     }
   },
   "entries": [
     {
+      "id": "anc_xia",
+      "eventId": "anc_xia",
+      "reviewLevel": "source_index_reviewed",
+      "status": "出处索引已审查",
+      "finding": "已审阅年度、标题、摘要和引用索引；未在本轮逐句独立联网校勘。",
+      "sourceIds": [
+        "anc-dating",
+        "anc-nm-early"
+      ],
+      "year": -2070,
+      "title": "约前2070年 · 夏代与早期王权的形成"
+    },
+    {
+      "id": "anc_shang",
+      "eventId": "anc_shang",
+      "reviewLevel": "source_index_reviewed",
+      "status": "出处索引已审查",
+      "finding": "已审阅年度、标题、摘要和引用索引；未在本轮逐句独立联网校勘。",
+      "sourceIds": [
+        "anc-dating",
+        "anc-nm-early"
+      ],
+      "year": -1600,
+      "title": "约前1600年 · 商兴起，夏商更替"
+    },
+    {
+      "id": "anc_pangeng",
+      "eventId": "anc_pangeng",
+      "reviewLevel": "source_index_reviewed",
+      "status": "出处索引已审查",
+      "finding": "已审阅年度、标题、摘要和引用索引；未在本轮逐句独立联网校勘。",
+      "sourceIds": [
+        "anc-dating",
+        "anc-nm-early"
+      ],
+      "year": -1300,
+      "title": "约前1300年 · 盘庚迁殷"
+    },
+    {
+      "id": "anc_wuding",
+      "eventId": "anc_wuding",
+      "reviewLevel": "source_index_reviewed",
+      "status": "出处索引已审查",
+      "finding": "已审阅年度、标题、摘要和引用索引；未在本轮逐句独立联网校勘。",
+      "sourceIds": [
+        "anc-wuding",
+        "anc-dating"
+      ],
+      "year": -1250,
+      "title": "约前13世纪（武丁时期） · 武丁时代：甲骨记录中的征伐与妇好"
+    },
+    {
+      "id": "anc_muye",
+      "eventId": "anc_muye",
+      "reviewLevel": "source_index_reviewed",
+      "status": "出处索引已审查",
+      "finding": "已审阅年度、标题、摘要和引用索引；未在本轮逐句独立联网校勘。",
+      "sourceIds": [
+        "anc-li",
+        "anc-sj4"
+      ],
+      "year": -1046,
+      "title": "约前1046年 · 武王克商，牧野之战"
+    },
+    {
+      "id": "anc_zhougong",
+      "eventId": "anc_zhougong",
+      "reviewLevel": "source_index_reviewed",
+      "status": "出处索引已审查",
+      "finding": "已审阅年度、标题、摘要和引用索引；未在本轮逐句独立联网校勘。",
+      "sourceIds": [
+        "anc-sj4",
+        "anc-nm-early"
+      ],
+      "year": -1042,
+      "title": "约前11世纪（成王初年） · 周公摄政与东征"
+    },
+    {
+      "id": "anc_chengzhou",
+      "eventId": "anc_chengzhou",
+      "reviewLevel": "source_index_reviewed",
+      "status": "出处索引已审查",
+      "finding": "已审阅年度、标题、摘要和引用索引；未在本轮逐句独立联网校勘。",
+      "sourceIds": [
+        "anc-sj4",
+        "anc-nm-early"
+      ],
+      "year": -1040,
+      "title": "约前11世纪（成王时期） · 营建成周，封邦建国"
+    },
+    {
+      "id": "anc_gonghe",
+      "eventId": "anc_gonghe",
+      "reviewLevel": "source_index_reviewed",
+      "status": "出处索引已审查",
+      "finding": "已审阅年度、标题、摘要和引用索引；未在本轮逐句独立联网校勘。",
+      "sourceIds": [
+        "anc-sj4",
+        "anc-dating"
+      ],
+      "year": -841,
+      "title": "前841年 · 国人暴动与共和行政"
+    },
+    {
+      "id": "anc_xuan",
+      "eventId": "anc_xuan",
+      "reviewLevel": "source_index_reviewed",
+      "status": "出处索引已审查",
+      "finding": "已审阅年度、标题、摘要和引用索引；未在本轮逐句独立联网校勘。",
+      "sourceIds": [
+        "anc-sj4"
+      ],
+      "year": -827,
+      "title": "前827年 · 宣王即位，谋求恢复王室秩序"
+    },
+    {
+      "id": "anc_western_zhou_end",
+      "eventId": "anc_western_zhou_end",
+      "reviewLevel": "source_index_reviewed",
+      "status": "出处索引已审查",
+      "finding": "已审阅年度、标题、摘要和引用索引；未在本轮逐句独立联网校勘。",
+      "sourceIds": [
+        "anc-sj4"
+      ],
+      "year": -771,
+      "title": "前771年 · 幽王遇害，西周王室危机"
+    },
+    {
+      "id": "anc_eastward",
+      "eventId": "anc_eastward",
+      "reviewLevel": "source_index_reviewed",
+      "status": "出处索引已审查",
+      "finding": "已审阅年度、标题、摘要和引用索引；未在本轮逐句独立联网校勘。",
+      "sourceIds": [
+        "anc-sj4",
+        "anc-nm-eastern"
+      ],
+      "year": -770,
+      "title": "前770年 · 平王东迁洛邑"
+    },
+    {
+      "id": "anc_xuge",
+      "eventId": "anc_xuge",
+      "reviewLevel": "source_index_reviewed",
+      "status": "出处索引已审查",
+      "finding": "已审阅年度、标题、摘要和引用索引；未在本轮逐句独立联网校勘。",
+      "sourceIds": [
+        "anc-zz桓公"
+      ],
+      "year": -707,
+      "title": "前707年 · 繻葛之战，周郑交兵"
+    },
+    {
+      "id": "anc_qihuan",
+      "eventId": "anc_qihuan",
+      "reviewLevel": "source_index_reviewed",
+      "status": "出处索引已审查",
+      "finding": "已审阅年度、标题、摘要和引用索引；未在本轮逐句独立联网校勘。",
+      "sourceIds": [
+        "anc-sj32"
+      ],
+      "year": -685,
+      "title": "前685年 · 齐桓公即位，管仲辅政"
+    },
+    {
+      "id": "anc_kuiqiu",
+      "eventId": "anc_kuiqiu",
+      "reviewLevel": "source_index_reviewed",
+      "status": "出处索引已审查",
+      "finding": "已审阅年度、标题、摘要和引用索引；未在本轮逐句独立联网校勘。",
+      "sourceIds": [
+        "anc-zz僖公"
+      ],
+      "year": -651,
+      "title": "前651年 · 葵丘会盟，齐桓公霸业"
+    },
+    {
+      "id": "anc_chengpu",
+      "eventId": "anc_chengpu",
+      "reviewLevel": "source_index_reviewed",
+      "status": "出处索引已审查",
+      "finding": "已审阅年度、标题、摘要和引用索引；未在本轮逐句独立联网校勘。",
+      "sourceIds": [
+        "anc-zz僖公",
+        "anc-sj39"
+      ],
+      "year": -632,
+      "title": "前632年 · 城濮之战，晋胜楚"
+    },
+    {
+      "id": "anc_bi",
+      "eventId": "anc_bi",
+      "reviewLevel": "source_index_reviewed",
+      "status": "出处索引已审查",
+      "finding": "已审阅年度、标题、摘要和引用索引；未在本轮逐句独立联网校勘。",
+      "sourceIds": [
+        "anc-zz宣公"
+      ],
+      "year": -597,
+      "title": "前597年 · 邲之战，楚胜晋"
+    },
+    {
+      "id": "anc_mibing",
+      "eventId": "anc_mibing",
+      "reviewLevel": "source_index_reviewed",
+      "status": "出处索引已审查",
+      "finding": "已审阅年度、标题、摘要和引用索引；未在本轮逐句独立联网校勘。",
+      "sourceIds": [
+        "anc-zz襄公"
+      ],
+      "year": -546,
+      "title": "前546年 · 宋之盟：晋楚弭兵"
+    },
+    {
+      "id": "anc_boju",
+      "eventId": "anc_boju",
+      "reviewLevel": "source_index_reviewed",
+      "status": "出处索引已审查",
+      "finding": "已审阅年度、标题、摘要和引用索引；未在本轮逐句独立联网校勘。",
+      "sourceIds": [
+        "anc-zz定公"
+      ],
+      "year": -506,
+      "title": "前506年 · 柏举之战，吴军入郢"
+    },
+    {
+      "id": "anc_confucius",
+      "eventId": "anc_confucius",
+      "reviewLevel": "source_index_reviewed",
+      "status": "出处索引已审查",
+      "finding": "已审阅年度、标题、摘要和引用索引；未在本轮逐句独立联网校勘。",
+      "sourceIds": [
+        "anc-sj47"
+      ],
+      "year": -479,
+      "title": "前479年 · 孔子去世，学说由弟子传承"
+    },
+    {
+      "id": "anc_yue_wu",
+      "eventId": "anc_yue_wu",
+      "reviewLevel": "source_index_reviewed",
+      "status": "出处索引已审查",
+      "finding": "已审阅年度、标题、摘要和引用索引；未在本轮逐句独立联网校勘。",
+      "sourceIds": [
+        "anc-sj41"
+      ],
+      "year": -473,
+      "title": "前473年 · 越灭吴"
+    },
+    {
+      "id": "anc_jinyang",
+      "eventId": "anc_jinyang",
+      "reviewLevel": "source_index_reviewed",
+      "status": "出处索引已审查",
+      "finding": "已审阅年度、标题、摘要和引用索引；未在本轮逐句独立联网校勘。",
+      "sourceIds": [
+        "anc-tj1",
+        "anc-sj43"
+      ],
+      "year": -453,
+      "title": "前453年 · 晋阳之战后，韩赵魏分智氏之地"
+    },
+    {
+      "id": "anc_three_jin",
+      "eventId": "anc_three_jin",
+      "reviewLevel": "source_index_reviewed",
+      "status": "出处索引已审查",
+      "finding": "已审阅年度、标题、摘要和引用索引；未在本轮逐句独立联网校勘。",
+      "sourceIds": [
+        "anc-tj1",
+        "anc-sj4"
+      ],
+      "year": -403,
+      "title": "前403年 · 周王命韩赵魏为诸侯"
+    },
+    {
+      "id": "anc_tian_qi",
+      "eventId": "anc_tian_qi",
+      "reviewLevel": "source_index_reviewed",
+      "status": "出处索引已审查",
+      "finding": "已审阅年度、标题、摘要和引用索引；未在本轮逐句独立联网校勘。",
+      "sourceIds": [
+        "anc-tj1"
+      ],
+      "year": -386,
+      "title": "前386年 · 田氏获得齐侯之命"
+    },
+    {
+      "id": "anc_shangyang",
+      "eventId": "anc_shangyang",
+      "reviewLevel": "source_index_reviewed",
+      "status": "出处索引已审查",
+      "finding": "已审阅年度、标题、摘要和引用索引；未在本轮逐句独立联网校勘。",
+      "sourceIds": [
+        "anc-tj2",
+        "anc-wuding"
+      ],
+      "year": -359,
+      "title": "前359—前350年（变法过程） · 商鞅变法展开"
+    },
+    {
+      "id": "anc_xianyang",
+      "eventId": "anc_xianyang",
+      "reviewLevel": "source_index_reviewed",
+      "status": "出处索引已审查",
+      "finding": "已审阅年度、标题、摘要和引用索引；未在本轮逐句独立联网校勘。",
+      "sourceIds": [
+        "anc-tj2",
+        "anc-sj5",
+        "anc-shangyang"
+      ],
+      "year": -350,
+      "title": "前350年 · 秦迁咸阳，继续推行县制等改革"
+    },
+    {
+      "id": "anc_bashu",
+      "eventId": "anc_bashu",
+      "reviewLevel": "source_index_reviewed",
+      "status": "出处索引已审查",
+      "finding": "已审阅年度、标题、摘要和引用索引；未在本轮逐句独立联网校勘。",
+      "sourceIds": [
+        "anc-tj3",
+        "anc-sj5"
+      ],
+      "year": -316,
+      "title": "前316年 · 秦并巴蜀"
+    },
+    {
+      "id": "anc_hufu",
+      "eventId": "anc_hufu",
+      "reviewLevel": "source_index_reviewed",
+      "status": "出处索引已审查",
+      "finding": "已审阅年度、标题、摘要和引用索引；未在本轮逐句独立联网校勘。",
+      "sourceIds": [
+        "anc-sj43",
+        "anc-tj3"
+      ],
+      "year": -307,
+      "title": "前307年 · 赵武灵王推行胡服骑射"
+    },
+    {
+      "id": "anc_coalition_qi",
+      "eventId": "anc_coalition_qi",
+      "reviewLevel": "source_index_reviewed",
+      "status": "出处索引已审查",
+      "finding": "已审阅年度、标题、摘要和引用索引；未在本轮逐句独立联网校勘。",
+      "sourceIds": [
+        "anc-tj4"
+      ],
+      "year": -284,
+      "title": "前284年 · 燕等国联合攻齐"
+    },
+    {
+      "id": "anc_ying",
+      "eventId": "anc_ying",
+      "reviewLevel": "source_index_reviewed",
+      "status": "出处索引已审查",
+      "finding": "已审阅年度、标题、摘要和引用索引；未在本轮逐句独立联网校勘。",
+      "sourceIds": [
+        "anc-tj4"
+      ],
+      "year": -278,
+      "title": "前278年 · 白起拔郢，楚廷东迁"
+    },
+    {
+      "id": "anc_changping",
+      "eventId": "anc_changping",
+      "reviewLevel": "source_index_reviewed",
+      "status": "出处索引已审查",
+      "finding": "已审阅年度、标题、摘要和引用索引；未在本轮逐句独立联网校勘。",
+      "sourceIds": [
+        "anc-tj5",
+        "anc-sj43"
+      ],
+      "year": -260,
+      "title": "前260年 · 长平之战，赵军惨败"
+    },
+    {
+      "id": "anc_zhou_nan",
+      "eventId": "anc_zhou_nan",
+      "reviewLevel": "source_index_reviewed",
+      "status": "出处索引已审查",
+      "finding": "已审阅年度、标题、摘要和引用索引；未在本轮逐句独立联网校勘。",
+      "sourceIds": [
+        "anc-tj5",
+        "anc-sj4"
+      ],
+      "year": -256,
+      "title": "前256年 · 周赧王死，秦取西周国"
+    },
+    {
+      "id": "anc_eastern_zhou_state",
+      "eventId": "anc_eastern_zhou_state",
+      "reviewLevel": "source_index_reviewed",
+      "status": "出处索引已审查",
+      "finding": "已审阅年度、标题、摘要和引用索引；未在本轮逐句独立联网校勘。",
+      "sourceIds": [
+        "anc-tj6"
+      ],
+      "year": -249,
+      "title": "前249年 · 秦灭东周国"
+    },
+    {
+      "id": "anc_last_coalition",
+      "eventId": "anc_last_coalition",
+      "reviewLevel": "source_index_reviewed",
+      "status": "出处索引已审查",
+      "finding": "已审阅年度、标题、摘要和引用索引；未在本轮逐句独立联网校勘。",
+      "sourceIds": [
+        "anc-tj6"
+      ],
+      "year": -241,
+      "title": "前241年 · 诸国合纵攻秦受挫"
+    },
+    {
+      "id": "anc_han_end",
+      "eventId": "anc_han_end",
+      "reviewLevel": "source_index_reviewed",
+      "status": "出处索引已审查",
+      "finding": "已审阅年度、标题、摘要和引用索引；未在本轮逐句独立联网校勘。",
+      "sourceIds": [
+        "anc-sj6"
+      ],
+      "year": -230,
+      "title": "前230年 · 秦灭韩"
+    },
+    {
+      "id": "anc_zhao_end",
+      "eventId": "anc_zhao_end",
+      "reviewLevel": "source_index_reviewed",
+      "status": "出处索引已审查",
+      "finding": "已审阅年度、标题、摘要和引用索引；未在本轮逐句独立联网校勘。",
+      "sourceIds": [
+        "anc-sj6"
+      ],
+      "year": -228,
+      "title": "前228年 · 秦破邯郸，赵王被俘"
+    },
+    {
+      "id": "anc_wei_end",
+      "eventId": "anc_wei_end",
+      "reviewLevel": "source_index_reviewed",
+      "status": "出处索引已审查",
+      "finding": "已审阅年度、标题、摘要和引用索引；未在本轮逐句独立联网校勘。",
+      "sourceIds": [
+        "anc-sj6"
+      ],
+      "year": -225,
+      "title": "前225年 · 秦灭魏"
+    },
+    {
+      "id": "anc_chu_end",
+      "eventId": "anc_chu_end",
+      "reviewLevel": "source_index_reviewed",
+      "status": "出处索引已审查",
+      "finding": "已审阅年度、标题、摘要和引用索引；未在本轮逐句独立联网校勘。",
+      "sourceIds": [
+        "anc-sj6"
+      ],
+      "year": -223,
+      "title": "前223年 · 秦俘楚王，楚国王廷终结"
+    },
+    {
+      "id": "anc_yan_dai_end",
+      "eventId": "anc_yan_dai_end",
+      "reviewLevel": "source_index_reviewed",
+      "status": "出处索引已审查",
+      "finding": "已审阅年度、标题、摘要和引用索引；未在本轮逐句独立联网校勘。",
+      "sourceIds": [
+        "anc-sj6"
+      ],
+      "year": -222,
+      "title": "前222年 · 秦灭燕、代残余政权"
+    },
+    {
       "id": "chron_qin_unification",
-      "title": "-221年 · 秦统一六国，始皇帝登场",
+      "title": "前221年 · 秦统一六国，始皇帝登场",
       "status": "主事实已复核",
       "reviewLevel": "core_fact_rechecked",
       "finding": "主事件及所在年与通史展览主线对照；细节仍以本条原典为据。",
@@ -725,7 +1458,7 @@
     },
     {
       "id": "chron_qin_lingnan",
-      "title": "-214年 · 秦置岭南三郡",
+      "title": "前214年 · 秦置岭南三郡",
       "status": "出处索引已审查",
       "reviewLevel": "reference_index_reviewed",
       "finding": "已审阅年份、标题、摘要与来源索引，未在本轮逐句重新联网校勘，不标为独立证实。",
@@ -737,7 +1470,7 @@
     },
     {
       "id": "chron_qin_books",
-      "title": "-213年 · 焚书令下达",
+      "title": "前213年 · 焚书令下达",
       "status": "出处索引已审查",
       "reviewLevel": "reference_index_reviewed",
       "finding": "已审阅年份、标题、摘要与来源索引，未在本轮逐句重新联网校勘，不标为独立证实。",
@@ -749,7 +1482,7 @@
     },
     {
       "id": "chron_qin_death",
-      "title": "-210年 · 始皇帝去世，沙丘政变",
+      "title": "前210年 · 始皇帝去世，沙丘政变",
       "status": "出处索引已审查",
       "reviewLevel": "reference_index_reviewed",
       "finding": "已审阅年份、标题、摘要与来源索引，未在本轮逐句重新联网校勘，不标为独立证实。",
@@ -761,7 +1494,7 @@
     },
     {
       "id": "chron_dazexiang",
-      "title": "-209年 · 陈胜吴广起事",
+      "title": "前209年 · 陈胜吴广起事",
       "status": "主事实已复核",
       "reviewLevel": "core_fact_rechecked",
       "finding": "主事件及所在年与通史展览主线对照；细节仍以本条原典为据。",
@@ -773,7 +1506,7 @@
     },
     {
       "id": "chron_end_qin",
-      "title": "-207年 · 子婴向刘邦军投降",
+      "title": "前207年 · 子婴向刘邦军投降",
       "status": "主事实已复核",
       "reviewLevel": "core_fact_rechecked",
       "finding": "国博通史用前206秦亡；本条特指子婴出降系前207，原有不同终结节点的说明保留，不把两种口径静默合并。",
@@ -786,7 +1519,7 @@
     },
     {
       "id": "chron_julu",
-      "title": "-207年 · 巨鹿之战：项羽击破秦军",
+      "title": "前207年 · 巨鹿之战：项羽击破秦军",
       "status": "出处索引已审查",
       "reviewLevel": "reference_index_reviewed",
       "finding": "已审阅年份、标题、摘要与来源索引，未在本轮逐句重新联网校勘，不标为独立证实。",
@@ -799,7 +1532,7 @@
     },
     {
       "id": "chron_hongmen_partition",
-      "title": "-206年 · 鸿门宴与十八路诸侯",
+      "title": "前206年 · 鸿门宴与十八路诸侯",
       "status": "出处索引已审查",
       "reviewLevel": "reference_index_reviewed",
       "finding": "已审阅年份、标题、摘要与来源索引，未在本轮逐句重新联网校勘，不标为独立证实。",
@@ -812,7 +1545,7 @@
     },
     {
       "id": "chron_gaixia",
-      "title": "-202年 · 垓下决胜，汉朝建立",
+      "title": "前202年 · 垓下决胜，汉朝建立",
       "status": "主事实已复核",
       "reviewLevel": "core_fact_rechecked",
       "finding": "主事件及所在年与通史展览主线对照；细节仍以本条原典为据。",
@@ -824,7 +1557,7 @@
     },
     {
       "id": "chron_baideng",
-      "title": "-200年 · 白登之围",
+      "title": "前200年 · 白登之围",
       "status": "出处索引已审查",
       "reviewLevel": "reference_index_reviewed",
       "finding": "已审阅年份、标题、摘要与来源索引，未在本轮逐句重新联网校勘，不标为独立证实。",
@@ -835,8 +1568,20 @@
       "eventId": "chron_baideng"
     },
     {
+      "id": "enrich_han_wendi",
+      "eventId": "enrich_han_wendi",
+      "reviewLevel": "source_index_reviewed",
+      "status": "出处索引已审查",
+      "finding": "已审阅年度、标题、摘要和引用索引；未在本轮逐句独立联网校勘。",
+      "sourceIds": [
+        "enrich_han_wendi"
+      ],
+      "year": -180,
+      "title": "前180年 · 诸吕被诛，刘恒入继皇位"
+    },
+    {
       "id": "chron_seven_princes",
-      "title": "-154年 · 七国之乱被平定",
+      "title": "前154年 · 七国之乱被平定",
       "status": "出处索引已审查",
       "reviewLevel": "reference_index_reviewed",
       "finding": "已审阅年份、标题、摘要与来源索引，未在本轮逐句重新联网校勘，不标为独立证实。",
@@ -848,7 +1593,7 @@
     },
     {
       "id": "chron_zhangqian",
-      "title": "-138年 · 张骞第一次出使西域",
+      "title": "前138年 · 张骞第一次出使西域",
       "status": "出处索引已审查",
       "reviewLevel": "reference_index_reviewed",
       "finding": "已审阅年份、标题、摘要与来源索引，未在本轮逐句重新联网校勘，不标为独立证实。",
@@ -862,7 +1607,7 @@
     },
     {
       "id": "chron_henan_campaign",
-      "title": "-127年 · 卫青收复河南地",
+      "title": "前127年 · 卫青收复河南地",
       "status": "出处索引已审查",
       "reviewLevel": "reference_index_reviewed",
       "finding": "已审阅年份、标题、摘要与来源索引，未在本轮逐句重新联网校勘，不标为独立证实。",
@@ -875,7 +1620,7 @@
     },
     {
       "id": "chron_hexi",
-      "title": "-121年 · 霍去病进军河西",
+      "title": "前121年 · 霍去病进军河西",
       "status": "出处索引已审查",
       "reviewLevel": "reference_index_reviewed",
       "finding": "已审阅年份、标题、摘要与来源索引，未在本轮逐句重新联网校勘，不标为独立证实。",
@@ -888,7 +1633,7 @@
     },
     {
       "id": "chron_mobei",
-      "title": "-119年 · 漠北大战",
+      "title": "前119年 · 漠北大战",
       "status": "出处索引已审查",
       "reviewLevel": "reference_index_reviewed",
       "finding": "已审阅年份、标题、摘要与来源索引，未在本轮逐句重新联网校勘，不标为独立证实。",
@@ -901,7 +1646,7 @@
     },
     {
       "id": "chron_nanyue",
-      "title": "-111年 · 汉军平南越，设置郡县",
+      "title": "前111年 · 汉军平南越，设置郡县",
       "status": "出处索引已审查",
       "reviewLevel": "reference_index_reviewed",
       "finding": "已审阅年份、标题、摘要与来源索引，未在本轮逐句重新联网校勘，不标为独立证实。",
@@ -914,7 +1659,7 @@
     },
     {
       "id": "chron_chaoxian",
-      "title": "-108年 · 卫氏朝鲜覆亡，汉置四郡",
+      "title": "前108年 · 卫氏朝鲜覆亡，汉置四郡",
       "status": "出处索引已审查",
       "reviewLevel": "reference_index_reviewed",
       "finding": "已审阅年份、标题、摘要与来源索引，未在本轮逐句重新联网校勘，不标为独立证实。",
@@ -927,7 +1672,7 @@
     },
     {
       "id": "chron_dayuan_campaign",
-      "title": "-101年 · 汉军第二次伐大宛后返回",
+      "title": "前101年 · 汉军第二次伐大宛后返回",
       "status": "出处索引已审查",
       "reviewLevel": "reference_index_reviewed",
       "finding": "已审阅年份、标题、摘要与来源索引，未在本轮逐句重新联网校勘，不标为独立证实。",
@@ -940,7 +1685,7 @@
     },
     {
       "id": "chron_western_protectorate",
-      "title": "-60年 · 西域都护设置",
+      "title": "前60年 · 西域都护设置",
       "status": "出处索引已审查",
       "reviewLevel": "reference_index_reviewed",
       "finding": "已审阅年份、标题、摘要与来源索引，未在本轮逐句重新联网校勘，不标为独立证实。",
@@ -952,7 +1697,7 @@
     },
     {
       "id": "chron_zhaojun",
-      "title": "-33年 · 昭君出塞",
+      "title": "前33年 · 昭君出塞",
       "status": "出处索引已审查",
       "reviewLevel": "reference_index_reviewed",
       "finding": "已审阅年份、标题、摘要与来源索引，未在本轮逐句重新联网校勘，不标为独立证实。",
@@ -1170,6 +1915,18 @@
       "eventId": "chron_qishan"
     },
     {
+      "id": "enrich_jin_xuandi",
+      "eventId": "enrich_jin_xuandi",
+      "reviewLevel": "source_index_reviewed",
+      "status": "出处索引已审查",
+      "finding": "已审阅年度、标题、摘要和引用索引；未在本轮逐句独立联网校勘。",
+      "sourceIds": [
+        "enrich_jin_xuandi"
+      ],
+      "year": 249,
+      "title": "249年 · 高平陵之变"
+    },
+    {
       "id": "chron_end_shu",
       "title": "263年 · 曹魏灭蜀汉",
       "status": "主事实已复核",
@@ -1352,6 +2109,18 @@
       ],
       "year": 417,
       "eventId": "chron_end_laterqin"
+    },
+    {
+      "id": "enrich_song_found",
+      "eventId": "enrich_song_found",
+      "reviewLevel": "source_index_reviewed",
+      "status": "出处索引已审查",
+      "finding": "已审阅年度、标题、摘要和引用索引；未在本轮逐句独立联网校勘。",
+      "sourceIds": [
+        "enrich_song_found"
+      ],
+      "year": 420,
+      "title": "420年 · 刘裕代晋，建立（南朝）宋"
     },
     {
       "id": "chron_end_xia",
@@ -1597,6 +2366,18 @@
       "eventId": "chron_xuanzang_return"
     },
     {
+      "id": "enrich_dayan",
+      "eventId": "enrich_dayan",
+      "reviewLevel": "source_index_reviewed",
+      "status": "出处索引已审查",
+      "finding": "已审阅年度、标题、摘要和引用索引；未在本轮逐句独立联网校勘。",
+      "sourceIds": [
+        "enrich_dayan"
+      ],
+      "year": 652,
+      "title": "652年 · 长安兴建大雁塔"
+    },
+    {
       "id": "chron_west_turk",
       "title": "657年 · 苏定方击败西突厥阿史那贺鲁",
       "status": "出处索引已审查",
@@ -1658,7 +2439,7 @@
     },
     {
       "id": "chron_anshi",
-      "title": "755年 · 安史之乱爆发",
+      "title": "755年 · 安史之乱",
       "status": "出处索引已审查",
       "reviewLevel": "reference_index_reviewed",
       "finding": "已审阅年份、标题、摘要与来源索引，未在本轮逐句重新联网校勘，不标为独立证实。",
@@ -1683,7 +2464,7 @@
     },
     {
       "id": "chron_anshi_end",
-      "title": "763年 · 安史叛军瓦解，吐蕃一度进入长安",
+      "title": "763年 · 吐蕃一度进入长安",
       "status": "出处索引已审查",
       "reviewLevel": "reference_index_reviewed",
       "finding": "已审阅年份、标题、摘要与来源索引，未在本轮逐句重新联网校勘，不标为独立证实。",
@@ -1924,6 +2705,18 @@
       ],
       "year": 1004,
       "eventId": "chron_chanyuan"
+    },
+    {
+      "id": "enrich_jiaozi",
+      "eventId": "enrich_jiaozi",
+      "reviewLevel": "source_index_reviewed",
+      "status": "出处索引已审查",
+      "finding": "已审阅年度、标题、摘要和引用索引；未在本轮逐句独立联网校勘。",
+      "sourceIds": [
+        "enrich_jiaozi"
+      ],
+      "year": 1023,
+      "title": "1023年 · 宋廷设益州交子务"
     },
     {
       "id": "chron_xia_found",
@@ -2300,6 +3093,66 @@
       "eventId": "late_tumu"
     },
     {
+      "id": "enrich_duomen",
+      "eventId": "enrich_duomen",
+      "reviewLevel": "source_index_reviewed",
+      "status": "出处索引已审查",
+      "finding": "已审阅年度、标题、摘要和引用索引；未在本轮逐句独立联网校勘。",
+      "sourceIds": [
+        "enrich_duomen"
+      ],
+      "year": 1457,
+      "title": "1457年 · 夺门之变，英宗复位"
+    },
+    {
+      "id": "enrich_yangming",
+      "eventId": "enrich_yangming",
+      "reviewLevel": "source_index_reviewed",
+      "status": "出处索引已审查",
+      "finding": "已审阅年度、标题、摘要和引用索引；未在本轮逐句独立联网校勘。",
+      "sourceIds": [
+        "enrich_yangming"
+      ],
+      "year": 1508,
+      "title": "1508年 · 王阳明谪居龙场，思想转折"
+    },
+    {
+      "id": "enrich_liujin",
+      "eventId": "enrich_liujin",
+      "reviewLevel": "source_index_reviewed",
+      "status": "出处索引已审查",
+      "finding": "已审阅年度、标题、摘要和引用索引；未在本轮逐句独立联网校勘。",
+      "sourceIds": [
+        "enrich_liujin"
+      ],
+      "year": 1510,
+      "title": "1510年 · 刘瑾被捕，正德朝权力重组"
+    },
+    {
+      "id": "enrich_ningwang",
+      "eventId": "enrich_ningwang",
+      "reviewLevel": "source_index_reviewed",
+      "status": "出处索引已审查",
+      "finding": "已审阅年度、标题、摘要和引用索引；未在本轮逐句独立联网校勘。",
+      "sourceIds": [
+        "enrich_ningwang"
+      ],
+      "year": 1519,
+      "title": "1519年 · 宁王起兵，王阳明出兵平定"
+    },
+    {
+      "id": "enrich_daliyi",
+      "eventId": "enrich_daliyi",
+      "reviewLevel": "source_index_reviewed",
+      "status": "出处索引已审查",
+      "finding": "已审阅年度、标题、摘要和引用索引；未在本轮逐句独立联网校勘。",
+      "sourceIds": [
+        "enrich_daliyi"
+      ],
+      "year": 1524,
+      "title": "1524年 · 大礼议冲突，左顺门廷争"
+    },
+    {
       "id": "late_taizhou",
       "title": "1561年 · 戚继光取得台州大捷",
       "status": "出处索引已审查",
@@ -2334,6 +3187,18 @@
       ],
       "year": 1572,
       "eventId": "late_zhang"
+    },
+    {
+      "id": "enrich_bencao",
+      "eventId": "enrich_bencao",
+      "reviewLevel": "source_index_reviewed",
+      "status": "出处索引已审查",
+      "finding": "已审阅年度、标题、摘要和引用索引；未在本轮逐句独立联网校勘。",
+      "sourceIds": [
+        "enrich_bencao"
+      ],
+      "year": 1578,
+      "title": "1578年 · 李时珍完成《本草纲目》"
     },
     {
       "id": "late_korea_war",
@@ -2372,6 +3237,18 @@
       "eventId": "late_sarhu"
     },
     {
+      "id": "enrich_jisi",
+      "eventId": "enrich_jisi",
+      "reviewLevel": "source_index_reviewed",
+      "status": "出处索引已审查",
+      "finding": "已审阅年度、标题、摘要和引用索引；未在本轮逐句独立联网校勘。",
+      "sourceIds": [
+        "enrich_jisi"
+      ],
+      "year": 1629,
+      "title": "1629年 · 己巳之变：后金军直趋北京"
+    },
+    {
       "id": "late_qing_name",
       "title": "1636年 · 皇太极称帝，改国号为清",
       "status": "出处索引已审查",
@@ -2382,6 +3259,18 @@
       ],
       "year": 1636,
       "eventId": "late_qing_name"
+    },
+    {
+      "id": "enrich_tiangong",
+      "eventId": "enrich_tiangong",
+      "reviewLevel": "source_index_reviewed",
+      "status": "出处索引已审查",
+      "finding": "已审阅年度、标题、摘要和引用索引；未在本轮逐句独立联网校勘。",
+      "sourceIds": [
+        "enrich_tiangong"
+      ],
+      "year": 1637,
+      "title": "1637年 · 《天工开物》初刊"
     },
     {
       "id": "late_beijing_falls",
@@ -2442,6 +3331,18 @@
       ],
       "year": 1662,
       "eventId": "late_zheng_taiwan"
+    },
+    {
+      "id": "enrich_aobai",
+      "eventId": "enrich_aobai",
+      "reviewLevel": "source_index_reviewed",
+      "status": "出处索引已审查",
+      "finding": "已审阅年度、标题、摘要和引用索引；未在本轮逐句独立联网校勘。",
+      "sourceIds": [
+        "enrich_aobai"
+      ],
+      "year": 1669,
+      "title": "1669年 · 鳌拜被拘，康熙巩固亲政"
     },
     {
       "id": "late_three_feudatories",
@@ -2528,6 +3429,18 @@
       "eventId": "late_tibet_campaign"
     },
     {
+      "id": "enrich_yongzheng",
+      "eventId": "enrich_yongzheng",
+      "reviewLevel": "source_index_reviewed",
+      "status": "出处索引已审查",
+      "finding": "已审阅年度、标题、摘要和引用索引；未在本轮逐句独立联网校勘。",
+      "sourceIds": [
+        "enrich_yongzheng"
+      ],
+      "year": 1722,
+      "title": "1722年 · 康熙去世，胤禛继位"
+    },
+    {
       "id": "late_ambans",
       "title": "1727年 · 清廷开始设置驻藏大臣",
       "status": "出处索引已审查",
@@ -2538,6 +3451,30 @@
       ],
       "year": 1727,
       "eventId": "late_ambans"
+    },
+    {
+      "id": "enrich_junji",
+      "eventId": "enrich_junji",
+      "reviewLevel": "core_fact_rechecked",
+      "status": "主事实已复核",
+      "finding": "区分1729年的军机房与1732年的办理军机处，保留创设年代的研究口径。",
+      "sourceIds": [
+        "audit-junji"
+      ],
+      "year": 1729,
+      "title": "1729年 · 设置军机房，军机处的前身"
+    },
+    {
+      "id": "enrich_qianlong",
+      "eventId": "enrich_qianlong",
+      "reviewLevel": "source_index_reviewed",
+      "status": "出处索引已审查",
+      "finding": "已审阅年度、标题、摘要和引用索引；未在本轮逐句独立联网校勘。",
+      "sourceIds": [
+        "enrich_qianlong"
+      ],
+      "year": 1735,
+      "title": "1735年 · 雍正去世，弘历继位"
     },
     {
       "id": "late_dzungar",
@@ -2574,6 +3511,54 @@
       ],
       "year": 1771,
       "eventId": "late_torghut"
+    },
+    {
+      "id": "enrich_siku",
+      "eventId": "enrich_siku",
+      "reviewLevel": "source_index_reviewed",
+      "status": "出处索引已审查",
+      "finding": "已审阅年度、标题、摘要和引用索引；未在本轮逐句独立联网校勘。",
+      "sourceIds": [
+        "enrich_siku"
+      ],
+      "year": 1773,
+      "title": "1773年 · 开设四库全书馆"
+    },
+    {
+      "id": "enrich_macartney",
+      "eventId": "enrich_macartney",
+      "reviewLevel": "source_index_reviewed",
+      "status": "出处索引已审查",
+      "finding": "已审阅年度、标题、摘要和引用索引；未在本轮逐句独立联网校勘。",
+      "sourceIds": [
+        "enrich_macartney"
+      ],
+      "year": 1793,
+      "title": "1793年 · 马戛尔尼使团来华"
+    },
+    {
+      "id": "enrich_heshen",
+      "eventId": "enrich_heshen",
+      "reviewLevel": "source_index_reviewed",
+      "status": "出处索引已审查",
+      "finding": "已审阅年度、标题、摘要和引用索引；未在本轮逐句独立联网校勘。",
+      "sourceIds": [
+        "enrich_heshen"
+      ],
+      "year": 1799,
+      "title": "1799年 · 嘉庆亲政，和珅被赐死"
+    },
+    {
+      "id": "enrich_tianli",
+      "eventId": "enrich_tianli",
+      "reviewLevel": "source_index_reviewed",
+      "status": "出处索引已审查",
+      "finding": "已审阅年度、标题、摘要和引用索引；未在本轮逐句独立联网校勘。",
+      "sourceIds": [
+        "enrich_tianli"
+      ],
+      "year": 1813,
+      "title": "1813年 · 天理教起事，部分教众闯入宫禁"
     },
     {
       "id": "late_humen",
@@ -2660,6 +3645,18 @@
       ],
       "year": 1860,
       "eventId": "late_peking_treaties"
+    },
+    {
+      "id": "enrich_xinyou",
+      "eventId": "enrich_xinyou",
+      "reviewLevel": "source_index_reviewed",
+      "status": "出处索引已审查",
+      "finding": "已审阅年度、标题、摘要和引用索引；未在本轮逐句独立联网校勘。",
+      "sourceIds": [
+        "enrich_xinyou"
+      ],
+      "year": 1861,
+      "title": "1861年 · 辛酉政变，两宫垂帘"
     },
     {
       "id": "late_tianjing_falls",
@@ -2784,6 +3781,18 @@
       "eventId": "late_abolish_exams"
     },
     {
+      "id": "enrich_puyi",
+      "eventId": "enrich_puyi",
+      "reviewLevel": "source_index_reviewed",
+      "status": "出处索引已审查",
+      "finding": "已审阅年度、标题、摘要和引用索引；未在本轮逐句独立联网校勘。",
+      "sourceIds": [
+        "enrich_puyi"
+      ],
+      "year": 1908,
+      "title": "1908年 · 光绪与慈禧相继去世，溥仪即位"
+    },
+    {
       "id": "late_wuchang",
       "title": "1911年 · 武昌起义，辛亥革命扩展",
       "status": "主事实已复核",
@@ -2795,5 +3804,157 @@
       "year": 1911,
       "eventId": "late_wuchang"
     }
-  ]
+  ],
+  "factAudit": {
+    "checkedAt": "2026-10-25",
+    "scope": "Targeted calendar, succession and source-index audit; not a certification of every historical claim.",
+    "changes": [
+      {
+        "id": "fact-audit-0",
+        "title": "东汉短帝沿用年号",
+        "status": "已纠正",
+        "reviewLevel": "targeted_fact_rechecked",
+        "before": "刘懿的延光、刘辩的中平误算为元年。",
+        "finding": "125年为延光四年，189年沿用中平时为六年；换君主不重置同一年号。",
+        "sourceIds": [
+          "audit-houhan6",
+          "audit-era-index"
+        ]
+      },
+      {
+        "id": "fact-audit-1",
+        "title": "元代复位与沿用纪年",
+        "status": "已纠正",
+        "reviewLevel": "targeted_fact_rechecked",
+        "before": "明宗、文宗复位、宁宗的沿用年号被重新起算。",
+        "finding": "1329年为天历二年，1330年为天历三年；1332年宁宗沿用至顺三年。",
+        "sourceIds": [
+          "audit-yuan31",
+          "audit-yuan-ning",
+          "audit-era-index"
+        ]
+      },
+      {
+        "id": "fact-audit-2",
+        "title": "皇太极继汗位",
+        "status": "已纠正",
+        "reviewLevel": "targeted_fact_rechecked",
+        "before": "1626年的天命误算为元年。",
+        "finding": "继汗位当年为天命十一年；1627年才是天聪元年。",
+        "sourceIds": [
+          "audit-qing-hongtaiji",
+          "audit-era-index"
+        ]
+      },
+      {
+        "id": "fact-audit-3",
+        "title": "晋武帝末年年号",
+        "status": "已纠正",
+        "reviewLevel": "targeted_fact_rechecked",
+        "before": "太康被延长至290年，漏列太熙。",
+        "finding": "太康止于289年，290年晋武帝在位阶段为太熙元年。",
+        "sourceIds": [
+          "audit-jin3"
+        ]
+      },
+      {
+        "id": "fact-audit-4",
+        "title": "唐睿宗与玄宗交接",
+        "status": "已纠正",
+        "reviewLevel": "targeted_fact_rechecked",
+        "before": "712年漏列延和，玄宗即位至开元前缺先天纪年。",
+        "finding": "补712年延和、712—713年先天；713年同时列先天二年与开元元年，表示年内改元。",
+        "sourceIds": [
+          "audit-tang7"
+        ]
+      },
+      {
+        "id": "fact-audit-5",
+        "title": "汉献帝初年与末年",
+        "status": "已纠正",
+        "reviewLevel": "targeted_fact_rechecked",
+        "before": "189年及220年的部分改元漏列。",
+        "finding": "补永汉、复用中平六年和220年延康；同年多个年号按先后列出。",
+        "sourceIds": [
+          "audit-houhan9",
+          "audit-era-index"
+        ]
+      },
+      {
+        "id": "fact-audit-6",
+        "title": "乾隆退位与嘉庆初年实权",
+        "status": "已纠正",
+        "reviewLevel": "targeted_fact_rechecked",
+        "before": "原数据会在1796年生成“乾隆六十一年”，且未单列太上皇实权。",
+        "finding": "正式纪年按乾隆六十年岁末与嘉庆元年区分；1796—1799补太上皇弘历训政记录。",
+        "sourceIds": [
+          "audit-qing-qianlong"
+        ]
+      },
+      {
+        "id": "fact-audit-7",
+        "title": "同治十三年跨年",
+        "status": "已纠正",
+        "reviewLevel": "targeted_fact_rechecked",
+        "before": "在位截止1874，漏掉西历1875年初。",
+        "finding": "截止年改1875；该年初仍是同治十三年，不增加同治十四年。光绪也在1875年继位。",
+        "sourceIds": [
+          "audit-qing-tongzhi",
+          "dpm-lineage"
+        ]
+      },
+      {
+        "id": "fact-audit-8",
+        "title": "军机处创设名称",
+        "status": "已纠正",
+        "reviewLevel": "targeted_fact_rechecked",
+        "before": "1729年直接写作“军机处设立”。",
+        "finding": "区分1729年的军机房与1732年的办理军机处，保留创设年代的研究口径。",
+        "sourceIds": [
+          "audit-junji"
+        ]
+      },
+      {
+        "id": "fact-audit-9",
+        "title": "公元8年地图切片缺口",
+        "status": "已纠正",
+        "reviewLevel": "targeted_fact_rechecked",
+        "before": "西汉切片止7年，新朝从9年开始，中间8年没有明确覆盖。",
+        "finding": "西汉末期参考切片延伸至8年，与新朝9年起衔接；仍保留王莽代汉8/9年界说明。",
+        "sourceIds": [
+          "era_index"
+        ]
+      }
+    ],
+    "limitations": [
+      "疆界沿用173个代表阶段的近似几何，不是每年逐条边界的独立复原；部分战国切片已合并稍后形势。",
+      "年轴是一年一格；同年即位、退位、改元可并列，不能据此判断当年某一天的在位者。",
+      "夏商周早期约年、古城址和河道复原仍有争议；既有专题记录保留各自证据限制。",
+      "民族一栏以历史统治集团与通行族称为线索，不等同全部居民的现代民族身份。",
+      "未核实的政权负责人及缺失年号不补造；本轮重点修正所列交接年。"
+    ],
+    "stats": {
+      "originalReignRecords": 277,
+      "currentReignRecords": 279,
+      "dynastyRosters": 35,
+      "eventRecords": 232,
+      "targetedCorrectionGroups": 10
+    },
+    "validation": {
+      "reignRecordsChecked": 279,
+      "eventRecordsChecked": 232,
+      "rostersChecked": 35,
+      "checks": [
+        "Integer annual intervals and era containment",
+        "Source ID resolution",
+        "Unique event IDs and valid durations",
+        "Roster totals and unique names",
+        "12 explicit era-label regressions",
+        "Power-holder succession regressions",
+        "Yang Wu / Sun Wu and Chu–Han Qi disambiguation",
+        "CE 8 stage coverage"
+      ],
+      "issues": []
+    }
+  }
 }

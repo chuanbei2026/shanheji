@@ -797,6 +797,11 @@
     "enrich_puyi": {
       "title": "故宫博物院·宣统皇帝大事年表",
       "url": "https://www.dpm.org.cn/court/lineage/226255.html"
+    },
+    "audit-junji": {
+      "title": "故宫博物院 · 军机处",
+      "url": "https://www.dpm.org.cn/court/system/236360.html",
+      "note": "区分1729军机房与1732办理军机处；故宫用“大部分学者认为”限定创设年。"
     }
   },
   "events": [
@@ -3787,16 +3792,17 @@
     {
       "id": "enrich_junji",
       "year": 1729,
-      "title": "军机处设立，先办军务",
+      "title": "设置军机房，军机处的前身",
       "category": "改革与社会",
       "people": [
         "清世宗 · 胤禛"
       ],
       "brief": "办理军务的中枢机构，后来逐渐扩展至更广的政务。",
-      "summary": "雍正七年设立军机处，起初专办军务；它的职能及地位在此后逐步发展。",
+      "summary": "按多数研究采用的纪年，雍正七年（1729年）为西北军务设置军机房；雍正十年（1732年）正式改称办理军机处。机构职能及地位此后继续发展。",
       "impact": "皇帝与军机大臣之间的办事方式，成为清代中后期中枢政治的重要部分。",
       "sources": [
-        "enrich_junji"
+        "enrich_junji",
+        "audit-junji"
       ]
     },
     {
