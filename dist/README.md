@@ -334,3 +334,7 @@ The capital-change pass adds 16 sourced chronology entries and links six existin
 The dated capital layer now includes Northern Wei Pingcheng/Luoyang, Eastern Wei Ye, Jin Zhongdu/Kaifeng and Later Jin Shenyang/Shengjing. Tang Zhongzong returns from Luoyang to Chang’an in 706, following the Old Book of Tang, rather than immediately with the restoration of Tang in 705. Sui Luoyang is labeled Tokyo in 605 and Eastern Capital from 606. Lin’an remains a provisional court seat. Temporary flight and imperial tours do not automatically replace the institutional capital.
 
 Primary chronicles and museum, gazetteer and government evidence are attached to each entry. Month labels retain historical-calendar wording. `capitals.json.capitalChangeReview` records the scope and limits; this pass does not certify every dynasty’s monthly court location. An unrelated, unmistakable participant mismatch in the 1662 Yongli event was corrected from Zheng He to the Yongli emperor Zhu Youlang.
+
+## Concurrent calendars
+
+The map year shows all mapped polities with known annual era records, using polity colors. Selection does not hide other calendars. Same-year era changes share one row. Missing era records are omitted rather than inferred. The 1105 Liao and Western Xia calendars were checked against the Ministry of Education era table and the National Museum of China coin catalogue; Western Xia Zhenguan follows the latter's 1101–1113 dating.
