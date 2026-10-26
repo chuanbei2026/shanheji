@@ -1,9 +1,9 @@
 {
-  "exported_at": "2026-10-26T04:52:46.197Z",
-  "source_revision": "f4e9956d29c3df9cb4f8fe07cd559fd37ca27c32",
+  "exported_at": "2026-10-26T04:59:12.476Z",
+  "source_revision": "be19fbc7e63326cfac54c1906205d98841b25ea5",
   "static_directory": "dist",
   "file_count": 63,
-  "total_bytes": 25790179,
+  "total_bytes": 25795309,
   "files": [
     {
       "path": "D3-LICENSE.txt",
@@ -212,8 +212,8 @@
     },
     {
       "path": "history-chronicle.js",
-      "bytes": 14538,
-      "sha256": "4402a0e12860847a5a1084fa84d6cf536f56c97fa4f6ab8e9cc8ef651fbdf95e"
+      "bytes": 15516,
+      "sha256": "47a1380dde5c115c58f13f53c7257ebcb99d2686fb886953e0eff968c6c5b0c7"
     },
     {
       "path": "history-events.json",
@@ -227,8 +227,8 @@
     },
     {
       "path": "index.html",
-      "bytes": 35596,
-      "sha256": "13e79a4d8b53a9365b9836134ee24506c302688e36ddb42938e49c5dfddc02a4"
+      "bytes": 35597,
+      "sha256": "ff5eebc0155ed384ea4ad826538481e9d5575ea788751d95b1afd6087b4c785a"
     },
     {
       "path": "land.json",
@@ -297,8 +297,8 @@
     },
     {
       "path": "source.zip",
-      "bytes": 9395393,
-      "sha256": "4dabbf705b80ff325535e375ea584a5f32908d02fab00159dc4c46b5bba49ee7"
+      "bytes": 9396179,
+      "sha256": "477dd6a033b5b43596f89cd5ed9ea627edd42d2fcf922a92cc0ff50e458898be"
     },
     {
       "path": "stories.json",
@@ -307,8 +307,8 @@
     },
     {
       "path": "style.css",
-      "bytes": 131808,
-      "sha256": "5090b4550e5e29adfc3a3e647b182ea9e97bf34a26df55c8f56b64acf84e5ecf"
+      "bytes": 135173,
+      "sha256": "c9d23f5233cde8e1134d5647bc17ffed06577471737212fd5286bf5644ed8c84"
     },
     {
       "path": "time-axis.js",
