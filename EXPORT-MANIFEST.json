@@ -1,9 +1,9 @@
 {
-  "exported_at": "2026-10-26T04:59:12.476Z",
-  "source_revision": "be19fbc7e63326cfac54c1906205d98841b25ea5",
+  "exported_at": "2026-10-26T05:02:09.452Z",
+  "source_revision": "0d227cd1dd6d00c9fd0683aae62e5824ed8ce044",
   "static_directory": "dist",
   "file_count": 63,
-  "total_bytes": 25795309,
+  "total_bytes": 25796412,
   "files": [
     {
       "path": "D3-LICENSE.txt",
@@ -227,8 +227,8 @@
     },
     {
       "path": "index.html",
-      "bytes": 35597,
-      "sha256": "ff5eebc0155ed384ea4ad826538481e9d5575ea788751d95b1afd6087b4c785a"
+      "bytes": 35607,
+      "sha256": "fcbeb3f322d24eb00360d74f7f28bafd24c53114c171484f04e983cff2be9573"
     },
     {
       "path": "land.json",
@@ -297,8 +297,8 @@
     },
     {
       "path": "source.zip",
-      "bytes": 9396179,
-      "sha256": "477dd6a033b5b43596f89cd5ed9ea627edd42d2fcf922a92cc0ff50e458898be"
+      "bytes": 9396386,
+      "sha256": "e0de39562bcc8644abe8e70edced4dea4b8eec37ee6d105ee5f05dc9c42da705"
     },
     {
       "path": "stories.json",
@@ -307,8 +307,8 @@
     },
     {
       "path": "style.css",
-      "bytes": 135173,
-      "sha256": "c9d23f5233cde8e1134d5647bc17ffed06577471737212fd5286bf5644ed8c84"
+      "bytes": 136059,
+      "sha256": "f4956b2725aec6aea9ac794a384eb29316c73095591854e57373ab461a533340"
     },
     {
       "path": "time-axis.js",
