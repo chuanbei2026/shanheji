@@ -338,3 +338,7 @@ Primary chronicles and museum, gazetteer and government evidence are attached to
 ## Concurrent calendars
 
 The map year shows all mapped polities with known annual era records, using polity colors. Selection does not hide other calendars. Same-year era changes share one row. Missing era records are omitted rather than inferred. The 1105 Liao and Western Xia calendars were checked against the Ministry of Education era table and the National Museum of China coin catalogue; Western Xia Zhenguan follows the latter's 1101–1113 dating.
+
+## Event playback synchronization
+
+The event rail follows the same integer calendar year as the map, without a separate easing clock. Each event date header anchors its year to the fixed center guide. Intervening years interpolate between dated anchors. Same-year events remain together; resizing content remeasures the anchors. Manual event scrolling still temporarily suspends follow mode.
