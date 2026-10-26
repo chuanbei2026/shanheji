@@ -253,3 +253,22 @@ header{gap:22px}.atlas-jump{position:relative;flex:1;max-width:490px;min-width:2
 .news-scroll-shell:before,.news-scroll-shell:after{content:'';position:absolute;left:0;right:0;height:18px;pointer-events:none;z-index:2;background:linear-gradient(var(--paper),transparent)}
 .news-scroll-shell:before{top:0}.news-scroll-shell:after{bottom:0;transform:rotate(180deg)}
 @media(prefers-reduced-motion:reduce){.events-panel .continuous-news .history-event{transition:none}}
+
+/* Keep the global grid above the chart and dynasty dates in a separate lower ruler. */
+.atlas-left{grid-template-rows:minmax(0,1fr) 278px}
+.atlas-left .chronology{height:278px}
+.atlas-left .unified-sheet{padding:40px 0 60px}
+.atlas-left .master-axis{top:60px}
+.atlas-left .master-axis .year-ruler{top:-60px;height:14px}
+.atlas-left .ruler-tick:before{top:12px;height:5px}
+.atlas-left .unified-cursor-track{top:40px;bottom:60px}
+.atlas-left #annualCursorYear{top:-24px}
+.atlas-left .dynasty-row.window-focus .dynasty-bar-label small{display:none}
+.dynasty-range-dates{position:absolute;top:152px;left:0;right:0;height:48px;pointer-events:none}
+.dynasty-range-lane{position:relative;height:16px;font:10px/16px Georgia,'Songti SC',serif;color:#67765e}
+.dynasty-range-lane.current{font-weight:700;color:#35482d}
+.range-date{position:absolute;top:0;white-space:nowrap;background:#f7f5ec;padding:0 3px;z-index:1}
+.range-date-line{position:absolute;top:8px;height:1px;background:var(--range-color);opacity:.65}
+.range-date-line:before,.range-date-line:after{content:'';position:absolute;top:-3px;width:1px;height:7px;background:var(--range-color)}
+.range-date-line:before{left:0}.range-date-line:after{right:0}
+@media(max-width:800px){.atlas-left{grid-template-rows:360px 278px}.atlas-left .chronology{height:278px}.dynasty-range-lane{font-size:9px}}
