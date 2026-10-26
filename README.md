@@ -314,3 +314,7 @@ Qing roster rows show temple title, familiar regnal name and personal name in th
 ## Default starting year
 
 Opening the atlas without a valid year or stage starts at 770 BCE (the Spring and Autumn opening), and replay after reaching 1911 restarts there. Explicit year/stage links retain their targets, while Xia, Shang and Western Zhou remain reachable through the complete timeline, keyboard and search.
+
+### Pre-imperial ruler cards
+
+Spring and Autumn and Warring States maps show concurrent state cards independently of imperial genealogy rosters. Each card uses the exact polity identifier and the selected calendar year. The Zhou royal court appears first when mapped; other documented rulers precede unresolved records. Unknown annual rulers are explicitly marked rather than inherited from Qin or a snapshot year. Clicking a card selects that state and its calendar. The imperial roster layout resumes at 221 BCE.
