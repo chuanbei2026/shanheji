@@ -666,6 +666,71 @@
       "title": "《旧唐书》卷83·薛仁贵传",
       "url": "https://zh.wikisource.org/wiki/舊唐書/卷83",
       "note": "高丽降后诏留平壤、兼检校安东都护；可证668后段任职，不足解决魏哲墓志所涉初任次序。"
+    },
+    "calendar_0a06f2a0e8": {
+      "title": "《旧唐书》年号原典",
+      "url": "https://zh.wikisource.org/wiki/舊唐書/卷6"
+    },
+    "calendar_c9227d4e8e": {
+      "title": "《资治通鉴》编年与考异",
+      "url": "https://zh.wikisource.org/wiki/資治通鑑/卷204"
+    },
+    "calendar_83c436a651": {
+      "title": "韩国国史编纂委员会·《三国史记》载初元年纪年",
+      "url": "https://db.history.go.kr/item/compareViewer.do?levelId=sg_044_0060_0110"
+    },
+    "calendar_a50210103d": {
+      "title": "《资治通鉴》编年与考异",
+      "url": "https://zh.wikisource.org/wiki/資治通鑑/卷207"
+    },
+    "calendar_c5c2bd8ae0": {
+      "title": "《旧唐书》年号原典",
+      "url": "https://zh.wikisource.org/wiki/舊唐書/卷7"
+    },
+    "calendar_6866713ad2": {
+      "title": "《旧唐书》年号原典",
+      "url": "https://zh.wikisource.org/wiki/舊唐書/卷10"
+    },
+    "calendar_tang9": {
+      "title": "《旧唐书》卷九·玄宗下（天宝三载以后）",
+      "url": "https://zh.wikisource.org/wiki/舊唐書/卷9"
+    },
+    "calendar_huangchao_cambridge": {
+      "title": "Franciscus Verellen, The Fall of the Tang · Cambridge University Press（前置年表：881年1月8日长安陷落）",
+      "url": "https://assets.cambridge.org/97810096/49919/frontmatter/9781009649919_frontmatter.pdf"
+    },
+    "calendar_huangchao_huaxian": {
+      "title": "陕西省地方志办公室·《华县志》大事记（广明元年十二月＝881年1月）",
+      "url": "https://dfz.shaanxi.gov.cn/zslm/fzzlk/xbsxsxz/xbsxz/wns_16202/201405/P020240923622131799669.pdf"
+    },
+    "calendar_huangchao_tang": {
+      "title": "《旧唐书》卷二百下·黄巢传",
+      "url": "https://zh.wikisource.org/wiki/舊唐書/卷200下"
+    },
+    "late_tang_dha_zhang": {
+      "title": "敦煌研究院·莫高窟第94窟",
+      "url": "https://www.dha.ac.cn/info/1425/3623.htm",
+      "note": "Institutional explanation cites Dunhuang manuscripts P.2913 and P.3451, places Zhang Huaishen's succession in 867 and death in 890. Zhang Yichao left for Chang'an in 867. Use a neutral de facto governing title rather than assuming formal court confirmation of the military governorship in 867."
+    },
+    "late_tang_nagoya_nanzhao": {
+      "title": "名古屋大学开放课程·中国西南民族史（2014）第7讲资料",
+      "url": "https://ocw.nagoya-u.jp/files/15/Note-07(3-3)n.pdf",
+      "note": "Page 3, Nanzhao genealogy explicitly gives Longshun [Fa] 877–897, after Shilong 859–877 and before Shunhuazhen 897–902. Annual endpoints overlap at accession years; exact accession/death days are not supplied."
+    },
+    "late_tang_ntu_longshun": {
+      "title": "侯冲·论阿嵯耶观音出现的时间和原因，华严学报7（2014），台湾大学佛学数字图书馆书目及摘要",
+      "url": "https://dlbs.liberal.ntu.edu.tw/search/search_detail.jsp?comefrom=authorinfo&seq=551444",
+      "note": "The scholarly abstract explicitly dates Longshun's reign 877–897; independent corroboration of the university teaching chart. No specific era interval is established by this abstract."
+    },
+    "late_tang_xwd68_wang": {
+      "title": "新五代史卷68·闽世家",
+      "url": "https://zh.wikisource.org/zh-hans/新五代史/卷68",
+      "note": "Primary dynastic history: Wang Chao initially leads the brothers' force; Wang Shenzhi is Chao's deputy; Chao dies in Qian'ning 4 (897) and Shenzhi succeeds. This disproves treating Shenzhi as the ruler of the whole Fujian polygon in 885, without proving an alternative polygon for that year."
+    },
+    "late_tang_xwd65_liu": {
+      "title": "新五代史卷65·南汉世家",
+      "url": "https://zh.wikisource.org/zh-hans/新五代史/卷65",
+      "note": "Primary dynastic history: Liu Qian is appointed Fengzhou prefect and Hejiang commander; after Qian's death Liu Yin succeeds in Fengzhou; Yin becomes a regional deputy and acting governor later, and is appointed military governor in Tianyou 2 (905). The passage does not give a safe exact death year for Qian. It does not support Liu Yin ruling a broad Lingnan polygon in 885."
     }
   },
   "reigns": [
@@ -7273,38 +7338,19 @@
       "title": "唐睿宗",
       "sources": [
         "moe2",
-        "jiangshan-lore"
+        "jiangshan-lore",
+        "calendar_0a06f2a0e8",
+        "calendar_c9227d4e8e",
+        "calendar_83c436a651"
       ],
-      "note": "684—690名义皇帝，武则天临朝称制；教育部表将武后自684列入，但不等于684已改唐为周。",
+      "note": "684—690名义皇帝，武则天临朝称制；教育部表将武后自684列入，但不等于684已改唐为周。 684年文明与光宅并列；689年永昌与载初并列，690仍为载初元年，改年首不机械递增。",
       "eras": [
         {
-          "from": 685,
-          "to": 688,
-          "name": "垂拱",
+          "from": 684,
+          "to": 684,
+          "name": "文明",
           "baseYear": 1
         },
-        {
-          "from": 689,
-          "to": 690,
-          "name": "永昌",
-          "baseYear": 1
-        }
-      ],
-      "role": "ruler"
-    },
-    {
-      "dynasty": "唐",
-      "polity": "唐",
-      "from": 684,
-      "to": 690,
-      "name": "武则天",
-      "title": "则天太后（临朝称制）",
-      "sources": [
-        "moe2",
-        "jiangshan-lore"
-      ],
-      "note": "实际掌权者，尚未改唐为周；与睿宗李旦名义在位并行。  684年初另有文明年号，本表未恢复到月，首条光宅不能代表684全年。",
-      "eras": [
         {
           "from": 684,
           "to": 684,
@@ -7327,7 +7373,63 @@
           "from": 689,
           "to": 690,
           "name": "载初",
+          "baseYear": 1,
+          "yearNumbers": {
+            "689": 1,
+            "690": 1
+          }
+        }
+      ],
+      "role": "ruler"
+    },
+    {
+      "dynasty": "唐",
+      "polity": "唐",
+      "from": 684,
+      "to": 690,
+      "name": "武则天",
+      "title": "则天太后（临朝称制）",
+      "sources": [
+        "moe2",
+        "jiangshan-lore",
+        "calendar_0a06f2a0e8",
+        "calendar_c9227d4e8e"
+      ],
+      "note": "实际掌权者，尚未改唐为周；与睿宗李旦名义在位并行。 684年文明与光宅并列；689年永昌与载初并列，690仍为载初元年，改年首不机械递增。",
+      "eras": [
+        {
+          "from": 684,
+          "to": 684,
+          "name": "文明",
           "baseYear": 1
+        },
+        {
+          "from": 684,
+          "to": 684,
+          "name": "光宅",
+          "baseYear": 1
+        },
+        {
+          "from": 685,
+          "to": 688,
+          "name": "垂拱",
+          "baseYear": 1
+        },
+        {
+          "from": 689,
+          "to": 689,
+          "name": "永昌",
+          "baseYear": 1
+        },
+        {
+          "from": 689,
+          "to": 690,
+          "name": "载初",
+          "baseYear": 1,
+          "yearNumbers": {
+            "689": 1,
+            "690": 1
+          }
         }
       ],
       "role": "powerholder"
@@ -7341,9 +7443,10 @@
       "title": "则天皇帝",
       "sources": [
         "moe2",
-        "jiangshan-lore"
+        "jiangshan-lore",
+        "calendar_a50210103d"
       ],
-      "note": "690称帝改国号周；705退位复唐。原表武后684—705混合称制与称帝，此处分开。",
+      "note": "690称帝改国号周；705退位复唐。原表武后684—705混合称制与称帝，此处分开。 705年依《资治通鉴》岁首改神龙的编年口径，不沿《新唐书》长安五年异说。",
       "eras": [
         {
           "from": 690,
@@ -7419,7 +7522,7 @@
         },
         {
           "from": 701,
-          "to": 705,
+          "to": 704,
           "name": "长安",
           "baseYear": 1
         },
@@ -7455,13 +7558,14 @@
       "title": "唐中宗",
       "sources": [
         "moe2",
-        "jiangshan-lore"
+        "jiangshan-lore",
+        "calendar_c5c2bd8ae0"
       ],
-      "note": "第二次即位，705神龙复唐；710年后由李重茂短暂继位。",
+      "note": "第二次即位，705神龙复唐；710年后由李重茂短暂继位。 707年年内由神龙三年改景龙元年，年度并列。",
       "eras": [
         {
           "from": 705,
-          "to": 706,
+          "to": 707,
           "name": "神龙",
           "baseYear": 1
         },
@@ -7555,7 +7659,8 @@
       "sources": [
         "moe2",
         "jiangshan-lore",
-        "audit-tang7"
+        "audit-tang7",
+        "calendar_tang9"
       ],
       "eras": [
         {
@@ -7572,9 +7677,16 @@
         },
         {
           "from": 742,
-          "to": 756,
+          "to": 743,
           "name": "天宝",
           "baseYear": 1
+        },
+        {
+          "from": 744,
+          "to": 756,
+          "name": "天宝",
+          "baseYear": 3,
+          "unit": "载"
         }
       ],
       "role": "ruler"
@@ -7603,18 +7715,20 @@
       "title": "唐肃宗",
       "sources": [
         "moe2",
-        "jiangshan-lore"
+        "jiangshan-lore",
+        "calendar_6866713ad2"
       ],
       "eras": [
         {
           "from": 756,
-          "to": 757,
+          "to": 758,
           "name": "至德",
-          "baseYear": 1
+          "baseYear": 1,
+          "unit": "载"
         },
         {
           "from": 758,
-          "to": 759,
+          "to": 760,
           "name": "乾元",
           "baseYear": 1
         },
@@ -7625,13 +7739,26 @@
           "baseYear": 1
         },
         {
+          "from": 761,
+          "to": 762,
+          "name": "无年号",
+          "baseYear": 1,
+          "yearNumbers": {
+            "761": 1,
+            "762": 1
+          },
+          "label": "无年号·元年",
+          "note": "上元二年九月去上元之号但称元年；宝应改元前。"
+        },
+        {
           "from": 762,
           "to": 762,
           "name": "宝应",
           "baseYear": 1
         }
       ],
-      "role": "ruler"
+      "role": "ruler",
+      "note": " 761年去上元号，至762宝应改元前仅称元年；与同年改元前后的其他纪年并列，不造上元三年。"
     },
     {
       "dynasty": "唐",
@@ -11210,6 +11337,58 @@
       "note": "1911立法局原始会议记录确证。",
       "dynasty": "九龙新界（英租）",
       "eras": []
+    },
+    {
+      "dynasty": "大齐",
+      "polity": "大齐（黄巢）",
+      "name": "黄巢",
+      "title": "大齐皇帝",
+      "from": 881,
+      "to": 884,
+      "role": "ruler",
+      "eras": [
+        {
+          "from": 881,
+          "to": 884,
+          "name": "金统",
+          "baseYear": 1
+        }
+      ],
+      "sources": [
+        "calendar_huangchao_cambridge",
+        "calendar_huangchao_huaxian",
+        "calendar_huangchao_tang"
+      ],
+      "note": "原历广明元年十二月在长安称帝，金统元年，已跨公元881年1月；884年政权终结。称号是该政权自称，不与唐朝皇帝合并排序。"
+    },
+    {
+      "polity": "归义军（张议潮）",
+      "dynasty": "归义军",
+      "name": "张淮深",
+      "title": "归义军主政者",
+      "from": 867,
+      "to": 890,
+      "role": "ruler",
+      "eras": [],
+      "sources": [
+        "late_tang_dha_zhang"
+      ],
+      "note": "张议潮867年入长安后，由张淮深主政；890年遇害。此处为实际主政者，不把归义军创建者当作881—884年的在位统治者。具体唐朝授节程序另有研究分期，因此称号用主政者。"
+    },
+    {
+      "polity": "南诏",
+      "dynasty": "南诏",
+      "name": "隆舜",
+      "title": "南诏国主",
+      "from": 877,
+      "to": 897,
+      "role": "ruler",
+      "eras": [],
+      "sources": [
+        "late_tang_nagoya_nanzhao",
+        "late_tang_ntu_longshun"
+      ],
+      "note": "隆舜又名法；两项学术资料均列在位877—897年，故881—884年可明确列其为南诏在位统治者。本次未核定其各年号与公元逐年对应关系，暂不填年号。"
     }
   ],
   "version": "2026-10-26-nanbei-annual-1",

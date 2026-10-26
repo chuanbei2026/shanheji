@@ -1103,6 +1103,106 @@
     "battle_6c6cb6d65f": {
       "title": "人民网·甲午战争大事解读（丰岛、黄海战事）",
       "url": "https://military.people.com.cn/GB/8221/84385/385625/index.html"
+    },
+    "calendar_huangchao_cambridge": {
+      "title": "Franciscus Verellen, The Fall of the Tang · Cambridge University Press（前置年表：881年1月8日长安陷落）",
+      "url": "https://assets.cambridge.org/97810096/49919/frontmatter/9781009649919_frontmatter.pdf"
+    },
+    "calendar_huangchao_huaxian": {
+      "title": "陕西省地方志办公室·《华县志》大事记（广明元年十二月＝881年1月）",
+      "url": "https://dfz.shaanxi.gov.cn/zslm/fzzlk/xbsxsxz/xbsxz/wns_16202/201405/P020240923622131799669.pdf"
+    },
+    "calendar_huangchao_tang": {
+      "title": "《旧唐书》卷二百下·黄巢传",
+      "url": "https://zh.wikisource.org/wiki/舊唐書/卷200下"
+    },
+    "exp_song1": {
+      "title": "《宋史》卷1·乾德元年荆湖用兵",
+      "url": "https://zh.wikisource.org/wiki/宋史/卷001"
+    },
+    "exp_song2": {
+      "title": "《宋史》卷2·乾德三年后蜀降、开宝四年南汉平",
+      "url": "https://zh.wikisource.org/wiki/宋史/卷002"
+    },
+    "exp_song3": {
+      "title": "《宋史》卷3·开宝七、八年南唐战争",
+      "url": "https://zh.wikisource.org/wiki/宋史/卷003"
+    },
+    "exp_song4": {
+      "title": "《宋史》卷4·太平兴国三年纳土、四年平北汉",
+      "url": "https://zh.wikisource.org/wiki/宋史/卷004"
+    },
+    "exp_jin2": {
+      "title": "《金史》卷2·太祖本纪（1114年九月起兵）",
+      "url": "https://zh.wikisource.org/wiki/金史/卷2"
+    },
+    "exp_jin3": {
+      "title": "《金史》卷3·天会三年二月俘辽主",
+      "url": "https://zh.wikisource.org/wiki/金史/卷3"
+    },
+    "exp_yuan1": {
+      "title": "《元史》卷1·太祖本纪（辛未伐金、丙戌伐夏、丁亥夏亡）",
+      "url": "https://zh.wikisource.org/wiki/元史/卷001"
+    },
+    "exp_yuan2": {
+      "title": "《元史》卷2·太宗本纪（甲午金亡、乙未伐宋）",
+      "url": "https://zh.wikisource.org/wiki/元史/卷002"
+    },
+    "exp_xixia_nxu": {
+      "title": "宁夏大学西夏学研究院·西夏历史与文化（1226年伐夏、1227年亡）",
+      "url": "https://xixia.nxu.edu.cn/whkf/lswh.htm"
+    },
+    "exp_mongsong_cq": {
+      "title": "重庆市民政局·合川区（1235宋蒙全面战争至1279）",
+      "url": "https://mzj.cq.gov.cn/sy_218/bmdt/mzyw/202404/t20240416_13134467.html"
+    },
+    "exp_ming1": {
+      "title": "《明史》卷1·至正二十七年十月徐达受命北征",
+      "url": "https://zh.wikisource.org/wiki/明史/卷1"
+    },
+    "exp_ming2": {
+      "title": "《明史》卷2·洪武元年北伐取大都",
+      "url": "https://zh.wikisource.org/wiki/明史/卷2"
+    },
+    "exp_wulan_dpm": {
+      "title": "故宫博物院《紫禁城》·木兰围场与乌兰布通（康熙二十九年）",
+      "url": "https://www.dpm.org.cn/Uploads/pdf/1939/T00017_00.pdf"
+    },
+    "exp_zhaomodo_dpm": {
+      "title": "袁森坡《康熙与昭莫多之战》·故宫博物院（康熙三十五年）",
+      "url": "https://www.dpm.org.cn/Uploads/pdf/1622/T00041_00.pdf"
+    },
+    "exp_france_nmc": {
+      "title": "中国国家博物馆·冯子材部抗法使用的中马刀、短剑和铁马练（1883年12月开战）",
+      "url": "https://www.chnmuseum.cn/zp/zpml/gmww/202104/t20210402_249488.shtml"
+    },
+    "exp_france_end": {
+      "title": "湖南省文史研究馆·左宗棠逝世及归葬长沙略述（1885年6月9日新约）",
+      "url": "https://css.hunan.gov.cn/css/tslm/hxws/wssy/201701/wssw_19/201706/t20170621_4287333.html"
+    },
+    "exp_france_tw": {
+      "title": "文化部国家文化记忆库·清法战争（1883年底至1885；台湾战场）",
+      "url": "https://tcmb.culture.tw/zh-tw/detail?id=556058&indexCode=Culture_Event"
+    },
+    "exp_boxer_maritime": {
+      "title": "《中国海洋战略研究文集》·中国海防史述略（庚子战事与辛丑条约；舟山政府托管）",
+      "url": "https://zjjcmspublic.oss-cn-hangzhou-zwynet-d01-a.internet.cloud.zj.gov.cn/jcms_files/jcms1/web2476/site/attach/0/中国海洋战略研究文集.pdf"
+    },
+    "exp_boxer_dpm": {
+      "title": "故宫博物院·清代南苑（1900年8月14日北京失陷）",
+      "url": "https://www.dpm.org.cn/Uploads/pdf/5041/T00085_00.pdf"
+    },
+    "exp_qing_neac": {
+      "title": "国家民族事务委员会·满族历史沿革（1690乌兰布通、1696昭莫多）",
+      "url": "https://www.neac.gov.cn/seac/ztzl/201806/1066881.shtml"
+    },
+    "exp_zhaomodo_npm": {
+      "title": "故宫文物月刊496期（2024年7月）p.103：1696年二月出征，五月昭莫多击败噶尔丹",
+      "url": "https://www.npm.gov.tw/NewChineseArtDownload.ashx?bid=5157"
+    },
+    "exp_france_phases": {
+      "title": "中国文化研究院·陆海交战（1883山西、1885澎湖）",
+      "url": "https://chiculture.org.hk/sc/photo-story/1445"
     }
   },
   "events": [
@@ -3532,19 +3632,23 @@
     },
     {
       "id": "chron_huangchao_capital",
-      "year": 880,
+      "year": 881,
       "title": "黄巢攻入长安",
       "category": "疆域与战争",
-      "summary": "黄巢军攻破潼关并进入长安，唐僖宗出奔，黄巢随后建立大齐政权。《旧唐书》记在广明元年十二月，本条沿传统纪年系于880年；该年号延续至881年，不能将传统岁末直接等同西历年末。唐廷此后依靠地方军队和沙陀等力量反攻。",
+      "summary": "黄巢军进入长安，唐僖宗出奔，黄巢随后建立大齐政权。唐廷此后依靠地方军队和沙陀等力量反攻。",
       "impact": "唐朝失去都城但仍在外地延续，平叛军将逐渐形成新的政治竞争者。",
       "sources": [
         "mid_t19下",
-        "ec_eras"
+        "ec_eras",
+        "calendar_huangchao_cambridge",
+        "calendar_huangchao_huaxian",
+        "calendar_huangchao_tang"
       ],
       "people": [
         "唐僖宗 · 李儇",
         "黄巢"
-      ]
+      ],
+      "dateNote": "《旧唐书》系于广明元年十二月，传统年表常列880年；剑桥大学出版社学术年表与《华县志》明确换算为881年1月。本篇公元轴改列881，保留原历出处，不将岁末等同公历年末。"
     },
     {
       "id": "cap_tang_904",
@@ -3713,6 +3817,26 @@
       "people": [
         "北宋太祖 · 赵匡胤"
       ]
+    },
+    {
+      "id": "campaign_war_song_consolidation",
+      "year": 963,
+      "endYear": 979,
+      "durationLabel": "系列区间",
+      "title": "宋初兼并诸国与纳土系列",
+      "category": "疆域与战争",
+      "brief": "宋通过分次战争及纳土整合南方诸国与北汉，辽等政权仍并立。",
+      "summary": "宋通过分次战争及纳土整合南方诸国与北汉，辽等政权仍并立。",
+      "impact": "表现宋朝建立后十余年逐步兼并的过程，避免960年一次跳成统一版图。",
+      "dateNote": "这是多个战役与政治移交的编年集合，不是一场963—979连续作战。以963年荆湖实际出兵起算；962年张文表起事和宋廷筹议为前因。978年吴越、漳泉纳土必须使用外交/移交图标。",
+      "sources": [
+        "exp_song1",
+        "exp_song2",
+        "exp_song3",
+        "exp_song4"
+      ],
+      "startDateLabel": "乾德元年正月（963，荆湖出兵）",
+      "endDateLabel": "太平兴国四年五月（979，北汉降）"
     },
     {
       "id": "chron_end_latershu",
@@ -3911,6 +4035,24 @@
       ]
     },
     {
+      "id": "campaign_war_jin_liao",
+      "year": 1114,
+      "endYear": 1125,
+      "durationLabel": "战争区间",
+      "title": "女真起兵与金灭辽",
+      "category": "疆域与战争",
+      "brief": "金军俘获天祚帝，辽在东部的核心朝廷终结；耶律大石势力另在西方延续。",
+      "summary": "金军俘获天祚帝，辽在东部的核心朝廷终结；耶律大石势力另在西方延续。",
+      "impact": "重塑东北至华北的权力格局，为金宋战争创造条件。",
+      "dateNote": "1114为起兵，不是金朝建国年；北宋并未从1114起就参战。结束点是1125俘辽主，不代表所有契丹政权同时消失。",
+      "sources": [
+        "exp_jin2",
+        "exp_jin3"
+      ],
+      "startDateLabel": "辽天庆四年九月（1114，原历）",
+      "endDateLabel": "金天会三年二月（1125，原历）"
+    },
+    {
       "id": "chron_jin_found",
       "year": 1115,
       "title": "完颜阿骨打建立金朝",
@@ -4093,6 +4235,24 @@
       ]
     },
     {
+      "id": "campaign_war_mongol_jin",
+      "year": 1211,
+      "endYear": 1234,
+      "durationLabel": "战争区间",
+      "title": "蒙古攻金战争",
+      "category": "疆域与战争",
+      "brief": "蒙宋联军攻破蔡州，金朝灭亡。",
+      "summary": "蒙宋联军攻破蔡州，金朝灭亡。",
+      "impact": "蒙古控制华北，宋蒙关系从联合作战迅速转为对抗。",
+      "dateNote": "这是间歇性多阶段战争；南宋仅参与末段，不能在1211就列作持续盟军。1232三峰山、1233开封移交、1234蔡州终局分开。",
+      "sources": [
+        "exp_yuan1",
+        "exp_yuan2"
+      ],
+      "startDateLabel": "太祖六年（1211）二月起南伐，原历",
+      "endDateLabel": "太宗六年（1234）正月，原历"
+    },
+    {
       "id": "cap_jin_1214",
       "year": 1214,
       "title": "金宣宗南迁南京开封府",
@@ -4129,6 +4289,24 @@
       "dateNote": "贞祐二年；金南京是今开封，不是今江苏南京。"
     },
     {
+      "id": "campaign_war_mongol_xixia_final",
+      "year": 1226,
+      "endYear": 1227,
+      "durationLabel": "战争区间",
+      "title": "蒙古灭西夏末次战役",
+      "category": "疆域与战争",
+      "brief": "西夏都城被围，末主投降，西夏朝廷终结。",
+      "summary": "西夏都城被围，末主投降，西夏朝廷终结。",
+      "impact": "河西与宁夏的政权格局改变；应与此前蒙古数次侵夏分别显示。",
+      "dateNote": "只标1226—1227末次征服战，不将1205以来间歇战争合成持续围城。不同史籍对出发季节、夏主出降与被杀先后记载不一，不录精确西历终日。",
+      "sources": [
+        "exp_yuan1",
+        "exp_xixia_nxu"
+      ],
+      "startDateLabel": "1226年初（原历正月／现代介绍作2月）",
+      "endDateLabel": "1227年（末主出降及被杀日期口径有异）"
+    },
+    {
       "id": "chron_xia_fall",
       "year": 1227,
       "title": "蒙古灭西夏，成吉思汗去世",
@@ -4154,6 +4332,25 @@
       "people": [
         "金哀宗 · 完颜守绪"
       ]
+    },
+    {
+      "id": "campaign_war_mongol_song",
+      "year": 1235,
+      "endYear": 1279,
+      "durationLabel": "系列区间",
+      "title": "蒙古—元攻宋战争",
+      "category": "疆域与战争",
+      "brief": "1276临安朝廷降元，宋室流亡朝廷继续抵抗至1279崖山败亡。",
+      "summary": "1276临安朝廷降元，宋室流亡朝廷继续抵抗至1279崖山败亡。",
+      "impact": "长达数十年的征服改变长江南北政权格局，不应把南宋结束画作单年瞬变。",
+      "dateNote": "采用1235全面出兵起点；1234端平入洛等冲突是前奏。战争有停歇和多战区变化；1271前应称蒙古，不能统称元朝。襄樊与崖山已有独立战争条目，本条为上层区间，应合并/避重渲染。",
+      "sources": [
+        "exp_yuan2",
+        "exp_mongsong_cq",
+        "battle_78935381e2"
+      ],
+      "startDateLabel": "太宗七年（1235）春全面伐宋，原历",
+      "endDateLabel": "祥兴二年（1279）二月癸未，原历"
     },
     {
       "id": "chron_dali",
@@ -4330,6 +4527,24 @@
         "battle_4d02cf296a",
         "battle_f46b74b52b"
       ]
+    },
+    {
+      "id": "campaign_war_ming_northern_1367",
+      "year": 1367,
+      "endYear": 1368,
+      "durationLabel": "战争区间",
+      "title": "明初北伐取大都阶段",
+      "category": "疆域与战争",
+      "brief": "徐达等取山东、河南并进入大都，元廷北走；明元战争继续。",
+      "summary": "徐达等取山东、河南并进入大都，元廷北走；明元战争继续。",
+      "impact": "明朝在华北建立统治的关键阶段，不能把元廷北走理解为所有蒙古政权消失。",
+      "dateNote": "本条截取1367出师至1368取大都阶段；后续山西、关陕、漠北战争另列，不声称1368一战终结全部北伐。",
+      "sources": [
+        "exp_ming1",
+        "exp_ming2"
+      ],
+      "startDateLabel": "至正二十七年十月（1367，原历）",
+      "endDateLabel": "洪武元年八月（1368，原历）"
     },
     {
       "id": "chron_end_yuan_dadu",
@@ -4959,6 +5174,22 @@
       ]
     },
     {
+      "id": "campaign_war_wulanbutong",
+      "year": 1690,
+      "title": "乌兰布通之战",
+      "category": "疆域与战争",
+      "brief": "双方在乌兰布通交战，噶尔丹随后撤离；其势力未在此战终结。",
+      "summary": "双方在乌兰布通交战，噶尔丹随后撤离；其势力未在此战终结。",
+      "impact": "清与准噶尔的重大正面交战，为后来昭莫多战争的前史。",
+      "dateNote": "不同概述对胜负程度和兵力有显著差异，不沿用歼灭主力等夸大说法，也不把康熙远程部署写成亲在战线指挥。原历七八月仅作日期标签。",
+      "sources": [
+        "exp_wulan_dpm",
+        "exp_qing_neac"
+      ],
+      "startDateLabel": "康熙二十九年七月至八月（1690，原历）",
+      "endDateLabel": "康熙二十九年八月（原历）"
+    },
+    {
       "id": "late_jao_modo",
       "year": 1696,
       "title": "昭莫多之战：清军击败噶尔丹",
@@ -5353,6 +5584,26 @@
       "previousCategory": "疆域与战争"
     },
     {
+      "id": "campaign_war_sino_french",
+      "year": 1883,
+      "endYear": 1885,
+      "durationLabel": "战争区间",
+      "title": "中法战争",
+      "category": "疆域与战争",
+      "brief": "双方议和，清廷承认法国对越南的保护关系；法军随后撤出其占领的台湾、澎湖据点。",
+      "summary": "双方议和，清廷承认法国对越南的保护关系；法军随后撤出其占领的台湾、澎湖据点。",
+      "impact": "中国与越南关系、东南海防及台湾防务发生重大转折。",
+      "dateNote": "国博及文化部门采用1883年底—1885口径；1884—1885是常见狭义口径，突出战事扩大至中国沿海。不能删掉1883年山西开战。以1885年6月9日条约为政治结束点，4月停战与撤军不是同一天。",
+      "sources": [
+        "exp_france_nmc",
+        "exp_france_end",
+        "exp_france_tw",
+        "exp_france_phases"
+      ],
+      "startDateLabel": "1883年12月（山西之战）",
+      "endDateLabel": "1885年6月9日（中法新约）"
+    },
+    {
       "id": "late_xinjiang_province",
       "year": 1884,
       "title": "新疆建省",
@@ -5431,6 +5682,24 @@
         "慈禧太后"
       ],
       "brief": "改革诏令密集颁布，随后宫廷政变使多数措施受挫。"
+    },
+    {
+      "id": "campaign_war_boxer_alliance",
+      "year": 1900,
+      "endYear": 1901,
+      "durationLabel": "战争区间",
+      "title": "庚子战事与八国联军入侵",
+      "category": "疆域与战争",
+      "brief": "联军占领京津，清廷西逃；1901年清廷与十一国签订辛丑条约。",
+      "summary": "联军占领京津，清廷西逃；1901年清廷与十一国签订辛丑条约。",
+      "impact": "赔款、驻军和使馆区安排长期影响晚清财政与主权。",
+      "dateNote": "本条采用1900年6月联军行动至1901年条约的危机区间，不声称1901全程有北京围城。八国参战与十一国签约不可混为八国签约。义和团更早活动另计。",
+      "sources": [
+        "exp_boxer_maritime",
+        "exp_boxer_dpm"
+      ],
+      "startDateLabel": "1900年6月（联军出动阶段）",
+      "endDateLabel": "1901年9月7日（辛丑条约）"
     },
     {
       "id": "late_allied_armies",

@@ -4989,5 +4989,37 @@
         "note": "高丽降后诏留平壤、兼检校安东都护；可证668后段任职，不足解决魏哲墓志所涉初任次序。"
       }
     }
+  },
+  "currentInventory": {
+    "checkedAt": "2026-10-26",
+    "chinaEvents": 275,
+    "warIntervals": 42,
+    "mapReferences": 173,
+    "europeEvents": 93,
+    "europeSpans": 25,
+    "scope": "Current inventory; individual evidence review levels remain in each dataset. The 232-event batch and its statistics below are retained as a dated earlier audit."
+  },
+  "regnalReview20261026": {
+    "changes": [
+      "ZaiChu spans civil years689/690 with explicit yearNumbers",
+      "ShenLong retained through707",
+      "ZhiDe through758 and uses zai",
+      "QianYuan through760",
+      "TianBao switches to zai in744",
+      "Unnamed-year interval761–762",
+      "Hong Taiji khan and imperial tenure separated",
+      "Huang Chao Chang’an civil-year881; upstream map timing qualified"
+    ],
+    "sources": [
+      "https://zh.wikisource.org/wiki/舊唐書/卷6",
+      "https://zh.wikisource.org/wiki/舊唐書/卷7",
+      "https://zh.wikisource.org/wiki/舊唐書/卷9",
+      "https://zh.wikisource.org/wiki/舊唐書/卷10",
+      "https://assets.cambridge.org/97810096/49919/frontmatter/9781009649919_frontmatter.pdf"
+    ],
+    "limitations": [
+      "Annual labels list attested eras within a year, not the exact day of succession.",
+      "Some traditional-calendar year boundaries differ from civil-year boundaries; uncertainty is retained."
+    ]
   }
 }

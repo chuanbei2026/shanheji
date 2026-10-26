@@ -1,6 +1,19 @@
-# Shan He Ji — China Historical Atlas
+# Shan He Ji — Independent China and Europe Chronicles
 
-A Chinese-language interactive overview of territorial changes from Qin to late Qing. The map uses 148 approximate territorial references, while a separate calendar advances year by year. This is an educational browsing aid, not an independently validated scholarly dataset.
+A Chinese-language interactive chronology from Xia–Shang–Zhou to late Qing, with a separate European and Mediterranean edition from 499 BCE to 1918 CE. China uses 173 approximate geographic references; Europe uses documented event-place anchors and sourced coexistence spans. A separate calendar advances year by year. This is an educational browsing aid, not an independently validated scholarly dataset.
+
+
+## Regional editions and evidence review (2026-10-26)
+
+- China entry: index.html. Europe entry: europe/index.html. The editions have independent datasets, historical periods, and URLs; region links keep them in the same static project.
+- China currently includes 275 selected events, 42 war intervals and 173 map references. War locations have separate dated windows when evidence allows; a campaign range never automatically proves continuous fighting at each point. Ancient dates retain their source calendar and uncertainty.
+- Europe currently includes 93 selected events and 25 sourced polity, dynasty, institution or observation spans. It does not claim reconstructed annual political borders. Region labels are manual editorial anchors, not capitals or territorial centroids. Documented event places, neutral nearby events and active places have different visual states.
+- European multi-year events have 50 place-phase reviews: 35 places with 38 dated windows, and 15 context-only places that are never activated as current battles. Disjoint windows remain disjoint. Political centers, treaties, theaters and battle sites use separate symbols. Nearby coincident active markers open a choice of events.
+- Regnal calendar fixes include ZaiChu across 689/690, ShenLong in 707, ZhiDe in 758, QianYuan in 760, TianBao's year-unit change and the 761–762 unnamed interval. Hong Taiji's khanate and imperial tenures are distinguished. Huang Chao's Chang'an event is placed in civil year 881, with the upstream traditional-year discrepancy retained in atlas provenance.
+- Late-Tang sources identify Zhang Huaishen and Longshun annually. Retrospective founder labels are removed from visible regional names where they would imply the wrong incumbent. Existing approximate geometry is not certified by those biographical corrections.
+- Run node check-data.cjs for source-reference integrity, date-window bounds, no-year-zero behavior, selected era regressions and war-place visibility regressions. These checks validate data contracts and chosen regressions, not every historical assertion.
+
+Earlier sections below describe dated implementation batches and may contain their original inventory counts; they are not cumulative current coverage statements.
 
 ## Run
 
@@ -29,7 +42,7 @@ leaders.json is keyed by stage id and polity title, so identically named regimes
 
 ## Calendar-scaled playback and dynasty waterfall
 
-The calendar-year ordinal excludes year zero. Default playback advances 1/5/10/25 years at a time without skipping the years between border snapshots. An optional territorial-node mode retains the original shape-based browsing. The requested year persists in the URL and does not snap back to the map reference. Reigns, eras, city names, and historical-group context resolve independently at the browsing year. Map geometry remains the preceding available reference and is explicitly labeled with its reference year; reuse does not assert that every intervening boundary stayed unchanged. Dynasty overview bars retain a common global proportional scale.
+The calendar-year ordinal excludes year zero. Playback advances one calendar year per frame at 4, 8 or 16 frames per second. Territorial changes can add a short transition interval; metadata remains tied to the displayed year. The requested year persists in the URL and does not snap back to the map reference. Reigns, eras, city names, and historical-group context resolve independently at the browsing year. Map geometry remains the preceding available reference and is explicitly labeled with its reference year; reuse does not assert that every intervening boundary stayed unchanged. Dynasty overview bars retain a common global proportional scale.
 
 ## Historical city labels
 
@@ -65,7 +78,7 @@ history-events.json contains 171 selected dated events from 221 BCE to 1911 CE w
 
 The lower catalogue supports current-period or whole-timeline browsing, four themes, text search and twelve-item pagination. Event date buttons return to the map at that year. Forty political-ending events link to the existing before/after territorial comparison. The transport offers key-event steps alongside annual and territorial-reference steps; annual progression remains the default. Rulers, actual powerholders, historical ethnic groups and contemporary polities remain in expandable right-panel sections. Clicking a map polity opens its ruler information.
 
-Traditional historical year labels are not exact Gregorian dates. Entries explain important ambiguities, including Zhang Qian's 138/139 BCE departure, the 265/266 Jin succession, the Chanyuan agreement's 1004/1005 chronology, and the 1141 agreement/1142 implementation distinction. Capital capture, court extinction, residual polities, military occupation and later administrative integration are distinguished in event prose. Events do not imply annual border reconstruction.
+Traditional historical year labels are not exact Gregorian dates. Entries explain important ambiguities, including Zhang Qian's 138/139 BCE departure, the 265/275 Jin succession, the Chanyuan agreement's 1004/1005 chronology, and the 1141 agreement/1142 implementation distinction. Capital capture, court extinction, residual polities, military occupation and later administrative integration are distinguished in event prose. Events do not imply annual border reconstruction.
 
 ## Emperor totals and ordinals (2026-10-25)
 
@@ -165,7 +178,7 @@ Added `capitals.json` and `capital-context.js` for dated capital and court roles
 
 The initial layer covers major Qin–Qing dynasties, Three Kingdoms, Eastern Jin and principal southern court phases, plus explicitly qualified Zhou urban references. It is not an exhaustive list of every short-lived court. Palace footprints are not inferred from point anchors. The data distinguish Han and Sui–Tang Chang'an, Han–Wei and Sui–Tang Luoyang, Xu county at Zhangpan, and Wu Wuchang at modern Ezhou. Yuan Zhongdu changes to Dadu in 1272; Shangdu is a summer capital. Ming Nanjing becomes the retained capital in 1421; Southern Song Lin'an remains labeled a provisional court seat (xingzai).
 
-Each marker opens dated notes and source links. Migration years use the later annual state; uncertain transition periods remain unfilled rather than inventing a stable seat. Construction versus occupation, institutional capital versus an emperor's temporary refuge, pre-841 approximate chronology, and final-year limitations are disclosed. Browser checks confirmed capital source dialogs, 1420/1421 migration, 1271/1272 naming, Three Kingdoms coexistence, Wu's 265/266 migration, 582/583 Sui relocation, 904 Tang Luoyang, and zoom compensation. Existing annual navigation and compact page layout remain in place.
+Each marker opens dated notes and source links. Migration years use the later annual state; uncertain transition periods remain unfilled rather than inventing a stable seat. Construction versus occupation, institutional capital versus an emperor's temporary refuge, pre-841 approximate chronology, and final-year limitations are disclosed. Browser checks confirmed capital source dialogs, 1420/1421 migration, 1271/1272 naming, Three Kingdoms coexistence, Wu's 265/275 migration, 582/583 Sui relocation, 904 Tang Luoyang, and zoom compensation. Existing annual navigation and compact page layout remain in place.
 
 ## Three-row dynasty and period window (2026-10-25)
 
