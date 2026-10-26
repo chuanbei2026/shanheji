@@ -281,3 +281,8 @@ The header search indexes the existing sourced event, period, regnal, and era da
 The chronicle includes 232 selected events. This revision adds 23 sourced nodes across political succession, institutions, scholarship, technology and diplomacy. Named figures are recorded for 153 events; additional names were drawn only from existing event accounts, with no ruler inferred merely from a date. The `people` list and optional short `brief` are visible in cards and searchable from the header. Full narratives, chronological precision notes and references remain expandable.
 
 The event rail shows up to six unique nearby event boundaries within 80 calendar-year labels, grouped into earlier events (nearest first) and later events. Active intervals stay in the current section and are excluded from nearby duplicates. The fixed navigation footer and independent scrolling keep the page height bounded.
+
+
+### Context-sensitive Wu identity
+
+Short polity names are resolved within their historical dates. The five-dynasties Wu is Yang Wu, not the Three Kingdoms Sun Wu; its display label, ruler roster, family explanation and annual leadership are separate. Yang Pu is the only Yang Wu ruler counted as an emperor during his lifetime, starting in 927; earlier kings and later posthumous imperial titles are excluded from that count. The annual records distinguish Yang Pu from the Xu family power holders and cite Xin Wudai Shi, volume 61. Later Tang Zhuangzong and Mingzong records now cover 923–933; Mingzong's accession is dated to 926 from Xin Wudai Shi, volume 6.

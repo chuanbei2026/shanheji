@@ -7,8 +7,15 @@ function labelOf(d){return d.label==='刘宋'?'（南朝）宋':d.label;}
 function canonical(name){return ({'拓跋宏':'元宏','拓跋恪':'元恪','拓跋诩':'元诩','元脩':'元修','拓跋浚':'拓跋濬'})[name]||name;}
 function rankOf(d,name){return d.names.findIndex(n=>canonical(n)===canonical(name))+1;}
 function ordinal(data,id,name){const dynasty=data.dynasties.find(d=>d.id===id||d.label===id);if(!dynasty)return null;const rank=rankOf(dynasty,name);return {dynasty,rank:rank||null,total:dynasty.names.length};}
-function resolve(feature,year){if(year<-221)return "先秦王系";const title=typeof feature==='string'?feature:feature.properties.title;const aliases={'汉':'西汉','汉（郡国并行）':'西汉','魏':'曹魏','蜀':'蜀汉','刘备势力':'蜀汉','孙权势力':'孙吴','吴':'孙吴','晋':year<317?'西晋':'东晋','宋':year<600?'刘宋':'北宋','齐':'南齐','梁':'梁','陈':'陈','周（武周）':'武周','新（王莽）':'新朝','新':'新朝','后金':'清','大蒙古国':'元','蒙古':'元','唐（李渊）':'唐','唐 · 岐（关中）':'唐','南宋（闽广行朝）':'南宋','契丹':'辽'};return year>=690&&year<=704&&title==='唐'?'武周':aliases[title]||title;}
-function caveat(id,name,year){if(id==='北魏'&&name==='拓跋珪'&&year<398)return '此时尚未称皇帝；398年称帝，按北魏帝系列第1位。';if(id==='北周'&&name==='宇文觉')return '在位时称周天王，皇帝称号为后来追尊；按通行北周帝系列第1位。';if(id==='北周'&&name==='宇文毓'&&year<559)return '此时称天王；559年改称皇帝，按北周帝系列第2位。';if(id==='秦'&&name==='子婴')return '子婴以秦王身份在位，另列末主，不编入两位皇帝的序号。';if(id==='西汉'&&name==='刘婴')return '孺子婴未正式即皇帝位，不编入皇帝序号；当时实际权力在王莽手中。';if(id==='隋'&&['杨侗','杨浩'].includes(name))return '隋末另立者；本表采用文帝、炀帝、恭帝杨侑三帝主线，另见计数说明。';if(id==='西汉'&&name==='刘邦'&&year<-202)return '此时为汉王；前202年称帝，列入西汉帝系第1位。';if(id==='孙吴'&&name==='孙权'&&year<229)return '此时尚未称帝；229年称帝，列入孙吴帝系第1位。';if(id==='东晋'&&name==='司马睿'&&year===317)return '此时为晋王；318年称帝，列入东晋帝系第1位。';if(id==='清'&&name==='努尔哈赤')return '此时为后金大汗；清太祖为追尊称号，按清十二帝的通行帝系列第1位。';if(id==='清'&&name==='皇太极'&&year<1636)return '此时为后金大汗；1636年称帝并改国号清。';if(id==='元'&&name==='忽必烈'&&year<1271)return '此时为蒙古大汗；1271年定国号元，按元代帝系列第1位。';if(id==='西夏'&&name==='李元昊'&&year<1038)return '此时尚未称帝；1038年称帝，按西夏帝系列第1位。';if(id==='辽'&&name==='耶律阿保机'&&year<916)return '此时为契丹首领；916年称帝，按辽代帝系列第1位。';return '';}
+function resolve(feature,year){if(year<-221)return "先秦王系";const title=typeof feature==='string'?feature:feature.properties.title;const contextual={
+ '吴':year>=200&&year<=280?'孙吴':year>=902&&year<=937?'杨吴':'吴',
+ '魏':year>=220&&year<=265?'曹魏':year>=386&&year<=535?'北魏':'魏',
+ '齐':year>=479&&year<=502?'南齐':year>=550&&year<=577?'北齐':'齐',
+ '汉':year>=-202&&year<=8?'西汉':year>=25&&year<=220?'东汉':'汉',
+ '宋':year>=420&&year<=479?'刘宋':year>=960&&year<=1127?'北宋':year>=1127&&year<=1279?'南宋':'宋',
+ '晋':year>=265&&year<=316?'西晋':year>=317&&year<=420?'东晋':'晋'
+ };if(Object.hasOwn(contextual,title))return contextual[title];const aliases={'汉':'西汉','汉（郡国并行）':'西汉','魏':'曹魏','蜀':'蜀汉','刘备势力':'蜀汉','孙权势力':'孙吴','吴':'孙吴','晋':year<317?'西晋':'东晋','宋':year<600?'刘宋':'北宋','齐':'南齐','梁':'梁','陈':'陈','周（武周）':'武周','新（王莽）':'新朝','新':'新朝','后金':'清','大蒙古国':'元','蒙古':'元','唐（李渊）':'唐','唐 · 岐（关中）':'唐','南宋（闽广行朝）':'南宋','契丹':'辽'};return year>=690&&year<=704&&title==='唐'?'武周':aliases[title]||title;}
+function caveat(id,name,year){if(id==='北魏'&&name==='拓跋珪'&&year<398)return '此时尚未称皇帝；398年称帝，按北魏帝系列第1位。';if(id==='北周'&&name==='宇文觉')return '在位时称周天王，皇帝称号为后来追尊；按通行北周帝系列第1位。';if(id==='北周'&&name==='宇文毓'&&year<559)return '此时称天王；559年改称皇帝，按北周帝系列第2位。';if(id==='秦'&&name==='子婴')return '子婴以秦王身份在位，另列末主，不编入两位皇帝的序号。';if(id==='西汉'&&name==='刘婴')return '孺子婴未正式即皇帝位，不编入皇帝序号；当时实际权力在王莽手中。';if(id==='隋'&&['杨侗','杨浩'].includes(name))return '隋末另立者；本表采用文帝、炀帝、恭帝杨侑三帝主线，另见计数说明。';if(id==='西汉'&&name==='刘邦'&&year<-202)return '此时为汉王；前202年称帝，列入西汉帝系第1位。';if(id==='杨吴'&&name==='杨溥'&&year<927)return '此时为吴王；927年称帝，杨吴帝系只计生前称帝的杨溥1人。';if(id==='孙吴'&&name==='孙权'&&year<229)return '此时尚未称帝；229年称帝，列入孙吴帝系第1位。';if(id==='东晋'&&name==='司马睿'&&year===317)return '此时为晋王；318年称帝，列入东晋帝系第1位。';if(id==='清'&&name==='努尔哈赤')return '此时为后金大汗；清太祖为追尊称号，按清十二帝的通行帝系列第1位。';if(id==='清'&&name==='皇太极'&&year<1636)return '此时为后金大汗；1636年称帝并改国号清。';if(id==='元'&&name==='忽必烈'&&year<1271)return '此时为蒙古大汗；1271年定国号元，按元代帝系列第1位。';if(id==='西夏'&&name==='李元昊'&&year<1038)return '此时尚未称帝；1038年称帝，按西夏帝系列第1位。';if(id==='辽'&&name==='耶律阿保机'&&year<916)return '此时为契丹首领；916年称帝，按辽代帝系列第1位。';return '';}
 const calendar=root.HistoryYears||(typeof require==='function'?require('./history-years.js'):null);
 function icon(crowned=true){return '<svg width="24" height="32" viewBox="0 0 24 32" aria-hidden="true" class="regal-person">'+(crowned?'<path class="regal-hat" d="M2 2h20v4H2zM7 6h10v3H7z"/><path class="regal-beads" d="M4 6v6M20 6v6M7 6v3M17 6v3"/>':'')+'<circle cx="12" cy="12" r="3.5"/><path d="M7 18l5-2 5 2 4 12H3z"/><path class="regal-collar" d="M8 17l4 6 4-6M12 23v7"/></svg>';}
 function identities(info,year){return (info.rulers||[]).map(p=>{const reigns=(info.annualReigns||[]).filter(r=>canonical(r.name)===canonical(p.name)),eras=reigns.flatMap(r=>calendar.era(r,year));return {...p,label:(p.title&&p.title!==p.name?p.title:'在位者')+' '+p.name,era:[...new Set(eras.map(e=>calendar.eraLabel(e)))].join('／'),eraKey:[...new Set(eras.map(e=>e.name))].join('/')};});}
@@ -22,7 +29,7 @@ function reignYears(name,id,year,info){
   const axis=y=>y<0?y:y-1;
   const matches=reignsFor(name,id,ctx.getReigns().reigns),current=matches.filter(r=>year>=r.from&&year<=r.to);
   if(!current.length)return null;
-  const imperialStart=({'西汉|刘邦':-202,'孙吴|孙权':229,'东晋|司马睿':318,'辽|耶律阿保机':916,'西夏|李元昊':1038,'清|皇太极':1636,'北周|宇文毓':559})[id+'|'+canonical(name)];const floor=imperialStart!==undefined&&year>=imperialStart?imperialStart:-Infinity;
+  const imperialStart=({'西汉|刘邦':-202,'孙吴|孙权':229,'杨吴|杨溥':927,'东晋|司马睿':318,'辽|耶律阿保机':916,'西夏|李元昊':1038,'清|皇太极':1636,'北周|宇文毓':559})[id+'|'+canonical(name)];const floor=imperialStart!==undefined&&year>=imperialStart?imperialStart:-Infinity;
   const intervals=matches.filter(r=>r.from<=year&&r.to>=floor).map(r=>[axis(Math.max(r.from,floor)),axis(Math.min(year,r.to))]).sort((a,b)=>a[0]-b[0]);
   let total=0,end=-Infinity;
   for(const [from,to] of intervals){if(to>end){total+=to-Math.max(from,end+1)+1;end=to;}}
@@ -56,6 +63,7 @@ function arrangeCourts(peers,year){
   let north=[],south=[];
   if(year>=220&&year<=280){north=['曹魏','西晋'];south=['蜀汉','孙吴'];}
   else if(year>=317&&year<=589){north=['北魏','西魏','东魏','北周','北齐','隋'];south=['东晋','刘宋','南齐','梁','陈'];}
+  else if(year>=907&&year<=979){north=['后梁','后唐','后晋','后汉','后周','北汉','辽'];south=['杨吴','南唐','前蜀','后蜀','吴越','闽','南汉','楚','荆南'];}
   else if(year>=1127&&year<=1279){north=['辽','金','西夏','元'];south=['南宋'];}
   const courtKey=p=>{const value=p.dynasty?.label||p.id||p.feature?.properties?.title;return ({wei:'曹魏',shu_han:'蜀汉',wu:'孙吴',western_jin:'西晋','魏':'曹魏','蜀':'蜀汉','吴':'孙吴'})[value]||value;};
   const marked=peers.map(p=>({...p,geographicKey:courtKey(p),band:north.includes(courtKey(p))?'north':south.includes(courtKey(p))?'south':''})),nc=marked.filter(p=>p.band==='north').length,sc=marked.filter(p=>p.band==='south').length;
