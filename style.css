@@ -344,3 +344,6 @@ header{gap:22px}.atlas-jump{position:relative;flex:1;max-width:490px;min-width:2
 .atlas-left .map-note{left:auto;right:58px;top:44px;bottom:auto;max-width:270px;z-index:4;text-align:right}
 @media(min-width:651px){.song-other-courts{margin-top:58px;max-height:calc(var(--song-court-height) - 58px)}}
 @media(max-width:650px){.atlas-left .map-current-year{left:55px;top:18px;font-size:46px;column-gap:5px;max-width:230px}.atlas-left .map-current-year>small{font-size:9px}.atlas-left .boundary-legend{right:12px;top:90px;gap:6px;font-size:7px;padding:3px 5px;max-width:47%}.atlas-left .map-note{right:12px;top:116px;max-width:47%;font-size:7px}}
+
+/* Transitional geometry is decorative and never intercepts map controls. */
+.map-transition-layer,.map-transition-layer *{pointer-events:none!important}

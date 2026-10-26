@@ -354,3 +354,8 @@ During Northern and Southern Song, the Song roster is anchored to the left map e
 ## Compact map calendar and metadata
 
 The calendar prefix, year, and suffix share one baseline, with era labels directly below. Boundary keys and reference-map date now sit at the upper right, freeing the lower left for court panels. Court height budgets use the cleared space; Song companion courts begin below the metadata.
+
+
+### Territorial transitions
+
+Only territory fills and borders animate; the base map, rivers, labels and camera remain stable. Sourced replacement events use staggered horizontal shutters. Conquest events reveal the next reference state from the nearest sampled winning border toward the former opponent; this is an illustrative reveal, not a reconstructed campaign route. Splits reveal outlines before crossfading fills. Other adjacent reference maps use a soft radial reveal; distant jumps and reverse navigation use a crossfade. Playback retains the same calendar year and event position for the 0.9–1.7 second transition, then resumes the selected annual rate. Annual label redraws do not restart transitions. Scrubbing and reduced-motion preferences skip animation.
