@@ -286,3 +286,7 @@ The event rail shows up to six unique nearby event boundaries within 80 calendar
 ### Context-sensitive Wu identity
 
 Short polity names are resolved within their historical dates. The five-dynasties Wu is Yang Wu, not the Three Kingdoms Sun Wu; its display label, ruler roster, family explanation and annual leadership are separate. Yang Pu is the only Yang Wu ruler counted as an emperor during his lifetime, starting in 927; earlier kings and later posthumous imperial titles are excluded from that count. The annual records distinguish Yang Pu from the Xu family power holders and cite Xin Wudai Shi, volume 61. Later Tang Zhuangzong and Mingzong records now cover 923–933; Mingzong's accession is dated to 926 from Xin Wudai Shi, volume 6.
+
+## Factual audit (2026-10-25)
+
+Reviewed the current 232-event index and checked 277 original reign/power-holder records and 35 dynasty rosters for structural consistency. Targeted evidence corrections and explicit remaining limits are recorded in `chronology-verification.json` and `research-review.html`. Added two power-holder records for Emperor Ruizong and retired Qianlong; this is not a certification of every map boundary or narrative sentence.
