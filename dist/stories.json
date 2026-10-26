@@ -1,0 +1,698 @@
+{
+  "sources": {
+    "st_qin_measure": {
+      "title": "中国国家博物馆·铜量",
+      "url": "https://www.chnmuseum.cn/zp/zpml/csp/202008/t20200826_247417.shtml"
+    },
+    "st_qin_system": {
+      "title": "国立故宫博物院·廿六年诏椭量",
+      "url": "https://theme.npm.edu.tw/selection/Article.aspx?sNo=04001146"
+    },
+    "st_han": {
+      "title": "中国国家博物馆·古代中国秦汉时期",
+      "url": "https://www.chnmuseum.cn/portals/0/web/zt/gudai/detail4.html"
+    },
+    "st_han_money": {
+      "title": "中国国家博物馆·盗铸梦的终结",
+      "url": "https://www.chnmuseum.cn/yj/xscg/xslw/201812/t20181224_33110.shtml"
+    },
+    "st_han_epic": {
+      "title": "中国国家博物馆·中华史诗美术大展",
+      "url": "https://en.chnmuseum.cn/Portals/0/web/exhibition/exhibitions/161120Chines-Epic/"
+    },
+    "st_sima": {
+      "title": "故宫博物院·司马迁",
+      "url": "https://www.dpm.org.cn/lemmas/240631.html"
+    },
+    "st_cailun": {
+      "title": "中国科普网·非遗方絮千秋热",
+      "url": "https://www.zgkpw.org.cn/expert/suqing/content_1740757.html"
+    },
+    "st_jin_law": {
+      "title": "香港中文大学中国文化研究所学报·西晋泰始颁律的历史意义",
+      "url": "https://www.cuhk.edu.hk/ics/journal/articles/v31p001.pdf"
+    },
+    "st_jin_ceramics": {
+      "title": "中国国家博物馆·古代中国三国两晋南北朝时期",
+      "url": "https://www.chnmuseum.cn/portals/0/web/zt/gudai/detail5.html"
+    },
+    "st_suitang": {
+      "title": "中国国家博物馆·古代中国隋唐五代时期",
+      "url": "https://www.chnmuseum.cn/portals/0/web/zt/gudai/detail6.html"
+    },
+    "st_canal": {
+      "title": "水利知识服务平台·中国古代运河",
+      "url": "https://www.shuizhishi.cn/c/2020-04-09/524100.shtml"
+    },
+    "st_keju_origins": {
+      "title": "北京大学张希清·谈中国古代的科举制度",
+      "url": "https://www.cppcc.people.com.cn/n/2015/0706/c34948-27256864.html"
+    },
+    "st_xuanzang": {
+      "title": "中国国家博物馆·玄奘译经",
+      "url": "https://www.chnmuseum.cn/yj/xscg/xslw/201812/t20181224_33185.shtml"
+    },
+    "st_xuanzong": {
+      "title": "故宫博物院·唐玄宗",
+      "url": "https://www.dpm.org.cn/lemmas/242060.html"
+    },
+    "st_tang_turn": {
+      "title": "北京大学·唐玄宗盛极而衰探因",
+      "url": "https://news.pku.edu.cn/info/7921/2932541.htm"
+    },
+    "st_twotax": {
+      "title": "山东大学学者·试论唐代两税法的制度缺陷和执行弊端",
+      "url": "https://tslc.cbpt.cnki.net/portal/journal/portal/client/paper/20fb6a21876fe4fbc9b73a7c416ca1a7"
+    },
+    "st_song_exam": {
+      "title": "故宫博物院·宋代殿试杂谈",
+      "url": "https://www.dpm.org.cn/historical/talk/206074.html"
+    },
+    "st_jiaozi": {
+      "title": "广东省文史研究馆·说交子",
+      "url": "https://www.gdwsw.gov.cn/wsbl/content/post_42017.html"
+    },
+    "st_printing": {
+      "title": "全国科学技术名词审定委员会·印刷文字研究资料",
+      "url": "https://www.cnterm.cn/sd/rwsh/zwh/bjcb/sdml/202311/P020250909514659695949.pdf"
+    },
+    "st_wanganshi": {
+      "title": "故宫博物院·王安石",
+      "url": "https://www.dpm.org.cn/lemmas/243269.html"
+    },
+    "st_shenkuo": {
+      "title": "中国科学院地理资源所·沈括",
+      "url": "https://igsnrr.cas.cn/cbkx/kpyd/dlxj/202009/t20200910_5692671.html"
+    },
+    "st_quanzhou": {
+      "title": "上海博物馆·市舶司文字砖拓片",
+      "url": "https://www.shanghaimuseum.net/mu/frontend/pg/m/article/id/CI00160872"
+    },
+    "st_yingzao": {
+      "title": "故宫博物院·营造法式",
+      "url": "https://www.dpm.org.cn/ancient/mingqing/149329.html"
+    },
+    "st_chengfu": {
+      "title": "中国科学院自然科学史所·陈旉",
+      "url": "https://www.ihns.ac.cn/agri-his/scholars/202607/t20260724_8254784.html"
+    },
+    "st_huizi": {
+      "title": "中国国家博物馆·会子版",
+      "url": "https://www.chnmuseum.cn/zp/zpml/201812/t20181218_26121.shtml"
+    },
+    "st_ehu": {
+      "title": "中国孔子网·鹅湖之会",
+      "url": "https://www.chinakongzi.org/baike/DIANGU/201711/t20171109_146508.htm"
+    },
+    "st_linan_night": {
+      "title": "人民日报浙江频道·南宋临安夜市究竟有多兴旺",
+      "url": "https://zj.people.com.cn/BIG5/n2/2022/0110/c186327-35088212.html"
+    },
+    "st_songci": {
+      "title": "最高人民检察院·洗冤集录汇聚古代法医学之大成",
+      "url": "https://www.spp.gov.cn/spp/llyj/201806/t20180619_382132.shtml"
+    },
+    "st_songyuan": {
+      "title": "中国国家博物馆·古代中国辽宋夏金元时期",
+      "url": "https://www.chnmuseum.cn/portals/0/web/zt/gudai/detail7.html"
+    },
+    "st_calendar": {
+      "title": "西北大学学报·授时历中的招差法和弧矢割圆术研究",
+      "url": "https://qkzx.nwu.edu.cn/file/zr_old/200742113366703.pdf"
+    },
+    "st_wangzhen": {
+      "title": "中国国家博物馆·农书",
+      "url": "https://www.chnmuseum.cn/zp/zpml/gjwxbt/202203/t20220301_254053.shtml"
+    },
+    "st_mingqing": {
+      "title": "中国国家博物馆·古代中国明清时期",
+      "url": "https://www.chnmuseum.cn/portals/0/web/zt/gudai/detail8.html"
+    },
+    "st_zhangjuzheng": {
+      "title": "中国社会科学网·照亮千古一相的背影",
+      "url": "https://www.cssn.cn/lsx/lsx_zgs/202309/t20230913_5685433.shtml"
+    },
+    "st_zhang_after": {
+      "title": "故宫博物院·万历皇帝因何籍没张居正",
+      "url": "https://www.dpm.org.cn/explode/others/210098.html"
+    },
+    "st_kangxi_dict": {
+      "title": "故宫博物院·康熙字典",
+      "url": "https://www.dpm.org.cn/ancient/mingqing/148562.html"
+    },
+    "st_tanding": {
+      "title": "中国人民大学清史研究所·清代摊丁入亩研究",
+      "url": "https://iqh.ruc.edu.cn/old/qdjjsyj/jjs_ztyj/fscz/be727ae40b4349d4ae85406ba3a6d57e.htm"
+    },
+    "st_junji": {
+      "title": "故宫博物院·清代军机处史料展",
+      "url": "https://www.dpm.org.cn/show/225948.html"
+    },
+    "st_siku": {
+      "title": "故宫博物院·四库全书",
+      "url": "https://www.dpm.org.cn/lemmas/241812.html"
+    },
+    "st_siku_banned": {
+      "title": "故宫博物院·四库全书研究",
+      "url": "https://img.dpm.org.cn/Uploads/pdf/1926/T00021_00.pdf"
+    },
+    "st_keju_end": {
+      "title": "华东师范大学杨国强·千年历史的一朝终结",
+      "url": "https://xbzs.ecnu.edu.cn/CN/10.16382/j.cnki.1000-5579.2021.03.006"
+    },
+    "st_newschools": {
+      "title": "中国教育和科研计算机网·科举制度废除与近代文化转变",
+      "url": "https://www.edu.cn/zong_he_429/20060323/t20060323_15375.shtml"
+    }
+  },
+  "stories": [
+    {
+      "id": "story_qin_measure",
+      "from": -221,
+      "to": -221,
+      "dynasty": "秦",
+      "title": "把各地的秤与斗放到同一个标准上",
+      "category": "制度",
+      "summary": "秦始皇统一后颁诏，以秦国标准推行统一度量衡，并把诏文刻在标准器上。今天所见铜量因此既是器物，也是行政命令的载体：征粮、交易和工程计算，开始共享同一套尺度。",
+      "sources": [
+        "st_qin_measure"
+      ],
+      "topic": "制度与治理"
+    },
+    {
+      "id": "story_qin_writing",
+      "from": -221,
+      "to": -210,
+      "dynasty": "秦",
+      "title": "书同文背后的官府网络",
+      "category": "政治",
+      "summary": "统一文字与郡县制度，把不同地区接入皇帝领导的官僚体系。小篆的规范不代表民间写法立即整齐划一，却为跨地域公文提供共同基础。这是一段制度推行期，不能当作每年又颁一次新令。",
+      "sources": [
+        "st_qin_system"
+      ],
+      "topic": "制度与治理"
+    },
+    {
+      "id": "story_han_wenjing",
+      "from": -180,
+      "to": -141,
+      "dynasty": "西汉",
+      "title": "文景时期：把恢复生产放在前面",
+      "category": "施政",
+      "summary": "文帝、景帝时期，朝廷延续休养生息的方向，社会经济逐渐恢复，后世称为文景之治。它并非一瞬间到来的盛世，而是多年积累的结果，也为武帝时代更积极的国家经营准备了条件。",
+      "sources": [
+        "st_han"
+      ],
+      "topic": "制度与治理"
+    },
+    {
+      "id": "story_han_wuzhu",
+      "from": -118,
+      "to": -118,
+      "dynasty": "西汉",
+      "title": "五铢钱登场，货币也要有秩序",
+      "category": "财政",
+      "summary": "汉武帝下令郡国改铸五铢钱，以重量命名，并在钱的内外增加轮郭。此后铸币管理继续调整，中央逐步收紧权力。五铢钱成为沿用数百年的重要钱制，反映国家对交易与财政的共同介入。",
+      "sources": [
+        "st_han_money"
+      ],
+      "topic": "经济与生活"
+    },
+    {
+      "id": "story_han_zhangqian",
+      "from": -119,
+      "to": -115,
+      "dynasty": "西汉",
+      "title": "张骞再出使：使团携带的不只是国书",
+      "category": "交流",
+      "summary": "张骞第二次奉命西行，带领规模可观的使团，并携牲畜、金帛等物。外交需要道路、翻译与物资支持，往来也带动对远方的认识。此处年代表示第二次出使前后的阶段，不把后世丝路全归一人开辟。",
+      "sources": [
+        "st_han_epic"
+      ],
+      "topic": "文化与知识"
+    },
+    {
+      "id": "story_han_shiji",
+      "from": -108,
+      "to": -90,
+      "dynasty": "西汉",
+      "title": "司马迁写史，帝王之外也有普通人",
+      "category": "文化",
+      "summary": "司马迁承接太史工作并长期撰史，《史记》以本纪、列传、表、书等形式组织跨越时代的历史，人物不限帝王将相。此处使用约略写作阶段，成书具体年份存在讨论，不把某一年写成无争议的完成日。",
+      "sources": [
+        "st_han_epic",
+        "st_sima"
+      ],
+      "topic": "文化与知识"
+    },
+    {
+      "id": "story_han_paper",
+      "from": 105,
+      "to": 105,
+      "dynasty": "东汉",
+      "title": "蔡伦改进造纸：让书写多一种材料",
+      "category": "科技",
+      "summary": "据传世记载，蔡伦在前人技术基础上改进造纸，使用树皮、旧布、麻头和渔网等原料。这里说的是革新与推广，纸的出现早于蔡伦。较易取得的植物纤维材料，为后来书籍传播提供了重要条件。",
+      "sources": [
+        "st_cailun"
+      ],
+      "topic": "文化与知识"
+    },
+    {
+      "id": "story_jin_law",
+      "from": 268,
+      "to": 268,
+      "dynasty": "西晋",
+      "title": "泰始颁律：怎样把刑罚与行政规则分开",
+      "category": "法律",
+      "summary": "晋武帝司马炎颁行新律，修订工作由贾充等人主持。学者指出，泰始律令的重要变化是更清楚地区分定罪处罚的律和行政制度的令。这部法典虽已失传，仍可从史书记载观察制度整理的努力。",
+      "sources": [
+        "st_jin_law"
+      ],
+      "topic": "制度与治理"
+    },
+    {
+      "id": "story_jin_ceramics",
+      "from": 265,
+      "to": 316,
+      "dynasty": "西晋",
+      "title": "青瓷走进灯火、熏香与日常器用",
+      "category": "社会生活",
+      "summary": "西晋墓葬出土的香熏等器物，呈现南方青瓷技术逐渐成熟的面貌。选料、施釉与烧造进步，使瓷器形式更加丰富。这里展示西晋时期的生活与工艺场景，并非断言这些器型在建国那一年同时发明。",
+      "sources": [
+        "st_jin_ceramics"
+      ],
+      "topic": "经济与生活"
+    },
+    {
+      "id": "story_sui_canal",
+      "from": 605,
+      "to": 610,
+      "dynasty": "隋",
+      "title": "运河把粮食、城市与劳役连起来",
+      "category": "工程",
+      "summary": "炀帝时期开通济渠，并整修、连接南北水道，至江南河工程阶段逐步形成大型运输网络。运河服务漕运与交通，但建设也需要巨大劳役投入；同一工程可以既有长期收益，又给当时居民带来沉重负担。",
+      "sources": [
+        "st_canal",
+        "st_suitang"
+      ],
+      "topic": "制度与治理"
+    },
+    {
+      "id": "story_sui_exams",
+      "from": 581,
+      "to": 618,
+      "dynasty": "隋",
+      "title": "选官正在转向考试，起点并非没有争论",
+      "category": "科举",
+      "summary": "隋代选官改革通常被视为科举形成的重要阶段，进士科的出现尤其受到重视。不过科举并非一天定型，具体创始标准与年份仍有学术分歧。这里呈现制度萌芽期，后来的唐宋考试体系不能完整倒推回隋。",
+      "sources": [
+        "st_keju_origins"
+      ],
+      "topic": "制度与治理"
+    },
+    {
+      "id": "story_tang_zhenguan",
+      "from": 627,
+      "to": 649,
+      "dynasty": "唐",
+      "title": "贞观政治：从战后恢复走向稳定",
+      "category": "施政",
+      "summary": "太宗李世民统治期间采取休养生息政策，社会逐步从隋末战乱中恢复，后世称为贞观之治。这个称呼概括一段施政与经济恢复过程，并不意味着所有地区、所有家庭都同时进入了没有困难的生活。",
+      "sources": [
+        "st_suitang"
+      ],
+      "topic": "制度与治理"
+    },
+    {
+      "id": "story_tang_xuanzang",
+      "from": 645,
+      "to": 664,
+      "dynasty": "唐",
+      "title": "玄奘归来之后，真正漫长的是译经",
+      "category": "文化",
+      "summary": "玄奘回到长安后没有结束工作，而是投入持续近二十年的佛经翻译。国博研究指出，太宗与高宗支持译场，使它成为获得国家赞助的文化项目。故事的重点因此从远行，转向语言、知识与团队劳动。",
+      "sources": [
+        "st_xuanzang"
+      ],
+      "topic": "文化与知识"
+    },
+    {
+      "id": "story_tang_kaiyuan",
+      "from": 713,
+      "to": 741,
+      "dynasty": "唐",
+      "title": "开元年间，繁荣是一项长期经营",
+      "category": "施政",
+      "summary": "玄宗前期整顿政务、任用大臣，社会经济有所发展，形成开元之治的局面。北京大学相关讲座也强调其权力结构和运作方式的调整。所谓盛世应理解为历史阶段，不能据此给每一年编造精确国力分数。",
+      "sources": [
+        "st_xuanzong",
+        "st_tang_turn"
+      ],
+      "topic": "制度与治理"
+    },
+    {
+      "id": "story_tang_transition",
+      "from": 755,
+      "to": 780,
+      "dynasty": "唐",
+      "title": "朝廷仍在，中央与地方的关系变了",
+      "category": "政治",
+      "summary": "安史之乱之后，唐朝并未立即灭亡，但藩镇势力增长，中央处理地方与财政的方式发生改变。观察这个阶段，不仅要看战线，还要看谁掌握税源、兵员与官员任命，理解一个王朝怎样在调整中继续存在。",
+      "sources": [
+        "st_suitang",
+        "st_twotax"
+      ],
+      "topic": "转折与危机"
+    },
+    {
+      "id": "story_tang_twotax",
+      "from": 780,
+      "to": 780,
+      "dynasty": "唐",
+      "title": "两税法：从人丁转向财产来筹税",
+      "category": "财政",
+      "summary": "德宗采纳杨炎建议推行两税法，调整已经难以维持的租庸调制度，把财产状况放到更重要的位置，并分时征收。改革回应人口流动与财政困难，但具体制度及执行仍有缺陷，不能简单写成百姓从此减负。",
+      "sources": [
+        "st_twotax"
+      ],
+      "topic": "经济与生活"
+    },
+    {
+      "id": "story_song_exam",
+      "from": 973,
+      "to": 973,
+      "dynasty": "北宋",
+      "title": "落榜申诉之后，殿试逐步成为定例",
+      "category": "科举",
+      "summary": "太祖开宝六年，围绕录取是否公允的争议，朝廷对考生组织复试，殿试此后逐步成为常式。皇帝进一步掌握取士与定名次的权力。考试扩大了选官方式，也让读书人的前途更直接连到国家制度上。",
+      "sources": [
+        "st_song_exam"
+      ],
+      "topic": "制度与治理"
+    },
+    {
+      "id": "story_song_jiaozi",
+      "from": 1023,
+      "to": 1024,
+      "dynasty": "北宋",
+      "title": "铁钱太重，交子走向官办",
+      "category": "金融",
+      "summary": "四川铁钱携带不便，商人先发展出交子信用凭证，随后发生兑现纠纷。朝廷在1023年设交子务，次年正式发行官交子，将这种便利纳入国家管理。故事关键是由民间信用走向官办，并非纸币凭空出现。",
+      "sources": [
+        "st_jiaozi"
+      ],
+      "topic": "经济与生活"
+    },
+    {
+      "id": "story_song_print",
+      "from": 1041,
+      "to": 1048,
+      "dynasty": "北宋",
+      "title": "毕昇的活字：把整版拆成可重排的字",
+      "category": "科技",
+      "summary": "沈括记载，庆历年间布衣毕昇制作泥活字，烧硬后排版印刷，印完可以收存再用。这改变了每页都要重新刻整块版的思路。但雕版并未因此马上消失，实际选择仍与书籍数量、排字及保存成本有关。",
+      "sources": [
+        "st_printing"
+      ],
+      "topic": "文化与知识"
+    },
+    {
+      "id": "story_song_reform",
+      "from": 1069,
+      "to": 1076,
+      "dynasty": "北宋",
+      "title": "神宗与王安石试图重新安排国家财政",
+      "category": "改革",
+      "summary": "神宗支持王安石变法，陆续实施青苗、均输、市易等措施，试图解决财政与治理积弊。新法触动国家、地方官与民间利益，也引发激烈反对。王安石先后罢相，说明制度改革的成败还取决于执行与政治支持。",
+      "sources": [
+        "st_wanganshi"
+      ],
+      "topic": "制度与治理"
+    },
+    {
+      "id": "story_song_port",
+      "from": 1087,
+      "to": 1087,
+      "dynasty": "北宋",
+      "title": "泉州设市舶司，海贸进入制度网络",
+      "category": "贸易",
+      "summary": "朝廷在泉州设置市舶司，管理海外船舶与货物的登记、抽解等事务。港口繁荣并非只有船多货多，还需要官署、仓储、水道和稳定规则。此机构后来继续服务南宋、元代海贸，连接地方社会与跨海市场。",
+      "sources": [
+        "st_quanzhou"
+      ],
+      "topic": "经济与生活"
+    },
+    {
+      "id": "story_song_shenkuo",
+      "from": 1088,
+      "to": 1095,
+      "dynasty": "北宋",
+      "title": "退居梦溪园，把见闻写成知识",
+      "category": "科技",
+      "summary": "沈括晚年在润州梦溪园著述，把天文、地理、工艺与个人观察汇入《梦溪笔谈》等书。他记录磁针偏向、测量和地形模型等问题，展示经验与思考如何结合。这里是约略著述阶段，不主张全书某年一次写定。",
+      "sources": [
+        "st_shenkuo"
+      ],
+      "topic": "文化与知识"
+    },
+    {
+      "id": "story_song_building",
+      "from": 1103,
+      "to": 1103,
+      "dynasty": "北宋",
+      "title": "盖房子也需要统一的工料账",
+      "category": "工程",
+      "summary": "李诫奉命重修的《营造法式》付梓，将建筑工种、用料、劳动定额与图样系统编排，以材等建立模数规则。它不仅记录漂亮建筑，也关乎官府怎样核算成本、组织施工，是工匠经验进入制度文本的例子。",
+      "sources": [
+        "st_yingzao"
+      ],
+      "topic": "制度与治理"
+    },
+    {
+      "id": "story_song_farming",
+      "from": 1149,
+      "to": 1149,
+      "dynasty": "南宋",
+      "title": "陈旉为江南稻田写一本农书",
+      "category": "农业",
+      "summary": "陈旉完成《农书》，着重讨论江南水稻生产、养牛与蚕桑等经验。南方湿润的土壤、水田和气候，使北方农书不能直接照搬。王朝财政与城市居民的日常供给背后，是田间持续积累和调整的生产知识。",
+      "sources": [
+        "st_chengfu"
+      ],
+      "topic": "经济与生活"
+    },
+    {
+      "id": "story_song_huizi",
+      "from": 1160,
+      "to": 1160,
+      "dynasty": "南宋",
+      "title": "临安设会子务，纸币进入更多交易",
+      "category": "金融",
+      "summary": "国博会子版说明记载，南宋自绍兴三十年开始发行会子，并在临安设置会子务。纸张、印版、官府信用与市场交易被连在一起。轻便货币便利流通，但它的可靠性仍取决于管理与信用，不能把发行本身等同繁荣。",
+      "sources": [
+        "st_huizi"
+      ],
+      "topic": "经济与生活"
+    },
+    {
+      "id": "story_song_ehu",
+      "from": 1175,
+      "to": 1175,
+      "dynasty": "南宋",
+      "title": "鹅湖之会：怎样读书，才能认识道理",
+      "category": "思想",
+      "summary": "吕祖谦促成朱熹与陆九渊、陆九龄在鹅湖寺相会，争论为学方法。朱熹强调读书穷理，陆氏更重发明本心，双方没有因此完全一致。南宋历史由此也可以是一场思想讨论，而不只是朝廷与战场的故事。",
+      "sources": [
+        "st_ehu"
+      ],
+      "topic": "文化与知识"
+    },
+    {
+      "id": "story_song_night",
+      "from": 1150,
+      "to": 1275,
+      "dynasty": "南宋",
+      "title": "临安入夜以后，另一座城市开始营业",
+      "category": "社会生活",
+      "summary": "南宋笔记描写临安街市夜间交易延续，商品包括食品、灯烛、首饰和书籍，瓦舍勾栏也提供演出。这里选取十二世纪中叶至宋末的生活场景，依据追记材料呈现城市商业，不能理解为这段时期每夜都同样繁华。",
+      "sources": [
+        "st_linan_night"
+      ],
+      "topic": "经济与生活"
+    },
+    {
+      "id": "story_song_law",
+      "from": 1247,
+      "to": 1247,
+      "dynasty": "南宋",
+      "title": "宋慈把验伤经验写进洗冤集录",
+      "category": "法律",
+      "summary": "宋慈汇集并核订已有检验著作，结合实践写成《洗冤集录》，讨论尸伤检验和相关程序。刑案不仅靠口供，也需要面对伤痕与现场证据。此书影响后世司法检验，但古代方法仍有时代局限，不能等同现代法医学。",
+      "sources": [
+        "st_songci"
+      ],
+      "topic": "制度与治理"
+    },
+    {
+      "id": "story_yuan_calendar",
+      "from": 1280,
+      "to": 1281,
+      "dynasty": "元",
+      "title": "忽必烈朝修历，先看天象再作计算",
+      "category": "科技",
+      "summary": "郭守敬、王恂等参与修订《授时历》，1280年告成，1281年颁行。观测资料与数学推算结合，用来安排历日、节气等事务。历法服务的不只是宫廷仪式，也与农业节奏和各地使用共同时间秩序有关。",
+      "sources": [
+        "st_calendar"
+      ],
+      "topic": "文化与知识"
+    },
+    {
+      "id": "story_yuan_money",
+      "from": 1271,
+      "to": 1368,
+      "dynasty": "元",
+      "title": "纸币成为帝国金融的重要工具",
+      "category": "金融",
+      "summary": "元代朝廷广泛运用宝钞，建立以纸币组织交易和财政的制度，先后调整其计值依据。这里是一段制度史场景，发行规模与信用随时期变化，不能把整个元代概括成始终稳定，也不能把纸币创新与后期困难混为一谈。",
+      "sources": [
+        "st_songyuan"
+      ],
+      "topic": "经济与生活"
+    },
+    {
+      "id": "story_yuan_farming",
+      "from": 1313,
+      "to": 1313,
+      "dynasty": "元",
+      "title": "王祯刊农书，把农具画给读者看",
+      "category": "农业",
+      "summary": "王祯《农书》经长期编写、修订，在1313年刊印，综合南北农业经验，并以大量图示介绍耕作、灌溉和纺织工具。书末还记木活字印书法。这个年份指刊印，不把多年写作一律压缩成当年才完成。",
+      "sources": [
+        "st_wangzhen"
+      ],
+      "topic": "经济与生活"
+    },
+    {
+      "id": "story_ming_recovery",
+      "from": 1368,
+      "to": 1398,
+      "dynasty": "明",
+      "title": "洪武年间，国家怎样让荒地重新生产",
+      "category": "施政",
+      "summary": "明初采取移民垦荒、兴修水利、奖励耕织及减免部分战乱地区赋役等办法，恢复生产。它们不是同一年的单一法令，也不会让地方差异立刻消失；地图上相对稳定的边界之内，户口和田亩仍在重新组织。",
+      "sources": [
+        "st_mingqing"
+      ],
+      "topic": "制度与治理"
+    },
+    {
+      "id": "story_ming_voyages",
+      "from": 1405,
+      "to": 1433,
+      "dynasty": "明",
+      "title": "郑和船队把造船、外交与贸易连起来",
+      "category": "交流",
+      "summary": "明廷多次派郑和率舰队远航，活动范围连接东南亚、南亚及非洲部分海岸。如此航程背后需要造船、补给、航海知识和外交安排。这里呈现七次远航的整体阶段，并不表示船队在这二十九年间从未返航。",
+      "sources": [
+        "st_mingqing"
+      ],
+      "topic": "文化与知识"
+    },
+    {
+      "id": "story_ming_silver",
+      "from": 1581,
+      "to": 1581,
+      "dynasty": "明",
+      "title": "一条鞭法：把复杂赋役折成银两",
+      "category": "财政",
+      "summary": "张居正推动的一条鞭法在万历九年向全国推行，整合多项赋役并扩大折银征纳，回应原有征收体系的繁杂与隐漏。改革依赖地方执行，也使家庭取得白银的能力更加重要，统一办法并不代表实际负担处处相同。",
+      "sources": [
+        "st_zhangjuzheng"
+      ],
+      "topic": "经济与生活"
+    },
+    {
+      "id": "story_ming_afterzhang",
+      "from": 1582,
+      "to": 1584,
+      "dynasty": "明",
+      "title": "改革者去世后，政策与权力重新洗牌",
+      "category": "政治",
+      "summary": "张居正去世后，万历皇帝逐步清算其政治与家产，原先获得强力支持的改革因此面临新的环境。一个大臣的个人处境不能直接解释整个王朝兴衰，却能提示：制度能否延续，取决于政策之外的权力关系。",
+      "sources": [
+        "st_zhang_after"
+      ],
+      "topic": "转折与危机"
+    },
+    {
+      "id": "story_qing_dictionary",
+      "from": 1710,
+      "to": 1716,
+      "dynasty": "清",
+      "title": "康熙敕修字典，学者合力整理文字",
+      "category": "文化",
+      "summary": "康熙组织张玉书、陈廷敬等纂修大型字书，1716年编成《康熙字典》，汇集历代字书与韵书材料，收字四万七千余。官修文化工程把校勘、注音和释义组织起来，也为后来阅读古籍留下长期使用的工具。",
+      "sources": [
+        "st_kangxi_dict"
+      ],
+      "topic": "文化与知识"
+    },
+    {
+      "id": "story_qing_tax",
+      "from": 1723,
+      "to": 1735,
+      "dynasty": "清",
+      "title": "雍正时期，丁银逐步摊入田赋",
+      "category": "财政",
+      "summary": "雍正朝各省陆续推行摊丁入亩，把原按人丁征收的丁银并入土地赋税，实施时间并不完全一致。制度调整改变了人丁与赋税的联系，但研究也指出，实际附加与基层征收仍可能增加负担，不能简单称为普遍免税。",
+      "sources": [
+        "st_tanding"
+      ],
+      "topic": "经济与生活"
+    },
+    {
+      "id": "story_qing_junji",
+      "from": 1729,
+      "to": 1729,
+      "dynasty": "清",
+      "title": "军机处出现，皇帝身边多了办事中枢",
+      "category": "政治",
+      "summary": "雍正七年设立军机处，后来成为清代重要的中央辅弼机构。它的出现说明，治理辽阔疆域不仅需要各省官署，也需要在皇帝身边处理文书与重大事务的组织。其职责随时间发展，不能把成熟形态全部放回初设年。",
+      "sources": [
+        "st_junji"
+      ],
+      "topic": "制度与治理"
+    },
+    {
+      "id": "story_qing_siku",
+      "from": 1773,
+      "to": 1787,
+      "dynasty": "清",
+      "title": "四库修书：搜集古籍，也划出禁书界线",
+      "category": "文化",
+      "summary": "乾隆诏开四库全书馆，学者搜书、校勘、分类并抄成多部大书，保存大量文献。与此同时，修书与查禁、删改也相伴发生。它既是知识整理工程，也是国家管理文化的过程；这里以开馆至主要抄本完成为阶段。",
+      "sources": [
+        "st_siku",
+        "st_siku_banned"
+      ],
+      "topic": "文化与知识"
+    },
+    {
+      "id": "story_qing_education",
+      "from": 1901,
+      "to": 1905,
+      "dynasty": "清",
+      "title": "从改考试到废科举，读书道路转向学堂",
+      "category": "教育",
+      "summary": "清末先调整科举内容，1905年再下令停止乡会试，教育与选官开始转向新式学堂等路径。延续已久的功名秩序迅速改变，旧士人与新学生都要重新寻找位置；取消考试本身，并不会立即解决师资、经费和制度衔接。",
+      "sources": [
+        "st_keju_end",
+        "st_newschools"
+      ],
+      "topic": "转折与危机"
+    }
+  ],
+  "version": 1,
+  "scope": "Selected dated events and multi-year background stories, not an exhaustive annual chronicle."
+}

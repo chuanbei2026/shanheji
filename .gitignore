@@ -1,0 +1,6 @@
+# Local distribution bundles and machine files
+/shanheji-*.zip
+/shanheji-*.zip.sha256
+.DS_Store
+.env
+.env.*

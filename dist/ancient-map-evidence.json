@@ -1,0 +1,283 @@
+{
+  "version": 1,
+  "updated": "2026-10-25",
+  "title": "先秦地图的可用矢量与证据点",
+  "method": "战国阶段复用与现有项目同源的GPL-3.0江山时序矢量，仅选主体诸侯层；夏商西周春秋未找到同源可直接复用的政治疆界矢量，建议以遗址、都邑和活动地区文字作图，不以遗址点连成国界。坐标是面向全国尺度的区域示意，非测绘或考古保护区边线。",
+  "sources": {
+    "upstream": {
+      "title": "DeanChensj / jiangshan-map — map_data / atlas_snapshots",
+      "url": "https://github.com/DeanChensj/jiangshan-map",
+      "license": "GPL-3.0",
+      "evidence": "当前上游从前403年战国开始，包含十四个战国阶段。已去掉其通用邻国层；未采用府县政区层。",
+      "sourceTreeSha": "81cda326377d167489b8ba91fcfd62a1f5744b4d"
+    },
+    "nmc_early": {
+      "title": "中国国家博物馆《古代中国》·夏商西周时期",
+      "url": "https://www.chnmuseum.cn/portals/0/web/zt/gudai/detail2.html",
+      "evidence": "介绍夏人主要活动于豫西晋南、二里头为探索夏的重要遗存；商迁都与周原、镐京、分封及周边族群。不能据此得到精确政治边界。"
+    },
+    "nmc_eastern": {
+      "title": "中国国家博物馆《古代中国》·春秋战国时期",
+      "url": "https://www.chnmuseum.cn/portals/0/web/zt/gudai/detail3.html",
+      "evidence": "前770年平王东迁，春秋争霸与战国兼并。"
+    },
+    "erlitou": {
+      "title": "洛阳市政府 · 二里头遗址又有重大新发现",
+      "url": "https://www.ly.gov.cn/2024/12-27/499371.html",
+      "evidence": "偃师二里头位于洛阳盆地中部、古伊洛河北岸台地；主体遗存约距今3750—3520年。不是证实前2070年已有二里头王都。"
+    },
+    "zhengzhou": {
+      "title": "郑州市文物局 · 关于商文化城市名片建议答复",
+      "url": "https://public.zhengzhou.gov.cn/D1102X/4346356.jhtml",
+      "evidence": "郑州商城为商代前期王都遗址，始建距今约3600年。"
+    },
+    "zhengzhou_debate": {
+      "title": "河南省官方文化资源 · 郑州商代遗址",
+      "url": "https://ytsc.rootinhenan.gov.cn/sitesources/ytsc/page_pc/hnly/zywh/article331c8a2daa6c4506ae9dcb220a832952.html",
+      "evidence": "记录亳都与隞都解释分歧，故地图标签先用郑州商城遗址而不强定商汤亳都。"
+    },
+    "yinxu": {
+      "title": "UNESCO World Heritage Centre · Yin Xu",
+      "url": "https://whc.unesco.org/en/list/1114",
+      "evidence": "殷墟位于安阳洹河两岸，遗存约自前1300年起，有宫殿宗庙区、王陵区、甲骨文证据。"
+    },
+    "luoyi": {
+      "title": "洛阳市政府 · 历史沿革",
+      "url": "https://www.ly.gov.cn/mlly/lsyg/",
+      "evidence": "平王前770年迁都洛邑；王城与成周应注意分址，不能把今旅游地洛邑古城等同周代都城。"
+    },
+    "fenghao": {
+      "title": "《西安市志》第三卷 · 西周丰镐的经济",
+      "url": "https://dfz.shaanxi.gov.cn/zslm/fzzlk/xbsxsxz/xbsxz/xas_16198/201405/P020240923626065468911.pdf",
+      "evidence": "索引正文记西周丰镐在沣河东西两岸。此PDF本次仅检索索引，未通读全部。",
+      "access": "search_index"
+    },
+    "lu": {
+      "title": "中国国家博物馆 · “鲁伯大父”青铜簋",
+      "url": "https://www.chnmuseum.cn/zp/zpml/kgfjp/202108/t20210806_250969.shtml",
+      "evidence": "春秋鲁都在今曲阜；不以器物异地出土点直接划鲁国疆域。"
+    },
+    "han": {
+      "title": "中国国家博物馆 · “郑右库”青铜戈",
+      "url": "https://www.chnmuseum.cn/zp/zpml/kgfjp/202110/t20211025_251827.shtml",
+      "evidence": "战国韩首都新郑，曾先后都平阳、宜阳、阳翟；从前375年韩灭郑后再在新郑点标韩国。"
+    }
+  },
+  "reusableVector": {
+    "file": "ancient-atlas.json",
+    "frames": 14,
+    "from": -403,
+    "to": -222,
+    "excludedLayer": "role=neighbor",
+    "canonicalTitleRule": "秦保留；周为周王畿；其它如魏（战国），displayTitle保留短名。每个feature ancient=true。",
+    "limitations": [
+      "阶段图并不等于代表年当天控制线：前403—341首图含田氏代齐后的形势。",
+      "前278—250阶段含长平战后变化，前223—222末图合并燕代最终消亡；目前不独立重绘中间边界。",
+      "现有上游不覆盖夏商西周春秋；不能把战国七雄多边形向前沿用。"
+    ]
+  },
+  "sites": [
+    {
+      "id": "erlitou",
+      "name": "二里头遗址",
+      "point": [
+        112.7,
+        34.69
+      ],
+      "from": -1800,
+      "to": -1500,
+      "approximate": true,
+      "kind": "考古遗址",
+      "polity": "夏晚期相关遗存",
+      "sources": [
+        "erlitou",
+        "nmc_early"
+      ],
+      "note": "显示区间是宽范围考古阶段约数，具体分期/夏商界线存在不同解释；不可把二里头点位前移到前2070年，也不直接等同每位夏王都城。"
+    },
+    {
+      "id": "zhengzhou_shang",
+      "name": "郑州商城遗址",
+      "point": [
+        113.68,
+        34.75
+      ],
+      "from": -1600,
+      "to": -1400,
+      "approximate": true,
+      "kind": "考古遗址",
+      "polity": "商前期",
+      "sources": [
+        "zhengzhou",
+        "zhengzhou_debate"
+      ],
+      "note": "界面取宽约年区间，亳都/隞都及具体年代见文献分歧。此点不是早商疆界中心的测绘证明。"
+    },
+    {
+      "id": "yinxu",
+      "name": "殷（殷墟）",
+      "point": [
+        114.31,
+        36.12
+      ],
+      "from": -1300,
+      "to": -1046,
+      "approximate": true,
+      "kind": "王都遗址",
+      "polity": "商晚期",
+      "sources": [
+        "yinxu"
+      ],
+      "note": "遗址点为小屯宫殿宗庙区区域示意；殷墟王陵另在洹河北，不表示整个殷墟只有这一个点。前1300为约数。"
+    },
+    {
+      "id": "zhouyuan",
+      "name": "周原",
+      "point": [
+        107.85,
+        34.45
+      ],
+      "from": -1150,
+      "to": -771,
+      "approximate": true,
+      "kind": "周人核心活动区",
+      "polity": "周",
+      "sources": [
+        "nmc_early"
+      ],
+      "note": "岐山之南周原区域点，不能用该点推定地方势力连续疆界；起始显示年为约数。"
+    },
+    {
+      "id": "fenghao",
+      "name": "丰镐",
+      "point": [
+        108.75,
+        34.21
+      ],
+      "from": -1046,
+      "to": -771,
+      "approximate": true,
+      "kind": "王都区域",
+      "polity": "西周",
+      "sources": [
+        "nmc_early",
+        "fenghao"
+      ],
+      "note": "全国尺度合并丰京和镐京的区域点；二者位于沣河两岸，非同一座城，不能精确复原宫城范围。"
+    },
+    {
+      "id": "luoyi",
+      "name": "洛邑（王城）",
+      "point": [
+        112.42,
+        34.68
+      ],
+      "from": -770,
+      "to": -256,
+      "approximate": true,
+      "kind": "王都区域",
+      "polity": "东周",
+      "sources": [
+        "luoyi",
+        "nmc_eastern"
+      ],
+      "note": "王城区域示意；成周/王城的分址与前516后王室迁居应另细分，不能当作东周五百年始终同址。"
+    },
+    {
+      "id": "qufu",
+      "name": "曲阜（鲁）",
+      "point": [
+        116.99,
+        35.6
+      ],
+      "from": -770,
+      "to": -256,
+      "approximate": true,
+      "kind": "都邑",
+      "polity": "鲁",
+      "sources": [
+        "lu"
+      ],
+      "note": "仅代表鲁国都邑位置，春秋前段起点是界面展示范围，并非断言此年建城。"
+    },
+    {
+      "id": "xinzheng",
+      "name": "新郑（郑／韩）",
+      "point": [
+        113.74,
+        34.4
+      ],
+      "from": -770,
+      "to": -230,
+      "approximate": true,
+      "kind": "都邑",
+      "polity": "郑；前375年后韩",
+      "sources": [
+        "han"
+      ],
+      "note": "阶段内先属郑、后为韩都；若需逐国点位请按前375年分段。"
+    }
+  ],
+  "displayRecommendations": [
+    {
+      "from": -2070,
+      "to": -1801,
+      "label": "夏（传统年代范围）",
+      "mode": "text_and_region_label",
+      "note": "可在豫西晋南文字标注传世文献所述主要活动地区，不标画政治边界；未有对应此具体年份的已证王都点。",
+      "sourceIds": [
+        "nmc_early"
+      ]
+    },
+    {
+      "from": -1800,
+      "to": -1601,
+      "label": "二里头文化与夏晚期探索",
+      "mode": "archaeological_sites",
+      "note": "以遗址点展示；文化遗存分布不等于夏朝国界。",
+      "sourceIds": [
+        "erlitou",
+        "nmc_early"
+      ]
+    },
+    {
+      "from": -1600,
+      "to": -1301,
+      "label": "商前期都邑与相关遗存",
+      "mode": "archaeological_sites",
+      "sourceIds": [
+        "zhengzhou",
+        "zhengzhou_debate"
+      ]
+    },
+    {
+      "from": -1300,
+      "to": -1047,
+      "label": "商晚期·殷墟",
+      "mode": "archaeological_sites",
+      "sourceIds": [
+        "yinxu"
+      ]
+    },
+    {
+      "from": -1046,
+      "to": -771,
+      "label": "西周王都与分封网络",
+      "mode": "capital_nodes_and_attested_links",
+      "note": "只有有文献直接支持的封国联系才画关系线，关系线不是行政国界。",
+      "sourceIds": [
+        "nmc_early"
+      ]
+    },
+    {
+      "from": -770,
+      "to": -404,
+      "label": "东周·春秋",
+      "mode": "capital_nodes",
+      "note": "未获授权可信政治边界矢量时，不以战国七雄边界倒推。",
+      "sourceIds": [
+        "nmc_eastern"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,1117 @@
+{
+  "version": 1,
+  "updated": "2026-10-25",
+  "scope": "审查43个原待核阶段×势力组合；姓名、职衔、年内交接和多中心统治分别处理。不把审查等同于已确认全部地方官。",
+  "sources": {
+    "houhan": {
+      "title": "《后汉书》卷八十八·西域传",
+      "url": "https://zh.wikisource.org/wiki/後漢書/卷88",
+      "evidence": "永平十六年取伊吾置宜禾都尉，次年始置西域都护与戊己校尉。"
+    },
+    "sui": {
+      "title": "《隋书》卷六十三·刘权传",
+      "url": "https://zh.wikisource.org/wiki/隋書/卷63",
+      "evidence": "刘权参与西征，奉命置河源郡、积石镇并屯田留镇；不等于四郡统一行政首长。"
+    },
+    "south": {
+      "title": "《旧唐书》卷一百九十七·南蛮西南蛮传",
+      "url": "https://zh.wikisource.org/wiki/舊唐書/卷197",
+      "evidence": "六诏及蒙舍诏的形成与后来统一不可混同。"
+    },
+    "anxi640": {
+      "title": "《文馆词林》巡抚高昌诏（高丽大学学位论文所引原文）",
+      "url": "https://dcollection.korea.ac.kr/public_resource/pdf/000000268551_20260523204343.pdf",
+      "evidence": "论文第77页录诏书点名守安西都护乔师望；任命的确切月日不详。"
+    },
+    "guo": {
+      "title": "《旧唐书》卷八十三·郭孝恪传",
+      "url": "https://zh.wikisource.org/wiki/舊唐書/卷83",
+      "evidence": "贞观十六年任安西都护、西州刺史；贞观末出征龟兹，战死。"
+    },
+    "li": {
+      "title": "《历史地理研究》2022年第4期：都护在燕然",
+      "url": "https://www.lsdlyj.com.cn/CN/article/downloadArticleFile.do?attachType=PDF&id=53237",
+      "evidence": "辨燕然、瀚海、安北都护府名称与建置，首任都护李素立；647年置燕然、669年改安北。"
+    },
+    "qu": {
+      "title": "《册府元龟》外臣部·封册二（国家图书馆底本影印）",
+      "url": "https://upload.wikimedia.org/wikipedia/commons/a/ab/NLC892-411999030634-10260_%E5%86%8A%E5%BA%9C%E5%85%83%E9%BE%9C_%E7%AC%AC299%E5%86%8A.pdf",
+      "evidence": "显庆三年五月记左骁卫大将军兼安西都护天山县公麴智湛转西州都督；657处于此前任职段。"
+    },
+    "tong200": {
+      "title": "《资治通鉴》卷二百·唐纪十六",
+      "url": "https://zh.wikisource.org/wiki/資治通鑑/卷200",
+      "evidence": "657年燕然都护任雅相随苏定方出征；平贺鲁后分昆陵、濛池，以弥射、步真分别统领。"
+    },
+    "turk": {
+      "title": "《新唐书》卷二百一十五下·突厥传",
+      "url": "https://zh.wikisource.org/wiki/新唐書/卷215下",
+      "evidence": "弥射662年被杀，步真乾封中卒，继承与部众再分离，不能二人一直沿用到668年。"
+    },
+    "researchAnxi": {
+      "title": "薛宗正《唐代安西与北庭》安西建置的升降反复表",
+      "url": "https://www.zgjh999.com/uploadfile/file/zhdyxiyu/TSYXYWH.pdf",
+      "evidence": "区分都护、大都护、地方实任、内地遥领；763年前后有朱都护、尔朱都护等记录，不能把781年郭昕任命倒推到764年。"
+    },
+    "andong": {
+      "title": "韩国国史编纂委员会·《资治通鉴》676年安东迁府条",
+      "url": "https://db.history.go.kr/ancient/level.do?levelId=ko_038_1100_0060",
+      "evidence": "676年安东迁辽东城，附《考异》讨论670年与676年迁府记载，不能按一个稳定官署不加区分。"
+    },
+    "tian": {
+      "title": "东北亚历史财团·《旧唐书》龟兹传注释",
+      "url": "https://contents.nahf.or.kr/id/NAHF.jo.k_0016_0198_0060_0040",
+      "evidence": "田扬名任期注为698—704年；郭元振、张孝嵩、杜暹的任期另列。"
+    },
+    "jie": {
+      "title": "《新唐书》卷一百三十·解琬传",
+      "url": "https://zh.wikisource.org/wiki/新唐書/卷130",
+      "evidence": "记解琬擢御史中丞、兼北庭都护西域安抚使，但未细记任命年月。"
+    },
+    "feng": {
+      "title": "《旧唐书》卷一百零四·封常清传",
+      "url": "https://zh.wikisource.org/wiki/舊唐書/卷104",
+      "evidence": "天宝十一载任安西副大都护、四镇节度，后权知北庭都护、伊西节度；755年召入朝。"
+    },
+    "bei714": {
+      "title": "《旧唐书》卷一百零三·郭虔瓘传",
+      "url": "https://zh.wikisource.org/wiki/舊唐書/卷103",
+      "evidence": "开元二年春以北庭都护守北庭，并附制书列明北庭都护、瀚海军经略使等官衔。"
+    },
+    "beiDoc": {
+      "title": "《台湾师大历史学报》43期：唐代特殊官人的告身给付",
+      "url": "https://www.his.ntnu.edu.tw/publish01/downloadfile.php?issue_id=26&paper_id=147&periodicalsPage=4",
+      "evidence": "据李慈艺勋告考开元二年郭虔瓘为北庭都护、瀚海军经略使。"
+    },
+    "xizang848": {
+      "title": "中国藏学研究中心·气候变迁视角下吐蕃政权覆亡及人群流动",
+      "url": "https://www.tibetology.ac.cn/2024-11/06/content_42956734.htm",
+      "evidence": "综述汉藏史籍与《西藏通史》的多种覆亡解释，涉及848年河西变局；不能列一位全境赞普。"
+    },
+    "yuan": {
+      "title": "中国藏学研究中心·八思巴：促进民族交流与团结的一代帝师",
+      "url": "https://www.tibetology.ac.cn/2022-10/25/content_42149104.htm",
+      "evidence": "八思巴1235—1280，为萨迦派第五代祖师与元代首任帝师；职衔与本钦地方行政不应互换。"
+    },
+    "yuanAdmin": {
+      "title": "中国藏学研究中心·元代朵思麻宣慰司设置年代与名称",
+      "url": "https://www.tibetology.ac.cn/2020-09/18/content_41699262.htm",
+      "evidence": "1274年八思巴返萨迦及随后元廷调整乌思藏地方行政机构，说明制度不能简化为单一宗教领袖。"
+    },
+    "huang": {
+      "title": "山东省情资料·黄福传",
+      "url": "https://shandong-chorography.org/database/f063/section/26/article/74/",
+      "evidence": "1407年黄福以尚书掌交趾布政、按察二司事。"
+    },
+    "hami": {
+      "title": "《明史》卷三百二十九·哈密卫传",
+      "url": "https://zh.wikisource.org/wiki/明史/卷329",
+      "evidence": "脱脱、卜答失里、倒瓦答失里等忠顺王承袭；哈密王不等于整个关西七卫共同长官。"
+    },
+    "qing1720": {
+      "title": "中国藏学研究中心·邓锐龄先生与西藏历史研究",
+      "url": "https://www.tibetology.ac.cn/2025-10/03/content_43243735.htm",
+      "evidence": "讨论1720年率军入拉萨的延信以及噶伦主政制度建立；军事负责人、宗教领袖与后来驻藏大臣分别处理。"
+    },
+    "qingSystem": {
+      "title": "中华文史网·清代西藏地方政治制度研究",
+      "url": "https://www.qinghistory.cn/c/363/363189.shtml",
+      "evidence": "1721年组建噶伦地方政府；1720年军事接管不等于已设驻藏大臣。"
+    },
+    "yili": {
+      "title": "国家民族事务委员会·维吾尔族历史沿革",
+      "url": "https://www.neac.gov.cn/seac/ztzl/wwez/lsyg.shtml",
+      "evidence": "明确俄国1871年出兵侵占伊犁；1864年色块不可直接标为俄占。"
+    },
+    "wei": {
+      "title": "伦敦大学亚非学院·威海卫法律与行政研究（原始档案研究）",
+      "url": "https://eprints.soas.ac.uk/28676/1/10672843.pdf",
+      "evidence": "利用威海卫CO521等档案说明殖民行政制度；本次未从其中确定1898接管年军政首长，保留逐份任命档案待核。"
+    },
+    "hk1898": {
+      "title": "香港大学数字馆藏·1898年香港政府宪报",
+      "url": "https://digitalrepository.lib.hku.hk/catalog/1544jz99j",
+      "evidence": "1898年2月记录Wilsone Black署理港督；年内由卜力接任。"
+    },
+    "hk1898doc": {
+      "title": "美国海军历史与遗产司令部·1898年4月24日杜威致Wilsone Black原信",
+      "url": "https://www.history.navy.mil/research/publications/documentary-histories/united-states-navy-s/the-battle-of-manila/commodore-george-dew-28.html",
+      "evidence": "原信称Wilsone Black为署理香港政府者，直接印证1898年过渡。"
+    },
+    "hkblake": {
+      "title": "香港立法局1899年8月24日会议记录",
+      "url": "https://www.legco.gov.hk/1898-99/h990824.pdf",
+      "evidence": "正式列Henry Blake为Governor；与1898宪报交接相互补充。"
+    },
+    "hk1911": {
+      "title": "香港立法局1911年5月18日会议记录",
+      "url": "https://www.legco.gov.hk/1911/h110518.pdf",
+      "evidence": "列Frederick J. Dealtry Lugard为香港总督。"
+    },
+    "kwantung": {
+      "title": "日本国立公文书馆亚洲历史资料中心·1911年大岛关东都督出差档案",
+      "url": "https://www.jacar.archives.go.jp/das/meta/B16080798700",
+      "evidence": "1911年原档标题与内容明确称大岛为关东都督。"
+    },
+    "kwantungSystem": {
+      "title": "日本国立公文书馆亚洲历史资料中心·关东总督府",
+      "url": "https://www.jacar.go.jp/exhibition/glossary/term4/0010-0050-0080.html",
+      "evidence": "1905年日本接管租借地设关东总督府，1906年改关东都督府；首任大岛义昌。"
+    }
+  },
+  "entries": [
+    {
+      "frameId": "s_donghan_c",
+      "title": "西域都护（伊吾·南道）",
+      "year": 73,
+      "status": "年代更正",
+      "note": "73年汉军取伊吾，置宜禾都尉屯田；西域都护在次年74年才恢复并由陈睦出任。本图不能将陈睦提前写作73年都护；本年宜禾都尉姓名仍缺可靠任命资料。",
+      "people": [],
+      "sources": [
+        "https://zh.wikisource.org/wiki/後漢書/卷88"
+      ],
+      "finding": "73年汉军取伊吾，置宜禾都尉屯田；西域都护在次年74年才恢复并由陈睦出任。本图不能将陈睦提前写作73年都护；本年宜禾都尉姓名仍缺可靠任命资料。",
+      "sourceIds": [
+        "houhan"
+      ],
+      "sourceScope": "人物或制度时点见所列来源；合并色块不等于全境统一管辖。"
+    },
+    {
+      "frameId": "s_sui_c",
+      "title": "西海·鄯善等四郡",
+      "year": 609,
+      "status": "多中心／非单一首领",
+      "note": "609年西征后分置四郡，不存在一名统管四郡的独立君主。《隋书》可考刘权奉命置河源郡、积石镇并留镇；这里只列其相关军政职责，不能称四郡共同太守。",
+      "people": [
+        {
+          "name": "刘权",
+          "title": "西征及河源屯田负责人"
+        }
+      ],
+      "sources": [
+        "https://zh.wikisource.org/wiki/隋書/卷63"
+      ],
+      "finding": "609年西征后分置四郡，不存在一名统管四郡的独立君主。《隋书》可考刘权奉命置河源郡、积石镇并留镇；这里只列其相关军政职责，不能称四郡共同太守。",
+      "sourceIds": [
+        "sui"
+      ],
+      "sourceScope": "人物或制度时点见所列来源；合并色块不等于全境统一管辖。"
+    },
+    {
+      "frameId": "s_tang_0",
+      "title": "南诏",
+      "year": 618,
+      "status": "年代更正",
+      "note": "本年早于细奴逻蒙舍诏兴起及738年六诏统一；不能以成熟南诏王国的版图和王号倒套。此色块应读为洱海周边诸部的概括，不填一名全境首领。",
+      "people": [],
+      "sources": [
+        "https://zh.wikisource.org/wiki/舊唐書/卷197"
+      ],
+      "finding": "本年早于细奴逻蒙舍诏兴起及738年六诏统一；不能以成熟南诏王国的版图和王号倒套。此色块应读为洱海周边诸部的概括，不填一名全境首领。",
+      "sourceIds": [
+        "south"
+      ],
+      "sourceScope": "人物或制度时点见所列来源；合并色块不等于全境统一管辖。"
+    },
+    {
+      "frameId": "s_tang_a0",
+      "title": "南诏",
+      "year": 621,
+      "status": "年代更正",
+      "note": "本年早于细奴逻蒙舍诏兴起及738年六诏统一；不能以成熟南诏王国的版图和王号倒套。此色块应读为洱海周边诸部的概括，不填一名全境首领。",
+      "people": [],
+      "sources": [
+        "https://zh.wikisource.org/wiki/舊唐書/卷197"
+      ],
+      "finding": "本年早于细奴逻蒙舍诏兴起及738年六诏统一；不能以成熟南诏王国的版图和王号倒套。此色块应读为洱海周边诸部的概括，不填一名全境首领。",
+      "sourceIds": [
+        "south"
+      ],
+      "sourceScope": "人物或制度时点见所列来源；合并色块不等于全境统一管辖。"
+    },
+    {
+      "frameId": "s_tang_a1",
+      "title": "南诏",
+      "year": 630,
+      "status": "年代更正",
+      "note": "本年早于细奴逻蒙舍诏兴起及738年六诏统一；不能以成熟南诏王国的版图和王号倒套。此色块应读为洱海周边诸部的概括，不填一名全境首领。",
+      "people": [],
+      "sources": [
+        "https://zh.wikisource.org/wiki/舊唐書/卷197"
+      ],
+      "finding": "本年早于细奴逻蒙舍诏兴起及738年六诏统一；不能以成熟南诏王国的版图和王号倒套。此色块应读为洱海周边诸部的概括，不填一名全境首领。",
+      "sourceIds": [
+        "south"
+      ],
+      "sourceScope": "人物或制度时点见所列来源；合并色块不等于全境统一管辖。"
+    },
+    {
+      "frameId": "s_tang_a1b",
+      "title": "南诏",
+      "year": 635,
+      "status": "年代更正",
+      "note": "本年早于细奴逻蒙舍诏兴起及738年六诏统一；不能以成熟南诏王国的版图和王号倒套。此色块应读为洱海周边诸部的概括，不填一名全境首领。",
+      "people": [],
+      "sources": [
+        "https://zh.wikisource.org/wiki/舊唐書/卷197"
+      ],
+      "finding": "本年早于细奴逻蒙舍诏兴起及738年六诏统一；不能以成熟南诏王国的版图和王号倒套。此色块应读为洱海周边诸部的概括，不填一名全境首领。",
+      "sourceIds": [
+        "south"
+      ],
+      "sourceScope": "人物或制度时点见所列来源；合并色块不等于全境统一管辖。"
+    },
+    {
+      "frameId": "s_tang_a2",
+      "title": "安西都护府（西州）",
+      "year": 640,
+      "status": "任期仍待核",
+      "note": "640年平高昌后始设安西都护府。《文馆词林》巡抚高昌诏可考乔师望为早期守安西都护，但诏书系贞观年中而未标确年，首任次序在考证中亦有谢叔方等记录；本次不把该诏强定为640年全年负责人。",
+      "people": [],
+      "sources": [
+        "https://dcollection.korea.ac.kr/public_resource/pdf/000000268551_20260523204343.pdf"
+      ],
+      "finding": "640年平高昌后始设安西都护府。《文馆词林》巡抚高昌诏可考乔师望为早期守安西都护，但诏书系贞观年中而未标确年，首任次序在考证中亦有谢叔方等记录；本次不把该诏强定为640年全年负责人。",
+      "sourceIds": [
+        "anxi640"
+      ],
+      "sourceScope": "诏书证明早期职衔，未证明任命确年。"
+    },
+    {
+      "frameId": "s_tang_a2",
+      "title": "燕然（安北）都护府",
+      "year": 640,
+      "status": "年代更正",
+      "note": "燕然都护府647年才设；640年不能列燕然或安北都护。图层概括唐对北方诸部的关系，不构成已设该府的证明。",
+      "people": [],
+      "sources": [
+        "https://www.lsdlyj.com.cn/CN/article/downloadArticleFile.do?attachType=PDF&id=53237"
+      ],
+      "finding": "燕然都护府647年才设；640年不能列燕然或安北都护。图层概括唐对北方诸部的关系，不构成已设该府的证明。",
+      "sourceIds": [
+        "li"
+      ],
+      "sourceScope": "人物或制度时点见所列来源；合并色块不等于全境统一管辖。"
+    },
+    {
+      "frameId": "s_tang_a2",
+      "title": "南诏",
+      "year": 640,
+      "status": "年代更正",
+      "note": "本年早于细奴逻蒙舍诏兴起及738年六诏统一；不能以成熟南诏王国的版图和王号倒套。此色块应读为洱海周边诸部的概括，不填一名全境首领。",
+      "people": [],
+      "sources": [
+        "https://zh.wikisource.org/wiki/舊唐書/卷197"
+      ],
+      "finding": "本年早于细奴逻蒙舍诏兴起及738年六诏统一；不能以成熟南诏王国的版图和王号倒套。此色块应读为洱海周边诸部的概括，不填一名全境首领。",
+      "sourceIds": [
+        "south"
+      ],
+      "sourceScope": "人物或制度时点见所列来源；合并色块不等于全境统一管辖。"
+    },
+    {
+      "frameId": "s_tang_a2b",
+      "title": "安西都护府",
+      "year": 648,
+      "status": "已复核",
+      "note": "648年郭孝恪仍以安西都护参与龟兹战役，后在反击中战死；只代表该年先后过程，不表示其全年始终在任。",
+      "people": [
+        {
+          "name": "郭孝恪",
+          "title": "安西都护"
+        }
+      ],
+      "sources": [
+        "https://zh.wikisource.org/wiki/舊唐書/卷83"
+      ],
+      "finding": "648年郭孝恪仍以安西都护参与龟兹战役，后在反击中战死；只代表该年先后过程，不表示其全年始终在任。",
+      "sourceIds": [
+        "guo"
+      ],
+      "sourceScope": "人物或制度时点见所列来源；合并色块不等于全境统一管辖。"
+    },
+    {
+      "frameId": "s_tang_a2b",
+      "title": "燕然（安北）都护府",
+      "year": 648,
+      "status": "已复核",
+      "note": "648年为燕然都护府初设阶段，李素立为首任都护；其本传称瀚海属于后名追记，不应据此把安北名称提前。",
+      "people": [
+        {
+          "name": "李素立",
+          "title": "燕然都护"
+        }
+      ],
+      "sources": [
+        "https://www.lsdlyj.com.cn/CN/article/downloadArticleFile.do?attachType=PDF&id=53237"
+      ],
+      "finding": "648年为燕然都护府初设阶段，李素立为首任都护；其本传称瀚海属于后名追记，不应据此把安北名称提前。",
+      "sourceIds": [
+        "li"
+      ],
+      "sourceScope": "人物或制度时点见所列来源；合并色块不等于全境统一管辖。"
+    },
+    {
+      "frameId": "s_tang_a3",
+      "title": "安西都护府",
+      "year": 657,
+      "status": "已复核",
+      "note": "麴智湛任安西都护并兼西州刺史，显庆三年（658）转为西州都督。657年尚属这段任期；龟兹四镇初设与迁府年份另有考证。",
+      "people": [
+        {
+          "name": "麴智湛",
+          "title": "安西都护、西州刺史"
+        }
+      ],
+      "sources": [
+        "https://upload.wikimedia.org/wikipedia/commons/a/ab/NLC892-411999030634-10260_%E5%86%8A%E5%BA%9C%E5%85%83%E9%BE%9C_%E7%AC%AC299%E5%86%8A.pdf"
+      ],
+      "finding": "麴智湛任安西都护并兼西州刺史，显庆三年（658）转为西州都督。657年尚属这段任期；龟兹四镇初设与迁府年份另有考证。",
+      "sourceIds": [
+        "qu"
+      ],
+      "sourceScope": "人物或制度时点见所列来源；合并色块不等于全境统一管辖。"
+    },
+    {
+      "frameId": "s_tang_a3",
+      "title": "昆陵 · 濛池都护府",
+      "year": 657,
+      "status": "已复核",
+      "note": "657年平贺鲁后分设二府，由不同突厥首领统辖五咄陆、五弩失毕；二府合并色块不是一个共同可汗。",
+      "people": [
+        {
+          "name": "阿史那弥射",
+          "title": "昆陵都护、兴昔亡可汗"
+        },
+        {
+          "name": "阿史那步真",
+          "title": "濛池都护、继往绝可汗"
+        }
+      ],
+      "sources": [
+        "https://zh.wikisource.org/wiki/資治通鑑/卷200",
+        "https://zh.wikisource.org/wiki/新唐書/卷215下"
+      ],
+      "finding": "657年平贺鲁后分设二府，由不同突厥首领统辖五咄陆、五弩失毕；二府合并色块不是一个共同可汗。",
+      "sourceIds": [
+        "tong200",
+        "turk"
+      ],
+      "sourceScope": "人物或制度时点见所列来源；合并色块不等于全境统一管辖。"
+    },
+    {
+      "frameId": "s_tang_a3",
+      "title": "安北都护府",
+      "year": 657,
+      "status": "已复核",
+      "note": "657年任雅相的实称为燕然都护，《通鉴》记其随苏定方出征；安北为669年以后名称。",
+      "people": [
+        {
+          "name": "任雅相",
+          "title": "燕然都护"
+        }
+      ],
+      "sources": [
+        "https://zh.wikisource.org/wiki/資治通鑑/卷200",
+        "https://www.lsdlyj.com.cn/CN/article/downloadArticleFile.do?attachType=PDF&id=53237"
+      ],
+      "finding": "657年任雅相的实称为燕然都护，《通鉴》记其随苏定方出征；安北为669年以后名称。",
+      "sourceIds": [
+        "li",
+        "tong200"
+      ],
+      "sourceScope": "人物或制度时点见所列来源；合并色块不等于全境统一管辖。"
+    },
+    {
+      "frameId": "s_tang_a4",
+      "title": "安西都护府",
+      "year": 668,
+      "status": "任期仍待核",
+      "note": "已查都护承接与陶瓒、陶大有碑铭考证。通行表把667—669年归于陶大有，但其史传缺载，陶氏父子的接任年不够确定；本次不将推断当作668年定案。",
+      "people": [],
+      "sources": [
+        "https://www.zgjh999.com/uploadfile/file/zhdyxiyu/TSYXYWH.pdf"
+      ],
+      "finding": "已查都护承接与陶瓒、陶大有碑铭考证。通行表把667—669年归于陶大有，但其史传缺载，陶氏父子的接任年不够确定；本次不将推断当作668年定案。",
+      "sourceIds": [
+        "researchAnxi"
+      ],
+      "sourceScope": "来源用于制度、候选人物或前后时点核查，未证明本年具体首长。"
+    },
+    {
+      "frameId": "s_tang_a4",
+      "title": "昆陵 · 濛池都护府",
+      "year": 668,
+      "status": "多中心／非单一首领",
+      "note": "弥射662年被杀，步真乾封年间死；二府旧部进入权力重组，不能把657年的两位首领延用到668年。元庆、斛瑟罗袭职在更晚阶段；本年不强列一位全境首领。",
+      "people": [],
+      "sources": [
+        "https://zh.wikisource.org/wiki/新唐書/卷215下"
+      ],
+      "finding": "弥射662年被杀，步真乾封年间死；二府旧部进入权力重组，不能把657年的两位首领延用到668年。元庆、斛瑟罗袭职在更晚阶段；本年不强列一位全境首领。",
+      "sourceIds": [
+        "turk"
+      ],
+      "sourceScope": "人物或制度时点见所列来源；合并色块不等于全境统一管辖。"
+    },
+    {
+      "frameId": "s_tang_a4",
+      "title": "安北都护府",
+      "year": 668,
+      "status": "年代更正",
+      "note": "668年按后来的安北沿革应称瀚海都护府，669年才改安北。已查姜简、任雅相、刘审礼等前任记录，未得到能明确对应668年的直接长官任命。",
+      "people": [],
+      "sources": [
+        "https://www.lsdlyj.com.cn/CN/article/downloadArticleFile.do?attachType=PDF&id=53237"
+      ],
+      "finding": "668年按后来的安北沿革应称瀚海都护府，669年才改安北。已查姜简、任雅相、刘审礼等前任记录，未得到能明确对应668年的直接长官任命。",
+      "sourceIds": [
+        "li"
+      ],
+      "sourceScope": "人物或制度时点见所列来源；合并色块不等于全境统一管辖。"
+    },
+    {
+      "frameId": "s_tang_a4",
+      "title": "安东都护府",
+      "year": 668,
+      "status": "任期仍待核",
+      "note": "668年初设安东。旧史可考薛仁贵参与平壤驻守并检校安东都护，另有魏哲墓志补证初任次序；年内接任与精确年仍需合校墓志，不直接把整个668年统一给一人。",
+      "people": [],
+      "sources": [
+        "https://db.history.go.kr/ancient/level.do?levelId=ko_038_1100_0060"
+      ],
+      "finding": "668年初设安东。旧史可考薛仁贵参与平壤驻守并检校安东都护，另有魏哲墓志补证初任次序；年内接任与精确年仍需合校墓志，不直接把整个668年统一给一人。",
+      "sourceIds": [
+        "andong"
+      ],
+      "sourceScope": "来源用于制度、候选人物或前后时点核查，未证明本年具体首长。"
+    },
+    {
+      "frameId": "s_tang_a",
+      "title": "安东都护府",
+      "year": 676,
+      "status": "任期仍待核",
+      "note": "676年迁府辽东，史料并附670/676迁府时点考异。高侃、李谨行分别涉及征讨与安东镇抚，不能只据率军记载推定谁为全年直接都护；保留具体官职任期待核。",
+      "people": [],
+      "sources": [
+        "https://db.history.go.kr/ancient/level.do?levelId=ko_038_1100_0060"
+      ],
+      "finding": "676年迁府辽东，史料并附670/676迁府时点考异。高侃、李谨行分别涉及征讨与安东镇抚，不能只据率军记载推定谁为全年直接都护；保留具体官职任期待核。",
+      "sourceIds": [
+        "andong"
+      ],
+      "sourceScope": "来源用于制度、候选人物或前后时点核查，未证明本年具体首长。"
+    },
+    {
+      "frameId": "s_tang_a",
+      "title": "安西都护府",
+      "year": 676,
+      "status": "任期仍待核",
+      "note": "已核杜怀宝、崔智辩及王方翼前后承接。杜怀宝在679年前后转庭州、王方翼继任有史传依据，但不足据此确认676年全年官署负责人；不把后来的王方翼提前。",
+      "people": [],
+      "sources": [
+        "https://www.zgjh999.com/uploadfile/file/zhdyxiyu/TSYXYWH.pdf"
+      ],
+      "finding": "已核杜怀宝、崔智辩及王方翼前后承接。杜怀宝在679年前后转庭州、王方翼继任有史传依据，但不足据此确认676年全年官署负责人；不把后来的王方翼提前。",
+      "sourceIds": [
+        "researchAnxi"
+      ],
+      "sourceScope": "来源用于制度、候选人物或前后时点核查，未证明本年具体首长。"
+    },
+    {
+      "frameId": "s_tang_a5",
+      "title": "安西都护府",
+      "year": 702,
+      "status": "已复核",
+      "note": "据《旧唐书》龟兹传及学术注释，田扬名在武周时期任安西都护（注释任期698—704）。本条只对应702年参考年，不沿用至714年。",
+      "people": [
+        {
+          "name": "田扬名",
+          "title": "安西都护"
+        }
+      ],
+      "sources": [
+        "https://contents.nahf.or.kr/id/NAHF.jo.k_0016_0198_0060_0040"
+      ],
+      "finding": "据《旧唐书》龟兹传及学术注释，田扬名在武周时期任安西都护（注释任期698—704）。本条只对应702年参考年，不沿用至714年。",
+      "sourceIds": [
+        "tian"
+      ],
+      "sourceScope": "人物或制度时点见所列来源；合并色块不等于全境统一管辖。"
+    },
+    {
+      "frameId": "s_tang_a5",
+      "title": "北庭都护府",
+      "year": 702,
+      "status": "任期仍待核",
+      "note": "702年末新置北庭；《新唐书》解琬传可确认其为早期北庭都护、西域安抚使，但未给出精确任命年月，不能由武周末年任职倒定他已在702年全年负责。",
+      "people": [],
+      "sources": [
+        "https://zh.wikisource.org/wiki/新唐書/卷130"
+      ],
+      "finding": "702年末新置北庭；《新唐书》解琬传可确认其为早期北庭都护、西域安抚使，但未给出精确任命年月，不能由武周末年任职倒定他已在702年全年负责。",
+      "sourceIds": [
+        "jie"
+      ],
+      "sourceScope": "来源用于制度、候选人物或前后时点核查，未证明本年具体首长。"
+    },
+    {
+      "frameId": "s_tang_b0a",
+      "title": "安西都护府",
+      "year": 755,
+      "status": "已复核",
+      "note": "755年封常清为安西节度并曾权知北庭，年末召入朝应对安史之乱。军政任命和当地留后要区分，本条不把其内地作战时期说成仍在当地。",
+      "people": [
+        {
+          "name": "封常清",
+          "title": "安西副大都护、四镇节度使"
+        }
+      ],
+      "sources": [
+        "https://zh.wikisource.org/wiki/舊唐書/卷104"
+      ],
+      "finding": "755年封常清为安西节度并曾权知北庭，年末召入朝应对安史之乱。军政任命和当地留后要区分，本条不把其内地作战时期说成仍在当地。",
+      "sourceIds": [
+        "feng"
+      ],
+      "sourceScope": "人物或制度时点见所列来源；合并色块不等于全境统一管辖。"
+    },
+    {
+      "frameId": "s_tang_b0a",
+      "title": "北庭都护府",
+      "year": 755,
+      "status": "已复核",
+      "note": "755年封常清为安西节度并曾权知北庭，年末召入朝应对安史之乱。军政任命和当地留后要区分，本条不把其内地作战时期说成仍在当地。",
+      "people": [
+        {
+          "name": "封常清",
+          "title": "权知北庭都护、伊西节度使"
+        }
+      ],
+      "sources": [
+        "https://zh.wikisource.org/wiki/舊唐書/卷104"
+      ],
+      "finding": "755年封常清为安西节度并曾权知北庭，年末召入朝应对安史之乱。军政任命和当地留后要区分，本条不把其内地作战时期说成仍在当地。",
+      "sourceIds": [
+        "feng"
+      ],
+      "sourceScope": "人物或制度时点见所列来源；合并色块不等于全境统一管辖。"
+    },
+    {
+      "frameId": "s_tang_b0b",
+      "title": "安西都护府",
+      "year": 757,
+      "status": "任期仍待核",
+      "note": "已复核安史之乱后四镇、北庭地方留守与内地行营的区别。李嗣业、荔非元礼、马璘等有行营或遥领职衔，不能因此充作该年当地实际长官；郭昕、李元忠明确的781年授职也不能倒推本年。具体本地留守任期仍缺确证。",
+      "people": [],
+      "sources": [
+        "https://www.zgjh999.com/uploadfile/file/zhdyxiyu/TSYXYWH.pdf"
+      ],
+      "finding": "已复核安史之乱后四镇、北庭地方留守与内地行营的区别。李嗣业、荔非元礼、马璘等有行营或遥领职衔，不能因此充作该年当地实际长官；郭昕、李元忠明确的781年授职也不能倒推本年。具体本地留守任期仍缺确证。",
+      "sourceIds": [
+        "researchAnxi"
+      ],
+      "sourceScope": "来源用于制度、候选人物或前后时点核查，未证明本年具体首长。"
+    },
+    {
+      "frameId": "s_tang_b0b",
+      "title": "北庭都护府",
+      "year": 757,
+      "status": "任期仍待核",
+      "note": "已复核安史之乱后四镇、北庭地方留守与内地行营的区别。李嗣业、荔非元礼、马璘等有行营或遥领职衔，不能因此充作该年当地实际长官；郭昕、李元忠明确的781年授职也不能倒推本年。具体本地留守任期仍缺确证。",
+      "people": [],
+      "sources": [
+        "https://www.zgjh999.com/uploadfile/file/zhdyxiyu/TSYXYWH.pdf"
+      ],
+      "finding": "已复核安史之乱后四镇、北庭地方留守与内地行营的区别。李嗣业、荔非元礼、马璘等有行营或遥领职衔，不能因此充作该年当地实际长官；郭昕、李元忠明确的781年授职也不能倒推本年。具体本地留守任期仍缺确证。",
+      "sourceIds": [
+        "researchAnxi"
+      ],
+      "sourceScope": "来源用于制度、候选人物或前后时点核查，未证明本年具体首长。"
+    },
+    {
+      "frameId": "s_tang_b0",
+      "title": "安西都护府",
+      "year": 763,
+      "status": "任期仍待核",
+      "note": "已复核安史之乱后四镇、北庭地方留守与内地行营的区别。李嗣业、荔非元礼、马璘等有行营或遥领职衔，不能因此充作该年当地实际长官；郭昕、李元忠明确的781年授职也不能倒推本年。具体本地留守任期仍缺确证。",
+      "people": [],
+      "sources": [
+        "https://www.zgjh999.com/uploadfile/file/zhdyxiyu/TSYXYWH.pdf"
+      ],
+      "finding": "已复核安史之乱后四镇、北庭地方留守与内地行营的区别。李嗣业、荔非元礼、马璘等有行营或遥领职衔，不能因此充作该年当地实际长官；郭昕、李元忠明确的781年授职也不能倒推本年。具体本地留守任期仍缺确证。",
+      "sourceIds": [
+        "researchAnxi"
+      ],
+      "sourceScope": "来源用于制度、候选人物或前后时点核查，未证明本年具体首长。"
+    },
+    {
+      "frameId": "s_tang_b0",
+      "title": "北庭都护府",
+      "year": 763,
+      "status": "任期仍待核",
+      "note": "已复核安史之乱后四镇、北庭地方留守与内地行营的区别。李嗣业、荔非元礼、马璘等有行营或遥领职衔，不能因此充作该年当地实际长官；郭昕、李元忠明确的781年授职也不能倒推本年。具体本地留守任期仍缺确证。",
+      "people": [],
+      "sources": [
+        "https://www.zgjh999.com/uploadfile/file/zhdyxiyu/TSYXYWH.pdf"
+      ],
+      "finding": "已复核安史之乱后四镇、北庭地方留守与内地行营的区别。李嗣业、荔非元礼、马璘等有行营或遥领职衔，不能因此充作该年当地实际长官；郭昕、李元忠明确的781年授职也不能倒推本年。具体本地留守任期仍缺确证。",
+      "sourceIds": [
+        "researchAnxi"
+      ],
+      "sourceScope": "来源用于制度、候选人物或前后时点核查，未证明本年具体首长。"
+    },
+    {
+      "frameId": "s_tang_b1",
+      "title": "安西都护府（孤悬坚守）",
+      "year": 764,
+      "status": "任期仍待核",
+      "note": "已复核安史之乱后四镇、北庭地方留守与内地行营的区别。李嗣业、荔非元礼、马璘等有行营或遥领职衔，不能因此充作该年当地实际长官；郭昕、李元忠明确的781年授职也不能倒推本年。具体本地留守任期仍缺确证。",
+      "people": [],
+      "sources": [
+        "https://www.zgjh999.com/uploadfile/file/zhdyxiyu/TSYXYWH.pdf"
+      ],
+      "finding": "已复核安史之乱后四镇、北庭地方留守与内地行营的区别。李嗣业、荔非元礼、马璘等有行营或遥领职衔，不能因此充作该年当地实际长官；郭昕、李元忠明确的781年授职也不能倒推本年。具体本地留守任期仍缺确证。",
+      "sourceIds": [
+        "researchAnxi"
+      ],
+      "sourceScope": "来源用于制度、候选人物或前后时点核查，未证明本年具体首长。"
+    },
+    {
+      "frameId": "s_tang_b1",
+      "title": "北庭都护府（孤悬坚守）",
+      "year": 764,
+      "status": "任期仍待核",
+      "note": "已复核安史之乱后四镇、北庭地方留守与内地行营的区别。李嗣业、荔非元礼、马璘等有行营或遥领职衔，不能因此充作该年当地实际长官；郭昕、李元忠明确的781年授职也不能倒推本年。具体本地留守任期仍缺确证。",
+      "people": [],
+      "sources": [
+        "https://www.zgjh999.com/uploadfile/file/zhdyxiyu/TSYXYWH.pdf"
+      ],
+      "finding": "已复核安史之乱后四镇、北庭地方留守与内地行营的区别。李嗣业、荔非元礼、马璘等有行营或遥领职衔，不能因此充作该年当地实际长官；郭昕、李元忠明确的781年授职也不能倒推本年。具体本地留守任期仍缺确证。",
+      "sourceIds": [
+        "researchAnxi"
+      ],
+      "sourceScope": "来源用于制度、候选人物或前后时点核查，未证明本年具体首长。"
+    },
+    {
+      "frameId": "s_tang_c",
+      "title": "吐蕃",
+      "year": 848,
+      "status": "多中心／非单一首领",
+      "note": "842年以后王朝中央崩解，各地出现不同王系、部族和军政集团。848年不应把整个原帝国色块当作一个统一赞普的实际控制区；本年各地首领需要按区域分别重建，不能选一人代表全境。",
+      "people": [],
+      "sources": [
+        "https://www.tibetology.ac.cn/2024-11/06/content_42956734.htm"
+      ],
+      "finding": "842年以后王朝中央崩解，各地出现不同王系、部族和军政集团。848年不应把整个原帝国色块当作一个统一赞普的实际控制区；本年各地首领需要按区域分别重建，不能选一人代表全境。",
+      "sourceIds": [
+        "xizang848"
+      ],
+      "sourceScope": "人物或制度时点见所列来源；合并色块不等于全境统一管辖。"
+    },
+    {
+      "frameId": "s_yuan_a",
+      "title": "吐蕃（总制院辖）",
+      "year": 1279,
+      "status": "多中心／非单一首领",
+      "note": "1279年八思巴仍为萨迦重要政教领袖；元廷帝师、本钦及各万户的职权分别存在。这里只列八思巴的可考身份，不把他直接标为整个元辖西藏唯一实际统治者；本年本钦任期仍需专门校勘。",
+      "people": [
+        {
+          "name": "八思巴",
+          "title": "萨迦政教领袖（非唯一地方首长）"
+        }
+      ],
+      "sources": [
+        "https://www.tibetology.ac.cn/2024-11/06/content_42956734.htm",
+        "https://www.tibetology.ac.cn/2020-09/18/content_41699262.htm"
+      ],
+      "finding": "1279年八思巴仍为萨迦重要政教领袖；元廷帝师、本钦及各万户的职权分别存在。这里只列八思巴的可考身份，不把他直接标为整个元辖西藏唯一实际统治者；本年本钦任期仍需专门校勘。",
+      "sourceIds": [
+        "xizang848",
+        "yuanAdmin"
+      ],
+      "sourceScope": "人物或制度时点见所列来源；合并色块不等于全境统一管辖。"
+    },
+    {
+      "frameId": "s_ming_a",
+      "title": "交趾布政司（1407—1427）",
+      "year": 1407,
+      "status": "已复核",
+      "note": "1407年置交趾布政司，黄福以尚书掌布政、按察二司事；军事方面另有张辅等，不以永乐帝替代地方直接负责人。",
+      "people": [
+        {
+          "name": "黄福",
+          "title": "掌交趾布政、按察二司事"
+        }
+      ],
+      "sources": [
+        "https://shandong-chorography.org/database/f063/section/26/article/74/"
+      ],
+      "finding": "1407年置交趾布政司，黄福以尚书掌布政、按察二司事；军事方面另有张辅等，不以永乐帝替代地方直接负责人。",
+      "sourceIds": [
+        "huang"
+      ],
+      "sourceScope": "人物或制度时点见所列来源；合并色块不等于全境统一管辖。"
+    },
+    {
+      "frameId": "s_ming_a",
+      "title": "哈密卫（关西七卫）",
+      "year": 1407,
+      "status": "多中心／非单一首领",
+      "note": "1407年哈密核心由忠顺王脱脱领众，另有马哈麻火者等卫官。关西诸卫各有首领，不存在一个统领七卫的哈密王。",
+      "people": [
+        {
+          "name": "脱脱",
+          "title": "哈密忠顺王（只对应哈密）"
+        }
+      ],
+      "sources": [
+        "https://zh.wikisource.org/wiki/明史/卷329"
+      ],
+      "finding": "1407年哈密核心由忠顺王脱脱领众，另有马哈麻火者等卫官。关西诸卫各有首领，不存在一个统领七卫的哈密王。",
+      "sourceIds": [
+        "hami"
+      ],
+      "sourceScope": "人物或制度时点见所列来源；合并色块不等于全境统一管辖。"
+    },
+    {
+      "frameId": "s_ming_a2",
+      "title": "哈密卫（关西七卫）",
+      "year": 1427,
+      "status": "多中心／非单一首领",
+      "note": "1427年哈密忠顺王为卜答失里；关西诸卫不由其统一统治。后来的忠义王脱欢帖木儿在1428年加封，不提前填为1427年共同首领。",
+      "people": [
+        {
+          "name": "卜答失里",
+          "title": "哈密忠顺王（只对应哈密）"
+        }
+      ],
+      "sources": [
+        "https://zh.wikisource.org/wiki/明史/卷329"
+      ],
+      "finding": "1427年哈密忠顺王为卜答失里；关西诸卫不由其统一统治。后来的忠义王脱欢帖木儿在1428年加封，不提前填为1427年共同首领。",
+      "sourceIds": [
+        "hami"
+      ],
+      "sourceScope": "人物或制度时点见所列来源；合并色块不等于全境统一管辖。"
+    },
+    {
+      "frameId": "s_ming_b0",
+      "title": "哈密卫（关西七卫）",
+      "year": 1449,
+      "status": "多中心／非单一首领",
+      "note": "1449年哈密忠顺王为倒瓦答失里。此人物仅对应哈密核心，不能代表安定、阿端、曲先等关西诸卫的全部长官。",
+      "people": [
+        {
+          "name": "倒瓦答失里",
+          "title": "哈密忠顺王（只对应哈密）"
+        }
+      ],
+      "sources": [
+        "https://zh.wikisource.org/wiki/明史/卷329"
+      ],
+      "finding": "1449年哈密忠顺王为倒瓦答失里。此人物仅对应哈密核心，不能代表安定、阿端、曲先等关西诸卫的全部长官。",
+      "sourceIds": [
+        "hami"
+      ],
+      "sourceScope": "人物或制度时点见所列来源；合并色块不等于全境统一管辖。"
+    },
+    {
+      "frameId": "s_qing_c",
+      "title": "西藏（驻藏大臣）",
+      "year": 1720,
+      "status": "年代更正",
+      "note": "1720年清军驱逐准噶尔及护送格桑嘉措入藏，军事上可考平逆将军延信、定西将军噶尔弼。噶伦新政府1721年形成，驻藏大臣制度在1727年起设；不能给1720年提前放一位驻藏大臣。",
+      "people": [
+        {
+          "name": "延信",
+          "title": "平逆将军（入藏军事负责人）"
+        },
+        {
+          "name": "噶尔弼",
+          "title": "定西将军（南路军负责人）"
+        }
+      ],
+      "sources": [
+        "https://www.tibetology.ac.cn/2025-10/03/content_43243735.htm",
+        "https://www.qinghistory.cn/c/363/363189.shtml"
+      ],
+      "finding": "1720年清军驱逐准噶尔及护送格桑嘉措入藏，军事上可考平逆将军延信、定西将军噶尔弼。噶伦新政府1721年形成，驻藏大臣制度在1727年起设；不能给1720年提前放一位驻藏大臣。",
+      "sourceIds": [
+        "qing1720",
+        "qingSystem"
+      ],
+      "sourceScope": "人物或制度时点见所列来源；合并色块不等于全境统一管辖。"
+    },
+    {
+      "frameId": "s_qing_f0",
+      "title": "伊犁（沙俄侵占）",
+      "year": 1864,
+      "status": "年代更正",
+      "note": "俄军1871年才占伊犁，不能在1864年列一名俄占长官。1864—1866年间有起事、清军驻防与伊犁苏丹政权形成的不同过程；本年各部实际负责人还不能从1871年的政局倒推。",
+      "people": [],
+      "sources": [
+        "https://www.neac.gov.cn/seac/ztzl/wwez/lsyg.shtml"
+      ],
+      "finding": "俄军1871年才占伊犁，不能在1864年列一名俄占长官。1864—1866年间有起事、清军驻防与伊犁苏丹政权形成的不同过程；本年各部实际负责人还不能从1871年的政局倒推。",
+      "sourceIds": [
+        "yili"
+      ],
+      "sourceScope": "人物或制度时点见所列来源；合并色块不等于全境统一管辖。"
+    },
+    {
+      "frameId": "s_qing_g",
+      "title": "威海卫（英租）",
+      "year": 1898,
+      "status": "任期仍待核",
+      "note": "1898年租借后初期为英国海军接管，随后经历军政长官体制，1902年才转文职行政。已排除把后来的骆克哈特直接当作1898年长官；初年具体指挥官与全年交接仍须逐份租借、海军命令查定。",
+      "people": [],
+      "sources": [
+        "https://eprints.soas.ac.uk/28676/1/10672843.pdf"
+      ],
+      "finding": "1898年租借后初期为英国海军接管，随后经历军政长官体制，1902年才转文职行政。已排除把后来的骆克哈特直接当作1898年长官；初年具体指挥官与全年交接仍须逐份租借、海军命令查定。",
+      "sourceIds": [
+        "wei"
+      ],
+      "sourceScope": "来源用于制度、候选人物或前后时点核查，未证明本年具体首长。"
+    },
+    {
+      "frameId": "s_qing_g",
+      "title": "旅大（俄租）",
+      "year": 1898,
+      "status": "任期仍待核",
+      "note": "1898年为俄军租借接管初期，1899年关东州行政与阿列克谢耶夫任命不可提前套用；海军占领指挥、港口司令和后来的区域总督是不同职务，初年直接首长仍需俄国原档确认。",
+      "people": [],
+      "sources": [
+        "https://www.jacar.go.jp/exhibition/glossary/term4/0010-0050-0080.html"
+      ],
+      "finding": "1898年为俄军租借接管初期，1899年关东州行政与阿列克谢耶夫任命不可提前套用；海军占领指挥、港口司令和后来的区域总督是不同职务，初年直接首长仍需俄国原档确认。",
+      "sourceIds": [
+        "kwantungSystem"
+      ],
+      "sourceScope": "来源用于制度、候选人物或前后时点核查，未证明本年具体首长。"
+    },
+    {
+      "frameId": "s_qing_g",
+      "title": "九龙新界（英租）",
+      "year": 1898,
+      "status": "已复核",
+      "note": "1898年新界租约签署时香港政府由Wilsone Black署理，11月卜力接任总督；新界实际接管仪式在1899年。本条按年列交接者，不把1898租约等同于全年已完成新界实际统治。",
+      "people": [
+        {
+          "name": "Wilsone Black",
+          "title": "署理香港总督"
+        },
+        {
+          "name": "卜力（Henry Arthur Blake）",
+          "title": "香港总督（年末接任）"
+        }
+      ],
+      "sources": [
+        "https://digitalrepository.lib.hku.hk/catalog/1544jz99j",
+        "https://www.history.navy.mil/research/publications/documentary-histories/united-states-navy-s/the-battle-of-manila/commodore-george-dew-28.html",
+        "https://www.legco.gov.hk/1898-99/h990824.pdf"
+      ],
+      "finding": "1898年新界租约签署时香港政府由Wilsone Black署理，11月卜力接任总督；新界实际接管仪式在1899年。本条按年列交接者，不把1898租约等同于全年已完成新界实际统治。",
+      "sourceIds": [
+        "hk1898",
+        "hk1898doc",
+        "hkblake"
+      ],
+      "sourceScope": "人物或制度时点见所列来源；合并色块不等于全境统一管辖。"
+    },
+    {
+      "frameId": "qing_1911",
+      "title": "旅大（俄租）",
+      "year": 1911,
+      "status": "年代更正",
+      "note": "1905年日俄战争后旅大租借地转由日本管治，1911年为关东都督府；当年大岛义昌担任关东都督，已不是俄租与俄方长官。",
+      "people": [
+        {
+          "name": "大岛义昌",
+          "title": "日本关东都督"
+        }
+      ],
+      "sources": [
+        "https://www.jacar.archives.go.jp/das/meta/B16080798700",
+        "https://www.jacar.go.jp/exhibition/glossary/term4/0010-0050-0080.html"
+      ],
+      "finding": "1905年日俄战争后旅大租借地转由日本管治，1911年为关东都督府；当年大岛义昌担任关东都督，已不是俄租与俄方长官。",
+      "sourceIds": [
+        "kwantung",
+        "kwantungSystem"
+      ],
+      "sourceScope": "人物或制度时点见所列来源；合并色块不等于全境统一管辖。"
+    },
+    {
+      "frameId": "qing_1911",
+      "title": "九龙新界（英租）",
+      "year": 1911,
+      "status": "已复核",
+      "note": "1911年香港总督为卢押，原始立法局会议记录列明其职衔；这是香港殖民行政最高负责人，不等于新界基层每一地方官。",
+      "people": [
+        {
+          "name": "卢押（Frederick Lugard）",
+          "title": "香港总督"
+        }
+      ],
+      "sources": [
+        "https://www.legco.gov.hk/1911/h110518.pdf"
+      ],
+      "finding": "1911年香港总督为卢押，原始立法局会议记录列明其职衔；这是香港殖民行政最高负责人，不等于新界基层每一地方官。",
+      "sourceIds": [
+        "hk1911"
+      ],
+      "sourceScope": "人物或制度时点见所列来源；合并色块不等于全境统一管辖。"
+    }
+  ],
+  "displayCorrections": [
+    {
+      "frameId": "s_donghan_c",
+      "originalTitle": "西域都护（伊吾·南道）",
+      "correctedTitle": "伊吾屯田（汉）",
+      "note": "73年尚未恢复西域都护，74年始复置。"
+    },
+    {
+      "frameId": "s_tang_0",
+      "originalTitle": "南诏",
+      "correctedTitle": "洱海诸部（南诏前身）",
+      "note": "649年前不能称成熟南诏王国，六诏统一更在738年。"
+    },
+    {
+      "frameId": "s_tang_a0",
+      "originalTitle": "南诏",
+      "correctedTitle": "洱海诸部（南诏前身）",
+      "note": "649年前不能称成熟南诏王国，六诏统一更在738年。"
+    },
+    {
+      "frameId": "s_tang_a1",
+      "originalTitle": "南诏",
+      "correctedTitle": "洱海诸部（南诏前身）",
+      "note": "649年前不能称成熟南诏王国，六诏统一更在738年。"
+    },
+    {
+      "frameId": "s_tang_a1b",
+      "originalTitle": "南诏",
+      "correctedTitle": "洱海诸部（南诏前身）",
+      "note": "649年前不能称成熟南诏王国，六诏统一更在738年。"
+    },
+    {
+      "frameId": "s_tang_a2",
+      "originalTitle": "南诏",
+      "correctedTitle": "洱海诸部（南诏前身）",
+      "note": "649年前不能称成熟南诏王国，六诏统一更在738年。"
+    },
+    {
+      "frameId": "s_tang_a2",
+      "originalTitle": "燕然（安北）都护府",
+      "correctedTitle": "北方羁縻诸部（唐）",
+      "note": "燕然647年置，安北669年改名；640年不应提前使用都护府名称。"
+    },
+    {
+      "frameId": "s_tang_a2b",
+      "originalTitle": "燕然（安北）都护府",
+      "correctedTitle": "燕然都护府",
+      "note": "648年尚不称安北。"
+    },
+    {
+      "frameId": "s_tang_a3",
+      "originalTitle": "安北都护府",
+      "correctedTitle": "燕然都护府",
+      "note": "657年尚未改称安北。"
+    },
+    {
+      "frameId": "s_tang_a4",
+      "originalTitle": "安北都护府",
+      "correctedTitle": "瀚海都护府",
+      "note": "安北改名在669年。"
+    },
+    {
+      "frameId": "s_qing_c",
+      "originalTitle": "西藏（驻藏大臣）",
+      "correctedTitle": "西藏（清军入藏）",
+      "note": "1720年尚未设驻藏大臣，分辨军政与宗教地位。"
+    },
+    {
+      "frameId": "s_qing_f0",
+      "originalTitle": "伊犁（沙俄侵占）",
+      "correctedTitle": "伊犁（动荡时期）",
+      "note": "俄军侵占始1871，1864参考年不可称俄占。"
+    },
+    {
+      "frameId": "qing_1911",
+      "originalTitle": "旅大（俄租）",
+      "correctedTitle": "旅大（日租）",
+      "note": "1905年后转日本管治；1911年不可沿用俄租。"
+    }
+  ],
+  "annualAdditions": [
+    {
+      "polity": "北庭都护府",
+      "name": "郭虔瓘",
+      "title": "北庭都护、瀚海军经略使",
+      "from": 714,
+      "to": 714,
+      "role": "ruler",
+      "sources": [
+        "https://zh.wikisource.org/wiki/舊唐書/卷103",
+        "https://www.his.ntnu.edu.tw/publish01/downloadfile.php?issue_id=26&paper_id=147&periodicalsPage=4"
+      ],
+      "note": "本年春北庭守城有原典与出土勋告双重依据；不扩展未经确认的起讫。"
+    },
+    {
+      "polity": "安西都护府",
+      "name": "田扬名",
+      "title": "安西都护",
+      "from": 698,
+      "to": 704,
+      "role": "ruler",
+      "sources": [
+        "https://contents.nahf.or.kr/id/NAHF.jo.k_0016_0198_0060_0040"
+      ],
+      "note": "学术注释任期，不自动沿用至714年。"
+    },
+    {
+      "polity": "交趾布政司（1407—1427）",
+      "name": "黄福",
+      "title": "掌交趾布政、按察二司事",
+      "from": 1407,
+      "to": 1424,
+      "role": "ruler",
+      "sources": [
+        "https://shandong-chorography.org/database/f063/section/26/article/74/"
+      ],
+      "note": "1407任命，仁宗即位后召还；1427再赴交趾另段处理。"
+    },
+    {
+      "polity": "旅大（日租）",
+      "name": "大岛义昌",
+      "title": "关东都督",
+      "from": 1911,
+      "to": 1911,
+      "role": "ruler",
+      "sources": [
+        "https://www.jacar.archives.go.jp/das/meta/B16080798700"
+      ],
+      "note": "1911原档明确在任；原atlas键仍为旅大（俄租），显示层需纠正。"
+    },
+    {
+      "polity": "九龙新界（英租）",
+      "name": "卢押（Frederick Lugard）",
+      "title": "香港总督",
+      "from": 1911,
+      "to": 1911,
+      "role": "ruler",
+      "sources": [
+        "https://www.legco.gov.hk/1911/h110518.pdf"
+      ],
+      "note": "1911立法局原始会议记录确证。"
+    }
+  ],
+  "summary": {
+    "reviewed": 43,
+    "withNamedPeople": 18,
+    "remainingExactTenureUnresolved": 14,
+    "chronologicalCorrections": 13
+  }
+}

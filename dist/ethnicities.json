@@ -1,0 +1,1885 @@
+{
+  "秦": {
+    "label": "华夏（秦人）",
+    "clan": "嬴姓赵氏王室",
+    "note": "秦属于先秦华夏诸国的历史语境。“汉人”作为后世族群称谓不宜直接前移套用；秦境内也有巴、蜀、越等不同人群。",
+    "sources": [],
+    "status": "通行概括",
+    "short": "华夏"
+  },
+  "南越（赵佗）": {
+    "label": "中原移民＋越人",
+    "clan": "赵氏；赵佗出自秦地南下军政集团",
+    "note": "统治者赵佗来自今河北一带，王国融合南下移民与岭南越人，不能把整个南越国只标成汉族或只标成越族。",
+    "sources": [],
+    "status": "通行概括",
+    "short": "中原移民＋越人"
+  },
+  "闽越": {
+    "label": "闽越人",
+    "clan": "驺氏地方王族",
+    "note": "“闽越”属于古代越人诸群的历史称谓，与今天具体民族不能简单一一对应。",
+    "sources": [],
+    "status": "通行概括",
+    "short": "闽越人"
+  },
+  "交趾（二征起兵）": {
+    "label": "雒越等当地人群",
+    "clan": "征侧、征贰领导的交趾地方势力",
+    "note": "以古代交趾当地人群为基础，是越南历史上的二征起义；这里不将现代京族身份直接投射至公元一世纪。",
+    "sources": [],
+    "status": "历史族称",
+    "short": "雒越等当地人群"
+  },
+  "汉赵": {
+    "label": "匈奴",
+    "clan": "刘氏，南匈奴上层集团",
+    "note": "刘渊、刘聪、刘曜等出自南匈奴背景，统治和军政组织也吸纳汉人及其他人群。",
+    "sources": [
+      "https://www.cambridge.org/core/books/abs/cambridge-history-of-china/sixteen-kingdoms/EFA116423191EA9A0895B1BCEDD6B063"
+    ],
+    "status": "通行概括",
+    "short": "匈奴"
+  },
+  "前赵": {
+    "label": "匈奴",
+    "clan": "刘氏，南匈奴上层集团",
+    "note": "刘渊、刘聪、刘曜等出自南匈奴背景，统治和军政组织也吸纳汉人及其他人群。",
+    "sources": [
+      "https://www.cambridge.org/core/books/abs/cambridge-history-of-china/sixteen-kingdoms/EFA116423191EA9A0895B1BCEDD6B063"
+    ],
+    "status": "通行概括",
+    "short": "匈奴"
+  },
+  "南匈奴（内附）": {
+    "label": "南匈奴",
+    "clan": "内附单于与部落上层",
+    "note": "为内附东汉的匈奴诸部，政治归附不等于族群身份与境内人口完全同质。",
+    "sources": [],
+    "status": "通行概括",
+    "short": "南匈奴"
+  },
+  "成汉": {
+    "label": "巴氐背景（有争议）",
+    "clan": "李氏流民军政集团",
+    "note": "李特、李雄家族通常联系于巴氐背景；其源流与巴人、氐人的关系存在讨论，不能直接等同于某个现代民族。",
+    "sources": [
+      "https://toaj.stpi.niar.org.tw/index/journal/volume/article/4b1141f9945f2ac801946e2f2ab7071f"
+    ],
+    "status": "族源有讨论",
+    "short": "巴氐背景"
+  },
+  "后赵": {
+    "label": "羯",
+    "clan": "石氏；石勒、石虎集团",
+    "note": "石勒出身羯人集团；其族源、语言与现代民族的对应关系存在争论，不能直接等同于现代某一民族。",
+    "sources": [
+      "https://www.cambridge.org/core/books/abs/cambridge-history-of-china/sixteen-kingdoms/EFA116423191EA9A0895B1BCEDD6B063"
+    ],
+    "status": "通行概括",
+    "short": "羯"
+  },
+  "前秦": {
+    "label": "氐",
+    "clan": "苻氏",
+    "note": "苻氏为氐人背景；前秦的军政体系和统治人口包括多个族群。",
+    "sources": [
+      "https://www.cambridge.org/core/books/abs/cambridge-history-of-china/sixteen-kingdoms/EFA116423191EA9A0895B1BCEDD6B063"
+    ],
+    "status": "通行概括",
+    "short": "氐"
+  },
+  "前秦（苻坚一统北方）": {
+    "label": "氐",
+    "clan": "苻氏",
+    "note": "苻氏为氐人背景；前秦的军政体系和统治人口包括多个族群。",
+    "sources": [
+      "https://www.cambridge.org/core/books/abs/cambridge-history-of-china/sixteen-kingdoms/EFA116423191EA9A0895B1BCEDD6B063"
+    ],
+    "status": "通行概括",
+    "short": "氐"
+  },
+  "后凉": {
+    "label": "氐",
+    "clan": "吕氏",
+    "note": "吕光家族为氐人背景；河西境内还有汉人、鲜卑及其他族群。",
+    "sources": [
+      "https://www.cambridge.org/core/books/abs/cambridge-history-of-china/sixteen-kingdoms/EFA116423191EA9A0895B1BCEDD6B063"
+    ],
+    "status": "通行概括",
+    "short": "氐"
+  },
+  "前燕": {
+    "label": "鲜卑",
+    "clan": "慕容氏",
+    "note": "慕容鲜卑王族建立或延续的政权，吸纳不同地域和族群的军民，不表示辖境居民皆为鲜卑。",
+    "sources": [
+      "https://www.cambridge.org/core/books/abs/cambridge-history-of-china/sixteen-kingdoms/EFA116423191EA9A0895B1BCEDD6B063"
+    ],
+    "status": "通行概括",
+    "short": "鲜卑"
+  },
+  "后燕": {
+    "label": "鲜卑",
+    "clan": "慕容氏",
+    "note": "慕容鲜卑王族建立或延续的政权，吸纳不同地域和族群的军民，不表示辖境居民皆为鲜卑。",
+    "sources": [
+      "https://www.cambridge.org/core/books/abs/cambridge-history-of-china/sixteen-kingdoms/EFA116423191EA9A0895B1BCEDD6B063"
+    ],
+    "status": "通行概括",
+    "short": "鲜卑"
+  },
+  "南燕": {
+    "label": "鲜卑",
+    "clan": "慕容氏",
+    "note": "慕容鲜卑王族建立或延续的政权，吸纳不同地域和族群的军民，不表示辖境居民皆为鲜卑。",
+    "sources": [
+      "https://www.cambridge.org/core/books/abs/cambridge-history-of-china/sixteen-kingdoms/EFA116423191EA9A0895B1BCEDD6B063"
+    ],
+    "status": "通行概括",
+    "short": "鲜卑"
+  },
+  "代": {
+    "label": "鲜卑",
+    "clan": "拓跋氏；北魏后改元氏",
+    "note": "王室出自拓跋鲜卑。北魏孝文帝改革与长期通婚、迁徙推动身份变化；“鲜卑”不是今日民族名录中的单一对应项。",
+    "sources": [
+      "https://www.cambridge.org/core/books/abs/cambridge-history-of-china/northern-wei/44687DABD9B387BEB77442A1559AB8FD"
+    ],
+    "status": "通行概括",
+    "short": "鲜卑"
+  },
+  "北魏": {
+    "label": "鲜卑",
+    "clan": "拓跋氏；北魏后改元氏",
+    "note": "王室出自拓跋鲜卑。北魏孝文帝改革与长期通婚、迁徙推动身份变化；“鲜卑”不是今日民族名录中的单一对应项。",
+    "sources": [
+      "https://www.cambridge.org/core/books/abs/cambridge-history-of-china/northern-wei/44687DABD9B387BEB77442A1559AB8FD"
+    ],
+    "status": "通行概括",
+    "short": "鲜卑"
+  },
+  "后秦 · 西秦": {
+    "label": "羌／鲜卑（分属两国）",
+    "clan": "后秦姚氏；西秦乞伏氏",
+    "note": "此色块合并了两个政权：后秦的姚氏为羌人背景，西秦的乞伏氏为鲜卑背景。不能把合并区域认作一个民族建立的单一政权。",
+    "sources": [
+      "https://www.cambridge.org/core/books/abs/cambridge-history-of-china/sixteen-kingdoms/EFA116423191EA9A0895B1BCEDD6B063"
+    ],
+    "status": "合并图层",
+    "short": "羌／鲜卑"
+  },
+  "西秦": {
+    "label": "鲜卑",
+    "clan": "乞伏氏",
+    "note": "王族出自乞伏鲜卑，与后秦姚氏的羌人背景不同。",
+    "sources": [
+      "https://www.cambridge.org/core/books/abs/cambridge-history-of-china/sixteen-kingdoms/EFA116423191EA9A0895B1BCEDD6B063"
+    ],
+    "status": "通行概括",
+    "short": "鲜卑"
+  },
+  "北凉": {
+    "label": "卢水胡／汉（分阶段）",
+    "clan": "早期段业；后为沮渠氏",
+    "note": "北凉早期以汉人段业为名义君主，401年后由沮渠氏统治。沮渠氏通常称卢水胡，其与匈奴等人群的关系仍有讨论，不能径直当作单一确定族源。",
+    "sources": [
+      "https://www.cambridge.org/core/books/abs/cambridge-history-of-china/sixteen-kingdoms/EFA116423191EA9A0895B1BCEDD6B063"
+    ],
+    "status": "需看年代",
+    "short": "卢水胡／汉"
+  },
+  "胡夏": {
+    "label": "铁弗匈奴",
+    "clan": "赫连氏；赫连勃勃",
+    "note": "统治集团出自铁弗匈奴背景；国号“夏”不意味着与先秦夏人或现代某民族同一。",
+    "sources": [
+      "https://www.cambridge.org/core/books/abs/cambridge-history-of-china/sixteen-kingdoms/EFA116423191EA9A0895B1BCEDD6B063"
+    ],
+    "status": "通行概括",
+    "short": "铁弗匈奴"
+  },
+  "后燕 · 北燕": {
+    "label": "鲜卑／高句丽背景／汉",
+    "clan": "慕容氏；高云；冯氏，先后更替",
+    "note": "此图层跨后燕、北燕的更替。慕容氏为鲜卑，高云家世联系高句丽背景，冯跋家族通常归为汉人；不能统一贴上“鲜卑”标签。",
+    "sources": [
+      "https://www.cambridge.org/core/books/abs/cambridge-history-of-china/sixteen-kingdoms/EFA116423191EA9A0895B1BCEDD6B063"
+    ],
+    "status": "合并图层",
+    "short": "鲜卑／高句丽背景／汉"
+  },
+  "北燕": {
+    "label": "汉；早期高云有高句丽背景",
+    "clan": "冯氏为主；早期涉及高云",
+    "note": "冯跋、冯弘通常归为汉人背景；高云的归属与北燕起点存在不同划分，标签不代替具体年代考证。",
+    "sources": [
+      "https://www.cambridge.org/core/books/abs/cambridge-history-of-china/sixteen-kingdoms/EFA116423191EA9A0895B1BCEDD6B063"
+    ],
+    "status": "需看年代",
+    "short": "汉；早期高云有高句丽背景"
+  },
+  "东魏": {
+    "label": "鲜卑王室＋高氏军政集团",
+    "clan": "元氏名义皇室；高欢实际掌权",
+    "note": "名义皇帝承袭拓跋鲜卑元氏，实际掌权者为高度鲜卑化的高氏集团；高氏家世族属有讨论。",
+    "sources": [
+      "https://www.cambridge.org/core/books/abs/cambridge-history-of-china/northern-wei/44687DABD9B387BEB77442A1559AB8FD",
+      "https://www.cambridge.org/core/journals/journal-of-chinese-history/article/empress-dowager-lou-the-kingmaker-succession-marriage-identity-and-politics-in-northern-qi-550577/6F3EC16A5AEA78AF2FC390E2779A6DF4"
+    ],
+    "status": "权力结构分层",
+    "short": "鲜卑王室＋高氏军政集团"
+  },
+  "西魏": {
+    "label": "鲜卑王室＋关陇集团",
+    "clan": "元氏皇室；宇文泰实际掌权",
+    "note": "皇室为拓跋鲜卑元氏，宇文氏主导军政，结合鲜卑与汉人等关陇力量。",
+    "sources": [
+      "https://www.cambridge.org/core/books/abs/cambridge-history-of-china/northern-wei/44687DABD9B387BEB77442A1559AB8FD"
+    ],
+    "status": "通行概括",
+    "short": "鲜卑王室＋关陇集团"
+  },
+  "北齐": {
+    "label": "鲜卑化高氏（族源有争议）",
+    "clan": "高氏",
+    "note": "高氏自述渤海高氏家世，常被概括为鲜卑化汉人；学界也有不同族源解释。本页不把汉人或鲜卑任一说法当作无争议定论。",
+    "sources": [
+      "https://www.cambridge.org/core/journals/journal-of-chinese-history/article/empress-dowager-lou-the-kingmaker-succession-marriage-identity-and-politics-in-northern-qi-550577/6F3EC16A5AEA78AF2FC390E2779A6DF4"
+    ],
+    "status": "族源有争议",
+    "short": "鲜卑化高氏"
+  },
+  "北周": {
+    "label": "鲜卑（宇文部）",
+    "clan": "宇文氏",
+    "note": "通常以鲜卑宇文氏政权概括，宇文部更早祖源另有讨论；其军政核心也包含汉人等关陇集团。",
+    "sources": [
+      "https://www.cambridge.org/core/books/abs/cambridge-history-of-china/sixteen-kingdoms/EFA116423191EA9A0895B1BCEDD6B063"
+    ],
+    "status": "通行概括",
+    "short": "鲜卑"
+  },
+  "隋": {
+    "label": "汉皇室／胡汉融合背景",
+    "clan": "隋杨氏；唐李氏及关陇军政集团",
+    "note": "通常将杨、李皇室归入汉人家族；其婚姻、成长环境与政治文化深受北朝胡汉融合影响，不能从个别祖先或婚配推出整个政权的单一血统。",
+    "sources": [],
+    "status": "通行概括",
+    "short": "汉"
+  },
+  "唐（李渊）": {
+    "label": "汉皇室／胡汉融合背景",
+    "clan": "隋杨氏；唐李氏及关陇军政集团",
+    "note": "通常将杨、李皇室归入汉人家族；其婚姻、成长环境与政治文化深受北朝胡汉融合影响，不能从个别祖先或婚配推出整个政权的单一血统。",
+    "sources": [],
+    "status": "通行概括",
+    "short": "汉"
+  },
+  "唐": {
+    "label": "汉皇室／胡汉融合背景",
+    "clan": "隋杨氏；唐李氏及关陇军政集团",
+    "note": "通常将杨、李皇室归入汉人家族；其婚姻、成长环境与政治文化深受北朝胡汉融合影响，不能从个别祖先或婚配推出整个政权的单一血统。",
+    "sources": [],
+    "status": "通行概括",
+    "short": "汉"
+  },
+  "唐 · 岐（关中）": {
+    "label": "汉皇室／胡汉融合背景",
+    "clan": "隋杨氏；唐李氏及关陇军政集团",
+    "note": "通常将杨、李皇室归入汉人家族；其婚姻、成长环境与政治文化深受北朝胡汉融合影响，不能从个别祖先或婚配推出整个政权的单一血统。",
+    "sources": [],
+    "status": "通行概括",
+    "short": "汉"
+  },
+  "郑（王世充）": {
+    "label": "西域胡人背景（粟特系说）",
+    "clan": "王世充家族与河西、洛阳军政集团",
+    "note": "王世充家世被联系于西域胡人背景，常有粟特系解释；其军民并不等于这一出身群体。",
+    "sources": [],
+    "status": "家世需辨",
+    "short": "西域胡人背景"
+  },
+  "吐蕃": {
+    "label": "吐蕃人（藏族先民）",
+    "clan": "悉补野王室及高原贵族",
+    "note": "以青藏高原吐蕃人群为政治核心，与现代藏族形成密切相关，但其所统辖地区还包括其他人群。",
+    "sources": [
+      "https://www.neac.gov.cn/seac/ztzl/201806/1066630.shtml"
+    ],
+    "status": "通行概括",
+    "short": "吐蕃人"
+  },
+  "南诏": {
+    "label": "乌蛮、白蛮等",
+    "clan": "蒙氏王室；乌蛮上层与白蛮大姓共同参与",
+    "note": "沿用历史族称。乌蛮、白蛮与彝族、白族等的形成有联系，但不是简单的一对一关系，南诏也不能只标作一个现代民族国家。",
+    "sources": [
+      "https://www.neac.gov.cn/seac/ztzl/bz/lsyg.shtml"
+    ],
+    "status": "历史族称",
+    "short": "乌蛮、白蛮等"
+  },
+  "大理": {
+    "label": "白蛮等（白族先民）",
+    "clan": "段氏王室与地方大姓",
+    "note": "通常联系于白蛮及白族先民；辖境包含多个族群，不意味着所有居民都属于现代白族。",
+    "sources": [
+      "https://www.neac.gov.cn/seac/ztzl/bz/lsyg.shtml"
+    ],
+    "status": "通行概括",
+    "short": "白蛮等"
+  },
+  "大长和": {
+    "label": "汉家世＋滇西地方集团",
+    "clan": "郑氏；郑买嗣",
+    "note": "郑氏通常记述为汉人家世，实际政权扎根滇西乌蛮、白蛮等多族群社会；须区别王室家世与境内人口。",
+    "sources": [
+      "https://www.neac.gov.cn/seac/ztzl/bz/lsyg.shtml"
+    ],
+    "status": "通行概括",
+    "short": "汉家世＋滇西地方集团"
+  },
+  "吐谷浑": {
+    "label": "鲜卑王族＋羌等高原人群",
+    "clan": "慕容鲜卑出身的王族",
+    "note": "王族由慕容鲜卑一支西迁而来，长期与羌等高原人群共同组成政权，不能简单理解为辖境全是鲜卑。",
+    "sources": [
+      "https://lswh.yau.edu.cn/info/1021/1162.htm"
+    ],
+    "status": "通行概括",
+    "short": "鲜卑王族＋羌等高原人群"
+  },
+  "吐谷浑（唐册封诺曷钵）": {
+    "label": "鲜卑王族＋羌等高原人群",
+    "clan": "慕容鲜卑出身的王族",
+    "note": "王族由慕容鲜卑一支西迁而来，长期与羌等高原人群共同组成政权，不能简单理解为辖境全是鲜卑。",
+    "sources": [
+      "https://lswh.yau.edu.cn/info/1021/1162.htm"
+    ],
+    "status": "通行概括",
+    "short": "鲜卑王族＋羌等高原人群"
+  },
+  "大燕（安禄山）": {
+    "label": "粟特、突厥背景",
+    "clan": "安禄山及河北军政集团",
+    "note": "安禄山家世通常联系于粟特与突厥背景。叛军包含多种族群，其个人家世不等于全部军民身份。",
+    "sources": [
+      "https://www.aisixiang.com/data/118779.html"
+    ],
+    "status": "混合背景",
+    "short": "粟特、突厥背景"
+  },
+  "大燕（史思明）": {
+    "label": "突厥／粟特背景（有讨论）",
+    "clan": "史思明、史朝义集团",
+    "note": "故宫词条称史思明为突厥人，相关研究也有粟特背景的解释；本页保留两种讨论，不将个人家世争议写成定论。",
+    "sources": [
+      "https://www.dpm.org.cn/lemmas/239708.html",
+      "https://www.aisixiang.com/data/118779.html"
+    ],
+    "status": "族源有讨论",
+    "short": "突厥／粟特背景"
+  },
+  "河东（李克用）": {
+    "label": "沙陀",
+    "clan": "河东李氏；后晋石氏；后汉、北汉刘氏",
+    "note": "这些政权的奠基或开国集团出自沙陀军政背景。沙陀通常置于突厥历史语境，军队和朝廷长期融合汉人等群体；后唐后期统治者个别家世也有不同。",
+    "sources": [
+      "https://assets.cambridge.org/97805218/12481/excerpt/9780521812481_excerpt.pdf"
+    ],
+    "status": "通行概括",
+    "short": "沙陀"
+  },
+  "晋（河东）": {
+    "label": "沙陀",
+    "clan": "河东李氏；后晋石氏；后汉、北汉刘氏",
+    "note": "这些政权的奠基或开国集团出自沙陀军政背景。沙陀通常置于突厥历史语境，军队和朝廷长期融合汉人等群体；后唐后期统治者个别家世也有不同。",
+    "sources": [
+      "https://assets.cambridge.org/97805218/12481/excerpt/9780521812481_excerpt.pdf"
+    ],
+    "status": "通行概括",
+    "short": "沙陀"
+  },
+  "后唐": {
+    "label": "沙陀",
+    "clan": "河东李氏；后晋石氏；后汉、北汉刘氏",
+    "note": "这些政权的奠基或开国集团出自沙陀军政背景。沙陀通常置于突厥历史语境，军队和朝廷长期融合汉人等群体；后唐后期统治者个别家世也有不同。",
+    "sources": [
+      "https://assets.cambridge.org/97805218/12481/excerpt/9780521812481_excerpt.pdf"
+    ],
+    "status": "通行概括",
+    "short": "沙陀"
+  },
+  "后晋": {
+    "label": "沙陀",
+    "clan": "河东李氏；后晋石氏；后汉、北汉刘氏",
+    "note": "这些政权的奠基或开国集团出自沙陀军政背景。沙陀通常置于突厥历史语境，军队和朝廷长期融合汉人等群体；后唐后期统治者个别家世也有不同。",
+    "sources": [
+      "https://assets.cambridge.org/97805218/12481/excerpt/9780521812481_excerpt.pdf"
+    ],
+    "status": "通行概括",
+    "short": "沙陀"
+  },
+  "后汉": {
+    "label": "沙陀",
+    "clan": "河东李氏；后晋石氏；后汉、北汉刘氏",
+    "note": "这些政权的奠基或开国集团出自沙陀军政背景。沙陀通常置于突厥历史语境，军队和朝廷长期融合汉人等群体；后唐后期统治者个别家世也有不同。",
+    "sources": [
+      "https://assets.cambridge.org/97805218/12481/excerpt/9780521812481_excerpt.pdf"
+    ],
+    "status": "通行概括",
+    "short": "沙陀"
+  },
+  "北汉": {
+    "label": "沙陀",
+    "clan": "河东李氏；后晋石氏；后汉、北汉刘氏",
+    "note": "这些政权的奠基或开国集团出自沙陀军政背景。沙陀通常置于突厥历史语境，军队和朝廷长期融合汉人等群体；后唐后期统治者个别家世也有不同。",
+    "sources": [
+      "https://assets.cambridge.org/97805218/12481/excerpt/9780521812481_excerpt.pdf"
+    ],
+    "status": "通行概括",
+    "short": "沙陀"
+  },
+  "契丹": {
+    "label": "契丹",
+    "clan": "耶律氏",
+    "note": "契丹王朝统治汉人、奚、渤海人及其他人群，族群与行政制度并不单一；契丹不是现代民族身份的直接对应。",
+    "sources": [
+      "https://history.yale.edu/sites/default/files/files/V%20Hansen%2C%20Kitan-Liao%20and%20Jurchen-Jin%20%202019.pdf"
+    ],
+    "status": "通行概括",
+    "short": "契丹"
+  },
+  "辽": {
+    "label": "契丹",
+    "clan": "耶律氏",
+    "note": "契丹王朝统治汉人、奚、渤海人及其他人群，族群与行政制度并不单一；契丹不是现代民族身份的直接对应。",
+    "sources": [
+      "https://history.yale.edu/sites/default/files/files/V%20Hansen%2C%20Kitan-Liao%20and%20Jurchen-Jin%20%202019.pdf"
+    ],
+    "status": "通行概括",
+    "short": "契丹"
+  },
+  "党项（定难军）": {
+    "label": "党项",
+    "clan": "拓跋／李氏；西夏嵬名氏",
+    "note": "以党项统治集团为核心，与汉人、吐蕃等人群并存。党项是历史族称，不可仅凭语言关系直接等同于现代羌族或藏族。",
+    "sources": [
+      "https://www.nopss.gov.cn/n1/2022/0801/c219544-32490765.html"
+    ],
+    "status": "通行概括",
+    "short": "党项"
+  },
+  "西夏": {
+    "label": "党项",
+    "clan": "拓跋／李氏；西夏嵬名氏",
+    "note": "以党项统治集团为核心，与汉人、吐蕃等人群并存。党项是历史族称，不可仅凭语言关系直接等同于现代羌族或藏族。",
+    "sources": [
+      "https://www.nopss.gov.cn/n1/2022/0801/c219544-32490765.html"
+    ],
+    "status": "通行概括",
+    "short": "党项"
+  },
+  "金": {
+    "label": "女真",
+    "clan": "完颜氏",
+    "note": "女真统治集团建立，境内包括大量汉人、契丹等人群。女真与后来的满洲形成有关联，但金代女真不宜直接改写成“满族”。",
+    "sources": [
+      "https://history.yale.edu/sites/default/files/files/V%20Hansen%2C%20Kitan-Liao%20and%20Jurchen-Jin%20%202019.pdf",
+      "https://www.dpm.org.cn/lemmas/241786.html"
+    ],
+    "status": "通行概括",
+    "short": "女真"
+  },
+  "金（迁都汴京）": {
+    "label": "女真",
+    "clan": "完颜氏",
+    "note": "女真统治集团建立，境内包括大量汉人、契丹等人群。女真与后来的满洲形成有关联，但金代女真不宜直接改写成“满族”。",
+    "sources": [
+      "https://history.yale.edu/sites/default/files/files/V%20Hansen%2C%20Kitan-Liao%20and%20Jurchen-Jin%20%202019.pdf",
+      "https://www.dpm.org.cn/lemmas/241786.html"
+    ],
+    "status": "通行概括",
+    "short": "女真"
+  },
+  "大蒙古国": {
+    "label": "蒙古",
+    "clan": "孛儿只斤氏及蒙古贵族",
+    "note": "以蒙古统治集团为核心，辖境与军政体系包含多个族群；元朝的身份、户籍和政治等级不能直接当成现代民族分类。",
+    "sources": [],
+    "status": "通行概括",
+    "short": "蒙古"
+  },
+  "元": {
+    "label": "蒙古",
+    "clan": "孛儿只斤氏及蒙古贵族",
+    "note": "以蒙古统治集团为核心，辖境与军政体系包含多个族群；元朝的身份、户籍和政治等级不能直接当成现代民族分类。",
+    "sources": [],
+    "status": "通行概括",
+    "short": "蒙古"
+  },
+  "北元": {
+    "label": "蒙古",
+    "clan": "孛儿只斤氏及蒙古贵族",
+    "note": "以蒙古统治集团为核心，辖境与军政体系包含多个族群；元朝的身份、户籍和政治等级不能直接当成现代民族分类。",
+    "sources": [],
+    "status": "通行概括",
+    "short": "蒙古"
+  },
+  "元梁王（云南）": {
+    "label": "蒙古",
+    "clan": "孛儿只斤氏及蒙古贵族",
+    "note": "以蒙古统治集团为核心，辖境与军政体系包含多个族群；元朝的身份、户籍和政治等级不能直接当成现代民族分类。",
+    "sources": [],
+    "status": "通行概括",
+    "short": "蒙古"
+  },
+  "北元（鞑靼 · 瓦剌）": {
+    "label": "蒙古诸部",
+    "clan": "蒙古大汗及鞑靼、瓦剌各部上层",
+    "note": "“鞑靼”“瓦剌”在本图中是明代草原政治集团的概称；不能简单据此与今天同名或近名民族一一对应。",
+    "sources": [],
+    "status": "通行概括",
+    "short": "蒙古诸部"
+  },
+  "后金": {
+    "label": "建州女真（后改满洲）",
+    "clan": "爱新觉罗氏",
+    "note": "努尔哈赤建立后金时以女真称谓为主，1635年皇太极定族称为满洲；不能把整个阶段的名称变化省略。",
+    "sources": [
+      "https://www.dpm.org.cn/lemmas/241786.html"
+    ],
+    "status": "通行概括",
+    "short": "建州女真"
+  },
+  "清": {
+    "label": "满洲（满族先民）",
+    "clan": "爱新觉罗氏皇室；八旗与多族群官僚",
+    "note": "皇室为满洲爱新觉罗氏，国家统治包括汉人、蒙古、藏、维吾尔等多种人群；八旗成员也不全是满洲。",
+    "sources": [
+      "https://www.dpm.org.cn/lemmas/241786.html"
+    ],
+    "status": "通行概括",
+    "short": "满洲"
+  },
+  "吐蕃（总制院辖）": {
+    "label": "藏族先民等；上层属元朝体系",
+    "clan": "西藏地方政教势力与元朝总制院／宣政院",
+    "note": "不是独立延续的吐蕃王朝。这里“吐蕃”用于地域与人群语境，地方以藏族先民为主，中央上层属于蒙古统治的元朝。",
+    "sources": [],
+    "status": "通行概括",
+    "short": "藏族先民等；上层属元朝体系"
+  },
+  "西藏（驻藏大臣）": {
+    "label": "藏族等；清廷派驻官员另计",
+    "clan": "西藏地方政教上层与清廷驻藏大臣",
+    "note": "地方人口与清廷派驻官员须分别理解；不能因驻藏大臣制度而把西藏居民标为满洲。",
+    "sources": [
+      "https://www.dpm.org.cn/lemmas/241786.html"
+    ],
+    "status": "通行概括",
+    "short": "藏族等；清廷派驻官员另计"
+  },
+  "吴周 · 三藩": {
+    "label": "汉军政集团",
+    "clan": "吴三桂、尚氏、耿氏等；吴氏后称帝",
+    "note": "吴三桂及相关汉人军政集团与清初藩镇、汉军旗制度有联系；任职清廷或入旗不等于族群自动变为满洲。",
+    "sources": [],
+    "status": "通行概括",
+    "short": "汉军政集团"
+  },
+  "太平天国": {
+    "label": "汉（多含客家背景）",
+    "clan": "洪秀全及拜上帝会军政集团",
+    "note": "洪秀全等出自汉人客家背景，参与者还包含其他汉人社群及不同人群。“客家”是汉人的民系概念，不是单列民族。",
+    "sources": [],
+    "status": "通行概括",
+    "short": "汉"
+  },
+  "西域都护府": {
+    "label": "中央派驻＋当地多族群",
+    "clan": "所属中央王朝官员与地方上层",
+    "note": "这是行政、军事或羁縻管辖对象，不是独立民族政权。应同时说明派驻官员与当地族群，不能只贴一个民族标签。",
+    "sources": [],
+    "status": "非独立政权",
+    "short": "中央派驻＋当地多族群"
+  },
+  "西域都护（伊吾·南道）": {
+    "label": "中央派驻＋当地多族群",
+    "clan": "所属中央王朝官员与地方上层",
+    "note": "这是行政、军事或羁縻管辖对象，不是独立民族政权。应同时说明派驻官员与当地族群，不能只贴一个民族标签。",
+    "sources": [],
+    "status": "非独立政权",
+    "short": "中央派驻＋当地多族群"
+  },
+  "西海·鄯善等四郡": {
+    "label": "中央派驻＋当地多族群",
+    "clan": "所属中央王朝官员与地方上层",
+    "note": "这是行政、军事或羁縻管辖对象，不是独立民族政权。应同时说明派驻官员与当地族群，不能只贴一个民族标签。 西域不同绿洲及草原存在多种语言、文化和族群，不能把今天新疆的民族分布原样前推。",
+    "sources": [],
+    "status": "非独立政权",
+    "short": "中央派驻＋当地多族群"
+  },
+  "安西都护府（西州）": {
+    "label": "中央派驻＋当地多族群",
+    "clan": "所属中央王朝官员与地方上层",
+    "note": "这是行政、军事或羁縻管辖对象，不是独立民族政权。应同时说明派驻官员与当地族群，不能只贴一个民族标签。 西域不同绿洲及草原存在多种语言、文化和族群，不能把今天新疆的民族分布原样前推。",
+    "sources": [],
+    "status": "非独立政权",
+    "short": "中央派驻＋当地多族群"
+  },
+  "燕然（安北）都护府": {
+    "label": "中央派驻＋当地多族群",
+    "clan": "所属中央王朝官员与地方上层",
+    "note": "这是行政、军事或羁縻管辖对象，不是独立民族政权。应同时说明派驻官员与当地族群，不能只贴一个民族标签。 相关草原军政体系涉及突厥、铁勒等不同部落。",
+    "sources": [],
+    "status": "非独立政权",
+    "short": "中央派驻＋当地多族群"
+  },
+  "安西都护府": {
+    "label": "中央派驻＋当地多族群",
+    "clan": "所属中央王朝官员与地方上层",
+    "note": "这是行政、军事或羁縻管辖对象，不是独立民族政权。应同时说明派驻官员与当地族群，不能只贴一个民族标签。 西域不同绿洲及草原存在多种语言、文化和族群，不能把今天新疆的民族分布原样前推。",
+    "sources": [],
+    "status": "非独立政权",
+    "short": "中央派驻＋当地多族群"
+  },
+  "昆陵 · 濛池都护府": {
+    "label": "中央派驻＋当地多族群",
+    "clan": "所属中央王朝官员与地方上层",
+    "note": "这是行政、军事或羁縻管辖对象，不是独立民族政权。应同时说明派驻官员与当地族群，不能只贴一个民族标签。 相关草原军政体系涉及突厥、铁勒等不同部落。",
+    "sources": [],
+    "status": "非独立政权",
+    "short": "中央派驻＋当地多族群"
+  },
+  "安北都护府": {
+    "label": "中央派驻＋当地多族群",
+    "clan": "所属中央王朝官员与地方上层",
+    "note": "这是行政、军事或羁縻管辖对象，不是独立民族政权。应同时说明派驻官员与当地族群，不能只贴一个民族标签。 相关草原军政体系涉及突厥、铁勒等不同部落。",
+    "sources": [],
+    "status": "非独立政权",
+    "short": "中央派驻＋当地多族群"
+  },
+  "安东都护府": {
+    "label": "中央派驻＋当地多族群",
+    "clan": "所属中央王朝官员与地方上层",
+    "note": "这是行政、军事或羁縻管辖对象，不是独立民族政权。应同时说明派驻官员与当地族群，不能只贴一个民族标签。 安东地区涉及高句丽遗民等当地人群。",
+    "sources": [],
+    "status": "非独立政权",
+    "short": "中央派驻＋当地多族群"
+  },
+  "北庭都护府": {
+    "label": "中央派驻＋当地多族群",
+    "clan": "所属中央王朝官员与地方上层",
+    "note": "这是行政、军事或羁縻管辖对象，不是独立民族政权。应同时说明派驻官员与当地族群，不能只贴一个民族标签。 西域不同绿洲及草原存在多种语言、文化和族群，不能把今天新疆的民族分布原样前推。",
+    "sources": [],
+    "status": "非独立政权",
+    "short": "中央派驻＋当地多族群"
+  },
+  "安西都护府（孤悬坚守）": {
+    "label": "中央派驻＋当地多族群",
+    "clan": "所属中央王朝官员与地方上层",
+    "note": "这是行政、军事或羁縻管辖对象，不是独立民族政权。应同时说明派驻官员与当地族群，不能只贴一个民族标签。 西域不同绿洲及草原存在多种语言、文化和族群，不能把今天新疆的民族分布原样前推。",
+    "sources": [],
+    "status": "非独立政权",
+    "short": "中央派驻＋当地多族群"
+  },
+  "北庭都护府（孤悬坚守）": {
+    "label": "中央派驻＋当地多族群",
+    "clan": "所属中央王朝官员与地方上层",
+    "note": "这是行政、军事或羁縻管辖对象，不是独立民族政权。应同时说明派驻官员与当地族群，不能只贴一个民族标签。 西域不同绿洲及草原存在多种语言、文化和族群，不能把今天新疆的民族分布原样前推。",
+    "sources": [],
+    "status": "非独立政权",
+    "short": "中央派驻＋当地多族群"
+  },
+  "交趾布政司（1407—1427）": {
+    "label": "中央派驻＋当地多族群",
+    "clan": "所属中央王朝官员与地方上层",
+    "note": "这是行政、军事或羁縻管辖对象，不是独立民族政权。应同时说明派驻官员与当地族群，不能只贴一个民族标签。 交趾地区涉及当地越人先民，不能因明朝设布政司而把当地居民全标为汉人。",
+    "sources": [],
+    "status": "非独立政权",
+    "short": "中央派驻＋当地多族群"
+  },
+  "哈密卫（关西七卫）": {
+    "label": "中央派驻＋当地多族群",
+    "clan": "所属中央王朝官员与地方上层",
+    "note": "这是行政、军事或羁縻管辖对象，不是独立民族政权。应同时说明派驻官员与当地族群，不能只贴一个民族标签。 西域不同绿洲及草原存在多种语言、文化和族群，不能把今天新疆的民族分布原样前推。",
+    "sources": [],
+    "status": "非独立政权",
+    "short": "中央派驻＋当地多族群"
+  },
+  "台湾（荷占）": {
+    "label": "荷兰东印度公司",
+    "clan": "外来统治当局（不是当地民族标签）",
+    "note": "此对象标明占领、殖民或租借当局的国家／组织背景，不能将其作为当地居民的民族。台湾主要涉及汉人移民与南岛语族原住民族；其他地区的当地人群需分别理解。",
+    "sources": [],
+    "status": "国家／组织背景",
+    "short": "荷兰东印度公司"
+  },
+  "伊犁（沙俄侵占）": {
+    "label": "俄罗斯帝国当局",
+    "clan": "外来统治当局（不是当地民族标签）",
+    "note": "此对象标明占领、殖民或租借当局的国家／组织背景，不能将其作为当地居民的民族。当地原有人群须分别理解，不能因外来当局控制而改变其民族标签。",
+    "sources": [],
+    "status": "国家／组织背景",
+    "short": "俄罗斯帝国当局"
+  },
+  "台湾（日占）": {
+    "label": "日本殖民当局",
+    "clan": "外来统治当局（不是当地民族标签）",
+    "note": "此对象标明占领、殖民或租借当局的国家／组织背景，不能将其作为当地居民的民族。台湾主要涉及汉人移民与南岛语族原住民族；其他地区的当地人群需分别理解。",
+    "sources": [],
+    "status": "国家／组织背景",
+    "short": "日本殖民当局"
+  },
+  "胶州湾（德租）": {
+    "label": "德意志帝国当局",
+    "clan": "外来统治当局（不是当地民族标签）",
+    "note": "此对象标明占领、殖民或租借当局的国家／组织背景，不能将其作为当地居民的民族。当地原有人群须分别理解，不能因外来当局控制而改变其民族标签。",
+    "sources": [],
+    "status": "国家／组织背景",
+    "short": "德意志帝国当局"
+  },
+  "威海卫（英租）": {
+    "label": "英国殖民／租借当局",
+    "clan": "外来统治当局（不是当地民族标签）",
+    "note": "此对象标明占领、殖民或租借当局的国家／组织背景，不能将其作为当地居民的民族。当地原有人群须分别理解，不能因外来当局控制而改变其民族标签。",
+    "sources": [],
+    "status": "国家／组织背景",
+    "short": "英国殖民／租借当局"
+  },
+  "旅大（俄租）": {
+    "label": "俄罗斯帝国当局",
+    "clan": "外来统治当局（不是当地民族标签）",
+    "note": "此对象标明占领、殖民或租借当局的国家／组织背景，不能将其作为当地居民的民族。当地原有人群须分别理解，不能因外来当局控制而改变其民族标签。",
+    "sources": [],
+    "status": "国家／组织背景",
+    "short": "俄罗斯帝国当局"
+  },
+  "九龙新界（英租）": {
+    "label": "英国殖民／租借当局",
+    "clan": "外来统治当局（不是当地民族标签）",
+    "note": "此对象标明占领、殖民或租借当局的国家／组织背景，不能将其作为当地居民的民族。当地原有人群须分别理解，不能因外来当局控制而改变其民族标签。",
+    "sources": [],
+    "status": "国家／组织背景",
+    "short": "英国殖民／租借当局"
+  },
+  "汉（刘邦）": {
+    "label": "汉",
+    "clan": "刘氏；刘邦",
+    "note": "按统治家族或主要领导集团的通行历史归类标注；并不表示军队、辖境人口或所有参与者均为汉人，也不推算人口比例。 秦汉是华夏向汉人认同发展的时期，标签是便于跨时期浏览的概括；如“齐”在不同阶段指不同政权，并非同一家王室。",
+    "sources": [
+      "https://www.neac.gov.cn/seac/ztzl/hz/lsyg.shtml"
+    ],
+    "status": "通行概括",
+    "short": "汉"
+  },
+  "西楚（项羽）": {
+    "label": "汉",
+    "clan": "项氏；项羽",
+    "note": "按统治家族或主要领导集团的通行历史归类标注；并不表示军队、辖境人口或所有参与者均为汉人，也不推算人口比例。 秦汉是华夏向汉人认同发展的时期，标签是便于跨时期浏览的概括；如“齐”在不同阶段指不同政权，并非同一家王室。",
+    "sources": [
+      "https://www.neac.gov.cn/seac/ztzl/hz/lsyg.shtml"
+    ],
+    "status": "通行概括",
+    "short": "汉"
+  },
+  "赵 · 代": {
+    "label": "汉",
+    "clan": "以汉人家族或地方军政首领为核心",
+    "note": "按统治家族或主要领导集团的通行历史归类标注；并不表示军队、辖境人口或所有参与者均为汉人，也不推算人口比例。 秦汉是华夏向汉人认同发展的时期，标签是便于跨时期浏览的概括；如“齐”在不同阶段指不同政权，并非同一家王室。",
+    "sources": [
+      "https://www.neac.gov.cn/seac/ztzl/hz/lsyg.shtml"
+    ],
+    "status": "通行概括",
+    "short": "汉"
+  },
+  "齐": {
+    "label": "汉",
+    "clan": "以汉人家族或地方军政首领为核心",
+    "note": "按统治家族或主要领导集团的通行历史归类标注；并不表示军队、辖境人口或所有参与者均为汉人，也不推算人口比例。 秦汉是华夏向汉人认同发展的时期，标签是便于跨时期浏览的概括；如“齐”在不同阶段指不同政权，并非同一家王室。",
+    "sources": [
+      "https://www.neac.gov.cn/seac/ztzl/hz/lsyg.shtml"
+    ],
+    "status": "通行概括",
+    "short": "汉"
+  },
+  "燕": {
+    "label": "汉",
+    "clan": "以汉人家族或地方军政首领为核心",
+    "note": "按统治家族或主要领导集团的通行历史归类标注；并不表示军队、辖境人口或所有参与者均为汉人，也不推算人口比例。 秦汉是华夏向汉人认同发展的时期，标签是便于跨时期浏览的概括；如“齐”在不同阶段指不同政权，并非同一家王室。",
+    "sources": [
+      "https://www.neac.gov.cn/seac/ztzl/hz/lsyg.shtml"
+    ],
+    "status": "通行概括",
+    "short": "汉"
+  },
+  "汉（郡国并行）": {
+    "label": "汉",
+    "clan": "刘氏皇室及异姓、同姓诸侯",
+    "note": "按统治家族或主要领导集团的通行历史归类标注；并不表示军队、辖境人口或所有参与者均为汉人，也不推算人口比例。 秦汉是华夏向汉人认同发展的时期，标签是便于跨时期浏览的概括；如“齐”在不同阶段指不同政权，并非同一家王室。",
+    "sources": [
+      "https://www.neac.gov.cn/seac/ztzl/hz/lsyg.shtml"
+    ],
+    "status": "通行概括",
+    "short": "汉"
+  },
+  "汉": {
+    "label": "汉",
+    "clan": "刘氏",
+    "note": "按统治家族或主要领导集团的通行历史归类标注；并不表示军队、辖境人口或所有参与者均为汉人，也不推算人口比例。 秦汉是华夏向汉人认同发展的时期，标签是便于跨时期浏览的概括；如“齐”在不同阶段指不同政权，并非同一家王室。",
+    "sources": [
+      "https://www.neac.gov.cn/seac/ztzl/hz/lsyg.shtml"
+    ],
+    "status": "通行概括",
+    "short": "汉"
+  },
+  "新（王莽）": {
+    "label": "汉",
+    "clan": "王氏；王莽",
+    "note": "按统治家族或主要领导集团的通行历史归类标注；并不表示军队、辖境人口或所有参与者均为汉人，也不推算人口比例。",
+    "sources": [
+      "https://www.neac.gov.cn/seac/ztzl/hz/lsyg.shtml"
+    ],
+    "status": "通行概括",
+    "short": "汉"
+  },
+  "更始（汉）": {
+    "label": "汉",
+    "clan": "以汉人家族或地方军政首领为核心",
+    "note": "按统治家族或主要领导集团的通行历史归类标注；并不表示军队、辖境人口或所有参与者均为汉人，也不推算人口比例。",
+    "sources": [
+      "https://www.neac.gov.cn/seac/ztzl/hz/lsyg.shtml"
+    ],
+    "status": "通行概括",
+    "short": "汉"
+  },
+  "刘秀（河北）": {
+    "label": "汉",
+    "clan": "以汉人家族或地方军政首领为核心",
+    "note": "按统治家族或主要领导集团的通行历史归类标注；并不表示军队、辖境人口或所有参与者均为汉人，也不推算人口比例。",
+    "sources": [
+      "https://www.neac.gov.cn/seac/ztzl/hz/lsyg.shtml"
+    ],
+    "status": "通行概括",
+    "short": "汉"
+  },
+  "赤眉军": {
+    "label": "汉",
+    "clan": "以汉人家族或地方军政首领为核心",
+    "note": "按统治家族或主要领导集团的通行历史归类标注；并不表示军队、辖境人口或所有参与者均为汉人，也不推算人口比例。",
+    "sources": [
+      "https://www.neac.gov.cn/seac/ztzl/hz/lsyg.shtml"
+    ],
+    "status": "通行概括",
+    "short": "汉"
+  },
+  "成家（公孙述）": {
+    "label": "汉",
+    "clan": "以汉人家族或地方军政首领为核心",
+    "note": "按统治家族或主要领导集团的通行历史归类标注；并不表示军队、辖境人口或所有参与者均为汉人，也不推算人口比例。",
+    "sources": [
+      "https://www.neac.gov.cn/seac/ztzl/hz/lsyg.shtml"
+    ],
+    "status": "通行概括",
+    "short": "汉"
+  },
+  "隗嚣 · 窦融": {
+    "label": "汉",
+    "clan": "以汉人家族或地方军政首领为核心",
+    "note": "按统治家族或主要领导集团的通行历史归类标注；并不表示军队、辖境人口或所有参与者均为汉人，也不推算人口比例。",
+    "sources": [
+      "https://www.neac.gov.cn/seac/ztzl/hz/lsyg.shtml"
+    ],
+    "status": "通行概括",
+    "short": "汉"
+  },
+  "东汉": {
+    "label": "汉",
+    "clan": "刘氏",
+    "note": "按统治家族或主要领导集团的通行历史归类标注；并不表示军队、辖境人口或所有参与者均为汉人，也不推算人口比例。",
+    "sources": [
+      "https://www.neac.gov.cn/seac/ztzl/hz/lsyg.shtml"
+    ],
+    "status": "通行概括",
+    "short": "汉"
+  },
+  "董卓(长安)": {
+    "label": "汉",
+    "clan": "以汉人家族或地方军政首领为核心",
+    "note": "按统治家族或主要领导集团的通行历史归类标注；并不表示军队、辖境人口或所有参与者均为汉人，也不推算人口比例。",
+    "sources": [
+      "https://www.neac.gov.cn/seac/ztzl/hz/lsyg.shtml"
+    ],
+    "status": "通行概括",
+    "short": "汉"
+  },
+  "马腾(凉州)": {
+    "label": "汉首领＋羌胡等部众",
+    "clan": "以汉人家族或地方军政首领为核心",
+    "note": "马腾、韩遂通常归入汉人首领背景，军政力量吸纳羌、胡等多种部众；马腾家世也有母系羌人记载，不以单一血缘代替集团构成。",
+    "sources": [
+      "https://www.neac.gov.cn/seac/ztzl/hz/lsyg.shtml"
+    ],
+    "status": "通行概括",
+    "short": "汉首领＋羌胡等部众"
+  },
+  "袁绍(冀州)": {
+    "label": "汉",
+    "clan": "以汉人家族或地方军政首领为核心",
+    "note": "按统治家族或主要领导集团的通行历史归类标注；并不表示军队、辖境人口或所有参与者均为汉人，也不推算人口比例。",
+    "sources": [
+      "https://www.neac.gov.cn/seac/ztzl/hz/lsyg.shtml"
+    ],
+    "status": "通行概括",
+    "short": "汉"
+  },
+  "公孙瓒(幽州)": {
+    "label": "汉",
+    "clan": "以汉人家族或地方军政首领为核心",
+    "note": "按统治家族或主要领导集团的通行历史归类标注；并不表示军队、辖境人口或所有参与者均为汉人，也不推算人口比例。",
+    "sources": [
+      "https://www.neac.gov.cn/seac/ztzl/hz/lsyg.shtml"
+    ],
+    "status": "通行概括",
+    "short": "汉"
+  },
+  "公孙氏(辽东)": {
+    "label": "汉",
+    "clan": "以汉人家族或地方军政首领为核心",
+    "note": "按统治家族或主要领导集团的通行历史归类标注；并不表示军队、辖境人口或所有参与者均为汉人，也不推算人口比例。",
+    "sources": [
+      "https://www.neac.gov.cn/seac/ztzl/hz/lsyg.shtml"
+    ],
+    "status": "通行概括",
+    "short": "汉"
+  },
+  "曹操(兖豫)": {
+    "label": "汉",
+    "clan": "以汉人家族或地方军政首领为核心",
+    "note": "按统治家族或主要领导集团的通行历史归类标注；并不表示军队、辖境人口或所有参与者均为汉人，也不推算人口比例。",
+    "sources": [
+      "https://www.neac.gov.cn/seac/ztzl/hz/lsyg.shtml"
+    ],
+    "status": "通行概括",
+    "short": "汉"
+  },
+  "刘表(荆州)": {
+    "label": "汉",
+    "clan": "以汉人家族或地方军政首领为核心",
+    "note": "按统治家族或主要领导集团的通行历史归类标注；并不表示军队、辖境人口或所有参与者均为汉人，也不推算人口比例。",
+    "sources": [
+      "https://www.neac.gov.cn/seac/ztzl/hz/lsyg.shtml"
+    ],
+    "status": "通行概括",
+    "short": "汉"
+  },
+  "刘焉(益州)": {
+    "label": "汉",
+    "clan": "以汉人家族或地方军政首领为核心",
+    "note": "按统治家族或主要领导集团的通行历史归类标注；并不表示军队、辖境人口或所有参与者均为汉人，也不推算人口比例。",
+    "sources": [
+      "https://www.neac.gov.cn/seac/ztzl/hz/lsyg.shtml"
+    ],
+    "status": "通行概括",
+    "short": "汉"
+  },
+  "刘繇·孙氏(江东)": {
+    "label": "汉",
+    "clan": "以汉人家族或地方军政首领为核心",
+    "note": "按统治家族或主要领导集团的通行历史归类标注；并不表示军队、辖境人口或所有参与者均为汉人，也不推算人口比例。",
+    "sources": [
+      "https://www.neac.gov.cn/seac/ztzl/hz/lsyg.shtml"
+    ],
+    "status": "通行概括",
+    "short": "汉"
+  },
+  "士燮(交州)": {
+    "label": "汉",
+    "clan": "以汉人家族或地方军政首领为核心",
+    "note": "按统治家族或主要领导集团的通行历史归类标注；并不表示军队、辖境人口或所有参与者均为汉人，也不推算人口比例。",
+    "sources": [
+      "https://www.neac.gov.cn/seac/ztzl/hz/lsyg.shtml"
+    ],
+    "status": "通行概括",
+    "short": "汉"
+  },
+  "曹操(许都)": {
+    "label": "汉",
+    "clan": "以汉人家族或地方军政首领为核心",
+    "note": "按统治家族或主要领导集团的通行历史归类标注；并不表示军队、辖境人口或所有参与者均为汉人，也不推算人口比例。",
+    "sources": [
+      "https://www.neac.gov.cn/seac/ztzl/hz/lsyg.shtml"
+    ],
+    "status": "通行概括",
+    "short": "汉"
+  },
+  "袁绍(河北)": {
+    "label": "汉",
+    "clan": "以汉人家族或地方军政首领为核心",
+    "note": "按统治家族或主要领导集团的通行历史归类标注；并不表示军队、辖境人口或所有参与者均为汉人，也不推算人口比例。",
+    "sources": [
+      "https://www.neac.gov.cn/seac/ztzl/hz/lsyg.shtml"
+    ],
+    "status": "通行概括",
+    "short": "汉"
+  },
+  "马腾·韩遂(关陇)": {
+    "label": "汉首领＋羌胡等部众",
+    "clan": "以汉人家族或地方军政首领为核心",
+    "note": "马腾、韩遂通常归入汉人首领背景，军政力量吸纳羌、胡等多种部众；马腾家世也有母系羌人记载，不以单一血缘代替集团构成。",
+    "sources": [
+      "https://www.neac.gov.cn/seac/ztzl/hz/lsyg.shtml"
+    ],
+    "status": "通行概括",
+    "short": "汉首领＋羌胡等部众"
+  },
+  "张鲁(汉中)": {
+    "label": "汉",
+    "clan": "以汉人家族或地方军政首领为核心",
+    "note": "按统治家族或主要领导集团的通行历史归类标注；并不表示军队、辖境人口或所有参与者均为汉人，也不推算人口比例。",
+    "sources": [
+      "https://www.neac.gov.cn/seac/ztzl/hz/lsyg.shtml"
+    ],
+    "status": "通行概括",
+    "short": "汉"
+  },
+  "刘璋(益州)": {
+    "label": "汉",
+    "clan": "以汉人家族或地方军政首领为核心",
+    "note": "按统治家族或主要领导集团的通行历史归类标注；并不表示军队、辖境人口或所有参与者均为汉人，也不推算人口比例。",
+    "sources": [
+      "https://www.neac.gov.cn/seac/ztzl/hz/lsyg.shtml"
+    ],
+    "status": "通行概括",
+    "short": "汉"
+  },
+  "孙策(江东)": {
+    "label": "汉",
+    "clan": "以汉人家族或地方军政首领为核心",
+    "note": "按统治家族或主要领导集团的通行历史归类标注；并不表示军队、辖境人口或所有参与者均为汉人，也不推算人口比例。",
+    "sources": [
+      "https://www.neac.gov.cn/seac/ztzl/hz/lsyg.shtml"
+    ],
+    "status": "通行概括",
+    "short": "汉"
+  },
+  "曹操(北方)": {
+    "label": "汉",
+    "clan": "以汉人家族或地方军政首领为核心",
+    "note": "按统治家族或主要领导集团的通行历史归类标注；并不表示军队、辖境人口或所有参与者均为汉人，也不推算人口比例。",
+    "sources": [
+      "https://www.neac.gov.cn/seac/ztzl/hz/lsyg.shtml"
+    ],
+    "status": "通行概括",
+    "short": "汉"
+  },
+  "孙权(江东)": {
+    "label": "汉",
+    "clan": "以汉人家族或地方军政首领为核心",
+    "note": "按统治家族或主要领导集团的通行历史归类标注；并不表示军队、辖境人口或所有参与者均为汉人，也不推算人口比例。",
+    "sources": [
+      "https://www.neac.gov.cn/seac/ztzl/hz/lsyg.shtml"
+    ],
+    "status": "通行概括",
+    "short": "汉"
+  },
+  "刘备(荆州)": {
+    "label": "汉",
+    "clan": "以汉人家族或地方军政首领为核心",
+    "note": "按统治家族或主要领导集团的通行历史归类标注；并不表示军队、辖境人口或所有参与者均为汉人，也不推算人口比例。",
+    "sources": [
+      "https://www.neac.gov.cn/seac/ztzl/hz/lsyg.shtml"
+    ],
+    "status": "通行概括",
+    "short": "汉"
+  },
+  "刘备(荆益)": {
+    "label": "汉",
+    "clan": "以汉人家族或地方军政首领为核心",
+    "note": "按统治家族或主要领导集团的通行历史归类标注；并不表示军队、辖境人口或所有参与者均为汉人，也不推算人口比例。",
+    "sources": [
+      "https://www.neac.gov.cn/seac/ztzl/hz/lsyg.shtml"
+    ],
+    "status": "通行概括",
+    "short": "汉"
+  },
+  "刘备(益州)": {
+    "label": "汉",
+    "clan": "以汉人家族或地方军政首领为核心",
+    "note": "按统治家族或主要领导集团的通行历史归类标注；并不表示军队、辖境人口或所有参与者均为汉人，也不推算人口比例。",
+    "sources": [
+      "https://www.neac.gov.cn/seac/ztzl/hz/lsyg.shtml"
+    ],
+    "status": "通行概括",
+    "short": "汉"
+  },
+  "孙权(荆扬)": {
+    "label": "汉",
+    "clan": "以汉人家族或地方军政首领为核心",
+    "note": "按统治家族或主要领导集团的通行历史归类标注；并不表示军队、辖境人口或所有参与者均为汉人，也不推算人口比例。",
+    "sources": [
+      "https://www.neac.gov.cn/seac/ztzl/hz/lsyg.shtml"
+    ],
+    "status": "通行概括",
+    "short": "汉"
+  },
+  "魏": {
+    "label": "汉",
+    "clan": "曹氏",
+    "note": "按统治家族或主要领导集团的通行历史归类标注；并不表示军队、辖境人口或所有参与者均为汉人，也不推算人口比例。",
+    "sources": [
+      "https://www.neac.gov.cn/seac/ztzl/hz/lsyg.shtml"
+    ],
+    "status": "通行概括",
+    "short": "汉"
+  },
+  "刘备势力": {
+    "label": "汉",
+    "clan": "以汉人家族或地方军政首领为核心",
+    "note": "按统治家族或主要领导集团的通行历史归类标注；并不表示军队、辖境人口或所有参与者均为汉人，也不推算人口比例。",
+    "sources": [
+      "https://www.neac.gov.cn/seac/ztzl/hz/lsyg.shtml"
+    ],
+    "status": "通行概括",
+    "short": "汉"
+  },
+  "孙权势力": {
+    "label": "汉",
+    "clan": "以汉人家族或地方军政首领为核心",
+    "note": "按统治家族或主要领导集团的通行历史归类标注；并不表示军队、辖境人口或所有参与者均为汉人，也不推算人口比例。",
+    "sources": [
+      "https://www.neac.gov.cn/seac/ztzl/hz/lsyg.shtml"
+    ],
+    "status": "通行概括",
+    "short": "汉"
+  },
+  "公孙氏（辽东）": {
+    "label": "汉",
+    "clan": "以汉人家族或地方军政首领为核心",
+    "note": "按统治家族或主要领导集团的通行历史归类标注；并不表示军队、辖境人口或所有参与者均为汉人，也不推算人口比例。",
+    "sources": [
+      "https://www.neac.gov.cn/seac/ztzl/hz/lsyg.shtml"
+    ],
+    "status": "通行概括",
+    "short": "汉"
+  },
+  "蜀汉": {
+    "label": "汉",
+    "clan": "刘氏；刘备家族",
+    "note": "按统治家族或主要领导集团的通行历史归类标注；并不表示军队、辖境人口或所有参与者均为汉人，也不推算人口比例。",
+    "sources": [
+      "https://www.neac.gov.cn/seac/ztzl/hz/lsyg.shtml"
+    ],
+    "status": "通行概括",
+    "short": "汉"
+  },
+  "吴": {
+    "label": "汉",
+    "clan": "孙氏",
+    "note": "按统治家族或主要领导集团的通行历史归类标注；并不表示军队、辖境人口或所有参与者均为汉人，也不推算人口比例。",
+    "sources": [
+      "https://www.neac.gov.cn/seac/ztzl/hz/lsyg.shtml"
+    ],
+    "status": "通行概括",
+    "short": "汉"
+  },
+  "晋": {
+    "label": "汉",
+    "clan": "司马氏",
+    "note": "按统治家族或主要领导集团的通行历史归类标注；并不表示军队、辖境人口或所有参与者均为汉人，也不推算人口比例。",
+    "sources": [
+      "https://www.neac.gov.cn/seac/ztzl/hz/lsyg.shtml"
+    ],
+    "status": "通行概括",
+    "short": "汉"
+  },
+  "东晋": {
+    "label": "汉",
+    "clan": "司马氏与南渡、江南士族",
+    "note": "按统治家族或主要领导集团的通行历史归类标注；并不表示军队、辖境人口或所有参与者均为汉人，也不推算人口比例。",
+    "sources": [
+      "https://www.neac.gov.cn/seac/ztzl/hz/lsyg.shtml"
+    ],
+    "status": "通行概括",
+    "short": "汉"
+  },
+  "前凉": {
+    "label": "汉",
+    "clan": "汉人张氏；以晋朝地方官僚为基础",
+    "note": "按统治家族或主要领导集团的通行历史归类标注；并不表示军队、辖境人口或所有参与者均为汉人，也不推算人口比例。",
+    "sources": [
+      "https://www.neac.gov.cn/seac/ztzl/hz/lsyg.shtml"
+    ],
+    "status": "通行概括",
+    "short": "汉"
+  },
+  "宋": {
+    "label": "汉",
+    "clan": "刘宋刘氏，或不同阶段的宋政权",
+    "note": "按统治家族或主要领导集团的通行历史归类标注；并不表示军队、辖境人口或所有参与者均为汉人，也不推算人口比例。",
+    "sources": [
+      "https://www.neac.gov.cn/seac/ztzl/hz/lsyg.shtml"
+    ],
+    "status": "通行概括",
+    "short": "汉"
+  },
+  "梁": {
+    "label": "汉",
+    "clan": "萧氏",
+    "note": "按统治家族或主要领导集团的通行历史归类标注；并不表示军队、辖境人口或所有参与者均为汉人，也不推算人口比例。",
+    "sources": [
+      "https://www.neac.gov.cn/seac/ztzl/hz/lsyg.shtml"
+    ],
+    "status": "通行概括",
+    "short": "汉"
+  },
+  "西梁": {
+    "label": "汉",
+    "clan": "萧氏",
+    "note": "按统治家族或主要领导集团的通行历史归类标注；并不表示军队、辖境人口或所有参与者均为汉人，也不推算人口比例。",
+    "sources": [
+      "https://www.neac.gov.cn/seac/ztzl/hz/lsyg.shtml"
+    ],
+    "status": "通行概括",
+    "short": "汉"
+  },
+  "陈": {
+    "label": "汉",
+    "clan": "陈氏",
+    "note": "按统治家族或主要领导集团的通行历史归类标注；并不表示军队、辖境人口或所有参与者均为汉人，也不推算人口比例。",
+    "sources": [
+      "https://www.neac.gov.cn/seac/ztzl/hz/lsyg.shtml"
+    ],
+    "status": "通行概括",
+    "short": "汉"
+  },
+  "魏（李密）": {
+    "label": "汉",
+    "clan": "以汉人家族或地方军政首领为核心",
+    "note": "按统治家族或主要领导集团的通行历史归类标注；并不表示军队、辖境人口或所有参与者均为汉人，也不推算人口比例。",
+    "sources": [
+      "https://www.neac.gov.cn/seac/ztzl/hz/lsyg.shtml"
+    ],
+    "status": "通行概括",
+    "short": "汉"
+  },
+  "夏（窦建德）": {
+    "label": "汉",
+    "clan": "以汉人家族或地方军政首领为核心",
+    "note": "按统治家族或主要领导集团的通行历史归类标注；并不表示军队、辖境人口或所有参与者均为汉人，也不推算人口比例。",
+    "sources": [
+      "https://www.neac.gov.cn/seac/ztzl/hz/lsyg.shtml"
+    ],
+    "status": "通行概括",
+    "short": "汉"
+  },
+  "梁（萧铣）": {
+    "label": "汉",
+    "clan": "以汉人家族或地方军政首领为核心",
+    "note": "按统治家族或主要领导集团的通行历史归类标注；并不表示军队、辖境人口或所有参与者均为汉人，也不推算人口比例。",
+    "sources": [
+      "https://www.neac.gov.cn/seac/ztzl/hz/lsyg.shtml"
+    ],
+    "status": "通行概括",
+    "short": "汉"
+  },
+  "吴（杜伏威）": {
+    "label": "汉",
+    "clan": "以汉人家族或地方军政首领为核心",
+    "note": "按统治家族或主要领导集团的通行历史归类标注；并不表示军队、辖境人口或所有参与者均为汉人，也不推算人口比例。",
+    "sources": [
+      "https://www.neac.gov.cn/seac/ztzl/hz/lsyg.shtml"
+    ],
+    "status": "通行概括",
+    "short": "汉"
+  },
+  "秦（薛举）": {
+    "label": "汉",
+    "clan": "以汉人家族或地方军政首领为核心",
+    "note": "按统治家族或主要领导集团的通行历史归类标注；并不表示军队、辖境人口或所有参与者均为汉人，也不推算人口比例。",
+    "sources": [
+      "https://www.neac.gov.cn/seac/ztzl/hz/lsyg.shtml"
+    ],
+    "status": "通行概括",
+    "short": "汉"
+  },
+  "凉（李轨）": {
+    "label": "汉",
+    "clan": "以汉人家族或地方军政首领为核心",
+    "note": "按统治家族或主要领导集团的通行历史归类标注；并不表示军队、辖境人口或所有参与者均为汉人，也不推算人口比例。",
+    "sources": [
+      "https://www.neac.gov.cn/seac/ztzl/hz/lsyg.shtml"
+    ],
+    "status": "通行概括",
+    "short": "汉"
+  },
+  "归义军（张议潮）": {
+    "label": "汉",
+    "clan": "以汉人家族或地方军政首领为核心",
+    "note": "按统治家族或主要领导集团的通行历史归类标注；并不表示军队、辖境人口或所有参与者均为汉人，也不推算人口比例。",
+    "sources": [
+      "https://www.neac.gov.cn/seac/ztzl/hz/lsyg.shtml"
+    ],
+    "status": "通行概括",
+    "short": "汉"
+  },
+  "大齐（黄巢）": {
+    "label": "汉",
+    "clan": "以汉人家族或地方军政首领为核心",
+    "note": "按统治家族或主要领导集团的通行历史归类标注；并不表示军队、辖境人口或所有参与者均为汉人，也不推算人口比例。",
+    "sources": [
+      "https://www.neac.gov.cn/seac/ztzl/hz/lsyg.shtml"
+    ],
+    "status": "通行概括",
+    "short": "汉"
+  },
+  "宣武（朱温）": {
+    "label": "汉",
+    "clan": "以汉人家族或地方军政首领为核心",
+    "note": "按统治家族或主要领导集团的通行历史归类标注；并不表示军队、辖境人口或所有参与者均为汉人，也不推算人口比例。",
+    "sources": [
+      "https://www.neac.gov.cn/seac/ztzl/hz/lsyg.shtml"
+    ],
+    "status": "通行概括",
+    "short": "汉"
+  },
+  "西川（王建）": {
+    "label": "汉",
+    "clan": "以汉人家族或地方军政首领为核心",
+    "note": "按统治家族或主要领导集团的通行历史归类标注；并不表示军队、辖境人口或所有参与者均为汉人，也不推算人口比例。",
+    "sources": [
+      "https://www.neac.gov.cn/seac/ztzl/hz/lsyg.shtml"
+    ],
+    "status": "通行概括",
+    "short": "汉"
+  },
+  "淮南（杨行密）": {
+    "label": "汉",
+    "clan": "以汉人家族或地方军政首领为核心",
+    "note": "按统治家族或主要领导集团的通行历史归类标注；并不表示军队、辖境人口或所有参与者均为汉人，也不推算人口比例。",
+    "sources": [
+      "https://www.neac.gov.cn/seac/ztzl/hz/lsyg.shtml"
+    ],
+    "status": "通行概括",
+    "short": "汉"
+  },
+  "镇海（钱镠）": {
+    "label": "汉",
+    "clan": "以汉人家族或地方军政首领为核心",
+    "note": "按统治家族或主要领导集团的通行历史归类标注；并不表示军队、辖境人口或所有参与者均为汉人，也不推算人口比例。",
+    "sources": [
+      "https://www.neac.gov.cn/seac/ztzl/hz/lsyg.shtml"
+    ],
+    "status": "通行概括",
+    "short": "汉"
+  },
+  "武安（马殷）": {
+    "label": "汉",
+    "clan": "以汉人家族或地方军政首领为核心",
+    "note": "按统治家族或主要领导集团的通行历史归类标注；并不表示军队、辖境人口或所有参与者均为汉人，也不推算人口比例。",
+    "sources": [
+      "https://www.neac.gov.cn/seac/ztzl/hz/lsyg.shtml"
+    ],
+    "status": "通行概括",
+    "short": "汉"
+  },
+  "威武（王审知）": {
+    "label": "汉",
+    "clan": "以汉人家族或地方军政首领为核心",
+    "note": "按统治家族或主要领导集团的通行历史归类标注；并不表示军队、辖境人口或所有参与者均为汉人，也不推算人口比例。",
+    "sources": [
+      "https://www.neac.gov.cn/seac/ztzl/hz/lsyg.shtml"
+    ],
+    "status": "通行概括",
+    "short": "汉"
+  },
+  "岭南（刘隐）": {
+    "label": "汉",
+    "clan": "以汉人家族或地方军政首领为核心",
+    "note": "按统治家族或主要领导集团的通行历史归类标注；并不表示军队、辖境人口或所有参与者均为汉人，也不推算人口比例。",
+    "sources": [
+      "https://www.neac.gov.cn/seac/ztzl/hz/lsyg.shtml"
+    ],
+    "status": "通行概括",
+    "short": "汉"
+  },
+  "后梁": {
+    "label": "汉",
+    "clan": "朱氏",
+    "note": "按统治家族或主要领导集团的通行历史归类标注；并不表示军队、辖境人口或所有参与者均为汉人，也不推算人口比例。",
+    "sources": [
+      "https://www.neac.gov.cn/seac/ztzl/hz/lsyg.shtml"
+    ],
+    "status": "通行概括",
+    "short": "汉"
+  },
+  "前蜀": {
+    "label": "汉",
+    "clan": "以汉人家族或地方军政首领为核心",
+    "note": "按统治家族或主要领导集团的通行历史归类标注；并不表示军队、辖境人口或所有参与者均为汉人，也不推算人口比例。",
+    "sources": [
+      "https://www.neac.gov.cn/seac/ztzl/hz/lsyg.shtml"
+    ],
+    "status": "通行概括",
+    "short": "汉"
+  },
+  "吴越": {
+    "label": "汉",
+    "clan": "以汉人家族或地方军政首领为核心",
+    "note": "按统治家族或主要领导集团的通行历史归类标注；并不表示军队、辖境人口或所有参与者均为汉人，也不推算人口比例。",
+    "sources": [
+      "https://www.neac.gov.cn/seac/ztzl/hz/lsyg.shtml"
+    ],
+    "status": "通行概括",
+    "short": "汉"
+  },
+  "闽": {
+    "label": "汉",
+    "clan": "以汉人家族或地方军政首领为核心",
+    "note": "按统治家族或主要领导集团的通行历史归类标注；并不表示军队、辖境人口或所有参与者均为汉人，也不推算人口比例。",
+    "sources": [
+      "https://www.neac.gov.cn/seac/ztzl/hz/lsyg.shtml"
+    ],
+    "status": "通行概括",
+    "short": "汉"
+  },
+  "南汉": {
+    "label": "汉",
+    "clan": "以汉人家族或地方军政首领为核心",
+    "note": "按统治家族或主要领导集团的通行历史归类标注；并不表示军队、辖境人口或所有参与者均为汉人，也不推算人口比例。 刘氏家世族源另有讨论，通行叙述以汉人统治家族概括，本标签不代表完成了其远祖族源考证。",
+    "sources": [
+      "https://www.neac.gov.cn/seac/ztzl/hz/lsyg.shtml"
+    ],
+    "status": "通行概括",
+    "short": "汉"
+  },
+  "楚 · 荆南": {
+    "label": "汉",
+    "clan": "以汉人家族或地方军政首领为核心",
+    "note": "按统治家族或主要领导集团的通行历史归类标注；并不表示军队、辖境人口或所有参与者均为汉人，也不推算人口比例。",
+    "sources": [
+      "https://www.neac.gov.cn/seac/ztzl/hz/lsyg.shtml"
+    ],
+    "status": "通行概括",
+    "short": "汉"
+  },
+  "后蜀": {
+    "label": "汉",
+    "clan": "以汉人家族或地方军政首领为核心",
+    "note": "按统治家族或主要领导集团的通行历史归类标注；并不表示军队、辖境人口或所有参与者均为汉人，也不推算人口比例。",
+    "sources": [
+      "https://www.neac.gov.cn/seac/ztzl/hz/lsyg.shtml"
+    ],
+    "status": "通行概括",
+    "short": "汉"
+  },
+  "南唐": {
+    "label": "汉",
+    "clan": "以汉人家族或地方军政首领为核心",
+    "note": "按统治家族或主要领导集团的通行历史归类标注；并不表示军队、辖境人口或所有参与者均为汉人，也不推算人口比例。",
+    "sources": [
+      "https://www.neac.gov.cn/seac/ztzl/hz/lsyg.shtml"
+    ],
+    "status": "通行概括",
+    "short": "汉"
+  },
+  "后周": {
+    "label": "汉",
+    "clan": "郭氏、柴氏",
+    "note": "按统治家族或主要领导集团的通行历史归类标注；并不表示军队、辖境人口或所有参与者均为汉人，也不推算人口比例。",
+    "sources": [
+      "https://www.neac.gov.cn/seac/ztzl/hz/lsyg.shtml"
+    ],
+    "status": "通行概括",
+    "short": "汉"
+  },
+  "武平 · 荆南": {
+    "label": "汉",
+    "clan": "以汉人家族或地方军政首领为核心",
+    "note": "按统治家族或主要领导集团的通行历史归类标注；并不表示军队、辖境人口或所有参与者均为汉人，也不推算人口比例。",
+    "sources": [
+      "https://www.neac.gov.cn/seac/ztzl/hz/lsyg.shtml"
+    ],
+    "status": "通行概括",
+    "short": "汉"
+  },
+  "清源军": {
+    "label": "汉",
+    "clan": "以汉人家族或地方军政首领为核心",
+    "note": "按统治家族或主要领导集团的通行历史归类标注；并不表示军队、辖境人口或所有参与者均为汉人，也不推算人口比例。",
+    "sources": [
+      "https://www.neac.gov.cn/seac/ztzl/hz/lsyg.shtml"
+    ],
+    "status": "通行概括",
+    "short": "汉"
+  },
+  "武平（湖南）": {
+    "label": "汉",
+    "clan": "以汉人家族或地方军政首领为核心",
+    "note": "按统治家族或主要领导集团的通行历史归类标注；并不表示军队、辖境人口或所有参与者均为汉人，也不推算人口比例。",
+    "sources": [
+      "https://www.neac.gov.cn/seac/ztzl/hz/lsyg.shtml"
+    ],
+    "status": "通行概括",
+    "short": "汉"
+  },
+  "荆南（南平）": {
+    "label": "汉",
+    "clan": "以汉人家族或地方军政首领为核心",
+    "note": "按统治家族或主要领导集团的通行历史归类标注；并不表示军队、辖境人口或所有参与者均为汉人，也不推算人口比例。",
+    "sources": [
+      "https://www.neac.gov.cn/seac/ztzl/hz/lsyg.shtml"
+    ],
+    "status": "通行概括",
+    "short": "汉"
+  },
+  "南宋": {
+    "label": "汉",
+    "clan": "赵氏",
+    "note": "按统治家族或主要领导集团的通行历史归类标注；并不表示军队、辖境人口或所有参与者均为汉人，也不推算人口比例。",
+    "sources": [
+      "https://www.neac.gov.cn/seac/ztzl/hz/lsyg.shtml"
+    ],
+    "status": "通行概括",
+    "short": "汉"
+  },
+  "南宋（闽广行朝）": {
+    "label": "汉",
+    "clan": "赵氏及抗元行朝集团",
+    "note": "按统治家族或主要领导集团的通行历史归类标注；并不表示军队、辖境人口或所有参与者均为汉人，也不推算人口比例。",
+    "sources": [
+      "https://www.neac.gov.cn/seac/ztzl/hz/lsyg.shtml"
+    ],
+    "status": "通行概括",
+    "short": "汉"
+  },
+  "天完 · 陈友谅": {
+    "label": "汉",
+    "clan": "以汉人家族或地方军政首领为核心",
+    "note": "按统治家族或主要领导集团的通行历史归类标注；并不表示军队、辖境人口或所有参与者均为汉人，也不推算人口比例。",
+    "sources": [
+      "https://www.neac.gov.cn/seac/ztzl/hz/lsyg.shtml"
+    ],
+    "status": "通行概括",
+    "short": "汉"
+  },
+  "吴（朱元璋）": {
+    "label": "汉",
+    "clan": "以汉人家族或地方军政首领为核心",
+    "note": "按统治家族或主要领导集团的通行历史归类标注；并不表示军队、辖境人口或所有参与者均为汉人，也不推算人口比例。",
+    "sources": [
+      "https://www.neac.gov.cn/seac/ztzl/hz/lsyg.shtml"
+    ],
+    "status": "通行概括",
+    "short": "汉"
+  },
+  "宋（韩林儿）": {
+    "label": "汉",
+    "clan": "以汉人家族或地方军政首领为核心",
+    "note": "按统治家族或主要领导集团的通行历史归类标注；并不表示军队、辖境人口或所有参与者均为汉人，也不推算人口比例。",
+    "sources": [
+      "https://www.neac.gov.cn/seac/ztzl/hz/lsyg.shtml"
+    ],
+    "status": "通行概括",
+    "short": "汉"
+  },
+  "周（张士诚）": {
+    "label": "汉",
+    "clan": "以汉人家族或地方军政首领为核心",
+    "note": "按统治家族或主要领导集团的通行历史归类标注；并不表示军队、辖境人口或所有参与者均为汉人，也不推算人口比例。",
+    "sources": [
+      "https://www.neac.gov.cn/seac/ztzl/hz/lsyg.shtml"
+    ],
+    "status": "通行概括",
+    "short": "汉"
+  },
+  "夏（明玉珍）": {
+    "label": "汉",
+    "clan": "以汉人家族或地方军政首领为核心",
+    "note": "按统治家族或主要领导集团的通行历史归类标注；并不表示军队、辖境人口或所有参与者均为汉人，也不推算人口比例。",
+    "sources": [
+      "https://www.neac.gov.cn/seac/ztzl/hz/lsyg.shtml"
+    ],
+    "status": "通行概括",
+    "short": "汉"
+  },
+  "方国珍": {
+    "label": "汉",
+    "clan": "以汉人家族或地方军政首领为核心",
+    "note": "按统治家族或主要领导集团的通行历史归类标注；并不表示军队、辖境人口或所有参与者均为汉人，也不推算人口比例。",
+    "sources": [
+      "https://www.neac.gov.cn/seac/ztzl/hz/lsyg.shtml"
+    ],
+    "status": "通行概括",
+    "short": "汉"
+  },
+  "明夏（明玉珍）": {
+    "label": "汉",
+    "clan": "以汉人家族或地方军政首领为核心",
+    "note": "按统治家族或主要领导集团的通行历史归类标注；并不表示军队、辖境人口或所有参与者均为汉人，也不推算人口比例。",
+    "sources": [
+      "https://www.neac.gov.cn/seac/ztzl/hz/lsyg.shtml"
+    ],
+    "status": "通行概括",
+    "short": "汉"
+  },
+  "陈友定": {
+    "label": "汉",
+    "clan": "以汉人家族或地方军政首领为核心",
+    "note": "按统治家族或主要领导集团的通行历史归类标注；并不表示军队、辖境人口或所有参与者均为汉人，也不推算人口比例。",
+    "sources": [
+      "https://www.neac.gov.cn/seac/ztzl/hz/lsyg.shtml"
+    ],
+    "status": "通行概括",
+    "short": "汉"
+  },
+  "明": {
+    "label": "汉",
+    "clan": "朱氏",
+    "note": "按统治家族或主要领导集团的通行历史归类标注；并不表示军队、辖境人口或所有参与者均为汉人，也不推算人口比例。",
+    "sources": [
+      "https://www.neac.gov.cn/seac/ztzl/hz/lsyg.shtml"
+    ],
+    "status": "通行概括",
+    "short": "汉"
+  },
+  "明夏（明升）": {
+    "label": "汉",
+    "clan": "以汉人家族或地方军政首领为核心",
+    "note": "按统治家族或主要领导集团的通行历史归类标注；并不表示军队、辖境人口或所有参与者均为汉人，也不推算人口比例。",
+    "sources": [
+      "https://www.neac.gov.cn/seac/ztzl/hz/lsyg.shtml"
+    ],
+    "status": "通行概括",
+    "short": "汉"
+  },
+  "大顺（李自成）": {
+    "label": "汉",
+    "clan": "李自成及起义军集团",
+    "note": "按统治家族或主要领导集团的通行历史归类标注；并不表示军队、辖境人口或所有参与者均为汉人，也不推算人口比例。",
+    "sources": [
+      "https://www.neac.gov.cn/seac/ztzl/hz/lsyg.shtml"
+    ],
+    "status": "通行概括",
+    "short": "汉"
+  },
+  "大西（张献忠）": {
+    "label": "汉",
+    "clan": "张献忠及起义军集团",
+    "note": "按统治家族或主要领导集团的通行历史归类标注；并不表示军队、辖境人口或所有参与者均为汉人，也不推算人口比例。",
+    "sources": [
+      "https://www.neac.gov.cn/seac/ztzl/hz/lsyg.shtml"
+    ],
+    "status": "通行概括",
+    "short": "汉"
+  },
+  "南明": {
+    "label": "汉",
+    "clan": "朱氏诸宗室及抗清集团",
+    "note": "按统治家族或主要领导集团的通行历史归类标注；并不表示军队、辖境人口或所有参与者均为汉人，也不推算人口比例。",
+    "sources": [
+      "https://www.neac.gov.cn/seac/ztzl/hz/lsyg.shtml"
+    ],
+    "status": "通行概括",
+    "short": "汉"
+  },
+  "南明（明郑）": {
+    "label": "汉",
+    "clan": "郑氏集团及其明朝政治认同",
+    "note": "按统治家族或主要领导集团的通行历史归类标注；并不表示军队、辖境人口或所有参与者均为汉人，也不推算人口比例。 郑成功的母系日本背景不等于明郑统治集团或台湾人口整体变为日本人。",
+    "sources": [
+      "https://www.neac.gov.cn/seac/ztzl/hz/lsyg.shtml"
+    ],
+    "status": "通行概括",
+    "short": "汉"
+  },
+  "夏（传世王朝）": {
+    "label": "夏（传世族称）",
+    "short": "传世记载",
+    "clan": "先秦政治与族群称谓不套现代民族名录",
+    "note": "标签说明传世文献中的政治、文化语境，不表示疆域内人口或血缘同一。约前2070为年代框架起点；此点仅定位中原区域，不定位夏都或二里头。",
+    "sources": [
+      "https://www.chnmuseum.cn/portals/0/web/zt/gudai/detail2.html"
+    ],
+    "status": "语境说明"
+  },
+  "商": {
+    "label": "商人",
+    "short": "商人",
+    "clan": "先秦政治与族群称谓不套现代民族名录",
+    "note": "标签说明传世文献中的政治、文化语境，不表示疆域内人口或血缘同一。点位是已整理都邑或遗址的区域示意，未覆盖全部政治势力；代表时段不等于精确年度。",
+    "sources": [
+      "https://www.chnmuseum.cn/portals/0/web/zt/gudai/detail2.html",
+      "https://www.zhengzhou.gov.cn/view22/6472622.jhtml"
+    ],
+    "status": "语境说明"
+  },
+  "周王畿": {
+    "label": "周代诸侯／华夏语境",
+    "short": "周代诸侯",
+    "clan": "先秦政治与族群称谓不套现代民族名录",
+    "note": "标签说明传世文献中的政治、文化语境，不表示疆域内人口或血缘同一。点位是已整理都邑或遗址的区域示意，未覆盖全部政治势力；代表时段不等于精确年度。",
+    "sources": [
+      "https://www.chnmuseum.cn/portals/0/web/zt/gudai/detail2.html",
+      "https://zh.wikisource.org/wiki/史記/卷004"
+    ],
+    "status": "语境说明"
+  },
+  "成周": {
+    "label": "周代诸侯／华夏语境",
+    "short": "周代诸侯",
+    "clan": "先秦政治与族群称谓不套现代民族名录",
+    "note": "标签说明传世文献中的政治、文化语境，不表示疆域内人口或血缘同一。点位是已整理都邑或遗址的区域示意，未覆盖全部政治势力；代表时段不等于精确年度。",
+    "sources": [],
+    "status": "语境说明"
+  },
+  "鲁（春秋）": {
+    "label": "周代诸侯／华夏语境",
+    "short": "周代诸侯",
+    "clan": "先秦政治与族群称谓不套现代民族名录",
+    "note": "标签说明传世文献中的政治、文化语境，不表示疆域内人口或血缘同一。点位是已整理都邑或遗址的区域示意，未覆盖全部政治势力；代表时段不等于精确年度。",
+    "sources": [],
+    "status": "语境说明"
+  },
+  "齐（春秋）": {
+    "label": "周代诸侯／华夏语境",
+    "short": "周代诸侯",
+    "clan": "先秦政治与族群称谓不套现代民族名录",
+    "note": "标签说明传世文献中的政治、文化语境，不表示疆域内人口或血缘同一。点位是已整理都邑或遗址的区域示意，未覆盖全部政治势力；代表时段不等于精确年度。",
+    "sources": [],
+    "status": "语境说明"
+  },
+  "郑（春秋）": {
+    "label": "周代诸侯／华夏语境",
+    "short": "周代诸侯",
+    "clan": "先秦政治与族群称谓不套现代民族名录",
+    "note": "标签说明传世文献中的政治、文化语境，不表示疆域内人口或血缘同一。点位是已整理都邑或遗址的区域示意，未覆盖全部政治势力；代表时段不等于精确年度。",
+    "sources": [],
+    "status": "语境说明"
+  },
+  "齐（战国）": {
+    "label": "周代诸侯／华夏语境",
+    "short": "周代诸侯",
+    "clan": "先秦政治与族群称谓不套现代民族名录",
+    "note": "标签说明传世文献中的政治、文化语境，不表示疆域内人口或血缘同一。点位是已整理都邑或遗址的区域示意，未覆盖全部政治势力；代表时段不等于精确年度。",
+    "sources": [],
+    "status": "语境说明"
+  },
+  "鲁（战国）": {
+    "label": "周代诸侯／华夏语境",
+    "short": "周代诸侯",
+    "clan": "先秦政治与族群称谓不套现代民族名录",
+    "note": "标签说明传世文献中的政治、文化语境，不表示疆域内人口或血缘同一。点位是已整理都邑或遗址的区域示意，未覆盖全部政治势力；代表时段不等于精确年度。",
+    "sources": [],
+    "status": "语境说明"
+  },
+  "郑（战国）": {
+    "label": "周代诸侯／华夏语境",
+    "short": "周代诸侯",
+    "clan": "先秦政治与族群称谓不套现代民族名录",
+    "note": "标签说明传世文献中的政治、文化语境，不表示疆域内人口或血缘同一。点位是已整理都邑或遗址的区域示意，未覆盖全部政治势力；代表时段不等于精确年度。",
+    "sources": [],
+    "status": "语境说明"
+  },
+  "魏（战国）": {
+    "label": "周代诸侯／华夏语境",
+    "short": "周代诸侯",
+    "clan": "先秦政治与族群称谓不套现代民族名录",
+    "note": "标签说明传世文献中的政治、文化语境，不表示疆域内人口或血缘同一。同源开源阶段形势近似图，非逐年实测疆界；一个阶段可合并年内或阶段后期的扩张。前403年首图兼含田氏代齐后的形势，不能视为该年某一天的精确控制线。未采用上游通用邻国层。",
+    "sources": [
+      "https://zh.wikisource.org/wiki/史記/卷044",
+      "https://zh.wikisource.org/wiki/史記/卷015"
+    ],
+    "status": "语境说明"
+  },
+  "赵（战国）": {
+    "label": "周代诸侯／华夏语境",
+    "short": "周代诸侯",
+    "clan": "先秦政治与族群称谓不套现代民族名录",
+    "note": "标签说明传世文献中的政治、文化语境，不表示疆域内人口或血缘同一。同源开源阶段形势近似图，非逐年实测疆界；一个阶段可合并年内或阶段后期的扩张。前403年首图兼含田氏代齐后的形势，不能视为该年某一天的精确控制线。未采用上游通用邻国层。",
+    "sources": [],
+    "status": "语境说明"
+  },
+  "韩（战国）": {
+    "label": "周代诸侯／华夏语境",
+    "short": "周代诸侯",
+    "clan": "先秦政治与族群称谓不套现代民族名录",
+    "note": "标签说明传世文献中的政治、文化语境，不表示疆域内人口或血缘同一。同源开源阶段形势近似图，非逐年实测疆界；一个阶段可合并年内或阶段后期的扩张。前403年首图兼含田氏代齐后的形势，不能视为该年某一天的精确控制线。未采用上游通用邻国层。",
+    "sources": [],
+    "status": "语境说明"
+  },
+  "宋（战国）": {
+    "label": "周代诸侯／华夏语境",
+    "short": "周代诸侯",
+    "clan": "先秦政治与族群称谓不套现代民族名录",
+    "note": "标签说明传世文献中的政治、文化语境，不表示疆域内人口或血缘同一。同源开源阶段形势近似图，非逐年实测疆界；一个阶段可合并年内或阶段后期的扩张。前403年首图兼含田氏代齐后的形势，不能视为该年某一天的精确控制线。未采用上游通用邻国层。",
+    "sources": [],
+    "status": "语境说明"
+  },
+  "楚（战国）": {
+    "label": "周代诸侯／华夏语境",
+    "short": "周代诸侯",
+    "clan": "先秦政治与族群称谓不套现代民族名录",
+    "note": "标签说明传世文献中的政治、文化语境，不表示疆域内人口或血缘同一。同源开源阶段形势近似图，非逐年实测疆界；一个阶段可合并年内或阶段后期的扩张。前403年首图兼含田氏代齐后的形势，不能视为该年某一天的精确控制线。未采用上游通用邻国层。",
+    "sources": [],
+    "status": "语境说明"
+  },
+  "燕（战国）": {
+    "label": "周代诸侯／华夏语境",
+    "short": "周代诸侯",
+    "clan": "先秦政治与族群称谓不套现代民族名录",
+    "note": "标签说明传世文献中的政治、文化语境，不表示疆域内人口或血缘同一。同源开源阶段形势近似图，非逐年实测疆界；一个阶段可合并年内或阶段后期的扩张。前403年首图兼含田氏代齐后的形势，不能视为该年某一天的精确控制线。未采用上游通用邻国层。",
+    "sources": [],
+    "status": "语境说明"
+  },
+  "越（战国）": {
+    "label": "周代诸侯／华夏语境",
+    "short": "周代诸侯",
+    "clan": "先秦政治与族群称谓不套现代民族名录",
+    "note": "标签说明传世文献中的政治、文化语境，不表示疆域内人口或血缘同一。同源开源阶段形势近似图，非逐年实测疆界；一个阶段可合并年内或阶段后期的扩张。前403年首图兼含田氏代齐后的形势，不能视为该年某一天的精确控制线。未采用上游通用邻国层。",
+    "sources": [],
+    "status": "语境说明"
+  },
+  "蜀（战国）": {
+    "label": "周代诸侯／华夏语境",
+    "short": "周代诸侯",
+    "clan": "先秦政治与族群称谓不套现代民族名录",
+    "note": "标签说明传世文献中的政治、文化语境，不表示疆域内人口或血缘同一。同源开源阶段形势近似图，非逐年实测疆界；一个阶段可合并年内或阶段后期的扩张。前403年首图兼含田氏代齐后的形势，不能视为该年某一天的精确控制线。未采用上游通用邻国层。",
+    "sources": [],
+    "status": "语境说明"
+  },
+  "巴（战国）": {
+    "label": "周代诸侯／华夏语境",
+    "short": "周代诸侯",
+    "clan": "先秦政治与族群称谓不套现代民族名录",
+    "note": "标签说明传世文献中的政治、文化语境，不表示疆域内人口或血缘同一。同源开源阶段形势近似图，非逐年实测疆界；一个阶段可合并年内或阶段后期的扩张。前403年首图兼含田氏代齐后的形势，不能视为该年某一天的精确控制线。未采用上游通用邻国层。",
+    "sources": [],
+    "status": "语境说明"
+  },
+  "中山（战国）": {
+    "label": "周代诸侯／华夏语境",
+    "short": "周代诸侯",
+    "clan": "先秦政治与族群称谓不套现代民族名录",
+    "note": "标签说明传世文献中的政治、文化语境，不表示疆域内人口或血缘同一。同源开源阶段形势近似图，非逐年实测疆界；一个阶段可合并年内或阶段后期的扩张。前403年首图兼含田氏代齐后的形势，不能视为该年某一天的精确控制线。未采用上游通用邻国层。",
+    "sources": [],
+    "status": "语境说明"
+  },
+  "义渠（战国）": {
+    "label": "周代诸侯／华夏语境",
+    "short": "周代诸侯",
+    "clan": "先秦政治与族群称谓不套现代民族名录",
+    "note": "标签说明传世文献中的政治、文化语境，不表示疆域内人口或血缘同一。同源开源阶段形势近似图，非逐年实测疆界；一个阶段可合并年内或阶段后期的扩张。前403年首图兼含田氏代齐后的形势，不能视为该年某一天的精确控制线。未采用上游通用邻国层。",
+    "sources": [],
+    "status": "语境说明"
+  },
+  "代（战国）": {
+    "label": "周代诸侯／华夏语境",
+    "short": "周代诸侯",
+    "clan": "先秦政治与族群称谓不套现代民族名录",
+    "note": "标签说明传世文献中的政治、文化语境，不表示疆域内人口或血缘同一。同源开源阶段形势近似图，非逐年实测疆界；一个阶段可合并年内或阶段后期的扩张。前403年首图兼含田氏代齐后的形势，不能视为该年某一天的精确控制线。未采用上游通用邻国层。",
+    "sources": [],
+    "status": "语境说明"
+  }
+}

@@ -1,0 +1,324 @@
+{
+  "exported_at": "2026-10-26T00:46:44.298Z",
+  "source_revision": "67bebd43d2ab7ad260d610c33310cf7e40fa91bc",
+  "static_directory": "dist",
+  "file_count": 63,
+  "total_bytes": 25547840,
+  "files": [
+    {
+      "path": "D3-LICENSE.txt",
+      "bytes": 731,
+      "sha256": "3e6849627f74ff73c257a3ae1efb574015d94fc1035c05ec3c15805165efcbc4"
+    },
+    {
+      "path": "LICENSE.txt",
+      "bytes": 35150,
+      "sha256": "e57f1c320b8cf8798a7d2ff83a6f9e06a33a03585f6e065fea97f1d86db84052"
+    },
+    {
+      "path": "README.md",
+      "bytes": 50796,
+      "sha256": "f13c1aebf38e385734dcab2823f1e84b0f711095e0516dbc496cc1bfb36f0552"
+    },
+    {
+      "path": "ancient-atlas.json",
+      "bytes": 604134,
+      "sha256": "7092c22dfb4d2ac0144f2d519aa61812d587505a6445f2c70173b3cf6940b114"
+    },
+    {
+      "path": "ancient-events.json",
+      "bytes": 24007,
+      "sha256": "90b3990b371a6a1df5e18a097d8dfbbc3646d2dd3729b0768e4968629a6e186a"
+    },
+    {
+      "path": "ancient-guide.html",
+      "bytes": 11393,
+      "sha256": "4b7f0ee5f8e15d0a0f490918ee43799b25cc88167334af0042e4052be3145d7c"
+    },
+    {
+      "path": "ancient-map-evidence.json",
+      "bytes": 9766,
+      "sha256": "d56fb7c8d2e1c6a4e9739a56c0da04c85be2871e6dc8fae73da7795bbeac1aaf"
+    },
+    {
+      "path": "ancient-rulers.json",
+      "bytes": 72949,
+      "sha256": "f828cfc79b815b2738d20da82757aa73b7e8093bceab09346a2ceb2d0985169c"
+    },
+    {
+      "path": "annual-timeline.js",
+      "bytes": 9478,
+      "sha256": "551e8e22107e3ba38a4edc6ebfa2b07258be59b2e822466185e1c71354b2b0ce"
+    },
+    {
+      "path": "app.js",
+      "bytes": 48645,
+      "sha256": "94965e93d5c285ceede28d06dd4a8773268965cdee86cc8aebcdeb23646f51fb"
+    },
+    {
+      "path": "assets/dynasty-lettering/ART-DIRECTION.md",
+      "bytes": 12018,
+      "sha256": "e4ed3d8049aebe1f47135160d757db41ac132e7c1b0e12ea0ed3a61ae1dced5f"
+    },
+    {
+      "path": "assets/dynasty-lettering/han.png",
+      "bytes": 1255169,
+      "sha256": "573659f2bc3fafb03f55e4d55d43e35f4f285665aa7530b3dcfa08190acf1f50"
+    },
+    {
+      "path": "assets/dynasty-lettering/jin.png",
+      "bytes": 823933,
+      "sha256": "6f991421be265fc1286eaf474aaf66dda280a99880ea137f5e2eb79629d68a0d"
+    },
+    {
+      "path": "assets/dynasty-lettering/ming.png",
+      "bytes": 702180,
+      "sha256": "054bfb5077d9551aa2e3e36178874e0571e274f14392e302561c92ce9a7af02c"
+    },
+    {
+      "path": "assets/dynasty-lettering/qin.png",
+      "bytes": 954068,
+      "sha256": "7e370c16c326f901df22607d4031be233fb6a5943f8c3e0961f41feea29ba49b"
+    },
+    {
+      "path": "assets/dynasty-lettering/qing.png",
+      "bytes": 884468,
+      "sha256": "8ab25b327d50618ec3ed27990d85ca7a87e81bdf48672b8a49a06611c33e9dd0"
+    },
+    {
+      "path": "assets/dynasty-lettering/song.png",
+      "bytes": 791901,
+      "sha256": "b23e18f760de021635ca60c6fbe57634fc55a4a04c4825015e6bd08ad8131489"
+    },
+    {
+      "path": "assets/dynasty-lettering/sui.png",
+      "bytes": 870595,
+      "sha256": "80893503d536aa91d8e102b3cc2ffb46e2ce645eb305cce6c93a213e997a1887"
+    },
+    {
+      "path": "assets/dynasty-lettering/tang.png",
+      "bytes": 1119066,
+      "sha256": "42531bc92474244994ffb6e139158448324722bbe4f47b5c4957a0c297e8b615"
+    },
+    {
+      "path": "assets/dynasty-lettering/yuan.png",
+      "bytes": 812374,
+      "sha256": "3d4f2d6517d7c1cc715d354ff185e71fdf329fc3286e7ee11a62e83c05ca7895"
+    },
+    {
+      "path": "atlas-design.js",
+      "bytes": 4625,
+      "sha256": "53cf72c847e23a4a7f671b6627e05780dbf1a0b3d6f86c5ddc1ecf393e129509"
+    },
+    {
+      "path": "atlas-jump.js",
+      "bytes": 7796,
+      "sha256": "dd5f3995365141b67640f98bd7e5a7f9eaab496590003137e073c06c4d266c6f"
+    },
+    {
+      "path": "atlas-motion.js",
+      "bytes": 2768,
+      "sha256": "be221a675d22909353fd8ac2b166892cbf262c2b5dc105c927a194d469bcb4ce"
+    },
+    {
+      "path": "atlas.json",
+      "bytes": 4450914,
+      "sha256": "f8359ade37585d1f73e779b0f1e32db1e8b5866e3c01d40d54539c5247c6ba0f"
+    },
+    {
+      "path": "boundary-style.js",
+      "bytes": 1317,
+      "sha256": "05f94c2b8030a5d8ed2fa493805623007c5c3ddd47dd6da437a9df8d24d328d7"
+    },
+    {
+      "path": "capital-context.js",
+      "bytes": 3242,
+      "sha256": "2d286d05ae5e7dd8ae63658bc1dc1672962dc9ec49dba16d916d6e96914f071b"
+    },
+    {
+      "path": "capitals.json",
+      "bytes": 23945,
+      "sha256": "42ed81aaa4c62220d31b24b9f613e600eeed965c28df5f7580390b77e2edb63d"
+    },
+    {
+      "path": "chronicle-context.json",
+      "bytes": 9893,
+      "sha256": "f8771453756df4d55257968a1bc64dd86c4ec72d80784925a01aab0ac1bf645f"
+    },
+    {
+      "path": "chronology-verification.json",
+      "bytes": 101775,
+      "sha256": "03f52bf5cdf5126d43b1c6f6c3915d651386691e1a52325f5b9ab398238df33d"
+    },
+    {
+      "path": "city-evidence.js",
+      "bytes": 3408,
+      "sha256": "6ac3a5bbc3f7bf64d7c7e13836f6b54a06ebac8cf913fc5445cb329f25543694"
+    },
+    {
+      "path": "city-names.js",
+      "bytes": 1320,
+      "sha256": "465b7cf2a09e4fab60e46201ecc690a6a25e6a5529d61c875f2d06ce187a35f4"
+    },
+    {
+      "path": "city-names.json",
+      "bytes": 162259,
+      "sha256": "12daf48d10167e97de77c4dface47970570a3c32ff92bb236665ede62adcd68b"
+    },
+    {
+      "path": "city-verification.json",
+      "bytes": 21891,
+      "sha256": "8557ef8e1f80a2ba50f94a7bef86b70822ba8118d99fe12e6e84853b816e71f6"
+    },
+    {
+      "path": "d3.min.js",
+      "bytes": 279706,
+      "sha256": "f2094bbf6141b359722c4fe454eb6c4b0f0e42cc10cc7af921fc158fceb86539"
+    },
+    {
+      "path": "dynasty-colors.json",
+      "bytes": 15169,
+      "sha256": "0f9c989a3ec7716f97341626c5b0991b33e8fecc66fabba5c9751366fcf0240b"
+    },
+    {
+      "path": "dynasty-lettering.js",
+      "bytes": 3589,
+      "sha256": "07d4daca6fc8ee11d40dfda3b5bf361ed6bd4ddf3ab5e6f4a74f4d52e95c5faa"
+    },
+    {
+      "path": "dynasty-lettering.json",
+      "bytes": 5290,
+      "sha256": "9ce6c705b99ec7ea20d2a003bc8d8b53609065b35b26489807ed0c34e5f68a04"
+    },
+    {
+      "path": "emperor-lineage.js",
+      "bytes": 19071,
+      "sha256": "b1dc4114eff9b376bf0bbc01b6b9c11da59558122f33c8d565290ba07b279787"
+    },
+    {
+      "path": "emperor-lineages.json",
+      "bytes": 31323,
+      "sha256": "bc9b78f6237eef61937531b1ac3f5c13ebaf9b7fa589e9200661a10cf1a81f3d"
+    },
+    {
+      "path": "ethnicities.json",
+      "bytes": 87237,
+      "sha256": "e7a210452e4557a7e40e33cc78b2e5f6dbe09f13d8079ff9c30a32fc96253162"
+    },
+    {
+      "path": "event-visual.js",
+      "bytes": 2483,
+      "sha256": "bc676f59ae60d01b37243256444efa1c99d2f9d8ce7e61ccb06114b7f314e9b4"
+    },
+    {
+      "path": "history-chronicle.js",
+      "bytes": 11610,
+      "sha256": "18dd15e9018e50bcc1fcc2a91d5165cc6ff43fc5219749954ef3dda1bacce295"
+    },
+    {
+      "path": "history-events.json",
+      "bytes": 164089,
+      "sha256": "449f5a63278f84fdbc08c4a8d7ca4b42c956012b6ed1604b6b63a3c832cf70ec"
+    },
+    {
+      "path": "history-years.js",
+      "bytes": 3754,
+      "sha256": "af37724425a752f20c185a0098b1fe358ce9b12cd5a1d535ddebb466e16aa437"
+    },
+    {
+      "path": "index.html",
+      "bytes": 35260,
+      "sha256": "055f13e4b55c99aa4d9cc311da217e50114abe685ba9ab314c09cd4f792229ca"
+    },
+    {
+      "path": "land.json",
+      "bytes": 138160,
+      "sha256": "9e0729ee253ca7d7a5c4ae9395fb1902264c5377c52e224d13dd85010e2835d9"
+    },
+    {
+      "path": "leader-verification.json",
+      "bytes": 53678,
+      "sha256": "af5885b6ec5906d4475395fb1e1b745807aba1667bad81c2b0d25e3a8cbd21cf"
+    },
+    {
+      "path": "leaders.json",
+      "bytes": 771206,
+      "sha256": "b76021804550d4e2dfa965e41de5549c77c2b75b57181ac99f2ce3d70acdabb3"
+    },
+    {
+      "path": "lettering-gallery.html",
+      "bytes": 3209,
+      "sha256": "d1a8d539c53d1d19005536d8d6fe26dfc95883b15413d28da4b6f37ef207c717"
+    },
+    {
+      "path": "neighbor-context-early.json",
+      "bytes": 26919,
+      "sha256": "9b693c494db26d9a6f63170dbc8b2d83d5df6d01034f4f01b3171738151f01dc"
+    },
+    {
+      "path": "neighbor-context-late.json",
+      "bytes": 17217,
+      "sha256": "7940c982a762a314fb05b7723f2531c796d1edf5a114c236ff3a00d53b62acf2"
+    },
+    {
+      "path": "neighbor-context.js",
+      "bytes": 4683,
+      "sha256": "c1c9f1bc6c0973723f4fa4854a5adec1ee7485558abd3cf2d1b09a10c084a6ca"
+    },
+    {
+      "path": "neighbor-context.json",
+      "bytes": 42263,
+      "sha256": "d1cba3fc147377190d7e7269909ce75341eb72d42440214bb91a857c0c1e7e1f"
+    },
+    {
+      "path": "polity-outcomes.js",
+      "bytes": 9000,
+      "sha256": "6cb9899cc79c6eb4f08e4c151942c8652d4facaffd11cc826f717ca68010e916"
+    },
+    {
+      "path": "polity-outcomes.json",
+      "bytes": 26539,
+      "sha256": "f56a437d4e64a62f10ab87957912e8114690217a6ff256595ae90a566f04c4b5"
+    },
+    {
+      "path": "reigns.json",
+      "bytes": 176786,
+      "sha256": "be7b8b6aa4dd09264915ec26e67e6ab2449241b339dafa5ca4a91577906c22db"
+    },
+    {
+      "path": "research-review.html",
+      "bytes": 127566,
+      "sha256": "e91187494b285dd3687a739b25c527fbe7bcd8dbd6be4184d9a8c20ec23eebb6"
+    },
+    {
+      "path": "rivers.json",
+      "bytes": 81237,
+      "sha256": "b4f888d616b9f4f3a5199d975607488d7ea2d41311d646281c983bad28c80376"
+    },
+    {
+      "path": "source.zip",
+      "bytes": 9357527,
+      "sha256": "b4f2694597bb78c62b70c85f633d939e4d6a894943b46d04e9dc43e4b3391e60"
+    },
+    {
+      "path": "stories.json",
+      "bytes": 29908,
+      "sha256": "ae71c06283ae9e9287302bf85821386e02ef5bb7e287b278d50ed5798e58d73f"
+    },
+    {
+      "path": "style.css",
+      "bytes": 123687,
+      "sha256": "15fc241b540f94810327f9157532dd5cf0380ec5ea602714377346ba50200721"
+    },
+    {
+      "path": "time-axis.js",
+      "bytes": 6470,
+      "sha256": "8a818f807f58bbc52819d7b2e37fbd43509a50829a5c3408ac36356bc9b65026"
+    },
+    {
+      "path": "years-view.js",
+      "bytes": 5230,
+      "sha256": "0dd72ab45c8e382e2562de06c7e627f6d208729e0e211b35c04f8dd806292fc8"
+    }
+  ]
+}

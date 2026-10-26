@@ -1,0 +1,978 @@
+{
+  "sources": {
+    "cq_shiji": {
+      "title": "《史记》秦始皇本纪",
+      "url": "https://ctext.org/shiji/qin-shi-huang-ben-ji/zhs"
+    },
+    "cq_han": {
+      "title": "中国国家博物馆·秦汉时期",
+      "url": "https://www.chnmuseum.cn/portals/0/web/zt/gudai/detail4.html"
+    },
+    "cq_xiangyu": {
+      "title": "《史记》项羽本纪",
+      "url": "https://ctext.org/shiji/xiang-yu-ben-ji/zhs"
+    },
+    "cq_sanguo33": {
+      "title": "《三国志》卷33后主传",
+      "url": "https://zh.wikisource.org/wiki/三國志/卷33"
+    },
+    "cq_jin3": {
+      "title": "《晋书》卷3武帝纪",
+      "url": "https://zh.wikisource.org/wiki/晉書/卷003"
+    },
+    "cq_suitang": {
+      "title": "中国国家博物馆·隋唐五代时期",
+      "url": "https://www.chnmuseum.cn/portals/0/web/zt/gudai/detail6.html"
+    },
+    "cq_song1": {
+      "title": "《宋史》卷1太祖本纪一",
+      "url": "https://zh.wikisource.org/wiki/宋史/卷001"
+    },
+    "cq_song2": {
+      "title": "《宋史》卷2太祖本纪二",
+      "url": "https://zh.wikisource.org/wiki/宋史/卷002"
+    },
+    "cq_song3": {
+      "title": "《宋史》卷3太祖本纪三",
+      "url": "https://zh.wikisource.org/wiki/宋史/卷003"
+    },
+    "cq_song4": {
+      "title": "《宋史》卷4太宗本纪一",
+      "url": "https://zh.wikisource.org/wiki/宋史/卷004"
+    },
+    "cq_wuyue": {
+      "title": "浙江省社科联·纳土归宋",
+      "url": "https://www.zjskw.gov.cn/col/col1229556977/art/2026/art_0bf5c649e8280cea2b67498755ac6d79.html"
+    },
+    "cq_jin_taizong": {
+      "title": "《金史》卷3太宗本纪",
+      "url": "https://zh.wikisource.org/wiki/金史/卷3"
+    },
+    "cq_xixia": {
+      "title": "宁夏文物考古研究所·从考古发现看唐宋文化对西夏的影响",
+      "url": "https://www.nxkg.org.cn/xueshuyanjiu/527.html"
+    },
+    "cq_coalition": {
+      "title": "北京师范大学史学理论与史学史研究中心·宋代历史研究",
+      "url": "https://bnuhh.bnu.edu.cn/lsyj/38432.html"
+    },
+    "cq_song47": {
+      "title": "《宋史》卷47瀛国公、二王附",
+      "url": "https://zh.wikisource.org/wiki/宋史/卷047"
+    },
+    "cq_beiping": {
+      "title": "国务院参事室傅熹年·明清都城北京城",
+      "url": "https://www.counsellor.gov.cn/2009-10/23/c_1210743208.htm"
+    },
+    "cq_ming1644": {
+      "title": "故宫博物院·清廷迁都北京",
+      "url": "https://www.dpm.org.cn/court/event/159873.html"
+    },
+    "cq_hongguang": {
+      "title": "故宫博物院·南明弘光政权及其覆灭",
+      "url": "https://www.dpm.org.cn/court/event/159031.html"
+    },
+    "cq_yongli": {
+      "title": "中国国家博物馆·俘获永历帝宣捷诏谕",
+      "url": "https://www.chnmuseum.cn/zp/zpml/gjwxbt/202008/t20200824_247135.shtml"
+    },
+    "cq_zheng": {
+      "title": "故宫博物院·郑克塽",
+      "url": "https://www.dpm.org.cn/lemmas/241767.html"
+    },
+    "cq_abdication": {
+      "title": "故宫博物院·紫禁城从皇宫到博物院",
+      "url": "https://www.dpm.org.cn/onlineforum/detail/253138.html"
+    },
+    "cq_dynasty": {
+      "title": "日本国立公文书馆·汉籍相关年表（三国史事）",
+      "url": "https://www.archives.go.jp/exhibition/digital/rekishitomonogatari/history02.html"
+    },
+    "extra_tongjian_094": {
+      "title": "《资治通鉴》卷094·晋成帝咸和四年329年",
+      "url": "https://zh.wikisource.org/wiki/資治通鑑/卷094"
+    },
+    "extra_tongjian_097": {
+      "title": "《资治通鉴》卷097·晋穆帝永和三年347年",
+      "url": "https://zh.wikisource.org/wiki/資治通鑑/卷097"
+    },
+    "extra_tongjian_102": {
+      "title": "《资治通鉴》卷102·晋海西公太和五年370年",
+      "url": "https://zh.wikisource.org/wiki/資治通鑑/卷102"
+    },
+    "extra_tongjian_104": {
+      "title": "《资治通鉴》卷104·晋孝武帝太元元年376年",
+      "url": "https://zh.wikisource.org/wiki/資治通鑑/卷104"
+    },
+    "extra_tongjian_115": {
+      "title": "《资治通鉴》卷115·晋安帝义熙六年410年",
+      "url": "https://zh.wikisource.org/wiki/資治通鑑/卷115"
+    },
+    "extra_tongjian_118": {
+      "title": "《资治通鉴》卷118·晋安帝义熙十三年417年",
+      "url": "https://zh.wikisource.org/wiki/資治通鑑/卷118"
+    },
+    "extra_tongjian_122": {
+      "title": "《资治通鉴》卷122·宋文帝元嘉八年431年、九年432年",
+      "url": "https://zh.wikisource.org/wiki/資治通鑑/卷122"
+    },
+    "extra_tongjian_123": {
+      "title": "《资治通鉴》卷123·宋文帝元嘉十三年436年、十六年439年",
+      "url": "https://zh.wikisource.org/wiki/資治通鑑/卷123"
+    },
+    "extra_tongjian_173": {
+      "title": "《资治通鉴》卷173·陈宣帝太建九年577年",
+      "url": "https://zh.wikisource.org/wiki/資治通鑑/卷173"
+    },
+    "extra_chenghan": {
+      "title": "复旦大学CHGIS·宛暖县沿革，引用《晋书》卷8永和三年条",
+      "url": "https://tgaz.fudan.edu.cn/tgaz/placename/hvd_45533"
+    },
+    "extra_gaochang": {
+      "title": "甘肃文博局·两百余件文物展现五凉历史文化",
+      "url": "https://www.gswbj.gov.cn/a/2022/06/09/13939_2.html"
+    },
+    "extra_zhouqi": {
+      "title": "河北省民族事务委员会·燕赵三交史话",
+      "url": "https://mw.hebei.gov.cn/system/2023/12/26/030270010.shtml"
+    }
+  },
+  "events": [
+    {
+      "id": "end_qi",
+      "year": -221,
+      "title": "秦灭齐，完成兼并六国",
+      "type": "conquest",
+      "winners": [
+        "秦"
+      ],
+      "losers": [
+        "齐"
+      ],
+      "summary": "王贲率军攻齐，齐王建被俘。这里仅把齐作为前221年终结的政权；其余五国分属此前各年，不在同年重复灭亡。",
+      "sources": [
+        "cq_shiji"
+      ]
+    },
+    {
+      "id": "end_qin",
+      "year": -207,
+      "title": "子婴向刘邦军投降",
+      "type": "surrender",
+      "winners": [
+        "刘邦集团"
+      ],
+      "losers": [
+        "秦"
+      ],
+      "summary": "刘邦军进入关中，子婴出降。赢家不用尚未建立的汉朝；秦宫与子婴随后被项羽处置，部分通史据此把秦亡记前206年。",
+      "sources": [
+        "cq_shiji",
+        "cq_han"
+      ]
+    },
+    {
+      "id": "end_xichu",
+      "year": -202,
+      "title": "汉军击败项羽，西楚终结",
+      "type": "conquest",
+      "winners": [
+        "汉"
+      ],
+      "losers": [
+        "西楚"
+      ],
+      "summary": "垓下败局后项羽突围并自杀，西楚的核心军政集团瓦解。刘邦随后称帝；不把项羽最后行迹的文学细节当作地图坐标。",
+      "sources": [
+        "cq_xiangyu",
+        "cq_han"
+      ]
+    },
+    {
+      "id": "end_westhan",
+      "year": 9,
+      "title": "王莽代汉，建立新朝",
+      "type": "replacement",
+      "winners": [
+        "新"
+      ],
+      "losers": [
+        "西汉"
+      ],
+      "summary": "王莽取得帝位、改国号为新，属于夺权取代。传统纪年记初始元年末，公历跨入9年，部分年表按8年列，应保留年界说明。",
+      "sources": [
+        "cq_han"
+      ]
+    },
+    {
+      "id": "end_xin",
+      "year": 23,
+      "title": "起义与政权危机终结新朝",
+      "type": "collapse",
+      "winners": [],
+      "losers": [
+        "新"
+      ],
+      "summary": "绿林等反抗力量兴起，长安被攻入，王莽死，新朝终结。这里不指定东汉为赢家：刘秀到25年才建立东汉。",
+      "sources": [
+        "cq_han"
+      ]
+    },
+    {
+      "id": "end_easthan",
+      "year": 220,
+      "title": "曹丕受禅，曹魏代汉",
+      "type": "replacement",
+      "winners": [
+        "曹魏"
+      ],
+      "losers": [
+        "东汉"
+      ],
+      "summary": "曹丕取代汉献帝建立魏。此前中央权力已长期转移，这次是帝位与国号的更换，不应画成魏军从外部攻入汉都。",
+      "sources": [
+        "cq_han"
+      ]
+    },
+    {
+      "id": "end_shu",
+      "year": 263,
+      "title": "曹魏灭蜀汉",
+      "type": "conquest",
+      "winners": [
+        "曹魏"
+      ],
+      "losers": [
+        "蜀汉"
+      ],
+      "summary": "魏军邓艾、钟会等分路入蜀，邓艾破绵竹后抵近成都，刘禅请降。司马氏掌握魏实权，但赢家仍应标曹魏。",
+      "sources": [
+        "cq_sanguo33",
+        "cq_dynasty"
+      ]
+    },
+    {
+      "id": "end_wei",
+      "year": 265,
+      "title": "司马炎代魏，建立西晋",
+      "type": "replacement",
+      "winners": [
+        "西晋"
+      ],
+      "losers": [
+        "曹魏"
+      ],
+      "summary": "司马炎受曹奂禅让，改国号晋。传统纪年为265年十二月，折公历在266年；此处按通行王朝年表记265，不能画成军事灭魏。",
+      "sources": [
+        "cq_jin3",
+        "cq_dynasty"
+      ]
+    },
+    {
+      "id": "end_wu",
+      "year": 280,
+      "title": "西晋灭孙吴",
+      "type": "conquest",
+      "winners": [
+        "西晋"
+      ],
+      "losers": [
+        "孙吴"
+      ],
+      "summary": "晋军多路伐吴，水陆并进，孙皓在建业出降。灭吴与265年代魏相隔十五年，不能合成一次三国同时归晋。",
+      "sources": [
+        "cq_jin3",
+        "cq_dynasty"
+      ]
+    },
+    {
+      "id": "end_formerzhao",
+      "year": 329,
+      "title": "后赵终结前赵",
+      "type": "conquest",
+      "winners": [
+        "后赵"
+      ],
+      "losers": [
+        "前赵"
+      ],
+      "summary": "刘曜在328年兵败被俘后，刘熙、刘胤等退往上邽。329年后赵继续进攻并消灭其朝廷，故不能把刘曜被俘与前赵最终覆亡都压成328年。",
+      "sources": [
+        "extra_tongjian_094"
+      ]
+    },
+    {
+      "id": "end_chenghan",
+      "year": 347,
+      "title": "东晋桓温灭成汉",
+      "type": "conquest",
+      "winners": [
+        "东晋"
+      ],
+      "losers": [
+        "成汉"
+      ],
+      "summary": "桓温率晋军入蜀，攻成都，李势出降，成汉朝廷终结。军政胜利归属东晋；不因桓温后来专权，便将此时赢家另写成独立的桓氏政权。",
+      "sources": [
+        "extra_tongjian_097",
+        "extra_chenghan"
+      ]
+    },
+    {
+      "id": "end_formeryan",
+      "year": 370,
+      "title": "前秦灭前燕",
+      "type": "conquest",
+      "winners": [
+        "前秦"
+      ],
+      "losers": [
+        "前燕"
+      ],
+      "summary": "王猛等率前秦军击败慕容评，继而围邺。慕容暐出逃被俘，前燕覆亡；慕容氏此后的复国势力，应在后燕等各自时间线中另行呈现。",
+      "sources": [
+        "extra_tongjian_102"
+      ]
+    },
+    {
+      "id": "end_formerliang",
+      "year": 376,
+      "title": "前秦灭前凉",
+      "type": "conquest",
+      "winners": [
+        "前秦"
+      ],
+      "losers": [
+        "前凉"
+      ],
+      "summary": "前秦军进攻河西，张天锡在军事失败后出降，前凉统治终结。这一次受降属于战争结果，不与吴越主动纳土所代表的直接交接方式混为一类。",
+      "sources": [
+        "extra_tongjian_104"
+      ]
+    },
+    {
+      "id": "end_dai",
+      "year": 376,
+      "title": "前秦进攻并瓦解代国",
+      "type": "conquest",
+      "winners": [
+        "前秦"
+      ],
+      "losers": [
+        "代"
+      ],
+      "summary": "前秦军北进，代国同时发生内乱，拓跋什翼犍死，前秦分置其部众。代国在此终结，386年拓跋珪重建的政权另开北魏时间线。",
+      "sources": [
+        "extra_tongjian_104"
+      ]
+    },
+    {
+      "id": "end_southyan",
+      "year": 410,
+      "title": "东晋刘裕灭南燕",
+      "type": "conquest",
+      "winners": [
+        "东晋"
+      ],
+      "losers": [
+        "南燕"
+      ],
+      "summary": "刘裕率晋军围攻广固，城破后俘慕容超，南燕朝廷终结。此时刘裕仍以东晋将领身份作战，不能把尚未建立的刘宋当作灭燕赢家。",
+      "sources": [
+        "extra_tongjian_115"
+      ]
+    },
+    {
+      "id": "end_laterqin",
+      "year": 417,
+      "title": "东晋刘裕灭后秦",
+      "type": "conquest",
+      "winners": [
+        "东晋"
+      ],
+      "losers": [
+        "后秦"
+      ],
+      "summary": "晋军北伐进入长安，姚泓出降，后秦覆亡。刘裕随后南返，晋军不久失去关中；灭国与后来能否持续控制该地，是两件不同的事。",
+      "sources": [
+        "extra_tongjian_118"
+      ]
+    },
+    {
+      "id": "end_xia",
+      "year": 431,
+      "title": "吐谷浑俘赫连定，胡夏终结",
+      "type": "conquest",
+      "winners": [
+        "吐谷浑"
+      ],
+      "losers": [
+        "夏"
+      ],
+      "summary": "赫连定西进时被吐谷浑军俘获，夏国终结；432年再被送交北魏处死。北魏此前夺取统万城，并不等于431年最后擒王的直接赢家。",
+      "sources": [
+        "extra_tongjian_122"
+      ]
+    },
+    {
+      "id": "end_northyan",
+      "year": 436,
+      "title": "北魏进逼龙城，北燕终结",
+      "type": "conquest",
+      "winners": [
+        "北魏"
+      ],
+      "losers": [
+        "北燕"
+      ],
+      "summary": "北魏持续进逼龙城，冯弘在高句丽援军护送下弃城东走，北燕在辽西的统治结束。冯弘到438年才被杀，不能把出逃与死亡写成同年同地。",
+      "sources": [
+        "extra_tongjian_123"
+      ]
+    },
+    {
+      "id": "end_northliang_hexi",
+      "year": 439,
+      "title": "北魏取姑臧，北凉河西统治结束",
+      "type": "conquest",
+      "winners": [
+        "北魏"
+      ],
+      "losers": [
+        "北凉"
+      ],
+      "summary": "魏军围姑臧，沮渠牧犍出降，北凉河西朝廷终结。沮渠无讳、安周等后来转往高昌延续势力，至460年才为柔然所灭，不宜全数提前抹去。",
+      "sources": [
+        "extra_tongjian_123",
+        "extra_gaochang"
+      ]
+    },
+    {
+      "id": "end_northqi",
+      "year": 577,
+      "title": "北周灭北齐",
+      "type": "conquest",
+      "winners": [
+        "北周"
+      ],
+      "losers": [
+        "北齐"
+      ],
+      "summary": "周武帝宇文邕率军灭齐，高纬、高恒等被俘，北齐主要朝廷终结。高绍义等在突厥支持下仍有流亡活动，须与北齐本土统治区分。",
+      "sources": [
+        "extra_tongjian_173",
+        "extra_zhouqi"
+      ]
+    },
+    {
+      "id": "end_northzhou",
+      "year": 581,
+      "title": "杨坚代北周，建立隋",
+      "type": "replacement",
+      "winners": [
+        "隋"
+      ],
+      "losers": [
+        "北周"
+      ],
+      "summary": "杨坚在北周朝廷内掌权后取得帝位，改国号隋。北方大部政权继承发生于此；不是隋从境外发动灭周战争。",
+      "sources": [
+        "cq_suitang"
+      ]
+    },
+    {
+      "id": "end_chen",
+      "year": 589,
+      "title": "隋军灭陈",
+      "type": "conquest",
+      "winners": [
+        "隋"
+      ],
+      "losers": [
+        "陈"
+      ],
+      "summary": "隋军攻入建康，陈叔宝被俘，陈朝中央政权终结。此役完成南北主要政权统一，地方社会的整合仍需继续进行。",
+      "sources": [
+        "cq_suitang"
+      ]
+    },
+    {
+      "id": "end_sui",
+      "year": 618,
+      "title": "江都政变与天下割据终结隋廷",
+      "type": "collapse",
+      "winners": [],
+      "losers": [
+        "隋"
+      ],
+      "summary": "炀帝在江都政变中被杀，各地已形成多支势力，李渊同年建唐。隋的崩解并非唐军一次攻城所致，部分隋号延续至619年。",
+      "sources": [
+        "cq_suitang"
+      ]
+    },
+    {
+      "id": "end_tang",
+      "year": 907,
+      "title": "朱温代唐，建立后梁",
+      "type": "replacement",
+      "winners": [
+        "后梁"
+      ],
+      "losers": [
+        "唐"
+      ],
+      "summary": "朱温控制唐廷后迫使哀帝逊位，建立后梁。唐末战争是背景，907年的直接转换是国号与帝位被取代，应与军事进军区别。",
+      "sources": [
+        "cq_suitang"
+      ]
+    },
+    {
+      "id": "end_laterzhou",
+      "year": 960,
+      "title": "陈桥兵变后北宋代后周",
+      "type": "replacement",
+      "winners": [
+        "北宋"
+      ],
+      "losers": [
+        "后周"
+      ],
+      "summary": "赵匡胤在陈桥兵变后回开封，取得后周帝位并建宋。政权取代伴有军事胁迫，但不是宋从另一个领土国家出兵灭周。",
+      "sources": [
+        "cq_song1"
+      ]
+    },
+    {
+      "id": "end_latershu",
+      "year": 965,
+      "title": "北宋灭后蜀",
+      "type": "conquest",
+      "winners": [
+        "北宋"
+      ],
+      "losers": [
+        "后蜀"
+      ],
+      "summary": "宋军由王全斌等率领入蜀，攻破剑门，孟昶投降。终结后蜀后仍有地方动乱，不能把朝廷投降等同全境立即平稳。",
+      "sources": [
+        "cq_song2"
+      ]
+    },
+    {
+      "id": "end_southhan",
+      "year": 971,
+      "title": "北宋灭南汉",
+      "type": "conquest",
+      "winners": [
+        "北宋"
+      ],
+      "losers": [
+        "南汉"
+      ],
+      "summary": "宋军南下攻入广州，刘鋹被俘，南汉终结。地图应把这次南方军事兼并与北宋960年取代后周分开呈现。",
+      "sources": [
+        "cq_song2"
+      ]
+    },
+    {
+      "id": "end_southtang",
+      "year": 975,
+      "title": "北宋灭南唐",
+      "type": "conquest",
+      "winners": [
+        "北宋"
+      ],
+      "losers": [
+        "南唐"
+      ],
+      "summary": "宋军包围并攻入金陵，李煜出降，南唐政权终结。不能因其较早向宋称臣，便把早期称臣当作已经亡国。",
+      "sources": [
+        "cq_song3"
+      ]
+    },
+    {
+      "id": "end_wuyue",
+      "year": 978,
+      "title": "吴越纳土归宋",
+      "type": "surrender",
+      "winners": [
+        "北宋"
+      ],
+      "losers": [
+        "吴越"
+      ],
+      "summary": "钱俶向宋廷献所辖州县，吴越作为割据政权结束。它发生在军事压力和政治选择之中，但直接方式是纳土，不能虚构攻杭州战役。",
+      "sources": [
+        "cq_wuyue"
+      ]
+    },
+    {
+      "id": "end_northhan",
+      "year": 979,
+      "title": "北宋灭北汉",
+      "type": "conquest",
+      "winners": [
+        "北宋"
+      ],
+      "losers": [
+        "北汉"
+      ],
+      "summary": "宋太宗率军围攻太原，刘继元出降，北汉终结。此后宋辽仍并立，结束十国主要割据局面不等于消灭周边所有政权。",
+      "sources": [
+        "cq_song4"
+      ]
+    },
+    {
+      "id": "end_liao",
+      "year": 1125,
+      "title": "金俘天祚帝，辽朝中央政权终结",
+      "type": "conquest",
+      "winners": [
+        "金"
+      ],
+      "losers": [
+        "辽"
+      ],
+      "summary": "金军俘辽天祚帝，辽朝在本土的中央统治终结。耶律大石等另建西辽，不能把1125年画成所有契丹政治力量同时消失。",
+      "sources": [
+        "cq_jin_taizong"
+      ]
+    },
+    {
+      "id": "end_northsong",
+      "year": 1127,
+      "title": "靖康之变，北宋朝廷终结",
+      "type": "conquest",
+      "winners": [
+        "金"
+      ],
+      "losers": [
+        "北宋"
+      ],
+      "summary": "金军攻破汴京并俘徽、钦二帝，北宋朝廷终结。赵构同年重建宋廷，史称南宋；宋朝并没有在1127年全部结束。",
+      "sources": [
+        "cq_jin_taizong"
+      ]
+    },
+    {
+      "id": "end_xixia",
+      "year": 1227,
+      "title": "蒙古灭西夏",
+      "type": "conquest",
+      "winners": [
+        "蒙古"
+      ],
+      "losers": [
+        "西夏"
+      ],
+      "summary": "蒙古长期进攻后围困夏都，夏主投降，西夏政权结束。军事征服终结的是国家统治，党项人与西夏文字、文化仍有后续历史。",
+      "sources": [
+        "cq_xixia"
+      ]
+    },
+    {
+      "id": "end_jin",
+      "year": 1234,
+      "title": "蒙古与南宋联合灭金",
+      "type": "coalition",
+      "winners": [
+        "蒙古",
+        "南宋"
+      ],
+      "losers": [
+        "金"
+      ],
+      "summary": "南宋出兵并助粮，与蒙古夹攻蔡州，金朝最后朝廷覆灭。双方短暂合作不等于领土均分，随后很快因河南等问题冲突。",
+      "sources": [
+        "cq_coalition"
+      ]
+    },
+    {
+      "id": "end_southsong",
+      "year": 1279,
+      "title": "元军崖山获胜，南宋行朝终结",
+      "type": "conquest",
+      "winners": [
+        "元"
+      ],
+      "losers": [
+        "南宋"
+      ],
+      "summary": "崖山海战宋军战败，陆秀夫负幼帝赵昺投海，南宋最后行朝终结。临安早在1276年归降，末代行朝仍又延续数年。",
+      "sources": [
+        "cq_song47"
+      ]
+    },
+    {
+      "id": "end_yuan_dadu",
+      "year": 1368,
+      "title": "明军取大都，元廷北走",
+      "type": "conquest",
+      "winners": [
+        "明"
+      ],
+      "losers": [
+        "元"
+      ],
+      "summary": "徐达率明军进入大都，元廷退往北方，元朝在中原的统治终结。蒙古高原上的北元继续存在，不应把全部元廷势力直接删除。",
+      "sources": [
+        "cq_beiping"
+      ]
+    },
+    {
+      "id": "end_ming_beijing",
+      "year": 1644,
+      "title": "大顺攻入北京，崇祯朝廷终结",
+      "type": "conquest",
+      "winners": [
+        "大顺"
+      ],
+      "losers": [
+        "明"
+      ],
+      "summary": "李自成军攻入北京，崇祯帝自缢，北京明廷终结。清军随后入关，南方又建立南明；不能把此事简写为清军在北京灭明。",
+      "sources": [
+        "cq_ming1644"
+      ]
+    },
+    {
+      "id": "end_hongguang",
+      "year": 1645,
+      "title": "清军攻取南京，弘光政权覆灭",
+      "type": "conquest",
+      "winners": [
+        "清"
+      ],
+      "losers": [
+        "南明弘光"
+      ],
+      "summary": "清军南下攻取南京，弘光帝被俘，弘光政权终结。南明此后仍有隆武、永历等朝廷，不能把弘光覆灭等同全部南明结束。",
+      "sources": [
+        "cq_hongguang"
+      ]
+    },
+    {
+      "id": "end_yongli",
+      "year": 1662,
+      "title": "永历帝被杀，永历朝廷终结",
+      "type": "conquest",
+      "winners": [
+        "清"
+      ],
+      "losers": [
+        "南明永历"
+      ],
+      "summary": "永历帝在缅甸被交清军，后被吴三桂杀于昆明。此处用1662年标朝廷终结；明郑和部分抗清武装此后仍继续活动。",
+      "sources": [
+        "cq_yongli"
+      ]
+    },
+    {
+      "id": "end_zheng",
+      "year": 1683,
+      "title": "澎湖战败后明郑降清",
+      "type": "surrender",
+      "winners": [
+        "清"
+      ],
+      "losers": [
+        "明郑"
+      ],
+      "summary": "施琅率清军击败澎湖守军，郑克塽随后奉表归降。终结方式是战后投降，不应画成清军攻破台湾本岛都城的虚构战役。",
+      "sources": [
+        "cq_zheng"
+      ]
+    }
+  ],
+  "version": 1,
+  "scope": "Selected political endings and successions, with separately dated reference maps. Geographic overlap does not establish exact transfer boundaries.",
+  "terminalNotes": [
+    {
+      "id": "end_qing",
+      "year": 1912,
+      "title": "清帝退位，帝制政权交接",
+      "type": "replacement",
+      "winners": [
+        "中华民国"
+      ],
+      "losers": [
+        "清"
+      ],
+      "summary": "辛亥革命与南北议和后，清帝于1912年2月12日退位。这是共和国取代君主政权的制度交接，不可画成民国军队攻陷紫禁城。",
+      "sources": [
+        "cq_abdication"
+      ]
+    }
+  ],
+  "aliases": {
+    "秦": [
+      "秦"
+    ],
+    "齐": [
+      "齐"
+    ],
+    "刘邦集团": [
+      "汉（刘邦）",
+      "汉（郡国并行）"
+    ],
+    "汉": [
+      "汉（刘邦）",
+      "汉（郡国并行）",
+      "汉"
+    ],
+    "西楚": [
+      "西楚（项羽）"
+    ],
+    "西汉": [
+      "汉（郡国并行）",
+      "汉"
+    ],
+    "新": [
+      "新（王莽）"
+    ],
+    "东汉": [
+      "东汉"
+    ],
+    "曹魏": [
+      "魏"
+    ],
+    "蜀汉": [
+      "蜀汉"
+    ],
+    "西晋": [
+      "晋"
+    ],
+    "孙吴": [
+      "吴"
+    ],
+    "北周": [
+      "北周"
+    ],
+    "隋": [
+      "隋"
+    ],
+    "陈": [
+      "陈"
+    ],
+    "唐": [
+      "唐",
+      "唐 · 岐（关中）"
+    ],
+    "后梁": [
+      "后梁"
+    ],
+    "后周": [
+      "后周"
+    ],
+    "北宋": [
+      "宋"
+    ],
+    "后蜀": [
+      "后蜀"
+    ],
+    "南汉": [
+      "南汉"
+    ],
+    "南唐": [
+      "南唐"
+    ],
+    "吴越": [
+      "吴越"
+    ],
+    "北汉": [
+      "北汉"
+    ],
+    "金": [
+      "金",
+      "金（迁都汴京）"
+    ],
+    "辽": [
+      "辽",
+      "契丹"
+    ],
+    "西夏": [
+      "西夏"
+    ],
+    "蒙古": [
+      "大蒙古国"
+    ],
+    "南宋": [
+      "南宋",
+      "南宋（闽广行朝）"
+    ],
+    "元": [
+      "元"
+    ],
+    "明": [
+      "明"
+    ],
+    "大顺": [
+      "大顺（李自成）"
+    ],
+    "清": [
+      "清"
+    ],
+    "南明弘光": [
+      "南明弘光"
+    ],
+    "南明永历": [
+      "南明永历"
+    ],
+    "明郑": [
+      "南明（明郑）"
+    ],
+    "后赵": [
+      "后赵"
+    ],
+    "前赵": [
+      "前赵",
+      "汉赵"
+    ],
+    "东晋": [
+      "东晋"
+    ],
+    "成汉": [
+      "成汉"
+    ],
+    "前秦": [
+      "前秦",
+      "前秦（苻坚一统北方）"
+    ],
+    "前燕": [
+      "前燕"
+    ],
+    "前凉": [
+      "前凉"
+    ],
+    "代": [
+      "代"
+    ],
+    "南燕": [
+      "南燕"
+    ],
+    "后秦": [
+      "后秦"
+    ],
+    "吐谷浑": [
+      "吐谷浑"
+    ],
+    "夏": [
+      "胡夏"
+    ],
+    "胡夏": [
+      "胡夏"
+    ],
+    "北魏": [
+      "北魏"
+    ],
+    "北燕": [
+      "北燕"
+    ],
+    "北凉": [
+      "北凉"
+    ],
+    "北齐": [
+      "北齐"
+    ]
+  }
+}

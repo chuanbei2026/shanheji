@@ -1,0 +1,5269 @@
+{
+  "version": 2,
+  "updated": "2026-10-25",
+  "method": "分期采用可追溯的城邑名称、汉文通称或州府治所名；区间是整理范围，非保证唯一官方名称。点位为区域示意，文献冲突和缺证单列。",
+  "sources": {
+    "xian": {
+      "title": "西安市政府 · 建置沿革",
+      "url": "https://www.xa.gov.cn/sq/csgk/lsyg/1.html",
+      "evidence": "记汉长安、新莽常安、隋大兴、唐长安与明清西安府；元安西路年份另与陕西省志、西安市志交叉核对。"
+    },
+    "beijing": {
+      "title": "北京市政府 · 北京名称沿革",
+      "url": "https://www.beijing.gov.cn/renwen/sy/whkb/201907/t20190715_1866582.html",
+      "evidence": "市政府名称沿革支持幽州、涿郡、辽南京/燕京、金中都、元大都、明北平/北京的基本序列。"
+    },
+    "luoyang": {
+      "title": "洛阳市政府 · 历史沿革",
+      "url": "https://www.ly.gov.cn/mlly/lsyg/",
+      "evidence": "市政府沿革支持王莽宜阳、东汉雒阳、605年另筑隋唐新城；新城与汉魏洛阳故城分址。"
+    },
+    "jinan": {
+      "title": "济南市政府 · 历史概况",
+      "url": "https://www.jinan.gov.cn/col/col129/index.html",
+      "evidence": "济南市政府历史概况支持历城、齐州、齐郡等沿革及1116济南府，元济南路、明清济南府。"
+    },
+    "kaifeng": {
+      "title": "开封党史方志网 · 历史沿革",
+      "url": "https://www.kfdsw.com/index/detail/id/3.html",
+      "evidence": "开封党史方志沿革支持秦浚仪、576年汴州及后世开封府称谓。"
+    },
+    "kaifeng2": {
+      "title": "复旦大学 CHGIS · 开封沿革",
+      "url": "https://tgaz.fudan.edu.cn/tgaz/placename/hvd_44323",
+      "evidence": "CHGIS记907开封府、923汴州、938开封府及947年内州府反复，宋东京、金南京及1288汴梁路。"
+    },
+    "lanzhou": {
+      "title": "甘肃经济信息网 · 兰州历史沿革",
+      "url": "https://www.gsei.com.cn/html/1485/2018-08-30/content-210028.html",
+      "evidence": "金城、隋兰州、隋唐金城郡/兰州更替；明确州郡称谓而非现代城市行政单位。"
+    },
+    "yinchuan": {
+      "title": "银川市政府 · 历史沿革",
+      "url": "https://www.yinchuan.gov.cn/sshc/ycgk/lsyg/",
+      "evidence": "怀远、1020兴州、1038西夏定都兴庆府、1288宁夏府路；明宁夏镇，清宁夏府。"
+    },
+    "shenyang": {
+      "title": "中华文史网 · 盛京城建沿革",
+      "url": "https://www.qinghistory.cn/c/393/393918.shtml",
+      "evidence": "现有来源支持1634年沈阳改盛京，盛京为京号，与1657年奉天府并行。"
+    },
+    "taiyuan": {
+      "title": "晋阳古城考古与遗址保护",
+      "url": "https://www.jcgov.gov.cn/dtxx/sxyw/202211/t20221126_1706303.shtml",
+      "evidence": "政府考古报道说明晋阳故城在今晋源，979年宋灭北汉后旧城毁弃；新太原另址发展。"
+    },
+    "qin": {
+      "title": "西安科普网 · 秦咸阳城遗址范围",
+      "url": "https://xakpw.com/single/19949"
+    },
+    "north-xian-gazetteer": {
+      "title": "陕西省志·行政建置沿革",
+      "url": "https://dfz.shaanxi.gov.cn/zslm/fzzlk/xbsxsz/szdylpdf/201404/P020240923604413534494.pdf",
+      "evidence": "713年撤雍州设京兆府；907年改大安府，923年复京兆府；1279年改安西路；1312年改奉元路。"
+    },
+    "north-xian-chronicle": {
+      "title": "西安市志·第一卷总类",
+      "url": "https://dfz.shaanxi.gov.cn/zslm/fzzlk/xbsxsxz/xbsxz/xas_16198/201405/P020240923625160882829.pdf",
+      "evidence": "583年三月由汉长安迁新都大兴；明确记1279年改京兆府为安西路总管府。"
+    },
+    "north-xian-years": {
+      "title": "陕西省志·大事记",
+      "url": "https://dfz.shaanxi.gov.cn/zslm/fzzlk/xbsxsz/szdylpdf/201404/P020240923616206405975.pdf",
+      "evidence": "582年诏营大兴，583年迁都；1278年七月京兆府改安西府，1279年十二月再改安西路。"
+    },
+    "north-ly-alias": {
+      "title": "河南省文旅资料·洛阳别号知多少",
+      "url": "https://ytsc.rootinhenan.gov.cn/sitesources/ytsc/page_pc/hnly/xsgq/articlea17c732ec5d847aaa37127623b37630e.html",
+      "evidence": "657年称东都，684年神都，705年复东都，742年东京，761年停东京，762年复东都；947年起称西京，1217年金改中京。"
+    },
+    "north-bj-tang": {
+      "title": "北京市文物局·唐幽州城北市的留痕",
+      "url": "https://wwj.beijing.gov.cn/bjww/362760/362770/743974740/index.html",
+      "evidence": "唐代题记可见范阳郡市、幽州市并用；742年幽州改范阳郡，758年复幽州。"
+    },
+    "north-bj-song": {
+      "title": "北京市文物局·北京史地",
+      "url": "https://wwj.beijing.gov.cn/bjww/resource/cms/article/bjww_362762/10837017/2020073115111634980.pdf",
+      "evidence": "1123年宋以岁币和代税钱赎回燕京，设置燕山府；引用1125年使行所见，证实短暂宋治。"
+    },
+    "north-bj-fangshan": {
+      "title": "房山政协地方史·史家营乡沿革",
+      "url": "https://zx.bjfsh.gov.cn/zxsz/fsczsh/dsszfldc_fzznjdassjyxylpw/202510/P020251010756985830216.pdf",
+      "evidence": "938年幽都府、南京；1012年改析津府；1123年宋设燕山府，1125年十二月再归金；1403年北京、顺天府。"
+    },
+    "north-bj-rd": {
+      "title": "北京人大·北京从这里走来",
+      "url": "https://www.bjrd.gov.cn/fwhd/bjrdzz/2025n/d2q/bjsq02/202503/t20250318_4037622.html",
+      "evidence": "1153年改燕京为中都、析津府为大兴府；说明金中都与后来的元大都不是同一城址。"
+    },
+    "north-jinan-chgis": {
+      "title": "复旦CHGIS·济南路",
+      "url": "https://tgaz.fudan.edu.cn/tgaz/placename/hvd_86025",
+      "evidence": "记录济南路1279—1366，治历城县，今济南老城附近。记录繁简名字段不一致，须按类型路和来源说明判读。"
+    },
+    "north-jinan-1265": {
+      "title": "山东地情档案·滨州建置",
+      "url": "https://shandong-chorography.org/database/bd/section/2/article/31/",
+      "evidence": "1265年滨州改属济南路，说明济南路至少在1265年已存在。不能把1279数据库切片的起年误当始置年。"
+    },
+    "north-jinan-district": {
+      "title": "山东地情档案·市中区志历史沿革",
+      "url": "https://shandong-chorography.org/database/c12/section/1/article/5/",
+      "evidence": "北宋齐州治历城；1116年齐州升济南府，历城仍为附郭县；说明州府名和县名并存。"
+    },
+    "north-taiyuan-history": {
+      "title": "香港中文大学·读史方舆纪要太原府",
+      "url": "https://humanum.arts.cuhk.edu.hk/Lexis/lexi-mf/chinaPlaces.php?pid=0401",
+      "evidence": "723年并州升太原府，979年复并州，1059年复太原府；元置太原路，1305年改冀宁路，明复太原府。"
+    },
+    "north-taiyuan-relocation": {
+      "title": "复旦CHGIS·榆次县沿革",
+      "url": "https://tgaz.fudan.edu.cn/tgaz/placename/hvd_95649",
+      "evidence": "宋灭北汉后并州暂治榆次，982年迁唐明监；今太原老城与晋阳故城分处不同位置。"
+    },
+    "north-taiyuan-map": {
+      "title": "中国地图出版集团·太原历史地名",
+      "url": "https://cloud.chinamap.com/toponym/list?id=1849682984609857539&moudleDesc=中国历史地名",
+      "evidence": "收录723年太原府、1059年复府、1218年太原路、1305年冀宁路、1368年复太原府；元置路起年与读史方舆纪要1216说不同。"
+    },
+    "north-taiyuan-chgis": {
+      "title": "CHGIS·太原府1368—1911",
+      "url": "https://chgis.hudci.org/tgaz/placename/hvd_94021",
+      "evidence": "明清太原府1368—1911，治点约东经112.56、北纬37.87，非晋阳遗址。"
+    },
+    "north-yinchuan-mca": {
+      "title": "宁夏民政厅·探寻宁夏地名解锁文明密码七",
+      "url": "https://mca.nx.gov.cn/xwzx/mzdt/202511/t20251125_5091349.html",
+      "evidence": "1020年怀远改兴州，1033年升兴庆府，1038年西夏正式定都；明确区分升府和建国。"
+    },
+    "north-yinchuan-dict": {
+      "title": "中国历史地名辞典·银川市",
+      "url": "https://www.cidianwang.com/lishi/diming/3/13453xz.htm",
+      "evidence": "1033年兴庆府，1205年改中兴府；1724年裁卫设宁夏府，以宁夏、宁朔为附郭县。属于历史地名辞典转录，1205起年仍建议与西夏专门研究交叉核。"
+    },
+    "north-shenyang-mca": {
+      "title": "沈阳市民政局·地名文化资料",
+      "url": "https://mzj.shenyang.gov.cn/xxgk/mzfc/202209/P020220919596378727460.pdf",
+      "evidence": "921年辽建沈州城，使沈阳城址基本固定；1625年后金迁都沈阳。"
+    },
+    "north-shenyang-qing": {
+      "title": "清史研究·沈阳城历史沿革",
+      "url": "https://www.qinghistory.cn/c/393/393918.shtml",
+      "evidence": "辽金沈州、元沈阳路、明沈阳中卫；1625年迁都，1657年置奉天府，府名与盛京京号并存。"
+    },
+    "north-shenyang-lnr": {
+      "title": "辽宁日报·辽沈州历史",
+      "url": "https://epaper.lnd.com.cn/lnrbepaper/pc/con/202112/07/content_135302.html",
+      "evidence": "碑刻和建制记载支持辽沈州、1296年元设沈阳路，沈阳之名由此进入正式建制。"
+    },
+    "north-dh-yearbook": {
+      "title": "敦煌年鉴2025·历史沿革",
+      "url": "https://www.gsdfszw.org.cn/gsxnj/jqs_304/dhnj/202510/P020251023641294333189.pdf",
+      "evidence": "沿革记622年西沙州、633年沙州、1280年沙州路总管府、1405年沙州卫、1528年关嘉峪关并迁走居民、清雍正复置所卫、1760年敦煌县。大文件网页工具不能全文打开，以上依据检索索引摘文，重要起年宜再核书页。"
+    },
+    "north-dh-chgis": {
+      "title": "复旦CHGIS·敦煌县前88—557",
+      "url": "https://tgaz.fudan.edu.cn/tgaz/placename/hvd_70594",
+      "evidence": "敦煌县记录前88—557；汉唐故城位于党河西岸，约94.62、40.14。郡州归属曾反复，故早期采用县城名而不把敦煌郡当成持续不变的层级。"
+    },
+    "north-dh-zhou": {
+      "title": "敦煌研究2017年第2期·瓜州塔考",
+      "url": "https://ygx.sxu.edu.cn/db/期刊/dhyj/dhyj2017/1702pdf/170212.pdf",
+      "evidence": "说明北魏瓜州在今敦煌，隋607年改敦煌郡，619年复瓜州；唐622年另在晋昌设置的瓜州位于今瓜州县，不能与敦煌城混为一点。"
+    },
+    "north-dh-primary": {
+      "title": "文献通考·沙州沿革",
+      "url": "https://www.shidianguji.com/mid-page/7592362182253543475",
+      "evidence": "唐天宝元年742改敦煌郡，乾元元年758复沙州；采用原典来补足唐代短暂郡号。"
+    },
+    "north-dh-gazetteer": {
+      "title": "敦煌县志卷二",
+      "url": "https://www.shidianguji.com/zh/book/LGS10116451/chapter/1m2bdvpzdtmh5",
+      "evidence": "元至元十七年1280年为沙州路；清乾隆二十五年1760年沙州卫改敦煌县。"
+    },
+    "north-dh-fort": {
+      "title": "甘肃省志·军事志·敦煌城",
+      "url": "https://www.gsdfszw.org.cn/gssz/dyl/dsjjszs/201612/P020170214612523218022.pdf",
+      "evidence": "汉唐旧城在党河西岸，清雍正时期新城迁东岸；1405年设沙州卫。军事志对元路设置年与新年鉴有异，采用县志1280说并注明。"
+    },
+    "north-lanzhou-dict": {
+      "title": "中国历史地名辞典·兰州",
+      "url": "https://m.guoxuedashi.com/diming/17220mawe/",
+      "evidence": "742年改金城郡，758年复兰州；1738年临洮府迁来改兰州府。"
+    },
+    "north-lanzhou-admin": {
+      "title": "甘肃经济信息网·兰州历史沿革",
+      "url": "https://manage.gsei.com.cn/index.php/cms/item-view-id-210028-page-1",
+      "evidence": "前86年金城县；314年金城郡迁治金城；583年兰州；1738年临洮府治迁兰州，改兰州府，并设皋兰县。"
+    },
+    "nj_official": {
+      "title": "南京市政府·历史沿革",
+      "url": "https://www.nanjing.gov.cn/zgnjsjb/csgk/202609/t20260930_5920372.html",
+      "evidence": "记隋蒋州、丹阳郡；620置扬州，625迁江都；757江宁郡、758昇州；920金陵府、937江宁府。政区名称不等于唯一城市俗称。"
+    },
+    "nj_jianye": {
+      "title": "南京建邺区政府·历史沿革",
+      "url": "https://www.njjy.gov.cn/zjjy/lsyg/",
+      "evidence": "212建业；280改秣陵；281分秦淮河北为建业，282改建邺。"
+    },
+    "nj_xuanwu": {
+      "title": "南京玄武区政府·历史沿革",
+      "url": "https://www.xwzf.gov.cn/zjxw/xwgk/lsyg/",
+      "evidence": "313因避司马邺讳改建康，沿用至陈末；隋江宁县隶蒋州。"
+    },
+    "nj_jiangning": {
+      "title": "江苏发布政务号·南京各区县沿革",
+      "url": "https://www.thepaper.cn/newsDetail_forward_5021302",
+      "evidence": "589江宁县移入今南京市区；620归化、635江宁；761上元；917再分江宁与上元同城。"
+    },
+    "nj_base": {
+      "title": "南京市政府 · 历史沿革",
+      "url": "https://www.nanjing.gov.cn/zzb/njgl/csgk/lsyg/202509/t20250919_5653028.html",
+      "evidence": "梳理秣陵、建康、江宁、建康府、集庆路、应天府及明清南京、天京等称谓；短期过渡另列具体出处。"
+    },
+    "cd_mingsheng": {
+      "title": "《大明一统名胜志》成都府",
+      "url": "https://www.shidianguji.com/book/HY0113/chapter/1kbmj77bompte",
+      "evidence": "王莽改蜀郡为导江，公孙述任导江卒正治临邛；并非成都县改名导江。记玄宗幸蜀、成都府与南京京号。"
+    },
+    "cd_yudi": {
+      "title": "宋《舆地广记》成都府",
+      "url": "https://www.shidianguji.com/zh/book/SK0970/chapter/1jzw83e6b5s09",
+      "evidence": "唐益州、742蜀郡、757成都府；宋981益州、988成都府、994益州、1059成都府。成都县自秦为城邑与郡治。"
+    },
+    "cd_tongzhi": {
+      "title": "《雍正四川通志》卷二",
+      "url": "https://www.shidianguji.com/zh/book/SK1015/chapter/1l9kl2knfqgbv",
+      "evidence": "列公孙述25年成都尹、36复蜀郡；194益州治；唐成都府南京；宋994降益州、1059复成都府，清沿明成都府。"
+    },
+    "cd_fangzhi": {
+      "title": "四川省地方志办公室·千年风雨成都府",
+      "url": "https://m.thepaper.cn/newsDetail_forward_22668002",
+      "evidence": "757置成都府；约1258年蒙军控制后改成都路；1371明改成都路为成都府。1258系约年而非精确改制日。"
+    },
+    "cd_jinghao": {
+      "title": "历史地名词典·成都府",
+      "url": "https://www.cidianwang.com/lishi/diming/7/43337bb.htm",
+      "evidence": "757建号南京，760罢京号；府治成都、蜀县（后华阳）。辅助核对京号结束年。"
+    },
+    "cq_official": {
+      "title": "重庆市政府·重庆市情",
+      "url": "https://wap.cq.gov.cn/zjcq/sqgk/cqsq/202412/t20241231_14378256.html",
+      "evidence": "583渝州、1102恭州、1189重庆府，重庆名称由此开始。"
+    },
+    "cq_chgis": {
+      "title": "CHGIS·巴县561—1911",
+      "url": "https://tgaz.fudan.edu.cn/tgaz/placename/hvd_44668",
+      "evidence": "列583渝州、607巴郡、618渝州、742南平郡、758渝州、1102恭州、1190重庆府、1279重庆路、1371重庆府；引《太平寰宇记》《元史》《明史》等。"
+    },
+    "cq_jiangzhou": {
+      "title": "历史地名词典·江州县",
+      "url": "https://m.cidianwang.com/lishi/diming/4/15354qm.htm",
+      "evidence": "秦江州县，南齐487年改垫江县；北周561年改巴县。"
+    },
+    "hz_cppcc": {
+      "title": "杭州政协·杭州区划沿革",
+      "url": "https://www.hzzx.gov.cn/cshz/content/2021-04/10/content_7945247_0.htm",
+      "evidence": "秦钱唐，隋杭州，南宋1129升临安府等沿革。"
+    },
+    "hz_qiantang": {
+      "title": "杭州学刊·钱唐与泉亭",
+      "url": "https://www.pishu.com.cn/skwx_ps/initDatabaseDetail?contentId=9346911&contentType=literature&siteId=14",
+      "evidence": "王莽钱唐改泉亭。论文专门讨论东汉钱唐县存废及古治址，指出复置年代存在史料争论，不能将后世简史视为定论。"
+    },
+    "hz_sc_yearbook": {
+      "title": "杭州市上城区年鉴2022",
+      "url": "https://www.hzsc.gov.cn/module/download/downfile.jsp?classid=0&filename=c65c2518cc7c47c88909c185edcff715.pdf",
+      "evidence": "历史沿革记公元4年钱唐县改泉亭县。"
+    },
+    "hz_news": {
+      "title": "杭州网·钱唐县沿革考辨",
+      "url": "https://hznews.hangzhou.com.cn/wghz/content/2017-08/18/content_6631064.htm",
+      "evidence": "记30年废钱唐；179朱儁封钱唐侯，但县恢复具体年代不明。隋杭州与余杭郡名称不宜和今余杭区、今临安区混同。"
+    },
+    "hz_tang": {
+      "title": "杭州市大关中学·杭州历史沿革",
+      "url": "https://hzdgzx.hzgsedu.cn/article/detail/idyhyjy_6067.htm",
+      "evidence": "唐天宝元年742杭州改余杭郡；吴越都城杭州另称西府。"
+    },
+    "hz_chgis": {
+      "title": "CHGIS·杭州府1366—1911",
+      "url": "https://chgis.hudci.org/tgaz/placename/hvd_32344",
+      "evidence": "据《明史》太祖丙午年十一月改杭州路为杭州府，采用1366；清因之。"
+    },
+    "hz_yuan": {
+      "title": "行政区划网·元江浙行省",
+      "url": "https://www.xzqh.org/old/lishi/11yuan/16.htm",
+      "evidence": "1276临安设两浙大都督府，后安抚司；1278升杭州路。其末年换府年份作1367，与CHGIS1366有异，改府采CHGIS。"
+    },
+    "gz_guangdong": {
+      "title": "广东省政府·建置沿革",
+      "url": "https://www.gd.gov.cn/zjgd/sqgk/jzyg/content/post_4685442.html",
+      "evidence": "秦214年前置南海郡治番禺；226交广分治首置广州；南汉917建国。"
+    },
+    "gz_cmc": {
+      "title": "广州日报·城名承载几多变迁",
+      "url": "https://huacheng.gz-cmc.com/pages/2022/12/09/29ecc85c07e341a38da931d6c6aa9eea.html",
+      "evidence": "隋601因避杨广讳改番州，607南海郡；南汉兴王府，宋复广州，元广州路、明清广州府。"
+    },
+    "gz_chgis": {
+      "title": "CHGIS·南海郡742—757",
+      "url": "https://tgaz.fudan.edu.cn/tgaz/placename/hvd_34094",
+      "evidence": "742广州改南海郡，758复广州，治南海县即今广州市。"
+    },
+    "gz_yuan": {
+      "title": "深圳市地名志·斗山等沿革引用",
+      "url": "https://pnr.sz.gov.cn/attachment/1/1442/1442495/10537363.pdf",
+      "evidence": "元1278设置广州路，东莞属其下；用于核对广州路起始年。"
+    },
+    "gz_ming": {
+      "title": "荔湾区历史文化街区规划公示·西关",
+      "url": "https://www.lw.gov.cn/attachment/7/7882/7882681/10438994.pdf",
+      "evidence": "明洪武元年1368入广东后广州路改广州府，并重修广州城。"
+    },
+    "gz_sui": {
+      "title": "地名规范数据库·南海郡",
+      "url": "https://authority.dila.edu.tw/place/search.php?code=PL000000030467",
+      "evidence": "辅助核621唐废南海郡复广州。其现代沿革注释引用维基，证据等级低于方志、CHGIS，暂保留待原典复核。"
+    },
+    "wh_wuchang": {
+      "title": "武昌区档案馆·历史沿革",
+      "url": "https://www.wuchang.gov.cn/zjwc/wcgk/lsyg/202005/t20200520_1324542.html",
+      "evidence": "223夏口城；454郢州城；589鄂州、607江夏郡、621鄂州；1301鄂州路改武昌路。三国吴王城武昌在今鄂州，夏口在今武汉武昌。"
+    },
+    "wh_chgis": {
+      "title": "CHGIS·武昌县（今鄂州）",
+      "url": "https://tgaz.fudan.edu.cn/tgaz/placename/hvd_43425",
+      "evidence": "武昌县治今鄂州；隶鄂州在742改江夏郡、758复鄂州；证明武昌县与今武汉武昌不能混同。"
+    },
+    "wh_jiangxia": {
+      "title": "江夏年鉴2023·建置沿革",
+      "url": "https://www.jiangxia.gov.cn/mljx_22450/202206/P020231221456729996945.pdf",
+      "evidence": "1277鄂州路，1301改武昌路治夏口今武昌；1364改武昌府，府治江夏县而非武昌县。"
+    },
+    "cs_linxiang": {
+      "title": "临湘市史志办·古城长沙旧称临湘",
+      "url": "https://www.linxiang.gov.cn/24733/24760/24821/24992/25002/content_1411747.html",
+      "evidence": "汉长沙国都临湘；新莽改抚睦；589临湘县改长沙县、长沙郡改潭州。今临湘市与古临湘县不是同址。"
+    },
+    "cs_kangxi": {
+      "title": "《康熙长沙府志》卷一",
+      "url": "https://www.shidianguji.com/mid-page/7613511652298096678",
+      "evidence": "记秦湘县，汉改临湘，新莽抚睦；南北朝湘州与长沙郡等多层建置。"
+    },
+    "cs_chgis_early": {
+      "title": "CHGIS·临湘县23—588",
+      "url": "https://tgaz.fudan.edu.cn/tgaz/placename/hvd_41716",
+      "evidence": "采用23年刘玄更始复名临湘；治今长沙老城南部，后南朝县治北移，隋改长沙县。"
+    },
+    "cs_jiajing": {
+      "title": "湖南省地方志·嘉靖长沙府志点校",
+      "url": "https://dfz.hunan.gov.cn/dfz/tslm_71564/dfzs/jz/202211/t20221122_29134396.html",
+      "evidence": "隋唐潭州、天宝长沙郡、后复潭州，元天临路等沿革。"
+    },
+    "cs_machu": {
+      "title": "湖南省文史研究馆·长沙城建大事记",
+      "url": "https://css.hunan.gov.cn/css/tslm/hxws/wssy/201202/wssw_15/201609/t20160905_3253666.html",
+      "evidence": "927马殷获册楚国王，改潭州长沙府并营宫殿。"
+    },
+    "cs_chgis_tan": {
+      "title": "CHGIS·潭州930—1276",
+      "url": "https://tgaz.fudan.edu.cn/tgaz/placename/hvd_32826",
+      "evidence": "明确潭州期间930—1276，治今长沙老城，说明马楚长沙府不能贯穿整个五代。"
+    },
+    "cs_chgis_tian": {
+      "title": "CHGIS·天临路",
+      "url": "https://tgaz.fudan.edu.cn/tgaz/placename/hvd_32751",
+      "evidence": "1329改潭州路天临路，1364改潭州府。"
+    },
+    "cs_late": {
+      "title": "红网·长沙历史沿革",
+      "url": "https://wh.rednet.cn/content/646943/66/15300719.html",
+      "evidence": "1277潭州路，1329天临路，1364潭州府，1372长沙府。文中清代纪年出现1644误配康熙，未采用该处。"
+    },
+    "nc_chgis": {
+      "title": "CHGIS·南昌县763—1911",
+      "url": "https://tgaz.fudan.edu.cn/tgaz/placename/hvd_41095",
+      "evidence": "列1163隆兴府、1277隆兴路、1284龙兴路、1362洪都府、1363南昌府；县名与州府名并存，762曾短称钟陵。"
+    },
+    "nc_county": {
+      "title": "南昌县政府·历史沿革",
+      "url": "https://ncx.nc.gov.cn/ncxrmzf/lsyg/list_tt.shtml",
+      "evidence": "南昌建县，新莽宜善，东汉复南昌；隋改县豫章，属洪州。页面曾取回超时，仅搜索索引可见，建议复核原典。"
+    },
+    "nc_xinjian": {
+      "title": "《新建县志》卷十二",
+      "url": "https://www.shidianguji.com/book/NLG312001075076/chapter/1ljedwfm8grp0",
+      "evidence": "引汉南昌县，王莽改宜善县，东汉复南昌名。"
+    },
+    "fz_official": {
+      "title": "福州市政府·福州建置沿革",
+      "url": "https://www.fuzhou.gov.cn/zgfzzt/zjrc/qhyg/202509/t20250925_5083026.htm",
+      "evidence": "列东冶、冶县、侯官；晋安、晋平、闽州、丰州；隋泉州606闽州607建安郡；唐623泉州699闽州725福州742长乐郡；933长乐府；1276福安府；1278福州路；1368福州府；1645天兴府号福京，1646复福州府。"
+    },
+    "fz_shizhi": {
+      "title": "福州市地方志委员会·建置沿革表",
+      "url": "https://fz.fjdsfzw.org.cn/2016-08-11/content_5597.html",
+      "evidence": "给557闽州、565晋安郡、568丰州、758福州等具体纪年；但侯官196/203、冶县-85/-111、闽州711/699与2025官方文章互有差异，采用较新市政府年表并明示异说。"
+    },
+    "fz_wudai": {
+      "title": "福州史志网·五代大事记",
+      "url": "https://fz.fjdsfzw.org.cn/wap/2010-06-13/content_119.html",
+      "evidence": "933升长乐府；945王延政兼并福州，定为东都，后李仁达据福州、吴越控制。"
+    },
+    "gz_fangzhi": {
+      "title": "广州市地方志办公室·建置沿革",
+      "url": "https://www.gzsqw.org.cn/c/sdfzpc/gzgk/39520.jhtml",
+      "evidence": "226首次广州旋并交州，264复置始成定制。917兴王府、971广州、1279广州路、1368广州府。广州路起年与其他地方志1278有异。"
+    },
+    "nc_chgis_sui": {
+      "title": "CHGIS·豫章郡607—621",
+      "url": "https://tgaz.fudan.edu.cn/tgaz/placename/hvd_32585",
+      "evidence": "隋607改洪州豫章郡，唐622析州，625复合洪州；治豫章今南昌。"
+    },
+    "nc_chgis_tang": {
+      "title": "CHGIS·豫章郡742—757",
+      "url": "https://tgaz.fudan.edu.cn/tgaz/placename/hvd_32587",
+      "evidence": "742洪州改豫章郡，758复洪州；治豫章今南昌。"
+    },
+    "nc_nantang": {
+      "title": "《南昌县志》卷一·沿革考异",
+      "url": "https://www.shidianguji.com/zh/book/NLG312001075056/chapter/1ljvk2n5mgjdb",
+      "evidence": "考南唐升南昌府作交泰二年即后周显德六年959，并指出徙都961，不应混淆升府、营都、徙居。与部分沿革作958有异。"
+    },
+    "west-kunming": {
+      "title": "昆明市城市设计研究院 · 昆明城市变迁史迹述略",
+      "url": "https://www.kmedri.com/arcnews.aspx?id=744",
+      "evidence": "比较谷昌、拓东、鄯阐、中庆及明代城址；拓东在盘龙江东侧，元代中庆城向五华山、翠湖附近扩展，不能把各期城址都当作今城市中心。"
+    },
+    "west-kunming-admin": {
+      "title": "新华丝路 · 昆明历史简介",
+      "url": "https://yangtze.silkroadinfo.org.cn/2020/0909/c1480a4303970/page.htm",
+      "evidence": "大理国鄯阐府沿用拓东城；元代中庆，明洪武十五年改中庆路为云南府，府治昆明县。"
+    },
+    "west-yuanshi": {
+      "title": "《元史》卷六十一 · 地理志（原典）",
+      "url": "https://www.shidianguji.com/zh/book/NGJ8924119990125431003/chapter/1lq0a07zrqk9m",
+      "evidence": "记善阐万户改中庆路；大理上下二万户至元七年合为大理路。区分蒙古征服后的万户制度与后来的路制，不把1255年直接写成大理路。"
+    },
+    "west-yuan-kunming": {
+      "title": "行政区划网 · 元代云南历史政区",
+      "url": "https://www.xzqh.org/old/lishi/11yuan/27.htm",
+      "evidence": "1255年善阐万户，1276年中庆路；1275年设昆明县，后直属中庆路。"
+    },
+    "west-guiyang-cppcc": {
+      "title": "贵州政协 · “贵州”称谓的缘起与流传",
+      "url": "https://www.gzszx.gov.cn/gzzxb/web/doc/detail/2985/A3",
+      "evidence": "讨论矩州与贵州、顺元的名称关系；指出矩州改贵州的确切年代难定，不能把流传故事当作明确更名诏令；1210年贵州经略安抚使称谓可考。"
+    },
+    "west-guiyang-gov": {
+      "title": "贵阳政府英文网 · Historical Transformation",
+      "url": "https://www.eguizhou.gov.cn/guiyang/2022-09/01/c_736045.htm",
+      "evidence": "1280年设顺元机构，1292年府署在顺元城；1371年贵州宣慰司、1373年贵州卫；1569年贵阳府，1601年贵阳军民府，1687年复贵阳府。页面英文中有个别纪年翻译错误，本表只取互证后的这些节点。"
+    },
+    "west-nanning-archive": {
+      "title": "广西壮族自治区档案馆 · 广西首府——南宁市",
+      "url": "https://www.gxdag.org.cn/show/141/2166",
+      "evidence": "598年晋兴改宣化；唐南晋州、邕州、742朗宁郡、758复邕州；942诚州、951复邕州；1279邕州路、1324南宁路、1368南宁府。该文唐初年份有笔误及632/634异说，须另核。"
+    },
+    "west-nanning-paper": {
+      "title": "社科网 · 唐代岭南道相关州府考证",
+      "url": "https://www.sinoss.net/uploadfile/2010/1206/20101206100808566.pdf",
+      "evidence": "据元和郡县图志等辨析邕州建置，认为贞观六年说有误，南晋州在贞观八年（634）更名邕州。"
+    },
+    "west-xining-hz": {
+      "title": "西宁市湟中区政府 · 历史文化",
+      "url": "https://www.huangzhong.gov.cn/html/page/lswh-1.html",
+      "evidence": "东汉末西平郡、西都县；隋属治今乐都的湟水县；唐在今西宁设鄯城县；后有西宁州、西宁卫。尤其说明鄯城县与州治所在乐都不应混作一个城点。"
+    },
+    "west-xining-tang": {
+      "title": "《新唐书》卷四十 · 鄯城县条（原典）",
+      "url": "https://zh.wikisource.org/wiki/新唐書/卷040",
+      "evidence": "鄯城为仪凤三年（678）所置县，记土楼山、河源军等。另有仪凤二年说，本表采用两唐书三年说，非把唐初全部套为鄯城。"
+    },
+    "west-xining-qingtang": {
+      "title": "青海人大 · 青唐历史",
+      "url": "https://www.qhrd.gov.cn/zyfb/qhrd/lnqhrd/2017n/2017nqhrdd9q/shgc_1716/201711/t20171117_51946.html",
+      "evidence": "记唃厮啰时期青唐及北宋进取青唐的历史，为青唐城对应今西宁提供地方史依据。"
+    },
+    "west-xining-hy": {
+      "title": "湟源县政府 · 湟水源头历史的沿革",
+      "url": "https://www.huangyuan.gov.cn/index.php?c=show&id=1192&s=special",
+      "evidence": "明确鄯州治乐都、鄯城县为另县；1104年改西宁州；1372年改卫。清改府年份该文作1725，与专门研究1724说不一，后者取1724。"
+    },
+    "west-xining-qing": {
+      "title": "《地理研究》· 河湟地区历史土地研究",
+      "url": "https://www.dlyj.ac.cn/CN/article/downloadArticleFile.do?attachType=PDF&id=11787",
+      "evidence": "考述1724年西宁卫改西宁府及此后县级建置，并使用西宁府新志资料复原清初河湟。"
+    },
+    "west-lasa-gov": {
+      "title": "拉萨市政府 · 城市介绍",
+      "url": "https://www.lasa.gov.cn/lasa/cssy/cs.shtml",
+      "evidence": "松赞干布时期都城惹萨，汉文史籍称逻些。此为七世纪都城称谓，非现代城市行政名。"
+    },
+    "west-lasa-study": {
+      "title": "《西藏研究》· 拉萨名称相关研究",
+      "url": "https://xzyj.cbpt.cnki.net/portal/journal/portal/client/paper/76ce04f498325edcf2949384fb071eed",
+      "evidence": "逻娑、逻些为Ra-sa的唐代汉文音译；拉萨Lha-sa至迟见唐蕃会盟碑，相关文献中两名并用，不能断言17世纪才由逻些改名拉萨。"
+    },
+    "west-lasa-treaty": {
+      "title": "H. E. Richardson · Sino-Tibetan treaty inscription of AD 821–823",
+      "url": "https://www.cambridge.org/core/journals/journal-of-the-royal-asiatic-society/article/abs/sinotibetan-treaty-inscription-of-ad-821823-at-lhasa/EA12C955312CF857197F26B04D4B0DAD",
+      "evidence": "研究821—823年唐蕃会盟碑文，是早期拉萨名称及城址解释的一手碑文研究依据；822年只作已见文献的展示分界，不作正式改名年。"
+    },
+    "west-kashi-gov": {
+      "title": "新疆政府 · 丝路明珠喀什噶尔",
+      "url": "https://www.xinjiang.gov.cn/xinjiang/lytj/201309/aca33f0e71d94c7abbc803927f1615fc.shtml",
+      "evidence": "介绍喀什古称疏勒和喀什噶尔；古代疏勒既为绿洲政权名，不能据此直接断言汉代王城与今日老城同址。"
+    },
+    "west-kashi-plan": {
+      "title": "喀什市历史文化名城保护资料（政府公开PDF）",
+      "url": "https://www.kstq.gov.cn/kashi/xxgk/202010/6b3d77609a6c47558b9353ab546e7ca3/files/1621485132331_96614.pdf",
+      "evidence": "古疏勒范围包括今喀什、疏附、疏勒、伽师一带；喀喇汗时期以喀什噶尔为中心；引马可波罗可失合儿。古绿洲、古城、清代新汉城及今县名不宜机械等同。"
+    },
+    "west-urumqi-primary": {
+      "title": "《平定准噶尔方略》续编卷二十二（原典）",
+      "url": "https://www.shidianguji.com/zh/book/SK0784/chapter/1kfqxd8n6fsiu",
+      "evidence": "乾隆二十八年（1763）记乌鲁木齐扩筑城垣并获赐名迪化。此一手记载可纠正某城市空间论文误作1767年赐名。"
+    },
+    "west-urumqi-study": {
+      "title": "中国科学院大学学报 · 民国时期乌鲁木齐城市的社会空间结构",
+      "url": "https://html.rhhz.net/ZGKXYDXXB/20180611.htm",
+      "evidence": "1758年小土城，1763年扩筑；1772年迪化城西另筑巩宁城，隔乌鲁木齐河相望。该文赐名1767年与原典冲突，不采用其更名年份。"
+    },
+    "west-urumqi-admin": {
+      "title": "郭润涛 · 新疆建省之前的郡县制建设",
+      "url": "https://www.aisixiang.com/data/121511.html",
+      "evidence": "引档案说明1760年乌鲁木齐设同知，1773年改迪化直隶州；行政机构名变化与城池名称迪化并非同一件事。"
+    },
+    "west-dali-th": {
+      "title": "大理日报 · 太和城与南诏都城",
+      "url": "https://dalidaily.dlzrm.cn/pad/202511/19/content_75751.html",
+      "evidence": "太和为南诏早期政治中心，779年迁羊苴咩；太和遗址在今大理古城之南，须移动城点。"
+    },
+    "west-dali-ming": {
+      "title": "《历史地理研究》· 明代云南府州县治城池的规模等级与分布",
+      "url": "https://www.jgcm.ac.cn/jah/cn/article/pdf/preview/10.12329/20969368.2024.02014.pdf",
+      "evidence": "据府县志汇列大理府城1382年筑砖城、1383年拓筑。现存大理古城不能当成汉代叶榆县城原址。"
+    },
+    "west-hohhot-local": {
+      "title": "内蒙古党史方志网 · 呼和浩特建置沿革",
+      "url": "https://www.nmgqq.com.cn/quqinggailan/jianzhiyange/huhehaote/2020-12-24/20397.html",
+      "evidence": "归化城有土默特与理事同知机构；绥远城1736开建、1739建成，为另一城；乾隆年间归化与绥远两厅并立。"
+    },
+    "west-hohhot-study": {
+      "title": "内蒙古大学学报 · 从随营贸易到条约体系",
+      "url": "https://www.ha.cuhk.edu.hk/AoE%20Papers%20and%20Books/Tian%20Mi/从随营贸易到条约体系_清代边疆秩序与归化城商人研究.pdf",
+      "evidence": "以地方志和清实录考述归化城商业史，记1575年俺答汗修建归化城。"
+    },
+    "west-hohhot-paper": {
+      "title": "呼和浩特日报 · 历史文化名城呼和浩特的古都地位",
+      "url": "https://static.0471tv.org.cn/rb/pc/con/202311/07/content_43941.html",
+      "evidence": "记1572—1575年建设归化城，蒙古语库库和屯意为青城。汉名归化与蒙古语城名并行。"
+    },
+    "west-taipei-gov": {
+      "title": "台北市政府 · 历史发展",
+      "url": "https://www.gov.taipei/cp.aspx?n=14D2637CBC4AAEC2&s=E0ACC486E3DA0A8C",
+      "evidence": "1709年陈赖章垦大佳腊，艋舺、大稻埕分别发展；1875设台北府，1884府城完成。台北府城不能溯前套到整个淡水流域。"
+    },
+    "west-taipei-wanhua": {
+      "title": "台北市万华区公所 · 历史沿革",
+      "url": "https://whdo.gov.taipei/cp.aspx?n=CAA666D84C56861F",
+      "evidence": "万华旧称艋舺，为今台北西南侧的历史聚落；与后建台北府城不完全同址。"
+    },
+    "west-tainan-gov": {
+      "title": "台南市政府 · 历史沿革",
+      "url": "https://origin-www.tainan.gov.tw/cp.aspx?n=13291",
+      "evidence": "热兰遮在今安平、普罗民遮在今赤崁，1661郑成功设承天府于普罗民遮，热兰遮改安平；1664东都改东宁；1684设台湾府。"
+    },
+    "west-tainan-culture": {
+      "title": "台南市文化局 · 府城古迹导览",
+      "url": "https://publications.culture.tainan.gov.tw/index.php?did=786&inter=publication&page=2",
+      "evidence": "1625奥伦治城、1627改热兰遮；1661以后安平与赤崁的政治中心关系改变。"
+    },
+    "west-tainan-1887": {
+      "title": "台南市文化局 · 府城今昔",
+      "url": "https://publications.culture.tainan.gov.tw/index.php?did=768&inter=publication",
+      "evidence": "台南名称对应1887年刘铭传改设台北、台湾、台南三府；1885批准建省与1887实施新府制不可混同。"
+    },
+    "haikou_history_v2": {
+      "title": "海口市地方史志办公室 · 海口市名由来及变迁",
+      "url": "https://enm.hiipb.com/news/show-6744.html",
+      "evidence": "记海口浦、海口都、千户所及海口所城的设置；港口与琼州州治应区别。"
+    },
+    "changchun_origin_v2": {
+      "title": "吉林省地方志 · 长春厅、新立城",
+      "url": "https://dfz.jl.gov.cn/zsjl/201711/t20171130_5216559.html",
+      "evidence": "1800年设长春厅于新立城，1825年厅治北迁宽城子。"
+    },
+    "changchun_prefecture_v2": {
+      "title": "吉林省地方志 · 由南门到南关区",
+      "url": "https://dfz.jl.gov.cn/zsjl/201605/t20160508_5216542.html",
+      "evidence": "1889年长春厅升为长春府；旧城位于今南关区。"
+    },
+    "khuree_history_v2": {
+      "title": "乌兰巴托旅游局 · History of Ulaanbaatar",
+      "url": "https://visitulaanbaatar.net/p/59",
+      "evidence": "寺院城市曾多次迁移，1778年才固定于今乌兰巴托所在河谷；当时称Ikh Khüree。"
+    },
+    "khuree_scholarly_v2": {
+      "title": "Treasury of Lives · Ikh Khüree",
+      "url": "https://treasuryoflives.org/bo/institution/Ikh-Khuree",
+      "evidence": "学术人物与机构资料库，说明库伦寺院城市及其迁移、1778年定址。"
+    },
+    "hanoi_names_v2": {
+      "title": "越南政府门户 · The changing names of Hà Nội",
+      "url": "https://thanglong.chinhphu.vn/english/the-changing-names-of-ha-noi-110137.htm",
+      "evidence": "梳理宋平、大罗、升龙、东都、东关、东京、北城及河内等历时称谓。"
+    },
+    "hanoi_stages_v2": {
+      "title": "越南政府门户 · Historical stages of Thăng Long–Hà Nội",
+      "url": "https://thanglong.chinhphu.vn/english/historical-stages-of-thang-long-ha-noi-110136.htm",
+      "evidence": "记1010迁都、1430改称东京等历史节点；不同概述对个别过渡年份有差异。"
+    },
+    "yining_history_v2": {
+      "title": "伊宁县人民政府 · 历史文化",
+      "url": "https://www.xjyn.gov.cn/xjyn/c113623/tydp.shtml",
+      "evidence": "1762年在固勒扎筑宁远城；1888年设宁远县，1914年才改伊宁县。"
+    },
+    "harbin_history_v2": {
+      "title": "黑龙江省文化和旅游厅 · 城源历史文化馆",
+      "url": "https://wlt.hlj.gov.cn/wlt/c114262/202406/c00_31744626.shtml",
+      "evidence": "以1898年中东铁路建设说明哈尔滨近代城市的形成，本页保守从此时展示铁路城市称谓。"
+    },
+    "fujiadian_history_v2": {
+      "title": "哈尔滨档案部门 · 道外区百余年嬗变（省文旅厅转载）",
+      "url": "https://wlt.hlj.gov.cn/wlt/c114169/202603/c00_31925012.shtml",
+      "evidence": "道外1888年称傅家店，1907年设滨江厅，1908年改写傅家甸；不能把这一区域名称当成全城统一改名。"
+    },
+    "vladivostok_history_v2": {
+      "title": "俄罗斯总统图书馆 · 符拉迪沃斯托克建立",
+      "url": "https://www.prlib.ru/history/619354",
+      "evidence": "记1860年设立名为Vladivostok的军事哨所。"
+    },
+    "pyongyang_history_v2": {
+      "title": "韩国学中央研究院 · 平壤府（朝鲜王朝实录事典）",
+      "url": "https://dh.aks.ac.kr/sillokwiki/index.php/%ED%8F%89%EC%96%91%EB%B6%80(%E5%B9%B3%E5%A3%A4%E5%BA%9C)",
+      "evidence": "记西京、西都、镐京、东宁府及平壤府等建置名称；府名和城名不完全等同。"
+    },
+    "pyongyang_ancient_v2": {
+      "title": "韩国学中央研究院 · 平壤",
+      "url": "https://encykorea.aks.ac.kr/Article/E0059979",
+      "evidence": "高句丽427年迁都平壤；早期王宫区域与后来长安城并非同一城址。"
+    },
+    "pyongyang_changan_v2": {
+      "title": "韩国国史编纂委员会 · 三国史记地理志",
+      "url": "https://db.history.go.kr/ancient/level.do?levelId=sg_037r_0020_0030",
+      "evidence": "记高句丽586年迁长安城及668年覆亡。"
+    },
+    "cv-xian": {
+      "title": "《西安市志》第一卷·总类·大事记（陕西省地方志办公室）",
+      "url": "https://dfz.shaanxi.gov.cn/zslm/fzzlk/xbsxsxz/xbsxz/xas_16198/201405/P020240923625160882829.pdf",
+      "evidence": "1643年十一月李自成占西安，改长安府、称西京；1645年正月撤离，清军入城，五月沿设西安府。PDF本次正文抓取超时，已核搜索索引所列连续原文。",
+      "access": "search_index"
+    },
+    "cv-nanjing": {
+      "title": "CHGIS·金陵县，附《旧唐书》《新唐书》《太平寰宇记》出处",
+      "url": "https://tgaz.fudan.edu.cn/tgaz/placename/hvd_40541",
+      "evidence": "625金陵、626白下、633迁回冶城、635复江宁。",
+      "access": "full_text"
+    },
+    "cv-yuan": {
+      "title": "《元史》卷五十八·地理一",
+      "url": "https://ctext.org/wiki.pl?chapter=1031229&if=gb&remap=gb",
+      "evidence": "济南路称元初改，1265调整辖县；冀宁路条记太祖十一年立太原路总管府。页面正文抓取403，核搜索索引原文；不据元初强推具体始年。",
+      "access": "search_index"
+    },
+    "cv-taiyuan": {
+      "title": "香港中文大学·汉语多功能字库·太原",
+      "url": "https://humanum.arts.cuhk.edu.hk/Lexis/lexi-mf/chinaPlaces.php?pid=0401",
+      "evidence": "采用1216立太原路说；与地方志1218说并存，不能消除原始材料差异。",
+      "access": "search_index"
+    },
+    "cv-ming-jinan": {
+      "title": "《明史》卷四十一·地理二·济南府",
+      "url": "https://www.zhonghuashu.com/wiki/%E6%98%8E%E5%8F%B2/%E5%8D%B741",
+      "evidence": "济南府条称元为济南路，太祖吴元年（1367）为府。",
+      "access": "full_text"
+    },
+    "cv-lanzhou": {
+      "title": "许若冰《改革开放以来甘肃地名研究述评》，《甘肃史志》2019年第3期",
+      "url": "https://www.gsdfszw.org.cn/gssz_64/szxq/201910/P020191011364011343764.pdf",
+      "evidence": "综述金城县、子城县定位与是否西固迁城关的不同观点，指出材料不足、众说纷纭。",
+      "access": "full_text"
+    },
+    "cv-shenyang": {
+      "title": "沈阳市历史文化资源挖掘与保护规划",
+      "url": "https://zrzyj.shenyang.gov.cn/files/ueditor/GTZYJ/jsp/upload/file/20190103/1546504257947058044.pdf",
+      "evidence": "将候城、玄菟郡上伯官城、青桩子城址分别列入历史城址资源，不能把所有城址直接合并。",
+      "access": "search_index"
+    },
+    "cv-dunhuang-old": {
+      "title": "《雍正甘肃通志》·沙州卫",
+      "url": "https://www.shidianguji.com/book/SK1014/chapter/1l9jb54xmuxp7",
+      "evidence": "载雍正元年置所、三年升卫。",
+      "access": "full_text"
+    },
+    "cv-dunhuang-study": {
+      "title": "刘传飞《清代安西卫、沙州卫设置时间考》，《敦煌研究》2015年第3期",
+      "url": "https://www.fx361.com/page/2015/0429/23732104.shtml",
+      "evidence": "作者据文献辨析提出1724设所、1726升卫，纠正通行1723、1725说。此为论文全文转载；与旧志并列，作为争议来源而非默选唯一结论。",
+      "access": "full_text"
+    },
+    "cv-dunhuang-city": {
+      "title": "敦煌文博局·沧桑历史的见证——沙州故城",
+      "url": "https://www.gswbj.gov.cn/a/2022/12/06/15822.html",
+      "evidence": "记1725年党河东岸建新城；建城与升卫为不同事件，不能混作同一考据。",
+      "access": "full_text"
+    },
+    "cv-hangzhou": {
+      "title": "CHGIS·钱唐县，附东汉废复考证",
+      "url": "https://tgaz.fudan.edu.cn/tgaz/placename/hvd_40078",
+      "evidence": "列《后汉书》《水经注》及奚柳芳等关于东汉钱唐废复的研究分歧。",
+      "access": "search_index"
+    },
+    "cv-hangzhou-study": {
+      "title": "陈天声《钱唐与泉亭——兼论钱唐县建置沿革》，《杭州学刊》2017年第4期",
+      "url": "https://www.pishu.com.cn/skwx_ps/initDatabaseDetail?contentId=9346911&contentType=literature&siteId=14",
+      "evidence": "论文摘要认为东汉无钱唐县，与安帝复置说不同；本次仅取到摘要，不据摘要强改全部年段。",
+      "access": "abstract"
+    },
+    "cv-guangzhou": {
+      "title": "《广东通志》·宋纪",
+      "url": "https://www.shidianguji.com/book/HY4785/chapter/1m93b55uilzbd",
+      "evidence": "1276元军入广州、1277宋军复后再陷；1278记升广州为翔龙府。此来源未细分短暂祥兴府称号的先后月日，不能据此认定祥兴府本身为讹称。",
+      "access": "full_text"
+    },
+    "cv-wuhan": {
+      "title": "武昌区档案馆·历史沿革",
+      "url": "https://www.wuchang.gov.cn/zjwc/wcgk/lsyg/202005/t20200520_1324542.html",
+      "evidence": "武昌古城以223年夏口军事城堡为起点；此前区域属沙羡，不等于沙羡治就在蛇山。",
+      "access": "full_text"
+    },
+    "cv-fuzhou-jinping": {
+      "title": "CHGIS·晋平郡，附《嘉庆一统志》与《宋书》",
+      "url": "https://tgaz.fudan.edu.cn/tgaz/placename/hvd_32056",
+      "evidence": "468—470晋平郡，471复晋安；另《福州府志》有齐初复名说。",
+      "access": "full_text"
+    },
+    "cv-fuzhou-conflict": {
+      "title": "《福州府志》卷三十一",
+      "url": "https://www.shidianguji.com/book/HY4768/chapter/1kskoehawk8ib",
+      "evidence": "职官沿革部分称齐初改晋平郡为晋安郡，与《嘉庆一统志》471说有差异。",
+      "access": "full_text"
+    },
+    "cv-fuzhou-wudai": {
+      "title": "《福州府志》卷二十七",
+      "url": "https://www.shidianguji.com/book/HY4768/chapter/1kskoe02f7fb3",
+      "evidence": "叙李仁达、南唐与吴越交战，文中持续用福州称城。可用通行城名而不拼接未核府号。",
+      "access": "full_text"
+    },
+    "cv-xining": {
+      "title": "西宁市湟中区人民政府·湟中旅游（历史沿革）",
+      "url": "https://huangzhong.gov.cn/html/y/5818.html",
+      "evidence": "隋属治乐都的湟水县，唐今西宁置鄯城县；不能将乐都州郡治移贴今西宁。",
+      "access": "full_text"
+    },
+    "cv-kashi": {
+      "title": "《大清一统志》喀什噶尔沿革",
+      "url": "https://www.shidianguji.com/book/SBCK350/chapter/1kgp21e4chkxf",
+      "evidence": "回叙宋为疏勒国，说明汉文旧称与新译名并行；不足以给出907—999唯一更名年。",
+      "access": "search_index"
+    },
+    "cv-haikou": {
+      "title": "中央研究院·张珣《海南岛民间信仰踏查记》，2013",
+      "url": "https://ianthro.ioe.sinica.edu.tw/wp-content/uploads/2017/06/etf023-001.pdf",
+      "evidence": "讨论白沙津与海口的港口、天后宫空间，不足以把早期白沙津与后来的所城同点同名。",
+      "access": "search_index"
+    },
+    "cv-changchun": {
+      "title": "吉林省地方志编纂委员会·宽城子搬家",
+      "url": "https://dfz.jl.gov.cn/zsjl/201712/t20171201_5216560.html",
+      "evidence": "1800设厅前已有宽城子聚落；但古城是否与后来村落同名、起名确年仍不清楚，1825才移厅治。",
+      "access": "full_text"
+    },
+    "cv-yining": {
+      "title": "《西域水道记》卷四",
+      "url": "https://www.shidianguji.com/zh/book/NLG312001073174/chapter/1ll1p1wfj0mco",
+      "evidence": "记噶尔丹策零建伊犁河北固勒札都纲；不能用1717寺院建年无争议地追定现城名称起点。",
+      "access": "full_text"
+    },
+    "cv-yining-local": {
+      "title": "伊宁市政府办·伊宁市历史沿革",
+      "url": "https://www.yining.gov.cn/yining/lsrw/201801/f5354613ddbf4c109f97fce0c78657e2.shtml",
+      "evidence": "记1717寺院说及1762起筑宁远等城；页面明示转载百度百科，作为地方通行说线索，不当成独立原典。",
+      "access": "full_text"
+    },
+    "cv-pyongyang": {
+      "title": "韩国学中央研究院·北界（韩国民族文化大百科事典）",
+      "url": "https://encykorea.aks.ac.kr/Article/E0024632",
+      "evidence": "记1308改平壤道存抚使，由平壤府尹兼任；与实录事典忠宣王改府、1356复西京衔接。",
+      "access": "full_text"
+    },
+    "cv-guangzhou-xiangxing": {
+      "title": "《中国历史地名大辞典》·祥兴府（词典网摘录）",
+      "url": "https://m.cidianwang.com/lishi/diming/0/26600ze.htm",
+      "evidence": "摘录记1278升广州置祥兴府、旋改翔龙府；支持短暂府名可能存在，不足以推定细月或将其用于1276—1277。原页本次抓取超时，采用根任务已检索的辞典摘录线索，与《广东通志》1278翔龙府记载并列。",
+      "access": "search_index"
+    },
+    "anc-nmc": {
+      "title": "中国国家博物馆《古代中国》·夏商西周",
+      "url": "https://www.chnmuseum.cn/portals/0/web/zt/gudai/detail2.html",
+      "note": "用于时代背景与考古地望；不是各王精确在位年表。"
+    },
+    "anc-shiji-zhou": {
+      "title": "《史记》卷四·周本纪",
+      "url": "https://zh.wikisource.org/wiki/史記/卷004"
+    },
+    "anc-shiji-table": {
+      "title": "《史记》卷十四·十二诸侯年表",
+      "url": "https://zh.wikisource.org/wiki/史記/卷014"
+    },
+    "anc-six-table": {
+      "title": "《史记》卷十五·六国年表",
+      "url": "https://zh.wikisource.org/wiki/史記/卷015",
+      "note": "齐魏等纪年有考订差异，不能将所有旧表数字不加辨别地转换成公历。"
+    },
+    "anc-moe": {
+      "title": "教育部《中国历代帝王年表》·周",
+      "url": "https://dict.revised.moe.edu.tw/appendix.jsp?ID=2&la=0",
+      "note": "只采用共和以后的周王主线；前841前该表传统年代未采用。该表所列255—249惠王非新的周天子，本表不计。"
+    },
+    "anc-qin": {
+      "title": "《史记》卷五·秦本纪",
+      "url": "https://zh.wikisource.org/wiki/史記/卷005"
+    },
+    "anc-chu": {
+      "title": "《史记》卷四十·楚世家",
+      "url": "https://zh.wikisource.org/wiki/史記/卷040"
+    },
+    "anc-zhao": {
+      "title": "《史记》卷四十三·赵世家",
+      "url": "https://zh.wikisource.org/wiki/史記/卷043"
+    },
+    "anc-qi": {
+      "title": "《史记》卷四十六·田敬仲完世家",
+      "url": "https://zh.wikisource.org/wiki/史記/卷046"
+    },
+    "anc-jin": {
+      "title": "《史记》卷三十九·晋世家",
+      "url": "https://zh.wikisource.org/wiki/史記/卷039"
+    },
+    "anc-weihan": {
+      "title": "《史记》卷四十四·魏世家",
+      "url": "https://zh.wikisource.org/wiki/史記/卷044"
+    },
+    "anc-han": {
+      "title": "《史记》卷四十五·韩世家",
+      "url": "https://zh.wikisource.org/wiki/史記/卷045"
+    },
+    "anc-yan": {
+      "title": "《史记》卷三十四·燕召公世家",
+      "url": "https://zh.wikisource.org/wiki/史記/卷034"
+    },
+    "anc-qihuan": {
+      "title": "山东地方史志·齐桓公",
+      "url": "https://shandong-chorography.org/database/f063/section/26/article/113/"
+    },
+    "anc-qixuan": {
+      "title": "中国哲学书电子化计划·齐宣王",
+      "url": "https://ctext.org/dictionary.pl?did=492&if=gb&remap=gb",
+      "note": "辅助现代纪年换算；与原典合读，不是出土同时代记录。"
+    },
+    "anc-zhaowuling": {
+      "title": "中国哲学书电子化计划·赵武灵王",
+      "url": "https://ctext.org/dictionary.pl?did=1028&if=gb"
+    },
+    "anc-hanzhao": {
+      "title": "湖南省纪委监委·韩昭侯不许私求",
+      "url": "https://www.sxfj.gov.cn/jing_cai_zhuan_ti/267e63/10909499.shtml"
+    },
+    "anc-yinxu": {
+      "title": "UNESCO·Yin Xu",
+      "url": "https://whc.unesco.org/en/list/1114",
+      "note": "殷墟地望和晚商考古语境；约1300起，不等于诸商王精确年界。"
+    },
+    "anc-zhengzhou": {
+      "title": "郑州市政府·郑州商代都城遗址",
+      "url": "https://www.zhengzhou.gov.cn/view22/6472622.jhtml",
+      "note": "地点及早商遗存；其亳都认定与其他学说并存，标签不强定亳。"
+    },
+    "anc-fenghao": {
+      "title": "湖北省博物馆·西周都城考古的主要收获",
+      "url": "https://m-www.hbww.org.cn/p/10888.html"
+    },
+    "anc-chengzhou": {
+      "title": "北京大学学术期刊·洛阳西周时代的遗址与成周、王城",
+      "url": "https://ccj.pku.edu.cn/article/info?aid=330993308",
+      "access": "abstract"
+    },
+    "anc-linzi": {
+      "title": "山东地方史志·临淄齐国故城",
+      "url": "https://shandong-chorography.org/database/a/section/70/article/75/"
+    },
+    "anc-qufu": {
+      "title": "曲阜市政府·加强鲁国故城保护和管理通告",
+      "url": "https://www.qfwbw.cn/news/wzgg/2016-03-23/2268.html"
+    },
+    "anc-zhenghan": {
+      "title": "郑州市文物局·郑韩故城",
+      "url": "https://wwj.zhengzhou.gov.cn/country/3176064.jhtml"
+    },
+    "anc-chuying": {
+      "title": "尹弘兵《楚都纪南城探析：基于考古与出土文献新资料的考察》2019",
+      "url": "https://www.lsdlyj.com.cn/CN/article/downloadArticleFile.do?attachType=PDF&id=47117",
+      "note": "提出纪南城为楚都约前377—278；标签采用该研究的保守区间，非从楚建国一直画在此点。"
+    },
+    "anc-weixiang": {
+      "title": "中国哲学书电子化计划·魏襄王",
+      "url": "https://ctext.org/dictionary.pl?did=1011&if=gb&remap=gb",
+      "note": "用于修订后的现代年序，与魏世家原典合读。"
+    },
+    "anc-weizhao": {
+      "title": "中国哲学书电子化计划·昭王条",
+      "url": "https://ctext.org/dictionary.pl?char=昭&if=en"
+    },
+    "anc-chuxuan": {
+      "title": "中国哲学书电子化计划·楚宣王",
+      "url": "https://ctext.org/datawiki.pl?if=gb&res=727256"
+    }
+  },
+  "entries": {
+    "西安": {
+      "sources": [
+        "xian",
+        "north-xian-chronicle",
+        "north-xian-gazetteer",
+        "north-xian-years",
+        "cv-xian"
+      ],
+      "periods": [
+        {
+          "from": -1046,
+          "to": -771,
+          "name": "丰镐",
+          "point": [
+            108.76,
+            34.22
+          ],
+          "sources": [
+            "anc-fenghao"
+          ],
+          "kind": "先秦都邑／遗址参照",
+          "note": "沣河两岸丰、镐是分开的都邑群，点位作区域示意，非两城合成一个城址。"
+        },
+        {
+          "from": -202,
+          "to": 8,
+          "name": "长安",
+          "sources": [
+            "xian"
+          ],
+          "point": [
+            108.86,
+            34.38
+          ],
+          "kind": "城名"
+        },
+        {
+          "from": 9,
+          "to": 23,
+          "name": "常安",
+          "sources": [
+            "xian"
+          ],
+          "point": [
+            108.86,
+            34.38
+          ],
+          "kind": "城名"
+        },
+        {
+          "from": 25,
+          "to": 582,
+          "name": "长安",
+          "sources": [
+            "north-xian-chronicle"
+          ],
+          "note": "582年仅营建新都，583年正式迁都；汉长安故城点。",
+          "point": [
+            108.86,
+            34.38
+          ],
+          "kind": "城名"
+        },
+        {
+          "from": 583,
+          "to": 617,
+          "name": "大兴",
+          "sources": [
+            "north-xian-chronicle"
+          ],
+          "point": [
+            108.94,
+            34.26
+          ],
+          "kind": "都城名"
+        },
+        {
+          "from": 618,
+          "to": 906,
+          "name": "长安",
+          "sources": [
+            "north-xian-gazetteer"
+          ],
+          "note": "唐城名长安仍有效；713年以后府级建制为京兆府。",
+          "point": [
+            108.94,
+            34.26
+          ],
+          "kind": "城名"
+        },
+        {
+          "from": 907,
+          "to": 922,
+          "name": "大安府",
+          "sources": [
+            "north-xian-gazetteer"
+          ],
+          "kind": "府治",
+          "point": [
+            108.94,
+            34.26
+          ]
+        },
+        {
+          "from": 923,
+          "to": 1277,
+          "name": "京兆府",
+          "sources": [
+            "north-xian-gazetteer"
+          ],
+          "kind": "府治",
+          "point": [
+            108.94,
+            34.26
+          ]
+        },
+        {
+          "from": 1278,
+          "to": 1278,
+          "name": "安西府",
+          "sources": [
+            "north-xian-years"
+          ],
+          "note": "省志大事记载1278年七月改府，1279年十二月改路；市志概述合并为1279年，年度切片存在压缩。",
+          "kind": "府治",
+          "point": [
+            108.94,
+            34.26
+          ]
+        },
+        {
+          "from": 1279,
+          "to": 1311,
+          "name": "安西路",
+          "sources": [
+            "north-xian-chronicle",
+            "north-xian-gazetteer"
+          ],
+          "note": "1272年是安西王封爵，不能等同设安西路。",
+          "kind": "路治",
+          "point": [
+            108.94,
+            34.26
+          ]
+        },
+        {
+          "from": 1312,
+          "to": 1368,
+          "name": "奉元路",
+          "sources": [
+            "north-xian-gazetteer"
+          ],
+          "kind": "路治",
+          "point": [
+            108.94,
+            34.26
+          ]
+        },
+        {
+          "from": 1369,
+          "to": 1642,
+          "name": "西安府",
+          "sources": [
+            "xian"
+          ],
+          "kind": "府治",
+          "point": [
+            108.94,
+            34.26
+          ]
+        },
+        {
+          "from": 1643,
+          "to": 1644,
+          "name": "长安府（西京）",
+          "kind": "府治及京号",
+          "point": [
+            108.94,
+            34.26
+          ],
+          "sources": [
+            "cv-xian"
+          ],
+          "note": "1643年十一月改名；年度切片采用年内后期状态，非表示全年已用此名。"
+        },
+        {
+          "from": 1645,
+          "to": 1911,
+          "name": "西安府",
+          "kind": "府治",
+          "point": [
+            108.94,
+            34.26
+          ],
+          "sources": [
+            "cv-xian"
+          ],
+          "note": "1645年正月清军入城，五月沿设西安府；年度标签采用该年后期建置。"
+        }
+      ],
+      "note": "汉长安与隋唐大兴/长安分址。1643年末—1644年补入大顺长安府、西京，1645年采用清复西安府；年内更替见各段说明。"
+    },
+    "洛阳": {
+      "sources": [
+        "luoyang",
+        "north-ly-alias"
+      ],
+      "periods": [
+        {
+          "from": -1000,
+          "to": -256,
+          "name": "成周（雒邑）",
+          "point": [
+            112.49,
+            34.69
+          ],
+          "sources": [
+            "anc-chengzhou"
+          ],
+          "kind": "先秦都邑／遗址参照",
+          "note": "成周、王城与后来汉魏洛阳有分址及年代争论；该点仅表洛阳区域，不等同某段城垣。"
+        },
+        {
+          "from": -221,
+          "to": 8,
+          "name": "洛阳",
+          "point": [
+            112.63,
+            34.72
+          ],
+          "sources": [
+            "luoyang"
+          ],
+          "kind": "城邑称谓"
+        },
+        {
+          "from": 9,
+          "to": 23,
+          "name": "宜阳",
+          "point": [
+            112.63,
+            34.72
+          ],
+          "sources": [
+            "luoyang"
+          ],
+          "kind": "城邑称谓"
+        },
+        {
+          "from": 25,
+          "to": 219,
+          "name": "雒阳",
+          "point": [
+            112.63,
+            34.72
+          ],
+          "sources": [
+            "luoyang"
+          ],
+          "kind": "城邑称谓"
+        },
+        {
+          "from": 220,
+          "to": 604,
+          "name": "洛阳",
+          "point": [
+            112.63,
+            34.72
+          ],
+          "sources": [
+            "luoyang"
+          ],
+          "kind": "城邑称谓"
+        },
+        {
+          "from": 605,
+          "to": 656,
+          "name": "洛阳",
+          "sources": [
+            "luoyang"
+          ],
+          "note": "隋新城在汉魏故城西，采用隋唐城址。",
+          "point": [
+            112.47,
+            34.68
+          ],
+          "kind": "城名"
+        },
+        {
+          "from": 657,
+          "to": 683,
+          "name": "东都",
+          "sources": [
+            "north-ly-alias"
+          ],
+          "kind": "京号",
+          "point": [
+            112.47,
+            34.68
+          ]
+        },
+        {
+          "from": 684,
+          "to": 704,
+          "name": "神都",
+          "sources": [
+            "north-ly-alias"
+          ],
+          "kind": "京号",
+          "point": [
+            112.47,
+            34.68
+          ]
+        },
+        {
+          "from": 705,
+          "to": 741,
+          "name": "东都",
+          "sources": [
+            "north-ly-alias"
+          ],
+          "kind": "京号",
+          "point": [
+            112.47,
+            34.68
+          ]
+        },
+        {
+          "from": 742,
+          "to": 760,
+          "name": "东京",
+          "sources": [
+            "north-ly-alias"
+          ],
+          "kind": "京号",
+          "point": [
+            112.47,
+            34.68
+          ]
+        },
+        {
+          "from": 761,
+          "to": 761,
+          "name": "洛阳",
+          "sources": [
+            "north-ly-alias"
+          ],
+          "note": "761年九月撤东京号，762年复东都；年内不能用单一名称精确表达。",
+          "kind": "城名",
+          "point": [
+            112.47,
+            34.68
+          ]
+        },
+        {
+          "from": 762,
+          "to": 906,
+          "name": "东都",
+          "sources": [
+            "north-ly-alias"
+          ],
+          "kind": "京号",
+          "point": [
+            112.47,
+            34.68
+          ]
+        },
+        {
+          "from": 907,
+          "to": 946,
+          "name": "洛阳",
+          "sources": [
+            "luoyang"
+          ],
+          "note": "五代多次更改京号，暂用持续使用的城名，未推定连续京号。",
+          "kind": "城名",
+          "point": [
+            112.47,
+            34.68
+          ]
+        },
+        {
+          "from": 947,
+          "to": 1126,
+          "name": "西京",
+          "sources": [
+            "north-ly-alias"
+          ],
+          "note": "后汉、后周、北宋京号。",
+          "kind": "京号",
+          "point": [
+            112.47,
+            34.68
+          ]
+        },
+        {
+          "from": 1127,
+          "to": 1216,
+          "name": "洛阳",
+          "sources": [
+            "luoyang"
+          ],
+          "note": "金代府名曾改金昌府，具体设置起年未在本次材料中核定，保留城名。",
+          "kind": "城名",
+          "point": [
+            112.47,
+            34.68
+          ]
+        },
+        {
+          "from": 1217,
+          "to": 1233,
+          "name": "中京",
+          "sources": [
+            "north-ly-alias"
+          ],
+          "note": "金贞祐五年改中京。",
+          "kind": "京号",
+          "point": [
+            112.47,
+            34.68
+          ]
+        },
+        {
+          "from": 1234,
+          "to": 1911,
+          "name": "洛阳",
+          "sources": [
+            "luoyang"
+          ],
+          "note": "持续城名；元河南府路、明清河南府为同时存在的上级建制，未核起年不拼接。",
+          "kind": "城名",
+          "point": [
+            112.47,
+            34.68
+          ]
+        }
+      ],
+      "note": "京号不等于县名消失，洛阳/雒阳县与河南府可同时存在；605年以后采用隋唐城大致位置。"
+    },
+    "北京": {
+      "sources": [
+        "beijing",
+        "north-bj-tang",
+        "north-bj-fangshan",
+        "north-bj-song",
+        "north-bj-rd"
+      ],
+      "periods": [
+        {
+          "from": -221,
+          "to": 219,
+          "name": "蓟",
+          "point": [
+            116.35,
+            39.88
+          ],
+          "sources": [
+            "beijing"
+          ],
+          "kind": "城邑称谓"
+        },
+        {
+          "from": 220,
+          "to": 580,
+          "name": "幽州",
+          "point": [
+            116.35,
+            39.88
+          ],
+          "sources": [
+            "beijing"
+          ],
+          "kind": "州治"
+        },
+        {
+          "from": 581,
+          "to": 606,
+          "name": "幽州",
+          "point": [
+            116.35,
+            39.88
+          ],
+          "sources": [
+            "beijing"
+          ],
+          "kind": "州治"
+        },
+        {
+          "from": 607,
+          "to": 617,
+          "name": "涿郡",
+          "point": [
+            116.35,
+            39.88
+          ],
+          "sources": [
+            "beijing"
+          ],
+          "kind": "郡治"
+        },
+        {
+          "from": 618,
+          "to": 741,
+          "name": "幽州",
+          "sources": [
+            "beijing"
+          ],
+          "kind": "州治",
+          "point": [
+            116.35,
+            39.88
+          ]
+        },
+        {
+          "from": 742,
+          "to": 757,
+          "name": "范阳郡",
+          "sources": [
+            "north-bj-tang"
+          ],
+          "kind": "郡治",
+          "point": [
+            116.35,
+            39.88
+          ]
+        },
+        {
+          "from": 758,
+          "to": 937,
+          "name": "幽州",
+          "sources": [
+            "north-bj-tang"
+          ],
+          "kind": "州治",
+          "point": [
+            116.35,
+            39.88
+          ]
+        },
+        {
+          "from": 938,
+          "to": 1011,
+          "name": "南京·幽都府",
+          "sources": [
+            "north-bj-fangshan"
+          ],
+          "note": "南京为京号，幽都府为府号；亦称燕京。",
+          "point": [
+            116.35,
+            39.88
+          ],
+          "kind": "京号及府治"
+        },
+        {
+          "from": 1012,
+          "to": 1122,
+          "name": "南京·析津府",
+          "sources": [
+            "north-bj-fangshan"
+          ],
+          "note": "析津为府号，燕京亦见时人称谓。",
+          "point": [
+            116.35,
+            39.88
+          ],
+          "kind": "京号及府治"
+        },
+        {
+          "from": 1123,
+          "to": 1125,
+          "name": "燕山府",
+          "sources": [
+            "north-bj-song",
+            "north-bj-fangshan"
+          ],
+          "note": "1125年十二月复归金，同一年存在宋金名称交替。",
+          "kind": "府治",
+          "point": [
+            116.35,
+            39.88
+          ]
+        },
+        {
+          "from": 1126,
+          "to": 1152,
+          "name": "燕京·析津府",
+          "sources": [
+            "north-bj-fangshan",
+            "north-bj-rd"
+          ],
+          "kind": "城名及府治",
+          "point": [
+            116.35,
+            39.88
+          ]
+        },
+        {
+          "from": 1153,
+          "to": 1214,
+          "name": "中都·大兴府",
+          "point": [
+            116.35,
+            39.88
+          ],
+          "sources": [
+            "north-bj-rd"
+          ],
+          "kind": "京号及府治"
+        },
+        {
+          "from": 1215,
+          "to": 1271,
+          "name": "燕京",
+          "point": [
+            116.35,
+            39.88
+          ],
+          "sources": [
+            "beijing"
+          ],
+          "kind": "城邑称谓"
+        },
+        {
+          "from": 1272,
+          "to": 1367,
+          "name": "大都",
+          "point": [
+            116.4,
+            39.94
+          ],
+          "sources": [
+            "beijing"
+          ],
+          "kind": "城邑称谓"
+        },
+        {
+          "from": 1368,
+          "to": 1402,
+          "name": "北平",
+          "point": [
+            116.4,
+            39.92
+          ],
+          "sources": [
+            "beijing"
+          ],
+          "kind": "城邑称谓"
+        },
+        {
+          "from": 1403,
+          "to": 1911,
+          "name": "北京·顺天府",
+          "point": [
+            116.4,
+            39.92
+          ],
+          "sources": [
+            "north-bj-fangshan"
+          ],
+          "kind": "京号及府治"
+        }
+      ],
+      "note": "辽南京、金中都位于今北京老城西南；元大都北移，保留分址坐标。清代京师、北京与顺天府并行，不能认定北京仅是现代名。1264—1271中都路建制尚需另核，现保留燕京城名。"
+    },
+    "济南": {
+      "sources": [
+        "jinan",
+        "north-jinan-district",
+        "north-jinan-1265",
+        "north-jinan-chgis",
+        "cv-yuan",
+        "cv-ming-jinan"
+      ],
+      "periods": [
+        {
+          "from": -221,
+          "to": 8,
+          "name": "历城",
+          "sources": [
+            "jinan"
+          ],
+          "kind": "县城"
+        },
+        {
+          "from": 25,
+          "to": 468,
+          "name": "历城",
+          "sources": [
+            "jinan"
+          ],
+          "kind": "县城"
+        },
+        {
+          "from": 469,
+          "to": 606,
+          "name": "齐州",
+          "sources": [
+            "jinan"
+          ],
+          "kind": "州治"
+        },
+        {
+          "from": 607,
+          "to": 617,
+          "name": "齐郡",
+          "sources": [
+            "jinan"
+          ],
+          "kind": "郡治"
+        },
+        {
+          "from": 618,
+          "to": 741,
+          "name": "齐州",
+          "sources": [
+            "jinan"
+          ],
+          "kind": "州治"
+        },
+        {
+          "from": 742,
+          "to": 745,
+          "name": "临淄郡",
+          "sources": [
+            "jinan"
+          ],
+          "kind": "郡治"
+        },
+        {
+          "from": 746,
+          "to": 757,
+          "name": "济南郡",
+          "sources": [
+            "jinan"
+          ],
+          "kind": "郡治"
+        },
+        {
+          "from": 758,
+          "to": 1115,
+          "name": "齐州",
+          "sources": [
+            "jinan"
+          ],
+          "kind": "州治"
+        },
+        {
+          "from": 1116,
+          "to": 1233,
+          "name": "济南府",
+          "sources": [
+            "north-jinan-district"
+          ],
+          "note": "历城县仍为附郭；《元史》仅记元初改路，不能由此推定精确始年。",
+          "kind": "府治"
+        },
+        {
+          "from": 1234,
+          "to": 1264,
+          "name": "历城",
+          "sources": [
+            "jinan"
+          ],
+          "note": "这一过渡区间改用持续县城名，避免猜定济南路始置年。",
+          "kind": "县城"
+        },
+        {
+          "from": 1265,
+          "to": 1366,
+          "name": "济南路",
+          "sources": [
+            "north-jinan-1265",
+            "north-jinan-chgis"
+          ],
+          "note": "1265是本表已查到路名的保守起点，并非断言始置于此年。",
+          "kind": "路治"
+        },
+        {
+          "from": 1367,
+          "to": 1911,
+          "name": "济南府",
+          "sources": [
+            "jinan",
+            "cv-ming-jinan"
+          ],
+          "kind": "府治"
+        }
+      ],
+      "note": "前期郡治东平陵与历城县城分开；1234—1264仍用可证县名，避免把元初改路强行定在灭金年。1367改府据《明史》吴元年。"
+    },
+    "太原": {
+      "sources": [
+        "taiyuan",
+        "north-taiyuan-history",
+        "north-taiyuan-relocation",
+        "north-taiyuan-map",
+        "north-taiyuan-chgis",
+        "cv-yuan",
+        "cv-taiyuan"
+      ],
+      "periods": [
+        {
+          "from": -221,
+          "to": 722,
+          "name": "晋阳",
+          "sources": [
+            "taiyuan"
+          ],
+          "point": [
+            112.47,
+            37.74
+          ],
+          "kind": "城名"
+        },
+        {
+          "from": 723,
+          "to": 978,
+          "name": "太原府",
+          "sources": [
+            "north-taiyuan-history"
+          ],
+          "note": "唐升并州为太原府；仍在晋阳故城。",
+          "point": [
+            112.47,
+            37.74
+          ],
+          "kind": "府治"
+        },
+        {
+          "from": 979,
+          "to": 981,
+          "name": "并州（暂治榆次）",
+          "sources": [
+            "north-taiyuan-relocation"
+          ],
+          "note": "宋毁晋阳后州治暂在榆次；坐标仅约数。",
+          "point": [
+            112.75,
+            37.68
+          ],
+          "kind": "州治"
+        },
+        {
+          "from": 982,
+          "to": 1058,
+          "name": "并州",
+          "sources": [
+            "north-taiyuan-relocation"
+          ],
+          "note": "州治迁唐明监，此后今太原老城发展；不是原晋阳故城。",
+          "point": [
+            112.56,
+            37.87
+          ],
+          "kind": "州治"
+        },
+        {
+          "from": 1059,
+          "to": 1217,
+          "name": "太原府",
+          "sources": [
+            "north-taiyuan-history"
+          ],
+          "point": [
+            112.56,
+            37.87
+          ],
+          "kind": "府治"
+        },
+        {
+          "from": 1218,
+          "to": 1304,
+          "name": "太原路",
+          "sources": [
+            "north-taiyuan-map"
+          ],
+          "note": "《元史》与部分辞书记1216立路，另有1218说；1216—1217沿用金方实际城治太原府，1218起显示太原路，不把蒙古名义立路与占城简单等同。",
+          "kind": "路治"
+        },
+        {
+          "from": 1305,
+          "to": 1367,
+          "name": "冀宁路",
+          "sources": [
+            "north-taiyuan-history"
+          ],
+          "kind": "路治"
+        },
+        {
+          "from": 1368,
+          "to": 1911,
+          "name": "太原府",
+          "sources": [
+            "north-taiyuan-chgis"
+          ],
+          "point": [
+            112.56,
+            37.87
+          ],
+          "kind": "府治"
+        }
+      ],
+      "note": "晋阳、榆次与唐明监新城分址。1216名义立路与1218改路/占城说并存，过渡期采用太原府城名；此为有依据的显示取舍，不宣称争论已解决。"
+    },
+    "开封": {
+      "sources": [
+        "kaifeng",
+        "kaifeng2",
+        "north-bj-rd"
+      ],
+      "periods": [
+        {
+          "from": -221,
+          "to": 575,
+          "name": "浚仪",
+          "sources": [
+            "kaifeng",
+            "kaifeng2"
+          ],
+          "kind": "县城"
+        },
+        {
+          "from": 576,
+          "to": 906,
+          "name": "汴州",
+          "sources": [
+            "kaifeng",
+            "kaifeng2"
+          ],
+          "kind": "州治"
+        },
+        {
+          "from": 907,
+          "to": 922,
+          "name": "开封府",
+          "sources": [
+            "kaifeng2"
+          ],
+          "kind": "府治"
+        },
+        {
+          "from": 923,
+          "to": 937,
+          "name": "汴州",
+          "sources": [
+            "kaifeng2"
+          ],
+          "note": "后唐复汴州，不能把907—1126连续视作开封府。",
+          "kind": "州治"
+        },
+        {
+          "from": 938,
+          "to": 959,
+          "name": "开封府",
+          "sources": [
+            "kaifeng2"
+          ],
+          "note": "947年后汉曾在同年改汴州又复府；年度切片保留府名并注明。",
+          "kind": "府治"
+        },
+        {
+          "from": 960,
+          "to": 1126,
+          "name": "东京·开封府",
+          "sources": [
+            "kaifeng2"
+          ],
+          "note": "东京为京号，开封府为府级建制。",
+          "kind": "京号及府治"
+        },
+        {
+          "from": 1127,
+          "to": 1152,
+          "name": "汴京",
+          "sources": [
+            "kaifeng2"
+          ],
+          "kind": "城名"
+        },
+        {
+          "from": 1153,
+          "to": 1287,
+          "name": "南京",
+          "sources": [
+            "kaifeng2",
+            "north-bj-rd"
+          ],
+          "note": "1153金以开封为南京；元初仍沿用南京称呼，不能误作今南京。",
+          "kind": "京号及沿用城名"
+        },
+        {
+          "from": 1288,
+          "to": 1367,
+          "name": "汴梁路",
+          "sources": [
+            "kaifeng2"
+          ],
+          "kind": "路治"
+        },
+        {
+          "from": 1368,
+          "to": 1911,
+          "name": "开封府",
+          "sources": [
+            "kaifeng"
+          ],
+          "kind": "府治"
+        }
+      ],
+      "note": "东京、南京为不同时代的京号，与开封府等建置名可以并存；金南京在开封，不在今南京。"
+    },
+    "兰州": {
+      "sources": [
+        "north-lanzhou-admin",
+        "lanzhou",
+        "north-lanzhou-dict",
+        "cv-lanzhou"
+      ],
+      "periods": [
+        {
+          "from": -86,
+          "to": 582,
+          "name": "金城",
+          "sources": [
+            "north-lanzhou-admin"
+          ],
+          "note": "早期金城县城约在今西固；314年以后兼为金城郡治。",
+          "point": [
+            103.63,
+            36.1
+          ],
+          "kind": "县城"
+        },
+        {
+          "from": 583,
+          "to": 606,
+          "name": "兰州",
+          "sources": [
+            "north-lanzhou-admin"
+          ],
+          "note": "州治点为区域近似；汉金城县是否由西固迁城关及迁年，学术综述明确存在不同意见。",
+          "point": [
+            103.83,
+            36.06
+          ],
+          "kind": "州治"
+        },
+        {
+          "from": 607,
+          "to": 618,
+          "name": "金城郡",
+          "sources": [
+            "lanzhou"
+          ],
+          "kind": "郡治"
+        },
+        {
+          "from": 619,
+          "to": 741,
+          "name": "兰州",
+          "sources": [
+            "lanzhou"
+          ],
+          "kind": "州治"
+        },
+        {
+          "from": 742,
+          "to": 757,
+          "name": "金城郡",
+          "sources": [
+            "north-lanzhou-dict"
+          ],
+          "kind": "郡治"
+        },
+        {
+          "from": 758,
+          "to": 1737,
+          "name": "兰州",
+          "sources": [
+            "north-lanzhou-dict"
+          ],
+          "note": "复州为乾元元年758，部分简表记为759年。",
+          "kind": "州治"
+        },
+        {
+          "from": 1738,
+          "to": 1911,
+          "name": "兰州府",
+          "sources": [
+            "north-lanzhou-admin"
+          ],
+          "note": "临洮府迁来更名兰州府，州本身改设皋兰县，县为附郭。",
+          "kind": "府治"
+        }
+      ],
+      "note": "经《甘肃史志》研究综述复查，金城县、子城县定位及西固迁城关说仍有争论，保留分期近似点位但不能据此复原精确迁城线。兰州府与附郭皋兰县并存。"
+    },
+    "银川": {
+      "sources": [
+        "yinchuan",
+        "north-yinchuan-mca",
+        "north-yinchuan-dict"
+      ],
+      "periods": [
+        {
+          "from": 678,
+          "to": 1019,
+          "name": "怀远",
+          "sources": [
+            "yinchuan"
+          ],
+          "note": "678为水灾后新怀远城；更早怀远城址不在此点。",
+          "point": [
+            106.28,
+            38.47
+          ],
+          "kind": "城名"
+        },
+        {
+          "from": 1020,
+          "to": 1032,
+          "name": "兴州",
+          "sources": [
+            "north-yinchuan-mca"
+          ],
+          "kind": "州治",
+          "point": [
+            106.28,
+            38.47
+          ]
+        },
+        {
+          "from": 1033,
+          "to": 1204,
+          "name": "兴庆府",
+          "sources": [
+            "north-yinchuan-mca"
+          ],
+          "note": "1033升府，1038西夏建国定都，两者不同。",
+          "kind": "府治",
+          "point": [
+            106.28,
+            38.47
+          ]
+        },
+        {
+          "from": 1205,
+          "to": 1287,
+          "name": "中兴府",
+          "sources": [
+            "north-yinchuan-dict"
+          ],
+          "note": "1205改名据历史地名辞典；蒙古征服后中兴府/中兴路建制变动仍需细核，本表作为城的沿用称谓。",
+          "kind": "府名及沿用城名",
+          "point": [
+            106.28,
+            38.47
+          ]
+        },
+        {
+          "from": 1288,
+          "to": 1367,
+          "name": "宁夏府路",
+          "sources": [
+            "yinchuan"
+          ],
+          "kind": "路治",
+          "point": [
+            106.28,
+            38.47
+          ]
+        },
+        {
+          "from": 1368,
+          "to": 1723,
+          "name": "宁夏",
+          "sources": [
+            "yinchuan"
+          ],
+          "note": "明宁夏镇及宁夏各卫并存，卫制数次调整，此处只用宁夏城称谓，不断言宁夏镇设于1368。",
+          "kind": "城名",
+          "point": [
+            106.28,
+            38.47
+          ]
+        },
+        {
+          "from": 1724,
+          "to": 1911,
+          "name": "宁夏府",
+          "sources": [
+            "north-yinchuan-dict"
+          ],
+          "kind": "府治",
+          "point": [
+            106.28,
+            38.47
+          ]
+        }
+      ],
+      "note": "兴庆府升府与1038年西夏定都不是同一节点。怀远旧城、明代宁夏镇与各卫的建置变化不能只按王朝首年推定。"
+    },
+    "沈阳": {
+      "sources": [
+        "north-shenyang-mca",
+        "north-shenyang-lnr",
+        "north-shenyang-qing",
+        "shenyang",
+        "cv-shenyang"
+      ],
+      "periods": [
+        {
+          "from": 921,
+          "to": 1295,
+          "name": "沈州",
+          "sources": [
+            "north-shenyang-mca"
+          ],
+          "kind": "州治"
+        },
+        {
+          "from": 1296,
+          "to": 1385,
+          "name": "沈阳路",
+          "sources": [
+            "north-shenyang-lnr"
+          ],
+          "kind": "路治"
+        },
+        {
+          "from": 1386,
+          "to": 1620,
+          "name": "沈阳中卫",
+          "sources": [
+            "north-shenyang-qing"
+          ],
+          "kind": "卫城"
+        },
+        {
+          "from": 1621,
+          "to": 1633,
+          "name": "沈阳",
+          "sources": [
+            "north-shenyang-qing"
+          ],
+          "note": "1621后金占领后不再把明卫制当作现行建制；1625迁都。",
+          "kind": "城名"
+        },
+        {
+          "from": 1634,
+          "to": 1656,
+          "name": "盛京",
+          "sources": [
+            "shenyang"
+          ],
+          "kind": "京号"
+        },
+        {
+          "from": 1657,
+          "to": 1911,
+          "name": "盛京·奉天府",
+          "sources": [
+            "north-shenyang-qing"
+          ],
+          "note": "盛京京号与奉天府建制并行。",
+          "kind": "京号及府治"
+        }
+      ],
+      "note": "已复查沈阳城址规划：候城、上伯官玄菟郡城、青桩子为不同历史城址，现材料不能把汉代县治与后世沈州直接一一同址。保持从921沈州起显示，早期空白表示城址对应证据不足。"
+    },
+    "敦煌": {
+      "sources": [
+        "north-dh-chgis",
+        "north-dh-zhou",
+        "north-dh-yearbook",
+        "north-dh-primary",
+        "north-dh-gazetteer",
+        "north-dh-fort",
+        "cv-dunhuang-old",
+        "cv-dunhuang-study",
+        "cv-dunhuang-city"
+      ],
+      "periods": [
+        {
+          "from": -88,
+          "to": 557,
+          "name": "敦煌县",
+          "sources": [
+            "north-dh-chgis"
+          ],
+          "note": "县名记录的已核范围从前88起，非断言郡城始建于前88；前111置郡说与县设置年代不同。",
+          "point": [
+            94.62,
+            40.14
+          ],
+          "kind": "县城"
+        },
+        {
+          "from": 558,
+          "to": 606,
+          "name": "瓜州",
+          "sources": [
+            "north-dh-zhou"
+          ],
+          "note": "采用州治名；北周附郭县改鸣沙县，但精确改县年未核，不强填。",
+          "point": [
+            94.62,
+            40.14
+          ],
+          "kind": "州治"
+        },
+        {
+          "from": 607,
+          "to": 618,
+          "name": "敦煌郡",
+          "sources": [
+            "north-dh-zhou"
+          ],
+          "point": [
+            94.62,
+            40.14
+          ],
+          "kind": "郡治"
+        },
+        {
+          "from": 619,
+          "to": 621,
+          "name": "瓜州",
+          "sources": [
+            "north-dh-zhou"
+          ],
+          "note": "此为今敦煌的瓜州，非622年起晋昌治所的另一瓜州。",
+          "point": [
+            94.62,
+            40.14
+          ],
+          "kind": "州治"
+        },
+        {
+          "from": 622,
+          "to": 632,
+          "name": "西沙州",
+          "sources": [
+            "north-dh-yearbook"
+          ],
+          "point": [
+            94.62,
+            40.14
+          ],
+          "kind": "州治"
+        },
+        {
+          "from": 633,
+          "to": 741,
+          "name": "沙州",
+          "sources": [
+            "north-dh-yearbook"
+          ],
+          "point": [
+            94.62,
+            40.14
+          ],
+          "kind": "州治"
+        },
+        {
+          "from": 742,
+          "to": 757,
+          "name": "敦煌郡",
+          "sources": [
+            "north-dh-primary"
+          ],
+          "point": [
+            94.62,
+            40.14
+          ],
+          "kind": "郡治"
+        },
+        {
+          "from": 758,
+          "to": 1279,
+          "name": "沙州",
+          "sources": [
+            "north-dh-primary",
+            "north-dh-yearbook"
+          ],
+          "note": "吐蕃、归义军、西夏时期沿用沙州称谓，不表示行政层级和隶属始终一致。",
+          "point": [
+            94.62,
+            40.14
+          ],
+          "kind": "州名及城名"
+        },
+        {
+          "from": 1280,
+          "to": 1404,
+          "name": "沙州路",
+          "sources": [
+            "north-dh-gazetteer"
+          ],
+          "note": "县志与年鉴支持1280升路；军事志有1275说，仍需核元代原始记载。",
+          "point": [
+            94.62,
+            40.14
+          ],
+          "kind": "路治"
+        },
+        {
+          "from": 1405,
+          "to": 1527,
+          "name": "沙州卫",
+          "sources": [
+            "north-dh-yearbook",
+            "north-dh-fort"
+          ],
+          "note": "据新年鉴1405设卫、1528闭关徙民；明中后期卫的实际驻守、废复复杂，1527为迁空前上限，并非始终有效驻守。",
+          "point": [
+            94.62,
+            40.14
+          ],
+          "kind": "卫城"
+        },
+        {
+          "from": 1725,
+          "to": 1726,
+          "name": "沙州城",
+          "sources": [
+            "north-dh-fort",
+            "north-dh-yearbook"
+          ],
+          "note": "旧志记1723置所、1725升卫；刘传飞2015年考证改作1724、1726。1725东岸筑城另有地方文博材料支持，本段先标沙州城，不以争议升卫年冒充定论。",
+          "point": [
+            94.66,
+            40.14
+          ],
+          "kind": "通行城名"
+        },
+        {
+          "from": 1727,
+          "to": 1759,
+          "name": "沙州卫",
+          "kind": "卫城",
+          "point": [
+            94.66,
+            40.14
+          ],
+          "sources": [
+            "cv-dunhuang-old",
+            "cv-dunhuang-study"
+          ],
+          "note": "从两说均已升卫的1727年显示；不将该年当作始设年。"
+        },
+        {
+          "from": 1760,
+          "to": 1911,
+          "name": "敦煌县",
+          "sources": [
+            "north-dh-gazetteer"
+          ],
+          "point": [
+            94.66,
+            40.14
+          ],
+          "kind": "县城"
+        }
+      ],
+      "note": "党河西岸旧城与东岸清城分址。1723/1725与1724/1726两套置所、升卫年代已查到明确来源并保留；1528—1724空白不等于无人居住，而是当前表不强贴持续有效卫制。"
+    },
+    "南京": {
+      "periods": [
+        {
+          "from": -221,
+          "to": 211,
+          "name": "秣陵",
+          "sources": [
+            "nj_base"
+          ],
+          "note": "秦汉秣陵治与后来的建业城分址；点位为早期县治的区域示意。",
+          "kind": "县治",
+          "point": [
+            118.79,
+            31.89
+          ]
+        },
+        {
+          "from": 212,
+          "to": 279,
+          "name": "建业",
+          "sources": [
+            "nj_jianye"
+          ],
+          "point": [
+            118.8,
+            32.06
+          ],
+          "kind": "城邑称谓"
+        },
+        {
+          "from": 280,
+          "to": 280,
+          "name": "秣陵",
+          "sources": [
+            "nj_jianye"
+          ],
+          "kind": "城邑称谓"
+        },
+        {
+          "from": 281,
+          "to": 281,
+          "name": "建业",
+          "sources": [
+            "nj_jianye"
+          ],
+          "note": "281复置建业，282改建邺；部分地方沿革将复置记在282，属年界异说。",
+          "kind": "城邑称谓"
+        },
+        {
+          "from": 282,
+          "to": 312,
+          "name": "建邺",
+          "sources": [
+            "nj_jianye"
+          ],
+          "kind": "城邑称谓"
+        },
+        {
+          "from": 313,
+          "to": 588,
+          "name": "建康",
+          "sources": [
+            "nj_xuanwu"
+          ],
+          "kind": "城邑称谓"
+        },
+        {
+          "from": 589,
+          "to": 606,
+          "name": "蒋州",
+          "sources": [
+            "nj_official",
+            "nj_xuanwu"
+          ],
+          "note": "治石头城，江宁县亦在此区域。",
+          "kind": "州郡治所"
+        },
+        {
+          "from": 607,
+          "to": 619,
+          "name": "丹阳郡",
+          "sources": [
+            "nj_official"
+          ],
+          "note": "大业改郡；精确起年在部分简史作605，通行地理沿革作607。",
+          "kind": "州郡治所"
+        },
+        {
+          "from": 620,
+          "to": 623,
+          "name": "扬州",
+          "sources": [
+            "nj_official"
+          ],
+          "note": "是石头城之扬州，625后扬州治移江都，不能一直沿用于南京。",
+          "kind": "州郡治所"
+        },
+        {
+          "from": 624,
+          "to": 624,
+          "name": "江宁（归化县）",
+          "sources": [
+            "nj_jiangning"
+          ],
+          "note": "624州名短期变动未充分核原典，暂以可证县名标示。",
+          "kind": "城邑称谓"
+        },
+        {
+          "from": 625,
+          "to": 625,
+          "name": "金陵县",
+          "kind": "县治",
+          "sources": [
+            "cv-nanjing"
+          ],
+          "point": [
+            118.77,
+            32.05
+          ],
+          "note": "据两唐书与CHGIS；626改白下。"
+        },
+        {
+          "from": 626,
+          "to": 632,
+          "name": "白下县",
+          "kind": "县治",
+          "sources": [
+            "cv-nanjing"
+          ],
+          "point": [
+            118.77,
+            32.1
+          ],
+          "note": "治白下村区域示意，非精确古城坐标。"
+        },
+        {
+          "from": 633,
+          "to": 634,
+          "name": "白下县",
+          "kind": "县治",
+          "sources": [
+            "cv-nanjing"
+          ],
+          "point": [
+            118.77,
+            32.05
+          ],
+          "note": "633移回冶城，635复名江宁；采用区域点位。"
+        },
+        {
+          "from": 635,
+          "to": 756,
+          "name": "江宁",
+          "sources": [
+            "nj_jiangning"
+          ],
+          "note": "635复名江宁，县治在冶城一带。",
+          "kind": "县城"
+        },
+        {
+          "from": 757,
+          "to": 757,
+          "name": "江宁郡",
+          "sources": [
+            "nj_official"
+          ],
+          "kind": "郡治"
+        },
+        {
+          "from": 758,
+          "to": 760,
+          "name": "昇州",
+          "sources": [
+            "nj_official",
+            "nj_jiangning"
+          ],
+          "kind": "州治"
+        },
+        {
+          "from": 761,
+          "to": 886,
+          "name": "上元",
+          "sources": [
+            "nj_jiangning"
+          ],
+          "kind": "县城"
+        },
+        {
+          "from": 887,
+          "to": 919,
+          "name": "昇州",
+          "sources": [
+            "nj_base"
+          ],
+          "note": "复州起年按既有资料；917江宁、上元两县同城，县名不替代州城名。",
+          "kind": "州治"
+        },
+        {
+          "from": 920,
+          "to": 936,
+          "name": "金陵府",
+          "sources": [
+            "nj_official"
+          ],
+          "kind": "府治"
+        },
+        {
+          "from": 937,
+          "to": 974,
+          "name": "江宁府",
+          "sources": [
+            "nj_official"
+          ],
+          "kind": "府治"
+        },
+        {
+          "from": 975,
+          "to": 1017,
+          "name": "昇州",
+          "sources": [
+            "nj_base"
+          ],
+          "kind": "州治"
+        },
+        {
+          "from": 1018,
+          "to": 1128,
+          "name": "江宁府",
+          "sources": [
+            "nj_base"
+          ],
+          "kind": "府治"
+        },
+        {
+          "from": 1129,
+          "to": 1276,
+          "name": "建康府",
+          "sources": [
+            "nj_base"
+          ],
+          "kind": "府治"
+        },
+        {
+          "from": 1277,
+          "to": 1328,
+          "name": "建康路",
+          "sources": [
+            "nj_base"
+          ],
+          "kind": "路治"
+        },
+        {
+          "from": 1329,
+          "to": 1355,
+          "name": "集庆路",
+          "sources": [
+            "nj_base"
+          ],
+          "kind": "路治"
+        },
+        {
+          "from": 1356,
+          "to": 1367,
+          "name": "应天府",
+          "sources": [
+            "nj_base"
+          ],
+          "kind": "府治"
+        },
+        {
+          "from": 1368,
+          "to": 1644,
+          "name": "南京（应天府）",
+          "sources": [
+            "nj_base"
+          ],
+          "note": "京师、南京等京号有阶段变化；应天府为长期建置名，此显示不主张1368—1644京号完全相同。",
+          "kind": "府治"
+        },
+        {
+          "from": 1645,
+          "to": 1852,
+          "name": "江宁府",
+          "sources": [
+            "nj_base"
+          ],
+          "kind": "府治"
+        },
+        {
+          "from": 1853,
+          "to": 1863,
+          "name": "天京",
+          "sources": [
+            "nj_base"
+          ],
+          "kind": "城邑称谓"
+        },
+        {
+          "from": 1864,
+          "to": 1911,
+          "name": "江宁府",
+          "sources": [
+            "nj_base"
+          ],
+          "kind": "府治"
+        }
+      ],
+      "note": "625金陵、626白下、633迁回冶城、635江宁已据两唐书与《太平寰宇记》核对补齐；早期秣陵与六朝建业仍分址。县名、州府名按段注明，不当作唯一城市别名。",
+      "sources": [
+        "nj_base",
+        "nj_jianye",
+        "nj_xuanwu",
+        "nj_official",
+        "nj_jiangning",
+        "cv-nanjing"
+      ]
+    },
+    "成都": {
+      "periods": [
+        {
+          "from": -221,
+          "to": 24,
+          "name": "成都",
+          "sources": [
+            "cd_mingsheng",
+            "cd_yudi"
+          ],
+          "note": "新莽导江是蜀郡名称，卒正公孙述治临邛，不把成都城改标导江。",
+          "kind": "城名"
+        },
+        {
+          "from": 25,
+          "to": 35,
+          "name": "成都尹",
+          "sources": [
+            "cd_tongzhi"
+          ],
+          "note": "公孙述成家政权置成都尹；成家是政权号，不直接作为城名。",
+          "kind": "都城建置"
+        },
+        {
+          "from": 36,
+          "to": 582,
+          "name": "成都",
+          "sources": [
+            "cd_tongzhi",
+            "cd_yudi"
+          ],
+          "note": "郡治、益州治与成都城名并存；289短置成都国，本条以城市名显示。",
+          "kind": "城名"
+        },
+        {
+          "from": 583,
+          "to": 606,
+          "name": "益州",
+          "sources": [
+            "cd_yudi"
+          ],
+          "note": "隋州名，郡已废。",
+          "kind": "州郡治所"
+        },
+        {
+          "from": 607,
+          "to": 617,
+          "name": "蜀郡",
+          "sources": [
+            "cd_yudi"
+          ],
+          "kind": "郡治"
+        },
+        {
+          "from": 618,
+          "to": 741,
+          "name": "益州",
+          "sources": [
+            "cd_yudi"
+          ],
+          "kind": "州治"
+        },
+        {
+          "from": 742,
+          "to": 756,
+          "name": "蜀郡",
+          "sources": [
+            "cd_yudi"
+          ],
+          "kind": "郡治"
+        },
+        {
+          "from": 757,
+          "to": 759,
+          "name": "南京（成都府）",
+          "sources": [
+            "cd_mingsheng",
+            "cd_jinghao"
+          ],
+          "note": "唐南京京号，地在今成都，不是今南京。",
+          "kind": "府治"
+        },
+        {
+          "from": 760,
+          "to": 980,
+          "name": "成都府",
+          "sources": [
+            "cd_yudi",
+            "cd_jinghao"
+          ],
+          "kind": "府治"
+        },
+        {
+          "from": 981,
+          "to": 987,
+          "name": "益州",
+          "sources": [
+            "cd_yudi"
+          ],
+          "kind": "州治"
+        },
+        {
+          "from": 988,
+          "to": 993,
+          "name": "成都府",
+          "sources": [
+            "cd_yudi"
+          ],
+          "kind": "府治"
+        },
+        {
+          "from": 994,
+          "to": 1058,
+          "name": "益州",
+          "sources": [
+            "cd_yudi"
+          ],
+          "kind": "州治"
+        },
+        {
+          "from": 1059,
+          "to": 1257,
+          "name": "成都府",
+          "sources": [
+            "cd_yudi"
+          ],
+          "note": "复府年份采用近当代《舆地广记》的嘉祐四年；《宋史》作嘉祐五年。宋末府治曾迁城外山寨，本点仍表示成都城。",
+          "kind": "府治"
+        },
+        {
+          "from": 1258,
+          "to": 1361,
+          "name": "成都路",
+          "sources": [
+            "cd_fangzhi"
+          ],
+          "note": "1258是地方志文章所称约年，不能理解为已查得具体改制日期。",
+          "kind": "路治"
+        },
+        {
+          "from": 1362,
+          "to": 1370,
+          "name": "成都",
+          "sources": [
+            "cd_yudi"
+          ],
+          "note": "明玉珍期“成都刺史府”尚缺本次资料整理原典佐证，暂保留可考城市名。",
+          "kind": "城名"
+        },
+        {
+          "from": 1371,
+          "to": 1911,
+          "name": "成都府",
+          "sources": [
+            "cd_fangzhi"
+          ],
+          "kind": "府治"
+        }
+      ],
+      "note": "成都为持续使用的城市专名，益州、蜀郡、府路与南京京号则是各期不同层级的称谓。新莽导江为郡名，其官治临邛，不能当作成都城改名。宋末宋方府治迁云顶等地，与蒙古占据成都城存在空间区别。",
+      "sources": [
+        "cd_mingsheng",
+        "cd_yudi",
+        "cd_tongzhi",
+        "cd_jinghao",
+        "cd_fangzhi"
+      ]
+    },
+    "重庆": {
+      "periods": [
+        {
+          "from": -221,
+          "to": 486,
+          "name": "江州",
+          "sources": [
+            "cq_jiangzhou"
+          ],
+          "kind": "县治"
+        },
+        {
+          "from": 487,
+          "to": 560,
+          "name": "垫江",
+          "sources": [
+            "cq_jiangzhou"
+          ],
+          "note": "古垫江县治为今重庆主城区，不能移到今垫江县。",
+          "kind": "县治"
+        },
+        {
+          "from": 561,
+          "to": 582,
+          "name": "巴县",
+          "sources": [
+            "cq_chgis"
+          ],
+          "kind": "县治"
+        },
+        {
+          "from": 583,
+          "to": 606,
+          "name": "渝州",
+          "sources": [
+            "cq_chgis",
+            "cq_official"
+          ],
+          "kind": "州治"
+        },
+        {
+          "from": 607,
+          "to": 617,
+          "name": "巴郡",
+          "sources": [
+            "cq_chgis"
+          ],
+          "kind": "郡治"
+        },
+        {
+          "from": 618,
+          "to": 741,
+          "name": "渝州",
+          "sources": [
+            "cq_chgis"
+          ],
+          "kind": "州治"
+        },
+        {
+          "from": 742,
+          "to": 757,
+          "name": "南平郡",
+          "sources": [
+            "cq_chgis"
+          ],
+          "kind": "郡治"
+        },
+        {
+          "from": 758,
+          "to": 1101,
+          "name": "渝州",
+          "sources": [
+            "cq_chgis"
+          ],
+          "kind": "州治"
+        },
+        {
+          "from": 1102,
+          "to": 1188,
+          "name": "恭州",
+          "sources": [
+            "cq_chgis",
+            "cq_official"
+          ],
+          "kind": "州治"
+        },
+        {
+          "from": 1189,
+          "to": 1278,
+          "name": "重庆府",
+          "sources": [
+            "cq_official",
+            "cq_chgis"
+          ],
+          "note": "采用市政府通行1189；CHGIS据《舆地纪胜》作1190，存在起年异说。",
+          "kind": "府治"
+        },
+        {
+          "from": 1279,
+          "to": 1370,
+          "name": "重庆路",
+          "sources": [
+            "cq_chgis"
+          ],
+          "kind": "路治"
+        },
+        {
+          "from": 1371,
+          "to": 1911,
+          "name": "重庆府",
+          "sources": [
+            "cq_chgis"
+          ],
+          "kind": "府治"
+        }
+      ],
+      "note": "州、郡、府、路名表示重要治所；561—582采用巴县保守表示，因楚州、巴州等短期州名及渝州581/583有史料异说。",
+      "sources": [
+        "cq_jiangzhou",
+        "cq_chgis",
+        "cq_official"
+      ]
+    },
+    "杭州": {
+      "periods": [
+        {
+          "from": -221,
+          "to": 3,
+          "name": "钱唐",
+          "sources": [
+            "hz_cppcc",
+            "hz_qiantang"
+          ],
+          "kind": "城邑称谓"
+        },
+        {
+          "from": 4,
+          "to": 24,
+          "name": "泉亭",
+          "sources": [
+            "hz_sc_yearbook",
+            "hz_qiantang"
+          ],
+          "note": "泉亭始年据上城年鉴公元4年，非一律从王莽登基9年算。",
+          "kind": "城邑称谓"
+        },
+        {
+          "from": 25,
+          "to": 29,
+          "name": "钱唐",
+          "sources": [
+            "hz_news"
+          ],
+          "note": "恢复与30年废县记载存在学术争论。",
+          "kind": "城邑称谓"
+        },
+        {
+          "from": 179,
+          "to": 588,
+          "name": "钱唐",
+          "sources": [
+            "hz_news"
+          ],
+          "note": "179见钱唐侯封邑，但不能据此断言该年复置县；这里作城市地域名保守显示。",
+          "kind": "城名"
+        },
+        {
+          "from": 589,
+          "to": 606,
+          "name": "杭州",
+          "sources": [
+            "hz_cppcc"
+          ],
+          "note": "部分沿革记590年置州；隋初州治先余杭后移钱唐，不应将今余杭区名称直接套在当时州城点。",
+          "kind": "州治"
+        },
+        {
+          "from": 607,
+          "to": 620,
+          "name": "余杭郡",
+          "sources": [
+            "hz_cppcc"
+          ],
+          "kind": "郡治"
+        },
+        {
+          "from": 621,
+          "to": 741,
+          "name": "杭州",
+          "sources": [
+            "hz_cppcc"
+          ],
+          "kind": "州治"
+        },
+        {
+          "from": 742,
+          "to": 757,
+          "name": "余杭郡",
+          "sources": [
+            "hz_tang"
+          ],
+          "kind": "郡治"
+        },
+        {
+          "from": 758,
+          "to": 1128,
+          "name": "杭州",
+          "sources": [
+            "hz_cppcc",
+            "hz_tang"
+          ],
+          "note": "吴越另号西府，但杭州与钱塘县名仍并存。",
+          "kind": "州治"
+        },
+        {
+          "from": 1129,
+          "to": 1275,
+          "name": "临安府",
+          "sources": [
+            "hz_cppcc"
+          ],
+          "kind": "府治"
+        },
+        {
+          "from": 1276,
+          "to": 1277,
+          "name": "杭州",
+          "sources": [
+            "hz_yuan"
+          ],
+          "note": "元军占后先设两浙大都督府、安抚司；不抢先标杭州路。",
+          "kind": "州治"
+        },
+        {
+          "from": 1278,
+          "to": 1365,
+          "name": "杭州路",
+          "sources": [
+            "hz_yuan"
+          ],
+          "kind": "路治"
+        },
+        {
+          "from": 1366,
+          "to": 1911,
+          "name": "杭州府",
+          "sources": [
+            "hz_chgis"
+          ],
+          "kind": "府治"
+        }
+      ],
+      "note": "东汉钱唐县废复并非简单缺查：CHGIS列安帝复置说，陈天声论文提出东汉无县，现不能消除此分歧。30—178保留空段；179起只作钱唐地域名，不宣称该年复县。古钱唐县治与今余杭、临安分开理解。",
+      "sources": [
+        "hz_cppcc",
+        "hz_qiantang",
+        "hz_sc_yearbook",
+        "hz_news",
+        "hz_tang",
+        "hz_yuan",
+        "hz_chgis",
+        "cv-hangzhou",
+        "cv-hangzhou-study"
+      ]
+    },
+    "广州": {
+      "periods": [
+        {
+          "from": -214,
+          "to": 225,
+          "name": "番禺",
+          "sources": [
+            "gz_guangdong"
+          ],
+          "note": "秦南海郡治、南越国都；使用城市/县名，非将整个郡名视作城名。",
+          "kind": "城邑称谓"
+        },
+        {
+          "from": 226,
+          "to": 263,
+          "name": "番禺",
+          "sources": [
+            "gz_guangdong"
+          ],
+          "note": "226曾短置广州旋废，264才稳定复置；采用番禺可避免误称州名连续。",
+          "kind": "城邑称谓"
+        },
+        {
+          "from": 264,
+          "to": 600,
+          "name": "广州",
+          "sources": [
+            "gz_fangzhi"
+          ],
+          "note": "复置州以后与番禺、后南海县名并存。",
+          "kind": "州治"
+        },
+        {
+          "from": 601,
+          "to": 606,
+          "name": "番州",
+          "sources": [
+            "gz_cmc"
+          ],
+          "kind": "州治"
+        },
+        {
+          "from": 607,
+          "to": 620,
+          "name": "南海郡",
+          "sources": [
+            "gz_cmc",
+            "gz_sui"
+          ],
+          "kind": "郡治"
+        },
+        {
+          "from": 621,
+          "to": 741,
+          "name": "广州",
+          "sources": [
+            "gz_sui"
+          ],
+          "kind": "州治"
+        },
+        {
+          "from": 742,
+          "to": 757,
+          "name": "南海郡",
+          "sources": [
+            "gz_chgis"
+          ],
+          "kind": "郡治"
+        },
+        {
+          "from": 758,
+          "to": 916,
+          "name": "广州",
+          "sources": [
+            "gz_chgis"
+          ],
+          "kind": "州治"
+        },
+        {
+          "from": 917,
+          "to": 970,
+          "name": "兴王府",
+          "sources": [
+            "gz_cmc"
+          ],
+          "kind": "府治"
+        },
+        {
+          "from": 971,
+          "to": 1275,
+          "name": "广州",
+          "sources": [
+            "gz_cmc"
+          ],
+          "kind": "州治"
+        },
+        {
+          "from": 1276,
+          "to": 1277,
+          "name": "广州",
+          "kind": "通行城名",
+          "sources": [
+            "cv-guangzhou"
+          ],
+          "note": "1276元军入、1277宋军复城后又失，双方控制反复，通行城名不随一次占领消失。"
+        },
+        {
+          "from": 1278,
+          "to": 1278,
+          "name": "翔龙府（广州）",
+          "kind": "宋方府号",
+          "sources": [
+            "cv-guangzhou"
+          ],
+          "note": "1278宋帝昺升广州为翔龙府，同年元军攻入。标宋方年内称号，不表示全年实际控制。"
+        },
+        {
+          "from": 1279,
+          "to": 1367,
+          "name": "广州路",
+          "sources": [
+            "gz_fangzhi",
+            "gz_yuan"
+          ],
+          "note": "采用广州市地方志1279；深圳地名志等记1278，存在改路起年异说。",
+          "kind": "路治"
+        },
+        {
+          "from": 1368,
+          "to": 1911,
+          "name": "广州府",
+          "sources": [
+            "gz_ming"
+          ],
+          "kind": "府治"
+        }
+      ],
+      "note": "原说明把祥兴府放在1276—1277，年代适用不妥。辞典另记1278先置祥兴府、旋改翔龙府；本表1278年度标签按已查《广东通志》用翔龙府，不推定两府号更替的细月。年内宋元控制反复另注；广州路1278/1279起年异说仍保留。",
+      "sources": [
+        "gz_guangdong",
+        "gz_fangzhi",
+        "gz_cmc",
+        "gz_sui",
+        "gz_chgis",
+        "gz_yuan",
+        "gz_ming",
+        "cv-guangzhou",
+        "cv-guangzhou-xiangxing"
+      ]
+    },
+    "武汉": {
+      "periods": [
+        {
+          "from": 223,
+          "to": 453,
+          "name": "夏口",
+          "sources": [
+            "wh_wuchang"
+          ],
+          "note": "今武汉武昌蛇山一侧夏口城；不等于三国今鄂州市的武昌。",
+          "point": [
+            114.3,
+            30.55
+          ],
+          "kind": "城邑称谓"
+        },
+        {
+          "from": 454,
+          "to": 588,
+          "name": "郢州城",
+          "sources": [
+            "wh_wuchang"
+          ],
+          "point": [
+            114.3,
+            30.55
+          ],
+          "kind": "州治"
+        },
+        {
+          "from": 589,
+          "to": 606,
+          "name": "鄂州",
+          "sources": [
+            "wh_wuchang"
+          ],
+          "point": [
+            114.3,
+            30.55
+          ],
+          "kind": "州治"
+        },
+        {
+          "from": 607,
+          "to": 620,
+          "name": "江夏郡",
+          "sources": [
+            "wh_wuchang"
+          ],
+          "point": [
+            114.3,
+            30.55
+          ],
+          "kind": "郡治"
+        },
+        {
+          "from": 621,
+          "to": 741,
+          "name": "鄂州",
+          "sources": [
+            "wh_wuchang"
+          ],
+          "point": [
+            114.3,
+            30.55
+          ],
+          "kind": "州治"
+        },
+        {
+          "from": 742,
+          "to": 757,
+          "name": "江夏郡",
+          "sources": [
+            "wh_chgis"
+          ],
+          "point": [
+            114.3,
+            30.55
+          ],
+          "kind": "郡治"
+        },
+        {
+          "from": 758,
+          "to": 1276,
+          "name": "鄂州",
+          "sources": [
+            "wh_wuchang",
+            "wh_chgis"
+          ],
+          "point": [
+            114.3,
+            30.55
+          ],
+          "kind": "州治"
+        },
+        {
+          "from": 1277,
+          "to": 1300,
+          "name": "鄂州路",
+          "sources": [
+            "wh_jiangxia"
+          ],
+          "point": [
+            114.3,
+            30.55
+          ],
+          "kind": "路治"
+        },
+        {
+          "from": 1301,
+          "to": 1363,
+          "name": "武昌路",
+          "sources": [
+            "wh_wuchang",
+            "wh_jiangxia"
+          ],
+          "point": [
+            114.3,
+            30.55
+          ],
+          "kind": "路治"
+        },
+        {
+          "from": 1364,
+          "to": 1911,
+          "name": "武昌府",
+          "sources": [
+            "wh_jiangxia"
+          ],
+          "point": [
+            114.3,
+            30.55
+          ],
+          "kind": "府治"
+        }
+      ],
+      "note": "已据武昌区档案馆复核：蛇山夏口城以223筑城为通行起点；此前属沙羡县的区域不等于县治就在本点。223以前空段归类为城址/建城前范围限制，不能用鄂州武昌或金口沙羡城直接填补。汉阳、汉口另属不同城点。",
+      "sources": [
+        "wh_wuchang",
+        "wh_chgis",
+        "wh_jiangxia",
+        "cv-wuhan"
+      ]
+    },
+    "长沙": {
+      "periods": [
+        {
+          "from": -221,
+          "to": -203,
+          "name": "湘",
+          "sources": [
+            "cs_kangxi"
+          ],
+          "note": "秦湘县与郡名长沙并存；秦郡县建置有学术争论，此据旧志。",
+          "kind": "县治"
+        },
+        {
+          "from": -202,
+          "to": 8,
+          "name": "临湘",
+          "sources": [
+            "cs_linxiang",
+            "cs_kangxi"
+          ],
+          "kind": "县城"
+        },
+        {
+          "from": 9,
+          "to": 22,
+          "name": "抚睦",
+          "sources": [
+            "cs_linxiang",
+            "cs_kangxi"
+          ],
+          "note": "新莽异名，采用通行始建国元年9年界。",
+          "kind": "县治"
+        },
+        {
+          "from": 23,
+          "to": 588,
+          "name": "临湘",
+          "sources": [
+            "cs_chgis_early"
+          ],
+          "note": "复名采用CHGIS23年；部分简史从东汉25/26年计。",
+          "kind": "县城"
+        },
+        {
+          "from": 589,
+          "to": 606,
+          "name": "潭州",
+          "sources": [
+            "cs_linxiang",
+            "cs_jiajing"
+          ],
+          "kind": "州治"
+        },
+        {
+          "from": 607,
+          "to": 620,
+          "name": "长沙郡",
+          "sources": [
+            "cs_jiajing"
+          ],
+          "kind": "郡治"
+        },
+        {
+          "from": 621,
+          "to": 741,
+          "name": "潭州",
+          "sources": [
+            "cs_jiajing"
+          ],
+          "kind": "州治"
+        },
+        {
+          "from": 742,
+          "to": 757,
+          "name": "长沙郡",
+          "sources": [
+            "cs_jiajing"
+          ],
+          "kind": "郡治"
+        },
+        {
+          "from": 758,
+          "to": 926,
+          "name": "潭州",
+          "sources": [
+            "cs_jiajing"
+          ],
+          "kind": "州治"
+        },
+        {
+          "from": 927,
+          "to": 929,
+          "name": "长沙府",
+          "sources": [
+            "cs_machu",
+            "cs_chgis_tan"
+          ],
+          "kind": "府治"
+        },
+        {
+          "from": 930,
+          "to": 1276,
+          "name": "潭州",
+          "sources": [
+            "cs_chgis_tan"
+          ],
+          "kind": "州治"
+        },
+        {
+          "from": 1277,
+          "to": 1328,
+          "name": "潭州路",
+          "sources": [
+            "cs_late"
+          ],
+          "kind": "路治"
+        },
+        {
+          "from": 1329,
+          "to": 1363,
+          "name": "天临路",
+          "sources": [
+            "cs_chgis_tian"
+          ],
+          "kind": "路治"
+        },
+        {
+          "from": 1364,
+          "to": 1371,
+          "name": "潭州府",
+          "sources": [
+            "cs_chgis_tian",
+            "cs_late"
+          ],
+          "kind": "府治"
+        },
+        {
+          "from": 1372,
+          "to": 1911,
+          "name": "长沙府",
+          "sources": [
+            "cs_late"
+          ],
+          "kind": "府治"
+        }
+      ],
+      "note": "隋以后不宜只用同城长沙县掩盖重要州城潭州名称。早期临湘城治曾南北迁，今临湘市不等于本点；细分湘州上级治所仍需补专门原典。",
+      "sources": [
+        "cs_kangxi",
+        "cs_linxiang",
+        "cs_chgis_early",
+        "cs_jiajing",
+        "cs_machu",
+        "cs_chgis_tan",
+        "cs_late",
+        "cs_chgis_tian"
+      ]
+    },
+    "南昌": {
+      "periods": [
+        {
+          "from": -202,
+          "to": 8,
+          "name": "南昌",
+          "sources": [
+            "nc_county",
+            "nc_xinjian"
+          ],
+          "kind": "城邑称谓"
+        },
+        {
+          "from": 9,
+          "to": 23,
+          "name": "宜善",
+          "sources": [
+            "nc_county",
+            "nc_xinjian"
+          ],
+          "note": "新莽宜善、东汉复南昌已有地方沿革支持；23—25之间复名的具体月年材料不足，24年仍不猜填。",
+          "kind": "城邑称谓"
+        },
+        {
+          "from": 25,
+          "to": 588,
+          "name": "南昌",
+          "sources": [
+            "nc_county",
+            "nc_xinjian"
+          ],
+          "kind": "城邑称谓"
+        },
+        {
+          "from": 589,
+          "to": 606,
+          "name": "洪州",
+          "sources": [
+            "nc_county"
+          ],
+          "kind": "州治"
+        },
+        {
+          "from": 607,
+          "to": 621,
+          "name": "豫章郡",
+          "sources": [
+            "nc_chgis_sui"
+          ],
+          "kind": "郡治"
+        },
+        {
+          "from": 622,
+          "to": 741,
+          "name": "洪州",
+          "sources": [
+            "nc_chgis_sui"
+          ],
+          "kind": "州治"
+        },
+        {
+          "from": 742,
+          "to": 757,
+          "name": "豫章郡",
+          "sources": [
+            "nc_chgis_tang"
+          ],
+          "kind": "郡治"
+        },
+        {
+          "from": 758,
+          "to": 958,
+          "name": "洪州",
+          "sources": [
+            "nc_chgis_tang",
+            "nc_nantang"
+          ],
+          "kind": "州治"
+        },
+        {
+          "from": 959,
+          "to": 974,
+          "name": "南昌府",
+          "sources": [
+            "nc_nantang"
+          ],
+          "note": "采用《南昌县志》所考959；通行部分简史作958。961才实际短暂迁都，不能把三件事算同一年。",
+          "kind": "府治"
+        },
+        {
+          "from": 975,
+          "to": 1162,
+          "name": "洪州",
+          "sources": [
+            "nc_chgis"
+          ],
+          "kind": "州治"
+        },
+        {
+          "from": 1163,
+          "to": 1276,
+          "name": "隆兴府",
+          "sources": [
+            "nc_chgis"
+          ],
+          "kind": "府治"
+        },
+        {
+          "from": 1277,
+          "to": 1283,
+          "name": "隆兴路",
+          "sources": [
+            "nc_chgis"
+          ],
+          "kind": "路治"
+        },
+        {
+          "from": 1284,
+          "to": 1361,
+          "name": "龙兴路",
+          "sources": [
+            "nc_chgis"
+          ],
+          "kind": "路治"
+        },
+        {
+          "from": 1362,
+          "to": 1362,
+          "name": "洪都府",
+          "sources": [
+            "nc_chgis"
+          ],
+          "kind": "府治"
+        },
+        {
+          "from": 1363,
+          "to": 1911,
+          "name": "南昌府",
+          "sources": [
+            "nc_chgis"
+          ],
+          "kind": "府治"
+        }
+      ],
+      "note": "762年六月县名钟陵、十二月复南昌（CHGIS按公历换年处理为763），但同期州城仍是洪州；不要将县的短名覆盖州城。早期灌婴城位置、隋唐城迁改需另考，不把现代中心点当成精确古城坐标。",
+      "sources": [
+        "nc_county",
+        "nc_xinjian",
+        "nc_chgis_sui",
+        "nc_chgis_tang",
+        "nc_nantang",
+        "nc_chgis"
+      ]
+    },
+    "福州": {
+      "periods": [
+        {
+          "from": -202,
+          "to": -112,
+          "name": "东冶",
+          "sources": [
+            "fz_official"
+          ],
+          "kind": "城邑称谓"
+        },
+        {
+          "from": -111,
+          "to": 202,
+          "name": "冶县",
+          "sources": [
+            "fz_official"
+          ],
+          "note": "2016史志表冶县始年作-85、侯官作196，采用2025官方正文的-111及203并保留异说。",
+          "kind": "县城"
+        },
+        {
+          "from": 203,
+          "to": 281,
+          "name": "侯官",
+          "sources": [
+            "fz_official"
+          ],
+          "kind": "县城"
+        },
+        {
+          "from": 282,
+          "to": 467,
+          "name": "晋安郡",
+          "sources": [
+            "fz_official",
+            "fz_shizhi"
+          ],
+          "kind": "郡治"
+        },
+        {
+          "from": 468,
+          "to": 470,
+          "name": "晋平郡",
+          "sources": [
+            "fz_official",
+            "fz_shizhi"
+          ],
+          "note": "CHGIS据《嘉庆一统志》作468—470，471复晋安；《福州府志》另有齐初复名说。",
+          "kind": "郡治"
+        },
+        {
+          "from": 471,
+          "to": 556,
+          "name": "晋安郡",
+          "kind": "郡治",
+          "sources": [
+            "cv-fuzhou-jinping",
+            "cv-fuzhou-conflict"
+          ],
+          "note": "本表采用CHGIS所核471复名；旧府志有齐初复名说，471—478名称有文本分歧。"
+        },
+        {
+          "from": 557,
+          "to": 564,
+          "name": "闽州",
+          "sources": [
+            "fz_shizhi"
+          ],
+          "kind": "州治"
+        },
+        {
+          "from": 565,
+          "to": 567,
+          "name": "晋安郡",
+          "sources": [
+            "fz_shizhi"
+          ],
+          "kind": "郡治"
+        },
+        {
+          "from": 568,
+          "to": 588,
+          "name": "丰州",
+          "sources": [
+            "fz_official",
+            "fz_shizhi"
+          ],
+          "kind": "州治"
+        },
+        {
+          "from": 589,
+          "to": 605,
+          "name": "泉州",
+          "sources": [
+            "fz_official"
+          ],
+          "note": "这里的隋泉州在今福州，非今泉州市城。",
+          "kind": "州治"
+        },
+        {
+          "from": 606,
+          "to": 606,
+          "name": "闽州",
+          "sources": [
+            "fz_official"
+          ],
+          "kind": "州治"
+        },
+        {
+          "from": 607,
+          "to": 617,
+          "name": "建安郡",
+          "sources": [
+            "fz_official"
+          ],
+          "note": "此时郡治闽县今福州，非今建瓯城。",
+          "kind": "郡治"
+        },
+        {
+          "from": 618,
+          "to": 622,
+          "name": "闽县",
+          "sources": [
+            "fz_official"
+          ],
+          "note": "618建州治所迁建安的史实需再核，不能把建州一律标在福州；保留当地县名。",
+          "kind": "县城"
+        },
+        {
+          "from": 623,
+          "to": 698,
+          "name": "泉州",
+          "sources": [
+            "fz_official"
+          ],
+          "kind": "州治"
+        },
+        {
+          "from": 699,
+          "to": 724,
+          "name": "闽州",
+          "sources": [
+            "fz_official"
+          ],
+          "note": "2025官方记699；2016史志表记711，采用较新正文并留异说。",
+          "kind": "州治"
+        },
+        {
+          "from": 725,
+          "to": 741,
+          "name": "福州",
+          "sources": [
+            "fz_official"
+          ],
+          "kind": "州治"
+        },
+        {
+          "from": 742,
+          "to": 757,
+          "name": "长乐郡",
+          "sources": [
+            "fz_official",
+            "fz_shizhi"
+          ],
+          "kind": "郡治"
+        },
+        {
+          "from": 758,
+          "to": 932,
+          "name": "福州",
+          "sources": [
+            "fz_shizhi"
+          ],
+          "kind": "州治"
+        },
+        {
+          "from": 933,
+          "to": 944,
+          "name": "长乐府",
+          "sources": [
+            "fz_official",
+            "fz_wudai"
+          ],
+          "kind": "府治"
+        },
+        {
+          "from": 945,
+          "to": 945,
+          "name": "东都（福州）",
+          "sources": [
+            "fz_wudai"
+          ],
+          "kind": "州治"
+        },
+        {
+          "from": 946,
+          "to": 947,
+          "name": "福州",
+          "kind": "通行城名",
+          "sources": [
+            "cv-fuzhou-wudai"
+          ],
+          "note": "李仁达割据、南唐与吴越争夺时期，原府志持续称福州；此处用城名，不据此推断未核府号。"
+        },
+        {
+          "from": 948,
+          "to": 1275,
+          "name": "福州",
+          "sources": [
+            "fz_shizhi"
+          ],
+          "note": "吴越控制后采用福州州名；946—947已另用通行城名补齐。",
+          "kind": "州治"
+        },
+        {
+          "from": 1276,
+          "to": 1277,
+          "name": "福安府",
+          "sources": [
+            "fz_official"
+          ],
+          "note": "1276宋端宗行都；1277元军进入后的名称过渡尚需按月份细分。",
+          "kind": "府治"
+        },
+        {
+          "from": 1278,
+          "to": 1367,
+          "name": "福州路",
+          "sources": [
+            "fz_official"
+          ],
+          "kind": "路治"
+        },
+        {
+          "from": 1368,
+          "to": 1644,
+          "name": "福州府",
+          "sources": [
+            "fz_official"
+          ],
+          "kind": "府治"
+        },
+        {
+          "from": 1645,
+          "to": 1645,
+          "name": "福京（天兴府）",
+          "sources": [
+            "fz_official"
+          ],
+          "kind": "府治"
+        },
+        {
+          "from": 1646,
+          "to": 1911,
+          "name": "福州府",
+          "sources": [
+            "fz_official"
+          ],
+          "kind": "府治"
+        }
+      ],
+      "note": "优先2025市政府方志委沿革，2016史志表用于补短期建置但明确异说。东冶/冶县古城定位与更早闽中郡治缺乏足够一致证据，秦代及-111前后应保守。天兴府、福京属于南明1645—1646年间称号，按年切片1646采用清复福州府，实际年内发生转换。",
+      "sources": [
+        "fz_official",
+        "fz_shizhi",
+        "fz_wudai",
+        "cv-fuzhou-jinping",
+        "cv-fuzhou-conflict",
+        "cv-fuzhou-wudai"
+      ]
+    },
+    "昆明": {
+      "periods": [
+        {
+          "from": 765,
+          "to": 936,
+          "name": "拓东城",
+          "sources": [
+            "west-kunming"
+          ],
+          "point": [
+            102.72,
+            25.03
+          ],
+          "kind": "城名"
+        },
+        {
+          "from": 937,
+          "to": 1254,
+          "name": "鄯阐城",
+          "sources": [
+            "west-kunming",
+            "west-kunming-admin"
+          ],
+          "point": [
+            102.72,
+            25.03
+          ],
+          "kind": "城名"
+        },
+        {
+          "from": 1255,
+          "to": 1275,
+          "name": "善阐万户",
+          "sources": [
+            "west-yuan-kunming"
+          ],
+          "kind": "治所称谓",
+          "note": "蒙古征服后沿大理国旧城设万户；善阐与鄯阐为文献异写。"
+        },
+        {
+          "from": 1276,
+          "to": 1381,
+          "name": "中庆路",
+          "sources": [
+            "west-kunming-admin",
+            "west-yuan-kunming"
+          ],
+          "point": [
+            102.71,
+            25.05
+          ],
+          "kind": "路治"
+        },
+        {
+          "from": 1382,
+          "to": 1911,
+          "name": "云南府",
+          "sources": [
+            "west-kunming-admin"
+          ],
+          "point": [
+            102.71,
+            25.05
+          ],
+          "kind": "府治",
+          "note": "府城附郭县为昆明县；昆明并非近现代才有，采用云南府是为了展示本期更常见的州府治所称谓。"
+        }
+      ],
+      "note": "汉谷昌县与今昆明具体城址对应存在考证问题，本表不将谷昌硬套今城点。拓东、鄯阐、中庆之间有范围扩大及核心移动。",
+      "sources": [
+        "west-kunming",
+        "west-kunming-admin",
+        "west-yuan-kunming"
+      ]
+    },
+    "贵阳": {
+      "periods": [
+        {
+          "from": 1210,
+          "to": 1279,
+          "name": "贵州",
+          "sources": [
+            "west-guiyang-cppcc"
+          ],
+          "kind": "古称",
+          "note": "1210是可确证已使用的保守起点，非断言这一年改名。"
+        },
+        {
+          "from": 1280,
+          "to": 1370,
+          "name": "顺元城",
+          "sources": [
+            "west-guiyang-gov"
+          ],
+          "kind": "城名"
+        },
+        {
+          "from": 1371,
+          "to": 1568,
+          "name": "贵州城",
+          "sources": [
+            "west-guiyang-gov"
+          ],
+          "kind": "卫司治所",
+          "note": "贵州宣慰司、贵州卫及后来布政司等治所，名称不等于今日贵州省全境。"
+        },
+        {
+          "from": 1569,
+          "to": 1600,
+          "name": "贵阳府",
+          "sources": [
+            "west-guiyang-gov"
+          ],
+          "kind": "府治"
+        },
+        {
+          "from": 1601,
+          "to": 1686,
+          "name": "贵阳军民府",
+          "sources": [
+            "west-guiyang-gov"
+          ],
+          "kind": "府治"
+        },
+        {
+          "from": 1687,
+          "to": 1911,
+          "name": "贵阳府",
+          "sources": [
+            "west-guiyang-gov"
+          ],
+          "kind": "府治"
+        }
+      ],
+      "note": "唐矩州及宋初贵州的定位与确切改名年尚不足以精确填成同一城址连续表；矩州改贵州1119说和974故事均不宜作为无争议事实。",
+      "sources": [
+        "west-guiyang-cppcc",
+        "west-guiyang-gov"
+      ]
+    },
+    "南宁": {
+      "periods": [
+        {
+          "from": 598,
+          "to": 620,
+          "name": "宣化县",
+          "sources": [
+            "west-nanning-archive"
+          ],
+          "kind": "县治"
+        },
+        {
+          "from": 621,
+          "to": 633,
+          "name": "南晋州",
+          "sources": [
+            "west-nanning-archive",
+            "west-nanning-paper"
+          ],
+          "kind": "州治",
+          "note": "武德四年即621年，档案文章误排为612；更名邕州有632/634异说，本表从专门考证采用634。"
+        },
+        {
+          "from": 634,
+          "to": 741,
+          "name": "邕州",
+          "sources": [
+            "west-nanning-paper"
+          ],
+          "kind": "州治"
+        },
+        {
+          "from": 742,
+          "to": 757,
+          "name": "朗宁郡",
+          "sources": [
+            "west-nanning-archive"
+          ],
+          "kind": "郡治"
+        },
+        {
+          "from": 758,
+          "to": 941,
+          "name": "邕州",
+          "sources": [
+            "west-nanning-archive"
+          ],
+          "kind": "州治"
+        },
+        {
+          "from": 942,
+          "to": 950,
+          "name": "诚州",
+          "sources": [
+            "west-nanning-archive"
+          ],
+          "kind": "州治"
+        },
+        {
+          "from": 951,
+          "to": 1278,
+          "name": "邕州",
+          "sources": [
+            "west-nanning-archive"
+          ],
+          "kind": "州治"
+        },
+        {
+          "from": 1279,
+          "to": 1323,
+          "name": "邕州路",
+          "sources": [
+            "west-nanning-archive"
+          ],
+          "kind": "路治"
+        },
+        {
+          "from": 1324,
+          "to": 1367,
+          "name": "南宁路",
+          "sources": [
+            "west-nanning-archive"
+          ],
+          "kind": "路治"
+        },
+        {
+          "from": 1368,
+          "to": 1911,
+          "name": "南宁府",
+          "sources": [
+            "west-nanning-archive"
+          ],
+          "kind": "府治",
+          "note": "附郭县仍称宣化。"
+        }
+      ],
+      "note": "318晋兴郡县为本地建置源头，但古城确切位置与迁址尚未严核，暂不画在现代中心。唐改邕州具体年份有异说，勿把有争议年代作为确定事实。",
+      "sources": [
+        "west-nanning-archive",
+        "west-nanning-paper"
+      ]
+    },
+    "西宁": {
+      "periods": [
+        {
+          "from": 678,
+          "to": 762,
+          "name": "鄯城县",
+          "sources": [
+            "west-xining-hz",
+            "west-xining-tang"
+          ],
+          "kind": "县治",
+          "note": "仪凤二年或三年置县有异说；本表从两唐书三年678。763前后吐蕃占领，不以现代西宁点冒充州治乐都。"
+        },
+        {
+          "from": 1034,
+          "to": 1098,
+          "name": "青唐城",
+          "sources": [
+            "west-xining-qingtang"
+          ],
+          "kind": "城名"
+        },
+        {
+          "from": 1099,
+          "to": 1099,
+          "name": "鄯州",
+          "sources": [
+            "west-xining-qingtang"
+          ],
+          "kind": "州治",
+          "note": "宋收青唐后的短期名称，不能与唐代治乐都的鄯州混为一城。"
+        },
+        {
+          "from": 1100,
+          "to": 1103,
+          "name": "青唐城",
+          "sources": [
+            "west-xining-qingtang"
+          ],
+          "kind": "城名"
+        },
+        {
+          "from": 1104,
+          "to": 1371,
+          "name": "西宁州",
+          "sources": [
+            "west-xining-hy"
+          ],
+          "kind": "州治"
+        },
+        {
+          "from": 1372,
+          "to": 1723,
+          "name": "西宁卫",
+          "sources": [
+            "west-xining-hy"
+          ],
+          "kind": "卫治"
+        },
+        {
+          "from": 1724,
+          "to": 1911,
+          "name": "西宁府",
+          "sources": [
+            "west-xining-qing"
+          ],
+          "kind": "府治"
+        }
+      ],
+      "note": "已复查湟中地方沿革，隋郡唐州治乐都与今西宁鄯城县不能同点。汉西平亭、西都县与后世城点的精确衔接、763—1033名号仍缺连续材料，空段为证据范围限制，不用青唐之名追溯覆盖几百年。",
+      "sources": [
+        "west-xining-hz",
+        "west-xining-tang",
+        "west-xining-qingtang",
+        "west-xining-hy",
+        "west-xining-qing",
+        "cv-xining"
+      ]
+    },
+    "拉萨": {
+      "periods": [
+        {
+          "from": 633,
+          "to": 821,
+          "name": "逻些",
+          "sources": [
+            "west-lasa-gov",
+            "west-lasa-study"
+          ],
+          "kind": "历史汉译",
+          "note": "又作逻娑、惹萨；633取七世纪迁都常用展示年，非某年正式改名诏令。"
+        },
+        {
+          "from": 822,
+          "to": 1911,
+          "name": "拉萨",
+          "sources": [
+            "west-lasa-study",
+            "west-lasa-treaty"
+          ],
+          "kind": "城名",
+          "note": "822是唐蕃会盟碑已见Lha-sa名称的保守文献分界；逻些与拉萨长期并见，不是822正式改名或旧译立即停止。"
+        }
+      ],
+      "note": "逻些与拉萨是不同汉文音译及历史称谓，早期即有并用，不能把名称变化简单定在17世纪。",
+      "sources": [
+        "west-lasa-gov",
+        "west-lasa-study",
+        "west-lasa-treaty"
+      ]
+    },
+    "喀什": {
+      "periods": [
+        {
+          "from": -60,
+          "to": 906,
+          "name": "疏勒（绿洲）",
+          "sources": [
+            "west-kashi-gov",
+            "west-kashi-plan"
+          ],
+          "kind": "古代绿洲与政权名",
+          "note": "前60仅为汉代西域都护时代展示起点，不是城池始建年；古王城与今喀什老城是否完全同址不可断言。"
+        },
+        {
+          "from": 1000,
+          "to": 1911,
+          "name": "喀什噶尔",
+          "sources": [
+            "west-kashi-gov",
+            "west-kashi-plan"
+          ],
+          "kind": "城名",
+          "note": "喀喇汗及后世汉文译写有可失合儿等变体；1000为已有此名时期的保守展示起点，非更名年。"
+        }
+      ],
+      "note": "已复查旧汉文沿革仍称宋为疏勒国，喀什噶尔译名与旧称并行，不存在已证统一更名年。907—999保留译名年代界限空段；古绿洲王城、今回城与清新汉城不强行同址。",
+      "sources": [
+        "west-kashi-gov",
+        "west-kashi-plan",
+        "cv-kashi"
+      ]
+    },
+    "乌鲁木齐": {
+      "periods": [
+        {
+          "from": 1758,
+          "to": 1762,
+          "name": "乌鲁木齐城",
+          "sources": [
+            "west-urumqi-study"
+          ],
+          "kind": "城名"
+        },
+        {
+          "from": 1763,
+          "to": 1911,
+          "name": "迪化城",
+          "sources": [
+            "west-urumqi-primary",
+            "west-urumqi-study",
+            "west-urumqi-admin"
+          ],
+          "point": [
+            87.62,
+            43.79
+          ],
+          "kind": "城名",
+          "note": "1773迪化直隶州、1886迪化府为后来的行政建置；巩宁城为隔河另一座驻防城，不宜把所有官署叠作同城。"
+        }
+      ],
+      "note": "唐代轮台位置有专门考证，不能直接作为今乌鲁木齐同址古称；本表不填清代以前。赐名迪化从1763一手方略记载，不采用城市空间论文的1767说。",
+      "sources": [
+        "west-urumqi-study",
+        "west-urumqi-primary",
+        "west-urumqi-admin"
+      ]
+    },
+    "大理": {
+      "periods": [
+        {
+          "from": 739,
+          "to": 778,
+          "name": "太和城",
+          "sources": [
+            "west-dali-th"
+          ],
+          "point": [
+            100.18,
+            25.64
+          ],
+          "kind": "都城"
+        },
+        {
+          "from": 779,
+          "to": 1253,
+          "name": "羊苴咩城",
+          "sources": [
+            "west-dali-th"
+          ],
+          "point": [
+            100.16,
+            25.69
+          ],
+          "kind": "都城",
+          "note": "又写阳苴咩；南诏与大理国都城名，不是今下关。"
+        },
+        {
+          "from": 1270,
+          "to": 1381,
+          "name": "大理路",
+          "sources": [
+            "west-yuanshi"
+          ],
+          "point": [
+            100.16,
+            25.69
+          ],
+          "kind": "路治",
+          "note": "至元七年合并上下二万户置路；1254—1269万户时期暂不强造新城名。"
+        },
+        {
+          "from": 1382,
+          "to": 1911,
+          "name": "大理府城",
+          "sources": [
+            "west-dali-ming"
+          ],
+          "point": [
+            100.16,
+            25.69
+          ],
+          "kind": "府治",
+          "note": "明洪武十五年筑，次年拓筑；附郭太和县。"
+        }
+      ],
+      "note": "汉叶榆县治及1254—1269年城名精确对应待补。太和城遗址与羊苴咩、明清府城并非一个城点，不能放在今下关行政中心。",
+      "sources": [
+        "west-dali-th",
+        "west-yuanshi",
+        "west-dali-ming"
+      ]
+    },
+    "呼和浩特": {
+      "periods": [
+        {
+          "from": 1575,
+          "to": 1911,
+          "name": "归化城",
+          "sources": [
+            "west-hohhot-study",
+            "west-hohhot-paper",
+            "west-hohhot-local"
+          ],
+          "point": [
+            111.65,
+            40.8
+          ],
+          "kind": "城名",
+          "note": "蒙古语库库和屯（青城）并行使用；1572—1575营建，1575为完工及赐汉名节点。"
+        }
+      ],
+      "note": "归化城与1739年建成的绥远城是相邻的两座城，本图分别列点；库库和屯为蒙古语名称，汉文归化城与其并行。",
+      "sources": [
+        "west-hohhot-study",
+        "west-hohhot-paper",
+        "west-hohhot-local"
+      ]
+    },
+    "台北": {
+      "periods": [
+        {
+          "from": 1709,
+          "to": 1874,
+          "name": "艋舺",
+          "sources": [
+            "west-taipei-gov",
+            "west-taipei-wanhua"
+          ],
+          "point": [
+            121.5,
+            25.04
+          ],
+          "kind": "历史聚落",
+          "note": "1709是大佳腊垦殖的展示节点，不是艋舺正式命名年；这里只代表西南侧聚落，不泛指整个今台北。"
+        },
+        {
+          "from": 1875,
+          "to": 1883,
+          "name": "台北府治",
+          "sources": [
+            "west-taipei-gov"
+          ],
+          "point": [
+            121.51,
+            25.04
+          ],
+          "kind": "府治",
+          "note": "府已设置，府城尚在规划建设过程中；艋舺继续存在。"
+        },
+        {
+          "from": 1884,
+          "to": 1894,
+          "name": "台北府城",
+          "sources": [
+            "west-taipei-gov"
+          ],
+          "point": [
+            121.51,
+            25.04
+          ],
+          "kind": "府城"
+        },
+        {
+          "from": 1895,
+          "to": 1911,
+          "name": "台北",
+          "sources": [
+            "west-taipei-gov"
+          ],
+          "point": [
+            121.51,
+            25.04
+          ],
+          "kind": "城名"
+        }
+      ],
+      "note": "艋舺、大稻埕与台北府城是并存发展的聚落，并非一座城先后改名。各期选择主要聚落或治所展示，点位随所指地点调整。",
+      "sources": [
+        "west-taipei-gov",
+        "west-taipei-wanhua"
+      ]
+    },
+    "台南": {
+      "periods": [
+        {
+          "from": 1625,
+          "to": 1626,
+          "name": "奥伦治城",
+          "sources": [
+            "west-tainan-culture"
+          ],
+          "point": [
+            120.16,
+            23
+          ],
+          "kind": "堡垒城镇",
+          "note": "今安平，尚非赤崁府城。"
+        },
+        {
+          "from": 1627,
+          "to": 1660,
+          "name": "热兰遮城",
+          "sources": [
+            "west-tainan-culture",
+            "west-tainan-gov"
+          ],
+          "point": [
+            120.16,
+            23
+          ],
+          "kind": "堡垒城镇",
+          "note": "今安平；1653年后赤崁另有普罗民遮，宜独立城点。"
+        },
+        {
+          "from": 1661,
+          "to": 1683,
+          "name": "承天府",
+          "sources": [
+            "west-tainan-gov"
+          ],
+          "point": [
+            120.2,
+            23
+          ],
+          "kind": "府治",
+          "note": "设治赤崁的普罗民遮；1664年东都改东宁是政权中心称谓，不宜凭空造东宁府。原热兰遮另称安平镇。"
+        },
+        {
+          "from": 1684,
+          "to": 1886,
+          "name": "台湾府城",
+          "sources": [
+            "west-tainan-gov"
+          ],
+          "point": [
+            120.2,
+            23
+          ],
+          "kind": "府治"
+        },
+        {
+          "from": 1887,
+          "to": 1894,
+          "name": "台南府城",
+          "sources": [
+            "west-tainan-1887"
+          ],
+          "point": [
+            120.2,
+            23
+          ],
+          "kind": "府治"
+        },
+        {
+          "from": 1895,
+          "to": 1911,
+          "name": "台南",
+          "sources": [
+            "west-tainan-gov"
+          ],
+          "point": [
+            120.2,
+            23
+          ],
+          "kind": "城名"
+        }
+      ],
+      "note": "早期台窝湾为原住民社名，不能无证等同后世府城。荷据安平热兰遮、赤崁普罗民遮应分点；1661承天与1664东宁的行政层级不同；1887台南府取代台湾府，1885仅建省批准阶段。",
+      "sources": [
+        "west-tainan-culture",
+        "west-tainan-gov",
+        "west-tainan-1887"
+      ]
+    },
+    "海口": {
+      "periods": [
+        {
+          "from": 972,
+          "to": 1369,
+          "name": "海口浦",
+          "sources": [
+            "haikou_history_v2"
+          ],
+          "kind": "港口名",
+          "point": [
+            110.34,
+            20.04
+          ]
+        },
+        {
+          "from": 1370,
+          "to": 1373,
+          "name": "海口都",
+          "sources": [
+            "haikou_history_v2"
+          ],
+          "kind": "行政建置",
+          "point": [
+            110.34,
+            20.04
+          ]
+        },
+        {
+          "from": 1374,
+          "to": 1394,
+          "name": "海口千户所",
+          "sources": [
+            "haikou_history_v2"
+          ],
+          "kind": "军事建置",
+          "point": [
+            110.34,
+            20.04
+          ]
+        },
+        {
+          "from": 1395,
+          "to": 1904,
+          "name": "海口所城",
+          "sources": [
+            "haikou_history_v2"
+          ],
+          "kind": "城名",
+          "point": [
+            110.34,
+            20.04
+          ]
+        },
+        {
+          "from": 1905,
+          "to": 1911,
+          "name": "海口所",
+          "sources": [
+            "haikou_history_v2"
+          ],
+          "kind": "通行称谓",
+          "point": [
+            110.34,
+            20.04
+          ]
+        }
+      ],
+      "note": "已复查白沙津与海口港空间材料，两者相关但不能据别称就合并为同一城址。此点继续从972海口浦起；更早白沙津应另立有城址证据的港口点，不贴到后世所城。",
+      "sources": [
+        "haikou_history_v2",
+        "cv-haikou"
+      ]
+    },
+    "长春": {
+      "periods": [
+        {
+          "from": 1800,
+          "to": 1824,
+          "name": "长春厅（新立城）",
+          "sources": [
+            "changchun_origin_v2"
+          ],
+          "kind": "厅治",
+          "note": "点位仅示意新立城一带，与后来的宽城子分开。",
+          "point": [
+            125.43,
+            43.69
+          ]
+        },
+        {
+          "from": 1825,
+          "to": 1888,
+          "name": "宽城子（长春厅）",
+          "sources": [
+            "changchun_origin_v2",
+            "changchun_prefecture_v2"
+          ],
+          "kind": "聚落／厅治",
+          "note": "1825年移治，1865年又在宽城子内迁建厅署。",
+          "point": [
+            125.34,
+            43.88
+          ]
+        },
+        {
+          "from": 1889,
+          "to": 1911,
+          "name": "长春府",
+          "sources": [
+            "changchun_prefecture_v2"
+          ],
+          "kind": "府治",
+          "note": "旧城宽城子，并非后来北移的同名车站区。",
+          "point": [
+            125.34,
+            43.88
+          ]
+        }
+      ],
+      "note": "已据吉林省方志复核：1800前已有宽城子聚落，但古城与后世聚落是否连续同名、创名确年不明。保持1800新立城设厅后分址展示，空段不再解释成未研究，而是不能从后世厅名倒推更早城市。",
+      "sources": [
+        "changchun_origin_v2",
+        "changchun_prefecture_v2",
+        "cv-changchun"
+      ]
+    },
+    "乌兰巴托": {
+      "periods": [
+        {
+          "from": 1778,
+          "to": 1911,
+          "name": "库伦",
+          "sources": [
+            "khuree_history_v2",
+            "khuree_scholarly_v2"
+          ],
+          "kind": "汉文通称",
+          "note": "蒙古语Ikh Khüree，亦称大库伦；1911年政局及称谓变化未按月细分。"
+        }
+      ],
+      "note": "早期寺院城市多次迁移；这里只在1778年定址以后标于今乌兰巴托，不能把1639年的移动寺院放在此点。",
+      "sources": [
+        "khuree_history_v2",
+        "khuree_scholarly_v2"
+      ]
+    },
+    "河内": {
+      "periods": [
+        {
+          "from": 581,
+          "to": 865,
+          "name": "宋平",
+          "sources": [
+            "hanoi_names_v2"
+          ],
+          "kind": "城邑称谓",
+          "note": "隋唐的阶段概括，581为本表采用的隋代展示起点，不是已考定的始置年。"
+        },
+        {
+          "from": 866,
+          "to": 1009,
+          "name": "大罗",
+          "sources": [
+            "hanoi_names_v2"
+          ],
+          "kind": "城名"
+        },
+        {
+          "from": 1010,
+          "to": 1396,
+          "name": "升龙",
+          "sources": [
+            "hanoi_names_v2"
+          ],
+          "kind": "都城名"
+        },
+        {
+          "from": 1397,
+          "to": 1406,
+          "name": "东都",
+          "sources": [
+            "hanoi_names_v2",
+            "hanoi_stages_v2"
+          ],
+          "kind": "都城名"
+        },
+        {
+          "from": 1407,
+          "to": 1427,
+          "name": "东关",
+          "sources": [
+            "hanoi_names_v2",
+            "hanoi_stages_v2"
+          ],
+          "kind": "城名",
+          "note": "明占领后改称；政府概述另有1408起算，采用1407的通行分期。"
+        },
+        {
+          "from": 1428,
+          "to": 1429,
+          "name": "东都",
+          "sources": [
+            "hanoi_stages_v2"
+          ],
+          "kind": "都城名",
+          "note": "黎初过渡称谓。"
+        },
+        {
+          "from": 1430,
+          "to": 1788,
+          "name": "东京",
+          "sources": [
+            "hanoi_stages_v2",
+            "hanoi_names_v2"
+          ],
+          "kind": "都城／通称",
+          "note": "升龙亦长期沿用；不是断言此间仅有一个行政名称。"
+        },
+        {
+          "from": 1789,
+          "to": 1801,
+          "name": "北城",
+          "sources": [
+            "hanoi_names_v2",
+            "hanoi_stages_v2"
+          ],
+          "kind": "行政／通称",
+          "note": "西山时期及阮初名称并用，来源对1787或1789起算有差异。"
+        },
+        {
+          "from": 1802,
+          "to": 1804,
+          "name": "升龙",
+          "sources": [
+            "hanoi_names_v2"
+          ],
+          "kind": "通行称谓"
+        },
+        {
+          "from": 1805,
+          "to": 1830,
+          "name": "升隆",
+          "sources": [
+            "hanoi_names_v2"
+          ],
+          "kind": "通行称谓",
+          "note": "汉字由“龙”改为“隆”，越文读音均为Thăng Long。"
+        },
+        {
+          "from": 1831,
+          "to": 1911,
+          "name": "河内",
+          "sources": [
+            "hanoi_names_v2"
+          ],
+          "kind": "省会称谓"
+        }
+      ],
+      "note": "早期龙编在河对岸，不能直接用来替换此点。汉字名依越南历史称谓对读；部分年份存在政权转换与官称、通称并行。",
+      "sources": [
+        "hanoi_names_v2",
+        "hanoi_stages_v2"
+      ]
+    },
+    "伊宁": {
+      "periods": [
+        {
+          "from": 1762,
+          "to": 1887,
+          "name": "宁远城",
+          "sources": [
+            "yining_history_v2"
+          ],
+          "kind": "城名"
+        },
+        {
+          "from": 1888,
+          "to": 1911,
+          "name": "宁远县城",
+          "sources": [
+            "yining_history_v2"
+          ],
+          "kind": "县治"
+        }
+      ],
+      "note": "宁远前有固勒扎地名与寺院，但1717建寺说与噶尔丹策零时期建都纲的原典记载有出入，且寺院位置不等同后来城池。故1762前不把后世宁远城点直接追填固勒扎；原典、地方通行说并列。",
+      "sources": [
+        "yining_history_v2",
+        "cv-yining",
+        "cv-yining-local"
+      ]
+    },
+    "哈尔滨": {
+      "periods": [
+        {
+          "from": 1898,
+          "to": 1911,
+          "name": "哈尔滨",
+          "sources": [
+            "harbin_history_v2",
+            "fujiadian_history_v2"
+          ],
+          "kind": "近代城市通称",
+          "note": "“哈尔滨”在晚清已使用，古今同名并非漏改。傅家店／滨江厅为道外一带的另一个建置，非全城统一改名。"
+        }
+      ],
+      "note": "保守从铁路城市形成期标注，不以尚有争议的词源解释复原秦汉以来的城名。更早聚落及地名存在不等于这里已有同名大城市。",
+      "sources": [
+        "harbin_history_v2",
+        "fujiadian_history_v2"
+      ]
+    },
+    "海参崴": {
+      "periods": [
+        {
+          "from": 1860,
+          "to": 1911,
+          "name": "符拉迪沃斯托克",
+          "sources": [
+            "vladivostok_history_v2"
+          ],
+          "kind": "当时正式城名",
+          "note": "Vladivostok的中文音译；海参崴为汉文地名。此处采用1860年建立哨所时所用名称。"
+        }
+      ],
+      "note": "1860年前此点的聚落、名称与位置尚未完成可靠复原，暂不把区域性古城传说移到现代港市中心。",
+      "sources": [
+        "vladivostok_history_v2"
+      ]
+    },
+    "平壤": {
+      "periods": [
+        {
+          "from": 427,
+          "to": 585,
+          "name": "平壤城",
+          "sources": [
+            "pyongyang_ancient_v2"
+          ],
+          "kind": "都城名",
+          "note": "高句丽早期平壤王都，点位示意安鹤宫附近；古城范围存在研究差异。",
+          "point": [
+            125.8,
+            39.07
+          ]
+        },
+        {
+          "from": 586,
+          "to": 667,
+          "name": "长安城（平壤）",
+          "sources": [
+            "pyongyang_changan_v2"
+          ],
+          "kind": "都城名"
+        },
+        {
+          "from": 668,
+          "to": 917,
+          "name": "平壤",
+          "sources": [
+            "pyongyang_ancient_v2"
+          ],
+          "kind": "通行地名",
+          "note": "非表示此间行政机构和实际控制始终不变。"
+        },
+        {
+          "from": 918,
+          "to": 959,
+          "name": "西京",
+          "sources": [
+            "pyongyang_history_v2"
+          ],
+          "kind": "都城称谓"
+        },
+        {
+          "from": 960,
+          "to": 994,
+          "name": "西都",
+          "sources": [
+            "pyongyang_history_v2"
+          ],
+          "kind": "行政／都城称谓"
+        },
+        {
+          "from": 995,
+          "to": 996,
+          "name": "西京",
+          "sources": [
+            "pyongyang_history_v2"
+          ],
+          "kind": "留守治所"
+        },
+        {
+          "from": 997,
+          "to": 1061,
+          "name": "镐京",
+          "sources": [
+            "pyongyang_history_v2"
+          ],
+          "kind": "都城称谓"
+        },
+        {
+          "from": 1062,
+          "to": 1268,
+          "name": "西京",
+          "sources": [
+            "pyongyang_history_v2"
+          ],
+          "kind": "留守治所"
+        },
+        {
+          "from": 1269,
+          "to": 1289,
+          "name": "东宁府",
+          "sources": [
+            "pyongyang_history_v2"
+          ],
+          "kind": "府治"
+        },
+        {
+          "from": 1290,
+          "to": 1307,
+          "name": "西京",
+          "sources": [
+            "pyongyang_history_v2"
+          ],
+          "kind": "留守治所"
+        },
+        {
+          "from": 1308,
+          "to": 1355,
+          "name": "平壤府",
+          "kind": "府治",
+          "sources": [
+            "cv-pyongyang",
+            "pyongyang_history_v2"
+          ],
+          "note": "韩国学中央研究院记1308平壤府尹兼存抚使，实录事典记忠宣王改府、1356复西京；据此补齐，不把通称西京与行政官名混同。"
+        },
+        {
+          "from": 1356,
+          "to": 1361,
+          "name": "西京",
+          "sources": [
+            "pyongyang_history_v2"
+          ],
+          "kind": "留守治所"
+        },
+        {
+          "from": 1362,
+          "to": 1895,
+          "name": "平壤府",
+          "sources": [
+            "pyongyang_history_v2"
+          ],
+          "kind": "府治"
+        },
+        {
+          "from": 1896,
+          "to": 1911,
+          "name": "平壤",
+          "sources": [
+            "pyongyang_history_v2"
+          ],
+          "kind": "省会称谓"
+        }
+      ],
+      "note": "1308—1355已以平壤府补齐，据韩国学中央研究院两套条目交核；西京仍可为通称。高句丽平壤、乐浪郡、朝鲜县的古城址不能因此自动等同。",
+      "sources": [
+        "pyongyang_history_v2",
+        "pyongyang_ancient_v2",
+        "pyongyang_changan_v2",
+        "cv-pyongyang"
+      ]
+    }
+  },
+  "extra": [
+    {
+      "id": "qin-xianyang",
+      "modern": "咸阳遗址",
+      "point": [
+        108.86,
+        34.41
+      ],
+      "region": "陕西",
+      "sources": [
+        "qin"
+      ],
+      "periods": [
+        {
+          "from": -221,
+          "to": -207,
+          "name": "咸阳",
+          "sources": [
+            "qin"
+          ],
+          "kind": "独立古城址"
+        }
+      ],
+      "note": "秦都咸阳城核心在窑店一带，与今咸阳市中心、汉长安和隋唐长安城都不同；此为遗址大致位置。"
+    },
+    {
+      "modern": "呼和浩特绥远城",
+      "region": "内蒙古",
+      "point": [
+        111.68,
+        40.83
+      ],
+      "note": "1739年建成的驻防城，在归化城东北另址；两城并存。",
+      "periods": [
+        {
+          "from": 1739,
+          "to": 1911,
+          "name": "绥远城",
+          "kind": "驻防城",
+          "sources": [
+            "west-hohhot-local"
+          ]
+        }
+      ],
+      "sources": [
+        "west-hohhot-local"
+      ]
+    },
+    {
+      "modern": "台南赤崁",
+      "region": "台湾",
+      "point": [
+        120.2,
+        23
+      ],
+      "note": "荷据时期赤崁的堡垒；与安平的热兰遮城分处两地。1661年以后承天府在主城条目中展示。",
+      "periods": [
+        {
+          "from": 1653,
+          "to": 1660,
+          "name": "普罗民遮城",
+          "kind": "堡垒",
+          "sources": [
+            "west-tainan-gov"
+          ]
+        }
+      ],
+      "sources": [
+        "west-tainan-gov"
+      ]
+    },
+    {
+      "modern": "台南安平",
+      "region": "台湾",
+      "point": [
+        120.16,
+        23
+      ],
+      "note": "原热兰遮所在地，1661年改安平；赤崁承天府、后来台湾府城在另一地点。1895年前后行政层级有变化，这里只保留地名。",
+      "periods": [
+        {
+          "from": 1661,
+          "to": 1911,
+          "name": "安平",
+          "kind": "历史地名",
+          "sources": [
+            "west-tainan-gov"
+          ]
+        }
+      ],
+      "sources": [
+        "west-tainan-gov"
+      ]
+    }
+  ],
+  "verification": "city-verification.json"
+}

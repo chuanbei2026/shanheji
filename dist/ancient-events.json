@@ -1,0 +1,618 @@
+{
+  "version": 1,
+  "updated": "2026-10-25",
+  "scope": "夏商周至秦统一前的选读编年事件；不宣称逐年完整，也不以叙事节点复原精确疆界。",
+  "method": "前841年以前明确区分约年、断代工程方案和时期入口。year用于时间轴定位，approximate及dateLabel必须随界面展示；period_anchor不是断言该事发生于单一年。前841年后采用通行公元纪年，并列明史书与现代分期口径。",
+  "limitations": [
+    "夏代尚无可以直接对应传世夏王系的同时代自名文字；二里头与夏的关系不应简化为已无争议。",
+    "武王克商绝对年代采用断代工程约前1046年，利簋本身记录的是干支日而非公元年份。",
+    "史书中的战争规模和伤亡数字没有直接当作现代统计。",
+    "春秋战国分界有前475、前453、前403等不同依据；本页以阶段导航而非唯一历史结论处理。"
+  ],
+  "periods": [
+    {
+      "from": -2070,
+      "to": -1601,
+      "label": "夏",
+      "approximate": true,
+      "note": "约略框架"
+    },
+    {
+      "from": -1600,
+      "to": -1047,
+      "label": "商",
+      "approximate": true,
+      "note": "约略框架"
+    },
+    {
+      "from": -1046,
+      "to": -771,
+      "label": "西周",
+      "approximateStart": true
+    },
+    {
+      "from": -770,
+      "to": -476,
+      "label": "春秋",
+      "note": "采用前475年为战国起点的通行分期；政治转折并非同一天"
+    },
+    {
+      "from": -475,
+      "to": -222,
+      "label": "战国",
+      "note": "周王朝前256年终结，战国阶段延续至秦统一"
+    }
+  ],
+  "sources": {
+    "anc-nm-early": {
+      "title": "中国国家博物馆《古代中国》·夏商西周时期",
+      "url": "https://www.chnmuseum.cn/portals/0/web/zt/gudai/detail2.html"
+    },
+    "anc-nm-eastern": {
+      "title": "中国国家博物馆《古代中国》·春秋战国时期",
+      "url": "https://www.chnmuseum.cn/portals/0/web/zt/gudai/detail3.html"
+    },
+    "anc-dating": {
+      "title": "中国文字博物馆·禹迹夏踪考（断代工程年代框架）",
+      "url": "https://www.wzbwg.com/newsinfo/11916"
+    },
+    "anc-li": {
+      "title": "中国国家博物馆·克商之证——利簋",
+      "url": "https://m.chnmuseum.cn/Portals/0/web/zt/100n/guobao_content-5.html?id=27"
+    },
+    "anc-wuding": {
+      "title": "中国国家博物馆·中华史诗美术大展：武丁强盛、商鞅变法",
+      "url": "https://en.chnmuseum.cn/Portals/0/web/exhibition/exhibitions/161120Chines-Epic/"
+    },
+    "anc-shangyang": {
+      "title": "上海博物馆·商鞅方升",
+      "url": "https://www.shanghaimuseum.net/resource/museum_files/show_files/20180903105852824/index.html"
+    },
+    "anc-sj4": {
+      "title": "《史记》·周本纪",
+      "url": "https://zh.wikisource.org/wiki/史記/卷004"
+    },
+    "anc-sj5": {
+      "title": "《史记》·秦本纪",
+      "url": "https://zh.wikisource.org/wiki/史記/卷005"
+    },
+    "anc-sj6": {
+      "title": "《史记》·秦始皇本纪",
+      "url": "https://zh.wikisource.org/wiki/史記/卷006"
+    },
+    "anc-sj32": {
+      "title": "《史记》·齐太公世家",
+      "url": "https://zh.wikisource.org/wiki/史記/卷032"
+    },
+    "anc-sj39": {
+      "title": "《史记》·晋世家",
+      "url": "https://zh.wikisource.org/wiki/史記/卷039"
+    },
+    "anc-sj41": {
+      "title": "《史记》·越王勾践世家",
+      "url": "https://zh.wikisource.org/wiki/史記/卷041"
+    },
+    "anc-sj43": {
+      "title": "《史记》·赵世家",
+      "url": "https://zh.wikisource.org/wiki/史記/卷043"
+    },
+    "anc-sj47": {
+      "title": "《史记》·孔子世家",
+      "url": "https://zh.wikisource.org/wiki/史記/卷047"
+    },
+    "anc-tj1": {
+      "title": "《资治通鉴》卷1·周纪一",
+      "url": "https://zh.wikisource.org/wiki/資治通鑑/卷001"
+    },
+    "anc-tj2": {
+      "title": "《资治通鉴》卷2·周纪二",
+      "url": "https://zh.wikisource.org/wiki/資治通鑑/卷002"
+    },
+    "anc-tj3": {
+      "title": "《资治通鉴》卷3·周纪三",
+      "url": "https://zh.wikisource.org/wiki/資治通鑑/卷003"
+    },
+    "anc-tj4": {
+      "title": "《资治通鉴》卷4·周纪四",
+      "url": "https://zh.wikisource.org/wiki/資治通鑑/卷004"
+    },
+    "anc-tj5": {
+      "title": "《资治通鉴》卷5·周纪五",
+      "url": "https://zh.wikisource.org/wiki/資治通鑑/卷005"
+    },
+    "anc-tj6": {
+      "title": "《资治通鉴》卷6·秦纪一",
+      "url": "https://zh.wikisource.org/wiki/資治通鑑/卷006"
+    },
+    "anc-zz桓公": {
+      "title": "《春秋左氏传》·桓公",
+      "url": "https://zh.wikisource.org/wiki/春秋左氏傳/桓公"
+    },
+    "anc-zz僖公": {
+      "title": "《春秋左氏传》·僖公",
+      "url": "https://zh.wikisource.org/wiki/春秋左氏傳/僖公"
+    },
+    "anc-zz宣公": {
+      "title": "《春秋左氏传》·宣公",
+      "url": "https://zh.wikisource.org/wiki/春秋左氏傳/宣公"
+    },
+    "anc-zz襄公": {
+      "title": "《春秋左氏传》·襄公",
+      "url": "https://zh.wikisource.org/wiki/春秋左氏傳/襄公"
+    },
+    "anc-zz定公": {
+      "title": "《春秋左氏传》·定公",
+      "url": "https://zh.wikisource.org/wiki/春秋左氏傳/定公"
+    }
+  },
+  "events": [
+    {
+      "id": "anc_xia",
+      "year": -2070,
+      "title": "夏代与早期王权的形成",
+      "category": "政权与变局",
+      "summary": "传世文献把禹、启置于夏王朝开端。此条采用断代工程约前2070年的框架作浏览起点，不表示已有同时代文字证实这一年的建国事件。",
+      "impact": "二里头等遗存为研究早期国家提供考古材料，但遗址、王名和具体年份之间不能直接画等号。",
+      "sources": [
+        "anc-dating",
+        "anc-nm-early"
+      ],
+      "approximate": true,
+      "dateLabel": "约前2070年",
+      "datePrecision": "chronological_framework",
+      "certaintyNote": "夏的起讫采用研究框架；具体年与夏王名的考古对应仍有争论。"
+    },
+    {
+      "id": "anc_shang",
+      "year": -1600,
+      "title": "商兴起，夏商更替",
+      "category": "政权与变局",
+      "summary": "传世史书叙述成汤取代夏。这里用约前1600年作为夏商分界的研究性年代，不把灭夏之战精确定位到这一年。",
+      "impact": "商代青铜与城市遗存构成更丰富的早期国家材料。",
+      "sources": [
+        "anc-dating",
+        "anc-nm-early"
+      ],
+      "approximate": true,
+      "dateLabel": "约前1600年",
+      "datePrecision": "chronological_framework"
+    },
+    {
+      "id": "anc_pangeng",
+      "year": -1300,
+      "title": "盘庚迁殷",
+      "category": "政权与变局",
+      "summary": "商王室此前曾迁都。盘庚迁殷后，安阳地区成为晚商政治中心；具体迁年采用约前1300年的年代框架。",
+      "impact": "殷墟遗址、甲骨文和王陵使晚商历史具有不同于夏代的证据密度。",
+      "sources": [
+        "anc-dating",
+        "anc-nm-early"
+      ],
+      "approximate": true,
+      "dateLabel": "约前1300年",
+      "datePrecision": "estimated_year"
+    },
+    {
+      "id": "anc_wuding",
+      "year": -1250,
+      "title": "武丁时代：甲骨记录中的征伐与妇好",
+      "category": "文化与交流",
+      "summary": "甲骨卜辞记录商王的祭祀、农业与征伐，也记载妇好率军活动。本条是武丁时期的入口，不把这些多年活动说成同年发生。",
+      "impact": "文字与考古材料可以相互印证，但商的方国关系不等于连续疆界。",
+      "sources": [
+        "anc-wuding",
+        "anc-dating"
+      ],
+      "approximate": true,
+      "dateLabel": "约前13世纪（武丁时期）",
+      "datePrecision": "period_anchor",
+      "periodFrom": -1250,
+      "periodTo": -1192
+    },
+    {
+      "id": "anc_muye",
+      "year": -1046,
+      "title": "武王克商，牧野之战",
+      "category": "疆域与战争",
+      "summary": "周武王率联合军击败商王帝辛。利簋铭文提供克商的同时代记录；前1046年是本页采用的断代工程方案，并非无争议的绝对纪年。",
+      "impact": "周取代商成为新的王朝，商人群体和地方方国并未因此全部消失。",
+      "sources": [
+        "anc-li",
+        "anc-sj4"
+      ],
+      "approximate": true,
+      "dateLabel": "约前1046年",
+      "datePrecision": "chronology_project",
+      "certaintyNote": "利簋可证克商的干支日；换算为绝对公元年份仍涉及学术推定。"
+    },
+    {
+      "id": "anc_zhougong",
+      "year": -1042,
+      "title": "周公摄政与东征",
+      "category": "疆域与战争",
+      "summary": "武王去世、成王年幼，周公摄政，平定武庚及管蔡等联合反叛。此处前1042年仅作西周早期摄政、东征叙事的约略入口。",
+      "impact": "周朝重新控制东方的重要据点，并调整对商遗民与诸侯的安排。",
+      "sources": [
+        "anc-sj4",
+        "anc-nm-early"
+      ],
+      "approximate": true,
+      "dateLabel": "约前11世纪（成王初年）",
+      "datePrecision": "period_anchor"
+    },
+    {
+      "id": "anc_chengzhou",
+      "year": -1040,
+      "title": "营建成周，封邦建国",
+      "category": "改革与社会",
+      "summary": "西周早期营建洛邑、成周，通过封授宗亲与功臣建立诸侯网络。这是持续展开的政治工程，不是前1040年一次划定全国边界。",
+      "impact": "王畿、诸侯与方国构成层级关系；分封不等于周王直接治理每一块土地。",
+      "sources": [
+        "anc-sj4",
+        "anc-nm-early"
+      ],
+      "approximate": true,
+      "dateLabel": "约前11世纪（成王时期）",
+      "datePrecision": "period_anchor"
+    },
+    {
+      "id": "anc_gonghe",
+      "year": -841,
+      "title": "国人暴动与共和行政",
+      "category": "政权与变局",
+      "summary": "周厉王出奔彘，王朝进入共和行政时期。《史记》采用周、召二相行政说，共伯和摄政则是另一种古史解释。",
+      "impact": "前841年是传统连续纪年中一个可靠的起点；这不表示以前的历史全无文字或考古证据。",
+      "sources": [
+        "anc-sj4",
+        "anc-dating"
+      ]
+    },
+    {
+      "id": "anc_xuan",
+      "year": -827,
+      "title": "宣王即位，谋求恢复王室秩序",
+      "category": "政权与变局",
+      "summary": "共和行政结束，周宣王即位。他尝试整顿王政并展开军事行动；后世所谓中兴并不表示整个在位期没有失利。",
+      "impact": "王室一度恢复威望，西周晚期的结构性矛盾仍然存在。",
+      "sources": [
+        "anc-sj4"
+      ]
+    },
+    {
+      "id": "anc_western_zhou_end",
+      "year": -771,
+      "title": "幽王遇害，西周王室危机",
+      "category": "政权与变局",
+      "summary": "申侯联合戎人等攻入王畿，周幽王被杀。继承冲突和诸侯关系是理解危机的重要背景，不能只归结为烽火戏诸侯的故事。",
+      "impact": "镐京政治中心瓦解；随后形成东迁及王位竞争的复杂过程。",
+      "sources": [
+        "anc-sj4"
+      ]
+    },
+    {
+      "id": "anc_eastward",
+      "year": -770,
+      "title": "平王东迁洛邑",
+      "category": "政权与变局",
+      "summary": "按通行纪年，周平王东迁洛邑。东迁前后的王位竞争仍有出土文献与传世文献需要互证，本页以此前后作为西周、东周分界。",
+      "impact": "周王室仍然存在，但诸侯在军政上的自主权逐渐增强。",
+      "sources": [
+        "anc-sj4",
+        "anc-nm-eastern"
+      ]
+    },
+    {
+      "id": "anc_xuge",
+      "year": -707,
+      "title": "繻葛之战，周郑交兵",
+      "category": "疆域与战争",
+      "summary": "周桓王率诸侯军讨郑，郑军抵抗并射伤周王。事件见《左传》桓公五年。",
+      "impact": "王室的军事号召力受到冲击，不能再把周天子名义地位等同于直接控制列国。",
+      "sources": [
+        "anc-zz桓公"
+      ]
+    },
+    {
+      "id": "anc_qihuan",
+      "year": -685,
+      "title": "齐桓公即位，管仲辅政",
+      "category": "改革与社会",
+      "summary": "齐国继承争夺后，小白即位为齐桓公，任用管仲整顿政治、财政与军事。改革与称霸是多年过程。",
+      "impact": "齐逐渐成为调动诸侯的强国，周王与霸主的权力关系更需区分。",
+      "sources": [
+        "anc-sj32"
+      ]
+    },
+    {
+      "id": "anc_kuiqiu",
+      "year": -651,
+      "title": "葵丘会盟，齐桓公霸业",
+      "category": "政权与变局",
+      "summary": "齐桓公与诸侯在葵丘会盟，周王室也参与礼仪承认。事件见《左传》僖公九年。",
+      "impact": "霸主依靠会盟、援助与军事压力组织列国，并非把各国并为齐的领土。",
+      "sources": [
+        "anc-zz僖公"
+      ]
+    },
+    {
+      "id": "anc_chengpu",
+      "year": -632,
+      "title": "城濮之战，晋胜楚",
+      "category": "疆域与战争",
+      "summary": "晋文公所率联盟在城濮击败楚军，随后举行践土会盟。事件见《左传》僖公二十八年。",
+      "impact": "晋成为中原争霸的重要力量，晋楚竞争并未就此结束。",
+      "sources": [
+        "anc-zz僖公",
+        "anc-sj39"
+      ]
+    },
+    {
+      "id": "anc_bi",
+      "year": -597,
+      "title": "邲之战，楚胜晋",
+      "category": "疆域与战争",
+      "summary": "楚庄王在郑国问题上与晋军交战，楚军获胜。事件见《左传》宣公十二年。",
+      "impact": "楚的中原影响增强；一场战役的胜败不等于占领所有盟国。",
+      "sources": [
+        "anc-zz宣公"
+      ]
+    },
+    {
+      "id": "anc_mibing",
+      "year": -546,
+      "title": "宋之盟：晋楚弭兵",
+      "category": "政权与变局",
+      "summary": "宋向戌推动晋楚等国大夫会盟，协商停止部分争战，并调整诸侯的交往义务。事件见《左传》襄公二十七年。",
+      "impact": "晋楚竞争转入新的协调格局，东南吴越的力量也在上升。",
+      "sources": [
+        "anc-zz襄公"
+      ]
+    },
+    {
+      "id": "anc_boju",
+      "year": -506,
+      "title": "柏举之战，吴军入郢",
+      "category": "疆域与战争",
+      "summary": "吴王阖闾统军攻楚，吴军击败楚军并进入郢。楚昭王出逃，随后在援军和局势变化下恢复。",
+      "impact": "楚受到重创，但不能把吴军短期入郢画成楚国从此灭亡。",
+      "sources": [
+        "anc-zz定公"
+      ]
+    },
+    {
+      "id": "anc_confucius",
+      "year": -479,
+      "title": "孔子去世，学说由弟子传承",
+      "category": "文化与交流",
+      "summary": "孔子卒于鲁哀公十六年。他的教育实践和政治伦理经弟子及后学传播、整理；不能把后世儒学全部归为当时已定型。",
+      "impact": "思想与教育网络超越诸侯边界，构成春秋战国变革的另一条线索。",
+      "sources": [
+        "anc-sj47"
+      ]
+    },
+    {
+      "id": "anc_yue_wu",
+      "year": -473,
+      "title": "越灭吴",
+      "category": "疆域与战争",
+      "summary": "勾践领导的越国最终攻灭吴，夫差身死。吴越长期战争改变了长江下游的政治格局。",
+      "impact": "越取得吴地并扩大影响，后来又在内部争位和楚国进攻中衰落。",
+      "sources": [
+        "anc-sj41"
+      ]
+    },
+    {
+      "id": "anc_jinyang",
+      "year": -453,
+      "title": "晋阳之战后，韩赵魏分智氏之地",
+      "category": "疆域与战争",
+      "summary": "韩、赵、魏三家联手消灭智氏，并分割其控制地。晋国并非在这一年立刻从名义上消失。",
+      "impact": "三家成为晋地主要力量，为前403年的正式册封奠定基础。",
+      "sources": [
+        "anc-tj1",
+        "anc-sj43"
+      ]
+    },
+    {
+      "id": "anc_three_jin",
+      "year": -403,
+      "title": "周王命韩赵魏为诸侯",
+      "category": "政权与变局",
+      "summary": "周威烈王正式承认韩、赵、魏为诸侯；《资治通鉴》从这一年开篇。它与前453年灭智、后来的晋国终结是不同节点。",
+      "impact": "战国大国的政治结构更为清晰；春秋、战国的分界另有前475年等通行口径。",
+      "sources": [
+        "anc-tj1",
+        "anc-sj4"
+      ]
+    },
+    {
+      "id": "anc_tian_qi",
+      "year": -386,
+      "title": "田氏获得齐侯之命",
+      "category": "政权与变局",
+      "summary": "田氏长期掌握齐政后，田和获周王册命为诸侯。姜姓齐末主与田氏权力更替并不是单日完成。",
+      "impact": "齐国统治家族改变，但不能据此推断齐国疆界在当年全部重画。",
+      "sources": [
+        "anc-tj1"
+      ]
+    },
+    {
+      "id": "anc_shangyang",
+      "year": -359,
+      "title": "商鞅变法展开",
+      "category": "改革与社会",
+      "summary": "本条以前359年的变法议论作入口；常见简表以约前356年标首轮变法。军功、户籍、耕织和法律改革逐步展开，不能视作同年一次完成。",
+      "impact": "改革强化秦国动员资源、治理县邑和进行战争的能力。",
+      "sources": [
+        "anc-tj2",
+        "anc-wuding"
+      ],
+      "approximate": true,
+      "dateLabel": "前359—前350年（变法过程）",
+      "datePrecision": "process_anchor",
+      "periodFrom": -359,
+      "periodTo": -350,
+      "certaintyNote": "议变法、首轮实施与后续改制有不同纪年口径。"
+    },
+    {
+      "id": "anc_xianyang",
+      "year": -350,
+      "title": "秦迁咸阳，继续推行县制等改革",
+      "category": "改革与社会",
+      "summary": "秦孝公时期营建咸阳作为新都，并继续展开县制、田制和度量衡等改革。此前都城为栎阳，不以雍直接替代这一迁都节点。",
+      "impact": "咸阳成为秦后期的政治中心，制度整合与疆域扩张相互促进。",
+      "sources": [
+        "anc-tj2",
+        "anc-sj5",
+        "anc-shangyang"
+      ]
+    },
+    {
+      "id": "anc_bashu",
+      "year": -316,
+      "title": "秦并巴蜀",
+      "category": "疆域与战争",
+      "summary": "秦军进入四川盆地，攻灭蜀，并控制巴等地；地方治理和反抗此后仍有变化。",
+      "impact": "秦获得重要人口、物产与战略纵深，并从上游对楚形成压力。",
+      "sources": [
+        "anc-tj3",
+        "anc-sj5"
+      ]
+    },
+    {
+      "id": "anc_hufu",
+      "year": -307,
+      "title": "赵武灵王推行胡服骑射",
+      "category": "改革与社会",
+      "summary": "赵武灵王倡导变服、学习骑射，事件按《史记》武灵王十九年记。改革吸收北方人群的军事经验，实施与扩编仍是过程。",
+      "impact": "赵国的军事组织与北方活动方式改变；不要把该年说成骑射技术首次出现。",
+      "sources": [
+        "anc-sj43",
+        "anc-tj3"
+      ]
+    },
+    {
+      "id": "anc_coalition_qi",
+      "year": -284,
+      "title": "燕等国联合攻齐",
+      "category": "疆域与战争",
+      "summary": "燕国联合诸国大举攻齐，乐毅统军取得重大进展。齐王出逃，齐国仅余部分据点，随后田单等组织恢复。",
+      "impact": "齐失去先前强国地位，但并未在前284年彻底灭亡。",
+      "sources": [
+        "anc-tj4"
+      ]
+    },
+    {
+      "id": "anc_ying",
+      "year": -278,
+      "title": "白起拔郢，楚廷东迁",
+      "category": "疆域与战争",
+      "summary": "秦将白起攻取楚都郢及周边地区，楚顷襄王迁往陈等地继续统治。",
+      "impact": "楚在长江中游的控制受到严重打击；郢陷与楚国最终灭亡相隔数十年。",
+      "sources": [
+        "anc-tj4"
+      ]
+    },
+    {
+      "id": "anc_changping",
+      "year": -260,
+      "title": "长平之战，赵军惨败",
+      "category": "疆域与战争",
+      "summary": "围绕上党形势展开的秦赵大战以赵军失败告终。白起大规模杀降的叙述见传世史书，具体人数应审慎看待。",
+      "impact": "赵国的人力与军事力量受重创，秦仍需多年战争才能灭赵。",
+      "sources": [
+        "anc-tj5",
+        "anc-sj43"
+      ]
+    },
+    {
+      "id": "anc_zhou_nan",
+      "year": -256,
+      "title": "周赧王死，秦取西周国",
+      "category": "政权与变局",
+      "summary": "周赧王向秦献地后去世，秦取得西周国土地。这里的西周国是东周晚期的小国，不能与前771年以前的西周王朝混为一谈。",
+      "impact": "通常以此作为周王朝的终点；东周国尚存至前249年。",
+      "sources": [
+        "anc-tj5",
+        "anc-sj4"
+      ]
+    },
+    {
+      "id": "anc_eastern_zhou_state",
+      "year": -249,
+      "title": "秦灭东周国",
+      "category": "疆域与战争",
+      "summary": "秦相吕不韦派兵结束东周国。该地方政治实体与整个东周时代并非同一个概念。",
+      "impact": "周王室在洛阳一带的残余政治实体终结。",
+      "sources": [
+        "anc-tj6"
+      ]
+    },
+    {
+      "id": "anc_last_coalition",
+      "year": -241,
+      "title": "诸国合纵攻秦受挫",
+      "category": "疆域与战争",
+      "summary": "楚、赵、魏、韩、卫等合纵攻秦，行动受挫。各国仍试图以联盟抵抗秦国，联盟内部利益却难以长期协调。",
+      "impact": "秦统一前的联合抵抗未能扭转力量对比，六国也没有当年立即灭亡。",
+      "sources": [
+        "anc-tj6"
+      ]
+    },
+    {
+      "id": "anc_han_end",
+      "year": -230,
+      "title": "秦灭韩",
+      "category": "疆域与战争",
+      "summary": "秦内史腾攻韩，俘韩王安，秦在韩地设置郡县。",
+      "impact": "秦灭六国的连续征服进入决定性阶段。",
+      "sources": [
+        "anc-sj6"
+      ]
+    },
+    {
+      "id": "anc_zhao_end",
+      "year": -228,
+      "title": "秦破邯郸，赵王被俘",
+      "category": "疆域与战争",
+      "summary": "秦军攻破邯郸，俘赵王迁。赵公子嘉逃至代地继续抵抗，不能把前228年视作赵氏势力立即全部消失。",
+      "impact": "代地残余政权继续存在，至前222年被秦攻灭。",
+      "sources": [
+        "anc-sj6"
+      ]
+    },
+    {
+      "id": "anc_wei_end",
+      "year": -225,
+      "title": "秦灭魏",
+      "category": "疆域与战争",
+      "summary": "秦将王贲攻魏，引水灌大梁，魏王假投降。",
+      "impact": "魏国王廷终结，秦的郡县统治向中原腹地推进。",
+      "sources": [
+        "anc-sj6"
+      ]
+    },
+    {
+      "id": "anc_chu_end",
+      "year": -223,
+      "title": "秦俘楚王，楚国王廷终结",
+      "category": "疆域与战争",
+      "summary": "王翦等所率秦军大举攻楚，楚王负刍被俘。楚地的后续军事与行政整合仍需时间。",
+      "impact": "楚国王廷覆亡，不能把楚境所有地区都视为同一天完成归附。",
+      "sources": [
+        "anc-sj6"
+      ]
+    },
+    {
+      "id": "anc_yan_dai_end",
+      "year": -222,
+      "title": "秦灭燕、代残余政权",
+      "category": "疆域与战争",
+      "summary": "秦军攻取辽东，俘燕王喜，又俘代王嘉。此前退往边地的燕、赵残余政权结束。",
+      "impact": "六国中只余齐国未被秦吞并，次年进入前221年的统一节点。",
+      "sources": [
+        "anc-sj6"
+      ]
+    }
+  ]
+}

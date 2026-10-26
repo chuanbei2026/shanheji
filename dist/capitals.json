@@ -1,0 +1,855 @@
+{
+  "version": 1,
+  "method": "分期展示主要王朝都城、王都与部分重要两京身份。所有位置为城址区域示意；年内迁都取年内后期状态，覆亡与未稳定驻地阶段保留空段，不推定为完整历代都城总表。",
+  "entries": [
+    {
+      "id": "zhou-hao",
+      "dynasty": "西周",
+      "from": -1046,
+      "to": -771,
+      "name": "镐京",
+      "modern": "西安",
+      "point": [
+        108.76,
+        34.22
+      ],
+      "role": "都邑",
+      "sourceIds": [
+        "anc-fenghao"
+      ],
+      "note": "西周丰、镐为分开的都邑群，此点示镐京区域；始年采用约年框架，不表示已核定每年王廷所在地。"
+    },
+    {
+      "id": "zhou-luo",
+      "dynasty": "东周",
+      "from": -770,
+      "to": -256,
+      "name": "雒邑",
+      "modern": "洛阳",
+      "point": [
+        112.49,
+        34.69
+      ],
+      "role": "王都",
+      "sourceIds": [
+        "anc-chengzhou"
+      ],
+      "note": "东周王都在洛阳区域。王城、成周的具体分址与周敬王迁居存在复杂沿革，星标只示区域，不把各城址合并认定。"
+    },
+    {
+      "id": "qin",
+      "dynasty": "秦",
+      "from": -221,
+      "to": -207,
+      "name": "咸阳",
+      "modern": "咸阳",
+      "point": [
+        108.83,
+        34.41
+      ],
+      "role": "都城",
+      "sourceIds": [
+        "qinGaz"
+      ],
+      "note": "秦朝都咸阳；点位示渭河北岸秦咸阳故城区域，与汉长安、隋唐长安分址。前207年表示秦朝廷终结之年，不代表全年都在控制该城。"
+    },
+    {
+      "id": "han-west",
+      "dynasty": "西汉",
+      "from": -200,
+      "to": 8,
+      "name": "长安",
+      "modern": "西安",
+      "point": [
+        108.86,
+        34.38
+      ],
+      "role": "都城",
+      "sourceIds": [
+        "hanGaz",
+        "hanMuseum"
+      ],
+      "note": "汉高祖前202年决定建都长安，宫城营建与从栎阳迁居是一个过程；本层从前200年起展示稳定的长安都城阶段，未把前206年直接当作长安建都年。"
+    },
+    {
+      "id": "xin",
+      "dynasty": "新",
+      "from": 9,
+      "to": 23,
+      "name": "常安",
+      "modern": "西安",
+      "point": [
+        108.86,
+        34.38
+      ],
+      "role": "都城",
+      "sourceIds": [
+        "xian"
+      ],
+      "note": "王莽改长安为常安；仍在汉长安城区域。终年为政权覆灭年，年内有更替。"
+    },
+    {
+      "id": "han-east-luo",
+      "dynasty": "东汉",
+      "from": 25,
+      "to": 189,
+      "name": "雒阳",
+      "modern": "洛阳",
+      "point": [
+        112.63,
+        34.72
+      ],
+      "role": "都城",
+      "sourceIds": [
+        "luoyang"
+      ],
+      "note": "东汉以雒阳为都。采用汉魏洛阳故城区域，不使用隋唐洛阳的新城点。"
+    },
+    {
+      "id": "han-east-chang",
+      "dynasty": "东汉",
+      "from": 190,
+      "to": 195,
+      "name": "长安",
+      "modern": "西安",
+      "point": [
+        108.86,
+        34.38
+      ],
+      "role": "都城",
+      "sourceIds": [
+        "xianGaz"
+      ],
+      "note": "190年董卓迫使朝廷迁长安；195年献帝离开长安东归。年粒度无法表示东归途中各驻地。"
+    },
+    {
+      "id": "han-xu",
+      "dynasty": "东汉",
+      "from": 196,
+      "to": 219,
+      "name": "许县",
+      "modern": "许昌",
+      "point": [
+        114.03,
+        34.04
+      ],
+      "role": "朝廷驻地",
+      "sourceIds": [
+        "xu"
+      ],
+      "note": "196年曹操迎献帝迁许县，俗称许都。故城在今许昌张潘一带，不是今许昌市中心；许县至221年才改许昌。220年禅代发生于繁阳，本段不把全年当成驻许。"
+    },
+    {
+      "id": "jin-luo",
+      "dynasty": "西晋",
+      "from": 265,
+      "to": 310,
+      "name": "洛阳",
+      "modern": "洛阳",
+      "point": [
+        112.63,
+        34.72
+      ],
+      "role": "都城",
+      "sourceIds": [
+        "jin",
+        "luoyang"
+      ],
+      "note": "西晋建都洛阳；311年永嘉之乱都城陷落，313年晋愍帝即位后以长安为都。311—312年不强补一个稳定都城。"
+    },
+    {
+      "id": "jin-chang",
+      "dynasty": "西晋",
+      "from": 313,
+      "to": 316,
+      "name": "长安",
+      "modern": "西安",
+      "point": [
+        108.86,
+        34.38
+      ],
+      "role": "都城",
+      "sourceIds": [
+        "jin"
+      ],
+      "note": "313年晋愍帝在长安即位，316年长安陷落。312年是太子行台阶段，未提前作为皇帝都城。"
+    },
+    {
+      "id": "jin-east",
+      "dynasty": "东晋",
+      "from": 317,
+      "to": 419,
+      "name": "建康",
+      "modern": "南京",
+      "point": [
+        118.8,
+        32.06
+      ],
+      "role": "都城",
+      "sourceIds": [
+        "six",
+        "nj_xuanwu"
+      ],
+      "note": "建康为东晋及南朝主要都城；各朝交替按年内后继状态取舍。梁末552—554年江陵朝廷与555—556年建康朝廷的复杂阶段未在本段合并。"
+    },
+    {
+      "id": "liu-song",
+      "dynasty": "刘宋",
+      "from": 420,
+      "to": 478,
+      "name": "建康",
+      "modern": "南京",
+      "point": [
+        118.8,
+        32.06
+      ],
+      "role": "都城",
+      "sourceIds": [
+        "six",
+        "nj_xuanwu"
+      ],
+      "note": "建康为东晋及南朝主要都城；各朝交替按年内后继状态取舍。梁末552—554年江陵朝廷与555—556年建康朝廷的复杂阶段未在本段合并。"
+    },
+    {
+      "id": "qi-south",
+      "dynasty": "南齐",
+      "from": 479,
+      "to": 501,
+      "name": "建康",
+      "modern": "南京",
+      "point": [
+        118.8,
+        32.06
+      ],
+      "role": "都城",
+      "sourceIds": [
+        "six",
+        "nj_xuanwu"
+      ],
+      "note": "建康为东晋及南朝主要都城；各朝交替按年内后继状态取舍。梁末552—554年江陵朝廷与555—556年建康朝廷的复杂阶段未在本段合并。"
+    },
+    {
+      "id": "liang-south",
+      "dynasty": "梁",
+      "from": 502,
+      "to": 551,
+      "name": "建康",
+      "modern": "南京",
+      "point": [
+        118.8,
+        32.06
+      ],
+      "role": "都城",
+      "sourceIds": [
+        "six",
+        "nj_xuanwu"
+      ],
+      "note": "建康为东晋及南朝主要都城；各朝交替按年内后继状态取舍。梁末552—554年江陵朝廷与555—556年建康朝廷的复杂阶段未在本段合并。"
+    },
+    {
+      "id": "chen-south",
+      "dynasty": "陈",
+      "from": 557,
+      "to": 588,
+      "name": "建康",
+      "modern": "南京",
+      "point": [
+        118.8,
+        32.06
+      ],
+      "role": "都城",
+      "sourceIds": [
+        "six",
+        "nj_xuanwu"
+      ],
+      "note": "建康为东晋及南朝主要都城；各朝交替按年内后继状态取舍。梁末552—554年江陵朝廷与555—556年建康朝廷的复杂阶段未在本段合并。"
+    },
+    {
+      "id": "sui-old",
+      "dynasty": "隋",
+      "from": 581,
+      "to": 582,
+      "name": "长安",
+      "modern": "西安",
+      "point": [
+        108.86,
+        34.38
+      ],
+      "role": "都城",
+      "sourceIds": [
+        "sui"
+      ],
+      "note": "隋初仍在汉长安旧城；582年营建新都，583年才迁入大兴，旧城与新城分别定位。"
+    },
+    {
+      "id": "sui-daxing",
+      "dynasty": "隋",
+      "from": 583,
+      "to": 617,
+      "name": "大兴",
+      "modern": "西安",
+      "point": [
+        108.94,
+        34.26
+      ],
+      "role": "都城",
+      "sourceIds": [
+        "sui"
+      ],
+      "note": "583年迁入新大兴城。隋炀帝后期久居东都与巡幸江都，本标识是都城建制，不能据此推断皇帝逐年驻地。"
+    },
+    {
+      "id": "sui-luo",
+      "dynasty": "隋",
+      "from": 605,
+      "to": 617,
+      "name": "洛阳",
+      "modern": "洛阳",
+      "point": [
+        112.47,
+        34.68
+      ],
+      "role": "东都",
+      "sourceIds": [
+        "tang"
+      ],
+      "note": "605年营建东都洛阳；与大兴两京并存，采用隋唐洛阳城址。江都为后期驻跸地，不自动当作正式迁都。"
+    },
+    {
+      "id": "tang-chang-a",
+      "dynasty": "唐",
+      "from": 618,
+      "to": 683,
+      "name": "长安",
+      "modern": "西安",
+      "point": [
+        108.94,
+        34.26
+      ],
+      "role": "都城",
+      "sourceIds": [
+        "north-xian-chronicle",
+        "tang"
+      ],
+      "note": "唐初都长安；657年起洛阳具东都地位，两都并重，皇帝驻地与制度都城不能简单画等号。"
+    },
+    {
+      "id": "tang-luo-a",
+      "dynasty": "唐",
+      "from": 657,
+      "to": 683,
+      "name": "东都",
+      "modern": "洛阳",
+      "point": [
+        112.47,
+        34.68
+      ],
+      "role": "东都",
+      "sourceIds": [
+        "tang"
+      ],
+      "note": "洛阳657年为东都，与长安两都并重。"
+    },
+    {
+      "id": "tang-luo-b",
+      "dynasty": "唐",
+      "from": 684,
+      "to": 689,
+      "name": "神都",
+      "modern": "洛阳",
+      "point": [
+        112.47,
+        34.68
+      ],
+      "role": "朝廷驻地",
+      "sourceIds": [
+        "tang"
+      ],
+      "note": "684年改洛阳为神都，武则天在此执政；690年才改国号为周，不把684年提前算作武周。"
+    },
+    {
+      "id": "wu-zhou",
+      "dynasty": "武周",
+      "from": 690,
+      "to": 704,
+      "name": "神都",
+      "modern": "洛阳",
+      "point": [
+        112.47,
+        34.68
+      ],
+      "role": "都城",
+      "sourceIds": [
+        "tang"
+      ],
+      "note": "武则天690年建立周，以神都洛阳为政治中心；705年复唐，按年内后继状态展示。"
+    },
+    {
+      "id": "tang-chang-b",
+      "dynasty": "唐",
+      "from": 705,
+      "to": 903,
+      "name": "长安",
+      "modern": "西安",
+      "point": [
+        108.94,
+        34.26
+      ],
+      "role": "都城",
+      "sourceIds": [
+        "north-xian-chronicle",
+        "tang"
+      ],
+      "note": "复唐后长安为主要都城。705年朝廷曾先在洛阳，后还长安；安史之乱、黄巢战争等期间朝廷出奔，不代表每年一直控制都城。"
+    },
+    {
+      "id": "song",
+      "dynasty": "北宋",
+      "from": 960,
+      "to": 1126,
+      "name": "东京·开封府",
+      "modern": "开封",
+      "point": [
+        114.3,
+        34.8
+      ],
+      "role": "都城",
+      "sourceIds": [
+        "song"
+      ],
+      "note": "北宋都东京开封府。1127年靖康之变后朝廷南迁，本层不将开封标成南宋实际驻地。"
+    },
+    {
+      "id": "song-linan",
+      "dynasty": "南宋",
+      "from": 1138,
+      "to": 1275,
+      "name": "临安府",
+      "modern": "杭州",
+      "point": [
+        120.16,
+        30.24
+      ],
+      "role": "行在",
+      "sourceIds": [
+        "linan"
+      ],
+      "note": "1138年朝廷稳定驻临安，称行在所；名义京师仍为东京开封。1127—1137年多次转徙，1276年临安降元后闽广行朝另有驻地，本层未合并作临安。"
+    },
+    {
+      "id": "yuan-zhong",
+      "dynasty": "元",
+      "from": 1271,
+      "to": 1271,
+      "name": "中都",
+      "modern": "北京",
+      "point": [
+        116.4,
+        39.94
+      ],
+      "role": "都城",
+      "sourceIds": [
+        "yuan"
+      ],
+      "note": "1271年建国号元，1272年才改中都为大都，不能提前一年用大都名。"
+    },
+    {
+      "id": "yuan-dadu",
+      "dynasty": "元",
+      "from": 1272,
+      "to": 1367,
+      "name": "大都",
+      "modern": "北京",
+      "point": [
+        116.4,
+        39.94
+      ],
+      "role": "都城",
+      "sourceIds": [
+        "yuan"
+      ],
+      "note": "1272年改中都为大都；采用元大都城区域，略北于明清城。1368年元廷退出大都，年内更替后不再标元都。"
+    },
+    {
+      "id": "yuan-shang",
+      "dynasty": "元",
+      "from": 1271,
+      "to": 1367,
+      "name": "上都",
+      "modern": "上都",
+      "point": [
+        116.18,
+        42.36
+      ],
+      "role": "夏都",
+      "sourceIds": [
+        "shangdu",
+        "yuan"
+      ],
+      "note": "元实行两都巡幸制度，上都为夏季驻跸和政治活动中心；与大都并列展示，不简化成普通陪都。1368年后的北元都廷变化另计。"
+    },
+    {
+      "id": "ming-nan",
+      "dynasty": "明",
+      "from": 1368,
+      "to": 1420,
+      "name": "南京·应天府",
+      "modern": "南京",
+      "point": [
+        118.8,
+        32.06
+      ],
+      "role": "都城",
+      "sourceIds": [
+        "ming"
+      ],
+      "note": "明初定都应天。1420年北京宫殿建成并颁迁都诏，1421年正月正式迁都北京；此层把1420年仍置于迁都前。"
+    },
+    {
+      "id": "ming-bei",
+      "dynasty": "明",
+      "from": 1421,
+      "to": 1643,
+      "name": "京师·北京",
+      "modern": "北京",
+      "point": [
+        116.4,
+        39.92
+      ],
+      "role": "都城",
+      "sourceIds": [
+        "ming"
+      ],
+      "note": "1421年正月正式迁都，北京成为京师，南京保留中央机构而为留都。1644年北京朝廷覆亡、南明继起，本层不把这一年画成稳定明北京。"
+    },
+    {
+      "id": "ming-liu",
+      "dynasty": "明",
+      "from": 1421,
+      "to": 1643,
+      "name": "南京",
+      "modern": "南京",
+      "point": [
+        118.8,
+        32.06
+      ],
+      "role": "留都",
+      "sourceIds": [
+        "ming"
+      ],
+      "note": "永乐迁都以后南京为留都，继续设六部等机构；空心星区别于北京的实心都城星。"
+    },
+    {
+      "id": "qing-sheng",
+      "dynasty": "清",
+      "from": 1636,
+      "to": 1643,
+      "name": "盛京",
+      "modern": "沈阳",
+      "point": [
+        123.45,
+        41.8
+      ],
+      "role": "都城",
+      "sourceIds": [
+        "shengjing"
+      ],
+      "note": "1636年皇太极在盛京称帝、改国号清。此前后金自1625年迁沈阳，1634年改称盛京，本段只标清朝阶段。"
+    },
+    {
+      "id": "qing-bei",
+      "dynasty": "清",
+      "from": 1644,
+      "to": 1911,
+      "name": "京师·北京",
+      "modern": "北京",
+      "point": [
+        116.4,
+        39.92
+      ],
+      "role": "都城",
+      "sourceIds": [
+        "qing"
+      ],
+      "note": "1644年清廷迁都北京，皇帝入京颁诏。咸丰与慈禧等曾离京避乱，不等于废除北京都城身份；本图止于1911，清帝退位在1912年。"
+    },
+    {
+      "id": "qing-pei",
+      "dynasty": "清",
+      "from": 1644,
+      "to": 1911,
+      "name": "盛京",
+      "modern": "沈阳",
+      "point": [
+        123.45,
+        41.8
+      ],
+      "role": "陪都",
+      "sourceIds": [
+        "shengjing"
+      ],
+      "note": "清廷1644年迁北京后，盛京保留陪都地位及相关宫庙机构；标识表制度身份，不表示皇帝常驻。"
+    },
+    {
+      "id": "han-building",
+      "dynasty": "西汉",
+      "from": -202,
+      "to": -201,
+      "name": "长安",
+      "modern": "西安",
+      "point": [
+        108.86,
+        34.38
+      ],
+      "role": "营建都城",
+      "sourceIds": [
+        "hanMuseum",
+        "hanGaz"
+      ],
+      "note": "前202年开始建都营建；地方志记前200年从栎阳迁入，营建与正式迁居分开标识。"
+    },
+    {
+      "id": "tang-late",
+      "dynasty": "唐",
+      "from": 904,
+      "to": 906,
+      "name": "洛阳",
+      "modern": "洛阳",
+      "point": [
+        112.47,
+        34.68
+      ],
+      "role": "都城",
+      "sourceIds": [
+        "tangMove"
+      ],
+      "note": "904年朱温逼唐昭宗迁都洛阳。907年唐亡，年度层采用后继状态，不把唐朝都城身份延续为一整年。"
+    },
+    {
+      "id": "wei",
+      "dynasty": "曹魏",
+      "from": 220,
+      "to": 264,
+      "name": "洛阳",
+      "modern": "洛阳",
+      "point": [
+        112.63,
+        34.72
+      ],
+      "role": "都城",
+      "sourceIds": [
+        "luoyang"
+      ],
+      "note": "220年曹丕建魏，都洛阳，改雒为洛。265年末受禅按通行历史纪年展示西晋，换算公历为266年初，年级粒度有差别。"
+    },
+    {
+      "id": "shu",
+      "dynasty": "蜀汉",
+      "from": 221,
+      "to": 263,
+      "name": "成都",
+      "modern": "成都",
+      "point": [
+        104.07,
+        30.66
+      ],
+      "role": "都城",
+      "sourceIds": [
+        "shu",
+        "shuYears"
+      ],
+      "note": "221年刘备在成都称帝，263年蜀汉降魏；终年表示该年发生覆亡，不保证全年控制都城。"
+    },
+    {
+      "id": "wu-seat",
+      "dynasty": "孙吴",
+      "from": 222,
+      "to": 228,
+      "name": "武昌",
+      "modern": "鄂州",
+      "point": [
+        114.87,
+        30.4
+      ],
+      "role": "王都",
+      "sourceIds": [
+        "wuMove"
+      ],
+      "note": "孙权221年迁治鄂县并改武昌，222年改元黄武；229年在此称帝后又迁建业。此点为今鄂州，不是今武汉武昌。"
+    },
+    {
+      "id": "wu-first",
+      "dynasty": "孙吴",
+      "from": 229,
+      "to": 264,
+      "name": "建业",
+      "modern": "南京",
+      "point": [
+        118.8,
+        32.06
+      ],
+      "role": "都城",
+      "sourceIds": [
+        "nj_jianye",
+        "wuNanjing"
+      ],
+      "note": "229年四月在武昌称帝，同年九月迁都建业，年度层采用迁都后的状态。"
+    },
+    {
+      "id": "wu-wuchang",
+      "dynasty": "孙吴",
+      "from": 265,
+      "to": 265,
+      "name": "武昌",
+      "modern": "鄂州",
+      "point": [
+        114.87,
+        30.4
+      ],
+      "role": "都城",
+      "sourceIds": [
+        "wuMove",
+        "wuNanjing"
+      ],
+      "note": "265年九月孙皓从建业迁都武昌；266年十二月还都建业，年度层取年内后期状态，故266年显示建业。"
+    },
+    {
+      "id": "wu-last",
+      "dynasty": "孙吴",
+      "from": 266,
+      "to": 279,
+      "name": "建业",
+      "modern": "南京",
+      "point": [
+        118.8,
+        32.06
+      ],
+      "role": "都城",
+      "sourceIds": [
+        "wuMove",
+        "wuNanjing"
+      ],
+      "note": "266年十二月孙皓还都建业。280年晋灭吴，年度层不再标吴都。"
+    }
+  ],
+  "sources": {
+    "xian": {
+      "title": "西安市政府 · 建置沿革",
+      "url": "https://www.xa.gov.cn/sq/csgk/lsyg/1.html",
+      "evidence": "记汉长安、新莽常安、隋大兴、唐长安与明清西安府；元安西路年份另与陕西省志、西安市志交叉核对。"
+    },
+    "anc-fenghao": {
+      "title": "湖北省博物馆·西周都城考古的主要收获",
+      "url": "https://m-www.hbww.org.cn/p/10888.html"
+    },
+    "anc-chengzhou": {
+      "title": "北京大学学术期刊·洛阳西周时代的遗址与成周、王城",
+      "url": "https://ccj.pku.edu.cn/article/info?aid=330993308",
+      "access": "abstract"
+    },
+    "north-xian-chronicle": {
+      "title": "西安市志·第一卷总类",
+      "url": "https://dfz.shaanxi.gov.cn/zslm/fzzlk/xbsxsxz/xbsxz/xas_16198/201405/P020240923625160882829.pdf",
+      "evidence": "583年三月由汉长安迁新都大兴；明确记1279年改京兆府为安西路总管府。"
+    },
+    "luoyang": {
+      "title": "洛阳市政府 · 历史沿革",
+      "url": "https://www.ly.gov.cn/mlly/lsyg/",
+      "evidence": "市政府沿革支持王莽宜阳、东汉雒阳、605年另筑隋唐新城；新城与汉魏洛阳故城分址。"
+    },
+    "nj_jianye": {
+      "title": "南京建邺区政府·历史沿革",
+      "url": "https://www.njjy.gov.cn/zjjy/lsyg/",
+      "evidence": "212建业；280改秣陵；281分秦淮河北为建业，282改建邺。"
+    },
+    "nj_xuanwu": {
+      "title": "南京玄武区政府·历史沿革",
+      "url": "https://www.xwzf.gov.cn/zjxw/xwgk/lsyg/",
+      "evidence": "313因避司马邺讳改建康，沿用至陈末；隋江宁县隶蒋州。"
+    },
+    "ming": {
+      "title": "首都博物馆 · 1420：从南京到北京",
+      "url": "https://capitalmuseum.org.cn/exhibition/5fa1658c7a394b6ab12aa0ca3a92f636"
+    },
+    "qing": {
+      "title": "故宫博物院 · 清廷迁都北京",
+      "url": "https://www.dpm.org.cn/court/event/159873.html"
+    },
+    "shengjing": {
+      "title": "沈阳市自然资源局 · 历史文化资源挖掘与保护规划",
+      "url": "https://zrzyj.shenyang.gov.cn/files/ueditor/GTZYJ/jsp/upload/file/20190103/1546504290118071559.pdf"
+    },
+    "song": {
+      "title": "中国国家博物馆 · 北宋东京城",
+      "url": "https://www.chnmuseum.cn/yj/xscg/xslw/201812/t20181224_33199.shtml"
+    },
+    "linan": {
+      "title": "国家民委 · 《咸淳临安志》与南宋行在",
+      "url": "https://www.neac.gov.cn/seac/c103391/202301/1160353.shtml"
+    },
+    "six": {
+      "title": "南京市政府 · 六朝烟水与建康城",
+      "url": "https://nbxc.nanjing.gov.cn/xcdt/202605/t20260528_5848078.html"
+    },
+    "yuan": {
+      "title": "中国国家博物馆 · 元大都",
+      "url": "https://www.chnmuseum.cn/yj/xscg/xslw/201812/t20181224_33233.shtml"
+    },
+    "shangdu": {
+      "title": "正蓝旗政府 · 元上都",
+      "url": "https://www.zlq.gov.cn/eportal/ui?articleKey=a2734909246a4c1290578dd4d88aa954&columnId=16c2e22a0a574ae0a8a9ec2f9962404e&pageId=1adbd621a6894b54bc3951364e57d2a1"
+    },
+    "sui": {
+      "title": "华中师范大学 · 隋大兴城与迁都纪载",
+      "url": "https://ccrs.ccnu.edu.cn/list/H5Details.aspx?tid=5245"
+    },
+    "xu": {
+      "title": "许昌市政府 · 历史沿革与汉魏许都故城",
+      "url": "https://xuchang.gov.cn/zjxc/walkIntoXC.html"
+    },
+    "xianGaz": {
+      "title": "西安市志 · 东汉迁都长安",
+      "url": "https://dfz.shaanxi.gov.cn/zslm/fzzlk/xbsxsxz/xbsxz/xas_16198/201405/P020240923625160882829.pdf"
+    },
+    "jin": {
+      "title": "中国社会科学院 · 汉晋长安城考古研究",
+      "url": "https://hrczh.cass.cn/sxqy/kgx/202502/W020250228398527721202.pdf"
+    },
+    "tang": {
+      "title": "洛阳文旅局 · 洛阳历史文化名城保护规划",
+      "url": "https://oss.ly.gov.cn/lyswhgdhlyj/upload/20240723/297ed34a90d832350190dd810af40005.pdf"
+    },
+    "qinGaz": {
+      "title": "咸阳市志 · 秦咸阳故都",
+      "url": "https://dfz.shaanxi.gov.cn/zslm/fzzlk/xbsxsxz/xbsxz/xys_16200/201405/P020240923612271781799.pdf"
+    },
+    "hanGaz": {
+      "title": "长安区志 · 西汉迁都长安",
+      "url": "https://dfz.shaanxi.gov.cn/zslm/fzzlk/xbsxsxz/sxdelpdf/dxas_16198/202007/P020240923597830211775.pdf"
+    },
+    "hanMuseum": {
+      "title": "陕西历史博物馆 · 大汉雄风",
+      "url": "https://www.sxhm.com/dhxf.html"
+    },
+    "tangMove": {
+      "title": "洛阳日报 · 唐昭宗904年迁都洛阳",
+      "url": "https://lyrb.lyd.com.cn/images2/1/2025-07/09/007/20250709007_pdf.pdf"
+    },
+    "shu": {
+      "title": "成都博物馆 · 两汉魏晋南北朝时期的成都",
+      "url": "https://www.cdmuseum.com/gudaipian/201901/65.html"
+    },
+    "shuYears": {
+      "title": "四川师范大学学报 · 成都建都史考",
+      "url": "https://wkxb.sicnu.edu.cn/Publish/201703/2%E4%BD%95%E4%B8%80%E6%B0%91%E7%AD%89.pdf"
+    },
+    "wuMove": {
+      "title": "鄂州市政府 · 吴都武昌城",
+      "url": "https://www.ezhou.gov.cn/zjez/ezrw/ezss/202205/t20220526_469968.html"
+    },
+    "wuNanjing": {
+      "title": "南京市地方志办公室 · 东吴两次迁都南京",
+      "url": "https://dfz.nanjing.gov.cn/gzdt/202403/t20240315_4186987.html"
+    }
+  }
+}
