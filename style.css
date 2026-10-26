@@ -232,3 +232,24 @@ header{gap:22px}.atlas-jump{position:relative;flex:1;max-width:490px;min-width:2
 
 /* Compact annual rulers for the pre-imperial states. */
 .pre-imperial-courts .parallel-court{padding:6px 8px}.pre-imperial-courts .parallel-current strong{font-size:11px;line-height:1.5}.pre-imperial-courts .parallel-court-select{margin-bottom:3px}.pre-imperial-courts .parallel-unresolved{font-size:10px}
+
+/* A persistent, chronological event rail with a centered calendar cursor. */
+.events-panel>.news-scroll-shell{position:relative;flex:1 1 auto;min-height:0;overflow:hidden;margin:0 -4px}
+.news-scroll-shell>.annual-news{height:100%;min-height:0;margin:0;overflow-y:auto;overflow-x:hidden;overscroll-behavior:contain;scrollbar-width:thin;padding:0 4px;overflow-anchor:none;scroll-behavior:auto}
+.continuous-news{position:relative;display:flow-root}
+.events-panel .continuous-news .history-event{margin:0 0 18px;padding:16px 12px;border:1px solid #dce2d2;border-top:2px solid var(--event-color);border-radius:8px;background:#faf9f2;box-shadow:none;opacity:1;transition:border-color .18s,background-color .18s}
+.events-panel .continuous-news .event-current{border-color:var(--event-color);background:var(--event-tint)}
+.events-panel .continuous-news .event-future{background:#f5f5ed}
+.events-panel .continuous-news .news-year{font-size:20px;margin:0}
+.events-panel .continuous-news h3{font-size:19px;margin:12px 0;line-height:1.55}
+.events-panel .continuous-news .event-glyph{width:29px;height:29px;border-radius:7px}
+.events-panel .continuous-news .event-glyph svg{width:18px;height:18px}
+.events-panel .continuous-news .event-visual-head{gap:7px;flex-wrap:wrap}
+.events-panel .continuous-news .event-theme{font-size:9px;padding:2px 5px}
+.events-panel .continuous-news .event-brief{font-size:11px;line-height:1.8}
+.news-year-focus{position:absolute;z-index:3;left:4px;right:10px;top:50%;transform:translateY(-50%);display:flex;align-items:center;gap:6px;padding:0;background:none;border:0;color:#6b7e55;font-size:10px;cursor:pointer;text-shadow:0 1px 3px var(--paper),0 -1px 3px var(--paper)}
+.news-year-focus>span,.news-year-focus>b{background:var(--paper);padding:2px 4px;border-radius:3px;box-shadow:0 0 5px 3px var(--paper);white-space:nowrap}
+.news-year-focus>span{font-size:8px;color:#96a181;padding-right:0}.news-year-focus>b{font-weight:600;padding-left:0}.news-year-focus>i{flex:1;border-top:1px dashed #92a17a;opacity:.65}
+.news-scroll-shell:before,.news-scroll-shell:after{content:'';position:absolute;left:0;right:0;height:18px;pointer-events:none;z-index:2;background:linear-gradient(var(--paper),transparent)}
+.news-scroll-shell:before{top:0}.news-scroll-shell:after{bottom:0;transform:rotate(180deg)}
+@media(prefers-reduced-motion:reduce){.events-panel .continuous-news .history-event{transition:none}}

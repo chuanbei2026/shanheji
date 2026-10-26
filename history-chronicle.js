@@ -19,15 +19,74 @@ function icon(category){const t=themes[category]||themes['政权与变局'];retu
 function presentation(e){return EventVisual.kind(e,ctx.outcomes?.events)||themes[e.category]||themes['政权与变局'];}
 function eventIcon(e){const t=presentation(e);return t.key==='conquest'||t.key==='war'?EventVisual.icon('swords'):t.key==='external'?EventVisual.icon('external'):['succession','surrender'].includes(t.key)?EventVisual.icon('arrow'):t.key==='collapse'?EventVisual.icon('collapse'):icon(e.category);}
 function eventRelation(e,compact=false){return EventVisual.relation(EventVisual.outcome(e,ctx.outcomes?.events),compact);}
-function card(e,label){const theme=presentation(e),o=EventVisual.outcome(e,ctx.outcomes?.events),simple=o&&o.winners?.length===1&&o.losers?.length===1&&e.title===o.winners[0]+'灭'+o.losers[0];return '<article class="history-event visual-event theme-'+theme.key+' '+(e.year<=ctx.getYear()&&endYear(e)>=ctx.getYear()?'event-current':'')+'" aria-label="'+esc(e.title)+'"><div class="event-visual-head"><span class="event-glyph" title="'+esc(theme.label)+'">'+eventIcon(e)+'</span><div><div class="news-kicker">'+esc(label||HistoryYears.period(e.year))+'</div><button class="news-year" data-news-year="'+e.year+'">'+esc(dateRange(e))+'</button></div><span class="event-theme">'+esc(theme.label)+'</span></div>'+'<h3>'+esc(e.title)+'</h3>'+(o?'<div class="event-relation">'+eventRelation(e)+'</div>':'')+duration(e)+preview(e)+(e.outcomeId?'<button class="news-map" data-news-outcome="'+esc(e.outcomeId)+'">◧ 前后版图 ↗</button>':'')+'<details class="event-story"><summary>故事与影响 <span>＋</span></summary><p>'+esc(e.summary)+'</p>'+(e.impact?'<div class="news-impact"><b>此后</b> '+esc(e.impact)+'</div>':'')+(e.dateNote?'<p class="event-date-note">'+esc(e.dateNote)+'</p>':'')+references(e)+'</details></article>';}
+function card(e,label){const theme=presentation(e),o=EventVisual.outcome(e,ctx.outcomes?.events),simple=o&&o.winners?.length===1&&o.losers?.length===1&&e.title===o.winners[0]+'灭'+o.losers[0];return '<article class="history-event visual-event theme-'+theme.key+' '+(e.year<=ctx.getYear()&&endYear(e)>=ctx.getYear()?'event-current':'')+'" data-chronicle-event="'+esc(e.id)+'" aria-label="'+esc(e.title)+'"><div class="event-visual-head"><span class="event-glyph" title="'+esc(theme.label)+'">'+eventIcon(e)+'</span><div><div class="news-kicker">'+esc(label||HistoryYears.period(e.year))+'</div><button class="news-year" data-news-year="'+e.year+'">'+esc(dateRange(e))+'</button></div><span class="event-theme">'+esc(theme.label)+'</span></div>'+'<h3>'+esc(e.title)+'</h3>'+(o?'<div class="event-relation">'+eventRelation(e)+'</div>':'')+duration(e)+preview(e)+(e.outcomeId?'<button class="news-map" data-news-outcome="'+esc(e.outcomeId)+'">◧ 前后版图 ↗</button>':'')+'<details class="event-story"><summary>故事与影响 <span>＋</span></summary><p>'+esc(e.summary)+'</p>'+(e.impact?'<div class="news-impact"><b>此后</b> '+esc(e.impact)+'</div>':'')+(e.dateNote?'<p class="event-date-note">'+esc(e.dateNote)+'</p>':'')+references(e)+'</details></article>';}
 function nearbyCard(e){const t=presentation(e),r=eventRelation(e,true);return '<button class="vicinity-card organized-event theme-'+t.key+'" data-news-year="'+e.year+'" aria-label="'+esc(ctx.yr(e.year)+'，'+e.title)+'"><span class="vicinity-meta"><time>'+esc(e.dateLabel||ctx.yr(e.year))+'</time><span class="event-kind-label">'+eventIcon(e)+esc(t.label)+'</span><i>↗</i></span><span class="vicinity-body">'+'<span class="vicinity-event-title">'+esc(e.title)+'</span>'+(r?'<span class="vicinity-relation">'+r+'</span>':'')+preview(e,true)+'</span></button>';}
 function buildBand(){const band=$('eventBand');band.innerHTML=Object.entries(themes).map(([category,t])=>'<div class="event-lane theme-'+t.key+'"><span class="event-lane-label">'+icon(category)+esc(t.label)+'</span><div class="event-lane-track">'+ctx.data.events.filter(e=>e.category===category).map(e=>'<button class="event-pin'+(e.endYear>e.year?' event-span':'')+'" data-end-year="'+endYear(e)+'" data-band-event="'+esc(e.id)+'" data-year="'+e.year+'" style="left:'+TimeAxis.fraction(e.year)*100+'%;'+(e.endYear>e.year?'width:'+TimeAxis.spanFraction(e.year,e.endYear)*100+'%;':'')+'" title="'+esc(dateRange(e)+' · '+e.title)+'" aria-label="'+esc(ctx.yr(e.year)+'，'+e.title)+'"></button>').join('')+'</div></div>').join('');band.querySelectorAll('[data-band-event]').forEach(b=>b.onclick=()=>{ctx.stop();showMap();ctx.setYear(+b.dataset.year);});}
 function updateBand(){document.querySelectorAll('.event-pin').forEach(b=>{const on=+b.dataset.year<=ctx.getYear()&&+b.dataset.endYear>=ctx.getYear();b.classList.toggle('current',on);b.setAttribute('aria-pressed',String(on));});}
 function showMap(){const library=document.getElementById('libraryDialog');if(library?.open)library.close();}
-function bind(node){node.querySelectorAll('[data-news-year]').forEach(b=>b.onclick=()=>{ctx.stop();showMap();ctx.setYear(+b.dataset.newsYear);document.querySelector('.stage').scrollIntoView({behavior:matchMedia('(prefers-reduced-motion: reduce)').matches?'instant':'smooth',block:'start'});});node.querySelectorAll('[data-news-outcome]').forEach(b=>b.onclick=()=>{ctx.stop();showMap();PolityOutcomes.open(b.dataset.newsOutcome);});node.querySelectorAll('details').forEach(d=>d.ontoggle=()=>{if(d.open)ctx.stop();});}
+function bind(node){node.querySelectorAll('[data-news-year]').forEach(b=>b.onclick=()=>{ctx.stop();manualUntil=0;showMap();ctx.setYear(+b.dataset.newsYear);document.querySelector('.stage').scrollIntoView({behavior:matchMedia('(prefers-reduced-motion: reduce)').matches?'instant':'smooth',block:'start'});});node.querySelectorAll('[data-news-outcome]').forEach(b=>b.onclick=()=>{ctx.stop();manualUntil=0;showMap();PolityOutcomes.open(b.dataset.newsOutcome);});node.querySelectorAll('details').forEach(d=>d.ontoggle=()=>{if(d.open)ctx.stop();});}
 function renderCatalogue(){const y=ctx.getYear(),scope=$('historyScope').value,category=$('historyCategory').value,search=$('historySearch').value.trim(),key=[scope,category,search,scope==='period'?HistoryYears.period(y):'all'].join('|');if(lastKey!==key){page=0;lastKey=key;}const found=filter(ctx.data.events,{year:y,scope,category,search},HistoryYears.period),pages=Math.max(1,Math.ceil(found.length/12));page=Math.min(page,pages-1);$('historyCount').textContent=found.length+' 条选读 · 全编 '+ctx.data.events.length+' 条';$('historyEvents').innerHTML=found.slice(page*12,page*12+12).map(e=>card(e)).join('')||'<p class="no-result">这个范围暂未整理到匹配事件。可以更换主题，或选择“秦至清末”。</p>';$('historyPage').textContent=(page+1)+' / '+pages;$('historyPrevPage').disabled=page===0;$('historyNextPage').disabled=page>=pages-1;bind($('historyEvents'));}
-function render(){if(!ctx)return;const y=ctx.getYear(),n=nearby(ctx.data.events,y);if(lastYear!==y){lastYear=y;page=0;const pane=$('annualNews').closest('.annual-news');if(pane)pane.scrollTop=0;}const quiet='<div class="quiet-year"><span aria-hidden="true">—</span><strong>岁月继续</strong><small>本年暂无已录大事</small></div>';const neighbors=neighboring(ctx.data.events,y);const vicinity=neighbors.length?'<div class="event-vicinity">'+[['此前大事',neighbors.filter(e=>e.year<y).sort((a,b)=>b.year-a.year)],['此后大事',neighbors.filter(e=>e.year>y).sort((a,b)=>a.year-b.year)]].filter(([,items])=>items.length).map(([title,items])=>'<div class="vicinity-title">'+title+'</div>'+items.map(nearbyCard).join('')).join('')+'</div>':'';const rows=(n.exact.length?n.exact.map(e=>card(e,e.endYear>e.year?'持续事件':'本年')).join(''):quiet)+vicinity;AtlasMotion.replace($('annualNews'),rows,n.exact.length?'event:'+n.exact.map(e=>e.id).join('|'):'quiet:'+neighbors.map(e=>e.id).join('|'));bind($('annualNews'));$('previousNews').disabled=!n.previous;$('nextNews').disabled=!n.next;$('previousNews').onclick=()=>{if(n.previous){ctx.stop();ctx.setYear(n.previous.year);}};$('nextNews').onclick=()=>{if(n.next){ctx.stop();ctx.setYear(n.next.year);}};updateBand();renderCatalogue();}
+// Keep the complete chronological list mounted; playback only changes state and scroll.
+let timeline=null,scrollFrame=0,scrollTarget=0,manualUntil=0,lastTick=0,positions=[];
+function timelinePosition(year,anchors){
+ if(!anchors.length)return 0;
+ if(year<=anchors[0].year)return anchors[0].position;
+ if(year>=anchors.at(-1).year)return anchors.at(-1).position;
+ const right=anchors.findIndex(p=>p.year>=year),a=anchors[right-1],b=anchors[right];
+ const axis=y=>y<0?y:y-1;
+ return a.position+(b.position-a.position)*(axis(year)-axis(a.year))/(axis(b.year)-axis(a.year));
+}
+function animateScroll(now){
+ scrollFrame=0;if(!timeline||performance.now()<manualUntil)return;
+ const dt=lastTick?Math.min(64,now-lastTick):16;lastTick=now;
+ const delta=scrollTarget-timeline.pane.scrollTop;
+ if(Math.abs(delta)<.7){timeline.pane.scrollTop=scrollTarget;lastTick=0;return;}
+ timeline.pane.scrollTop+=delta*(1-Math.exp(-dt/85));
+ scrollFrame=requestAnimationFrame(animateScroll);
+}
+function followYear(immediate=false){
+ if(!timeline)return;
+ scrollTarget=Math.max(0,timelinePosition(ctx.getYear(),positions)-timeline.pane.clientHeight/2);
+ if(immediate||matchMedia('(prefers-reduced-motion: reduce)').matches){cancelAnimationFrame(scrollFrame);scrollFrame=0;lastTick=0;timeline.pane.scrollTop=scrollTarget;return;}
+ if(performance.now()<manualUntil)return;
+ if(!scrollFrame)scrollFrame=requestAnimationFrame(animateScroll);
+}
+function measureTimeline(){
+ if(!timeline)return;
+ const {node,pane,items}=timeline,padding=pane.clientHeight/2;
+ node.style.paddingTop=padding+'px';node.style.paddingBottom=padding+'px';
+ const grouped=new Map();
+ for(const {event,element} of items){const y=event.year,top=element.offsetTop,bottom=top+element.offsetHeight,group=grouped.get(y);if(group)group.bottom=bottom;else grouped.set(y,{year:y,top,bottom});}
+ positions=[...grouped.values()].map(p=>({year:p.year,position:p.top-9}));
+ followYear(true);
+}
+function ensureTimeline(){
+ if(timeline)return;
+ const node=$('annualNews'),pane=node.closest('.annual-news');node.classList.add('continuous-news');
+ node.innerHTML=ctx.data.events.map(e=>card(e)).join('');bind(node);
+ const elements=[...node.querySelectorAll('[data-chronicle-event]')];
+ timeline={node,pane,items:ctx.data.events.map((event,i)=>({event,element:elements[i]}))};
+ const release=()=>{manualUntil=performance.now()+3000;cancelAnimationFrame(scrollFrame);scrollFrame=0;lastTick=0;};
+ pane.addEventListener('wheel',release,{passive:true});pane.addEventListener('touchstart',release,{passive:true});pane.addEventListener('pointerdown',release,{passive:true});
+ pane.addEventListener('keydown',e=>{if(['ArrowUp','ArrowDown','PageUp','PageDown','Home','End',' '].includes(e.key))release();});
+ $('newsYearFocus').onclick=()=>{manualUntil=0;followYear();};
+ node.addEventListener('toggle',()=>{const remembered=pane.scrollTop;measureTimeline();pane.scrollTop=remembered;},true);
+ new ResizeObserver(measureTimeline).observe(pane);
+ measureTimeline();
+}
+function updateTimeline(year){
+ ensureTimeline();$('newsFocusYear').textContent=ctx.yr(year);
+ for(const {event:e,element} of timeline.items){
+  const current=e.year<=year&&endYear(e)>=year;
+  element.classList.toggle('event-current',current);element.classList.toggle('event-past',endYear(e)<year);element.classList.toggle('event-future',e.year>year);
+  if(current)element.setAttribute('aria-current','date');else element.removeAttribute('aria-current');
+  if(e.endYear>e.year){const slot=element.querySelector('.event-duration');if(slot)root.AtlasMotion.replace(slot,duration(e).replace(/^<div class="event-duration">|<\/div>$/g,''),'duration',{stable:true});}
+ }
+ if(lastYear!==year){const first=lastYear===undefined;lastYear=year;page=0;followYear(first);}
+}
+function render(){if(!ctx)return;const y=ctx.getYear(),n=nearby(ctx.data.events,y);updateTimeline(y);$('previousNews').disabled=!n.previous;$('nextNews').disabled=!n.next;$('previousNews').onclick=()=>{if(n.previous){ctx.stop();manualUntil=0;ctx.setYear(n.previous.year);}};$('nextNews').onclick=()=>{if(n.next){ctx.stop();manualUntil=0;ctx.setYear(n.next.year);}};updateBand();renderCatalogue();}
+
 function mount(context){ctx=context;ctx.data.events.sort((a,b)=>a.year-b.year||a.id.localeCompare(b.id));buildBand();for(const id of ['historyScope','historyCategory'])$(id).onchange=renderCatalogue;$('historySearch').oninput=renderCatalogue;$('historyPrevPage').onclick=()=>{page--;renderCatalogue();$('historyChronicle').scrollIntoView({block:'start'});};$('historyNextPage').onclick=()=>{page++;renderCatalogue();$('historyChronicle').scrollIntoView({block:'start'});};}
 function advance(year,direction,step=1){const values=[...new Set(boundaryEvents(ctx.data.events).map(e=>e.year))];const candidates=values.filter(y=>direction>0?y>year:y<year);if(direction<0)candidates.reverse();return candidates[Math.min(step-1,candidates.length-1)]??year;}
-const api={nearby,neighboring,filter,mount,render,advance};root.HistoryChronicle=api;if(typeof module!=='undefined')module.exports=api;
+const api={timelinePosition,nearby,neighboring,filter,mount,render,advance};root.HistoryChronicle=api;if(typeof module!=='undefined')module.exports=api;
 })(globalThis);
