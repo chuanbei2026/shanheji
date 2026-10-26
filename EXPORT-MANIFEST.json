@@ -1,9 +1,9 @@
 {
-  "exported_at": "2026-10-26T20:48:56.174Z",
-  "source_revision": "1a54676f3481a6e4149ae2647bcfc6e9ed527d0b",
+  "exported_at": "2026-10-26T20:56:06.803Z",
+  "source_revision": "829725e9ee732cf364adf9d2ccab36c0ca40b1d7",
   "static_directory": "dist",
   "file_count": 71,
-  "total_bytes": 26484004,
+  "total_bytes": 26486460,
   "files": [
     {
       "path": "D3-LICENSE.txt",
@@ -107,8 +107,8 @@
     },
     {
       "path": "atlas-design.js",
-      "bytes": 5414,
-      "sha256": "c82eab9a8e68efad5300b2a8c9cb96ad0da37156838dd197b5ec03feb4f50e03"
+      "bytes": 6196,
+      "sha256": "2d17401fe19a97d1ea2c4a055b77cf9250d9d19f077a597f4d3779318e61cc5f"
     },
     {
       "path": "atlas-jump.js",
@@ -197,8 +197,8 @@
     },
     {
       "path": "emperor-lineage.js",
-      "bytes": 25281,
-      "sha256": "ca73616055743b839d96d35f9a225bdee14f2f0c8c6e6467e875578f1886b738"
+      "bytes": 25980,
+      "sha256": "c1ee7efc27c4b2335593855708f11b8594ddf08e496e3d22a6ba14fadec7b778"
     },
     {
       "path": "emperor-lineages.json",
@@ -252,8 +252,8 @@
     },
     {
       "path": "index.html",
-      "bytes": 36075,
-      "sha256": "2129151b6d9cbd64bc556a05590a62671f74aeb4ce096cdcce72b7c62986eea4"
+      "bytes": 36080,
+      "sha256": "121f633b8af381652c99063116d2a38ccaaa2e9d8efbca4fa6f3c059035dab2a"
     },
     {
       "path": "land.json",
@@ -292,8 +292,8 @@
     },
     {
       "path": "neighbor-context.js",
-      "bytes": 4683,
-      "sha256": "c1c9f1bc6c0973723f4fa4854a5adec1ee7485558abd3cf2d1b09a10c084a6ca"
+      "bytes": 4926,
+      "sha256": "2c948f07c26bd8b335ded40fa810179630154decf6687e2b1c4e4956e0626edc"
     },
     {
       "path": "neighbor-context.json",
@@ -327,8 +327,8 @@
     },
     {
       "path": "source.zip",
-      "bytes": 9541392,
-      "sha256": "90d635a2a154113d658a9953b51b1c2a9b840e54658090e89d8759806ad23eb4"
+      "bytes": 9541977,
+      "sha256": "0a95149c0d16af1af1025479125577ea057b595b71ae785f555876f72a30e7a6"
     },
     {
       "path": "stories.json",
@@ -337,8 +337,8 @@
     },
     {
       "path": "style.css",
-      "bytes": 146409,
-      "sha256": "d40f8b5f3703bd8b7b1800bc32128e30a6dff1406b4912fe60e988d7fa9a1178"
+      "bytes": 146551,
+      "sha256": "39d5e3bcf5a045c057f120bab0891f075a72c54cd46d830d81102c465a757b5b"
     },
     {
       "path": "time-axis.js",
