@@ -346,3 +346,7 @@ The event rail follows the same integer calendar year as the map, without a sepa
 ## Regional annual follow-up (2026-10-26)
 
 Added 28 source-checked annual records and corrected exact polity aliases. This fills 133 formerly empty mapped polity/year combinations across 28 frame/polity combinations. Review sources, exclusions, disputed details, and rejected source typos are recorded in chronology-verification.json under regionalAnnualFollowUp. This does not certify unrelated snapshot fields, boundaries, unresolved protectorate appointments, or the complete ancient chronology.
+
+## Song court layout
+
+During Northern and Southern Song, the Song roster is anchored to the left map edge and concurrent imperial courts stack on the right. The date sits between the two columns. Song stays expanded by default and other courts retain their collapsed default. Narrow mobile screens stack the groups. The geographic map viewport remains unchanged.

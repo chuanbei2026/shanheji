@@ -66,6 +66,8 @@ const expandedCourts=new Set(['northern_song','southern_song']);
 function peerCourts(year){if(!ctx?.getPeers)return [];const seen=new Set();return ctx.getPeers().flatMap(peer=>{const id=resolve(peer.feature,year),dynasty=ctx.data.dynasties.find(d=>d.id===id||d.label===id)||((year>=420&&year<=589&&peer.info.rulers?.length)?{id:'polity:'+id,label:peer.feature.properties.displayTitle||peer.feature.properties.title,names:[],sources:[],compact:true}:null);if(!dynasty||peer.info.referenceOnly||seen.has(dynasty.id))return [];seen.add(dynasty.id);return [{...peer,id,dynasty}];});}
 
 function arrangeCourts(peers,year){
+  const song=p=>["北宋","南宋"].includes(p.dynasty?.label||p.id);
+  if(year>=960&&year<=1279&&peers.some(song)&&peers.length>1)return {name:"song-sides",peers:[...peers.filter(song),...peers.filter(p=>!song(p))],north:0,south:0};
   let north=[],south=[];
   if(year>=220&&year<=280){north=['曹魏','西晋'];south=['蜀汉','孙吴'];}
   else if(year>=317&&year<=589){north=['北魏','西魏','东魏','北周','北齐','隋','胡夏','北燕','北凉'];south=['东晋','刘宋','南齐','梁','陈','西梁'];}
@@ -104,13 +106,14 @@ function render(feature,info){
   renderSingle(feature,info,true);
   top.hidden=false;top.classList.remove('has-vertical-roster');top.classList.add('parallel-courts');top.dataset.northCount=layout.north;top.dataset.southCount=layout.south;top.dataset.courtLayout=layout.name;
   top.setAttribute('aria-label','本年并立政权及统治者，共'+peers.length+'组');
-  const courtHtml='<div class="parallel-courts-heading"><b>并立政权</b><span>'+peers.length+' 组 · 帝系可展开</span></div><div class="parallel-courts-grid '+layout.name+'">'+peers.map((peer,i)=>{
+  const cards=peers.map((peer,i)=>{
     const d=peer.dynasty,people=identities(peer.info,year),title=peer.feature.properties.title,formal=(title==='刘备势力'&&year<221)||(title==='孙权势力'&&year<229)||['后金','大蒙古国','蒙古'].includes(title)?title:labelOf(d);
     const current=people.length?people.map(p=>'<strong>'+esc(p.label)+'</strong>').join(''):'<span class="parallel-unresolved">本年在位者待核</span>';
     const ranks=people.map(p=>rankOf(d,p.name)).filter(Boolean),eras=[...new Set(people.flatMap(p=>p.era?p.era.split('／'):[]))],notes=people.map(p=>caveat(peer.id,p.name,year)).filter(Boolean),power=(peer.info.powerHolders||[]).filter(p=>!people.some(r=>r.name===p.name));
     return '<article class="parallel-court'+(peer.feature===feature?' is-selected':'')+'" style="--court-accent:'+esc(peer.color)+'" data-court-id="'+esc(d.id)+'" data-parallel-court="'+i+'" data-court-slot="'+(peer.slot||'')+'" data-court-band="'+(peer.band||'')+'"><button class="parallel-court-select" data-peer-select="'+i+'" aria-label="选择'+esc(formal)+'疆域与纪年"><span><i aria-hidden="true"></i>'+esc(formal)+'</span><small>'+(d.compact?'本年在位':'共 '+d.names.length+' 位')+'</small></button><div class="parallel-current">'+current+'</div><div class="parallel-court-meta">'+esc([ranks.length?'第 '+ranks.join('／')+' 位':'',...people.map(p=>reignYears(p.name,peer.id,year,peer.info)).filter(Boolean).map(n=>'在位'+n+'年'),...eras].filter(Boolean).join(' · '))+'</div>'+(people.length>1?'<small class="parallel-year-change">本年多位在位</small>':'')+(power.length?'<div class="parallel-power">实权 · '+power.map(p=>esc((p.title||'')+' '+p.name)).join('／')+'</div>':'')+(d.compact?'':'<details class="parallel-court-roster" data-peer-roster="'+i+'"'+(expandedCourts.has(d.id)?' open':'')+'><summary>'+esc(labelOf(d))+'帝系</summary>'+verticalRoster(d,peer.id,peer.info,year)+(notes.length?'<p class="parallel-roster-note">'+notes.map(esc).join(' ')+'</p>':'')+'<p class="parallel-roster-note">'+esc(d.note)+'</p></details>')+'</article>';
-  }).join('')+'</div>';
-  if(root.AtlasMotion)root.AtlasMotion.replace(top,courtHtml,'parallel:'+peers.map(p=>p.dynasty.id).join('|'),{stable:true});else top.innerHTML=courtHtml;
+  });
+  const courtHtml='<div class="parallel-courts-heading"><b>并立政权</b><span>'+peers.length+' 组 · 帝系可展开</span></div><div class="parallel-courts-grid '+layout.name+'">'+(layout.name==='song-sides'?'<div class="song-primary-courts">'+cards[0]+'</div><div class="song-other-courts">'+cards.slice(1).join('')+'</div>':cards.join(''))+'</div>';
+  if(root.AtlasMotion)root.AtlasMotion.replace(top,courtHtml,'parallel:'+layout.name+':'+peers.map(p=>p.dynasty.id).join('|'),{stable:true});else top.innerHTML=courtHtml;
   top.querySelectorAll('[data-peer-select]').forEach(b=>b.onclick=()=>{ctx.stop?.();ctx.selectPeer?.(peers[+b.dataset.peerSelect].index);});
   top.querySelectorAll('[data-peer-roster]').forEach(el=>{const peer=peers[+el.dataset.peerRoster];el.ontoggle=()=>{if(el.open)expandedCourts.add(peer.dynasty.id);else expandedCourts.delete(peer.dynasty.id);if(el.open){const list=el.querySelector('.court-vertical-roster'),active=list?.querySelector('.is-reigning');if(list&&active)list.scrollTop=Math.max(0,active.offsetTop-list.offsetTop-list.clientHeight/2);}};el.querySelectorAll('[data-court-reign]').forEach(b=>b.onclick=()=>{const name=peer.dynasty.names[+b.dataset.courtReign],rs=reignsFor(name,peer.id,ctx.getReigns().reigns);if(rs.length){ctx.stop?.();ctx.setYear(Math.min(...rs.map(r=>r.from)));}});});
 }

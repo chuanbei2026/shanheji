@@ -1,9 +1,9 @@
 {
-  "exported_at": "2026-10-26T05:33:56.988Z",
-  "source_revision": "cf9667b53001d5a113e7166c6ae70cab2d16f1c7",
+  "exported_at": "2026-10-26T05:37:46.142Z",
+  "source_revision": "5fc2cd5053e7bc63df2f9f3ff5bf357cd290b97d",
   "static_directory": "dist",
   "file_count": 63,
-  "total_bytes": 25911796,
+  "total_bytes": 25915134,
   "files": [
     {
       "path": "D3-LICENSE.txt",
@@ -17,8 +17,8 @@
     },
     {
       "path": "README.md",
-      "bytes": 59448,
-      "sha256": "e9ca88f5bfb9b88bf17fc20537a89e24305063771ed9edb9ac6d6d348970f761"
+      "bytes": 59812,
+      "sha256": "f3be194506029a81a588c1fca5cca47e4d94bb2c1bfe0eceaefc4b980ff37722"
     },
     {
       "path": "ancient-atlas.json",
@@ -107,8 +107,8 @@
     },
     {
       "path": "atlas-design.js",
-      "bytes": 5141,
-      "sha256": "7ac7be60767ed2e9fe9ca42b860f3d5ff2b8325b4e564e9d64ae1ef2dca4f0e8"
+      "bytes": 5414,
+      "sha256": "ba84227338cc5e0afe34affa55bc7510b5567b776b1bc56af440fe4a55433bff"
     },
     {
       "path": "atlas-jump.js",
@@ -192,8 +192,8 @@
     },
     {
       "path": "emperor-lineage.js",
-      "bytes": 24812,
-      "sha256": "398a63c034d47f89070651dd6395687a21461ddd99493b3d82813fd60a80315c"
+      "bytes": 25230,
+      "sha256": "a400c69b40cf08322fd4e96d2aec4b40e1c05a48fb3920a690aaea120f2b3646"
     },
     {
       "path": "emperor-lineages.json",
@@ -227,8 +227,8 @@
     },
     {
       "path": "index.html",
-      "bytes": 35581,
-      "sha256": "aece683100c9d1be89e04f543dcef8f949b4fa283a0d2ebb99121f90de709bb7"
+      "bytes": 35572,
+      "sha256": "24c230285d1a1921b7298aa18ed1788c580c47e5fdf271a2916865a56d3d2cc5"
     },
     {
       "path": "land.json",
@@ -297,8 +297,8 @@
     },
     {
       "path": "source.zip",
-      "bytes": 9419205,
-      "sha256": "864af38ff8b353f3e2b1f8226dfd79c8cbf61fd57b9078e29f268cdcc9c37780"
+      "bytes": 9419829,
+      "sha256": "f828edb7f8698f57c725fa7a5642dda98a681148d07980dd42dccaa61c341c9e"
     },
     {
       "path": "stories.json",
@@ -307,8 +307,8 @@
     },
     {
       "path": "style.css",
-      "bytes": 137517,
-      "sha256": "967a66439221f6e0a17f4cf19b1ce2785e212232a2a3e36b4edaecf389c2e063"
+      "bytes": 139185,
+      "sha256": "da86ebf0d2bcd369e635406d5476899e9afcd6c0822e69a731ff16ae8557c45e"
     },
     {
       "path": "time-axis.js",
