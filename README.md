@@ -298,3 +298,7 @@ Neighboring dynasty ranges retain fully opaque family colors. The active row is 
 ## Keyboard dynasty navigation
 
 Arrow Up and Arrow Down share the previous/next dynasty actions and jump to the adjacent dynasty or historical period start. Arrow Left/Right still step by year. Dynasty keys work on the year cursor and ordinary page content, pause playback, stop at either chronology boundary, and defer to editable fields, selectors, search results and open dialogs. Modified arrow shortcuts remain available to the browser.
+
+## Stable court panels during playback
+
+Court panels reconcile text and attributes in place instead of replacing their full HTML every year. Dynasty and ruler keys preserve image nodes, focus, disclosure state and roster scroll positions. Parallel courts bypass the temporary single-court rendering path. Whole-panel opacity and translate animations are disabled for court panels; map and event transitions retain their existing behavior.
