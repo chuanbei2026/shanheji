@@ -2,6 +2,14 @@
 
 This is a static website. All deployable files live in `dist/`; no dependency installation, build step, API key or backend is required.
 
+## Current status
+
+The repository is private. GitHub rejected Pages activation for the current account plan with: "Your current plan does not support GitHub Pages for this repository." No Pages site is currently active. The website itself is compatible with Pages; publishing would require an eligible plan or an explicitly approved change to a public repository.
+
+The `gh-pages` branch is already uploaded and includes a `.nojekyll` marker. Once the account/repository is eligible, select that branch and its root as the Pages publishing source. Alternatively, deploy `dist/` to AWS using the included guide.
+
+Official eligibility reference: https://docs.github.com/en/pages/getting-started-with-github-pages/creating-a-github-pages-site
+
 ## Repository layout
 
 - `main`: editable website sources in `dist/`, provenance, export inventory and deployment guides.
