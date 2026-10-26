@@ -3,7 +3,7 @@
 Complete editable static website exported on 2026-10-25.
 
 Live website: **https://chuanbei2026.github.io/shanheji/**
-Source revision: 4d57863c65c6baed017f065feca94f2f28854aae.
+Source revision: e82c7414869de31ca3297c78de089a8cebaec526.
 
 ## Layout
 

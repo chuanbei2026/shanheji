@@ -278,7 +278,7 @@ The header search indexes the existing sourced event, period, regnal, and era da
 
 ### Expanded event reading cards
 
-The chronicle includes 232 selected events. This revision adds 23 sourced nodes across political succession, institutions, scholarship, technology and diplomacy. Named figures are recorded for 153 events; additional names were drawn only from existing event accounts, with no ruler inferred merely from a date. The `people` list and optional short `brief` are visible in cards and searchable from the header. Full narratives, chronological precision notes and references remain expandable.
+The chronicle includes 248 selected events. An earlier enrichment added 23 sourced nodes across political succession, institutions, scholarship, technology and diplomacy. Named figures are recorded for 170 events; additional names were drawn only from existing event accounts, with no ruler inferred merely from a date. The `people` list and optional short `brief` are visible in cards and searchable from the header. Full narratives, chronological precision notes and references remain expandable.
 
 The event rail shows up to six unique nearby event boundaries within 80 calendar-year labels, grouped into earlier events (nearest first) and later events. Active intervals stay in the current section and are excluded from nearby duplicates. The fixed navigation footer and independent scrolling keep the page height bounded.
 
@@ -326,3 +326,11 @@ The right-hand event rail mounts all events once in ascending start-year order. 
 ### Northern and Southern Dynasties annual coverage review
 
 The 2026-10-26 update adds 101 annual ruler, rival-claimant, map-bridge and power-holder records. The annual dataset now contains 380 records. All 461 polity/year pairs in the atlas frames used for 420–589 have a named ruler; this is a completeness check, not a claim that every border or historical detail is independently verified. Main Southern and Northern dynastic reigns, Western Liang, Xia, Northern Yan and Northern Liang are covered, together with missing Five Dynasties main-court entries. Sources and limitations are recorded in chronology-verification.json and research-review.html. Succession years can include multiple rulers; rival claimants are not described as an exclusively sequential succession. Late traditional-calendar years can cross Gregorian January/February, and explicit carryover eras do not increment automatically. Unnamed temporary appointees remain explicitly unnamed. A compact peer card can show researched rulers without inventing a complete imperial genealogy.
+
+## Capital relocation review
+
+The capital-change pass adds 16 sourced chronology entries and links six existing events to capital-change metadata. Formal relocation, return, provisional court seat, dual-capital construction and renaming receive distinct visual labels. A compact origin-to-destination row appears in each event; annual map arrows indicate direction only and do not reconstruct an actual travel route. Short intra-urban changes are retained in event details without enlarging their map distance.
+
+The dated capital layer now includes Northern Wei Pingcheng/Luoyang, Eastern Wei Ye, Jin Zhongdu/Kaifeng and Later Jin Shenyang/Shengjing. Tang Zhongzong returns from Luoyang to Chang’an in 706, following the Old Book of Tang, rather than immediately with the restoration of Tang in 705. Sui Luoyang is labeled Tokyo in 605 and Eastern Capital from 606. Lin’an remains a provisional court seat. Temporary flight and imperial tours do not automatically replace the institutional capital.
+
+Primary chronicles and museum, gazetteer and government evidence are attached to each entry. Month labels retain historical-calendar wording. `capitals.json.capitalChangeReview` records the scope and limits; this pass does not certify every dynasty’s monthly court location. An unrelated, unmistakable participant mismatch in the 1662 Yongli event was corrected from Zheng He to the Yongli emperor Zhu Youlang.

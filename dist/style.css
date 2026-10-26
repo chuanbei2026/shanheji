@@ -304,3 +304,11 @@ header{gap:22px}.atlas-jump{position:relative;flex:1;max-width:490px;min-width:2
  .atlas-left .dynasty-bar-label b{font-size:min(11px,90cqw);white-space:normal;word-break:break-all;line-height:1.05;letter-spacing:0}
  .atlas-left .dynasty-row.window-focus .dynasty-bar-label b{font-size:min(14px,90cqw);line-height:1;letter-spacing:0}
 }
+
+/* Capital changes stay compact and visually distinct from military conquests. */
+.theme-capital{--event-color:#847144;--event-tint:#f0ebdd}
+.capital-move-relation{display:flex;align-items:center;gap:7px;margin:7px 24px 0 0;font:11px/1.5 'Songti SC',STSong,serif;color:#847144}
+.capital-move-relation span,.capital-move-relation b{padding:2px 5px;border:1px solid #d7cbb2;border-radius:3px;font-weight:500}
+.capital-move-relation span{border-style:dashed}.capital-move-relation i{font-style:normal}.capital-move-relation b{background:#f0ebdd}
+.capital-move-path{fill:none;stroke:#847144;stroke-width:1.5;stroke-dasharray:5 4;vector-effect:non-scaling-stroke}
+.capital-move-origin{fill:#faf8ee;stroke:#847144;stroke-width:1.5;vector-effect:non-scaling-stroke}.capital-move-layer{pointer-events:none}
