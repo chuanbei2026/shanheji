@@ -8105,18 +8105,25 @@
       "安东都护府": {
         "referenceYear": 668,
         "mapYear": 668,
-        "basis": "reviewed_uncertain",
-        "status": "任期仍待核",
-        "rulers": [],
+        "basis": "representative_year",
+        "status": "年内任职已证，交接未定",
+        "rulers": [
+          {
+            "name": "薛仁贵",
+            "title": "右威卫大将军／检校安东都护",
+            "note": "仅证668年高丽降后任职，非该年从年初至年末唯一都护。初任次序与魏哲墓志的交接问题仍保留；不向669以后推定任期。"
+          }
+        ],
         "powerHolders": [],
-        "note": "668年初设安东。旧史可考薛仁贵参与平壤驻守并检校安东都护，另有魏哲墓志补证初任次序；年内接任与精确年仍需合校墓志，不直接把整个668年统一给一人。",
+        "note": "仅证668年高丽降后任职，非该年从年初至年末唯一都护。初任次序与魏哲墓志的交接问题仍保留；不向669以后推定任期。",
         "changes": [],
         "sources": [
-          "https://db.history.go.kr/ancient/level.do?levelId=ko_038_1100_0060"
+          "https://db.history.go.kr/ancient/level.do?levelId=ko_038_1100_0060",
+          "https://zh.wikisource.org/wiki/舊唐書/卷83"
         ],
-        "short": "任期仍待核",
+        "short": "薛仁贵〔年内后段〕",
         "search": "",
-        "verification": "2026-10-25逐项复核；已核相关制度与候选人物；缺少确切本年任期者不强填。"
+        "verification": "2026-10-26据《旧唐书》补已证任职；初任次序保留。"
       },
       "吐蕃": {
         "referenceYear": 668,
@@ -15217,24 +15224,25 @@
         "referenceYear": 1206,
         "mapYear": 1206,
         "basis": "representative_year",
-        "status": "已整理",
+        "status": "姓名与年度区间已复核",
         "rulers": [
           {
+            "name": "铁木真",
+            "title": "成吉思汗",
             "from": 1206,
             "to": 1227,
-            "name": "铁木真（成吉思汗）",
-            "title": "蒙古大汗",
-            "note": "",
-            "sources": []
+            "note": "后追尊元太祖；此时尚无大元国号。"
           }
         ],
         "powerHolders": [],
         "note": "",
         "changes": [],
-        "sources": [],
-        "short": "铁木真（成吉思汗）",
+        "sources": [
+          "https://zh.wikisource.org/wiki/元史/卷001"
+        ],
+        "short": "铁木真",
         "search": "铁木真（成吉思汗） 蒙古大汗",
-        "verification": "本条是纪年及人物资料的整理；参考入口不代表已经逐条完成原始史料校勘。"
+        "verification": "2026-10-26补入有出处的年度表；不是对本切片疆界与全部说明的整体认证。"
       },
       "大理": {
         "referenceYear": 1206,
@@ -15360,24 +15368,25 @@
         "referenceYear": 1215,
         "mapYear": 1215,
         "basis": "representative_year",
-        "status": "已整理",
+        "status": "姓名与年度区间已复核",
         "rulers": [
           {
+            "name": "铁木真",
+            "title": "成吉思汗",
             "from": 1206,
             "to": 1227,
-            "name": "铁木真（成吉思汗）",
-            "title": "蒙古大汗",
-            "note": "",
-            "sources": []
+            "note": "后追尊元太祖；此时尚无大元国号。"
           }
         ],
         "powerHolders": [],
         "note": "",
         "changes": [],
-        "sources": [],
-        "short": "铁木真（成吉思汗）",
+        "sources": [
+          "https://zh.wikisource.org/wiki/元史/卷001"
+        ],
+        "short": "铁木真",
         "search": "铁木真（成吉思汗） 蒙古大汗",
-        "verification": "本条是纪年及人物资料的整理；参考入口不代表已经逐条完成原始史料校勘。"
+        "verification": "2026-10-26补入有出处的年度表；不是对本切片疆界与全部说明的整体认证。"
       },
       "大理": {
         "referenceYear": 1215,
@@ -15464,23 +15473,14 @@
         "referenceYear": 1227,
         "mapYear": 1227,
         "basis": "representative_year",
-        "status": "已整理",
+        "status": "姓名与年度区间已复核",
         "rulers": [
           {
+            "name": "铁木真",
+            "title": "成吉思汗",
             "from": 1206,
             "to": 1227,
-            "name": "铁木真（成吉思汗）",
-            "title": "蒙古大汗",
-            "note": "",
-            "sources": []
-          },
-          {
-            "from": 1227,
-            "to": 1229,
-            "name": "拖雷",
-            "title": "监国",
-            "note": "",
-            "sources": []
+            "note": "后追尊元太祖；此时尚无大元国号。"
           }
         ],
         "powerHolders": [],
@@ -15492,10 +15492,12 @@
             "title": "蒙古大汗"
           }
         ],
-        "sources": [],
-        "short": "铁木真（成吉思汗）",
+        "sources": [
+          "https://zh.wikisource.org/wiki/元史/卷001"
+        ],
+        "short": "铁木真",
         "search": "铁木真（成吉思汗） 蒙古大汗 拖雷 监国",
-        "verification": "本条是纪年及人物资料的整理；参考入口不代表已经逐条完成原始史料校勘。"
+        "verification": "2026-10-26补入有出处的年度表；不是对本切片疆界与全部说明的整体认证。"
       },
       "大理": {
         "referenceYear": 1227,
@@ -15554,15 +15556,14 @@
         "referenceYear": 1234,
         "mapYear": 1234,
         "basis": "representative_year",
-        "status": "已整理",
+        "status": "姓名与年度区间已复核",
         "rulers": [
           {
+            "name": "窝阔台",
+            "title": "蒙古大汗（元太宗）",
             "from": 1229,
             "to": 1241,
-            "name": "窝阔台",
-            "title": "蒙古大汗",
-            "note": "",
-            "sources": []
+            "note": ""
           }
         ],
         "powerHolders": [],
@@ -15589,10 +15590,12 @@
             "title": "蒙古大汗"
           }
         ],
-        "sources": [],
+        "sources": [
+          "https://zh.wikisource.org/wiki/元史/卷002"
+        ],
         "short": "窝阔台",
         "search": "窝阔台 蒙古大汗",
-        "verification": "本条是纪年及人物资料的整理；参考入口不代表已经逐条完成原始史料校勘。"
+        "verification": "2026-10-26补入有出处的年度表；不是对本切片疆界与全部说明的整体认证。"
       },
       "大理": {
         "referenceYear": 1234,
@@ -15673,24 +15676,25 @@
         "referenceYear": 1253,
         "mapYear": 1253,
         "basis": "representative_year",
-        "status": "已整理",
+        "status": "姓名与年度区间已复核",
         "rulers": [
           {
+            "name": "蒙哥",
+            "title": "蒙古大汗（元宪宗）",
             "from": 1251,
             "to": 1259,
-            "name": "蒙哥",
-            "title": "蒙古大汗",
-            "note": "",
-            "sources": []
+            "note": ""
           }
         ],
         "powerHolders": [],
         "note": "",
         "changes": [],
-        "sources": [],
+        "sources": [
+          "https://zh.wikisource.org/wiki/元史/卷003"
+        ],
         "short": "蒙哥",
         "search": "蒙哥 蒙古大汗",
-        "verification": "本条是纪年及人物资料的整理；参考入口不代表已经逐条完成原始史料校勘。"
+        "verification": "2026-10-26补入有出处的年度表；不是对本切片疆界与全部说明的整体认证。"
       }
     },
     "s_nansong_g": {
@@ -16135,24 +16139,25 @@
         "referenceYear": 1363,
         "mapYear": 1363,
         "basis": "representative_year",
-        "status": "已整理",
+        "status": "姓名与年度区间已复核",
         "rulers": [
           {
-            "from": 1362,
-            "to": 1366,
             "name": "明玉珍",
-            "title": "大夏皇帝",
-            "note": "",
-            "sources": []
+            "title": "夏太祖",
+            "from": 1363,
+            "to": 1366,
+            "note": ""
           }
         ],
         "powerHolders": [],
         "note": "",
         "changes": [],
-        "sources": [],
+        "sources": [
+          "https://dfz.cq.gov.cn/zqlswh/rwby_417819/202311/t20231102_12510537.html"
+        ],
         "short": "明玉珍",
         "search": "明玉珍 大夏皇帝",
-        "verification": "本条是纪年及人物资料的整理；参考入口不代表已经逐条完成原始史料校勘。"
+        "verification": "2026-10-26补入有出处的年度表；不是对本切片疆界与全部说明的整体认证。"
       },
       "陈友定": {
         "referenceYear": 1363,
@@ -16280,47 +16285,49 @@
         "referenceYear": 1368,
         "mapYear": 1368,
         "basis": "representative_year",
-        "status": "已整理",
+        "status": "姓名与年度区间已复核",
         "rulers": [
           {
+            "name": "妥懽帖睦尔",
+            "title": "元惠宗（顺帝）",
             "from": 1368,
             "to": 1370,
-            "name": "妥懽帖睦尔",
-            "title": "元惠宗；北撤后的元帝",
-            "note": "",
-            "sources": []
+            "note": "1368年退出大都后仍在位，1370年去世；与大都元朝终结分开。"
           }
         ],
         "powerHolders": [],
         "note": "",
         "changes": [],
-        "sources": [],
+        "sources": [
+          "https://zh.wikisource.org/wiki/明史/卷327"
+        ],
         "short": "妥懽帖睦尔",
         "search": "妥懽帖睦尔 元惠宗；北撤后的元帝",
-        "verification": "本条是纪年及人物资料的整理；参考入口不代表已经逐条完成原始史料校勘。"
+        "verification": "2026-10-26补入有出处的年度表；不是对本切片疆界与全部说明的整体认证。"
       },
       "明夏（明升）": {
         "referenceYear": 1368,
         "mapYear": 1368,
         "basis": "representative_year",
-        "status": "已整理",
+        "status": "姓名与年度区间已复核",
         "rulers": [
           {
+            "name": "明升",
+            "title": "夏后主",
             "from": 1366,
             "to": 1371,
-            "name": "明升",
-            "title": "大夏皇帝",
-            "note": "",
-            "sources": []
+            "note": "1366继位，开熙元年按1367年口径。地方概述的“继位，改元”不等于同年元年。"
           }
         ],
         "powerHolders": [],
         "note": "",
         "changes": [],
-        "sources": [],
+        "sources": [
+          "https://dfz.cq.gov.cn/zqlswh/rwby_417819/202311/t20231102_12510537.html"
+        ],
         "short": "明升",
         "search": "明升 大夏皇帝",
-        "verification": "本条是纪年及人物资料的整理；参考入口不代表已经逐条完成原始史料校勘。"
+        "verification": "2026-10-26补入有出处的年度表；不是对本切片疆界与全部说明的整体认证。"
       },
       "元梁王（云南）": {
         "referenceYear": 1368,
@@ -16379,15 +16386,14 @@
         "referenceYear": 1369,
         "mapYear": 1369,
         "basis": "representative_year",
-        "status": "已整理",
+        "status": "姓名与年度区间已复核",
         "rulers": [
           {
+            "name": "妥懽帖睦尔",
+            "title": "元惠宗（顺帝）",
             "from": 1368,
             "to": 1370,
-            "name": "妥懽帖睦尔",
-            "title": "元惠宗；北撤后的元帝",
-            "note": "",
-            "sources": []
+            "note": "1368年退出大都后仍在位，1370年去世；与大都元朝终结分开。"
           }
         ],
         "powerHolders": [],
@@ -16399,33 +16405,36 @@
             "title": "元昭宗"
           }
         ],
-        "sources": [],
+        "sources": [
+          "https://zh.wikisource.org/wiki/明史/卷327"
+        ],
         "short": "妥懽帖睦尔",
         "search": "妥懽帖睦尔 元惠宗；北撤后的元帝",
-        "verification": "本条是纪年及人物资料的整理；参考入口不代表已经逐条完成原始史料校勘。"
+        "verification": "2026-10-26补入有出处的年度表；不是对本切片疆界与全部说明的整体认证。"
       },
       "明夏（明升）": {
         "referenceYear": 1369,
         "mapYear": 1369,
         "basis": "representative_year",
-        "status": "已整理",
+        "status": "姓名与年度区间已复核",
         "rulers": [
           {
+            "name": "明升",
+            "title": "夏后主",
             "from": 1366,
             "to": 1371,
-            "name": "明升",
-            "title": "大夏皇帝",
-            "note": "",
-            "sources": []
+            "note": "1366继位，开熙元年按1367年口径。地方概述的“继位，改元”不等于同年元年。"
           }
         ],
         "powerHolders": [],
         "note": "",
         "changes": [],
-        "sources": [],
+        "sources": [
+          "https://dfz.cq.gov.cn/zqlswh/rwby_417819/202311/t20231102_12510537.html"
+        ],
         "short": "明升",
         "search": "明升 大夏皇帝",
-        "verification": "本条是纪年及人物资料的整理；参考入口不代表已经逐条完成原始史料校勘。"
+        "verification": "2026-10-26补入有出处的年度表；不是对本切片疆界与全部说明的整体认证。"
       },
       "元梁王（云南）": {
         "referenceYear": 1369,
@@ -16484,15 +16493,14 @@
         "referenceYear": 1371,
         "mapYear": 1371,
         "basis": "representative_year",
-        "status": "已整理",
+        "status": "姓名与年度区间已复核",
         "rulers": [
           {
+            "name": "爱猷识理达腊",
+            "title": "北元昭宗",
             "from": 1370,
             "to": 1378,
-            "name": "爱猷识理达腊",
-            "title": "元昭宗",
-            "note": "",
-            "sources": []
+            "note": "1370即位、1371改宣光。"
           }
         ],
         "powerHolders": [],
@@ -16504,10 +16512,13 @@
             "title": "北元君主"
           }
         ],
-        "sources": [],
+        "sources": [
+          "https://zh.wikisource.org/wiki/明史/卷327",
+          "https://www.dpm.org.cn/historical/talk/203511.html"
+        ],
         "short": "爱猷识理达腊",
         "search": "爱猷识理达腊 元昭宗",
-        "verification": "本条是纪年及人物资料的整理；参考入口不代表已经逐条完成原始史料校勘。"
+        "verification": "2026-10-26补入有出处的年度表；不是对本切片疆界与全部说明的整体认证。"
       },
       "元梁王（云南）": {
         "referenceYear": 1371,
@@ -16566,24 +16577,26 @@
         "referenceYear": 1382,
         "mapYear": 1382,
         "basis": "representative_year",
-        "status": "已整理",
+        "status": "姓名与年度区间已复核",
         "rulers": [
           {
+            "name": "脱古思帖木儿",
+            "title": "北元天元帝",
             "from": 1378,
             "to": 1388,
-            "name": "脱古思帖木儿",
-            "title": "北元君主",
-            "note": "",
-            "sources": []
+            "note": "1378即位、1379改天元；1388死后蒙古诸部政局另论，不向后沿用。"
           }
         ],
         "powerHolders": [],
         "note": "",
         "changes": [],
-        "sources": [],
+        "sources": [
+          "https://zh.wikisource.org/wiki/明史/卷327",
+          "https://www.dpm.org.cn/historical/talk/203511.html"
+        ],
         "short": "脱古思帖木儿",
         "search": "脱古思帖木儿 北元君主",
-        "verification": "本条是纪年及人物资料的整理；参考入口不代表已经逐条完成原始史料校勘。"
+        "verification": "2026-10-26补入有出处的年度表；不是对本切片疆界与全部说明的整体认证。"
       }
     },
     "s_ming_a0": {
@@ -16630,15 +16643,14 @@
         "referenceYear": 1388,
         "mapYear": 1388,
         "basis": "representative_year",
-        "status": "已整理",
+        "status": "姓名与年度区间已复核",
         "rulers": [
           {
-            "from": 1388,
+            "name": "脱古思帖木儿",
+            "title": "北元天元帝",
+            "from": 1378,
             "to": 1388,
-            "name": "脱古思帖木儿 → 也速迭儿",
-            "title": "捕鱼儿海之战后发生更替",
-            "note": "",
-            "sources": []
+            "note": "1378即位、1379改天元；1388死后蒙古诸部政局另论，不向后沿用。"
           }
         ],
         "powerHolders": [],
@@ -16650,10 +16662,13 @@
             "title": "草原汗位统治者"
           }
         ],
-        "sources": [],
-        "short": "脱古思帖木儿 → 也速迭儿",
+        "sources": [
+          "https://zh.wikisource.org/wiki/明史/卷327",
+          "https://www.dpm.org.cn/historical/talk/203511.html"
+        ],
+        "short": "脱古思帖木儿",
         "search": "脱古思帖木儿 → 也速迭儿 捕鱼儿海之战后发生更替",
-        "verification": "本条是纪年及人物资料的整理；参考入口不代表已经逐条完成原始史料校勘。"
+        "verification": "2026-10-26补入有出处的年度表；不是对本切片疆界与全部说明的整体认证。"
       }
     },
     "s_ming_a": {
@@ -17123,24 +17138,25 @@
         "referenceYear": 1643,
         "mapYear": 1643,
         "basis": "representative_year",
-        "status": "已整理",
+        "status": "姓名与年度区间已复核",
         "rulers": [
           {
+            "name": "李自成",
+            "title": "新顺王",
             "from": 1643,
             "to": 1643,
-            "name": "李自成",
-            "title": "大顺建国前的起义军首领",
-            "note": "1644年才建国号大顺。",
-            "sources": []
+            "note": "1643年新顺王阶段与1644年大顺建号分开。"
           }
         ],
         "powerHolders": [],
         "note": "",
         "changes": [],
-        "sources": [],
+        "sources": [
+          "https://zh.wikisource.org/wiki/明史/卷309"
+        ],
         "short": "李自成",
         "search": "李自成 大顺建国前的起义军首领",
-        "verification": "本条是纪年及人物资料的整理；参考入口不代表已经逐条完成原始史料校勘。"
+        "verification": "2026-10-26补入有出处的年度表；不是对本切片疆界与全部说明的整体认证。"
       },
       "大西（张献忠）": {
         "referenceYear": 1643,
@@ -17208,56 +17224,49 @@
         "referenceYear": 1644,
         "mapYear": 1644,
         "basis": "representative_year",
-        "status": "已整理",
+        "status": "姓名与年度区间已复核",
         "rulers": [
           {
-            "from": 1644,
-            "to": 1645,
             "name": "朱由崧",
-            "title": "弘光帝",
-            "note": "1644年崇祯帝死后于南京即位；1645年弘光政权覆亡后各地另立朝廷。",
-            "sources": []
-          }
-        ],
-        "powerHolders": [
-          {
+            "title": "南明弘光帝",
             "from": 1644,
             "to": 1645,
-            "name": "马士英、史可法等",
-            "title": "弘光朝军政重臣",
-            "note": "并非始终共同执掌全部政务。",
-            "sources": []
-          }
-        ],
-        "note": "",
-        "changes": [],
-        "sources": [],
-        "short": "朱由崧",
-        "search": "朱由崧 弘光帝 马士英、史可法等 弘光朝军政重臣",
-        "verification": "本条是纪年及人物资料的整理；参考入口不代表已经逐条完成原始史料校勘。"
-      },
-      "大顺（李自成）": {
-        "referenceYear": 1644,
-        "mapYear": 1644,
-        "basis": "representative_year",
-        "status": "已整理",
-        "rulers": [
-          {
-            "from": 1644,
-            "to": 1645,
-            "name": "李自成",
-            "title": "大顺君主",
-            "note": "",
-            "sources": []
+            "note": ""
           }
         ],
         "powerHolders": [],
         "note": "",
         "changes": [],
-        "sources": [],
+        "sources": [
+          "https://www.dpm.org.cn/court/event/159031.html"
+        ],
+        "short": "朱由崧",
+        "search": "朱由崧 弘光帝 马士英、史可法等 弘光朝军政重臣",
+        "verification": "2026-10-26补入有出处的年度表；不是对本切片疆界与全部说明的整体认证。"
+      },
+      "大顺（李自成）": {
+        "referenceYear": 1644,
+        "mapYear": 1644,
+        "basis": "representative_year",
+        "status": "姓名与年度区间已复核",
+        "rulers": [
+          {
+            "name": "李自成",
+            "title": "大顺皇帝",
+            "from": 1644,
+            "to": 1645,
+            "note": "1645年死亡记载另有异说，本表采用通行九宫山说；不把余部活动当作李自成仍在位。"
+          }
+        ],
+        "powerHolders": [],
+        "note": "",
+        "changes": [],
+        "sources": [
+          "https://zh.wikisource.org/wiki/明史/卷309"
+        ],
         "short": "李自成",
         "search": "李自成 大顺君主",
-        "verification": "本条是纪年及人物资料的整理；参考入口不代表已经逐条完成原始史料校勘。"
+        "verification": "2026-10-26补入有出处的年度表；不是对本切片疆界与全部说明的整体认证。"
       },
       "大西（张献忠）": {
         "referenceYear": 1644,
@@ -17353,33 +17362,28 @@
         "referenceYear": 1645,
         "mapYear": 1645,
         "basis": "representative_year",
-        "status": "已整理",
+        "status": "姓名与年度区间已复核",
         "rulers": [
           {
+            "name": "朱由崧",
+            "title": "南明弘光帝",
             "from": 1644,
             "to": 1645,
-            "name": "朱由崧",
-            "title": "弘光帝",
-            "note": "1644年崇祯帝死后于南京即位；1645年弘光政权覆亡后各地另立朝廷。",
-            "sources": []
+            "note": ""
           },
           {
+            "name": "朱聿键",
+            "title": "南明隆武帝",
             "from": 1645,
             "to": 1646,
-            "name": "朱聿键",
-            "title": "隆武帝；同时有鲁王朱以海监国",
-            "note": "南明并非始终只有一位被各方共同承认的领导人。",
-            "sources": []
+            "note": "与鲁王监国先后并存；不理解为统一控制全部南明地区。"
           }
         ],
         "powerHolders": [
           {
-            "from": 1644,
-            "to": 1645,
-            "name": "马士英、史可法等",
-            "title": "弘光朝军政重臣",
-            "note": "并非始终共同执掌全部政务。",
-            "sources": []
+            "name": "朱以海",
+            "title": "鲁王监国",
+            "note": "鲁监国朝廷与隆武、永历并存，不列作称帝皇帝；1653去监国号，去世不等于监国结束。"
           }
         ],
         "note": "",
@@ -17390,10 +17394,14 @@
             "title": "永历帝"
           }
         ],
-        "sources": [],
-        "short": "朱由崧",
+        "sources": [
+          "https://www.dpm.org.cn/court/event/159031.html",
+          "https://www.dpm.org.cn/court/event/159831.html",
+          "https://zh.wikisource.org/wiki/清史稿/卷224"
+        ],
+        "short": "朱由崧／朱聿键",
         "search": "朱由崧 弘光帝 朱聿键 隆武帝；同时有鲁王朱以海监国 马士英、史可法等 弘光朝军政重臣",
-        "verification": "本条是纪年及人物资料的整理；参考入口不代表已经逐条完成原始史料校勘。"
+        "verification": "2026-10-26补入有出处的年度表；不是对本切片疆界与全部说明的整体认证。"
       },
       "台湾（荷占）": {
         "referenceYear": 1645,
@@ -17461,56 +17469,50 @@
         "referenceYear": 1661,
         "mapYear": 1661,
         "basis": "representative_year",
-        "status": "已整理",
+        "status": "姓名与年度区间已复核",
         "rulers": [
           {
+            "name": "朱由榔",
+            "title": "南明永历帝",
             "from": 1646,
             "to": 1662,
-            "name": "朱由榔",
-            "title": "永历帝",
-            "note": "1646年另有朱聿鐭绍武政权短期并立。",
-            "sources": []
-          }
-        ],
-        "powerHolders": [
-          {
-            "from": 1661,
-            "to": 1662,
-            "name": "李定国等",
-            "title": "抗清军事领袖",
-            "note": "永历帝处境与军队控制不能混同。",
-            "sources": []
-          }
-        ],
-        "note": "",
-        "changes": [],
-        "sources": [],
-        "short": "朱由榔",
-        "search": "朱由榔 永历帝 李定国等 抗清军事领袖",
-        "verification": "本条是纪年及人物资料的整理；参考入口不代表已经逐条完成原始史料校勘。"
-      },
-      "南明（明郑）": {
-        "referenceYear": 1661,
-        "mapYear": 1661,
-        "basis": "representative_year",
-        "status": "已整理",
-        "rulers": [
-          {
-            "from": 1661,
-            "to": 1662,
-            "name": "郑成功",
-            "title": "延平郡王；军事首领",
-            "note": "",
-            "sources": []
+            "note": "1646年即位，以1647为永历元年；后期流亡及军事实控与君位分开。"
           }
         ],
         "powerHolders": [],
         "note": "",
         "changes": [],
-        "sources": [],
+        "sources": [
+          "https://www.dpm.org.cn/court/figure/104053.html",
+          "https://www.dpm.org.cn/Uploads/pdf/1962/T00004_00.pdf"
+        ],
+        "short": "朱由榔",
+        "search": "朱由榔 永历帝 李定国等 抗清军事领袖",
+        "verification": "2026-10-26补入有出处的年度表；不是对本切片疆界与全部说明的整体认证。"
+      },
+      "南明（明郑）": {
+        "referenceYear": 1661,
+        "mapYear": 1661,
+        "basis": "representative_year",
+        "status": "姓名与年度区间已复核",
+        "rulers": [
+          {
+            "name": "郑成功",
+            "title": "延平郡王",
+            "from": 1661,
+            "to": 1662,
+            "note": "所列为台湾阶段；承用南明永历纪年，并未自行称帝。"
+          }
+        ],
+        "powerHolders": [],
+        "note": "",
+        "changes": [],
+        "sources": [
+          "https://www.dpm.org.cn/lemmas/242403.html"
+        ],
         "short": "郑成功",
         "search": "郑成功 延平郡王；军事首领",
-        "verification": "本条是纪年及人物资料的整理；参考入口不代表已经逐条完成原始史料校勘。"
+        "verification": "2026-10-26补入有出处的年度表；不是对本切片疆界与全部说明的整体认证。"
       }
     },
     "s_qing_a1": {
@@ -17560,23 +17562,21 @@
         "referenceYear": 1662,
         "mapYear": 1662,
         "basis": "representative_year",
-        "status": "已整理",
+        "status": "姓名与年度区间已复核",
         "rulers": [
           {
+            "name": "郑成功",
+            "title": "延平郡王",
             "from": 1661,
             "to": 1662,
-            "name": "郑成功",
-            "title": "延平郡王；军事首领",
-            "note": "",
-            "sources": []
+            "note": "所列为台湾阶段；承用南明永历纪年，并未自行称帝。"
           },
           {
+            "name": "郑经",
+            "title": "延平郡王",
             "from": 1662,
-            "to": 1662,
-            "name": "郑成功 → 郑经",
-            "title": "年内继承",
-            "note": "",
-            "sources": []
+            "to": 1681,
+            "note": "1662年继承期间有郑世袭在台争位；次年不重置其统治起年。"
           }
         ],
         "powerHolders": [],
@@ -17588,10 +17588,14 @@
             "title": "台湾郑氏统治者"
           }
         ],
-        "sources": [],
-        "short": "郑成功",
+        "sources": [
+          "https://www.dpm.org.cn/lemmas/242403.html",
+          "https://zh.wikisource.org/wiki/清史稿/卷224",
+          "https://www.th.gov.tw/CP/104/176/"
+        ],
+        "short": "郑成功／郑经",
         "search": "郑成功 延平郡王；军事首领 郑成功 → 郑经 年内继承",
-        "verification": "本条是纪年及人物资料的整理；参考入口不代表已经逐条完成原始史料校勘。"
+        "verification": "2026-10-26补入有出处的年度表；不是对本切片疆界与全部说明的整体认证。"
       }
     },
     "s_qing_a": {
@@ -17627,15 +17631,14 @@
         "referenceYear": 1673,
         "mapYear": 1673,
         "basis": "representative_year",
-        "status": "已整理",
+        "status": "姓名与年度区间已复核",
         "rulers": [
           {
+            "name": "吴三桂",
+            "title": "平西王／反清首领",
             "from": 1673,
             "to": 1677,
-            "name": "吴三桂；耿精忠、尚之信等先后参与",
-            "title": "分属不同藩镇的反清首领",
-            "note": "不能把三藩理解为始终由一人统一控制。",
-            "sources": []
+            "note": "本条只指吴氏军事集团；耿、尚等藩镇各自用兵，不能把合并地图等同吴氏完全统治。"
           }
         ],
         "powerHolders": [],
@@ -17652,33 +17655,38 @@
             "title": "吴周君主"
           }
         ],
-        "sources": [],
-        "short": "吴三桂；耿精忠、尚之信等先后参与",
+        "sources": [
+          "https://zh.wikisource.org/wiki/清史稿/卷474"
+        ],
+        "short": "吴三桂",
         "search": "吴三桂；耿精忠、尚之信等先后参与 分属不同藩镇的反清首领",
-        "verification": "本条是纪年及人物资料的整理；参考入口不代表已经逐条完成原始史料校勘。"
+        "verification": "2026-10-26补入有出处的年度表；不是对本切片疆界与全部说明的整体认证。"
       },
       "南明（明郑）": {
         "referenceYear": 1673,
         "mapYear": 1673,
         "basis": "representative_year",
-        "status": "已整理",
+        "status": "姓名与年度区间已复核",
         "rulers": [
           {
-            "from": 1663,
-            "to": 1681,
             "name": "郑经",
-            "title": "台湾郑氏统治者",
-            "note": "",
-            "sources": []
+            "title": "延平郡王",
+            "from": 1662,
+            "to": 1681,
+            "note": "1662年继承期间有郑世袭在台争位；次年不重置其统治起年。"
           }
         ],
         "powerHolders": [],
         "note": "",
         "changes": [],
-        "sources": [],
+        "sources": [
+          "https://zh.wikisource.org/wiki/清史稿/卷224",
+          "https://www.dpm.org.cn/lemmas/242403.html",
+          "https://www.th.gov.tw/CP/104/176/"
+        ],
         "short": "郑经",
         "search": "郑经 台湾郑氏统治者",
-        "verification": "本条是纪年及人物资料的整理；参考入口不代表已经逐条完成原始史料校勘。"
+        "verification": "2026-10-26补入有出处的年度表；不是对本切片疆界与全部说明的整体认证。"
       }
     },
     "s_qing_a2": {
@@ -17714,26 +17722,30 @@
         "referenceYear": 1681,
         "mapYear": 1681,
         "basis": "representative_year",
-        "status": "已整理",
+        "status": "姓名与年度区间已复核",
         "rulers": [
           {
-            "from": 1663,
-            "to": 1681,
             "name": "郑经",
-            "title": "台湾郑氏统治者",
-            "note": "",
-            "sources": []
+            "title": "延平郡王",
+            "from": 1662,
+            "to": 1681,
+            "note": "1662年继承期间有郑世袭在台争位；次年不重置其统治起年。"
           },
           {
+            "name": "郑克塽",
+            "title": "延平郡王",
             "from": 1681,
-            "to": 1681,
-            "name": "郑克臧 → 郑克塽",
-            "title": "郑经死后发生继承与政变",
-            "note": "",
-            "sources": []
+            "to": 1683,
+            "note": ""
           }
         ],
-        "powerHolders": [],
+        "powerHolders": [
+          {
+            "name": "郑克臧",
+            "title": "延平王世子／监国",
+            "note": "郑经死后被杀，属年内继承争夺，不列成已称帝的君主。"
+          }
+        ],
         "note": "",
         "changes": [
           {
@@ -17742,10 +17754,14 @@
             "title": "明郑末期统治者"
           }
         ],
-        "sources": [],
-        "short": "郑经",
+        "sources": [
+          "https://zh.wikisource.org/wiki/清史稿/卷224",
+          "https://www.dpm.org.cn/lemmas/242403.html",
+          "https://www.th.gov.tw/CP/104/176/"
+        ],
+        "short": "郑经／郑克塽",
         "search": "郑经 台湾郑氏统治者 郑克臧 → 郑克塽 郑经死后发生继承与政变",
-        "verification": "本条是纪年及人物资料的整理；参考入口不代表已经逐条完成原始史料校勘。"
+        "verification": "2026-10-26补入有出处的年度表；不是对本切片疆界与全部说明的整体认证。"
       }
     },
     "s_qing_b1": {
@@ -19190,29 +19206,51 @@
         "referenceYear": -403,
         "mapYear": -403,
         "basis": "representative_year",
-        "status": "本年国君待核",
-        "rulers": [],
+        "status": "姓名与年度区间已复核",
+        "rulers": [
+          {
+            "name": "赵籍",
+            "title": "赵烈侯",
+            "from": -403,
+            "to": -403,
+            "note": "本条仅核前403年受封时点，不代表完整在位表。"
+          }
+        ],
         "referenceRulers": [],
         "powerHolders": [],
         "changes": [],
-        "sources": [],
+        "sources": [
+          "https://zh.wikisource.org/wiki/資治通鑑/卷001"
+        ],
         "note": "同源开源阶段形势近似图，非逐年实测疆界；一个阶段可合并年内或阶段后期的扩张。前403年首图兼含田氏代齐后的形势，不能视为该年某一天的精确控制线。未采用上游通用邻国层。",
-        "short": "时代与王系参见出处",
-        "search": "赵（战国）"
+        "short": "赵籍",
+        "search": "赵（战国）",
+        "verification": "2026-10-26补入有出处的年度表；不是对本切片疆界与全部说明的整体认证。"
       },
       "韩（战国）": {
         "referenceYear": -403,
         "mapYear": -403,
         "basis": "representative_year",
-        "status": "本年国君待核",
-        "rulers": [],
+        "status": "姓名与年度区间已复核",
+        "rulers": [
+          {
+            "name": "韩虔",
+            "title": "韩景侯",
+            "from": -403,
+            "to": -403,
+            "note": "本条仅核前403年受封时点，不代表完整在位表。"
+          }
+        ],
         "referenceRulers": [],
         "powerHolders": [],
         "changes": [],
-        "sources": [],
+        "sources": [
+          "https://zh.wikisource.org/wiki/資治通鑑/卷001"
+        ],
         "note": "同源开源阶段形势近似图，非逐年实测疆界；一个阶段可合并年内或阶段后期的扩张。前403年首图兼含田氏代齐后的形势，不能视为该年某一天的精确控制线。未采用上游通用邻国层。",
-        "short": "时代与王系参见出处",
-        "search": "韩（战国）"
+        "short": "韩虔",
+        "search": "韩（战国）",
+        "verification": "2026-10-26补入有出处的年度表；不是对本切片疆界与全部说明的整体认证。"
       },
       "周王畿": {
         "referenceYear": -403,
@@ -21472,15 +21510,26 @@
         "referenceYear": -228,
         "mapYear": -228,
         "basis": "representative_year",
-        "status": "本年国君待核",
-        "rulers": [],
+        "status": "姓名与年度区间已复核",
+        "rulers": [
+          {
+            "name": "赵嘉",
+            "title": "代王",
+            "from": -228,
+            "to": -222,
+            "note": "秦灭邯郸后赵王族在代地延续，前222年覆亡；与赵王迁分开。"
+          }
+        ],
         "referenceRulers": [],
         "powerHolders": [],
         "changes": [],
-        "sources": [],
+        "sources": [
+          "https://zh.wikisource.org/wiki/史記/卷043"
+        ],
         "note": "同源开源阶段形势近似图，非逐年实测疆界；一个阶段可合并年内或阶段后期的扩张。前403年首图兼含田氏代齐后的形势，不能视为该年某一天的精确控制线。未采用上游通用邻国层。",
-        "short": "时代与王系参见出处",
-        "search": "代（战国）"
+        "short": "赵嘉",
+        "search": "代（战国）",
+        "verification": "2026-10-26补入有出处的年度表；不是对本切片疆界与全部说明的整体认证。"
       },
       "齐（战国）": {
         "referenceYear": -228,
@@ -21620,26 +21669,26 @@
         "referenceYear": -226,
         "mapYear": -226,
         "basis": "representative_year",
-        "status": "已整理王年",
+        "status": "姓名与年度区间已复核",
         "rulers": [
           {
             "name": "赵嘉",
             "title": "代王",
-            "from": -227,
+            "from": -228,
             "to": -222,
-            "note": "先秦国君，非皇帝。采用元年起算的年度骨架；年内继位与次年改元须区别，未细分月日。"
+            "note": "秦灭邯郸后赵王族在代地延续，前222年覆亡；与赵王迁分开。"
           }
         ],
         "referenceRulers": [],
         "powerHolders": [],
         "changes": [],
         "sources": [
-          "https://zh.wikisource.org/wiki/史記/卷043",
-          "https://zh.wikisource.org/wiki/史記/卷015"
+          "https://zh.wikisource.org/wiki/史記/卷043"
         ],
         "note": "同源开源阶段形势近似图，非逐年实测疆界；一个阶段可合并年内或阶段后期的扩张。前403年首图兼含田氏代齐后的形势，不能视为该年某一天的精确控制线。未采用上游通用邻国层。",
-        "short": "代王 赵嘉",
-        "search": "代（战国） 赵嘉"
+        "short": "赵嘉",
+        "search": "代（战国） 赵嘉",
+        "verification": "2026-10-26补入有出处的年度表；不是对本切片疆界与全部说明的整体认证。"
       },
       "齐（战国）": {
         "referenceYear": -226,
@@ -21747,26 +21796,26 @@
         "referenceYear": -225,
         "mapYear": -225,
         "basis": "representative_year",
-        "status": "已整理王年",
+        "status": "姓名与年度区间已复核",
         "rulers": [
           {
             "name": "赵嘉",
             "title": "代王",
-            "from": -227,
+            "from": -228,
             "to": -222,
-            "note": "先秦国君，非皇帝。采用元年起算的年度骨架；年内继位与次年改元须区别，未细分月日。"
+            "note": "秦灭邯郸后赵王族在代地延续，前222年覆亡；与赵王迁分开。"
           }
         ],
         "referenceRulers": [],
         "powerHolders": [],
         "changes": [],
         "sources": [
-          "https://zh.wikisource.org/wiki/史記/卷043",
-          "https://zh.wikisource.org/wiki/史記/卷015"
+          "https://zh.wikisource.org/wiki/史記/卷043"
         ],
         "note": "同源开源阶段形势近似图，非逐年实测疆界；一个阶段可合并年内或阶段后期的扩张。前403年首图兼含田氏代齐后的形势，不能视为该年某一天的精确控制线。未采用上游通用邻国层。",
-        "short": "代王 赵嘉",
-        "search": "代（战国） 赵嘉"
+        "short": "赵嘉",
+        "search": "代（战国） 赵嘉",
+        "verification": "2026-10-26补入有出处的年度表；不是对本切片疆界与全部说明的整体认证。"
       },
       "齐（战国）": {
         "referenceYear": -225,

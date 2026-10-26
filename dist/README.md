@@ -342,3 +342,7 @@ The map year shows all mapped polities with known annual era records, using poli
 ## Event playback synchronization
 
 The event rail follows the same integer calendar year as the map, without a separate easing clock. Each event date header anchors its year to the fixed center guide. Intervening years interpolate between dated anchors. Same-year events remain together; resizing content remeasures the anchors. Manual event scrolling still temporarily suspends follow mode.
+
+## Regional annual follow-up (2026-10-26)
+
+Added 28 source-checked annual records and corrected exact polity aliases. This fills 133 formerly empty mapped polity/year combinations across 28 frame/polity combinations. Review sources, exclusions, disputed details, and rejected source typos are recorded in chronology-verification.json under regionalAnnualFollowUp. This does not certify unrelated snapshot fields, boundaries, unresolved protectorate appointments, or the complete ancient chronology.
