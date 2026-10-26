@@ -1,9 +1,9 @@
 {
-  "exported_at": "2026-10-26T04:07:06.652Z",
-  "source_revision": "366ad00747427fd5b6bc1c8b828db6e56ebd275f",
+  "exported_at": "2026-10-26T04:22:28.707Z",
+  "source_revision": "4e7f178140e28453e2ecf97371fa0f7ecfdf7b2c",
   "static_directory": "dist",
   "file_count": 63,
-  "total_bytes": 25682075,
+  "total_bytes": 25786288,
   "files": [
     {
       "path": "D3-LICENSE.txt",
@@ -17,8 +17,8 @@
     },
     {
       "path": "README.md",
-      "bytes": 55610,
-      "sha256": "2597ff40bea211bd99a844cd9e65775401a33d3f6686983d639b865c219f14bc"
+      "bytes": 56671,
+      "sha256": "3706fdd9ce6be04d6a39154e7b1160c77a0f659edaed4f0bbf762bd73c3140af"
     },
     {
       "path": "ancient-atlas.json",
@@ -52,8 +52,8 @@
     },
     {
       "path": "app.js",
-      "bytes": 49377,
-      "sha256": "8084add4589d77f08ddf3fb5c3d11d3e1f27cb56980bfdc7d1d676a5170c6028"
+      "bytes": 49455,
+      "sha256": "dfe5affd28ceee65a48be91a70472c335a78445ae33522c525bcb7da79ef7acd"
     },
     {
       "path": "assets/dynasty-lettering/ART-DIRECTION.md",
@@ -147,8 +147,8 @@
     },
     {
       "path": "chronology-verification.json",
-      "bytes": 143379,
-      "sha256": "d0009f65dc2867b9b54d83acd9663653a2b6ef06c5c0fc5e3e142a5e4f33477f"
+      "bytes": 154627,
+      "sha256": "4243ac70c6cf5b310140ccccd3ea03990fe6684af48287a0d8481fdc106093e2"
     },
     {
       "path": "city-evidence.js",
@@ -192,13 +192,13 @@
     },
     {
       "path": "emperor-lineage.js",
-      "bytes": 24186,
-      "sha256": "82670403dd7db706a88ff0eba073622befbef57bb891cc93c2046aa2f7a2486f"
+      "bytes": 24812,
+      "sha256": "398a63c034d47f89070651dd6395687a21461ddd99493b3d82813fd60a80315c"
     },
     {
       "path": "emperor-lineages.json",
-      "bytes": 32372,
-      "sha256": "61e6e6765b530607982ecf5ff1e070936a2b9bb1b81884f84db7acfa6224af45"
+      "bytes": 36733,
+      "sha256": "4ca57f2c4fa20078bd5cff3dbb8e34b9688f634f16418e3d4d2fb591c4030fc7"
     },
     {
       "path": "ethnicities.json",
@@ -227,8 +227,8 @@
     },
     {
       "path": "index.html",
-      "bytes": 35614,
-      "sha256": "1e0a57029ad652e87fa255b14923e5ddecce9ed267dca82da46e1f4c8b39764e"
+      "bytes": 35602,
+      "sha256": "ae8cbb5096ff05799ba1771de4188faef1d888e275de374b76fd33653df812b5"
     },
     {
       "path": "land.json",
@@ -282,13 +282,13 @@
     },
     {
       "path": "reigns.json",
-      "bytes": 187310,
-      "sha256": "7ce63277ffd2d43acdbc90b6eb32395f383295abf843e3f070041f1c35bf40e3"
+      "bytes": 258314,
+      "sha256": "1e1a3eedcb48b5dec2b4a83ba1f59c894918a63441828ddfda8ca91a3b73b210"
     },
     {
       "path": "research-review.html",
-      "bytes": 162550,
-      "sha256": "a06324c028f8930b6ea291bb5fe38203fe64664147d3b80a5a74a9942accffaf"
+      "bytes": 163537,
+      "sha256": "064af178e881dd2ebfb684322bfe72f0374d203d9b84d5b25efd2fe5f3a9cc03"
     },
     {
       "path": "rivers.json",
@@ -297,8 +297,8 @@
     },
     {
       "path": "source.zip",
-      "bytes": 9379785,
-      "sha256": "f5b0d1d8a89ece5addc0dcb1d25242d9333fa8864134321768694ee40bb7b528"
+      "bytes": 9394645,
+      "sha256": "1acfc3bd1541cffb3add73b4fc077da9d31da8e533c6962a8cfcdcd932190e71"
     },
     {
       "path": "stories.json",

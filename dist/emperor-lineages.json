@@ -98,6 +98,81 @@
     "yangwu-primary": {
       "title": "《新五代史》卷61·吴世家：杨氏君主、徐氏掌权与年号",
       "url": "https://zh.wikisource.org/wiki/新五代史/卷61"
+    },
+    "nanbei-moe": {
+      "title": "教育部《中国历代帝王年表》南北朝段",
+      "url": "https://dict.revised.moe.edu.tw/appendix.jsp?ID=2&la=0&page=2&powerMode=0",
+      "note": "用于主线名单与在位范围交叉检索；宋文帝末年、北魏道武帝末年、北周明帝即位等处另依正史修正，不机械照抄。"
+    },
+    "nanbei-eras": {
+      "title": "密西西比大学托管《中国历代纪元表》南北朝段",
+      "url": "https://home.olemiss.edu/~gg/lidaijiy.htm",
+      "note": "作为年号起点交叉索引，继位沿用、无年号纪年与短期在位者另查正史。"
+    },
+    "nanbei-song": {
+      "title": "《宋书》本纪及二凶传",
+      "url": "https://zh.wikisource.org/wiki/宋書",
+      "note": "元嘉三十年（453）文帝遇弑、刘劭自立与孝武帝即位；刘劭另列，不纳入通行宋八帝序号。"
+    },
+    "nanbei-qi": {
+      "title": "《南齐书·东昏侯纪》",
+      "url": "https://zh.wikisource.org/wiki/南齊書/卷7",
+      "note": "498年永泰元年七月萧宝卷即位，499年才改永元；同年新旧君并列。"
+    },
+    "nanbei-liang": {
+      "title": "《梁书·简文帝纪》",
+      "url": "https://zh.wikisource.org/wiki/梁書/卷04",
+      "note": "太清三年（549）即位，次年大宝元年。"
+    },
+    "nanbei-houjing": {
+      "title": "《梁书·侯景传》",
+      "url": "https://zh.wikisource.org/wiki/梁書/卷56",
+      "note": "区分萧栋的天正、侯景控制建康和自立汉国；年表中的在位者与实际军政控制者分别记载。"
+    },
+    "nanbei-chen": {
+      "title": "《陈书·废帝纪》",
+      "url": "https://zh.wikisource.org/wiki/陳書/卷4",
+      "note": "566天康元年即位，567光大元年，568废帝；宣帝568即位后次年改太建。"
+    },
+    "nanbei-wei": {
+      "title": "《魏书》帝纪",
+      "url": "https://zh.wikisource.org/wiki/魏書",
+      "note": "北魏主朝在位及年号序列；道武帝409年去世，不采用年表408年误差。"
+    },
+    "nanbei-wei11": {
+      "title": "《魏书·废出三帝纪》",
+      "url": "https://zh.wikisource.org/wiki/魏書/卷11",
+      "note": "531—532年的并立、废立与太昌、永兴、永熙改元；传统永熙三年末跨入公历535年。"
+    },
+    "nanbei-beishi5": {
+      "title": "《北史·魏本纪第五》",
+      "url": "https://zh.wikisource.org/wiki/北史/卷005",
+      "note": "东魏534年立元善见，西魏535年立元宝炬；元钦551即位、552改元，无正式年号；元廓554立、556传统年末禅位。"
+    },
+    "nanbei-zhou4": {
+      "title": "《周书·明帝纪》",
+      "url": "https://zh.wikisource.org/wiki/周書/卷04",
+      "note": "宇文毓557年九月即天王位，559年八月改称皇帝并建武成，不将557—558漏作待核。"
+    },
+    "nanbei-zhou": {
+      "title": "《周书》帝纪及宇文护传",
+      "url": "https://zh.wikisource.org/wiki/周書",
+      "note": "宇文护军政权力、武帝亲政、宣帝禅位后掌权及杨坚辅政，均不增算在位皇帝。"
+    },
+    "nanbei-nqi8": {
+      "title": "《北齐书·后主幼主纪》",
+      "url": "https://zh.wikisource.org/wiki/北齊書/卷8",
+      "note": "高纬565即位后改天统；高湛仍为太上皇掌权；隆化与承光之交跨公历577年初。"
+    },
+    "nanbei-nqi": {
+      "title": "《北齐书》帝纪",
+      "url": "https://zh.wikisource.org/wiki/北齊書",
+      "note": "高殷559年即位、560改乾明，高湛561年即位，不把次年改元误作继位年。"
+    },
+    "nanbei-beishi93": {
+      "title": "《北史·僭伪附庸列传》",
+      "url": "https://zh.wikisource.org/wiki/北史/卷093",
+      "note": "江陵后梁（西梁）的萧詧、萧岿、萧琮，与907年建立的朱氏后梁区分。"
     }
   },
   "dynasties": [
@@ -903,7 +978,7 @@
       ],
       "total": 14,
       "titles": {
-        "拓跋珪": "拓跋部活动阶段（尚未建北魏）",
+        "拓跋珪": "北魏道武帝",
         "拓跋嗣": "北魏明元帝",
         "拓跋焘": "北魏太武帝",
         "拓跋余": "北魏南安王",
@@ -1131,6 +1206,25 @@
           "note": "927年称帝至937年禅位；此前920年起为吴王，不并入皇帝在位年数。"
         }
       }
+    },
+    {
+      "id": "western_liang",
+      "label": "西梁",
+      "names": [
+        "萧詧",
+        "萧岿",
+        "萧琮"
+      ],
+      "titles": {
+        "萧詧": "西梁宣帝",
+        "萧岿": "西梁明帝",
+        "萧琮": "西梁后主"
+      },
+      "total": 3,
+      "note": "江陵萧氏后梁，亦称西梁；555—587年三主。与907年建立的朱氏后梁区分，不并入南朝梁六帝主线。",
+      "sources": [
+        "nanbei-beishi93"
+      ]
     }
   ],
   "titlePolicy": "Roster titles preserve existing sourced reign/leadership labels; missing short-lived rulers use the cited imperial chronology and dynasty-specific primary-source notes. Titles identify historical figures retrospectively and do not assert contemporaneous imperial status; active status still comes from the selected year, not roster order."

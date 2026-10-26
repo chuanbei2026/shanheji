@@ -76,7 +76,7 @@
       ]
     }
   ],
-  "summary": "现有232条事件完成编年与出处索引审阅；38条保留主事实复核记录。本轮另处理10组定向问题，补2条实权记录；不宣称全部叙述、边界或历日已独立校勘。",
+  "summary": "现有232条事件完成编年与出处索引审阅；38条保留主事实复核记录。本轮另处理10组定向问题，补2条实权记录；不宣称全部叙述、边界或历日已独立校勘。 2026-10-26另补南北朝及相邻政权逐年在位资料，并补五代主朝缺项；年度覆盖核对见annualCoverageReview，未将覆盖率等同史实无误率。",
   "sources": {
     "ec_qin": {
       "title": "《史记·秦始皇本纪》",
@@ -966,6 +966,126 @@
     "enrich_puyi": {
       "title": "故宫博物院·宣统皇帝大事年表",
       "url": "https://www.dpm.org.cn/court/lineage/226255.html"
+    },
+    "nanbei-moe": {
+      "title": "教育部《中国历代帝王年表》南北朝段",
+      "url": "https://dict.revised.moe.edu.tw/appendix.jsp?ID=2&la=0&page=2&powerMode=0",
+      "note": "用于主线名单与在位范围交叉检索；宋文帝末年、北魏道武帝末年、北周明帝即位等处另依正史修正，不机械照抄。"
+    },
+    "nanbei-eras": {
+      "title": "密西西比大学托管《中国历代纪元表》南北朝段",
+      "url": "https://home.olemiss.edu/~gg/lidaijiy.htm",
+      "note": "作为年号起点交叉索引，继位沿用、无年号纪年与短期在位者另查正史。"
+    },
+    "nanbei-song": {
+      "title": "《宋书》本纪及二凶传",
+      "url": "https://zh.wikisource.org/wiki/宋書",
+      "note": "元嘉三十年（453）文帝遇弑、刘劭自立与孝武帝即位；刘劭另列，不纳入通行宋八帝序号。"
+    },
+    "nanbei-qi": {
+      "title": "《南齐书·东昏侯纪》",
+      "url": "https://zh.wikisource.org/wiki/南齊書/卷7",
+      "note": "498年永泰元年七月萧宝卷即位，499年才改永元；同年新旧君并列。"
+    },
+    "nanbei-liang": {
+      "title": "《梁书·简文帝纪》",
+      "url": "https://zh.wikisource.org/wiki/梁書/卷04",
+      "note": "太清三年（549）即位，次年大宝元年。"
+    },
+    "nanbei-houjing": {
+      "title": "《梁书·侯景传》",
+      "url": "https://zh.wikisource.org/wiki/梁書/卷56",
+      "note": "区分萧栋的天正、侯景控制建康和自立汉国；年表中的在位者与实际军政控制者分别记载。"
+    },
+    "nanbei-chen": {
+      "title": "《陈书·废帝纪》",
+      "url": "https://zh.wikisource.org/wiki/陳書/卷4",
+      "note": "566天康元年即位，567光大元年，568废帝；宣帝568即位后次年改太建。"
+    },
+    "nanbei-wei": {
+      "title": "《魏书》帝纪",
+      "url": "https://zh.wikisource.org/wiki/魏書",
+      "note": "北魏主朝在位及年号序列；道武帝409年去世，不采用年表408年误差。"
+    },
+    "nanbei-wei11": {
+      "title": "《魏书·废出三帝纪》",
+      "url": "https://zh.wikisource.org/wiki/魏書/卷11",
+      "note": "531—532年的并立、废立与太昌、永兴、永熙改元；传统永熙三年末跨入公历535年。"
+    },
+    "nanbei-beishi5": {
+      "title": "《北史·魏本纪第五》",
+      "url": "https://zh.wikisource.org/wiki/北史/卷005",
+      "note": "东魏534年立元善见，西魏535年立元宝炬；元钦551即位、552改元，无正式年号；元廓554立、556传统年末禅位。"
+    },
+    "nanbei-zhou4": {
+      "title": "《周书·明帝纪》",
+      "url": "https://zh.wikisource.org/wiki/周書/卷04",
+      "note": "宇文毓557年九月即天王位，559年八月改称皇帝并建武成，不将557—558漏作待核。"
+    },
+    "nanbei-zhou": {
+      "title": "《周书》帝纪及宇文护传",
+      "url": "https://zh.wikisource.org/wiki/周書",
+      "note": "宇文护军政权力、武帝亲政、宣帝禅位后掌权及杨坚辅政，均不增算在位皇帝。"
+    },
+    "nanbei-nqi8": {
+      "title": "《北齐书·后主幼主纪》",
+      "url": "https://zh.wikisource.org/wiki/北齊書/卷8",
+      "note": "高纬565即位后改天统；高湛仍为太上皇掌权；隆化与承光之交跨公历577年初。"
+    },
+    "nanbei-nqi": {
+      "title": "《北齐书》帝纪",
+      "url": "https://zh.wikisource.org/wiki/北齊書",
+      "note": "高殷559年即位、560改乾明，高湛561年即位，不把次年改元误作继位年。"
+    },
+    "nanbei-beishi93": {
+      "title": "《北史·僭伪附庸列传》",
+      "url": "https://zh.wikisource.org/wiki/北史/卷093",
+      "note": "江陵后梁（西梁）的萧詧、萧岿、萧琮，与907年建立的朱氏后梁区分。"
+    },
+    "nanbei-jin130": {
+      "title": "《晋书·赫连勃勃载记》",
+      "url": "https://zh.wikisource.org/wiki/晉書/卷130",
+      "note": "夏国的赫连勃勃、赫连昌、赫连定及其更替；不与上古夏朝混用。"
+    },
+    "nanbei-jin125": {
+      "title": "《晋书·冯跋载记》",
+      "url": "https://zh.wikisource.org/wiki/晉書/卷125",
+      "note": "冯跋、冯弘更替及北燕覆亡；与《北史》卷93互参。"
+    },
+    "nanbei-jin129": {
+      "title": "《晋书·沮渠蒙逊载记》",
+      "url": "https://zh.wikisource.org/wiki/晉書/卷129",
+      "note": "蒙逊、牧犍在位与北魏攻取姑臧；439后高昌残余政权不在本条主线范围。"
+    },
+    "nanbei-wei13": {
+      "title": "《魏书·皇后列传》",
+      "url": "https://zh.wikisource.org/wiki/魏書/卷13",
+      "note": "文明太后、灵太后及528年临时拥立幼主的记载。"
+    },
+    "nanbei-liang55": {
+      "title": "《梁书·武陵王纪等传》",
+      "url": "https://zh.wikisource.org/wiki/梁書/卷55",
+      "note": "萧纪在蜀称帝，与萧绎并立，不并入梁六帝主线。"
+    },
+    "wudai-primary": {
+      "title": "《旧五代史》各朝本纪",
+      "url": "https://zh.wikisource.org/wiki/舊五代史",
+      "note": "五代主朝在位与沿用年号；同年更替按年并列，历年末跨入下一公历年的处单独说明。"
+    },
+    "nanbei-wei99": {
+      "title": "《魏书·沮渠蒙逊传》附牧犍",
+      "url": "https://zh.wikisource.org/wiki/魏書/卷99",
+      "note": "承和与传世文本永和的异名并存；并记对外奉魏正朔与内部纪年。"
+    },
+    "nanbei-wei74": {
+      "title": "《魏书·尔朱荣传》元颢入洛",
+      "url": "https://zh.wikisource.org/wiki/魏書/卷74",
+      "note": "永安二年四月在梁国城南即位、号孝基，入洛后改建武；与其他记528受立的表述区分。"
+    },
+    "nanbei-feng-study": {
+      "title": "中央研究院史语所·郑雅如论北魏皇太后制度",
+      "url": "https://www11.ihp.sinica.edu.tw/storage/w2_file/4441saQjvjZ.pdf",
+      "note": "据《魏书》区分466诛乙浑后临朝、467罢令以及476年后再度临朝；不把文成帝去世之年直接当作临朝开始。"
     }
   },
   "entries": [
@@ -3956,5 +4076,195 @@
       ],
       "issues": []
     }
+  },
+  "annualCoverageReview": {
+    "checkedAt": "2026-10-26",
+    "scope": "Annual ruler coverage of the polities actually drawn in each selected atlas frame, 420–589. This measures dataset completeness, not the accuracy of each map boundary.",
+    "before": {
+      "total": 461,
+      "known": 9,
+      "unresolved": 452,
+      "byPolity": {
+        "北魏": {
+          "total": 114,
+          "known": 0
+        },
+        "宋": {
+          "total": 59,
+          "known": 0
+        },
+        "胡夏": {
+          "total": 11,
+          "known": 0
+        },
+        "北燕": {
+          "total": 16,
+          "known": 0
+        },
+        "北凉": {
+          "total": 19,
+          "known": 0
+        },
+        "齐": {
+          "total": 23,
+          "known": 0
+        },
+        "梁": {
+          "total": 55,
+          "known": 0
+        },
+        "东魏": {
+          "total": 16,
+          "known": 0
+        },
+        "西魏": {
+          "total": 23,
+          "known": 0
+        },
+        "北齐": {
+          "total": 27,
+          "known": 0
+        },
+        "西梁": {
+          "total": 33,
+          "known": 0
+        },
+        "北周": {
+          "total": 24,
+          "known": 0
+        },
+        "陈": {
+          "total": 32,
+          "known": 0
+        },
+        "隋": {
+          "total": 9,
+          "known": 9
+        }
+      }
+    },
+    "after": {
+      "total": 461,
+      "known": 461,
+      "unresolved": 0,
+      "byPolity": {
+        "北魏": {
+          "total": 114,
+          "known": 114
+        },
+        "宋": {
+          "total": 59,
+          "known": 59
+        },
+        "胡夏": {
+          "total": 11,
+          "known": 11
+        },
+        "北燕": {
+          "total": 16,
+          "known": 16
+        },
+        "北凉": {
+          "total": 19,
+          "known": 19
+        },
+        "齐": {
+          "total": 23,
+          "known": 23
+        },
+        "梁": {
+          "total": 55,
+          "known": 55
+        },
+        "东魏": {
+          "total": 16,
+          "known": 16
+        },
+        "西魏": {
+          "total": 23,
+          "known": 23
+        },
+        "北齐": {
+          "total": 27,
+          "known": 27
+        },
+        "西梁": {
+          "total": 33,
+          "known": 33
+        },
+        "北周": {
+          "total": 24,
+          "known": 24
+        },
+        "陈": {
+          "total": 32,
+          "known": 32
+        },
+        "隋": {
+          "total": 9,
+          "known": 9
+        }
+      }
+    },
+    "addedReignAndPowerRecords": 101,
+    "rulerRecordCount": 380,
+    "method": "Main dynastic rosters cross-checked against chronological tables; succession, inherited eras, short reigns and regencies checked against targeted primary chronicles. Records explicitly preserve rival claimants and traditional-calendar carryovers.",
+    "primaryCaseNotes": [
+      {
+        "year": 498,
+        "polity": "齐",
+        "finding": "明帝萧鸾、东昏侯萧宝卷在年内更替；永泰元年沿用，499才改永元。",
+        "sources": [
+          "nanbei-qi"
+        ]
+      },
+      {
+        "year": 453,
+        "polity": "宋",
+        "finding": "文帝、刘劭、孝武帝均在453年在位；刘劭另列，不改通行宋八帝序号。",
+        "sources": [
+          "nanbei-song"
+        ]
+      },
+      {
+        "year": 534,
+        "polity": "西魏",
+        "finding": "该图层此时对应西迁北魏孝武帝元修；元宝炬535年才即位。",
+        "sources": [
+          "nanbei-beishi5"
+        ]
+      },
+      {
+        "year": 557,
+        "polity": "北周",
+        "finding": "宇文觉、宇文毓年内更替；宇文毓557即天王位、559称皇帝。",
+        "sources": [
+          "nanbei-zhou4"
+        ]
+      },
+      {
+        "year": 580,
+        "polity": "北周",
+        "finding": "静帝宇文阐在位，宇文赟退位后掌权至580年，杨坚继而辅政。",
+        "sources": [
+          "nanbei-zhou"
+        ]
+      },
+      {
+        "year": 466,
+        "polity": "北魏",
+        "finding": "冯太后第一次临朝为466—467，476—490再度临朝；不从465年文成帝去世时直接起算。",
+        "sources": [
+          "nanbei-wei13",
+          "nanbei-feng-study"
+        ]
+      }
+    ],
+    "limitations": [
+      "主线姓名、年度在位与年号完成交叉索引核对；并非所有人物传记和历日均已逐句校勘。",
+      "先后更替、同时另立与公历年初的传统历年延续有专门记录。",
+      "北凉承和／永和等文献异名保留在人物说明；考古文书的其他纪年未强行归并。",
+      "上古、春秋战国部分诸侯、十六国其他政权、周边政权与城址仍有未覆盖项目；本轮范围以南北朝在图项目及五代主朝为主。"
+    ]
   }
 }
