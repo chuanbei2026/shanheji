@@ -1,6 +1,8 @@
 # Shan He Ji — Local Export
 
 Complete editable static website exported on 2026-10-25.
+
+Live website: **https://chuanbei2026.github.io/shanheji/**
 Source revision: 67bebd43d2ab7ad260d610c33310cf7e40fa91bc.
 
 ## Layout

@@ -4,11 +4,13 @@ This is a static website. All deployable files live in `dist/`; no dependency in
 
 ## Current status
 
-The repository is private. GitHub rejected Pages activation for the current account plan with: "Your current plan does not support GitHub Pages for this repository." No Pages site is currently active. The website itself is compatible with Pages; publishing would require an eligible plan or an explicitly approved change to a public repository.
+The repository is public with the owner's approval, and GitHub Pages is enabled.
 
-The `gh-pages` branch is already uploaded and includes a `.nojekyll` marker. Once the account/repository is eligible, select that branch and its root as the Pages publishing source. Alternatively, deploy `dist/` to AWS using the included guide.
+Website: https://chuanbei2026.github.io/shanheji/
 
-Official eligibility reference: https://docs.github.com/en/pages/getting-started-with-github-pages/creating-a-github-pages-site
+Publishing source: `gh-pages`, `/ (root)`. The publishing branch includes `.nojekyll` and contains the complete static atlas. HTTPS is enabled. GitHub republishes updates pushed to this branch.
+
+The former Sites publication is separate from this GitHub Pages deployment.
 
 ## Repository layout
 
