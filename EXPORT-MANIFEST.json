@@ -1,9 +1,9 @@
 {
-  "exported_at": "2026-10-26T00:46:44.298Z",
-  "source_revision": "67bebd43d2ab7ad260d610c33310cf7e40fa91bc",
+  "exported_at": "2026-10-26T01:14:13.190Z",
+  "source_revision": "726f13409dc67652453ce3b06dd42025d918772c",
   "static_directory": "dist",
   "file_count": 63,
-  "total_bytes": 25547840,
+  "total_bytes": 25550396,
   "files": [
     {
       "path": "D3-LICENSE.txt",
@@ -192,8 +192,8 @@
     },
     {
       "path": "emperor-lineage.js",
-      "bytes": 19071,
-      "sha256": "b1dc4114eff9b376bf0bbc01b6b9c11da59558122f33c8d565290ba07b279787"
+      "bytes": 19584,
+      "sha256": "12b2ea769078e0a1936df1d7d6b69b4759baf1d4ec61dbbe0626c60f83acfde3"
     },
     {
       "path": "emperor-lineages.json",
@@ -227,8 +227,8 @@
     },
     {
       "path": "index.html",
-      "bytes": 35260,
-      "sha256": "055f13e4b55c99aa4d9cc311da217e50114abe685ba9ab314c09cd4f792229ca"
+      "bytes": 35280,
+      "sha256": "33bed3efbe3931dbc359b51e1f921156f2c4e084466ceaed203d541bb791eafa"
     },
     {
       "path": "land.json",
@@ -297,8 +297,8 @@
     },
     {
       "path": "source.zip",
-      "bytes": 9357527,
-      "sha256": "b4f2694597bb78c62b70c85f633d939e4d6a894943b46d04e9dc43e4b3391e60"
+      "bytes": 9357925,
+      "sha256": "78d1667564d70983284bc60008e20d40b75b8fb85d45bdea171621d2609136db"
     },
     {
       "path": "stories.json",
@@ -307,8 +307,8 @@
     },
     {
       "path": "style.css",
-      "bytes": 123687,
-      "sha256": "15fc241b540f94810327f9157532dd5cf0380ec5ea602714377346ba50200721"
+      "bytes": 125312,
+      "sha256": "e40fb0887e7e3aa60b784b3f094f5a478694b6743af4e06529ba8371a71d4efe"
     },
     {
       "path": "time-axis.js",
