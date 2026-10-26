@@ -1,9 +1,9 @@
 {
-  "exported_at": "2026-10-26T05:37:46.142Z",
-  "source_revision": "5fc2cd5053e7bc63df2f9f3ff5bf357cd290b97d",
+  "exported_at": "2026-10-26T05:41:01.617Z",
+  "source_revision": "8ada1e9173498b5cc6f975e044c2580f3d028be8",
   "static_directory": "dist",
   "file_count": 63,
-  "total_bytes": 25915134,
+  "total_bytes": 25917303,
   "files": [
     {
       "path": "D3-LICENSE.txt",
@@ -17,8 +17,8 @@
     },
     {
       "path": "README.md",
-      "bytes": 59812,
-      "sha256": "f3be194506029a81a588c1fca5cca47e4d94bb2c1bfe0eceaefc4b980ff37722"
+      "bytes": 60139,
+      "sha256": "a07e7cb26e3dbe1b7ee8b1e77c1059edb4ed601d424e8a6fc8a79ec635953741"
     },
     {
       "path": "ancient-atlas.json",
@@ -108,7 +108,7 @@
     {
       "path": "atlas-design.js",
       "bytes": 5414,
-      "sha256": "ba84227338cc5e0afe34affa55bc7510b5567b776b1bc56af440fe4a55433bff"
+      "sha256": "c82eab9a8e68efad5300b2a8c9cb96ad0da37156838dd197b5ec03feb4f50e03"
     },
     {
       "path": "atlas-jump.js",
@@ -227,8 +227,8 @@
     },
     {
       "path": "index.html",
-      "bytes": 35572,
-      "sha256": "24c230285d1a1921b7298aa18ed1788c580c47e5fdf271a2916865a56d3d2cc5"
+      "bytes": 35576,
+      "sha256": "f5e42697d5b70adfa52a04b961566114580a1b5fa80cdd7ca5aed67280c30f6b"
     },
     {
       "path": "land.json",
@@ -297,8 +297,8 @@
     },
     {
       "path": "source.zip",
-      "bytes": 9419829,
-      "sha256": "f828edb7f8698f57c725fa7a5642dda98a681148d07980dd42dccaa61c341c9e"
+      "bytes": 9420259,
+      "sha256": "7a3b33984cdf36e4d105aa13d818ae569fb46fafcad1cdfb521c56db4c2a60bb"
     },
     {
       "path": "stories.json",
@@ -307,8 +307,8 @@
     },
     {
       "path": "style.css",
-      "bytes": 139185,
-      "sha256": "da86ebf0d2bcd369e635406d5476899e9afcd6c0822e69a731ff16ae8557c45e"
+      "bytes": 140593,
+      "sha256": "c3beb3eac42bf837a939d1749670b04d78bb4ec92ba9df464b65effaa308713d"
     },
     {
       "path": "time-axis.js",

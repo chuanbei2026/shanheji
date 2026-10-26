@@ -350,3 +350,7 @@ Added 28 source-checked annual records and corrected exact polity aliases. This 
 ## Song court layout
 
 During Northern and Southern Song, the Song roster is anchored to the left map edge and concurrent imperial courts stack on the right. The date sits between the two columns. Song stays expanded by default and other courts retain their collapsed default. Narrow mobile screens stack the groups. The geographic map viewport remains unchanged.
+
+## Compact map calendar and metadata
+
+The calendar prefix, year, and suffix share one baseline, with era labels directly below. Boundary keys and reference-map date now sit at the upper right, freeing the lower left for court panels. Court height budgets use the cleared space; Song companion courts begin below the metadata.
