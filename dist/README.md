@@ -15,6 +15,12 @@ A Chinese-language interactive chronology from Xia–Shang–Zhou to late Qing, 
 
 Earlier sections below describe dated implementation batches and may contain their original inventory counts; they are not cumulative current coverage statements.
 
+## Non-blocking organic territory transitions (2026-10-27)
+
+The previous animation-busy playback gate, radial wipe and shutter masks have been removed. The calendar runs independently. A coarse connected-color arrival field blends only changed pixels; target map vectors replace the temporary canvas at a fixed deadline. Current timing budgets are 180 ms at 4 fps, 180 ms at 8 fps and 100 ms at 16 fps, including preparation; overdue work skips the remaining transition. Consecutive changes reuse the currently rendered colors and cancel the preceding animation. Labels, dates, controls and event cards remain live. Reduced-motion and scrubbing use immediate endpoint maps. This is an editorial visual transition, not evidence of historical advance directions or measured fronts.
+
+Run node check-motion.cjs for timing bounds, connected growth, isolated new regimes and retreat regressions.
+
 ## Run
 
 Serve this directory with any static HTTP server, then open index.html. No build or remote runtime dependencies are required.
@@ -42,7 +48,7 @@ leaders.json is keyed by stage id and polity title, so identically named regimes
 
 ## Calendar-scaled playback and dynasty waterfall
 
-The calendar-year ordinal excludes year zero. Playback advances one calendar year per frame at 4, 8 or 16 frames per second. Territorial changes can add a short transition interval; metadata remains tied to the displayed year. The requested year persists in the URL and does not snap back to the map reference. Reigns, eras, city names, and historical-group context resolve independently at the browsing year. Map geometry remains the preceding available reference and is explicitly labeled with its reference year; reuse does not assert that every intervening boundary stayed unchanged. Dynasty overview bars retain a common global proportional scale.
+The calendar-year ordinal excludes year zero. Playback advances one calendar year per frame at 4, 8 or 16 frames per second. Territorial animation never pauses the calendar timer. Existing colors seed short, irregular connected fronts; they are capped at two selected playback intervals and yield immediately to a new frame. Metadata remains tied to the displayed year. The requested year persists in the URL and does not snap back to the map reference. Reigns, eras, city names, and historical-group context resolve independently at the browsing year. Map geometry remains the preceding available reference and is explicitly labeled with its reference year; reuse does not assert that every intervening boundary stayed unchanged. Dynasty overview bars retain a common global proportional scale.
 
 ## Historical city labels
 

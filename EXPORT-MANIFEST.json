@@ -1,9 +1,9 @@
 {
-  "exported_at": "2026-10-26T20:56:06.803Z",
-  "source_revision": "829725e9ee732cf364adf9d2ccab36c0ca40b1d7",
+  "exported_at": "2026-10-28T00:27:01.464Z",
+  "source_revision": "8caf28795dcef81eb583ba183a64e0ff377d4a22",
   "static_directory": "dist",
-  "file_count": 71,
-  "total_bytes": 26486460,
+  "file_count": 72,
+  "total_bytes": 26495174,
   "files": [
     {
       "path": "D3-LICENSE.txt",
@@ -17,8 +17,8 @@
     },
     {
       "path": "README.md",
-      "bytes": 64365,
-      "sha256": "d891292552c845a3831d2510c7242ca24019b55cb19e3695431c1c7e32d5e313"
+      "bytes": 65399,
+      "sha256": "d10d1c8a1d93b57559d261262ed6810c65e104c257a9ab3f7dc334ea6170c0ac"
     },
     {
       "path": "ancient-atlas.json",
@@ -52,8 +52,8 @@
     },
     {
       "path": "app.js",
-      "bytes": 50640,
-      "sha256": "7f235e16f6c3fd399dd89f52f3859e01cedcfc83d74d27aaee2ba60f8f389f54"
+      "bytes": 50656,
+      "sha256": "ae746f9e42c008fcc7a30480fb91035ff3d8b81de7bb3a0f1c5724b8cfdbfc16"
     },
     {
       "path": "assets/dynasty-lettering/ART-DIRECTION.md",
@@ -117,8 +117,8 @@
     },
     {
       "path": "atlas-motion.js",
-      "bytes": 10570,
-      "sha256": "e4540b097beb453d5fd5b0244c80518fa38954f925f9daacbd8e545ce3f377a9"
+      "bytes": 13656,
+      "sha256": "b5a5de519691d561880e812369b6cc90450de12f108a2749417b918e466fdde7"
     },
     {
       "path": "atlas.json",
@@ -144,6 +144,11 @@
       "path": "check-data.cjs",
       "bytes": 4079,
       "sha256": "7837b16435440681bfa1df7c0a4d953d04ad07007f0868ad24965032c6f7c7e9"
+    },
+    {
+      "path": "check-motion.cjs",
+      "bytes": 1950,
+      "sha256": "355e38d27dca086772ef2f26e1879b5640953c013f6cffd6ee36c75667875069"
     },
     {
       "path": "chronicle-context.json",
@@ -252,8 +257,8 @@
     },
     {
       "path": "index.html",
-      "bytes": 36080,
-      "sha256": "121f633b8af381652c99063116d2a38ccaaa2e9d8efbca4fa6f3c059035dab2a"
+      "bytes": 36068,
+      "sha256": "4407d3c78fb4a4cbcd639465152ee2f34588a33a73889e692047dd8338272908"
     },
     {
       "path": "land.json",
@@ -327,8 +332,8 @@
     },
     {
       "path": "source.zip",
-      "bytes": 9541977,
-      "sha256": "0a95149c0d16af1af1025479125577ea057b595b71ae785f555876f72a30e7a6"
+      "bytes": 9544617,
+      "sha256": "3e4a6ed75b6f44eb32ba2a6d2b996207304f5935d19958eab27caf4efe5c57f8"
     },
     {
       "path": "stories.json",
