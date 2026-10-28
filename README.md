@@ -5,7 +5,7 @@ Complete editable static website, updated on 2026-10-26. China and Europe are in
 Live China edition: **https://shanheji.chuanbei.dev/**
 
 Live Europe edition: **https://shanheji.chuanbei.dev/europe/index.html**
-Source revision: 8caf28795dcef81eb583ba183a64e0ff377d4a22.
+Source revision: 0a187a8c59a51349f6a864942a850727a0a9427f.
 
 ## Layout
 
